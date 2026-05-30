@@ -1,0 +1,88 @@
+{
+  "id": 12421,
+  "slug": "mirah-blue-view-campeche-florianopolis-sc",
+  "title": "Miráh Blue View, Novo Campeche, Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir",
+    "display": "R$367,000",
+    "amount": 367000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Av. Campeche, Campeche, Florianópolis",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "campeche",
+      "name": "Campeche"
+    }
+  },
+  "overview": {
+    "code": "1315",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 15.652,
+    "deliveryYear": "2029"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "2028",
+      "name": "2028"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "lofts",
+      "name": "Lofts"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "piscina",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Academia",
+    "Salão de Festas",
+    "Piscina"
+  ],
+  "descriptionHtml": "<p><strong>Studios com metragens de 15.65m² a 23.88m² a partir de R$ 367.000,00</strong></p>\n<p><strong>Lofts com metragens de 22.89m² a 29.7m² a partir de R$ 437.000,00 (Loft 114 com 26.70m²)</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 05/03/2026</em></li>\n</ul>\n<h6 data-start=\"61\" data-end=\"111\"><strong data-start=\"64\" data-end=\"109\">Pré-Lançamento Exclusivo no Novo Campeche</strong></h6>\n<p data-start=\"113\" data-end=\"442\">Apresentamos um <strong data-start=\"129\" data-end=\"175\">pré-lançamento imperdível no Novo Campeche</strong>, uma das regiões mais valorizadas de Florianópolis. Este empreendimento está sendo construído na <strong data-start=\"273\" data-end=\"327\">modalidade SPE (Sociedade de Propósito Específico)</strong>, um modelo que garante mais transparência, segurança e a possibilidade de adquirir sua unidade a preço de custo.</p>\n<p data-start=\"444\" data-end=\"600\">A <strong data-start=\"446\" data-end=\"506\">construtora responsável é renomada e especialista em SPE</strong>, com anos de experiência e diversos empreendimentos entregues com alto padrão de qualidade.</p>\n<h6 data-start=\"927\" data-end=\"967\"><strong data-start=\"931\" data-end=\"965\">Diferenciais do Empreendimento</strong></h6>\n<ul data-start=\"968\" data-end=\"1151\">\n<li data-start=\"968\" data-end=\"1019\"><strong data-start=\"970\" data-end=\"989\">Studios e lofts</strong> modernos e bem distribuídos</li>\n<li data-start=\"1052\" data-end=\"1151\">Localização privilegiada, <strong data-start=\"1080\" data-end=\"1108\">em frente à Av. Campeche</strong>, com fácil acesso à praia e ao Aeroporto</li>\n</ul>\n<p data-start=\"1153\" data-end=\"1268\" data-is-last-node=\"\" data-is-only-node=\"\">Esta é a sua chance de investir com <strong data-start=\"1189\" data-end=\"1236\">condições especiais e valorização garantida</strong>. Entre em contato e saiba mais!</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-1-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-3-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-2-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-4-1.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/mirah-blue-view-campeche-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:56.063Z",
+  "kind": "apartamento"
+}

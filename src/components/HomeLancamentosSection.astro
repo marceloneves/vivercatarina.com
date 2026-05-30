@@ -1,0 +1,112 @@
+---
+const { properties } = Astro.props;
+---
+
+<section class="popular-sec-1 overflow-hidden space">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-7">
+				<div class="title-area text-center mb-2">
+					<p class="sub-title"><span class="double-line"></span> Lançamentos</p>
+					<h2 class="sec-title mb-4">Imóveis na planta em Florianópolis</h2>
+					<div class="filter-menu indicator-active filter-menu-active mt-2 justify-content-center">
+						<button data-filter="*" class="th-btn tab-btn active" type="button">Ver todos</button>
+						<button data-filter=".cat-apartamento" class="th-btn tab-btn" type="button">
+							Apartamentos
+						</button>
+						<button data-filter=".cat-casa" class="th-btn tab-btn" type="button">
+							Casas em condomínio
+						</button>
+						<button data-filter=".cat-loteamento" class="th-btn tab-btn" type="button">
+							Loteamento
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row gy-30 justify-content-center filter-active">
+			{
+				properties.length === 0 ? (
+					<div class="col-12">
+						<p class="text-center mb-0">Nenhum lançamento disponível no momento.</p>
+					</div>
+				) : (
+					properties.map((property) => (
+						<div
+							class={`col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item ${property.kindFilterClass}`}
+						>
+							<div class="popular-list-1">
+								<div class="thumb-wrapper">
+									<a href={property.detailUrl} class="thumb-link">
+										<img src={property.imageUrl} alt={property.title} />
+										<div class="popular-badge">
+											<img src="/assets/img/icon/sell_rent_icon.svg" alt="ícone" />
+											<p>{property.categoryLabel}</p>
+										</div>
+									</a>
+								</div>
+								<div class="property-content">
+									<div class="media-body">
+										<h3 class="box-title">
+											<a href={property.detailUrl}>{property.title}</a>
+										</h3>
+										<div class="box-text">
+											<div class="icon">
+												<img src="/assets/img/icon/popular-location.svg" alt="ícone" />
+											</div>
+											{property.locationLabel}
+										</div>
+									</div>
+
+									<ul class="property-featured">
+										{property.bedrooms != null && (
+											<li>
+												<div class="icon">
+													<img src="/assets/img/icon/bed.svg" alt="ícone" />
+												</div>
+												Quartos {property.bedrooms}
+											</li>
+										)}
+										{property.bathrooms != null && (
+											<li>
+												<div class="icon">
+													<img src="/assets/img/icon/bath.svg" alt="ícone" />
+												</div>
+												Banheiros {property.bathrooms}
+											</li>
+										)}
+										{property.sizeSqm != null && (
+											<li>
+												<div class="icon">
+													<img src="/assets/img/icon/sqft.svg" alt="ícone" />
+												</div>
+												{property.sizeSqm} m²
+											</li>
+										)}
+									</ul>
+									<div class="property-bottom">
+										<h6 class="box-title">{property.priceLabel}</h6>
+										<a class="th-btn sm style3 pill" href={property.detailUrl}>
+											Ver mais
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					))
+				)
+			}
+		</div>
+
+		{
+			properties.length > 0 && (
+				<div class="text-center mt-40">
+					<a href="/lancamentos/apartamentos" class="th-btn style3">
+						Ver todos os lançamentos
+					</a>
+				</div>
+			)
+		}
+	</div>
+</section>

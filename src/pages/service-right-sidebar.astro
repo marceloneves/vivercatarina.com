@@ -1,0 +1,11 @@
+---
+import PillerLayout from '../layouts/PillerLayout.astro';
+import bodyHtml from '../content/template-pages/service-right-sidebar.html?raw';
+
+const title = "Service with Sidebar";
+const bodyClass = "";
+---
+
+<PillerLayout title={title} bodyClass={bodyClass}>
+	<Fragment set:html={bodyHtml} />
+</PillerLayout>

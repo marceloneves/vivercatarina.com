@@ -1,0 +1,15 @@
+---
+import ImovelPage from '../../components/ImovelPage.astro';
+import { listPropertySlugs } from '../../lib/property-data.mjs';
+
+export function getStaticPaths() {
+	return listPropertySlugs().map((slug) => ({
+		params: { slug },
+		props: { slug },
+	}));
+}
+
+const { slug } = Astro.props;
+---
+
+<ImovelPage slug={slug} />

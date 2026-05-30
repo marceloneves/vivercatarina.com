@@ -1,0 +1,30 @@
+{
+  "slug": "coqueiros",
+  "name": "Coqueiros",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-30T22:18:06.550Z",
+  "total": 2,
+  "properties": [
+    {
+      "slug": "park-view-coqueiros-florianopolis-sc",
+      "id": 18009,
+      "title": "frente ao Parque de Coqueiros, Park View, Coqueiros",
+      "category": "lancamento",
+      "price": 463000,
+      "dataPath": "imoveis/park-view-coqueiros-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/park-view-coqueiros-florianopolis-sc/images/01-Captura-de-tela-2025-08-15-154240.jpg"
+    },
+    {
+      "slug": "mirante-dos-corais-coqueiros-florianopolis-sc",
+      "id": 15058,
+      "title": "Mirante dos Corais, Coqueiros",
+      "category": "lancamento",
+      "price": 773000,
+      "dataPath": "imoveis/mirante-dos-corais-coqueiros-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/mirante-dos-corais-coqueiros-florianopolis-sc/images/01-Externo-Vista-de-Passaro.jpg"
+    }
+  ]
+}

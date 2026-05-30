@@ -1,0 +1,57 @@
+{
+  "slug": "cacupe",
+  "name": "Cacupé",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-30T22:18:06.526Z",
+  "total": 5,
+  "properties": [
+    {
+      "slug": "adore-cacupe-florianopolis-sc",
+      "id": 15436,
+      "title": "Adore Cacupé",
+      "category": "lancamento",
+      "price": 792200,
+      "dataPath": "imoveis/adore-cacupe-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/adore-cacupe-florianopolis-sc/images/01-1-20.jpg"
+    },
+    {
+      "slug": "cacupe-4-nautico-residence-cacupe-florianopolis-sc",
+      "id": 23159,
+      "title": "Cacupé 4 Náutico Residence, Florianópolis",
+      "category": "lancamento",
+      "price": 1055000,
+      "dataPath": "imoveis/cacupe-4-nautico-residence-cacupe-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/cacupe-4-nautico-residence-cacupe-florianopolis-sc/images/01-Captura-de-tela-2026-01-10-102327.png"
+    },
+    {
+      "slug": "miragio-cacupe-florianopolis-sc",
+      "id": 7462,
+      "title": "Condomínio Miragio, em frente ao mar em Cacupé",
+      "category": "pronto-para-morar",
+      "price": 2729000,
+      "dataPath": "imoveis/miragio-cacupe-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/miragio-cacupe-florianopolis-sc/images/01-Aerea-2.jpg"
+    },
+    {
+      "slug": "edificio-home-cacupe-florianopolis-sc",
+      "id": 7220,
+      "title": "Edifício Home Cacupé, Florianópolis",
+      "category": "pronto-para-morar",
+      "price": 1292000,
+      "dataPath": "imoveis/edificio-home-cacupe-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/edificio-home-cacupe-florianopolis-sc/images/01-Fachada-04-1.jpg"
+    },
+    {
+      "slug": "live-cacupe-florianopolis-sc",
+      "id": 7240,
+      "title": "Live, Cacupé",
+      "category": "lancamento",
+      "price": 1284000,
+      "dataPath": "imoveis/live-cacupe-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/live-cacupe-florianopolis-sc/images/01-Capturar-8.jpg"
+    }
+  ]
+}

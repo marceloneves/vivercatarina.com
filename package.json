@@ -1,5 +1,5 @@
 {
-  "name": "siteimoveislancamento",
+  "name": "na-planta-sc",
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -9,9 +9,22 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "import:template": "node scripts/import-template-pages.mjs",
+    "import:properties": "node scripts/import-properties.mjs",
+    "generate:bairros": "node scripts/generate-bairro-listings.mjs",
+    "update:descriptions": "node scripts/update-property-descriptions.mjs",
+    "fix:locations": "node scripts/fix-property-locations.mjs",
+    "fix:prices": "node scripts/fix-property-prices.mjs",
+    "strip:sidebar-featured": "node scripts/strip-sidebar-featured.mjs",
+    "migrate:slugs": "node scripts/migrate-property-slugs.mjs",
+    "classify:kinds": "node scripts/classify-property-kinds.mjs",
+    "generate:lancamentos": "node scripts/generate-lancamentos-by-kind.mjs",
+    "prune:non-florianopolis": "node scripts/prune-non-florianopolis-properties.mjs",
+    "ensure:codes": "node scripts/ensure-unique-codes.mjs"
   },
   "dependencies": {
+    "@astrojs/node": "^10.1.2",
     "astro": "^6.4.2"
   }
 }

@@ -1,0 +1,222 @@
+{
+  "id": 22248,
+  "slug": "ondara-residence-canajure-florianopolis-sc",
+  "title": "Ondara Residence, Canajurê",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$370,000",
+    "amount": 370000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Canajurê, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "canajure",
+      "name": "Canajurê"
+    }
+  },
+  "overview": {
+    "code": "1619",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": 1,
+    "sizeSqm": 30.572,
+    "deliveryYear": "Abr/30"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "abr-30",
+      "name": "Abr/30"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios-1-e-2-dorm",
+      "name": "Studios 1 e 2 dorm."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "adega",
+    "churrasqueira",
+    "elevador",
+    "espaco-gourmet",
+    "especo-pet",
+    "lavanderia",
+    "piscina",
+    "praca-de-fogo",
+    "rooftop"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Lavanderia",
+    "Academia",
+    "Piscina",
+    "Espaço Pet",
+    "Espaço Gourmet",
+    "Praça de fogo",
+    "Adega",
+    "Elevador",
+    "Rooftop"
+  ],
+  "descriptionHtml": "<p>Studios com metragens de 30.57m² a 43,45m², sacada com churrasqueira e 1 vaga* a partir de R$ 370.000,00</p>\n<p>Apartamentos com 1 quarto, ampla sacada com churrasqueira, 51,03m², 1 vaga de garagem a partir de R$ 591.000,00</p>\n<p>Apartamentos com 2 quartos, ampla sacada com churrasqueira, 63,74m², 1 vaga de garagem a partir de R$ 695.000,00</p>\n<p>Entrada parcelada em 10x + 40 parcelas mensais + 6 reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 03/03/2026</em></li>\n</ul>\n<h6 data-start=\"223\" data-end=\"289\"><strong data-start=\"225\" data-end=\"289\">Ondara Residence – Um Novo Ícone Entre Jurerê e Canasvieiras</strong></h6>\n<p data-start=\"291\" data-end=\"651\">O <strong data-start=\"293\" data-end=\"313\">Ondara Residence</strong> é o mais novo lançamento <strong data-start=\"339\" data-end=\"346\">SPE</strong> da <strong data-start=\"350\" data-end=\"371\">Agnes Construtora</strong>, em parceria com a <strong data-start=\"391\" data-end=\"410\">Basseto Imóveis</strong> — duas referências sólidas no mercado imobiliário do Norte da Ilha. O empreendimento surge no coração de <strong data-start=\"516\" data-end=\"528\">Canajurê</strong>, região conhecida por unir a atmosfera sofisticada de <strong data-start=\"583\" data-end=\"593\">Jurerê</strong> com a praticidade e infraestrutura de <strong data-start=\"632\" data-end=\"648\">Canasvieiras</strong>.</p>\n<p data-start=\"653\" data-end=\"818\">Com arquitetura elegante, plantas inteligentes e área de lazer completa, o Ondara Residence foi projetado para oferecer modernidade, conforto e valorização contínua.</p>\n<hr data-start=\"820\" data-end=\"823\" />\n<h6 data-start=\"825\" data-end=\"881\"><strong data-start=\"828\" data-end=\"881\">Localização Estratégica – O Melhor de Dois Mundos</strong></h6>\n<p data-start=\"883\" data-end=\"1024\">Situado entre dois dos destinos mais desejados de Florianópolis, o Ondara Residence coloca você em uma posição privilegiada no Norte da Ilha.</p>\n<p data-start=\"1026\" data-end=\"1196\">Em <strong data-start=\"1029\" data-end=\"1041\">Canajurê</strong>, o morador desfruta de uma combinação rara: tranquilidade residencial, proximidade da praia e fácil acesso a serviços essenciais. A poucos minutos, estão:</p>\n<p data-start=\"1198\" data-end=\"1395\">• Jurerê Internacional<br data-start=\"1220\" data-end=\"1223\" />• Praia de Canasvieiras<br data-start=\"1246\" data-end=\"1249\" />• Open Shopping<br data-start=\"1264\" data-end=\"1267\" />• Restaurantes, cafés e bares<br data-start=\"1296\" data-end=\"1299\" />• Supermercados, farmácias e escolas<br data-start=\"1335\" data-end=\"1338\" />• SC-401, principal via de acesso ao centro e aeroporto</p>\n<p data-start=\"1397\" data-end=\"1538\">É uma região em constante valorização, ideal para quem busca <strong data-start=\"1458\" data-end=\"1479\">qualidade de vida</strong>, <strong data-start=\"1481\" data-end=\"1495\">mobilidade</strong> e <strong data-start=\"1498\" data-end=\"1537\">excelente potencial de investimento</strong>.</p>\n<hr data-start=\"1540\" data-end=\"1543\" />\n<h6 data-start=\"1545\" data-end=\"1582\"><strong data-start=\"1548\" data-end=\"1582\">Tipologias do Ondara Residence</strong></h6>\n<p data-start=\"1584\" data-end=\"1689\">O projeto foi planejado para atender diferentes estilos de vida, oferecendo opções modernas e funcionais.</p>\n<p data-start=\"1691\" data-end=\"1798\"><strong data-start=\"1691\" data-end=\"1735\">• Studios e apartamentos de 1 dormitório</strong><br data-start=\"1735\" data-end=\"1738\" />Para quem busca praticidade e alta rentabilidade em locação.</p>\n<p data-start=\"1800\" data-end=\"1912\"><strong data-start=\"1800\" data-end=\"1835\">• Apartamentos de 2 dormitórios</strong><br data-start=\"1835\" data-end=\"1838\" />Com suite, áreas integradas e sacada com churrasqueira conforme tipologia.</p>\n<p data-start=\"2187\" data-end=\"2306\"><strong data-start=\"2187\" data-end=\"2203\">• Coberturas</strong><br data-start=\"2203\" data-end=\"2206\" />Ambientes amplos, terraço privativo e vistas privilegiadas, oferecendo exclusividade e sofisticação.</p>\n<p data-start=\"2308\" data-end=\"2415\">Cada planta foi pensada para proporcionar iluminação natural, circulação inteligente e ambientes versáteis.</p>\n<hr data-start=\"2417\" data-end=\"2420\" />\n<h6 data-start=\"2422\" data-end=\"2470\"><strong data-start=\"2425\" data-end=\"2470\">Acabamentos e Diferenciais de Alto Padrão</strong></h6>\n<p data-start=\"2472\" data-end=\"2602\">O Ondara Residence segue o padrão de excelência da Agnes Construtora, trazendo materiais duráveis, modernos e de alta valorização.</p>\n<p data-start=\"2604\" data-end=\"3069\"><strong data-start=\"2604\" data-end=\"2643\">Diferenciais internos das unidades:</strong><br data-start=\"2643\" data-end=\"2646\" />• Piso em porcelanato retificado<br data-start=\"2678\" data-end=\"2681\" />• Espera para ar-condicionado tipo split<br data-start=\"2721\" data-end=\"2724\" />• Esquadrias em alumínio de alta performance<br data-start=\"2768\" data-end=\"2771\" />• Persianas integradas nos dormitórios (conforme projeto)<br data-start=\"2828\" data-end=\"2831\" />• Esperas para água quente<br data-start=\"2857\" data-end=\"2860\" />• Portas de qualidade superior e ferragens premium<br data-start=\"2910\" data-end=\"2913\" />• Churrasqueira a carvão na sacada (em unidades previstas)<br data-start=\"2971\" data-end=\"2974\" />• Acabamentos contemporâneos nas áreas molhadas<br data-start=\"3021\" data-end=\"3024\" />• Ambientes integrados para maior amplitude</p>\n<p data-start=\"3071\" data-end=\"3403\"><strong data-start=\"3071\" data-end=\"3106\">Diferenciais do empreendimento:</strong><br data-start=\"3106\" data-end=\"3109\" />• Hall de entrada finamente decorado<br data-start=\"3145\" data-end=\"3148\" />• Elevadores modernos<br data-start=\"3169\" data-end=\"3172\" />• Sistema de segurança com câmeras e acesso controlado<br data-start=\"3226\" data-end=\"3229\" />• Portaria remota<br data-start=\"3246\" data-end=\"3249\" />• Vagas de garagem cobertas<br data-start=\"3276\" data-end=\"3279\" />• Medidores individuais de água, gás e energia<br data-start=\"3325\" data-end=\"3328\" />• Estrutura executada com rigor técnico e atenção acústica entre unidades</p>\n<hr data-start=\"3405\" data-end=\"3408\" />\n<h5 data-start=\"3410\" data-end=\"3472\"><strong data-start=\"3413\" data-end=\"3472\">Área de Lazer – Comodidade e Bem-Estar Sem Sair de Casa</strong></h5>\n<p data-start=\"3474\" data-end=\"3575\">O Ondara Residence oferece uma área de lazer moderna, pensada para todas as idades e estilos de vida.</p>\n<p data-start=\"3577\" data-end=\"3791\">Entre os espaços, destacam-se:<br data-start=\"3607\" data-end=\"3610\" />• Piscina adulto e infantil<br data-start=\"3637\" data-end=\"3640\" />• Espaço gourmet decorado<br data-start=\"3665\" data-end=\"3668\" />• Salão de festas<br data-start=\"3685\" data-end=\"3688\" />• Academia equipada<br data-start=\"3707\" data-end=\"3710\" />• Playground<br data-start=\"3722\" data-end=\"3725\" />• Espaço Kids<br data-start=\"3738\" data-end=\"3741\" />• Lounge externo<br data-start=\"3757\" data-end=\"3760\" />• Áreas verdes de convivência</p>\n<p data-start=\"3793\" data-end=\"3925\">É um conjunto de ambientes projetados para criar experiências, fortalecer a convivência e garantir momentos de descanso ou diversão.</p>\n<hr data-start=\"3927\" data-end=\"3930\" />\n<h5 data-start=\"3932\" data-end=\"3985\"><strong data-start=\"3935\" data-end=\"3985\">Um Lançamento Para Morar, Investir e Valorizar</strong></h5>\n<p data-start=\"3987\" data-end=\"4347\">Localização estratégica, alto padrão construtivo, plantas variadas e lazer completo fazem do Ondara Residence uma oportunidade rara no Norte da Ilha. Seja para morar com conforto ou investir em um imóvel com excelente liquidez.</p>\n<p data-start=\"3987\" data-end=\"4347\">Solicite mais informações e book com plantas dos apartamentos;</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2025-11-26-185102-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Captura-de-tela-2025-11-26-185029.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Captura-de-tela-2025-11-26-185155.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Captura-de-tela-2025-11-26-185233.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2025-11-26-185211.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Captura-de-tela-2025-11-26-185255.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Captura-de-tela-2025-11-26-185312.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Captura-de-tela-2025-11-26-185622.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Captura-de-tela-2025-11-26-185639.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Captura-de-tela-2026-03-04-190009.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Captura-de-tela-2026-03-04-185957.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Captura-de-tela-2026-03-04-185943.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Captura-de-tela-2026-03-04-185927.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Captura-de-tela-2026-03-04-185909.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Captura-de-tela-2026-03-04-185855.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Captura-de-tela-2026-03-04-185843.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Captura-de-tela-2026-03-04-185820.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Captura-de-tela-2026-03-04-185807.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Captura-de-tela-2026-03-04-185754.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Captura-de-tela-2026-03-04-185743.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Captura-de-tela-2026-03-04-185731.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Captura-de-tela-2026-03-04-185718.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Captura-de-tela-2026-03-04-185702.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-Captura-de-tela-2026-03-04-185651.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-Captura-de-tela-2026-03-04-185641.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-Captura-de-tela-2026-03-04-185552.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-Captura-de-tela-2026-03-04-185537.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-Captura-de-tela-2026-03-04-185523.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-Captura-de-tela-2026-03-04-185506.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/30-Captura-de-tela-2026-03-04-185452.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/31-Captura-de-tela-2026-03-04-185433.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/32-Captura-de-tela-2026-03-04-185404.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/33-Captura-de-tela-2026-03-04-185308g.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/34-Captura-de-tela-2026-03-04-185308.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/ondara-residence-canajure-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:58.753Z",
+  "kind": "casa"
+}

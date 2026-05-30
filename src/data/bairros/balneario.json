@@ -1,0 +1,11 @@
+{
+  "slug": "balneario",
+  "name": "Balneário",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-30T22:18:06.519Z",
+  "total": 0,
+  "properties": []
+}

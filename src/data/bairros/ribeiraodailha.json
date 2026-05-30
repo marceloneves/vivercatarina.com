@@ -1,0 +1,57 @@
+{
+  "slug": "ribeiraodailha",
+  "name": "Ribeirão da Ilha",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-30T22:18:06.553Z",
+  "total": 5,
+  "properties": [
+    {
+      "slug": "jardim-campeche-ribeirao-da-ilha-florianopolis-sc",
+      "id": 5636,
+      "title": "Casa a 200 metros da praia, Jardim Campeche",
+      "category": "lancamento",
+      "price": 1625000,
+      "dataPath": "imoveis/jardim-campeche-ribeirao-da-ilha-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/jardim-campeche-ribeirao-da-ilha-florianopolis-sc/images/01-WhatsApp-Image-2025-03-14-at-15.01.16-768x1024-1.jpeg"
+    },
+    {
+      "slug": "alto-ribeirao-i-ribeirao-da-ilha-florianopolis-sc",
+      "id": 13204,
+      "title": "Loteamento Alto Ribeirão I",
+      "category": "lancamento",
+      "price": 650000,
+      "dataPath": "imoveis/alto-ribeirao-i-ribeirao-da-ilha-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/alto-ribeirao-i-ribeirao-da-ilha-florianopolis-sc/images/01-45-1.jpg"
+    },
+    {
+      "slug": "alto-ribeirao-ii-ribeirao-da-ilha-florianopolis-sc",
+      "id": 13325,
+      "title": "Loteamento Alto Ribeirão II",
+      "category": "lancamento",
+      "price": 750000,
+      "dataPath": "imoveis/alto-ribeirao-ii-ribeirao-da-ilha-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/alto-ribeirao-ii-ribeirao-da-ilha-florianopolis-sc/images/01-WhatsApp-Image-2025-04-30-at-10.42.18-1-2.jpeg"
+    },
+    {
+      "slug": "florianopolis-ribeirao-da-ilha-florianopolis-sc-5541",
+      "id": 5541,
+      "title": "Sobrado em Condomínio, novo e financiável no Ribeirão da Ilha",
+      "category": "pronto-para-morar",
+      "price": 895000,
+      "dataPath": "imoveis/florianopolis-ribeirao-da-ilha-florianopolis-sc-5541/property.json",
+      "thumbnail": "imoveis/florianopolis-ribeirao-da-ilha-florianopolis-sc-5541/images/01-634466440882855.jpg"
+    },
+    {
+      "slug": "village-sunset-ribeirao-da-ilha-florianopolis-sc",
+      "id": 19470,
+      "title": "Village Sunset, Ribeirão da Ilha",
+      "category": "lancamento",
+      "price": 760000,
+      "dataPath": "imoveis/village-sunset-ribeirao-da-ilha-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/village-sunset-ribeirao-da-ilha-florianopolis-sc/images/01-3-4.jpg"
+    }
+  ]
+}

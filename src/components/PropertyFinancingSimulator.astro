@@ -1,0 +1,282 @@
+---
+const { financing } = Astro.props;
+const { defaults, resumo, fgts, mcmv, permuta } = financing;
+---
+
+{
+	financing.enabled && (
+		<section class="section card financing-simulator" id="simulador-financiamento">
+			<h2 class="section__title">Simulador de financiamento</h2>
+
+			{resumo && <p class="financing-simulator__summary">{resumo}</p>}
+
+			<div class="financing-simulator__badges">
+				{financing.aceitaFinanciamento && <span class="financing-simulator__badge">Financiamento bancário</span>}
+				{defaults.parcelasMensais > 0 && (
+					<span class="financing-simulator__badge">Parcelas na obra</span>
+				)}
+				{defaults.reforcos > 0 && <span class="financing-simulator__badge">Reforços</span>}
+				{permuta && <span class="financing-simulator__badge">Estuda permuta</span>}
+				<span class="financing-simulator__badge">FGTS: {fgts}</span>
+				{mcmv !== 'Não informado' && <span class="financing-simulator__badge">MCMV: {mcmv}</span>}
+			</div>
+
+			<form class="financing-simulator__form" id="financing-form">
+				<div class="financing-simulator__grid">
+					<label class="financing-simulator__field">
+						<span>Valor do imóvel</span>
+						<input
+							type="text"
+							id="fin-property-value"
+							inputmode="numeric"
+							value={defaults.propertyValue}
+							data-raw-value={defaults.propertyValue}
+						/>
+					</label>
+					<label class="financing-simulator__field">
+						<span>Entrada (%)</span>
+						<input
+							type="number"
+							id="fin-entrada-percent"
+							min="0"
+							max="90"
+							step="1"
+							value={defaults.entradaPercent}
+						/>
+					</label>
+					<label class="financing-simulator__field">
+						<span>Financiamento bancário (%)</span>
+						<input
+							type="number"
+							id="fin-bank-percent"
+							min="0"
+							max="90"
+							step="1"
+							value={defaults.financiamentoPercent}
+							disabled={!financing.aceitaFinanciamento}
+						/>
+					</label>
+					<label class="financing-simulator__field">
+						<span>Parcelas mensais (obra)</span>
+						<input
+							type="number"
+							id="fin-monthly-count"
+							min="0"
+							max="120"
+							step="1"
+							value={defaults.parcelasMensais}
+						/>
+					</label>
+					<label class="financing-simulator__field">
+						<span>Reforços (quantidade)</span>
+						<input
+							type="number"
+							id="fin-reinforcement-count"
+							min="0"
+							max="24"
+							step="1"
+							value={defaults.reforcos}
+						/>
+					</label>
+					<label class="financing-simulator__field">
+						<span>Entrada parcelada (vezes)</span>
+						<input
+							type="number"
+							id="fin-entry-installments"
+							min="1"
+							max="12"
+							step="1"
+							value={defaults.entradaParcelas}
+						/>
+					</label>
+					<label class="financing-simulator__field">
+						<span>Taxa bancária (% a.a.)</span>
+						<input
+							type="number"
+							id="fin-annual-rate"
+							min="0"
+							max="20"
+							step="0.1"
+							value={defaults.taxaAnual}
+							disabled={!financing.aceitaFinanciamento}
+						/>
+					</label>
+					<label class="financing-simulator__field">
+						<span>Prazo do financiamento (meses)</span>
+						<input
+							type="number"
+							id="fin-bank-term"
+							min="12"
+							max="420"
+							step="12"
+							value={defaults.prazoFinanciamento}
+							disabled={!financing.aceitaFinanciamento}
+						/>
+					</label>
+				</div>
+			</form>
+
+			<div class="financing-simulator__results">
+				<div class="financing-simulator__result">
+					<span>Entrada total</span>
+					<strong id="fin-result-entrada">—</strong>
+				</div>
+				<div class="financing-simulator__result">
+					<span>Entrada parcelada</span>
+					<strong id="fin-result-entrada-parcela">—</strong>
+				</div>
+				<div class="financing-simulator__result">
+					<span>Parcela mensal (obra)</span>
+					<strong id="fin-result-monthly">—</strong>
+				</div>
+				<div class="financing-simulator__result">
+					<span>Valor de cada reforço</span>
+					<strong id="fin-result-reinforcement">—</strong>
+				</div>
+				<div class="financing-simulator__result">
+					<span>Saldo na entrega das chaves</span>
+					<strong id="fin-result-balance">—</strong>
+				</div>
+				<div class="financing-simulator__result financing-simulator__result--highlight">
+					<span>Parcela bancária estimada</span>
+					<strong id="fin-result-bank">—</strong>
+				</div>
+			</div>
+
+			<p class="financing-simulator__disclaimer">
+				Simulação indicativa com base nas condições divulgadas pelo empreendimento. Valores finais
+				dependem de análise de crédito, tabela da construtora e disponibilidade de unidade.
+			</p>
+		</section>
+	)
+}
+
+<script define:vars={{ acceptsBankFinancing: financing.aceitaFinanciamento }}>
+	const form = document.getElementById('financing-form');
+	if (!form) {
+		// section not rendered
+	} else {
+		const propertyValueInput = document.getElementById('fin-property-value');
+		const entradaPercentInput = document.getElementById('fin-entrada-percent');
+		const bankPercentInput = document.getElementById('fin-bank-percent');
+		const monthlyCountInput = document.getElementById('fin-monthly-count');
+		const reinforcementCountInput = document.getElementById('fin-reinforcement-count');
+		const entryInstallmentsInput = document.getElementById('fin-entry-installments');
+		const annualRateInput = document.getElementById('fin-annual-rate');
+		const bankTermInput = document.getElementById('fin-bank-term');
+
+		const resultEntrada = document.getElementById('fin-result-entrada');
+		const resultEntradaParcela = document.getElementById('fin-result-entrada-parcela');
+		const resultMonthly = document.getElementById('fin-result-monthly');
+		const resultReinforcement = document.getElementById('fin-result-reinforcement');
+		const resultBalance = document.getElementById('fin-result-balance');
+		const resultBank = document.getElementById('fin-result-bank');
+
+		const moneyFormatter = new Intl.NumberFormat('pt-BR', {
+			style: 'currency',
+			currency: 'BRL',
+			maximumFractionDigits: 0,
+		});
+
+		const parseMoneyInput = (value) => {
+			const digits = String(value).replace(/\D/g, '');
+			return digits ? Number(digits) : 0;
+		};
+
+		const formatMoneyInput = (amount) => moneyFormatter.format(amount || 0);
+
+		const readNumber = (input, fallback = 0) => {
+			const value = Number(input.value);
+			return Number.isFinite(value) ? value : fallback;
+		};
+
+		const pricePayment = (principal, monthlyRate, months) => {
+			if (principal <= 0 || months <= 0) {
+				return 0;
+			}
+
+			if (monthlyRate <= 0) {
+				return principal / months;
+			}
+
+			const factor = Math.pow(1 + monthlyRate, months);
+			return (principal * monthlyRate * factor) / (factor - 1);
+		};
+
+		const distributeObraBalance = (balance, monthlyCount, reinforcementCount) => {
+			if (balance <= 0) {
+				return { monthly: 0, reinforcement: 0 };
+			}
+
+			if (monthlyCount <= 0 && reinforcementCount <= 0) {
+				return { monthly: 0, reinforcement: 0 };
+			}
+
+			if (reinforcementCount <= 0) {
+				return { monthly: balance / monthlyCount, reinforcement: 0 };
+			}
+
+			if (monthlyCount <= 0) {
+				return { monthly: 0, reinforcement: balance / reinforcementCount };
+			}
+
+			const reinforcementWeight = 2;
+			const totalWeight = monthlyCount + reinforcementCount * reinforcementWeight;
+			const unit = balance / totalWeight;
+
+			return {
+				monthly: unit,
+				reinforcement: unit * reinforcementWeight,
+			};
+		};
+
+		const renderValue = (element, amount, emptyLabel = '—') => {
+			element.textContent = amount > 0 ? moneyFormatter.format(Math.round(amount)) : emptyLabel;
+		};
+
+		const recalculate = () => {
+			const propertyValue = parseMoneyInput(propertyValueInput.value);
+			propertyValueInput.dataset.rawValue = String(propertyValue);
+			propertyValueInput.value = formatMoneyInput(propertyValue);
+
+			const entradaPercent = Math.min(90, Math.max(0, readNumber(entradaPercentInput)));
+			const bankPercent = acceptsBankFinancing
+				? Math.min(90, Math.max(0, readNumber(bankPercentInput)))
+				: 0;
+			const monthlyCount = Math.max(0, readNumber(monthlyCountInput));
+			const reinforcementCount = Math.max(0, readNumber(reinforcementCountInput));
+			const entryInstallments = Math.max(1, readNumber(entryInstallmentsInput, 1));
+			const annualRate = Math.max(0, readNumber(annualRateInput));
+			const bankTerm = Math.max(12, readNumber(bankTermInput, 360));
+
+			const entradaTotal = propertyValue * (entradaPercent / 100);
+			const bankPrincipal = propertyValue * (bankPercent / 100);
+			const obraBalance = Math.max(0, propertyValue - entradaTotal - bankPrincipal);
+			const { monthly, reinforcement } = distributeObraBalance(
+				obraBalance,
+				monthlyCount,
+				reinforcementCount,
+			);
+
+			const monthlyRate = Math.pow(1 + annualRate / 100, 1 / 12) - 1;
+			const bankInstallment = pricePayment(bankPrincipal, monthlyRate, bankTerm);
+
+			renderValue(resultEntrada, entradaTotal);
+			renderValue(
+				resultEntradaParcela,
+				entryInstallments > 1 ? entradaTotal / entryInstallments : entradaTotal,
+			);
+			renderValue(resultMonthly, monthly);
+			renderValue(resultReinforcement, reinforcement);
+			renderValue(resultBalance, obraBalance);
+			renderValue(resultBank, bankInstallment);
+		};
+
+		propertyValueInput.addEventListener('input', recalculate);
+		form.querySelectorAll('input').forEach((input) => {
+			input.addEventListener('input', recalculate);
+		});
+
+		recalculate();
+	}
+</script>

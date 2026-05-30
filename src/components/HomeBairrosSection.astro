@@ -1,0 +1,64 @@
+---
+const { neighborhoods } = Astro.props;
+---
+
+<div class="gallery-sec-1 home-bairros-section overflow-hidden space overflow-hidden">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-7">
+				<div class="title-area text-center">
+					<p class="sub-title"><span class="double-line"></span>Florianópolis</p>
+					<h2 class="sec-title mb-2">Conheça os bairros de Florianópolis</h2>
+					<p class="box-text">Encontre o apartamento ideal na nossa listagem</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container pb-5">
+		<div class="row gy-30 justify-content-center">
+			{
+				neighborhoods.map((neighborhood) => (
+					<div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="gallery-card h-100">
+							<div class="gallery-img">
+								<img src={neighborhood.imageUrl} alt={neighborhood.name} loading="lazy" />
+								<div class="gallery-content">
+									<div class="gallery-content-wrapper">
+										<p class="box-text">Florianópolis, SC</p>
+										<h2 class="box-title">
+											<a href={neighborhood.href}>{neighborhood.name}</a>
+										</h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				))
+			}
+		</div>
+	</div>
+</div>
+
+<style>
+	.home-bairros-section .gallery-card {
+		height: 100%;
+	}
+
+	.home-bairros-section .gallery-img {
+		position: relative;
+		aspect-ratio: 4 / 3;
+		width: 100%;
+		max-height: none;
+		height: auto;
+	}
+
+	.home-bairros-section .gallery-img img {
+		position: absolute;
+		inset: 0;
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+</style>

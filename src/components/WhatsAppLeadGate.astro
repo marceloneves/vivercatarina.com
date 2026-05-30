@@ -1,0 +1,338 @@
+<div
+	id="whatsapp-lead-modal"
+	class="whatsapp-lead-modal"
+	hidden
+	aria-hidden="true"
+>
+	<div class="whatsapp-lead-modal__backdrop" data-whatsapp-lead-close></div>
+	<div
+		class="whatsapp-lead-modal__dialog"
+		role="dialog"
+		aria-modal="true"
+		aria-labelledby="whatsapp-lead-title"
+	>
+		<button type="button" class="whatsapp-lead-modal__close" data-whatsapp-lead-close aria-label="Fechar">
+			&times;
+		</button>
+		<h2 id="whatsapp-lead-title" class="whatsapp-lead-modal__title">Falar no WhatsApp</h2>
+		<p class="whatsapp-lead-modal__text">Informe seus dados para continuarmos no WhatsApp.</p>
+		<form id="whatsapp-lead-form" class="whatsapp-lead-modal__form" novalidate>
+			<label for="whatsapp-lead-name">Nome</label>
+			<input
+				id="whatsapp-lead-name"
+				name="name"
+				type="text"
+				autocomplete="name"
+				placeholder="Seu nome"
+				required
+			/>
+			<label for="whatsapp-lead-phone">Telefone</label>
+			<input
+				id="whatsapp-lead-phone"
+				name="phone"
+				type="tel"
+				autocomplete="tel"
+				inputmode="tel"
+				placeholder="+55 48 98810-5199"
+				required
+			/>
+			<p id="whatsapp-lead-error" class="whatsapp-lead-modal__error" hidden></p>
+			<button type="submit" class="whatsapp-lead-modal__submit">Continuar no WhatsApp</button>
+		</form>
+	</div>
+</div>
+
+<style>
+	.whatsapp-lead-modal {
+		position: fixed;
+		inset: 0;
+		z-index: 10000;
+		display: grid;
+		place-items: center;
+		padding: 1rem;
+	}
+
+	.whatsapp-lead-modal[hidden] {
+		display: none;
+	}
+
+	.whatsapp-lead-modal__backdrop {
+		position: absolute;
+		inset: 0;
+		background: rgba(3, 6, 14, 0.62);
+	}
+
+	.whatsapp-lead-modal__dialog {
+		position: relative;
+		width: min(100%, 26rem);
+		padding: 1.5rem;
+		border-radius: 1rem;
+		background: #fff;
+		box-shadow: 0 24px 48px rgba(3, 6, 14, 0.18);
+	}
+
+	.whatsapp-lead-modal__close {
+		position: absolute;
+		top: 0.75rem;
+		right: 0.75rem;
+		border: 0;
+		background: transparent;
+		font-size: 1.75rem;
+		line-height: 1;
+		color: #667085;
+		cursor: pointer;
+	}
+
+	.whatsapp-lead-modal__title {
+		margin: 0 0 0.5rem;
+		font-size: 1.25rem;
+		color: var(--title-color, #03060e);
+	}
+
+	.whatsapp-lead-modal__text {
+		margin: 0 0 1.25rem;
+		color: var(--body-color, #667085);
+		font-size: 0.95rem;
+	}
+
+	.whatsapp-lead-modal__form {
+		display: grid;
+		gap: 0.65rem;
+	}
+
+	.whatsapp-lead-modal__form label {
+		font-size: 0.875rem;
+		font-weight: 600;
+		color: var(--title-color, #03060e);
+	}
+
+	.whatsapp-lead-modal__form input {
+		width: 100%;
+		padding: 0.75rem 0.875rem;
+		border: 1px solid var(--th-border-color, #e5e8ec);
+		border-radius: 0.625rem;
+		font: inherit;
+	}
+
+	.whatsapp-lead-modal__form input:focus {
+		outline: 2px solid rgba(37, 211, 102, 0.35);
+		border-color: #25d366;
+	}
+
+	.whatsapp-lead-modal__error {
+		margin: 0;
+		color: #c0392b;
+		font-size: 0.875rem;
+	}
+
+	.whatsapp-lead-modal__submit {
+		margin-top: 0.35rem;
+		border: 0;
+		border-radius: 999px;
+		padding: 0.85rem 1rem;
+		background: #25d366;
+		color: #fff;
+		font: inherit;
+		font-weight: 600;
+		cursor: pointer;
+	}
+
+	.whatsapp-lead-modal__submit:disabled {
+		opacity: 0.7;
+		cursor: wait;
+	}
+</style>
+
+<script>
+	const modal = document.getElementById('whatsapp-lead-modal');
+	const form = document.getElementById('whatsapp-lead-form');
+	const nameInput = document.getElementById('whatsapp-lead-name');
+	const phoneInput = document.getElementById('whatsapp-lead-phone');
+	const errorBox = document.getElementById('whatsapp-lead-error');
+	const submitButton = form?.querySelector('[type="submit"]');
+
+	const PHONE_PREFIX = '+55 ';
+
+	let pendingContext = {
+		source: 'float',
+		pageUrl: window.location.href,
+		propertySlug: null,
+		propertyTitle: null,
+	};
+
+	function formatPhoneMask(value) {
+		let digits = String(value || '').replace(/\D/g, '');
+
+		if (digits.startsWith('55')) {
+			digits = digits.slice(2);
+		}
+
+		digits = digits.slice(0, 11);
+
+		if (digits.length === 0) {
+			return PHONE_PREFIX;
+		}
+
+		let formatted = `${PHONE_PREFIX}${digits.slice(0, 2)}`;
+
+		if (digits.length <= 2) {
+			return formatted;
+		}
+
+		const number = digits.slice(2);
+
+		if (number.length <= 5) {
+			return `${formatted} ${number}`;
+		}
+
+		return `${formatted} ${number.slice(0, 5)}-${number.slice(5, 9)}`;
+	}
+
+	function resetPhoneInput() {
+		if (phoneInput) {
+			phoneInput.value = PHONE_PREFIX;
+		}
+	}
+
+	function openModal(context = {}) {
+		if (!modal || !form) {
+			return;
+		}
+
+		pendingContext = {
+			source: context.source || 'float',
+			pageUrl: window.location.href,
+			propertySlug: context.propertySlug || null,
+			propertyTitle: context.propertyTitle || null,
+		};
+
+		errorBox.hidden = true;
+		errorBox.textContent = '';
+		form.reset();
+		resetPhoneInput();
+		modal.hidden = false;
+		modal.setAttribute('aria-hidden', 'false');
+		nameInput?.focus();
+		document.body.style.overflow = 'hidden';
+	}
+
+	function closeModal() {
+		if (!modal) {
+			return;
+		}
+
+		modal.hidden = true;
+		modal.setAttribute('aria-hidden', 'true');
+		document.body.style.overflow = '';
+	}
+
+	function showError(message) {
+		if (!errorBox) {
+			return;
+		}
+
+		errorBox.textContent = message;
+		errorBox.hidden = false;
+	}
+
+	document.addEventListener('click', (event) => {
+		const trigger = event.target.closest('[data-whatsapp-lead]');
+
+		if (!trigger) {
+			return;
+		}
+
+		event.preventDefault();
+
+		openModal({
+			source: trigger.dataset.whatsappSource || 'float',
+			propertySlug: trigger.dataset.propertySlug || null,
+			propertyTitle: trigger.dataset.propertyTitle || null,
+		});
+	});
+
+	modal?.querySelectorAll('[data-whatsapp-lead-close]').forEach((element) => {
+		element.addEventListener('click', closeModal);
+	});
+
+	document.addEventListener('keydown', (event) => {
+		if (event.key === 'Escape' && modal && !modal.hidden) {
+			closeModal();
+		}
+	});
+
+	phoneInput?.addEventListener('input', () => {
+		if (!phoneInput) {
+			return;
+		}
+
+		phoneInput.value = formatPhoneMask(phoneInput.value);
+	});
+
+	phoneInput?.addEventListener('keydown', (event) => {
+		if (!phoneInput) {
+			return;
+		}
+
+		const { selectionStart, selectionEnd } = phoneInput;
+
+		if (
+			(event.key === 'Backspace' || event.key === 'Delete') &&
+			selectionStart !== null &&
+			selectionEnd !== null &&
+			selectionStart <= PHONE_PREFIX.length &&
+			selectionEnd <= PHONE_PREFIX.length
+		) {
+			event.preventDefault();
+		}
+	});
+
+	phoneInput?.addEventListener('focus', () => {
+		if (!phoneInput?.value || phoneInput.value === '+55') {
+			resetPhoneInput();
+		}
+	});
+
+	resetPhoneInput();
+
+	form?.addEventListener('submit', async (event) => {
+		event.preventDefault();
+
+		if (!submitButton) {
+			return;
+		}
+
+		errorBox.hidden = true;
+		errorBox.textContent = '';
+		submitButton.disabled = true;
+
+		try {
+			const response = await fetch('/api/whatsapp-leads', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({
+					name: nameInput?.value,
+					phone: phoneInput?.value,
+					source: pendingContext.source,
+					pageUrl: pendingContext.pageUrl,
+					propertySlug: pendingContext.propertySlug,
+					propertyTitle: pendingContext.propertyTitle,
+				}),
+			});
+
+			const payload = await response.json();
+
+			if (!response.ok) {
+				showError(payload.error || 'Não foi possível continuar. Tente novamente.');
+				return;
+			}
+
+			closeModal();
+			window.location.href = payload.redirectUrl;
+		} catch {
+			showError('Erro de conexão. Verifique sua internet e tente novamente.');
+		} finally {
+			submitButton.disabled = false;
+		}
+	});
+</script>

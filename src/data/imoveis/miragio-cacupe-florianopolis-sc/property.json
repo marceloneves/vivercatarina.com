@@ -1,0 +1,160 @@
+{
+  "id": 7462,
+  "slug": "miragio-cacupe-florianopolis-sc",
+  "title": "Condomínio Miragio, em frente ao mar em Cacupé",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$2,729,000",
+    "amount": 2729000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Haroldo Soares Glavan, Cacupé",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "cacupe",
+      "name": "Cacupé"
+    }
+  },
+  "overview": {
+    "code": "1096",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "garages": null,
+    "sizeSqm": 1662,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "frente-mar",
+      "name": "Frente mar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "ultimas-unidades",
+      "name": "Últimas Unidades!"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "bicicletario",
+    "brinquedoteca",
+    "churrasqueira",
+    "coworking",
+    "espaco-gourmet",
+    "especo-pet",
+    "piscina",
+    "playground",
+    "sala-de-jogos",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Pet",
+    "Sala de Jogos",
+    "Playground",
+    "Coworking",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Brinquedoteca"
+  ],
+  "descriptionHtml": "<h5>Pronto para morar</h5>\n<p><strong>Apartamentos com 3 suítes, 166m² privativos, sacada com churrasqueira, lavabo e banheiro auxiliar, A partir de 2.729.000,00 (Apto 101 Torre 5) </strong></p>\n<p><strong>Amplos apartamentos Garden com 3 suítes,  165m² privativos + 103,04m² terraço, churrasqueira, 3 vagas + Hobby box, A partir de R$ 3.165.000,00 (Garden 102 Torre 4)</strong></p>\n<p>Entrada + financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel ou veículo como parte de pagamento</li>\n<li>Atualizado 07/01/2026</li>\n</ul>\n<p><strong>Empreendimento de Alto Padrão Frente Mar em Cacupé, Florianópolis</strong></p>\n<p>Apresentamos um lançamento exclusivo em uma das localizações mais cobiçadas de Florianópolis: Cacupé. Este empreendimento frente mar combina sofisticação e alto padrão de acabamento para proporcionar a você o máximo em conforto e qualidade de vida.</p>\n<p><strong>Destaques do Empreendimento:</strong></p>\n<ul>\n<li><strong>Amplas plantas</strong> com opções de apartamentos tipo garden e apartamentos tipos, com <strong>3 suítes</strong>.</li>\n<li>Metragens que variam de <strong>165m² a 268m² (garden)</strong>.</li>\n<li>De <strong>1 a 4 vagas de garagem</strong> por unidade.</li>\n</ul>\n<p><strong>Área de Lazer Completa</strong>: Desfrute de uma infraestrutura impecável para momentos de lazer e bem-estar:</p>\n<ul>\n<li>Piscina adulto e infantil</li>\n<li>Academia completa</li>\n<li>Espaço gourmet</li>\n<li>Pet place</li>\n<li>Playground e brinquedoteca</li>\n<li>Salão de festas com cozinha industrial</li>\n<li>Coworking</li>\n</ul>\n<p>Se você busca exclusividade, sofisticação e uma vista deslumbrante para o mar, este é o imóvel perfeito para você.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Aerea-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Fachada-Lateral.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Piscina-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Portaria-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Lateral-Noturna.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Brinquedoteca-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Cascata.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Coworking-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Estar-Externo.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Fachada-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Festas.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Fitness-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Fitness-Externo-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Garden-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Lateral-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Pet-Place.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Piscina-Mar.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Playground-5.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/miragio-cacupe-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:54.833Z",
+  "kind": "apartamento"
+}

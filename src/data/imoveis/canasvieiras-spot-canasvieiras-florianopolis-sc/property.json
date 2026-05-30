@@ -1,0 +1,144 @@
+{
+  "id": 8939,
+  "slug": "canasvieiras-spot-canasvieiras-florianopolis-sc",
+  "title": "Canasvieiras Spot",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$235,000",
+    "amount": 235000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "R: Juliana Meurer Freiber, Canasvieiras, Florianópolis/SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "canasvieiras",
+      "name": "Canasvieiras"
+    }
+  },
+  "overview": {
+    "code": "1173",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 17.052,
+    "deliveryYear": "Dez/27"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-27",
+      "name": "Dez/27"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "piscina-aquecida"
+  ],
+  "features": [
+    "Piscina Aquecida"
+  ],
+  "descriptionHtml": "<p>Spots Perfeitos para locações temporada/Short Stay – Alta Rentabilidade com Baixo Custo operacional!</p>\n<p><strong>Unidades a partir de R$ 235.000,00</strong></p>\n<p>Entrada + parcelas + reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 05/04/2026</em></li>\n</ul>\n<p><strong>Canasvieiras Spot: Invista na Melhor Localização de Canasvieiras</strong></p>\n<p>Empreendimento SPE (Sociedade de Propósito Específico) especialmente projetado para investidores que buscam <strong>máxima rentabilidade</strong> no mercado de locações por diárias e short stay. Localizado a apenas <strong>450 metros da Praia de Canasvieiras</strong>, um dos destinos mais procurados de Florianópolis, o empreendimento combina <strong>funcionalidade</strong>, <strong>design moderno</strong> e uma <strong>infraestrutura que encanta</strong>.</p>\n<h6>Destaques do Empreendimento:</h6>\n<ul>\n<li><strong>Modelo a preço de custo</strong>: Uma forma econômica e transparente de investir.</li>\n<li><strong>Baixo custo fixo</strong>: Condomínio acessível, ideal para maximizar seus retornos.</li>\n<li><strong>Design compacto e funcional</strong>: Projetado para atender as demandas do público de locação por temporada.</li>\n<li><strong>Estilo instagramável</strong>: Uma experiência que encanta e fideliza hóspedes.</li>\n</ul>\n<h6>Estrutura Completa para Máxima Rentabilidade:</h6>\n<ul>\n<li><strong>Piscina aquecida com borda infinita e vista para o mar</strong>: Um diferencial de luxo para o empreendimento.</li>\n<li><strong>Rooftop integrado</strong>: Um espaço de convivência moderno e convidativo.</li>\n<li><strong>Recepção confortável</strong>: Um ambiente acolhedor para hóspedes e visitantes.</li>\n<li><strong>Minimarket</strong>: Conveniência no local para atender às necessidades diárias.</li>\n</ul>\n<p>O <strong>Canasvieiras Spot</strong> oferece uma combinação perfeita de <strong>localização estratégica</strong>, <strong>infraestrutura de alto padrão</strong> e <strong>oportunidade de retorno financeiro excepcional</strong>. Invista em um imóvel que une o melhor de Canasvieiras com um modelo de negócio inovador e rentável. <strong>Seu próximo grande investimento começa aqui!</strong></p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Copia-de-Distancia-da-praia.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Copia-de-04-1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Capturar-18.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Copia-de-03-2-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Capturar4-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Capturar1-12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Capturar2-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Capturar5-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Capturar6-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Capturar7-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-planta-1-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-plantas-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Copia-de-IMAGEM-12.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Copia-de-IMAGEM-09.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Copia-de-IMAGEM-04.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Copia-de-IMAGEM-03.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Copia-de-IMAGEM-02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Copia-de-IMAGEM-01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Copia-de-CORREDOR-01.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/canasvieiras-spot-canasvieiras-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:59.919Z",
+  "kind": "apartamento"
+}

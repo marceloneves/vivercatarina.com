@@ -1,0 +1,11 @@
+---
+import PillerLayout from '../../../layouts/PillerLayout.astro';
+import bodyHtml from '../../../content/template-pages/bairros/acima-de-1-milhao/pagina-3.html?raw';
+
+const title = "Acima de R$ 1 milhão";
+const bodyClass = "";
+---
+
+<PillerLayout title={title} bodyClass={bodyClass} disableEffects>
+	<Fragment set:html={bodyHtml} />
+</PillerLayout>

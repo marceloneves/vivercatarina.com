@@ -1,0 +1,11 @@
+---
+import PillerLayout from '../../layouts/PillerLayout.astro';
+import bodyHtml from '../../content/template-pages/bairros/300-a-500-mil.html?raw';
+
+const title = "R$ 300 a 500 mil";
+const bodyClass = "";
+---
+
+<PillerLayout title={title} bodyClass={bodyClass} disableEffects>
+	<Fragment set:html={bodyHtml} />
+</PillerLayout>

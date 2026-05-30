@@ -1,0 +1,21 @@
+{
+  "slug": "sacogrande",
+  "name": "Saco Grande",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-30T22:18:06.556Z",
+  "total": 1,
+  "properties": [
+    {
+      "slug": "florianopolis-saco-grande-florianopolis-sc",
+      "id": 7485,
+      "title": "ao lado do Floripa Shopping",
+      "category": "lancamento",
+      "price": 950000,
+      "dataPath": "imoveis/florianopolis-saco-grande-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/florianopolis-saco-grande-florianopolis-sc/images/01-0814imgboulevardr02-w1280h720-1.png"
+    }
+  ]
+}

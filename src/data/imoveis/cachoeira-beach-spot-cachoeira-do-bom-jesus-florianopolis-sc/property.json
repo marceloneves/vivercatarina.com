@@ -1,0 +1,136 @@
+{
+  "id": 13081,
+  "slug": "cachoeira-beach-spot-cachoeira-do-bom-jesus-florianopolis-sc",
+  "title": "frente a Praia, Cachoeira Beach Spot, Cachoeira do Bom Jesus",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$275,000",
+    "amount": 275000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Recanto da Cachoeira, 21, Cachoeira do Bom Jesus, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "cachoeira-do-bom-jesus",
+      "name": "Cachoeira do Bom Jesus"
+    }
+  },
+  "overview": {
+    "code": "1322",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 15.372,
+    "deliveryYear": "Out/29"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "out-29",
+      "name": "Out/29"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "espaco-gourmet",
+    "mini-market",
+    "piscina-aquecida"
+  ],
+  "features": [
+    "Espaço Gourmet",
+    "Piscina Aquecida",
+    "Mini-market"
+  ],
+  "descriptionHtml": "<p>Stúdios perfeitos para locações temporada/Short Stay – Alta Rentabilidade com Baixo Custo operacional!</p>\n<p><strong>Cotas a partir de R$ 275.000,00</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 05/02/2026</em></li>\n</ul>\n<p>Empreendimento SPE (Sociedade de Propósito Específico) projetado para investidores que desejam <strong>máxima rentabilidade</strong> no mercado de locações por diárias e short stay.<strong> Edifício com acesso direto a Praia da Cachoeira do Bom Jesus</strong>, uma região com alta demanda de locações por temporada, o projeto oferece uma combinação perfeita de <strong>localização estratégica</strong>, <strong>infraestrutura moderna</strong> e <strong>design atrativo</strong>.</p>\n<h6>Destaques do Empreendimento:</h6>\n<ul>\n<li><strong>Modelo a preço de custo</strong>: Transparência e economia para investidores inteligentes.</li>\n<li><strong>Baixo custo fixo (condomínio)</strong>: Ideal para maximizar seus retornos.</li>\n<li><strong>Apartamentos compactos, funcionais e instagramáveis</strong>: Perfeitos para atrair um público exigente e moderno.</li>\n<li><strong>Máxima rentabilidade no aluguel por temporada</strong>: Aproveite a alta demanda da região.</li>\n</ul>\n<h6>Estrutura Completa para o Melhor Retorno:</h6>\n<ul>\n<li><strong>Piscina aquecida com borda infinita e vista para o mar</strong>: Um diferencial que agrega luxo e exclusividade.</li>\n<li><strong>Bar integrado</strong>: Ideal para momentos de convivência e lazer.</li>\n<li><strong>Área de lazer integrada</strong>: Projetada para proporcionar conforto e socialização.</li>\n<li><strong>Recepção confortável</strong>: Atendimento acolhedor e profissional.</li>\n<li><strong>Minimarket</strong>: Conveniência ao alcance de todos.</li>\n</ul>\n<p>O <strong>Cachoeira Beach Spot</strong> é a oportunidade perfeita para quem deseja investir em um imóvel que oferece <strong>excelente localização</strong>, <strong>alta demanda de locação</strong> e <strong>retorno financeiro excepcional</strong>. <strong>Garanta sua participação nesse empreendimento único na Praia da Cachoeira do Bom Jesus!</strong></p>\n<p>&nbsp;</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Copia-de-IMAGEM-9-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-DJI_0780-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-DJI_0781-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-DJI_0784-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Copia-de-IMAGEM-8.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Capturar1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Capturar2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Imagem-01-2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Imagem-02-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Imagem-03-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Imagem-04-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Imagem-05-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Imagem-06-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Imagem-07-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Imagem-08-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Imagem-09-1.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/cachoeira-beach-spot-cachoeira-do-bom-jesus-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:56.087Z",
+  "kind": "apartamento"
+}

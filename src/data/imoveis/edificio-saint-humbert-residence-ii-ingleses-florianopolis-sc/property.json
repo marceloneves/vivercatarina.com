@@ -1,0 +1,183 @@
+{
+  "id": 21711,
+  "slug": "edificio-saint-humbert-residence-ii-ingleses-florianopolis-sc",
+  "title": "Edifício Saint Humbert Residence II, Ingleses, Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$974,000",
+    "amount": 974000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Estrada Dom João Becker, 1798 e 1784. Ingleses do Rio Vermelho- Florianópolis/SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ingleses",
+      "name": "Ingleses"
+    }
+  },
+  "overview": {
+    "code": "1607",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 70.712,
+    "deliveryYear": "2027"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "2027",
+      "name": "2027"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-e-3-dorm-1-suite",
+      "name": "2 e 3 dorm (1 Suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "churrasqueira",
+    "elevador",
+    "piscina-aquecida",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Salão de Festas",
+    "Piscina Aquecida",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p><strong>Apartamento com 2 dormitórios, living integrado, 70,71m², sacada com churrasqueira e 1 vaga de garagem, a partir de R$ 974.000,00</strong></p>\n<p><strong>Apartamento com 3 dormitórios sendo 1 suíte, living integrado, 86,17m², sacada com churrasqueira e 1 vaga de garagem, a partir de R$ 956.000,00</strong></p>\n<p>Consulte o Fluxo de pagamento</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel de menor valor como parte de pagamento</li>\n<li><em>Valores atualizados em 8/11/2025</em></li>\n</ul>\n<hr />\n<h5><strong>Apartamentos a 70 metros do mar nos Ingleses — Florianópolis/SC</strong></h5>\n<p>Viva o melhor do norte da ilha em um empreendimento moderno e completo, localizado a apenas <strong>70 metros do mar</strong> dos Ingleses, em <strong>Florianópolis/SC</strong>.</p>\n<p>O projeto conta com <strong>78 unidades</strong> distribuídas entre <strong>salas comerciais</strong> e <strong>apartamentos de 1, 2 ou 3 quartos</strong>, sendo <strong>1 suíte</strong>, todos com <strong>sacada com churrasqueira</strong> e <strong>vaga de garagem</strong>.</p>\n<p>Com design contemporâneo e tecnologia de ponta, o empreendimento oferece <strong>automação residencial</strong>, <strong>persianas automatizadas</strong> e <strong>fechaduras eletrônicas</strong> nas portas de entrada, garantindo conforto e segurança no dia a dia.</p>\n<p>As <strong>áreas comuns</strong> foram projetadas para proporcionar bem-estar e sustentabilidade:</p>\n<ul>\n<li><strong>Piscina aquecida</strong></li>\n<li><strong>Espaço gourmet</strong></li>\n<li><strong>Energia solar nas áreas comuns</strong></li>\n<li><strong>Entradas sociais com reconhecimento facial</strong></li>\n<li><strong>Vaga rotativa para carregamento de carros elétricos</strong></li>\n</ul>\n<p>Um endereço exclusivo que une <strong>conveniência, sofisticação e proximidade com o mar</strong> — ideal para morar ou investir em uma das regiões mais valorizadas de Florianópolis.</p>",
+  "floorPlans": [
+    {
+      "title": "Floor 1",
+      "image": "images/26-Planta-211.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-1-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Capturar-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-2-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-3-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-16.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-21.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-6-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-7-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-9-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-11-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-13-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-14-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-15.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-17.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-18.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-5-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-10-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-19.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-22.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-23.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-4-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-8-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-12-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-20.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-24.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-Planta-211.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/edificio-saint-humbert-residence-ii-ingleses-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:57.592Z",
+  "kind": "apartamento"
+}

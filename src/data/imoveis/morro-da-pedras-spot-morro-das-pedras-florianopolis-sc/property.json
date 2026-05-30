@@ -1,0 +1,163 @@
+{
+  "id": 13142,
+  "slug": "morro-da-pedras-spot-morro-das-pedras-florianopolis-sc",
+  "title": "200 metros da praia, Morro da Pedras Spot, Morro da Pedras",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$313,000",
+    "amount": 313000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Manoel Pedro Vieira, 525, Morro das Pedras, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "morro-das-pedras",
+      "name": "Morro das Pedras"
+    }
+  },
+  "overview": {
+    "code": "1325",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 18.682,
+    "deliveryYear": "Mar/28"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "mar-28",
+      "name": "Mar/28"
+    }
+  ],
+  "labels": [],
+  "featureSlugs": [
+    "espaco-gourmet",
+    "mini-market",
+    "piscina-aquecida"
+  ],
+  "features": [
+    "Espaço Gourmet",
+    "Piscina Aquecida",
+    "Mini-market"
+  ],
+  "descriptionHtml": "<p><strong>Stúdios para locações temporada/Short Stay – Alta Rentabilidade com Baixo Custo operacional unidades a partir de R$ 313.000,00</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 05/02/2026</em></li>\n</ul>\n<p>INVESTIMENTO INTELIGENTE A 200 METROS DA PRAIA DO MORRO DAS PEDRAS<br />\nEste é o empreendimento ideal para quem busca alta rentabilidade com locações por temporada em uma das regiões mais charmosas do sul da Ilha de Florianópolis.</p>\n<p>Localizado a apenas 200 metros da Praia do Morro das Pedras, o edifício foi projetado com foco em praticidade, conforto e retorno financeiro. Os studios oferecem plantas inteligentes, otimizadas para maximizar o aproveitamento do espaço e atrair hóspedes durante o ano todo.</p>\n<p>A infraestrutura de lazer e conveniência completa o pacote:<br />\n🏊‍♂️ Piscina aquecida para uso em todas as estações<br />\n🛒 Mini market com itens essenciais<br />\n🍽️ Espaço gourmet ideal para momentos de descontração</p>\n<p>Studios com alto potencial de valorização e excelente desempenho em plataformas de aluguel de temporada.<br />\nInvista com segurança em uma localização com constante valorização e grande procura turística.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-MORRO-DAS-PEDRAS-LANCAMENTO-DRONE-2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Copia-de-FLL01-V2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Copia-de-FLL02-V2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Capturar-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Capturar3-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Capturar1-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Capturar4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Copia-de-FLL03-V02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Copia-de-FLL04.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Copia-de-FLL05.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Copia-de-FLL06.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Copia-de-FLL07.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Copia-de-FLL08.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Copia-de-FLL09-BRINDE.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Editada-01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Editada-02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Editada-03.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Editada-04.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Editada-05.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Editada-06.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Editada-07.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Editadar-02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Editrrada-03.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-Fachada-cortada.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/morro-da-pedras-spot-morro-das-pedras-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:52.835Z",
+  "kind": "apartamento"
+}

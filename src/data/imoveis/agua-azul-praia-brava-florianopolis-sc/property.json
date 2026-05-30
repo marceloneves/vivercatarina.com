@@ -1,0 +1,162 @@
+{
+  "id": 22045,
+  "slug": "agua-azul-praia-brava-florianopolis-sc",
+  "title": "Condomínio Água Azul, Praia Brava",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": null,
+    "display": "R$1,100,000",
+    "amount": 1100000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Av. Tom Traugott Wildi, Praia Brava, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "praia-brava",
+      "name": "Praia Brava"
+    }
+  },
+  "overview": {
+    "code": "1614",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 67.442,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "1-dorm-e-1-suite",
+      "name": "2 Dorm (1 Suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "elevador",
+    "espaco-gourmet",
+    "piscina",
+    "playground",
+    "quintal",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Salão de Festas",
+    "Piscina",
+    "Playground",
+    "Quintal",
+    "Espaço Gourmet",
+    "Elevador"
+  ],
+  "descriptionHtml": "",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-unnamed.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-25-Agua-Azul-Brava-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-original_7f7c8cddcc5292a7f995b0cf1d380b22.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-original_b2202df7552d133efca732b46acfd3d0.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-original_05a5bb05a03e56d06336a57d21ce12e7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-original_510efaf0f819b559135689afaba3e7c4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-original_670ee0b601f980d636ff0fe93fd39e83.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-original_dfbdb85906b415e2a71d531977a4ed86.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-original_c641b1445c8e4c1a7da48aaae5bbe02f.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-original_b8ef2942951116f305ada045b4ed2093.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-original_9ad103b78d85cbfdd397071bea09a4dc.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-original_19e1f6b0570bc30cd1be26a961e8b926.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-original_cee7d53ee05afcfe81733c2cbcb1d9fe.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-original_3b4a785af982ad0791e0d5ca4fc18a1e.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-original_67fe82655680ed44ab78c66ae27ae4a7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-original_675842075fd1057349b779b28a9fe3b0.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-original_d0924e304e2d0cd5cc133da6952a5676.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-original_16af857a14f592761bc6268c6c069542.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-original_aa1ceaace3cd90ae8ecfb388df56a79c.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-original_c40f7db9e6fc7b9acfef83b17661d5d2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-original_6c48ca89b1aac924c039a13a47d59946.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/agua-azul-praia-brava-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:54.541Z",
+  "kind": "apartamento"
+}

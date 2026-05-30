@@ -1,0 +1,137 @@
+{
+  "id": 8896,
+  "slug": "jurere-beach-spot-jurere-florianopolis-sc",
+  "title": "100m do mar, Jurerê Beach Spot",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$479,000",
+    "amount": 479000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "R: Francisco Gouvêia, Jurerê, Florianópolis",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "jurere",
+      "name": "Jurerê"
+    }
+  },
+  "overview": {
+    "code": "1171",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 15.22,
+    "deliveryYear": "Out/27"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "out-27",
+      "name": "Out/27"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "piscina-aquecida"
+  ],
+  "features": [
+    "Piscina Aquecida"
+  ],
+  "descriptionHtml": "<p>Spots Perfeitos para locações temporada/Short Stay – Alta Rentabilidade com Baixo Custo operacional!</p>\n<p><strong>Unidades a partir de R$ 479.000,00</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 05/04/2026</em></li>\n</ul>\n<div class=\"flex max-w-full flex-col flex-grow\">\n<div class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words [.text-message+&amp;]:mt-5\" dir=\"auto\" data-message-author-role=\"assistant\" data-message-id=\"04d0f23f-223e-4ba7-96fc-6bf855bc9ac9\" data-message-model-slug=\"gpt-4o\">\n<div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\">\n<div class=\"markdown prose w-full break-words dark:prose-invert light\">\n<p><strong>Jurerê Beach Spot: Invista no Melhor de Jurerê</strong></p>\n<p>Descubra o <strong>Jurerê Beach Spot</strong>, um empreendimento inovador na modalidade SPE (Sociedade de Propósito Específico), projetado para proporcionar <strong>máxima rentabilidade</strong> no mercado de locações por diárias e short stay. Localizado a apenas <strong>100 metros da praia</strong>, este projeto combina uma <strong>localização privilegiada</strong> com design compacto, funcional e altamente instagramável.</p>\n<h6>Destaques do Empreendimento:</h6>\n<ul>\n<li><strong>Preço de custo</strong>: Um modelo que assegura economia e transparência.</li>\n<li><strong>Baixo custo fixo</strong>: Condomínio acessível para maior retorno financeiro.</li>\n<li><strong>Áreas comuns completas</strong>:\n<ul>\n<li>Recepção confortável e moderna.</li>\n<li>Piscina aquecida para lazer em qualquer época do ano.</li>\n<li>Área de integração no rooftop, perfeita para relaxar e socializar.</li>\n<li>Minimarket prático e funcional.</li>\n</ul>\n</li>\n<li><strong>Entrega mobiliada e equipada</strong>: Cada espaço foi planejado para atender às necessidades de hóspedes e investidores exigentes.</li>\n</ul>\n<p>Aposte em um empreendimento que une <strong>localização estratégica</strong>, <strong>excelência em infraestrutura</strong> e o potencial de atrair um público que busca conforto e exclusividade em Jurerê. <strong>Invista no Jurerê Beach Spot e transforme seu investimento em um sucesso garantido!</strong></p>\n</div>\n</div>\n</div>\n</div>",
+  "floorPlans": [
+    {
+      "title": "Planta Spots",
+      "image": "images/16-Capturar8-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-R5-LL07.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-R5-LL02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-R6-LL01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-R6-LL06.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Rooftop-imagem-9.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-R6-LL04.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-1-30.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Capturar1-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Capturar2-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Capturar4-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Capturar6-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Rooftop-imagem-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Rooftop-imagem-3.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Rooftop-imagem-8.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Rooftop-imagem-10.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Capturar8-3.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/jurere-beach-spot-jurere-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:52.647Z",
+  "kind": "apartamento"
+}

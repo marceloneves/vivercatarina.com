@@ -1,0 +1,215 @@
+{
+  "id": 15058,
+  "slug": "mirante-dos-corais-coqueiros-florianopolis-sc",
+  "title": "Mirante dos Corais, Coqueiros",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$773,000",
+    "amount": 773000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua da Fonte, 177, Coqueiros, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "coqueiros",
+      "name": "Coqueiros"
+    }
+  },
+  "overview": {
+    "code": "1397",
+    "bedrooms": 2,
+    "bathrooms": null,
+    "garages": null,
+    "sizeSqm": null,
+    "deliveryYear": "Ago/26"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "ago-26",
+      "name": "Ago/26"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-e-3-dorm",
+      "name": "2 e 3 Dorm."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "adega",
+    "brinquedoteca",
+    "cinema",
+    "elevador",
+    "espaco-gourmet",
+    "espaco-mulher",
+    "especo-pet",
+    "piscina",
+    "praca-de-fogo",
+    "sala-de-jogos",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Academia",
+    "Cinema",
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Pet",
+    "Sala de Jogos",
+    "Espaço Gourmet",
+    "Brinquedoteca",
+    "Praça de fogo",
+    "Espaço mulher",
+    "Adega",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 2 dormitórios sendo 1 suíte, vaga de garagem a partir de R$ 773.000,00</strong></p>\n<p><strong>Apartamentos com 3 dormitórios sendo 1 suíte, 92m², sacada, 2 vagas de garagem a partir de R$ 1.195.000,00</strong></p>\n<p><strong>Duplex com 3 suítes, home office, metragens de 122,02m² a 200,50m²,  e 3 vagas de garagem a partir de R$ 1.706.000,00</strong></p>\n<p>Entrada + parcelas + reforços + financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 20/10/2025</em></li>\n</ul>\n<p data-start=\"124\" data-end=\"216\"><strong data-start=\"124\" data-end=\"216\">Mirante dos Corais – Lançamento exclusivo no ponto mais alto de Coqueiros, Florianópolis</strong></p>\n<p data-start=\"218\" data-end=\"472\">O Mirante dos Corais é um lançamento de alto padrão da Coral Construtora em um dos bairros mais valorizados da capital. Com vista privilegiada para a Baía Sul, o empreendimento combina arquitetura moderna, preservação histórica e localização estratégica.</p>\n<p data-start=\"474\" data-end=\"690\">São apartamentos de 2 e 3 dormitórios com suíte, além de coberturas duplex com até 3 suítes e terraço. Plantas amplas e bem distribuídas, sacada com churrasqueira, acabamento premium e metragens entre 59 m² e 200 m².</p>\n<p data-start=\"692\" data-end=\"821\"><strong data-start=\"692\" data-end=\"714\">Destaques do lazer</strong><br data-start=\"714\" data-end=\"717\" />O Mirante dos Corais oferece uma área de lazer completa, pensada para todas as idades e estilos de vida:</p>\n<ul data-start=\"823\" data-end=\"1115\">\n<li data-start=\"823\" data-end=\"847\">\n<p data-start=\"825\" data-end=\"847\">Piscina com solarium</p>\n</li>\n<li data-start=\"848\" data-end=\"869\">\n<p data-start=\"850\" data-end=\"869\">Academia equipada</p>\n</li>\n<li data-start=\"870\" data-end=\"906\">\n<p data-start=\"872\" data-end=\"906\">Espaço gourmet e salão de festas</p>\n</li>\n<li data-start=\"907\" data-end=\"922\">\n<p data-start=\"909\" data-end=\"922\">Home cinema</p>\n</li>\n<li data-start=\"923\" data-end=\"936\">\n<p data-start=\"925\" data-end=\"936\">Coworking</p>\n</li>\n<li data-start=\"937\" data-end=\"970\">\n<p data-start=\"939\" data-end=\"970\">Sala de jogos e brinquedoteca</p>\n</li>\n<li data-start=\"971\" data-end=\"986\">\n<p data-start=\"973\" data-end=\"986\">Teen lounge</p>\n</li>\n<li data-start=\"987\" data-end=\"1004\">\n<p data-start=\"989\" data-end=\"1004\">Espaço beleza</p>\n</li>\n<li data-start=\"1005\" data-end=\"1026\">\n<p data-start=\"1007\" data-end=\"1026\">Horta comunitária</p>\n</li>\n<li data-start=\"1027\" data-end=\"1040\">\n<p data-start=\"1029\" data-end=\"1040\">Pet place</p>\n</li>\n<li data-start=\"1041\" data-end=\"1058\">\n<p data-start=\"1043\" data-end=\"1058\">Praça de fogo</p>\n</li>\n<li data-start=\"1059\" data-end=\"1069\">\n<p data-start=\"1061\" data-end=\"1069\">Ateliê</p>\n</li>\n<li data-start=\"1070\" data-end=\"1115\">\n<p data-start=\"1072\" data-end=\"1115\">Varandas coletivas cobertas e descobertas</p>\n</li>\n</ul>\n<p data-start=\"1117\" data-end=\"1214\">Tudo isso dentro de um condomínio seguro, com monitoramento, portaria e estrutura de alto padrão.</p>\n<p data-start=\"1216\" data-end=\"1385\"><strong data-start=\"1216\" data-end=\"1245\">Localização privilegiada:</strong> Rua da Fonte, parte alta de Coqueiros. Próximo ao centro da cidade, escolas, comércios, restaurantes e com fácil acesso à ponte e à BR-101.</p>",
+  "floorPlans": [
+    {
+      "title": "2 dormitórios final 4",
+      "image": "images/20-Planta-apto-2-quartos-Final-04.png"
+    },
+    {
+      "title": "2 dormitórios final 5",
+      "image": "images/21-Planta-apto-2-quartos-Final-05.png"
+    },
+    {
+      "title": "3 dormitórios final 1",
+      "image": "images/22-Planta-apto-3-quartos-Final-01.png"
+    },
+    {
+      "title": "3 dormitórios final 3",
+      "image": "images/23-Planta-apto-3-quartos-Final-03-1.png"
+    },
+    {
+      "title": "Duplex final 2",
+      "image": "images/24-Planta-Duplex-Final-02-1o-Pav-1.png"
+    },
+    {
+      "title": "Duplex final 2 superior",
+      "image": "images/25-Planta-Duplex-Final-02-2o-Pav.png"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-Externo-Vista-de-Passaro.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Mirante-vista-diurna-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Academia-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Adega.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Atelie.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Bussines-Center.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Cinema.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Espaco-Beleza.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Espaco-Gourmet-Mirante-dos-Corais-Render-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Espaco-Gourmet.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Espaco-Kids-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Hall.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Horta.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Pet-Place-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Piscina-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Praca-de-Fogo.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Sala-de-Jogos-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Salao-de-Festas.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Teen-Lounge.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Planta-apto-2-quartos-Final-04.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Planta-apto-2-quartos-Final-05.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Planta-apto-3-quartos-Final-01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Planta-apto-3-quartos-Final-03-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-Planta-Duplex-Final-02-1o-Pav-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-Planta-Duplex-Final-02-2o-Pav.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/mirante-dos-corais-coqueiros-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:44.386Z",
+  "kind": "apartamento"
+}

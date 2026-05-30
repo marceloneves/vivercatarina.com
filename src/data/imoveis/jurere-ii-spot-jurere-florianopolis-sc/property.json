@@ -1,0 +1,94 @@
+{
+  "id": 14836,
+  "slug": "jurere-ii-spot-jurere-florianopolis-sc",
+  "title": "Jurerê II Spot, Jurerê",
+  "category": "lancamento",
+  "price": {
+    "prefix": "Cotas a partir de",
+    "display": "R$409,300",
+    "amount": 409300,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Accacio de Melo, 70, Jurerê, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "jurere",
+      "name": "Jurerê"
+    }
+  },
+  "overview": {
+    "code": "1389",
+    "bedrooms": null,
+    "bathrooms": null,
+    "garages": null,
+    "sizeSqm": null,
+    "deliveryYear": "Jul/29"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "jul-29",
+      "name": "Jul/29"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "espaco-gourmet",
+    "piscina"
+  ],
+  "features": [
+    "Piscina",
+    "Espaço Gourmet"
+  ],
+  "descriptionHtml": "<p><strong>Studios modernos e funcionais </strong></p>\n<p>Cotas a partir de R$ 409.300,00 (Entrada parcelada em 3x + 37 parcelas mensais+ 6 reforços)</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 03/02/2026</em></li>\n</ul>\n<h5 data-start=\"236\" data-end=\"341\"><strong data-start=\"240\" data-end=\"341\">Lançamento SPE em Jurerê – Studios modernos a poucos metros do mar, com rentabilidade e segurança.</strong></h5>\n<p data-start=\"343\" data-end=\"608\">Viva ou invista em um dos bairros mais valorizados de Florianópolis. Este lançamento em <strong data-start=\"431\" data-end=\"441\">Jurerê</strong>, localizado a <strong data-start=\"456\" data-end=\"482\">poucos metros da praia</strong>, reúne o melhor do design contemporâneo, localização estratégica e alto potencial de rentabilidade em locações por temporada.</p>\n<p data-start=\"610\" data-end=\"850\">Com <strong data-start=\"614\" data-end=\"662\">studios compactos, modernos e instagramáveis</strong>, o projeto foi desenvolvido para atender à crescente demanda de hospedagens de curta e média duração, tornando-se uma excelente opção para quem busca rendimento e valorização patrimonial.</p>\n<p data-start=\"852\" data-end=\"887\"><strong data-start=\"852\" data-end=\"887\">Diferenciais do empreendimento:</strong></p>\n<ul data-start=\"888\" data-end=\"1203\">\n<li data-start=\"888\" data-end=\"938\">\n<p data-start=\"890\" data-end=\"938\">Studios planejados para locações por temporada <strong>com metragens de 15,28m² a 26,21m² </strong></p>\n</li>\n<li data-start=\"939\" data-end=\"1006\">\n<p data-start=\"941\" data-end=\"1006\">Ambientes funcionais, com estética moderna e espaços otimizados</p>\n</li>\n<li data-start=\"1007\" data-end=\"1043\">\n<p data-start=\"1009\" data-end=\"1043\"><strong data-start=\"1009\" data-end=\"1041\">Piscina com vista para o mar</strong></p>\n</li>\n<li data-start=\"1044\" data-end=\"1115\">\n<p data-start=\"1046\" data-end=\"1115\"><strong data-start=\"1046\" data-end=\"1064\">Espaço gourmet</strong> e áreas comuns que encantam hóspedes e moradores</p>\n</li>\n<li data-start=\"1116\" data-end=\"1203\">\n<p data-start=\"1118\" data-end=\"1203\">Localização privilegiada: próximo à praia, beach clubs, restaurantes e comércio local</p>\n</li>\n</ul>\n<p data-start=\"1205\" data-end=\"1386\"><strong data-start=\"1205\" data-end=\"1264\">Construído na modalidade SPE – Mais economia e controle</strong><br />\nEste empreendimento será desenvolvido no formato <strong data-start=\"1314\" data-end=\"1357\">SPE (Sociedade de Propósito Específico)</strong>, oferecendo aos compradores:</p>\n<ul data-start=\"1387\" data-end=\"1756\">\n<li data-start=\"1387\" data-end=\"1471\">\n<p data-start=\"1389\" data-end=\"1471\"><strong data-start=\"1389\" data-end=\"1407\">Preço de custo</strong>, sem a margem de lucro embutida das construtoras tradicionais</p>\n</li>\n<li data-start=\"1472\" data-end=\"1572\">\n<p data-start=\"1474\" data-end=\"1572\"><strong data-start=\"1474\" data-end=\"1497\">Transparência total</strong>, com acompanhamento financeiro da obra e participação ativa nas decisões</p>\n</li>\n<li data-start=\"1573\" data-end=\"1644\">\n<p data-start=\"1575\" data-end=\"1644\"><strong data-start=\"1575\" data-end=\"1597\">Segurança jurídica</strong>, com a unidade vinculada à cota na sociedade</p>\n</li>\n<li data-start=\"1645\" data-end=\"1756\">\n<p data-start=\"1647\" data-end=\"1756\"><strong data-start=\"1647\" data-end=\"1669\">Alta rentabilidade</strong>, com retorno potencial acima da média, especialmente em regiões turísticas como Jurerê</p>\n</li>\n</ul>\n<p data-start=\"1758\" data-end=\"1980\">A obra será conduzida pela <strong data-start=\"1785\" data-end=\"1796\">Seazone</strong>, empresa sólida e especializada na concepção, construção e gestão de imóveis voltados à locação por temporada, com ampla experiência em projetos SPE e histórico comprovado de sucesso.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2025-06-20-114557-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Captura-de-tela-2025-06-20-114457.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Captura-de-tela-2025-06-20-114627.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Captura-de-tela-2025-06-20-114659.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2025-06-20-114718.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Captura-de-tela-2025-06-20-114740.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/jurere-ii-spot-jurere-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:57.544Z",
+  "kind": "apartamento"
+}

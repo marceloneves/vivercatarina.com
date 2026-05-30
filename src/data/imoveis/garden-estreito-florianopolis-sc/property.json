@@ -1,0 +1,250 @@
+{
+  "id": 16135,
+  "slug": "garden-estreito-florianopolis-sc",
+  "title": "Studio Garden, D/Nex, no Estreito",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": null,
+    "display": "R$618,000",
+    "amount": 618000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Avenida Marinheiro Max Schramm, Estreito, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "estreito",
+      "name": "Estreito"
+    }
+  },
+  "overview": {
+    "code": "1439",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 44.492,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "garden",
+      "name": "Garden"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "adega",
+    "bicicletario",
+    "brinquedoteca",
+    "churrasqueira",
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "lavanderia",
+    "mini-market",
+    "piscina",
+    "quadra-de-esportes",
+    "sala-de-jogos",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Lavanderia",
+    "Academia",
+    "Quadra de esportes",
+    "Salão de Festas",
+    "Piscina",
+    "Sala de Jogos",
+    "Coworking",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Brinquedoteca",
+    "Mini-market",
+    "Adega",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p data-start=\"144\" data-end=\"264\"><strong data-start=\"144\" data-end=\"264\">Studio Garden – Praticidade, design e lazer completo no coração de Florianópolis</strong></p>\n<p data-start=\"266\" data-end=\"503\">Este <strong data-start=\"271\" data-end=\"293\">Studio garden</strong>  é a escolha ideal para quem busca um estilo de vida moderno, funcional e com muito conforto.  Possui <strong data-start=\"471\" data-end=\"502\">1 vaga de garagem privativa</strong>.</p>\n<p data-start=\"505\" data-end=\"710\">Localizado em um dos empreendimentos mais inovadores da cidade, oferece uma <strong data-start=\"594\" data-end=\"649\">infraestrutura de lazer e conveniência incomparável</strong>, com espaços pensados para o dia a dia dinâmico e conectado:</p>\n<ul data-start=\"712\" data-end=\"1282\">\n<li data-start=\"712\" data-end=\"741\">\n<p data-start=\"714\" data-end=\"741\">Hall de entrada com estar</p>\n</li>\n<li data-start=\"742\" data-end=\"788\">\n<p data-start=\"744\" data-end=\"788\"><strong data-start=\"744\" data-end=\"758\">Homemarket</strong> (minimercado no condomínio)</p>\n</li>\n<li data-start=\"789\" data-end=\"851\">\n<p data-start=\"791\" data-end=\"851\"><strong data-start=\"791\" data-end=\"809\">Delivery Space</strong> (espaço para recebimento de encomendas)</p>\n</li>\n<li data-start=\"852\" data-end=\"879\">\n<p data-start=\"854\" data-end=\"879\"><strong data-start=\"854\" data-end=\"877\">Coworking mobiliado</strong></p>\n</li>\n<li data-start=\"880\" data-end=\"901\">\n<p data-start=\"882\" data-end=\"901\"><strong data-start=\"882\" data-end=\"899\">Sala de jogos</strong></p>\n</li>\n<li data-start=\"902\" data-end=\"934\">\n<p data-start=\"904\" data-end=\"934\"><strong data-start=\"904\" data-end=\"932\">Lavanderia compartilhada</strong></p>\n</li>\n<li data-start=\"935\" data-end=\"955\">\n<p data-start=\"937\" data-end=\"955\"><strong data-start=\"937\" data-end=\"953\">Espaço Clean</strong></p>\n</li>\n<li data-start=\"956\" data-end=\"974\">\n<p data-start=\"958\" data-end=\"974\"><strong data-start=\"958\" data-end=\"972\">Sky Lounge</strong></p>\n</li>\n<li data-start=\"975\" data-end=\"998\">\n<p data-start=\"977\" data-end=\"998\"><strong data-start=\"977\" data-end=\"996\">Salão de festas</strong></p>\n</li>\n<li data-start=\"999\" data-end=\"1020\">\n<p data-start=\"1001\" data-end=\"1020\"><strong data-start=\"1001\" data-end=\"1018\">Salão Gourmet</strong></p>\n</li>\n<li data-start=\"1021\" data-end=\"1064\">\n<p data-start=\"1023\" data-end=\"1064\"><strong data-start=\"1023\" data-end=\"1041\">Rooftop Lounge</strong> com vista panorâmica</p>\n</li>\n<li data-start=\"1065\" data-end=\"1082\">\n<p data-start=\"1067\" data-end=\"1082\"><strong data-start=\"1067\" data-end=\"1080\">Pet Place</strong></p>\n</li>\n<li data-start=\"1083\" data-end=\"1106\">\n<p data-start=\"1085\" data-end=\"1106\"><strong data-start=\"1085\" data-end=\"1104\">Ateliê Infantil</strong></p>\n</li>\n<li data-start=\"1107\" data-end=\"1131\">\n<p data-start=\"1109\" data-end=\"1131\"><strong data-start=\"1109\" data-end=\"1129\">Piscina com deck</strong></p>\n</li>\n<li data-start=\"1132\" data-end=\"1169\">\n<p data-start=\"1134\" data-end=\"1169\"><strong data-start=\"1134\" data-end=\"1167\">Quadra poliesportiva de areia</strong></p>\n</li>\n<li data-start=\"1170\" data-end=\"1214\">\n<p data-start=\"1172\" data-end=\"1214\"><strong data-start=\"1172\" data-end=\"1212\">Academia (fitness interno e externo)</strong></p>\n</li>\n<li data-start=\"1215\" data-end=\"1235\">\n<p data-start=\"1217\" data-end=\"1235\"><strong data-start=\"1217\" data-end=\"1233\">Espaço Grill</strong></p>\n</li>\n<li data-start=\"1236\" data-end=\"1265\">\n<p data-start=\"1238\" data-end=\"1265\"><strong data-start=\"1238\" data-end=\"1263\">Oficina compartilhada</strong></p>\n</li>\n<li data-start=\"1266\" data-end=\"1282\">\n<p data-start=\"1268\" data-end=\"1282\"><strong data-start=\"1268\" data-end=\"1282\">Bike Share</strong></p>\n</li>\n</ul>\n<p data-start=\"1284\" data-end=\"1483\">Além de todos esses diferenciais, o empreendimento está situado em uma região de alta valorização e demanda, sendo uma excelente opção tanto para moradia quanto para investimento com foco em locação.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-apartamento-1-quarto-42m2-1-garagem-estreito-florianopolis-cod-466-2-1.webp",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-original_f2ef186c031c5aa3420d6cd704f084e5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-original_59c4b398c3643bfc1fb7b91af32d3649.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-original_3d0169dbffd6aad0c53af031d41aa8ac.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-original_11ad74cf1e8319ea9598ddd2a276df74.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-original_2e9f13390882f8e4f5286fa3103b9093.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-original_04631495630efe292b1aaf506ecaa645.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-original_94d2a9f87206d211f43e7a9520748d72.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-original_fb8359c6d8496a10bb9da980e5ac6a62.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-original_4c30a121c23e36101c4c11ebdef5d44c.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-original_88a7c6d2fed285043c9525753d4fc4b1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-PHOTO-2025-02-10-12-15-38-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-PHOTO-2025-02-10-12-15-38-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-PHOTO-2025-02-10-12-15-38-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-PHOTO-2025-02-10-12-18-17-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-PHOTO-2025-02-10-12-18-17-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-PHOTO-2025-02-10-12-18-17-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-PHOTO-2025-02-10-12-18-17-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-PHOTO-2025-02-10-12-18-17-14.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-PHOTO-2025-02-10-12-18-17-16.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-PHOTO-2025-02-10-12-18-17-17.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-PHOTO-2025-02-10-12-18-17-21.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-PHOTO-2025-02-10-12-18-17-24.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-PHOTO-2025-02-10-12-43-09-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-PHOTO-2025-02-10-12-43-09-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-PHOTO-2025-02-10-12-43-09-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-PHOTO-2025-02-10-12-43-09-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-PHOTO-2025-02-10-12-43-09-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-PHOTO-2025-02-10-12-43-09-12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/30-PHOTO-2025-02-10-12-43-09-13.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/31-PHOTO-2025-02-10-12-43-09-14.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/32-PHOTO-2025-02-10-12-43-09-15.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/33-PHOTO-2025-02-10-12-43-09-17.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/34-PHOTO-2025-02-10-12-43-09-20.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/35-PHOTO-2025-02-10-12-43-09-21.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/36-PHOTO-2025-02-10-12-43-09-22.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/37-PHOTO-2025-02-10-12-43-09-25.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/38-PHOTO-2025-02-10-12-43-09-27.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/39-original_c02c49c8a4b32c6d65081b3a9f12710c.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/garden-estreito-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:48.770Z",
+  "kind": "apartamento"
+}

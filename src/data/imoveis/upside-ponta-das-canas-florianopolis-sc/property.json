@@ -1,0 +1,206 @@
+{
+  "id": 21311,
+  "slug": "upside-ponta-das-canas-florianopolis-sc",
+  "title": "UpSide, Ponta das Canas, Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$279,000",
+    "amount": 279000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Quilombo dos Palmares, Ponta das Canas, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ponta-das-canas",
+      "name": "Ponta das Canas"
+    }
+  },
+  "overview": {
+    "code": "1601",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": 1,
+    "sizeSqm": 232,
+    "deliveryYear": "Abr/29"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "abr-29",
+      "name": "Abr/29"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "especo-pet",
+    "lavanderia",
+    "mini-market",
+    "piscina",
+    "playground",
+    "praca-de-fogo",
+    "rooftop",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Lavanderia",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Pet",
+    "Playground",
+    "Coworking",
+    "Espaço Gourmet",
+    "Praça de fogo",
+    "Mini-market",
+    "Elevador",
+    "Rooftop"
+  ],
+  "descriptionHtml": "<p><strong>Opções de Studios, Studios Garden, Apartamento com 1 quarto e coberturas com 1 suíte. </strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Aceita criptomoeda como pagamento</li>\n<li>Estuda-se imóvel de menor valor como parte de pagamento</li>\n<li><em>Valores atualizados em 17/05/2026</em></li>\n</ul>\n<h5 data-start=\"0\" data-end=\"51\">Lançamento em Ponta das Canas – Florianópolis</h5>\n<p data-start=\"52\" data-end=\"128\"><strong data-start=\"52\" data-end=\"126\">Viva a poucos passos do mar com conforto, estilo e alta rentabilidade.</strong></p>\n<p data-start=\"130\" data-end=\"493\">Apresentamos um novo e exclusivo empreendimento localizado em <strong data-start=\"192\" data-end=\"211\">Ponta das Canas</strong>, uma das praias mais encantadoras e tranquilas do norte de Florianópolis. Situado <strong data-start=\"294\" data-end=\"323\">a apenas 90 passos do mar</strong>, este projeto reúne o melhor da vida praiana com uma proposta de investimento inteligente, ideal tanto para moradia quanto para rentabilidade em locações de temporada.</p>\n<p data-start=\"495\" data-end=\"673\">O empreendimento conta com <strong data-start=\"522\" data-end=\"585\">studios, gardens, apartamentos e coberturas de 1 dormitório</strong>, todos projetados para oferecer conforto, funcionalidade e acabamento de alto padrão.</p>\n<hr data-start=\"675\" data-end=\"678\" />\n<h5 data-start=\"680\" data-end=\"734\">🌅 <strong data-start=\"688\" data-end=\"734\">Tipologias e Diferenciais dos Apartamentos</strong></h5>\n<ul data-start=\"735\" data-end=\"1016\">\n<li data-start=\"735\" data-end=\"798\">\n<p data-start=\"737\" data-end=\"798\">Studios, Gardens, Apartamentos e Coberturas de 1 dormitório</p>\n</li>\n<li data-start=\"799\" data-end=\"824\">\n<p data-start=\"801\" data-end=\"824\"><strong data-start=\"801\" data-end=\"822\">Fechadura digital</strong></p>\n</li>\n<li data-start=\"825\" data-end=\"874\">\n<p data-start=\"827\" data-end=\"874\"><strong data-start=\"827\" data-end=\"872\">Infraestrutura para ar-condicionado split</strong></p>\n</li>\n<li data-start=\"875\" data-end=\"921\">\n<p data-start=\"877\" data-end=\"921\"><strong data-start=\"877\" data-end=\"897\">Piso porcelanato</strong> em todos os ambientes</p>\n</li>\n<li data-start=\"922\" data-end=\"954\">\n<p data-start=\"924\" data-end=\"954\"><strong data-start=\"924\" data-end=\"952\">Nicho no box do banheiro</strong></p>\n</li>\n<li data-start=\"955\" data-end=\"1016\">\n<p data-start=\"957\" data-end=\"1016\"><strong data-start=\"957\" data-end=\"979\">Acabamento moderno</strong> e com excelente padrão construtivo</p>\n</li>\n</ul>\n<hr data-start=\"1018\" data-end=\"1021\" />\n<h5 data-start=\"1023\" data-end=\"1061\">🏢 <strong data-start=\"1031\" data-end=\"1061\">Diferenciais do Condomínio</strong></h5>\n<ul data-start=\"1062\" data-end=\"1351\">\n<li data-start=\"1062\" data-end=\"1095\">\n<p data-start=\"1064\" data-end=\"1095\"><strong data-start=\"1064\" data-end=\"1093\">Monitoramento por câmeras</strong></p>\n</li>\n<li data-start=\"1096\" data-end=\"1130\">\n<p data-start=\"1098\" data-end=\"1130\"><strong data-start=\"1098\" data-end=\"1128\">Controle de acesso digital</strong></p>\n</li>\n<li data-start=\"1131\" data-end=\"1150\">\n<p data-start=\"1133\" data-end=\"1150\"><strong data-start=\"1133\" data-end=\"1148\">Ralo linear</strong></p>\n</li>\n<li data-start=\"1151\" data-end=\"1226\">\n<p data-start=\"1153\" data-end=\"1226\"><strong data-start=\"1153\" data-end=\"1188\">Tubulação hidráulica envelopada</strong>, garantindo <strong data-start=\"1201\" data-end=\"1224\">atenuação de ruídos</strong></p>\n</li>\n<li data-start=\"1227\" data-end=\"1270\">\n<p data-start=\"1229\" data-end=\"1270\"><strong data-start=\"1229\" data-end=\"1268\">Infraestrutura para portaria remota</strong></p>\n</li>\n<li data-start=\"1271\" data-end=\"1351\">\n<p data-start=\"1273\" data-end=\"1351\"><strong data-start=\"1273\" data-end=\"1308\">Aproveitamento de água da chuva</strong>, priorizando sustentabilidade e economia</p>\n</li>\n</ul>\n<hr data-start=\"1353\" data-end=\"1356\" />\n<h5 data-start=\"1358\" data-end=\"1402\">🌴 <strong data-start=\"1366\" data-end=\"1402\">Infraestrutura de Lazer Completa</strong></h5>\n<p data-start=\"1403\" data-end=\"1510\">O empreendimento foi planejado para proporcionar lazer, conforto e praticidade em todas as fases da vida.</p>\n<p data-start=\"1512\" data-end=\"1531\"><strong data-start=\"1512\" data-end=\"1529\">Áreas Comuns:</strong></p>\n<ul data-start=\"1532\" data-end=\"1737\">\n<li data-start=\"1532\" data-end=\"1543\">\n<p data-start=\"1534\" data-end=\"1543\">Piscina</p>\n</li>\n<li data-start=\"1544\" data-end=\"1576\">\n<p data-start=\"1546\" data-end=\"1576\">Rooftop com vista panorâmica</p>\n</li>\n<li data-start=\"1577\" data-end=\"1596\">\n<p data-start=\"1579\" data-end=\"1596\">Salão de festas</p>\n</li>\n<li data-start=\"1597\" data-end=\"1609\">\n<p data-start=\"1599\" data-end=\"1609\">Academia</p>\n</li>\n<li data-start=\"1610\" data-end=\"1623\">\n<p data-start=\"1612\" data-end=\"1623\">Coworking</p>\n</li>\n<li data-start=\"1624\" data-end=\"1639\">\n<p data-start=\"1626\" data-end=\"1639\">Minimercado</p>\n</li>\n<li data-start=\"1640\" data-end=\"1668\">\n<p data-start=\"1642\" data-end=\"1668\">Lavanderia compartilhada</p>\n</li>\n<li data-start=\"1669\" data-end=\"1683\">\n<p data-start=\"1671\" data-end=\"1683\">Playground</p>\n</li>\n<li data-start=\"1684\" data-end=\"1708\">\n<p data-start=\"1686\" data-end=\"1708\">Pet Place e Pet Care</p>\n</li>\n<li data-start=\"1709\" data-end=\"1722\">\n<p data-start=\"1711\" data-end=\"1722\">Fireplace</p>\n</li>\n<li data-start=\"1723\" data-end=\"1737\">\n<p data-start=\"1725\" data-end=\"1737\">Pranchario</p>\n</li>\n</ul>\n<p data-start=\"1739\" data-end=\"1913\">Cada detalhe foi pensado para oferecer <strong data-start=\"1778\" data-end=\"1813\">praticidade e qualidade de vida</strong> — perfeito para quem quer morar ou investir em uma das regiões mais promissoras de Florianópolis.</p>\n<hr data-start=\"1915\" data-end=\"1918\" />\n<h5 data-start=\"1920\" data-end=\"1982\">💼 <strong data-start=\"1928\" data-end=\"1982\">Investimento Inteligente – Modelo a Preço de Custo</strong></h5>\n<p data-start=\"1983\" data-end=\"2186\">Este empreendimento é desenvolvido no modelo <strong data-start=\"2028\" data-end=\"2071\">SPE – Sociedade de Propósito Específico</strong>, na modalidade <strong data-start=\"2087\" data-end=\"2105\">Preço de Custo</strong>, que garante <strong data-start=\"2119\" data-end=\"2169\">maior rentabilidade, segurança e transparência</strong> ao investidor.</p>\n<p data-start=\"2188\" data-end=\"2214\"><strong data-start=\"2188\" data-end=\"2212\">Vantagens do modelo:</strong></p>\n<ul data-start=\"2215\" data-end=\"2625\">\n<li data-start=\"2215\" data-end=\"2350\">\n<p data-start=\"2217\" data-end=\"2350\"><strong data-start=\"2217\" data-end=\"2241\">Maior rentabilidade:</strong> o investidor absorve a margem do incorporador e compra a um preço sistematicamente menor que o de mercado.</p>\n</li>\n<li data-start=\"2351\" data-end=\"2471\">\n<p data-start=\"2353\" data-end=\"2471\"><strong data-start=\"2353\" data-end=\"2373\">Maior segurança:</strong> o terreno é garantido e o capital investido permanece na SPE, que é independente e fiscalizada.</p>\n</li>\n<li data-start=\"2472\" data-end=\"2625\">\n<p data-start=\"2474\" data-end=\"2625\"><strong data-start=\"2474\" data-end=\"2498\">Maior transparência:</strong> assembleias acompanham o andamento da obra, o conselho fiscal tem acesso aos extratos bancários, notas fiscais e balancetes.</p>\n</li>\n</ul>\n<hr data-start=\"2627\" data-end=\"2630\" />\n<h5 data-start=\"2632\" data-end=\"2655\">📍 <strong data-start=\"2640\" data-end=\"2655\">Localização</strong></h5>\n<p data-start=\"2656\" data-end=\"2888\">Localizado em uma das praias mais encantadoras de Florianópolis, <strong data-start=\"2721\" data-end=\"2740\">Ponta das Canas</strong> oferece um ambiente de tranquilidade, natureza exuberante e conveniência, com fácil acesso a <strong data-start=\"2834\" data-end=\"2885\">Canasvieiras, Lagoinha e Cachoeira do Bom Jesus</strong>.</p>\n<hr data-start=\"2890\" data-end=\"2893\" />\n<p data-start=\"2895\" data-end=\"3102\">Este lançamento representa uma <strong data-start=\"2926\" data-end=\"2982\">oportunidade única de investimento seguro e rentável</strong>, aliado à experiência de viver a poucos metros do mar, em um endereço que valoriza a qualidade de vida e o bem-estar.</p>\n<p data-start=\"3104\" data-end=\"3288\" data-is-last-node=\"\" data-is-only-node=\"\">Quer saber mais sobre como participar desse investimento a preço de custo?<br data-start=\"3178\" data-end=\"3181\" />Entre em contato e descubra como fazer parte desse projeto exclusivo em <strong data-start=\"3253\" data-end=\"3288\" data-is-last-node=\"\">Ponta das Canas, Florianópolis.</strong></p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2025-10-27-135605-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Captura-de-tela-2025-10-27-135617.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Captura-de-tela-2025-10-27-135706.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Captura-de-tela-2025-10-27-135640.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2025-10-27-135629.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Captura-de-tela-2025-10-27-135654.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Captura-de-tela-2025-10-27-142403.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Captura-de-tela-2025-10-27-135457.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Captura-de-tela-2025-10-27-140142.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Captura-de-tela-2025-10-27-135538.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Captura-de-tela-2025-10-27-135551.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Captura-de-tela-2025-10-27-135717.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Captura-de-tela-2025-10-27-140157.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Captura-de-tela-2025-10-27-135729.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Captura-de-tela-2025-10-27-135813.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Captura-de-tela-2025-10-27-135827.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Captura-de-tela-2025-10-27-135840.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Captura-de-tela-2025-10-27-135854.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Captura-de-tela-2025-10-27-135911.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Captura-de-tela-2025-10-27-135923.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Captura-de-tela-2025-10-27-135939.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Captura-de-tela-2025-10-27-135953.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Captura-de-tela-2025-10-27-140011.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-Captura-de-tela-2025-10-27-140023.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-Captura-de-tela-2025-10-27-140035.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-Captura-de-tela-2025-10-27-140046.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-Captura-de-tela-2025-10-27-140058.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-Captura-de-tela-2025-10-27-140117.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-Captura-de-tela-2025-10-27-140226.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/upside-ponta-das-canas-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:44:01.484Z",
+  "kind": "loteamento"
+}

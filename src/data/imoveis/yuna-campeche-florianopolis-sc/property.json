@@ -1,0 +1,108 @@
+{
+  "id": 14726,
+  "slug": "yuna-campeche-florianopolis-sc",
+  "title": "250 metros do mar, Yuná, Novo Campeche",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$320,000",
+    "amount": 320000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Otavio Cruz, Novo Campeche, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "campeche",
+      "name": "Campeche"
+    }
+  },
+  "overview": {
+    "code": "1385",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 19.72,
+    "deliveryYear": "2029"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "2029",
+      "name": "2029"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "lofts",
+      "name": "Lofts"
+    }
+  ],
+  "featureSlugs": [
+    "bicicletario",
+    "espaco-gourmet",
+    "piscina"
+  ],
+  "features": [
+    "Piscina",
+    "Espaço Gourmet",
+    "Bicicletário"
+  ],
+  "descriptionHtml": "<p><strong>Studios com metragens de 15,47m² a partir de R$ 320.000,00 </strong></p>\n<p>Entrada + parcelas + reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 05/03/2026</em></li>\n</ul>\n<h5 data-start=\"248\" data-end=\"332\"><strong data-start=\"252\" data-end=\"332\">Pré-lançamento no Novo Campeche – Viva ou invista a apenas 250 metros do mar</strong></h5>\n<p data-start=\"334\" data-end=\"654\">Apresentamos um novo empreendimento em <strong data-start=\"373\" data-end=\"391\">pré-lançamento</strong> no <strong data-start=\"395\" data-end=\"412\">Novo Campeche</strong>, uma das regiões mais valorizadas e desejadas de Florianópolis. Com localização privilegiada, a apenas <strong data-start=\"516\" data-end=\"537\">250 metros do mar</strong>, este projeto une conforto, praticidade, alto potencial de valorização e uma excelente oportunidade de investimento.</p>\n<p data-start=\"656\" data-end=\"1114\">Construído na <strong data-start=\"670\" data-end=\"724\">modalidade SPE (Sociedade de Propósito Específico)</strong>, este modelo garante mais transparência e economia, permitindo que os compradores participem diretamente da estrutura da sociedade e acompanhem o custo real da obra, sem margens embutidas ou lucros de construtora. A responsável pelo projeto é uma <strong data-start=\"972\" data-end=\"1043\">empresa sólida, com ampla experiência e tradição em construções SPE</strong>, reconhecida pela qualidade e entrega pontual de seus empreendimentos.</p>\n<p data-start=\"1116\" data-end=\"1143\"><strong data-start=\"1116\" data-end=\"1143\">Tipologias disponíveis:</strong></p>\n<ul data-start=\"1144\" data-end=\"1263\">\n<li data-start=\"1144\" data-end=\"1177\">\n<p data-start=\"1146\" data-end=\"1177\"><strong data-start=\"1146\" data-end=\"1157\">Studios</strong> com ou sem sacada</p>\n</li>\n<li data-start=\"1178\" data-end=\"1210\">\n<p data-start=\"1180\" data-end=\"1210\"><strong data-start=\"1180\" data-end=\"1189\">Lofts</strong> com design moderno</p>\n</li>\n<li data-start=\"1211\" data-end=\"1263\">\n<p data-start=\"1213\" data-end=\"1263\"><strong data-start=\"1213\" data-end=\"1231\">Studios garden</strong> com espaços externos privativos</p>\n</li>\n</ul>\n<p data-start=\"1265\" data-end=\"1308\"><strong data-start=\"1265\" data-end=\"1308\">Infraestrutura de lazer e conveniência:</strong></p>\n<ul data-start=\"1309\" data-end=\"1386\">\n<li data-start=\"1309\" data-end=\"1333\">\n<p data-start=\"1311\" data-end=\"1333\">Piscina com solarium</p>\n</li>\n<li data-start=\"1334\" data-end=\"1350\">\n<p data-start=\"1336\" data-end=\"1350\">Bicicletário</p>\n</li>\n<li data-start=\"1351\" data-end=\"1386\">\n<p data-start=\"1353\" data-end=\"1386\">Espaços de convivência planejados</p>\n</li>\n</ul>\n<p data-start=\"1388\" data-end=\"1405\"><strong data-start=\"1388\" data-end=\"1405\">Diferenciais:</strong></p>\n<ul data-start=\"1406\" data-end=\"1666\">\n<li data-start=\"1406\" data-end=\"1442\">\n<p data-start=\"1408\" data-end=\"1442\">A apenas <strong data-start=\"1417\" data-end=\"1440\">250 metros da praia</strong></p>\n</li>\n<li data-start=\"1443\" data-end=\"1480\">\n<p data-start=\"1445\" data-end=\"1480\"><strong data-start=\"1445\" data-end=\"1478\">Alto potencial de valorização</strong></p>\n</li>\n<li data-start=\"1481\" data-end=\"1523\">\n<p data-start=\"1483\" data-end=\"1523\">Localização nobre no <strong data-start=\"1504\" data-end=\"1521\">Novo Campeche</strong></p>\n</li>\n<li data-start=\"1524\" data-end=\"1666\">\n<p data-start=\"1526\" data-end=\"1666\">Região com excelente infraestrutura urbana, próximo de cafés, mercados, academias e a poucos minutos do Aeroporto Internacional Hercílio Luz</p>\n</li>\n</ul>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2025-06-13-100130-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Captura-de-tela-2025-06-13-100322.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Captura-de-tela-2025-06-13-100224.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-48ae250a-e1b6-412a-a385-35508a6fdc0c.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2025-06-13-100425.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Captura-de-tela-2025-06-13-100357.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Captura-de-tela-2025-06-13-100456.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Captura-de-tela-2025-06-13-100557.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Captura-de-tela-2025-06-13-100638.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/yuna-campeche-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:00.362Z",
+  "kind": "apartamento"
+}

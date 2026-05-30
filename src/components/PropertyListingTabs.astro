@@ -1,0 +1,220 @@
+---
+import PropertyListingCard from './PropertyListingCard.astro';
+import { buildPaginationMarkup, LISTINGS_PER_PAGE } from '../lib/property-listings.mjs';
+
+const {
+	properties,
+	allProperties = properties,
+	currentPage,
+	totalPages,
+	basePath,
+	sidebarHtml,
+	perPage = LISTINGS_PER_PAGE,
+} = Astro.props;
+
+const paginationMarkup = buildPaginationMarkup(currentPage, totalPages, basePath);
+const hasProperties = allProperties.length > 0;
+---
+
+<div
+	class="property-listing-tabs"
+	data-base-path={basePath}
+	data-current-page={currentPage}
+	data-per-page={perPage}
+	data-total-items={allProperties.length}
+>
+	<div class="tab-content" id="nav-tabContent">
+		<div class="tab-pane fade" id="tab-grid" role="tabpanel" aria-labelledby="tab-shop-grid">
+			<div class="row gy-40">
+				<div id="property-target-grid-items" class="property-target-items contents">
+					{
+						!hasProperties ? (
+							<div class="col-12">
+								<p class="text-center py-5 mb-0">
+									Nenhum lançamento encontrado neste bairro no momento.
+								</p>
+							</div>
+						) : (
+							properties.map((property) => (
+								<PropertyListingCard property={property} variant="grid" />
+							))
+						)
+					}
+				</div>
+				<Fragment set:html={paginationMarkup} />
+			</div>
+		</div>
+
+		<div class="tab-pane fade active show" id="tab-list" role="tabpanel" aria-labelledby="tab-shop-list">
+			<div class="row gy-40 justify-content-center">
+				<div class="col-xl-8 col-lg-12">
+					<div class="row gy-30">
+						<div id="property-target-list-items" class="property-target-items contents">
+							{
+								!hasProperties ? (
+									<div class="col-xl-12">
+										<p class="text-center py-5 mb-0">
+											Nenhum lançamento encontrado neste bairro no momento.
+										</p>
+									</div>
+								) : (
+									properties.map((property) => (
+										<PropertyListingCard property={property} variant="list" />
+									))
+								)
+							}
+						</div>
+						<Fragment set:html={paginationMarkup} />
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6">
+					<Fragment set:html={sidebarHtml} />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{
+		hasProperties && (
+			<div class="property-listing-catalog" hidden aria-hidden="true">
+				<div id="property-catalog-grid">
+					{allProperties.map((property) => (
+						<PropertyListingCard property={property} variant="grid" />
+					))}
+				</div>
+				<div id="property-catalog-list">
+					{allProperties.map((property) => (
+						<PropertyListingCard property={property} variant="list" />
+					))}
+				</div>
+			</div>
+		)
+	}
+</div>
+
+{
+	hasProperties && (
+		<script>
+			const STORAGE_PREFIX = 'bairro-property-sort:';
+
+			function getSortKey(basePath) {
+				return `${STORAGE_PREFIX}${basePath}`;
+			}
+
+			function compareCards(a, b, orderBy) {
+				const priceA = Number(a.dataset.price) > 0 ? Number(a.dataset.price) : null;
+				const priceB = Number(b.dataset.price) > 0 ? Number(b.dataset.price) : null;
+				const titleA = a.querySelector('.box-title a')?.textContent?.trim() ?? '';
+				const titleB = b.querySelector('.box-title a')?.textContent?.trim() ?? '';
+
+				if (priceA == null && priceB == null) {
+					return titleA.localeCompare(titleB, 'pt-BR');
+				}
+
+				if (priceA == null) {
+					return 1;
+				}
+
+				if (priceB == null) {
+					return -1;
+				}
+
+				if (orderBy === 'price-desc') {
+					return priceB - priceA || titleA.localeCompare(titleB, 'pt-BR');
+				}
+
+				return priceA - priceB || titleA.localeCompare(titleB, 'pt-BR');
+			}
+
+			function sortSlugs(catalogGrid, orderBy) {
+				return [...catalogGrid.querySelectorAll('.property-listing-card')]
+					.sort((a, b) => compareCards(a, b, orderBy))
+					.map((card) => card.dataset.slug);
+			}
+
+			function renderSortedPage({
+				catalogGrid,
+				catalogList,
+				targetGrid,
+				targetList,
+				orderBy,
+				currentPage,
+				perPage,
+			}) {
+				const slugs = sortSlugs(catalogGrid, orderBy);
+				const start = (currentPage - 1) * perPage;
+				const pageSlugs = slugs.slice(start, start + perPage);
+
+				targetGrid.replaceChildren(
+					...pageSlugs.map((slug) => {
+						const card = catalogGrid.querySelector(`[data-slug="${CSS.escape(slug)}"]`);
+						return card ? card.cloneNode(true) : document.createDocumentFragment();
+					}),
+				);
+
+				targetList.replaceChildren(
+					...pageSlugs.map((slug) => {
+						const card = catalogList.querySelector(`[data-slug="${CSS.escape(slug)}"]`);
+						return card ? card.cloneNode(true) : document.createDocumentFragment();
+					}),
+				);
+			}
+
+			function initPropertySort() {
+				const root = document.querySelector('.property-listing-tabs');
+				const select = document.getElementById('property-orderby');
+				const catalogGrid = document.getElementById('property-catalog-grid');
+				const catalogList = document.getElementById('property-catalog-list');
+				const targetGrid = document.getElementById('property-target-grid-items');
+				const targetList = document.getElementById('property-target-list-items');
+
+				if (!root || !select || !catalogGrid || !catalogList || !targetGrid || !targetList) {
+					return;
+				}
+
+				const basePath = root.dataset.basePath ?? '';
+				const perPage = Number(root.dataset.perPage) || 10;
+				let currentPage = Number(root.dataset.currentPage) || 1;
+				const storageKey = getSortKey(basePath);
+				const savedSort = sessionStorage.getItem(storageKey) || 'price';
+
+				select.value = savedSort;
+
+				if (savedSort !== 'price') {
+					renderSortedPage({
+						catalogGrid,
+						catalogList,
+						targetGrid,
+						targetList,
+						orderBy: savedSort,
+						currentPage,
+						perPage,
+					});
+				}
+
+				select.addEventListener('change', () => {
+					const orderBy = select.value;
+					sessionStorage.setItem(storageKey, orderBy);
+
+					if (currentPage !== 1) {
+						window.location.href = basePath;
+						return;
+					}
+
+					renderSortedPage({
+						catalogGrid,
+						catalogList,
+						targetGrid,
+						targetList,
+						orderBy,
+						currentPage: 1,
+						perPage,
+					});
+				});
+			}
+
+			initPropertySort();
+		</script>
+	)
+}

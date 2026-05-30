@@ -1,0 +1,170 @@
+{
+  "id": 21468,
+  "slug": "imob-jurere-on-jurere-florianopolis-sc",
+  "title": "Imob Jurerê On, Jurerê, Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$344,000",
+    "amount": 344000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Jurerê Tradicional, Jurerê, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "jurere",
+      "name": "Jurerê"
+    }
+  },
+  "overview": {
+    "code": "1604",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 25.592,
+    "deliveryYear": "Jan/29"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "jan-29",
+      "name": "Jan/29"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "bicicletario",
+    "coworking",
+    "elevador",
+    "espaco-delivery",
+    "espaco-gourmet",
+    "lavanderia",
+    "mini-market"
+  ],
+  "features": [
+    "Lavanderia",
+    "Academia",
+    "Coworking",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Mini-market",
+    "Elevador",
+    "Espaço delivery"
+  ],
+  "descriptionHtml": "<h5 data-start=\"166\" data-end=\"227\">Studios com sacada com metragens de 25,59m² a 31,11m² a partir de R$ 344.000,00</h5>\n<h5 data-start=\"166\" data-end=\"227\">Lofts duplex com 42,2m² a 45,32m², 1 vaga de garagem a partir de R$ 504.0000,00</h5>\n<p>Entrada + parcelas (36x) + reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 05/03/2026</em></li>\n</ul>\n<h5 data-start=\"166\" data-end=\"227\">Imob Jurerê On – Lançamento SPE em Jurerê, Florianópolis</h5>\n<p data-start=\"229\" data-end=\"477\">Descubra um empreendimento moderno e estratégico, projetado para investidores e moradores exigentes: o Imob Jurerê On, localizado na Rua Jurerê Tradicional, a poucos metros da praia, em Jurerê, Florianópolis.</p>\n<h5 data-start=\"479\" data-end=\"512\">📍 Localização Privilegiada</h5>\n<p data-start=\"513\" data-end=\"824\">A poucos minutos da areia, o empreendimento está inserido em uma das regiões mais desejadas da ilha — Jurerê — com fácil acesso a comércio, gastronomia, lazer e transporte.</p>\n<h5 data-start=\"826\" data-end=\"857\">🏢 Tipologias &amp; Metragens</h5>\n<ul data-start=\"858\" data-end=\"1257\">\n<li data-start=\"858\" data-end=\"1018\">\n<p data-start=\"860\" data-end=\"1018\">Unidades tipo <strong data-start=\"874\" data-end=\"907\">studios/lofts de 1 dormitório</strong>, com áreas privativas que variam <strong data-start=\"941\" data-end=\"977\">aproximadamente de 23 m² a 56 m²</strong>.</p>\n</li>\n<li data-start=\"1019\" data-end=\"1154\">\n<p data-start=\"1021\" data-end=\"1154\">Formatos inteligentes voltados para alta liquidez e locações, com opções de sacada e terraço.</p>\n</li>\n<li data-start=\"1155\" data-end=\"1257\">\n<p data-start=\"1157\" data-end=\"1257\">Ideal tanto para moradia compacta quanto para investimento em temporada ou aluguel de curto prazo.</p>\n</li>\n</ul>\n<h5 data-start=\"1259\" data-end=\"1294\">🛠 Acabamentos e Diferenciais</h5>\n<ul data-start=\"1295\" data-end=\"1647\">\n<li data-start=\"1295\" data-end=\"1386\">\n<p data-start=\"1297\" data-end=\"1386\">Piso em porcelanato e acabamentos de alto padrão.</p>\n</li>\n<li data-start=\"1387\" data-end=\"1479\">\n<p data-start=\"1389\" data-end=\"1479\">Infraestrutura para ar-condicionado do tipo split.</p>\n</li>\n<li data-start=\"1480\" data-end=\"1555\">\n<p data-start=\"1482\" data-end=\"1555\">Fechadura digital nas unidades.</p>\n</li>\n<li data-start=\"1556\" data-end=\"1647\">\n<p data-start=\"1558\" data-end=\"1647\">Projeto moderno com foco em funcionalidade, rentabilidade e padrão construtivo elevado.</p>\n</li>\n</ul>\n<h5 data-start=\"1649\" data-end=\"1687\">🎉 Infraestrutura &amp; Áreas Comuns</h5>\n<p data-start=\"1688\" data-end=\"1777\">O Imob Jurerê On possui uma gama completa de comodidades para moradores e investidores:</p>\n<ul data-start=\"1778\" data-end=\"2389\">\n<li data-start=\"1778\" data-end=\"1840\">\n<p data-start=\"1780\" data-end=\"1840\">Academia equipada.</p>\n</li>\n<li data-start=\"1841\" data-end=\"1910\">\n<p data-start=\"1843\" data-end=\"1910\">Lavanderia compartilhada.</p>\n</li>\n<li data-start=\"1911\" data-end=\"1971\">\n<p data-start=\"1913\" data-end=\"1971\">Mini-market 24h.</p>\n</li>\n<li data-start=\"1972\" data-end=\"2038\">\n<p data-start=\"1974\" data-end=\"2038\">Coworking com cozinha.</p>\n</li>\n<li data-start=\"2039\" data-end=\"2133\">\n<p data-start=\"2041\" data-end=\"2133\">Bicicletário e opções de mobilidade compartilhada.</p>\n</li>\n<li data-start=\"2134\" data-end=\"2174\">\n<p data-start=\"2136\" data-end=\"2174\">Hall de entrada moderno e funcional.</p>\n</li>\n<li data-start=\"2175\" data-end=\"2389\">\n<p data-start=\"2177\" data-end=\"2389\">Projeto totalmente alinhado à modalidade SPE (Sociedade de Propósito Específico) a preço de custo, com foco em transparência, rentabilidade e segurança para o investidor.</p>\n</li>\n</ul>\n<h5 data-start=\"2391\" data-end=\"2445\">💼 Modelo de Investimento – SPE / Preço de Custo</h5>\n<ul data-start=\"2446\" data-end=\"3010\">\n<li data-start=\"2446\" data-end=\"2637\">\n<p data-start=\"2448\" data-end=\"2637\">O empreendimento é constituído como SPE, garantindo que o terreno seja garantido e que os valores investidos fiquem dentro da sociedade específica.</p>\n</li>\n<li data-start=\"2638\" data-end=\"2852\">\n<p data-start=\"2640\" data-end=\"2852\">O modelo “preço de custo” permite maior rentabilidade ao investidor comparado ao ciclo tradicional de lançamento: menor margem incorporadora, maior valorização potencial.</p>\n</li>\n<li data-start=\"2853\" data-end=\"3010\">\n<p data-start=\"2855\" data-end=\"3010\">Transparência, participação em assembleias e fiscalização do conselho: o investidor acompanha a evolução da obra.</p>\n</li>\n</ul>\n<hr data-start=\"3012\" data-end=\"3015\" />\n<p data-start=\"3017\" data-end=\"3217\">Se você busca um lançamento com localização premium, acabamento sofisticado, estrutura de lazer completa e excelente potencial de valorização/investimento, o Imob Jurerê On é uma oportunidade única.</p>\n<p data-start=\"3219\" data-end=\"3328\">👉 Entre em contato para conhecer as unidades disponíveis, valores atualizados e condições de participação.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2025-10-28-174242-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Captura-de-tela-2025-10-28-174353.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Captura-de-tela-2025-10-28-174416.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Captura-de-tela-2025-10-28-174304.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2025-10-28-174335.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-GPR_IMOB_LAZER_ESPACO-DELIVERY-scaled-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Captura-de-tela-2025-10-28-174911.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Captura-de-tela-2025-10-28-174927.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Captura-de-tela-2025-10-28-174938.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Captura-de-tela-2025-10-28-174951.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Captura-de-tela-2025-10-28-175003.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-GPR_IMOB__SACADAS_ANDAR-01_111-scaled-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-GPR_IMOB__SACADAS_ANDAR-01_112-scaled-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-GPR_IMOB__SACADAS_ANDAR-01_116-scaled-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-GPR_IMOB__SACADAS_ANDAR-01_117-scaled-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-GPR_IMOB_LAZER_View03-scaled-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-GPR_IMOB_SACADAS_505-scaled-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-GPR_IMOB_SACADAS_509-scaled-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-GPR_IMOB_SACADAS_510-scaled-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-GPR_IMOB_SACADAS_516-scaled-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-GPR_IMOB_SACADAS_517-scaled-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-GPR_IMOB_SACADAS_518-scaled-1.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/imob-jurere-on-jurere-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:38.599Z",
+  "kind": "loteamento"
+}

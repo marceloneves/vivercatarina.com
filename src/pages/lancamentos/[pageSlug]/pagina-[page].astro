@@ -1,0 +1,35 @@
+---
+import LancamentosKindPage from '../../../components/LancamentosKindPage.astro';
+import { LISTINGS_PER_PAGE } from '../../../lib/property-listings.mjs';
+import {
+	getLancamentosListingTotal,
+	PROPERTY_CATEGORIES,
+	PROPERTY_KINDS,
+} from '../../../lib/lancamentos-page.mjs';
+import { getKindPageSlug } from '../../../lib/property-kind.mjs';
+
+export function getStaticPaths() {
+	const paths = [];
+	const pageSlugs = [
+		...PROPERTY_KINDS.map((kind) => getKindPageSlug(kind)),
+		...PROPERTY_CATEGORIES,
+	];
+
+	for (const pageSlug of pageSlugs) {
+		const totalPages = Math.max(1, Math.ceil(getLancamentosListingTotal(pageSlug) / LISTINGS_PER_PAGE));
+
+		for (let page = 2; page <= totalPages; page += 1) {
+			paths.push({
+				params: { pageSlug, page: String(page) },
+				props: { pageSlug, page },
+			});
+		}
+	}
+
+	return paths;
+}
+
+const { pageSlug, page } = Astro.params;
+---
+
+<LancamentosKindPage pageSlug={pageSlug} page={Number(page)} />

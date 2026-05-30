@@ -1,0 +1,129 @@
+{
+  "id": 19396,
+  "slug": "rio-tavares-florianopolis-sc",
+  "title": "Loteamento Reserva do Leste, Rio Tavares",
+  "category": "lancamento",
+  "price": {
+    "prefix": null,
+    "display": "R$1,800,000",
+    "amount": 1800000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rod. Dr. Antônio Luiz Moura Gonzaga, Rio Tavares, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "rio-tavares",
+      "name": "Rio Tavares"
+    }
+  },
+  "overview": {
+    "code": "1560",
+    "bedrooms": null,
+    "bathrooms": null,
+    "garages": null,
+    "sizeSqm": 4492,
+    "deliveryYear": "Dez/26"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-26",
+      "name": "Dez/26"
+    }
+  ],
+  "labels": [],
+  "featureSlugs": [
+    "ciclofaixa",
+    "playground",
+    "quadra-de-esportes",
+    "quintal"
+  ],
+  "features": [
+    "Quadra de esportes",
+    "Playground",
+    "Quintal",
+    "Ciclofaixa"
+  ],
+  "descriptionHtml": "<p><strong>Terreno com 449 m² , excelente localização.</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel de menor valor como parte de pagamento</li>\n<li><em>Valores atualizados em 10/10/2025</em></li>\n</ul>\n<h5 data-start=\"150\" data-end=\"210\">Terreno no Reserva do Leste — Rio Tavares / Florianópolis</h5>\n<p data-start=\"212\" data-end=\"429\">Imagine construir seu novo lar em um loteamento que reúne natureza, localização privilegiada e lazer completo — esse é o <strong data-start=\"333\" data-end=\"353\">Reserva do Leste</strong>, localizado no charmoso bairro de Rio Tavares, na Ilha de Santa Catarina.</p>\n<h5 data-start=\"431\" data-end=\"463\">🌍 Localização Estratégica</h5>\n<ul data-start=\"464\" data-end=\"1015\">\n<li data-start=\"464\" data-end=\"623\">\n<p data-start=\"466\" data-end=\"623\">A apenas cerca de <strong data-start=\"484\" data-end=\"523\">800 metros da praia do Pico da Cruz</strong>, ideal para quem gosta do mar sem querer depender do carro.</p>\n</li>\n<li data-start=\"624\" data-end=\"788\">\n<p data-start=\"626\" data-end=\"788\">Próximo a escolas de qualidade, como a <strong data-start=\"665\" data-end=\"699\">Escola Bilingue Dinâmica Leste</strong>, e de mercados, farmácias e serviços essenciais.</p>\n</li>\n<li data-start=\"789\" data-end=\"1015\">\n<p data-start=\"791\" data-end=\"1015\">Acesso facilitado: cerca de <strong data-start=\"819\" data-end=\"873\">10 minutos do aeroporto internacional Hercílio Luz</strong>, aproximadamente <strong data-start=\"891\" data-end=\"932\">15 minutos do Centro de Florianópolis</strong> e próximo também à <strong data-start=\"952\" data-end=\"974\">Lagoa da Conceição</strong>.</p>\n</li>\n</ul>\n<h5 data-start=\"1017\" data-end=\"1048\">🏞 Infraestrutura &amp; Lazer</h5>\n<p data-start=\"1049\" data-end=\"1119\">O loteamento foi planejado para promover qualidade de vida completa:</p>\n<ul data-start=\"1121\" data-end=\"1766\">\n<li data-start=\"1121\" data-end=\"1249\">\n<p data-start=\"1123\" data-end=\"1249\">Área verde com mais de <strong data-start=\"1146\" data-end=\"1157\">6.000m²</strong> para contemplação e convivência em meio à natureza.</p>\n</li>\n<li data-start=\"1250\" data-end=\"1353\">\n<p data-start=\"1252\" data-end=\"1353\">Praça do Lago, com paisagismo, ideal para relaxar ou passear.</p>\n</li>\n<li data-start=\"1354\" data-end=\"1457\">\n<p data-start=\"1356\" data-end=\"1457\">Playground com piso anti-impacto para segurança das crianças.</p>\n</li>\n<li data-start=\"1458\" data-end=\"1612\">\n<p data-start=\"1460\" data-end=\"1612\">Academia ao ar livre, espaço pet, quadra de areia e ciclovia integrada para promover atividades físicas e lazer.</p>\n</li>\n<li data-start=\"1613\" data-end=\"1766\">\n<p data-start=\"1615\" data-end=\"1766\">Ruas tranquilas, travessias elevadas de pedestres, calçadas bem planejadas, favorecendo mobilidade e segurança.</p>\n</li>\n</ul>\n<hr data-start=\"2114\" data-end=\"2117\" />\n<h5 data-start=\"2119\" data-end=\"2162\">🏡 Por que este lote é ideal para você?</h5>\n<p data-start=\"2164\" data-end=\"2483\">Se você valoriza morar em um ambiente que proporcione contato com a natureza, conforto no dia a dia, proximidade com o mar e serviços essenciais, o <strong data-start=\"2312\" data-end=\"2332\">Reserva do Leste</strong> é uma das melhores escolhas em Florianópolis. Um local onde você pode construir sua casa dos sonhos, com tranquilidade, lazer e valorização garantida.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-original_3fddf14053b7a156d902da215683a8c5-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-original_c740002fbcd0a10b4550343ab8d1e6cc.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-original_951759d38a25bf71e12e2cb994e5259b.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-original_1442b9a64e5eb841e001fbd7d5fa35ca.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-original_5df048722e8f97f9db518a65549757cf.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-original_24decffd13c01b2ab6b916ab536f91fd.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-original_3e82f15d3bb8d98b3127ccc9bfd49b4c.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-original_d69254fb184b307d66a3bd288fede51c.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-original_2f85d995e83b8ccef86d46a51fecc370.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-original_3d72f03e75f53b70fc57c2850ed18d86.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-original_76428f802e7e4035a351df44cd92dcc9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-original_893837af84998f1827c599bfd3cbe348.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-original_a2d14cbc25b8e1fd531399b4540a30e8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-original_c7a4bafd5f1364f062a9e073f4085782.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-original_e3e1a2525f5ea72749e998aa60988eca.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/rio-tavares-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:02.530Z",
+  "kind": "loteamento"
+}

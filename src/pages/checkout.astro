@@ -1,0 +1,11 @@
+---
+import PillerLayout from '../layouts/PillerLayout.astro';
+import bodyHtml from '../content/template-pages/checkout.html?raw';
+
+const title = "Checkout";
+const bodyClass = "";
+---
+
+<PillerLayout title={title} bodyClass={bodyClass}>
+	<Fragment set:html={bodyHtml} />
+</PillerLayout>

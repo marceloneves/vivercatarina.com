@@ -1,0 +1,129 @@
+{
+  "slug": "estreito",
+  "name": "Estreito",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-30T22:18:06.550Z",
+  "total": 13,
+  "properties": [
+    {
+      "slug": "agapito-residencial-estreito-florianopolis-sc",
+      "id": 16321,
+      "title": "Apartamento novo, Agapito Residencial, Estreito",
+      "category": "pronto-para-morar",
+      "price": 1069000,
+      "dataPath": "imoveis/agapito-residencial-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/agapito-residencial-estreito-florianopolis-sc/images/01-WhatsApp-Image-2025-07-14-at-21.00.49.jpeg"
+    },
+    {
+      "slug": "premiatto-estreito-florianopolis-sc",
+      "id": 16302,
+      "title": "Apartamento novo, alto padrão, Premiatto, Estreito",
+      "category": "pronto-para-morar",
+      "price": 1102000,
+      "dataPath": "imoveis/premiatto-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/premiatto-estreito-florianopolis-sc/images/01-WhatsApp-Image-2025-07-14-at-20.02.41-1-1.jpeg"
+    },
+    {
+      "slug": "pronto-para-morar-estreito-florianopolis-sc",
+      "id": 15910,
+      "title": "Apartamento Novo, pronto para morar, D/Mys, Estreito",
+      "category": "pronto-para-morar",
+      "price": 675000,
+      "dataPath": "imoveis/pronto-para-morar-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/pronto-para-morar-estreito-florianopolis-sc/images/01-iMo779afI82O4_124260665e165adbeff-1.jpg"
+    },
+    {
+      "slug": "florianopolis-estreito-florianopolis-sc",
+      "id": 16060,
+      "title": "Apartamento semimobiliado no Estreito",
+      "category": "pronto-para-morar",
+      "price": 1790000,
+      "dataPath": "imoveis/florianopolis-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/florianopolis-estreito-florianopolis-sc/images/01-i3d7x25_11414961702ac2eb650.jpg"
+    },
+    {
+      "slug": "3-dormitorios-estreito-florianopolis-sc",
+      "id": 18691,
+      "title": "Apartamento semimobiliado, 3 dormitórios, sacada e vaga de garagem, Estreito",
+      "category": "pronto-para-morar",
+      "price": 800000,
+      "dataPath": "imoveis/3-dormitorios-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/3-dormitorios-estreito-florianopolis-sc/images/01-original_94dbf20423deb347f240a05c6df98309-1.jpg"
+    },
+    {
+      "slug": "edificio-now-estreito-florianopolis-sc",
+      "id": 7136,
+      "title": "Apartamentos Duplex, Edifício Now, Estreito",
+      "category": "pronto-para-morar",
+      "price": 1401000,
+      "dataPath": "imoveis/edificio-now-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/edificio-now-estreito-florianopolis-sc/images/01-Fachada-02.jpg"
+    },
+    {
+      "slug": "d-next-estreito-florianopolis-sc",
+      "id": 11709,
+      "title": "D/Next, Estreito, Florianópolis",
+      "category": "pronto-para-morar",
+      "price": 618000,
+      "dataPath": "imoveis/d-next-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/d-next-estreito-florianopolis-sc/images/01-apartamento-1-quarto-42m2-1-garagem-estreito-florianopolis-cod-466-2.webp"
+    },
+    {
+      "slug": "edificio-in-haus-estreito-florianopolis-sc",
+      "id": 15685,
+      "title": "Edifício In Haus, Estreito, Florianópolis",
+      "category": "lancamento",
+      "price": 837000,
+      "dataPath": "imoveis/edificio-in-haus-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/edificio-in-haus-estreito-florianopolis-sc/images/01-6-1.jpg"
+    },
+    {
+      "slug": "edificio-solar-plaza-alto-padrao-no-estreito-florianopolis-sc",
+      "id": 7958,
+      "title": "Edifício Solar Plaza- alto padrão no Estreito",
+      "category": "lancamento",
+      "price": 1097000,
+      "dataPath": "imoveis/edificio-solar-plaza-alto-padrao-no-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/edificio-solar-plaza-alto-padrao-no-estreito-florianopolis-sc/images/01-empreendimento_foto_887-1-Copia-Copia-Copia.jpg"
+    },
+    {
+      "slug": "exclusivo-estreito-florianopolis-sc",
+      "id": 17317,
+      "title": "exclusivo, Villa Vauban, Estreito",
+      "category": "lancamento",
+      "price": 1230000,
+      "dataPath": "imoveis/exclusivo-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/exclusivo-estreito-florianopolis-sc/images/01-6.RDO_VIL_Business_EF.jpg"
+    },
+    {
+      "slug": "julio-schappo-estreito-florianopolis-sc",
+      "id": 17724,
+      "title": "Júlio Schappo, Estreito, Florianópolis SC",
+      "category": "pronto-para-morar",
+      "price": 1720000,
+      "dataPath": "imoveis/julio-schappo-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/julio-schappo-estreito-florianopolis-sc/images/01-0N9A4487-1.jpg"
+    },
+    {
+      "slug": "orquidea-e-rosa-branca-estreito-florianopolis-sc",
+      "id": 15330,
+      "title": "Orquídea & Rosa Branca, Estreito",
+      "category": "lancamento",
+      "price": 853000,
+      "dataPath": "imoveis/orquidea-e-rosa-branca-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/orquidea-e-rosa-branca-estreito-florianopolis-sc/images/01-orquidea-fachada-1-1.jpg"
+    },
+    {
+      "slug": "garden-estreito-florianopolis-sc",
+      "id": 16135,
+      "title": "Studio Garden, D/Nex, no Estreito",
+      "category": "pronto-para-morar",
+      "price": 618000,
+      "dataPath": "imoveis/garden-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/garden-estreito-florianopolis-sc/images/01-apartamento-1-quarto-42m2-1-garagem-estreito-florianopolis-cod-466-2-1.webp"
+    }
+  ]
+}

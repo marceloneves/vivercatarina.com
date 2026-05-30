@@ -1,0 +1,307 @@
+{
+  "id": 21948,
+  "slug": "armazem-vieira-residence-saco-dos-limoes-florianopolis-sc",
+  "title": "Armazém Vieira Residence, Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$376,000",
+    "amount": 376000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "RUA ALDO ALVES, n: 43, BAIRRO SACO DOS LIMÕES.",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "saco-dos-limoes",
+      "name": "Saco dos Limões"
+    }
+  },
+  "overview": {
+    "code": "1612",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": 1,
+    "sizeSqm": 21.072,
+    "deliveryYear": "2029"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "jun-29",
+      "name": "Jun/29"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios-1-e-2-dorm",
+      "name": "Studios 1 e 2 dorm."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "elevador",
+    "espaco-fitness",
+    "espaco-gourmet",
+    "especo-pet",
+    "lavanderia",
+    "mini-market",
+    "piscina",
+    "playground",
+    "rooftop",
+    "sala-de-jogos",
+    "salao-de-festas",
+    "spa"
+  ],
+  "features": [
+    "Lavanderia",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Pet",
+    "Sala de Jogos",
+    "Playground",
+    "Espaço Gourmet",
+    "Brinquedoteca",
+    "Spa",
+    "Mini-market",
+    "Elevador",
+    "Rooftop",
+    "Espaço fitness"
+  ],
+  "descriptionHtml": "<h5 data-start=\"166\" data-end=\"227\">Studios com 21,07 m² a partir de R$ 376.000,00</h5>\n<h5 data-start=\"166\" data-end=\"227\">Apartamentos 1 quarto com 39,89m², 1 vaga de garagem, sacada, a partir de R$ 574.000,00 (Apto403)</h5>\n<h5 data-start=\"166\" data-end=\"227\">Apartamento 2 quartos sendo 1 suíte, com 65,55m², 1 vaga de garagem, sacada, a partir de R$ 813.300,00 (Apto102)</h5>\n<h5 data-start=\"166\" data-end=\"227\">Apartamento 3 quartos sendo 1 suíte, com 75,32m², 1 vaga de garagem, sacada, a partir de R$ 1.023.900,00 (Apto111)</h5>\n<p>Studios com entrada + 60x</p>\n<p>Apartamentos com entrada + parcelas + reforços + chaves</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 08/04/2026</em></li>\n</ul>\n<p><strong>Armazém Vieira Residence – Studios e Apartamentos no Saco dos Limões, Florianópolis/SC</strong></p>\n<p>Apresentamos o Armazém Vieira Residence, um empreendimento que une modernidade, história e localização privilegiada. O projeto será construído no endereço onde funcionava a tradicional Cachaçaria Armazém Vieira, preservando o casarão tombado e revitalizando o espaço com respeito ao patrimônio cultural.</p>\n<p>Serão oferecidos <strong>studios e apartamentos de 1, 2 ou 3 quartos</strong>, com <strong>sacada exclusivamente nas unidades de 1, 2 e 3 quartos</strong>. Algumas dessas unidades terão <strong>vista para o mar</strong>, proporcionando conforto e uma experiência diferenciada de moradia.</p>\n<p><strong>Diferenciais das unidades</strong></p>\n<ul>\n<li>Studios e apartamentos de 1, 2 ou 3 quartos</li>\n<li>Unidades selecionadas com vista para o mar</li>\n<li>Projeto moderno integrado ao patrimônio histórico</li>\n</ul>\n<p><strong>Áreas comuns – Rooftop completo</strong><br />\nO Armazém Vieira Residence, contará com uma ampla e sofisticada área de lazer localizada no rooftop, oferecendo:</p>\n<ul>\n<li>Academia</li>\n<li>Salão de festas</li>\n<li>Spa</li>\n<li>Brinquedoteca</li>\n<li>Lavanderia</li>\n<li>Área gourmet</li>\n<li>Sala de jogos</li>\n<li>Pet place</li>\n<li>Piscina</li>\n</ul>\n<p>Um empreendimento único, que preserva a história de Florianópolis enquanto entrega modernidade, conforto e uma estrutura completa de lazer.</p>",
+  "floorPlans": [
+    {
+      "title": "Planta humanizada",
+      "image": "images/52-ARMAZEM-VIEIRA-TIPO-HUMANIZADA-com-texto-pdf.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-IMG-20251030-WA0003.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Captura-de-tela-2025-11-21-141500.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Captura-de-tela-2025-11-21-141407-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-IMG-20251030-WA0002.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-IMG-20251030-WA0004.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-IMG-20251030-WA0005.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-IMG-20251030-WA0012-Copia-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-IMG-20251030-WA0013-Copia-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-IMG-20251030-WA0014-Copia-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-IMG-20251030-WA0015.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-IMG-20251030-WA0016-Copia-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-IMG-20251030-WA0018.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-IMG-20251030-WA0025.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-IMG-20251030-WA0020.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-IMG-20251030-WA0021.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-IMG-20251030-WA0022.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-IMG-20251030-WA0023.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-IMG-20251030-WA0017.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-IMG-20251030-WA0024.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-IMG-20251030-WA0026.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-IMG-20251030-WA0028.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-IMG-20251030-WA0029.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-IMG-20251030-WA0030.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-IMG-20251030-WA0031.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-IMG-20251030-WA0032.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-IMG-20251030-WA0034.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-IMG-20251030-WA0035.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-IMG-20251030-WA0036.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-IMG-20251030-WA0037.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/30-IMG-20251030-WA0038.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/31-IMG-20251030-WA0039.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/32-IMG-20251030-WA0040.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/33-IMG-20251030-WA0042.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/34-IMG-20251030-WA0043.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/35-IMG-20251030-WA0044.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/36-IMG-20251030-WA0045.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/37-IMG-20251030-WA0046.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/38-IMG-20251030-WA0047.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/39-IMG-20251030-WA0048.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/40-IMG-20251030-WA0049.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/41-IMG-20251030-WA0050-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/42-IMG-20251030-WA0052-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/43-IMG-20251030-WA0055.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/44-IMG-20251030-WA0041.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/45-IMG-20251030-WA0051.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/46-IMG-20251030-WA0053-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/47-IMG-20251030-WA0054-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/48-IMG-20251030-WA0057-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/49-IMG-20251030-WA0058-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/50-IMG-20251030-WA0059.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/51-IMG-20251030-WA0061-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/52-ARMAZEM-VIEIRA-TIPO-HUMANIZADA-com-texto-pdf.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/sezMy2oUCTA?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/armazem-vieira-residence-saco-dos-limoes-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:06.689Z",
+  "kind": "apartamento"
+}

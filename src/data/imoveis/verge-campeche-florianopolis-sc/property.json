@@ -1,0 +1,170 @@
+{
+  "id": 24314,
+  "slug": "verge-campeche-florianopolis-sc",
+  "title": "Vergê, Campeche",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,268,000",
+    "amount": 1268000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Auroreal, 405, Campeche, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "campeche",
+      "name": "Campeche"
+    }
+  },
+  "overview": {
+    "code": "1666",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 73.782,
+    "deliveryYear": "Dez/28"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-28",
+      "name": "Dez/28"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-e-3-dorm-1-suite",
+      "name": "2 e 3 dorm (1 Suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "bicicletario",
+    "brinquedoteca",
+    "churrasqueira",
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "especo-pet",
+    "espaco-zen",
+    "jacuzzi",
+    "jardim",
+    "lounge",
+    "piscina",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Pet",
+    "Coworking",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Brinquedoteca",
+    "Elevador",
+    "Lounge",
+    "Espaço zen",
+    "Jardim",
+    "Jacuzzi"
+  ],
+  "descriptionHtml": "<p>Apartamentos com 2 dormitórios (1 suíte), 73,58m², sacada com churrasqueira, vaga e hobby box a partir de R$ 1.268.000,00</p>\n<p>Apartamentos com 3 dormitórios (1 suíte), 104,51m², sacada com churrasqueira, 2 vagas e hobby box a partir de R$ 1.870.000,00</p>\n<p>Entrada + parcelas + reforços + financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em: 13/05/2026</em></li>\n</ul>\n<h5 data-start=\"110\" data-end=\"185\">Vergê Campeche | Lançamento alto padrão Lumis no Campeche, Florianópolis</h5>\n<p data-start=\"187\" data-end=\"611\">O <strong data-start=\"189\" data-end=\"207\">Vergê Campeche</strong> é um lançamento de alto padrão da <strong data-start=\"242\" data-end=\"251\">Lumis</strong> no Campeche, pensado para quem quer viver perto do mar com conforto, tecnologia e um lazer completo em um projeto contemporâneo. Em um terreno com mais de <strong data-start=\"407\" data-end=\"419\">5.100 m²</strong>, o empreendimento combina áreas de convivência bem planejadas, segurança avançada e acabamentos superiores — ideal para morar ou investir em uma das regiões mais valorizadas do Sul da Ilha.</p>\n<h5 data-start=\"613\" data-end=\"644\">Tipologias dos apartamentos</h5>\n<p data-start=\"645\" data-end=\"952\">Com <strong data-start=\"649\" data-end=\"665\">116 unidades</strong>, o Vergê Campeche oferece plantas de <strong data-start=\"703\" data-end=\"727\">2 e 3 dormitórios </strong>e metragens de <strong data-start=\"771\" data-end=\"789\">72,68 m² a 104,51 m²</strong>. As plantas priorizam integração, iluminação natural e funcionalidade para diferentes estilos de vida — do compacto inteligente ao apartamento amplo para família.</p>\n<p data-start=\"954\" data-end=\"983\"><strong data-start=\"954\" data-end=\"983\">Diferenciais nas unidades</strong></p>\n<ul data-start=\"984\" data-end=\"1256\">\n<li data-start=\"984\" data-end=\"1039\">\n<p data-start=\"986\" data-end=\"1039\"><strong data-start=\"986\" data-end=\"1003\">Churrasqueira</strong> nas unidades</p>\n</li>\n<li data-start=\"1040\" data-end=\"1065\">\n<p data-start=\"1042\" data-end=\"1065\"><strong data-start=\"1042\" data-end=\"1063\">Fechadura digital</strong></p>\n</li>\n<li data-start=\"1066\" data-end=\"1111\">\n<p data-start=\"1068\" data-end=\"1111\"><strong data-start=\"1068\" data-end=\"1093\">Persianas motorizadas</strong> nos dormitórios</p>\n</li>\n<li data-start=\"1112\" data-end=\"1149\">\n<p data-start=\"1114\" data-end=\"1149\"><strong data-start=\"1114\" data-end=\"1131\">Piso vinílico</strong> nos dormitórios</p>\n</li>\n<li data-start=\"1150\" data-end=\"1206\">\n<p data-start=\"1152\" data-end=\"1206\"><strong data-start=\"1152\" data-end=\"1173\">Porcelanato 90&#215;90</strong> em salas, cozinhas e banheiros</p>\n</li>\n<li data-start=\"1207\" data-end=\"1256\">\n<p data-start=\"1209\" data-end=\"1256\"><strong data-start=\"1209\" data-end=\"1232\">Tomadas USB e USB-C</strong> na sala e dormitórios</p>\n</li>\n</ul>\n<h5 data-start=\"1258\" data-end=\"1292\">Áreas de lazer e conveniências</h5>\n<p data-start=\"1293\" data-end=\"1404\">O Vergê Campeche entrega um lazer completo, com espaços que equilibram bem-estar, entretenimento e praticidade:</p>\n<ul data-start=\"1405\" data-end=\"1742\">\n<li data-start=\"1405\" data-end=\"1453\">\n<p data-start=\"1407\" data-end=\"1453\"><strong data-start=\"1407\" data-end=\"1428\">Boulevard central</strong> e áreas de convivência</p>\n</li>\n<li data-start=\"1454\" data-end=\"1481\">\n<p data-start=\"1456\" data-end=\"1481\"><strong data-start=\"1456\" data-end=\"1467\">Piscina</strong> e <strong data-start=\"1470\" data-end=\"1479\">ofurô</strong></p>\n</li>\n<li data-start=\"1482\" data-end=\"1498\">\n<p data-start=\"1484\" data-end=\"1498\"><strong data-start=\"1484\" data-end=\"1496\">Academia</strong></p>\n</li>\n<li data-start=\"1499\" data-end=\"1522\">\n<p data-start=\"1501\" data-end=\"1522\"><strong data-start=\"1501\" data-end=\"1520\">Salão de festas</strong></p>\n</li>\n<li data-start=\"1523\" data-end=\"1534\">\n<p data-start=\"1525\" data-end=\"1534\"><strong data-start=\"1525\" data-end=\"1532\">Pub</strong></p>\n</li>\n<li data-start=\"1535\" data-end=\"1571\">\n<p data-start=\"1537\" data-end=\"1571\"><strong data-start=\"1537\" data-end=\"1552\">Espaço kids</strong> e <strong data-start=\"1555\" data-end=\"1569\">playground</strong></p>\n</li>\n<li data-start=\"1572\" data-end=\"1632\">\n<p data-start=\"1574\" data-end=\"1632\"><strong data-start=\"1574\" data-end=\"1605\">Coworking interno e externo</strong> + <strong data-start=\"1608\" data-end=\"1630\">2 salas de reunião</strong></p>\n</li>\n<li data-start=\"1633\" data-end=\"1669\">\n<p data-start=\"1635\" data-end=\"1669\"><strong data-start=\"1635\" data-end=\"1651\">Espaço grill</strong> e <strong data-start=\"1654\" data-end=\"1667\">fireplace</strong></p>\n</li>\n<li data-start=\"1670\" data-end=\"1690\">\n<p data-start=\"1672\" data-end=\"1690\"><strong data-start=\"1672\" data-end=\"1688\">Market place</strong></p>\n</li>\n<li data-start=\"1691\" data-end=\"1723\">\n<p data-start=\"1693\" data-end=\"1723\"><strong data-start=\"1693\" data-end=\"1706\">Pet place</strong> e <strong data-start=\"1709\" data-end=\"1721\">pet care</strong></p>\n</li>\n<li data-start=\"1724\" data-end=\"1742\">\n<p data-start=\"1726\" data-end=\"1742\"><strong data-start=\"1726\" data-end=\"1740\">Pranchário</strong></p>\n</li>\n</ul>\n<h5 data-start=\"1744\" data-end=\"1788\">Tecnologia, segurança e sustentabilidade</h5>\n<p data-start=\"1789\" data-end=\"1862\">Para elevar o padrão de conforto e segurança, o empreendimento conta com:</p>\n<ul data-start=\"1863\" data-end=\"2226\">\n<li data-start=\"1863\" data-end=\"1888\">\n<p data-start=\"1865\" data-end=\"1888\"><strong data-start=\"1865\" data-end=\"1886\">App do condomínio</strong></p>\n</li>\n<li data-start=\"1889\" data-end=\"1931\">\n<p data-start=\"1891\" data-end=\"1931\"><strong data-start=\"1891\" data-end=\"1912\">Wi-fi e automação</strong> nas áreas comuns</p>\n</li>\n<li data-start=\"1932\" data-end=\"1995\">\n<p data-start=\"1934\" data-end=\"1995\"><strong data-start=\"1934\" data-end=\"1963\">Controle de acesso facial</strong> (pedestres, veículos e lazer)</p>\n</li>\n<li data-start=\"1996\" data-end=\"2030\">\n<p data-start=\"1998\" data-end=\"2030\"><strong data-start=\"1998\" data-end=\"2015\">Vídeoporteiro</strong> nas unidades</p>\n</li>\n<li data-start=\"2031\" data-end=\"2105\">\n<p data-start=\"2033\" data-end=\"2105\"><strong data-start=\"2033\" data-end=\"2044\">Gerador</strong> para sistemas essenciais (segurança, elevadores e portões)</p>\n</li>\n<li data-start=\"2106\" data-end=\"2147\">\n<p data-start=\"2108\" data-end=\"2147\"><strong data-start=\"2108\" data-end=\"2145\">Reaproveitamento de água da chuva</strong></p>\n</li>\n<li data-start=\"2148\" data-end=\"2183\">\n<p data-start=\"2150\" data-end=\"2183\"><strong data-start=\"2150\" data-end=\"2181\">Iluminação LED com sensores</strong></p>\n</li>\n<li data-start=\"2184\" data-end=\"2226\">\n<p data-start=\"2186\" data-end=\"2226\"><strong data-start=\"2186\" data-end=\"2224\">Infraestrutura para carro elétrico</strong></p>\n</li>\n</ul>\n<h5 data-start=\"2228\" data-end=\"2243\">Localização</h5>\n<p data-start=\"2244\" data-end=\"2490\">Localizado na <strong data-start=\"2258\" data-end=\"2309\">Rua Auroreal, 405 – Campeche – Florianópolis/SC</strong>, o Vergê está em um dos bairros mais desejados da ilha, com fácil acesso a praias, natureza e serviços do dia a dia — um endereço com alta demanda e forte potencial de valorização.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2026-02-27-150849.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Captura-de-tela-2026-02-27-151316.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Captura-de-tela-2026-02-27-151340.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Captura-de-tela-2026-02-27-151402.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2026-02-27-151425.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Captura-de-tela-2026-02-27-151442.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Captura-de-tela-2026-02-27-151459.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Captura-de-tela-2026-02-27-151517.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Captura-de-tela-2026-02-27-151531.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Captura-de-tela-2026-02-27-151553.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Captura-de-tela-2026-02-27-151617.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Captura-de-tela-2026-02-27-151644.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Captura-de-tela-2026-02-27-151700.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Captura-de-tela-2026-02-27-151715.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Captura-de-tela-2026-02-27-151749.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Captura-de-tela-2026-02-27-151808.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Captura-de-tela-2026-02-27-151850.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Captura-de-tela-2026-02-27-151907.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Captura-de-tela-2026-02-27-151943.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/verge-campeche-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:05.360Z",
+  "kind": "loteamento"
+}

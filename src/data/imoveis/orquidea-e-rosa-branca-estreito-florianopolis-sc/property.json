@@ -1,0 +1,189 @@
+{
+  "id": 15330,
+  "slug": "orquidea-e-rosa-branca-estreito-florianopolis-sc",
+  "title": "Orquídea & Rosa Branca, Estreito",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$853,000",
+    "amount": 853000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Afonso Pena, 987, Estreito, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "estreito",
+      "name": "Estreito"
+    }
+  },
+  "overview": {
+    "code": "1406",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "garages": 1,
+    "sizeSqm": null,
+    "deliveryYear": "Fev/28"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "fev-28",
+      "name": "Fev/28"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-e-3-dorm",
+      "name": "2 e 3 Dorm."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "especo-pet",
+    "mini-market",
+    "piscina-aquecida",
+    "sala-de-jogos"
+  ],
+  "features": [
+    "Academia",
+    "Espaço Pet",
+    "Sala de Jogos",
+    "Coworking",
+    "Espaço Gourmet",
+    "Brinquedoteca",
+    "Piscina Aquecida",
+    "Mini-market",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 2 dormitórios (1 suíte),  sacada com churrasqueira à gás a partir de R$ 853.000,00 (Apto 513)</strong></p>\n<p><strong>Apartamentos com 2 suítes, 80,32m², lavabo, churrasqueira à gás a partir de R$ 965.000,00 (Apto 505) </strong></p>\n<p><strong>Apartamentos com 3 dormitórios (1 suíte), 92,24m², sacada com churrasqueira à gás a partir de R$ 1.232.000,00 (Apto 502)</strong></p>\n<p><strong>Apartamentos com 3 dormitórios ( 1 suíte e 2 demi), 100,79m²,churrasqueira à gás a partir de R$ 1.222.000,00 (Apto 507)</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Aceita imóvel de menor valor</li>\n<li><em>Valores atualizados em 20/10/2025</em>\n<p data-start=\"86\" data-end=\"163\"><strong data-start=\"86\" data-end=\"163\">Alto Padrão no Estreito – Conforto, Lazer e Sofisticação em Florianópolis</strong></p>\n<p data-start=\"165\" data-end=\"387\">Localizado em uma das regiões mais valorizadas da parte continental de Florianópolis, este empreendimento de alto padrão no bairro Estreito oferece a combinação ideal entre sofisticação, funcionalidade e qualidade de vida.</p>\n<p data-start=\"389\" data-end=\"558\">Composto por <strong data-start=\"402\" data-end=\"431\">dois blocos independentes</strong>, o projeto se destaca pelo design moderno, excelente padrão construtivo e áreas de lazer completas e exclusivas em cada torre.</p>\n<h5 data-start=\"560\" data-end=\"575\">Tipologias:</h5>\n<ul data-start=\"576\" data-end=\"801\">\n<li data-start=\"576\" data-end=\"651\">\n<p data-start=\"578\" data-end=\"651\">Apartamentos com <strong data-start=\"595\" data-end=\"616\">2 e 3 dormitórios</strong>, com opções de <strong data-start=\"632\" data-end=\"649\">1 ou 2 suítes</strong></p>\n</li>\n<li data-start=\"652\" data-end=\"704\">\n<p data-start=\"654\" data-end=\"704\">Plantas com <strong data-start=\"666\" data-end=\"676\">lavabo</strong> e <strong data-start=\"679\" data-end=\"702\">churrasqueira à gás</strong></p>\n</li>\n<li data-start=\"705\" data-end=\"748\">\n<p data-start=\"707\" data-end=\"748\"><strong data-start=\"707\" data-end=\"734\">1 ou 2 vagas de garagem</strong> por unidade</p>\n</li>\n<li data-start=\"749\" data-end=\"801\">\n<p data-start=\"751\" data-end=\"801\"><strong data-start=\"751\" data-end=\"774\">Hobby box privativo</strong> para todos os apartamentos</p>\n</li>\n</ul>\n<h5 data-start=\"803\" data-end=\"820\">Diferenciais:</h5>\n<ul data-start=\"821\" data-end=\"988\">\n<li data-start=\"821\" data-end=\"873\">\n<p data-start=\"823\" data-end=\"873\">Piso em porcelanato e acabamentos de alto padrão</p>\n</li>\n<li data-start=\"874\" data-end=\"912\">\n<p data-start=\"876\" data-end=\"912\">Infraestrutura moderna e funcional</p>\n</li>\n<li data-start=\"913\" data-end=\"988\">\n<p data-start=\"915\" data-end=\"988\">Ambientes bem distribuídos, com excelente iluminação e ventilação natural</p>\n</li>\n</ul>\n<h5 data-start=\"990\" data-end=\"1030\">Área de lazer (uma para cada bloco):</h5>\n<ul data-start=\"1031\" data-end=\"1172\">\n<li data-start=\"1031\" data-end=\"1051\">\n<p data-start=\"1033\" data-end=\"1051\">Piscina aquecida</p>\n</li>\n<li data-start=\"1052\" data-end=\"1073\">\n<p data-start=\"1054\" data-end=\"1073\">Academia equipada</p>\n</li>\n<li data-start=\"1074\" data-end=\"1092\">\n<p data-start=\"1076\" data-end=\"1092\">Espaço gourmet</p>\n</li>\n<li data-start=\"1093\" data-end=\"1112\">\n<p data-start=\"1095\" data-end=\"1112\">Salão de festas</p>\n</li>\n<li data-start=\"1113\" data-end=\"1130\">\n<p data-start=\"1115\" data-end=\"1130\">Brinquedoteca</p>\n</li>\n<li data-start=\"1131\" data-end=\"1144\">\n<p data-start=\"1133\" data-end=\"1144\">Coworking</p>\n</li>\n<li data-start=\"1145\" data-end=\"1158\">\n<p data-start=\"1147\" data-end=\"1158\">Pet place</p>\n</li>\n<li data-start=\"1159\" data-end=\"1172\">\n<p data-start=\"1161\" data-end=\"1172\">Home market</p>\n</li>\n</ul>\n<p data-start=\"1174\" data-end=\"1345\">Este é o empreendimento ideal para quem busca conforto, praticidade e segurança, com fácil acesso ao centro da cidade, Beira-Mar Continental, comércio, escolas e serviços.</p>\n<p data-start=\"1347\" data-end=\"1418\"><strong data-start=\"1347\" data-end=\"1416\">Agende uma visita e descubra uma nova forma de viver no Estreito.</strong></p>\n</li>\n</ul>",
+  "floorPlans": [
+    {
+      "title": "Planta Final 1",
+      "image": "images/13-final-1-3-d-1-ste.png"
+    },
+    {
+      "title": "Planta final 2",
+      "image": "images/14-final-2-3-d-1-ste.png"
+    },
+    {
+      "title": "Planta final 3",
+      "image": "images/15-final-3-2-d-1-ste.png"
+    },
+    {
+      "title": "Planta final 4",
+      "image": "images/16-final-4-2-d-1-ste.png"
+    },
+    {
+      "title": "Planta final 5",
+      "image": "images/17-final-5-2-suites.png"
+    },
+    {
+      "title": "Planta final 6",
+      "image": "images/18-Final-6-2-suites-.png"
+    },
+    {
+      "title": "Planta final 7",
+      "image": "images/19-final-7-3-d-1-ste-2-demi.png"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-orquidea-fachada-1-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-orquidea-fachada-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-orquidea-fachada-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-orquidea-brinquedoteca.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-orquidea-business.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-orquidea-fitness.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-orquidea-gourmet.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-orquidea-hall.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-orquidea-homeMarket.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-orquidea-piscina.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-orquidea-salao-festas.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-orquidea-teens.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-final-1-3-d-1-ste.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-final-2-3-d-1-ste.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-final-3-2-d-1-ste.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-final-4-2-d-1-ste.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-final-5-2-suites.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Final-6-2-suites-.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-final-7-3-d-1-ste-2-demi.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/orquidea-e-rosa-branca-estreito-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:47.247Z",
+  "kind": "apartamento"
+}

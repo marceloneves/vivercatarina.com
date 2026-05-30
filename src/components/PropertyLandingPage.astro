@@ -1,0 +1,482 @@
+---
+import PropertyFinancingSimulator from './PropertyFinancingSimulator.astro';
+
+const { page } = Astro.props;
+---
+
+<section class="property-details space imovel-detail">
+	<section class="hero-gallery">
+		<div class="container">
+			<div class="hero-gallery__grid">
+				{
+					page.hero.images[0] ? (
+						<button
+							type="button"
+							class="hero-gallery__main gallery-trigger"
+							data-gallery-index="0"
+							aria-label="Ampliar foto principal"
+						>
+							<img src={page.hero.images[0].url} alt={page.hero.images[0].alt} />
+							<div class="hero-gallery__meta">
+								<span class="hero-gallery__badge">{page.hero.situacao}</span>
+								<span class="hero-gallery__badge">{page.hero.padrao}</span>
+							</div>
+						</button>
+					) : (
+						<div class="hero-gallery__main">
+							<img src="/assets/img/explore-cites/explore-cites-bg-1.jpg" alt={page.seo.h1} />
+							<div class="hero-gallery__meta">
+								<span class="hero-gallery__badge">{page.hero.situacao}</span>
+								<span class="hero-gallery__badge">{page.hero.padrao}</span>
+							</div>
+						</div>
+					)
+				}
+				<div class="hero-gallery__thumbs">
+					{
+						page.hero.images.slice(1, 5).map((image, index) => (
+							<button
+								type="button"
+								class="hero-gallery__thumb gallery-trigger"
+								data-gallery-index={index + 1}
+								aria-label={`Ampliar foto ${index + 2}`}
+							>
+								<img src={image.url} alt={image.alt} loading="lazy" />
+							</button>
+						))
+					}
+				</div>
+			</div>
+			<div class="hero-gallery__footer">
+				<h1 class="hero-gallery__title">{page.seo.h1}</h1>
+				<div class="hero-gallery__actions">
+					{
+						page.hero.videoUrl && (
+							<a
+								href={page.hero.videoUrl}
+								class="th-btn style2 radius"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Ver vídeo
+							</a>
+						)
+					}
+					<p class="hero-gallery__count">{page.hero.totalPhotos} fotos</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="stats-bar">
+		<div class="container stats-bar__grid">
+			<div class="stats-bar__item">
+				<div class="stats-bar__label">Preço a partir de</div>
+				<div class="stats-bar__value">{page.stats.price}</div>
+			</div>
+			<div class="stats-bar__item">
+				<div class="stats-bar__label">Quartos</div>
+				<div class="stats-bar__value">{page.stats.bedrooms}</div>
+			</div>
+			<div class="stats-bar__item">
+				<div class="stats-bar__label">Área</div>
+				<div class="stats-bar__value">{page.stats.area}</div>
+			</div>
+			<div class="stats-bar__item">
+				<div class="stats-bar__label">Situação</div>
+				<div class="stats-bar__value">{page.stats.situacao}</div>
+			</div>
+			<div class="stats-bar__item">
+				<div class="stats-bar__label">Unidades</div>
+				<div class={`stats-bar__value${page.sidebar.showUrgency ? ' stats-bar__value--urgent' : ''}`}>
+					{page.stats.unidadesRestantes ?? 'Sob consulta'}
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container layout">
+		<main>
+			<section class="section card">
+				<h2 class="section__title">Ficha do empreendimento</h2>
+				<dl class="ficha-grid">
+					<div><dt>Código</dt><dd>{page.ficha.codigo}</dd></div>
+					<div><dt>Construtora</dt><dd>{page.ficha.construtora}</dd></div>
+					<div><dt>Situação</dt><dd>{page.ficha.situacao}</dd></div>
+					<div><dt>Entrega</dt><dd>{page.ficha.entrega}</dd></div>
+					<div><dt>Total de andares</dt><dd>{page.ficha.totalAndares}</dd></div>
+					<div><dt>Total de unidades</dt><dd>{page.ficha.totalUnidades}</dd></div>
+					<div><dt>Padrão</dt><dd>{page.ficha.padrao}</dd></div>
+					<div><dt>Registro</dt><dd>{page.ficha.registro}</dd></div>
+					<div><dt>Atualizado em</dt><dd data-ficha-atualizado>{page.ficha.atualizadoEm}</dd></div>
+					<div><dt>Cidade</dt><dd>{page.ficha.cidade}</dd></div>
+				</dl>
+			</section>
+
+			<section class="section">
+				<h2 class="section__title">Sobre o empreendimento</h2>
+				{
+					page.descriptionHtml ? (
+						<div class="property-description" set:html={page.descriptionHtml} />
+					) : (
+						<p class="about-text">{page.sobre}</p>
+					)
+				}
+			</section>
+
+			{
+				page.hero.images.length > 0 && (
+					<section class="section">
+						<h2 class="section__title">Galeria de fotos ({page.hero.totalPhotos})</h2>
+						<div class="photo-grid">
+							{page.hero.images.map((image, index) => (
+								<button
+									type="button"
+									class="photo-grid__item gallery-trigger"
+									data-gallery-index={index}
+									aria-label={`Ampliar foto ${index + 1}`}
+								>
+									<img src={image.url} alt={image.alt} loading="lazy" />
+								</button>
+							))}
+						</div>
+					</section>
+				)
+			}
+
+			{
+				page.highlights.length > 0 && (
+					<section class="section">
+						<h2 class="section__title">Destaques do empreendimento</h2>
+						<div class="highlights-grid">
+							{page.highlights.map((item) => (
+								<div class="highlight-card">
+									<i class={item.icone}></i>
+									<h3>{item.titulo}</h3>
+									<p>{item.descricao}</p>
+								</div>
+							))}
+						</div>
+					</section>
+				)
+			}
+
+			{
+				page.plantas.length > 0 && (
+					<section class="section">
+						<h2 class="section__title">Plantas disponíveis</h2>
+						{page.plantas.map((planta) => (
+							<article class="planta-card">
+								<h3 class="planta-card__title">{planta.titulo}</h3>
+
+								{
+									planta.highlights.length > 0 && (
+										<ul class="planta-card__highlights">
+											{planta.highlights.map((item) => (
+												<li>{item}</li>
+											))}
+										</ul>
+									)
+								}
+
+								<div class="planta-card__price-block">
+									<span class="planta-card__price-label">A partir de</span>
+									<strong class="planta-card__price-value">{planta.precoAPartir}</strong>
+								</div>
+
+								{planta.unidadesResumo && (
+									<p class="planta-card__units-summary">{planta.unidadesResumo}</p>
+								)}
+
+								{
+									planta.imageUrl && (
+										<div class="planta-card__image">
+											<img src={planta.imageUrl} alt={`Planta — ${planta.titulo}`} loading="lazy" />
+										</div>
+									)
+								}
+
+								<div class="planta-card__sections">
+									<div class="planta-card__section">
+										<h4 class="planta-card__section-title">Dados da unidade</h4>
+										<dl class="planta-card__details">
+											<div>
+												<dt>Área privativa</dt>
+												<dd>{planta.dadosUnidade.areaPrivativa}</dd>
+											</div>
+											<div>
+												<dt>Área total</dt>
+												<dd>{planta.dadosUnidade.areaTotal}</dd>
+											</div>
+											<div>
+												<dt>Quartos</dt>
+												<dd>{planta.dadosUnidade.quartos}</dd>
+											</div>
+											<div>
+												<dt>Banheiros</dt>
+												<dd>{planta.dadosUnidade.banheiros}</dd>
+											</div>
+											<div>
+												<dt>Varanda</dt>
+												<dd>{planta.dadosUnidade.varanda}</dd>
+											</div>
+										</dl>
+									</div>
+
+									<div class="planta-card__section">
+										<h4 class="planta-card__section-title">Disponibilidade</h4>
+										<dl class="planta-card__details">
+											<div>
+												<dt>Preço</dt>
+												<dd>{planta.disponibilidade.preco}</dd>
+											</div>
+											<div>
+												<dt>Vaga</dt>
+												<dd>{planta.disponibilidade.vaga}</dd>
+											</div>
+											<div>
+												<dt>Andares</dt>
+												<dd>{planta.disponibilidade.andares}</dd>
+											</div>
+											<div>
+												<dt>Unidades</dt>
+												<dd>{planta.disponibilidade.unidades}</dd>
+											</div>
+											<div>
+												<dt>Status</dt>
+												<dd>{planta.disponibilidade.status}</dd>
+											</div>
+										</dl>
+									</div>
+								</div>
+							</article>
+						))}
+					</section>
+				)
+			}
+
+			<section class="section">
+				<h2 class="section__title">Para quem é este imóvel?</h2>
+				<div class="audience-grid">
+					<div class="audience-card">
+						<h3>Para quem quer morar</h3>
+						<ul>
+							{page.audience.morar.map((item) => <li>{item}</li>)}
+						</ul>
+					</div>
+					<div class="audience-card">
+						<h3>Para quem quer investir</h3>
+						<ul>
+							{page.audience.investir.map((item) => <li>{item}</li>)}
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			{
+				page.comodidades.length > 0 && (
+					<section class="section">
+						<h2 class="section__title">Comodidades</h2>
+						<div class="amenities-grid">
+							{page.comodidades.map((item) => (
+								<div class="amenity-item">
+									<i class={item.icone}></i>
+									<span>{item.nome}</span>
+								</div>
+							))}
+						</div>
+					</section>
+				)
+			}
+
+			<section class="section">
+				<h2 class="section__title">Localização e entorno</h2>
+				<p class="about-text">{page.location.label}</p>
+				<p class="about-text">{page.location.address}</p>
+			</section>
+
+			<PropertyFinancingSimulator financing={page.financing} />
+
+			<section class="section">
+				<h2 class="section__title">Perguntas frequentes</h2>
+				{page.faq.map((item) => (
+					<details class="faq-item">
+						<summary>{item.pergunta}</summary>
+						<p>{item.resposta}</p>
+					</details>
+				))}
+			</section>
+
+			<section class="section legal-note">
+				Valores, disponibilidade, metragens e condições comerciais podem ser alterados sem aviso prévio.
+				As imagens são ilustrativas. Consulte nossa equipe para informações atualizadas.
+			</section>
+		</main>
+
+		<aside class="sidebar">
+			<div class="sidebar-card">
+				<div class="sidebar-card__price-box">
+					<div class="sidebar-card__label">Preço a partir de</div>
+					<div class="sidebar-card__price">{page.sidebar.price}</div>
+				</div>
+				{page.sidebar.showUrgency && <div class="sidebar-alert">Últimas unidades disponíveis</div>}
+				<form class="lead-form" id="lead-form">
+					<label for="lead-name">Nome</label>
+					<input id="lead-name" name="name" type="text" placeholder="Seu nome" required />
+					<label for="lead-phone">WhatsApp</label>
+					<input id="lead-phone" name="phone" type="tel" placeholder="(48) 98810-5199" required />
+					<label for="lead-email">E-mail</label>
+					<input id="lead-email" name="email" type="email" placeholder="seu@email.com" required />
+					<button type="submit" class="th-btn imovel-btn-submit radius w-100">Quero mais informações</button>
+					<button
+						type="button"
+						class="th-btn imovel-btn-whatsapp radius w-100"
+						data-whatsapp-lead
+						data-whatsapp-source="property"
+						data-property-slug={page.slug}
+						data-property-title={page.seo.h1}
+					>
+						<i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp
+					</button>
+				</form>
+				<p class="sidebar-note">Dados protegidos. Resposta em até 1 hora.</p>
+			</div>
+		</aside>
+	</div>
+</section>
+
+{
+	page.location.mapEmbedUrl && (
+		<div class="property-location-fullwidth">
+			<div class="location-map">
+				<div class="contact-map">
+					<iframe
+						src={page.location.mapEmbedUrl}
+						title={`Mapa — ${page.seo.h1}`}
+						loading="lazy"
+						allowfullscreen
+					></iframe>
+				</div>
+			</div>
+		</div>
+	)
+}
+
+{
+	page.hero.images.length > 0 && (
+		<div id="gallery-lightbox" class="gallery-lightbox" hidden aria-hidden="true">
+			<div class="gallery-lightbox__backdrop" data-gallery-close></div>
+			<button type="button" class="gallery-lightbox__close" aria-label="Fechar galeria" data-gallery-close>
+				&times;
+			</button>
+			<button type="button" class="gallery-lightbox__nav gallery-lightbox__nav--prev" aria-label="Foto anterior">
+				<i class="fa-solid fa-chevron-left"></i>
+			</button>
+			<button type="button" class="gallery-lightbox__nav gallery-lightbox__nav--next" aria-label="Próxima foto">
+				<i class="fa-solid fa-chevron-right"></i>
+			</button>
+			<div class="gallery-lightbox__content">
+				<img class="gallery-lightbox__image" alt="" />
+				<p class="gallery-lightbox__counter"></p>
+			</div>
+		</div>
+	)
+}
+
+<script>
+	document.querySelectorAll('[data-ficha-atualizado]').forEach((element) => {
+		element.textContent = new Intl.DateTimeFormat('pt-BR', {
+			timeZone: 'America/Sao_Paulo',
+			day: '2-digit',
+			month: '2-digit',
+			year: 'numeric',
+		}).format(new Date());
+	});
+</script>
+
+<script define:vars={{ galleryImages: page.hero.images }}>
+	const lightbox = document.getElementById('gallery-lightbox');
+
+	if (lightbox && galleryImages.length > 0 && lightbox.dataset.initialized !== 'true') {
+		lightbox.dataset.initialized = 'true';
+		const imageEl = lightbox.querySelector('.gallery-lightbox__image');
+		const counterEl = lightbox.querySelector('.gallery-lightbox__counter');
+		const prevButton = lightbox.querySelector('.gallery-lightbox__nav--prev');
+		const nextButton = lightbox.querySelector('.gallery-lightbox__nav--next');
+		let currentIndex = 0;
+
+		const showImage = (index) => {
+			currentIndex = (index + galleryImages.length) % galleryImages.length;
+			const item = galleryImages[currentIndex];
+			imageEl.src = item.url;
+			imageEl.alt = item.alt;
+			counterEl.textContent = `${currentIndex + 1} / ${galleryImages.length}`;
+		};
+
+		const openLightbox = (index) => {
+			showImage(index);
+			lightbox.hidden = false;
+			lightbox.setAttribute('aria-hidden', 'false');
+			document.body.classList.add('gallery-lightbox-open');
+		};
+
+		const closeLightbox = () => {
+			lightbox.hidden = true;
+			lightbox.setAttribute('aria-hidden', 'true');
+			document.body.classList.remove('gallery-lightbox-open');
+		};
+
+		document.querySelectorAll('.gallery-trigger').forEach((trigger) => {
+			trigger.addEventListener('click', () => {
+				openLightbox(Number(trigger.dataset.galleryIndex));
+			});
+		});
+
+		prevButton?.addEventListener('click', (event) => {
+			event.stopPropagation();
+			showImage(currentIndex - 1);
+		});
+
+		nextButton?.addEventListener('click', (event) => {
+			event.stopPropagation();
+			showImage(currentIndex + 1);
+		});
+
+		lightbox.querySelectorAll('[data-gallery-close]').forEach((element) => {
+			element.addEventListener('click', closeLightbox);
+		});
+
+		document.addEventListener('keydown', (event) => {
+			if (lightbox.hidden) {
+				return;
+			}
+
+			if (event.key === 'Escape') {
+				closeLightbox();
+			}
+
+			if (event.key === 'ArrowLeft') {
+				showImage(currentIndex - 1);
+			}
+
+			if (event.key === 'ArrowRight') {
+				showImage(currentIndex + 1);
+			}
+		});
+	}
+</script>
+
+<script define:vars={{ whatsappNumber: page.whatsappNumber }}>
+	const form = document.getElementById('lead-form');
+	form?.addEventListener('submit', (event) => {
+		event.preventDefault();
+		const data = new FormData(form);
+		const name = data.get('name');
+		const phone = data.get('phone');
+		const email = data.get('email');
+		const message = encodeURIComponent(
+			`Olá! Meu nome é ${name}. Tenho interesse neste imóvel. WhatsApp: ${phone}. E-mail: ${email}.`,
+		);
+		window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
+	});
+</script>

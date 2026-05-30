@@ -1,0 +1,261 @@
+{
+  "id": 15229,
+  "slug": "du-centre-ingleses-florianopolis-sc",
+  "title": "Du Centre, Ingleses",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$982,000",
+    "amount": 982000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua das Dunas, Ingleses, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ingleses",
+      "name": "Ingleses"
+    }
+  },
+  "overview": {
+    "code": "1403",
+    "bedrooms": null,
+    "bathrooms": null,
+    "garages": null,
+    "sizeSqm": null,
+    "deliveryYear": "Mai/27"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "mai-27",
+      "name": "Mai/27"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-e-3-dorm",
+      "name": "2 e 3 Dorm."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "churrasqueira",
+    "cinema",
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "espaco-mulher",
+    "especo-pet",
+    "piscina",
+    "playground",
+    "praca-de-fogo",
+    "sala-de-jogos",
+    "aauna",
+    "spa"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Sauna",
+    "Academia",
+    "Cinema",
+    "Piscina",
+    "Espaço Pet",
+    "Sala de Jogos",
+    "Playground",
+    "Coworking",
+    "Espaço Gourmet",
+    "Brinquedoteca",
+    "Praça de fogo",
+    "Espaço mulher",
+    "Spa",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p><strong>Duplex Garden com 2 dormitórios (1 suíte), varanda com churrasqueira, 2 vagas e hobby box a partir de R$ 982.000,00 (Garden 03)</strong></p>\n<p><strong>Duplex Garden com 2 suítes, lavabo, varanda com churrasqueira, 2 vagas e hobby box a partir de R$ 1.211.000,00 (Garden 04)</strong></p>\n<p><strong>Apartamento com 2 dormitórios</strong><strong> (1 suíte), home office, sacada com churrasqueira, 2 vagas e hobby box a partir de R$ 1.211.000,00 (Ap 105)</strong></p>\n<p><strong>Apartamentos com 2 suítes, lavabo, home office, sacada com churrasqueira , 2 vagas e hobby box a partir de R$ 1.261.000,00 (PNE Ap 205)</strong></p>\n<p><strong>Duplex com 3 suítes, lavabo, sacada com churrasqueira, 2 vagas e hobby box  a partir de R$ 1.411.000,00 (Ap 403)</strong></p>\n<p><strong>Duplex com 3 dormitórios (2 suítes), home office, sacada com churrasqueira, 2 vagas e hobby box a partir de R$ 1.411.000,00 (Ap 401)</strong></p>\n<p><strong>Duplex com 2 dormitórios ( 1 suíte), sacada com churrasqueira, 2 vagas e hobby box a partir de R$ 1.411.000,00 (Ap 407)</strong></p>\n<p>Entrada + parcelas + reforços ou entrada + parcelas + financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Aceita imóvel de menor valor</li>\n<li><em>Valores atualizados em 20/10/2025</em></li>\n</ul>\n<p data-start=\"42\" data-end=\"129\"><strong data-start=\"42\" data-end=\"129\">Du Centre – Lançamento nos Ingleses, Florianópolis</strong></p>\n<p data-start=\"131\" data-end=\"207\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Localizado na Rua das Dunas, no coração do centrinho dos Ingleses, o Edifício Du Centre é um empreendimento residencial e comercial. </span></p>\n<hr data-start=\"209\" data-end=\"212\" />\n<h5 data-start=\"214\" data-end=\"242\">🏠 Tipologias e unidades</h5>\n<ul data-start=\"243\" data-end=\"444\">\n<li data-start=\"243\" data-end=\"284\">\n<p data-start=\"245\" data-end=\"284\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">49 apartamentos “inteligentes” com 2 a 3 dormitórios (com 1 a 3 suítes), em plantas lineares, duplex e duplex garden.</span></p>\n</li>\n<li data-start=\"285\" data-end=\"365\">\n<p data-start=\"287\" data-end=\"365\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Diversas metragens, entre aproximadamente <strong data-start=\"42\" data-end=\"60\" data-is-last-node=\"\">73 m² e 184 m².</strong></span></p>\n</li>\n<li data-start=\"366\" data-end=\"444\">\n<p data-start=\"368\" data-end=\"444\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Unidades com suíte, sacada com churrasqueira, hobby box e vaga de garagem.</span></p>\n</li>\n</ul>\n<hr data-start=\"446\" data-end=\"449\" />\n<h5 data-start=\"451\" data-end=\"485\">🏗 Infraestrutura &amp; tecnologia</h5>\n<ul data-start=\"486\" data-end=\"734\">\n<li data-start=\"486\" data-end=\"566\">\n<p data-start=\"488\" data-end=\"566\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Edifício tipo <strong data-start=\"14\" data-end=\"32\">Smart Building</strong> com automação completa nas áreas comuns, sensores de energia e água, fechadura digital via Wi‑Fi, tomadas USB, elevadores inteligentes, carregadores para carro elétrico e captação de água e energia solar</span></p>\n</li>\n<li data-start=\"567\" data-end=\"651\">\n<p data-start=\"569\" data-end=\"651\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">7 lojas comerciais no mezanino, com vagas rotativas para visitantes e fachada ativa, integrando moradia e comércio</span></p>\n</li>\n<li data-start=\"652\" data-end=\"734\">\n<p data-start=\"654\" data-end=\"734\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Coworking completo com salas de reunião, área compartilhada, cabine acústica e smart locker para entrega de encomendas</span></p>\n</li>\n</ul>\n<hr data-start=\"736\" data-end=\"739\" />\n<h5 data-start=\"741\" data-end=\"767\">🌳 Lazer e convivência</h5>\n<p data-start=\"768\" data-end=\"807\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Com mais de <strong data-start=\"12\" data-end=\"67\">1.000 m² de áreas comuns mobiliadas e automatizadas</strong>, o Du Centre traz um verdadeiro clube de conveniências:</span></p>\n<ul data-start=\"809\" data-end=\"1330\">\n<li data-start=\"809\" data-end=\"852\">\n<p data-start=\"811\" data-end=\"852\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Piscina com deck molhado e área infantil</span></p>\n</li>\n<li data-start=\"853\" data-end=\"896\">\n<p data-start=\"855\" data-end=\"896\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Solarium com espreguiçadeiras</span></p>\n</li>\n<li data-start=\"897\" data-end=\"940\">\n<p data-start=\"899\" data-end=\"940\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Movie Theater (cinema com copa)</span></p>\n</li>\n<li data-start=\"941\" data-end=\"984\">\n<p data-start=\"943\" data-end=\"984\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Personal Studio para pole dance, box, jiu-jitsu ou ballet</span></p>\n</li>\n<li data-start=\"985\" data-end=\"1028\">\n<p data-start=\"987\" data-end=\"1028\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Academia com espaços internos e externos para Crossfit</span></p>\n</li>\n<li data-start=\"1029\" data-end=\"1072\">\n<p data-start=\"1031\" data-end=\"1072\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Fun Palace (área kids interna e externa) com Pet Place</span></p>\n</li>\n<li data-start=\"1073\" data-end=\"1116\">\n<p data-start=\"1075\" data-end=\"1116\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Party Palace (salão de festas com área externa privativa)</span></p>\n</li>\n<li data-start=\"1117\" data-end=\"1160\">\n<p data-start=\"1119\" data-end=\"1160\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Home Gourmet e Home Pub com terraços integrados</span></p>\n</li>\n<li data-start=\"1161\" data-end=\"1204\">\n<p data-start=\"1163\" data-end=\"1204\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Fire Yard (praça de fogo), Oasis (gazebo), Wellness Space</span></p>\n</li>\n<li data-start=\"1205\" data-end=\"1248\">\n<p data-start=\"1207\" data-end=\"1248\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Sauna (Steam Room) e Pub anexo à piscina</span></p>\n</li>\n<li data-start=\"1249\" data-end=\"1330\">\n<p data-start=\"1251\" data-end=\"1330\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Smart building features com zeladoria, hall de entrada, tomadas USB em áreas comuns</span></p>\n</li>\n</ul>\n<h5 data-start=\"1337\" data-end=\"1374\">✅ Vantagens que fazem a diferença</h5>\n<ul data-start=\"1375\" data-end=\"1653\">\n<li data-start=\"1375\" data-end=\"1418\">\n<p data-start=\"1377\" data-end=\"1418\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Cobertura completa em tecnologia, conforto e segurança em um <strong data-start=\"61\" data-end=\"79\">Smart Building</strong>.</span></p>\n</li>\n<li data-start=\"1419\" data-end=\"1462\">\n<p data-start=\"1421\" data-end=\"1462\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Comodidades para morar, trabalhar e receber dentro do próprio edifício.</span></p>\n</li>\n<li data-start=\"1463\" data-end=\"1506\">\n<p data-start=\"1465\" data-end=\"1506\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Lazer variado para todas as idades e estilos de vida.</span></p>\n</li>\n<li data-start=\"1507\" data-end=\"1591\">\n<p data-start=\"1509\" data-end=\"1591\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Localização estratégica: apenas 400 m da praia, no vibrante centro dos Ingleses</span></p>\n</li>\n<li data-start=\"1507\" data-end=\"1591\">\n<p data-start=\"1509\" data-end=\"1591\">Valorização garantida em área em constante desenvolvimento.</p>\n</li>\n</ul>\n<p>&nbsp;</p>",
+  "floorPlans": [
+    {
+      "title": "Duplex Garden 2 dormitórios",
+      "image": "images/30-duplex-garden-2-d-.png"
+    },
+    {
+      "title": "Duplex Garden 2 suítes",
+      "image": "images/31-duplex-2-suites-.png"
+    },
+    {
+      "title": "Planta 2 dormitórios + home office",
+      "image": "images/32-ap-2-d-home-office-dc-105.png"
+    },
+    {
+      "title": "Planta 2 suítes + home office , PNE",
+      "image": "images/33-dc-205-2-suites-home-office-pne-.png"
+    },
+    {
+      "title": "Duplex 3 suítes",
+      "image": "images/34-dc-403-duplex-3-suites-.png"
+    },
+    {
+      "title": "Duplex 3 dormitórios + home office",
+      "image": "images/35-dc-401-3-d-2-ste-home-office-.png"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-03-FINAL.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-04-2-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-008-Perspectiva-Diurna-Ampliada-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-010-Frente-Diurna-ampliada-1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2025-06-26-180502.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Captura-de-tela-2025-06-26-180613.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Coworking-Externo-01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Coworking-Externo-02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Coworking-Externo-03.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Coworking-Externo-04.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Coworking-Externo-05.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Coworking-Interno-Inferior-01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Coworking-Interno-Superior-Sala-separadas.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Fire-Yard.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Fun-Place-Externo-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Gym-Externo-01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Gym-Interno-01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Gym-Interno-02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Gym-Interno-04.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Home-Gourmet.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Home-Pub-Externo-02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Home-Pub-Interno-01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Home-Pub-Interno-02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-Movei-Theater-02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-Party-Place-Interno-01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-Party-Place-Interno-02-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-Poll-e-Oasis.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-Solarium-e-Pub.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-Steam-Room.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/30-duplex-garden-2-d-.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/31-duplex-2-suites-.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/32-ap-2-d-home-office-dc-105.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/33-dc-205-2-suites-home-office-pne-.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/34-dc-403-duplex-3-suites-.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/35-dc-401-3-d-2-ste-home-office-.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/du-centre-ingleses-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:21.877Z",
+  "kind": "apartamento"
+}

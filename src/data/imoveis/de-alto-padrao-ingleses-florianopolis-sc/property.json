@@ -1,0 +1,215 @@
+{
+  "id": 15385,
+  "slug": "de-alto-padrao-ingleses-florianopolis-sc",
+  "title": "Sobrados de alto padrão, Ingleses Norte",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,615,000",
+    "amount": 1615000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Dos Lordes s/n, área 56",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ingleses",
+      "name": "Ingleses"
+    }
+  },
+  "overview": {
+    "code": "1408",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "garages": 2,
+    "sizeSqm": 1832,
+    "deliveryYear": "2025"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "2025",
+      "name": "2025"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "1-suite2-demi-suites",
+      "name": "1 Suíte+2 Demi-suítes"
+    }
+  ],
+  "featureSlugs": [
+    "churrasqueira",
+    "quintal"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Quintal"
+  ],
+  "descriptionHtml": "<p><strong>Unidades a partir de R$ 1.615.000,00 (casa 2)</strong></p>\n<p>3 quartos, sendo 1 suíte, 2demi-suítes. área privativa de 183m² + 33m² de Jardim descoberto</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio</em></li>\n<li><em>Condições de pagamento flexível</em></li>\n<li><em>Valores atualizados em 26/05/2026</em></li>\n</ul>\n<hr />\n<h4>Sobrado de Alto Padrão nos Ingleses – Florianópolis/SC</h4>\n<p><strong>Residência com arquitetura autoral, acabamentos premium e espaços inteligentes</strong></p>\n<p>Apresentamos um sobrado exclusivo, com casas 1, 2 e 3 disponíveis, localizado no bairro Ingleses, em Florianópolis/SC. Um projeto contemporâneo, cuidadosamente planejado para oferecer conforto, sofisticação e funcionalidade, ideal tanto para moradia quanto para investimento em locação de curta ou longa temporada.</p>\n<p><strong>Destaques do Projeto</strong><br />\nA residência foi concebida nos mínimos detalhes, com qualidade construtiva e soluções inteligentes. Um jardim interno conecta suavemente os dois pavimentos, levando luz natural e ventilação cruzada para todos os ambientes.</p>\n<p><strong>Pavimento Térreo:</strong></p>\n<ul>\n<li>Ambientes integrados em conceito aberto</li>\n<li>Cozinha e sala de jantar</li>\n<li>Sala de estar com acesso à área gourmet</li>\n<li>Lavabo</li>\n<li>Lavanderia</li>\n<li>Churrasqueira externa</li>\n</ul>\n<p><strong>Pavimento Superior:</strong></p>\n<ul>\n<li>3 quartos: sendo 1 suíte e 2 demi-suítes</li>\n<li>2 áreas flexíveis: ideais para home office, extensão de dormitórios ou espaços independentes para locação</li>\n</ul>\n<p><strong>Acabamentos e Diferenciais:</strong></p>\n<ul>\n<li>Porcelanato exclusivo da Portobello Shop</li>\n<li>Banheiros com paredes em microcimento (sem rejuntes)</li>\n<li>Esquadrias de alumínio preto (linhas 32 e 45)</li>\n<li>Pingadeiras em granito</li>\n<li>Esperas para ar-condicionado nas áreas sociais e dormitórios</li>\n<li>Box de vidro até o teto com registro oposto ao chuveiro</li>\n<li>Tetos em concreto aparente</li>\n<li>Rodapés negativos (efeito de parede flutuante)</li>\n<li>Porta principal em ACM</li>\n<li>Churrasqueira revestida com pastilhas</li>\n<li>Tintas Suvinil premium: &#8220;Toque Fosco Completo&#8221; (interno) e “Fachada Protegida Emborrachada” (externo)</li>\n<li>Portão automatizado basculante com porta social</li>\n<li>Fiação elétrica Corfio antichamas</li>\n<li>Caixa d’água de 1.500L</li>\n<li>Espera para boiler e aquecimento solar</li>\n<li>Tubulação PPR para água quente em todos os pontos</li>\n</ul>\n<p><strong>Infraestrutura Individualizada:</strong></p>\n<ul>\n<li>Água: medição individual pela Casan</li>\n<li>Esgoto: ligado à rede da Casan</li>\n<li>Energia: medição individual pela Celesc</li>\n</ul>\n<p><strong>Garagem para 2 veículos</strong></p>\n<p>Este é um imóvel único, feito para quem valoriza arquitetura de qualidade, soluções modernas e o melhor de Florianópolis.</p>\n<p><strong>Agende sua visita e encante-se com cada detalhe!</strong></p>",
+  "floorPlans": [
+    {
+      "title": "Planta agrupada superior",
+      "image": "images/35-Planta-agrupada-superior.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-005e9c22-0b6a-4a8f-befd-d5c0ba5eabd6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-4a4cb13f-e54b-4515-b3bc-3adc27f5ad12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-4f9fec23-26ae-4c97-9380-a2f61ded7633.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-7cb0006e-11ab-4009-a479-d4d216524644.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-14f78c7a-dbb1-4443-86e1-5bceacdbf75d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-303199f5-6bc1-420c-9a7a-4929ee75b8a1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-ca5d5b9c-b2a0-4ccf-8e41-d7a0e6edea2c.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-ae16fdf1-1271-4f4c-9744-2ce64eaab4b2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-dd2d7b3d-cf5d-44fc-afc4-88009483126d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-6b6cd55b-9df5-40a1-89f4-e49fc0eacea8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-f65a6c15-3c98-4de9-bf9b-681b8ad65cf3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-09dd9ddc-578d-4904-9f0e-80411515832e.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-1df9be39-6f22-4859-9bd5-3f8b9abe4d0b.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-4e1d13ac-bb35-4796-977e-680dd04501c2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-46b61a70-5fa1-4be9-8ee0-1a3793dd4bb2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-5744bd2e-1a1b-433b-b438-c30b594da90e.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-77a56360-8cb7-4c23-a8c6-eae9b4b7b00e.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-38ad5c56-047a-4040-8559-357cc382da20.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-043c36ec-9fa7-4c82-9a71-8ee9391800eb.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-7bef81d1-b7d9-41e3-be97-9e93824c3b40.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-3b850bc7-9ff7-4ebf-816a-927e57974499.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-6dcd66a1-1021-458c-9a66-af16331992c7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-7e59a00e-7ac3-418e-8027-f013018b3200.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-71f89a33-9304-4123-9b4e-fc40c27894d5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-91d8f2fe-52c9-475f-8d10-dea841887a22.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-93cc761a-df9b-44a3-bb00-88bb3d4387b4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-93995e41-b938-46c7-9df1-cf7771883784.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-a8cd8cf3-8b01-47d0-b37f-e4220f511ebc.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-b49d665f-fd84-4e5e-b858-6ee871139241.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/30-dd966750-68e1-4773-8be4-85fd3f136c97.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/31-eff5236b-5992-494a-b761-89c0d86509d9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/32-3bf23290-9fb3-4cec-8fb0-88e16adbc8ba.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/33-2e84e046-1aac-4159-bf72-428a8f44e944.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/34-f97f673d-2257-493e-9aa3-b8b04fc78382.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/35-Planta-agrupada-superior.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/de-alto-padrao-ingleses-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:52.424Z",
+  "kind": "casa"
+}

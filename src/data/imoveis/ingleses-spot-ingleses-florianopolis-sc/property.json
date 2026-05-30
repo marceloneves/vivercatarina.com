@@ -1,0 +1,117 @@
+{
+  "id": 13122,
+  "slug": "ingleses-spot-ingleses-florianopolis-sc",
+  "title": "Ingleses Spot, Ingleses",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$310,000",
+    "amount": 310000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Dos Lordes, Ingleses, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ingleses",
+      "name": "Ingleses"
+    }
+  },
+  "overview": {
+    "code": "1324",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 19.032,
+    "deliveryYear": "Jun/26"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "jun-26",
+      "name": "Jun/26"
+    }
+  ],
+  "labels": [],
+  "featureSlugs": [
+    "coworking",
+    "espaco-gourmet",
+    "mini-market",
+    "piscina"
+  ],
+  "features": [
+    "Piscina",
+    "Coworking",
+    "Espaço Gourmet",
+    "Mini-market"
+  ],
+  "descriptionHtml": "<p><strong>Studio projetado para locações de temporada/ shortstay a partir de R$ 310.000,00</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 05/04/2026</em></li>\n</ul>\n<p class=\"\" data-start=\"172\" data-end=\"541\"><strong data-start=\"172\" data-end=\"221\">INVISTA A POUCOS METROS DA PRAIA DOS INGLESES</strong><br data-start=\"221\" data-end=\"224\" />Empreendimento exclusivo construído na modalidade SPE, ideal para quem busca alta rentabilidade com locações de temporada em uma das praias mais procuradas de Florianópolis. Localizado na Rua dos Lordes, a poucos passos do mar, o edifício oferece studios modernos, funcionais e com excelente distribuição de espaço.</p>\n<p class=\"\" data-start=\"543\" data-end=\"740\">Além da localização estratégica, o empreendimento conta com infraestrutura completa:<br data-start=\"627\" data-end=\"630\" />🏖️ Piscina com borda infinita<br data-start=\"660\" data-end=\"663\" />🎉 Salão de festas<br data-start=\"681\" data-end=\"684\" />💼 Espaço coworking<br data-start=\"703\" data-end=\"706\" />🛒 Mini market para conveniência</p>\n<p class=\"\" data-start=\"742\" data-end=\"823\">Tudo pensado para oferecer praticidade, conforto e um ótimo retorno financeiro.</p>\n<p class=\"\" data-start=\"825\" data-end=\"958\"><strong data-start=\"825\" data-end=\"879\">Studios com alto potencial de valorização e renda.</strong><br data-start=\"879\" data-end=\"882\" />Garanta já sua unidade e aproveite essa oportunidade única no norte da ilha!</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Untitled-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Untitled-6.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Capturar-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Untitled-3.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Untitled-2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Untitled-4.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Untitled-5.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Untitled-3.webp",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Captura-de-tela-2026-04-07-163832.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Copia-de-8_FACHADA_HR-FINAL-ST-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Copia-de-6_APTO_HR-FINAL_v02-1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Copia-de-2_FACHADA_HR-FINAL-EMB-scaled.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/ingleses-spot-ingleses-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:57.442Z",
+  "kind": "apartamento"
+}

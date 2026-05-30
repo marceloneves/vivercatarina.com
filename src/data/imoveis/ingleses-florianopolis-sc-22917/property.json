@@ -1,0 +1,120 @@
+{
+  "id": 22917,
+  "slug": "ingleses-florianopolis-sc-22917",
+  "title": "Sobrado em Ingleses, Florianópolis",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,000,000",
+    "amount": 1000000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Servidão Botafogo Dos Ingleses, 338,",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ingleses",
+      "name": "Ingleses"
+    }
+  },
+  "overview": {
+    "code": "1640",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "garages": 2,
+    "sizeSqm": 1372,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "1-suite2-demi-suites",
+      "name": "1 Suíte+2 Demi-suítes"
+    }
+  ],
+  "featureSlugs": [
+    "quintal"
+  ],
+  "features": [
+    "Quintal"
+  ],
+  "descriptionHtml": "<p><strong>Unidade a partir de R$ 1.000.000,00 (casa lateral leste, sol da manhã)</strong></p>\n<p>3 quartos, sendo 1 suíte + 2 demi-suítes.</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio</em></li>\n<li><em>Condições de pagamento flexível</em></li>\n<li><em>Valores atualizados em 26/05/2025</em></li>\n</ul>\n<p data-start=\"268\" data-end=\"339\"><strong data-start=\"268\" data-end=\"339\">Sobrado à Venda nos Ingleses Norte – Florianópolis/SC | Financiável</strong></p>\n<p data-start=\"341\" data-end=\"602\">Sobrado lateral de <strong data-start=\"360\" data-end=\"375\">alto padrão</strong> à venda na Servidão Botafogo dos Ingleses, no bairro <strong data-start=\"429\" data-end=\"473\">Ingleses do Rio Vermelho – Norte da Ilha</strong>. Excelente localização, com fácil acesso às praias do Norte e Leste de Florianópolis, comércios, serviços e ao Centro da cidade.</p>\n<p data-start=\"604\" data-end=\"809\">O imóvel possui <strong data-start=\"620\" data-end=\"647\">206m² de área privativa</strong>, sendo <strong data-start=\"655\" data-end=\"683\">137m² de área construída</strong> e <strong data-start=\"686\" data-end=\"721\">69m² de área externa com jardim</strong>. Conta com <strong data-start=\"733\" data-end=\"763\">posição solar privilegiada</strong>, frente norte e lateral leste (sol da manhã).</p>\n<p data-start=\"811\" data-end=\"828\"><strong data-start=\"811\" data-end=\"828\">Distribuição:</strong></p>\n<ul data-start=\"829\" data-end=\"1041\">\n<li data-start=\"829\" data-end=\"877\">\n<p data-start=\"831\" data-end=\"877\">3 dormitórios, sendo 1 suíte e 2 demi-suítes</p>\n</li>\n<li data-start=\"878\" data-end=\"893\">\n<p data-start=\"880\" data-end=\"893\">Sala de estar</p>\n</li>\n<li data-start=\"894\" data-end=\"931\">\n<p data-start=\"896\" data-end=\"931\">Cozinha com saída para área externa</p>\n</li>\n<li data-start=\"932\" data-end=\"940\">\n<p data-start=\"934\" data-end=\"940\">Lavabo</p>\n</li>\n<li data-start=\"941\" data-end=\"953\">\n<p data-start=\"943\" data-end=\"953\">Lavanderia</p>\n</li>\n<li data-start=\"954\" data-end=\"977\">\n<p data-start=\"956\" data-end=\"977\">Churrasqueira externa</p>\n</li>\n<li data-start=\"978\" data-end=\"996\">\n<p data-start=\"980\" data-end=\"996\">Pátio com jardim</p>\n</li>\n<li data-start=\"997\" data-end=\"1041\">\n<p data-start=\"999\" data-end=\"1041\">Vaga para 2 carros com portão automatizado</p>\n</li>\n</ul>\n<p data-start=\"1043\" data-end=\"1322\"><strong data-start=\"1043\" data-end=\"1073\">Acabamentos de alto padrão</strong>, com porcelanato Portobello Shop 90&#215;90, esquadrias em alumínio preto, persianas elétricas nos dormitórios, fachada com ripado em alumínio amadeirado, porta principal com fechadura eletrônica, infraestrutura para ar-condicionado e aquecimento solar.</p>\n<p data-start=\"1324\" data-end=\"1431\">Imóvel com <strong data-start=\"1335\" data-end=\"1356\">escritura pública</strong>, água, luz e esgoto individualizados.<br data-start=\"1394\" data-end=\"1397\" /><strong data-start=\"1397\" data-end=\"1431\">Aceita financiamento bancário.</strong></p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-9bd3035a-ed05-467a-9831-ec7cd8fb91c1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-3afca9f1-8790-4c3f-b721-235be5f647a7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-e4434a93-15f9-41d1-b54f-0e842e60e880-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-58d6dfea-4f77-46f9-9816-7d18ed5d93ff.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-7b3de2b1-435e-41b3-bac1-228b06b6ef49.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-435e56d1-f363-46fa-a406-77c04621b5b6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-cff2e60a-ee11-43eb-810a-cc2a14741687.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-549dea6c-d903-4487-ba84-992e75daa5ea.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-809b4eb0-104d-4ed5-98ca-5cd18f2829f1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-8847075b-5a46-4642-b725-a1145429e8d5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-9783856e-03b3-48cc-ab82-a7602e58f0f9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-cb0deddd-bb3e-4abd-b5ef-fc7b6f64228f.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-3d1c21a6-5551-4473-b379-e77da1c3e5ed.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/ingleses-florianopolis-sc-22917/",
+  "importedAt": "2026-05-30T18:44:14.443Z",
+  "kind": "casa"
+}

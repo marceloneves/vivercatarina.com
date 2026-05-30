@@ -1,0 +1,134 @@
+---
+const { property, variant = 'grid' } = Astro.props;
+const isGrid = variant === 'grid';
+---
+
+{
+	isGrid ? (
+		<div
+			class="col-xl-4 col-lg-6 col-md-6 property-listing-card"
+			data-slug={property.slug}
+			data-price={property.price ?? 0}
+		>
+			<div class="popular-list-1 grid-style">
+				<div class="thumb-wrapper">
+					<a href={property.detailUrl} class="thumb-link">
+						<img src={property.imageUrl} alt={property.title} />
+						<div class="popular-badge">
+							<img src="/assets/img/icon/sell_rent_icon.svg" alt="ícone" />
+							<p>{property.categoryLabel}</p>
+						</div>
+					</a>
+				</div>
+				<div class="property-content">
+					<div class="media-body">
+						<h3 class="box-title">
+							<a href={property.detailUrl}>{property.title}</a>
+						</h3>
+						<div class="box-text">
+							<div class="icon">
+								<img src="/assets/img/icon/popular-location.svg" alt="ícone" />
+							</div>
+							{property.locationLabel}
+						</div>
+					</div>
+					<ul class="property-featured">
+						{property.bedrooms != null && (
+							<li>
+								<div class="icon">
+									<img src="/assets/img/icon/bed.svg" alt="ícone" />
+								</div>
+								Quartos {property.bedrooms}
+							</li>
+						)}
+						{property.bathrooms != null && (
+							<li>
+								<div class="icon">
+									<img src="/assets/img/icon/bath.svg" alt="ícone" />
+								</div>
+								Banheiros {property.bathrooms}
+							</li>
+						)}
+						{property.sizeSqm != null && (
+							<li>
+								<div class="icon">
+									<img src="/assets/img/icon/sqft.svg" alt="ícone" />
+								</div>
+								{property.sizeSqm} m²
+							</li>
+						)}
+					</ul>
+					<div class="property-bottom">
+						<h6 class="box-title">{property.priceLabel}</h6>
+						<a class="th-btn sm style3 pill" href={property.detailUrl}>
+							Ver mais
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	) : (
+		<div
+			class="col-xl-12 property-listing-card"
+			data-slug={property.slug}
+			data-price={property.price ?? 0}
+		>
+			<div class="popular-list-1 list-style">
+				<div class="thumb-wrapper">
+					<a href={property.detailUrl} class="thumb-link">
+						<img src={property.imageUrl} alt={property.title} />
+						<div class="popular-badge">
+							<img src="/assets/img/icon/sell_rent_icon.svg" alt="ícone" />
+							<p>{property.categoryLabel}</p>
+						</div>
+					</a>
+				</div>
+				<div class="property-content">
+					<div class="media-body">
+						<h3 class="box-title">
+							<a href={property.detailUrl}>{property.title}</a>
+						</h3>
+						<div class="box-text">
+							<div class="icon">
+								<img src="/assets/img/icon/popular-location.svg" alt="ícone" />
+							</div>
+							{property.locationLabel}
+						</div>
+					</div>
+					<ul class="property-featured">
+						{property.bedrooms != null && (
+							<li>
+								<div class="icon">
+									<img src="/assets/img/icon/bed.svg" alt="ícone" />
+								</div>
+								Quartos {property.bedrooms}
+							</li>
+						)}
+						{property.bathrooms != null && (
+							<li>
+								<div class="icon">
+									<img src="/assets/img/icon/bath.svg" alt="ícone" />
+								</div>
+								Banheiros {property.bathrooms}
+							</li>
+						)}
+						{property.sizeSqm != null && (
+							<li>
+								<div class="icon">
+									<img src="/assets/img/icon/sqft.svg" alt="ícone" />
+								</div>
+								{property.sizeSqm} m²
+							</li>
+						)}
+					</ul>
+					<div class="property-bottom">
+						<h6 class="box-title">{property.priceLabel}</h6>
+						<a class="th-btn sm style3 pill" href={property.detailUrl}>
+							Ver mais
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	)
+}

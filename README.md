@@ -1,43 +1,63 @@
-# Astro Starter Kit: Minimal
+# Na Planta SC
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Site em [Astro](https://astro.build) para imóveis na planta em Santa Catarina, baseado no template Piller (pasta `modelo/`).
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+## Estrutura
 
 ```text
 /
-├── public/
+├── public/assets/              # CSS, JS, imagens do template
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── content/template-pages/ # HTML bruto importado do modelo
+│   ├── layouts/
+│   │   └── PillerLayout.astro  # Layout principal do template
+│   └── pages/                  # Páginas Astro geradas
+├── modelo/download-version/    # Template HTML original
+└── scripts/import-template-pages.mjs
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Homes do template
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+| Rota | Variante |
+| :--- | :------- |
+| `/` | Home Real Estate |
+| `/home-2` | Home Property |
+| `/home-3` | Home Map |
+| `/home-4` | Home Luxury |
+| `/home-5` | Home Single Property |
+| `/home-6` | Real Estate Company |
+| `/home-7` | Real Estate Agency |
+| `/home-8` | Real Estate Local Agency |
+| `/home-9` | Home Single Property (v2) |
+| `/home-10` | Modern House Agency |
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Páginas importadas
 
-## 🧞 Commands
+- `/` — Home Real Estate
+- `/about`, `/contact`, `/property`, `/property-details`
+- `/agency`, `/agency-details`, `/team`, `/team-details`
+- `/blog`, `/blog-details`, `/blog-grid-left-sidebar`, `/blog-grid-right-sidebar`
+- `/service`, `/service-details`, `/service-right-sidebar`
+- `/shop`, `/shop-details`, `/cart`, `/checkout`, `/wishlist`
+- `/gallery`, `/pricing`, `/faq`, `/neighborhood-guide`, `/typography`
+- `/404` e `/error` — Página de erro
 
-All commands are run from the root of the project, from a terminal:
+## Comandos
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| Comando | Ação |
+| :------ | :--- |
+| `npm install` | Instala as dependências |
+| `npm run dev` | Servidor local em `localhost:4321` |
+| `npm run build` | Build de produção em `./dist/` |
+| `npm run preview` | Pré-visualiza o build |
+| `npm run import:template` | Reimporta páginas de `modelo/download-version/` |
 
-## 👀 Want to learn more?
+## Reimportar o template
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Se alterar arquivos em `modelo/download-version/`, execute:
+
+```bash
+npm run import:template
+```
+
+Isso regenera `src/content/template-pages/` e `src/pages/*.astro`.

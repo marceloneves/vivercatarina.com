@@ -1,0 +1,124 @@
+{
+  "id": 9355,
+  "slug": "urban-centro-florianopolis-sc",
+  "title": "Urban, Centro, Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$468,000",
+    "amount": 468000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Centro, Florianópolis/SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "centro",
+      "name": "Centro"
+    }
+  },
+  "overview": {
+    "code": "1192",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": null,
+    "deliveryYear": "Dez/2025"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-25",
+      "name": "Dez/25"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "coworking",
+    "especo-pet",
+    "lavanderia",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Lavanderia",
+    "Academia",
+    "Salão de Festas",
+    "Espaço Pet",
+    "Coworking"
+  ],
+  "descriptionHtml": "<p><strong>Studios a partir de R$ 468.000,00</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 05/03/2026</em></li>\n</ul>\n<h6><strong>Lançamento no Centro de Florianópolis/SC</strong></h6>\n<p>Empreendimento no coração de Florianópolis, ideal para quem busca praticidade e conveniência. Projetado por uma construtora renomada, sólida e com um histórico comprovado de qualidade, este empreendimento é construído na modalidade <strong>SPE (Sociedade de Propósito Específico)</strong>, garantindo maior transparência, segurança jurídica e eficiência na execução da obra.</p>\n<h6><strong>Unidades Disponíveis</strong></h6>\n<ul>\n<li><strong>Studios</strong>, perfeitos para morar ou investir.</li>\n</ul>\n<h6><strong>Áreas Comuns</strong></h6>\n<p>O empreendimento oferece uma infraestrutura moderna para atender todas as necessidades:</p>\n<ul>\n<li>Salão de festas;</li>\n<li>Mini mercado;</li>\n<li>Coworking;</li>\n<li>Rooftop com vista privilegiada;</li>\n<li>Lavanderia compartilhada;</li>\n<li>Academia equipada;</li>\n<li>Pet Place para o conforto dos animais de estimação.</li>\n</ul>\n<p>Com localização estratégica no centro da cidade, este lançamento une estilo de vida prático e valorização imobiliária, sendo uma excelente oportunidade para moradia ou investimento.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-eeee47a5a088efb1c729e104f5b8f26e.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-abe7168433b8e3e7dbda644056648174.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-2cf932e1a5a5548a852e9d5269d7e0ca.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-1a3780d25e51cf96c0260dd00badd4ac.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-6e2d6848f6056c9927b3cbe9b3cdf084.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-8936323c194efe990b00b5df8e0e0ed6.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-842456319a2a67f4402af26b0bf5c559.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-a6c9ec3e18572cee780ecb81577a0a2d.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-bb8eadb3beb082377f0e734cb70f4f45.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-be439744e7ea8686de86265ffca9e3c7.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-c7b2916b4878bad4e30a55ae3ba562b4-1.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Capturar2-11.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/urban-centro-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:44:01.588Z",
+  "kind": "apartamento"
+}

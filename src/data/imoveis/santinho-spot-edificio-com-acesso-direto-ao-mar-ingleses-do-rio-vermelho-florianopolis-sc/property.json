@@ -1,0 +1,164 @@
+{
+  "id": 13172,
+  "slug": "santinho-spot-edificio-com-acesso-direto-ao-mar-ingleses-do-rio-vermelho-florianopolis-sc",
+  "title": "Santinho Spot Edificio com acesso direto ao mar, Ingleses do Rio Vermelho",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$220,000",
+    "amount": 220000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Vereador Onildo Lemos, 1937, Ingleses do Rio Vermelho",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ingleses-do-rio-vermelho",
+      "name": "Ingleses do Rio Vermelho"
+    }
+  },
+  "overview": {
+    "code": "1334",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 17.442,
+    "deliveryYear": "Dez/29"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-29",
+      "name": "Dez/29"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "espaco-gourmet",
+    "mini-market",
+    "piscina-aquecida"
+  ],
+  "features": [
+    "Espaço Gourmet",
+    "Piscina Aquecida",
+    "Mini-market"
+  ],
+  "descriptionHtml": "<p><strong>Stúdios para locações temporada/Short Stay – Alta Rentabilidade com Baixo Custo operacional. Studios com sacada com metragens de 17,44m² a 53,69m² a partir de R$ 220.000,00</strong></p>\n<p>Entrada + reforços + parcelas</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 08/04/2026</em></li>\n</ul>\n<p class=\"\" data-start=\"135\" data-end=\"216\"><strong data-start=\"135\" data-end=\"216\">ACESSO DIRETO À PRAIA DO SANTINHO — INVESTIMENTO INTELIGENTE EM FLORIANÓPOLIS</strong></p>\n<p class=\"\" data-start=\"218\" data-end=\"663\">Este empreendimento exclusivo, construído na modalidade <strong data-start=\"274\" data-end=\"317\">SPE (Sociedade de Propósito Específico)</strong>, é uma excelente oportunidade para quem busca alta rentabilidade com locações de temporada em uma das praias mais desejadas do norte da Ilha. Localizado em posição privilegiada, com <strong data-start=\"500\" data-end=\"537\">acesso direto à Praia do Santinho</strong>, oferece studios planejados para proporcionar funcionalidade, conforto e desempenho acima da média em plataformas de aluguel.</p>\n<p class=\"\" data-start=\"665\" data-end=\"845\">A modalidade SPE garante <strong data-start=\"690\" data-end=\"755\">transparência, segurança jurídica e previsibilidade de custos</strong>, reunindo investidores em um modelo moderno e consolidado no mercado da construção civil.</p>\n<p class=\"\" data-start=\"847\" data-end=\"1075\">O empreendimento é administrado por uma <strong data-start=\"887\" data-end=\"944\">empresa especialista em construções na modalidade SPE</strong>, com sólida reputação e dezenas de empreendimentos entregues em Florianópolis — referência em qualidade, pontualidade e seriedade.</p>\n<p class=\"\" data-start=\"1077\" data-end=\"1327\">A infraestrutura foi pensada para atrair hóspedes durante todo o ano:<br data-start=\"1146\" data-end=\"1149\" />🏊‍♂️ <strong data-start=\"1155\" data-end=\"1175\">Piscina aquecida</strong> para uso em todas as estações<br data-start=\"1205\" data-end=\"1208\" />🛒 <strong data-start=\"1211\" data-end=\"1226\">Mini market</strong> com itens de conveniência<br data-start=\"1252\" data-end=\"1255\" />🍽️ <strong data-start=\"1259\" data-end=\"1277\">Espaço gourmet</strong> ideal para momentos de lazer e confraternização</p>\n<p class=\"\" data-start=\"1329\" data-end=\"1564\"><strong data-start=\"1329\" data-end=\"1453\">Studios com alto potencial de valorização, localização estratégica e rentabilidade comprovada em locações por temporada.</strong><br data-start=\"1453\" data-end=\"1456\" />Invista com segurança em um projeto de alto padrão, conduzido por especialistas e voltado para retorno real.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Capturar1-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Copia-de-SZ02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Capturar-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Copia-de-SZ04-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Capturar8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Copia-de-Copia-de-DJI_20250116112113_0019_D-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Copia-de-Copia-de-DJI_20250116112449_0024_D-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Copia-de-Copia-de-DJI_20250116112159_0021_D-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Capturar3-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Copia-de-SZ09-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Copia-de-Imagem-10-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Copia-de-Imagem-09-opcao-01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Copia-de-Imagem-07-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Copia-de-Imagem-08-opcao-01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Copia-de-Imagem-06-1-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Copia-de-Imagem-05-2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Copia-de-Imagem-04-3.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Copia-de-Imagem-03-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Copia-de-Imagem-02-1-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Copia-de-Imagem-01-2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-DJI_0987-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Capturar5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Capturar4-1.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/santinho-spot-edificio-com-acesso-direto-ao-mar-ingleses-do-rio-vermelho-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:44:00.885Z",
+  "kind": "apartamento"
+}

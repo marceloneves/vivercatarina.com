@@ -1,0 +1,180 @@
+{
+  "id": 17001,
+  "slug": "gran-malltech-vargem-grande-florianopolis-sc",
+  "title": "Gran Malltech, Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$313,000",
+    "amount": 313000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Francisco Fausto Martins, 606 – Vargem Grande, Florianópolis/SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "vargem-grande",
+      "name": "Vargem Grande"
+    }
+  },
+  "overview": {
+    "code": "1460",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 21.112,
+    "deliveryYear": "2028"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "2028",
+      "name": "2028"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "1-e-2-dorms",
+      "name": "1 e 2 dorms."
+    }
+  ],
+  "featureSlugs": [
+    "churrasqueira-coletiva",
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "especo-pet",
+    "mini-market",
+    "piscina",
+    "sala-de-jogos",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Pet",
+    "Sala de Jogos",
+    "Coworking",
+    "Espaço Gourmet",
+    "Mini-market",
+    "Churrasqueira coletiva",
+    "Elevador"
+  ],
+  "descriptionHtml": "<h5><strong>Studios a partir 21,10m² com vagas de garagem rotativas e descobertas a partir de 313.00,00</strong></h5>\n<h5><strong>Opções de apartamentos 2 quartos  com vaga de garagem privativa e coberta, a partir </strong><strong>R$ 510.900,00</strong></h5>\n<h5><strong>Studios e Apartamentos no Gran Malltech – Vargem Grande, Florianópolis/SC</strong></h5>\n<p>O Gran Malltech é um empreendimento inovador que une moradia e investimento em uma localização estratégica, no bairro Vargem Grande, em Florianópolis/SC. São duas opções de condomínios planejados para diferentes perfis de compradores:</p>\n<p><strong>Condomínio Residencial Clube</strong></p>\n<ul>\n<li>Apartamentos com 2 quartos</li>\n<li>Ideal para quem busca conforto, lazer e segurança para morar com a família</li>\n</ul>\n<p><strong>Condomínio Studio Business</strong></p>\n<ul>\n<li>Studios modernos e funcionais</li>\n<li>Perfeitos para quem busca praticidade ou deseja investir com rentabilidade</li>\n</ul>\n<hr />\n<h4><strong>Infraestrutura completa:</strong></h4>\n<ul>\n<li>Piscina adulto, infantil e raia</li>\n<li>Dois salões de festas completos</li>\n<li>Espaço pet</li>\n<li>Duas quadras de areia para beach tennis, futevôlei e vôlei</li>\n<li>Quiosque com churrasqueira</li>\n<li>Fireplace e espaço gourmet ao ar livre</li>\n<li>Mini mercado autônomo</li>\n<li>Playground, espaço kids e espaço de jogos</li>\n<li>Coworking e sala de reunião</li>\n<li>Adega de vinhos selecionados</li>\n<li>Portaria 24 horas e câmeras de vigilância em todos os andares</li>\n<li>Área comercial integrada</li>\n<li>Aluguel de carro pelo aplicativo Hausi</li>\n</ul>\n<p>Todas as áreas comuns serão entregues equipadas, mobiliadas e climatizadas pela construtora, garantindo conforto, segurança e praticidade para moradores e investidores.</p>\n<hr />\n<h5><strong>Diferenciais de segurança e tecnologia:</strong></h5>\n<ul>\n<li>Controle de acesso por biometria facial</li>\n<li>Acessos independentes para o Residencial Clube e o Studio Business</li>\n</ul>\n<hr />\n<h5><strong>Facilidades de pagamento </strong></h5>\n<ul>\n<li>Entrada + reforços anuais (3x) + parcelas (32x) + financiamento bancário (80%)</li>\n</ul>\n<hr />\n<h5><strong>Condições especiais para o primeiro imóvel:</strong></h5>\n<ul>\n<li>Documentação paga pela construtora</li>\n<li>Entrada parcelada sem juros</li>\n<li>Tabela zero</li>\n</ul>\n<p>Aproveite as condições exclusivas de pré-lançamento. Entre em contato para mais informações e garanta sua unidade.</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 02/01/2026</em></li>\n</ul>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-2-21.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Capturar-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-3-13.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-4-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-5-14.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-6-12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-7-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-12-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-13-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-14-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-15-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-16-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-17-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-18-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-19-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-22-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-20-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-21.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-23-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-9-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-8-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-10-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-11-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-24.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/gran-malltech-vargem-grande-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:37.842Z",
+  "kind": "apartamento"
+}

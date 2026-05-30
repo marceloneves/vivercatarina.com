@@ -17,6 +17,9 @@ pnpm-debug.log*
 .env
 .env.production
 
+# lead capture (contains personal data)
+data/whatsapp-leads.json
+
 # macOS-specific files
 .DS_Store
 

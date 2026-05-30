@@ -1,0 +1,13 @@
+---
+import { listPropertySlugs } from '../../lib/property-data.mjs';
+
+export function getStaticPaths() {
+	return listPropertySlugs().map((slug) => ({
+		params: { slug },
+	}));
+}
+
+const { slug } = Astro.params;
+
+return Astro.redirect(`/imovel/${slug}`, 301);
+---

@@ -1,0 +1,167 @@
+{
+  "id": 15266,
+  "slug": "level-up-cachoeira-do-bom-jesus-florianopolis-sc",
+  "title": "LEVEL UP, Cachoeira do Bom Jesus",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$825,800",
+    "amount": 825800,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Loteamento, jardim Nova Cachoeira",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "cachoeira-do-bom-jesus",
+      "name": "Cachoeira do Bom Jesus"
+    }
+  },
+  "overview": {
+    "code": "1404",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": 1,
+    "sizeSqm": 50.132,
+    "deliveryYear": "2027"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-27",
+      "name": "Dez/27"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "1-dorm-e-1-suite",
+      "name": "2 Dorm (1 Suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "churrasqueira",
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "lavanderia",
+    "mini-market",
+    "piscina",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Lavanderia",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Coworking",
+    "Espaço Gourmet",
+    "Brinquedoteca",
+    "Mini-market",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p><strong>Apartamento com 1 dormitório- duplex cobertura, 61,96m² de área privativa, sacada com churrasqueira,1 vaga de garagem  a partir de R$ 825.800,00 (Apto 317) somente para Fluxo investidor = Entrada +19 parcelas + reforços semestrais (3x)</strong></p>\n<p>Ou R$ 1.101.140,00 com entrada + parcelas (19x) + reforços (3x)+ financiamento bancário</p>\n<p><b>Apartamento cobertura, 2 dormitórios sendo 1 suíte + Jacuzzi, 82,43m² de área privativa, sacada com churrasqueira, 2 vagas de garagem a partir de R$1.191.880,00(403) <strong>somente para Fluxo investidor = Entrada +19 parcelas + reforços semestrais (3x)</strong></b></p>\n<p>Ou R$ 1.589.170,00, com entrada + parcelas (19x) + reforços (3x)+ financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 25/05/2026</em></li>\n</ul>\n<hr />\n<p><strong>Level Up – Cachoeira do Bom Jesus – Florianópolis/SC</strong></p>\n<p>O Level Up é o empreendimento ideal para quem busca modernidade, praticidade e conforto em uma das regiões mais valorizadas do norte da Ilha: o bairro Cachoeira do Bom Jesus, em Florianópolis/SC.</p>\n<p>Com lojas no térreo e diversas opções de plantas residenciais, o Level Up oferece unidades espaçosas com suíte ou opções mais compactas no estilo loft, atendendo a diferentes estilos de vida e perfis de moradia ou investimento.</p>\n<p><strong>Diferenciais do empreendimento:</strong></p>\n<ul>\n<li>Lavanderia compartilhada</li>\n<li>Mini market 24h</li>\n<li>Salão de festas</li>\n<li>Sala de jogos</li>\n<li>Espaço co-working e sala de reuniões</li>\n<li>Piscina e ofurô no rooftop com vista privilegiada</li>\n<li>Academia equipada</li>\n<li>Espaço kids</li>\n</ul>\n<p><strong>Tecnologia, segurança e conforto:</strong></p>\n<ul>\n<li>Fechadura digital nas unidades</li>\n<li>Reconhecimento facial nos principais acessos</li>\n<li>Sistema de CFTV no condomínio</li>\n<li>Wi-Fi de alta velocidade nas áreas comuns</li>\n<li>Infraestrutura para carregamento de carro elétrico</li>\n<li>Persianas elétricas nos dormitórios</li>\n</ul>\n<p>More ou invista em um empreendimento contemporâneo, com excelente localização e infraestrutura completa.</p>\n<p>Entre em contato para mais informações sobre disponibilidade, plantas e condições especiais.</p>",
+  "floorPlans": [
+    {
+      "title": "Floor 1",
+      "image": "images/19-TIPO-4-TORRE-1.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-3-13.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-10-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-5-13.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-9-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-1-17.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-2-14.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-4-13.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-6-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-11-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-12-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-13-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-14-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-15-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-16-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-17-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-19-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-8-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-7-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-TIPO-4-TORRE-1.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/level-up-cachoeira-do-bom-jesus-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:39.100Z",
+  "kind": "apartamento"
+}

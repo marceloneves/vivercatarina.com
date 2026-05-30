@@ -1,0 +1,102 @@
+{
+  "slug": "centro",
+  "name": "Centro",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-30T22:18:06.549Z",
+  "total": 10,
+  "properties": [
+    {
+      "slug": "centro-florianopolis-sc",
+      "id": 5807,
+      "title": "Apartamento com 2 quartos, sacada e 1 vaga de garagem, Centro, Florianópolis",
+      "category": "pronto-para-morar",
+      "price": 1291000,
+      "dataPath": "imoveis/centro-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/centro-florianopolis-sc/images/01-Captura-de-tela-2026-05-19-151027.jpg"
+    },
+    {
+      "slug": "rua-bocaiuva-centro-florianopolis-sc",
+      "id": 20535,
+      "title": "Apartamento semimobiliado, Rua Bocaiuva, Centro, Florianópolis",
+      "category": "pronto-para-morar",
+      "price": 1680000,
+      "dataPath": "imoveis/rua-bocaiuva-centro-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/rua-bocaiuva-centro-florianopolis-sc/images/01-original_21894b23de55365632120b9c3334996c.jpg"
+    },
+    {
+      "slug": "triplex-centro-florianopolis-sc",
+      "id": 21288,
+      "title": "Cobertura triplex, semimobiliada no Centro de Florianópolis",
+      "category": "pronto-para-morar",
+      "price": 2000000,
+      "dataPath": "imoveis/triplex-centro-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/triplex-centro-florianopolis-sc/images/01-original_df2e424f651bd70510fb2057563db474-1.jpg"
+    },
+    {
+      "slug": "d-sense-centro-florianopolis-sc",
+      "id": 11878,
+      "title": "D/Sense, alto padrão, Centro, Florianópolis",
+      "category": "lancamento",
+      "price": 5397000,
+      "dataPath": "imoveis/d-sense-centro-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/d-sense-centro-florianopolis-sc/images/01-1-27.jpg"
+    },
+    {
+      "slug": "easy-centro-florianopolis-sc",
+      "id": 16803,
+      "title": "Easy, Centro de Florianópolis",
+      "category": "lancamento",
+      "price": 291000,
+      "dataPath": "imoveis/easy-centro-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/easy-centro-florianopolis-sc/images/01-Captura-de-tela-2025-07-24-162124.png"
+    },
+    {
+      "slug": "la-porta-centro-florianopolis-sc",
+      "id": 25584,
+      "title": "La Porta, Centro, Florianópolis",
+      "category": "pronto-para-morar",
+      "price": 640000,
+      "dataPath": "imoveis/la-porta-centro-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/la-porta-centro-florianopolis-sc/images/01-00_Externa-768x432-2.png"
+    },
+    {
+      "slug": "loft-centro-florianopolis-sc",
+      "id": 24552,
+      "title": "Loft duplex, próximo ao Shopping Beira Mar, Centro, Florianópolis",
+      "category": "pronto-para-morar",
+      "price": 1400000,
+      "dataPath": "imoveis/loft-centro-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/loft-centro-florianopolis-sc/images/01-original_ddbfad717c424b310514998d3ac8ed88.jpg"
+    },
+    {
+      "slug": "pronto-para-morar-centro-florianopolis-sc",
+      "id": 11747,
+      "title": "Pronto para morar, D/Yard, Centro, Florianópolis",
+      "category": "pronto-para-morar",
+      "price": 3980000,
+      "dataPath": "imoveis/pronto-para-morar-centro-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/pronto-para-morar-centro-florianopolis-sc/images/01-IMG_4088-scaled.jpg"
+    },
+    {
+      "slug": "urban-centro-florianopolis-sc",
+      "id": 7321,
+      "title": "Urban, Alto padrão no Centro de Florianópolis",
+      "category": "pronto-para-morar",
+      "price": 1615000,
+      "dataPath": "imoveis/urban-centro-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/urban-centro-florianopolis-sc/images/01-eeee47a5a088efb1c729e104f5b8f26e.jpg"
+    },
+    {
+      "slug": "urban-centro-florianopolis-sc-7321",
+      "id": 9355,
+      "title": "Urban, Centro, Florianópolis",
+      "category": "lancamento",
+      "price": 468000,
+      "dataPath": "imoveis/urban-centro-florianopolis-sc-7321/property.json",
+      "thumbnail": "imoveis/urban-centro-florianopolis-sc-7321/images/01-Haus-Arquitetos-Urban_04.jpg"
+    }
+  ]
+}

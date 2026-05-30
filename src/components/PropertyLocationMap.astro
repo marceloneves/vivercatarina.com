@@ -1,0 +1,19 @@
+---
+const { property } = Astro.props;
+---
+
+<section class="property-location-fullwidth" aria-label="Localização">
+	{
+		property.mapEmbedUrl ? (
+			<div class="location-map">
+				<div class="contact-map">
+					<iframe src={property.mapEmbedUrl} allowfullscreen loading="lazy" title={`Mapa — ${property.title}`} />
+				</div>
+			</div>
+		) : (
+			<div class="property-location-fallback">
+				<p>{property.locationLabel}</p>
+			</div>
+		)
+	}
+</section>

@@ -1,0 +1,144 @@
+{
+  "id": 7485,
+  "slug": "florianopolis-saco-grande-florianopolis-sc",
+  "title": "ao lado do Floripa Shopping",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$950,000",
+    "amount": 950000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rod. José Carlos Daux, Saco Grande",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "saco-grande",
+      "name": "Saco Grande"
+    }
+  },
+  "overview": {
+    "code": "1097",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 65.162,
+    "deliveryYear": "Dez/25"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-25",
+      "name": "Dez/25"
+    }
+  ],
+  "labels": [],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "churrasqueira",
+    "coworking",
+    "espaco-gourmet",
+    "especo-pet",
+    "piscina",
+    "sala-de-jogos",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Pet",
+    "Sala de Jogos",
+    "Coworking",
+    "Espaço Gourmet",
+    "Brinquedoteca"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 2 quartos sendo 1 suíte, 65,16m², sacada com churrasqueira e vaga de garagem + hobby box, a partir de R$ 950.000,00 (Apto 502 A)</strong></p>\n<p><strong>Apartamentos com 2 quartos sendo 1 suíte, 70,22m², sacada com churrasqueira e vaga de garagem + hobby box,  a partir de R$1.019.000,00 </strong><strong style=\"color: var(--g5-color-text-main); font-family: var(--g5-body-font); font-size: var(--g5-body-font-size); font-style: var(--g5-body-font-style); letter-spacing: var(--g5-body-letter-spacing); text-transform: var(--g5-body-text-transform);\">(Apto 502 B)</strong></p>\n<p>Entrada 10% + mensais + reforços + chaves/ financiamento bancário 70%</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel ou veículo como parte de pagamento.</li>\n<li>Atualizado 07/01/2026</li>\n</ul>\n<p><strong>Lançamento Imperdível ao Lado do Floripa Shopping – Florianópolis</strong></p>\n<p>Descubra um empreendimento exclusivo, projetado para oferecer conforto, lazer e praticidade, localizado em uma das áreas mais desejadas da cidade, ao lado do Floripa Shopping.</p>\n<p><strong>Características dos Apartamentos:</strong></p>\n<ul>\n<li><strong>2 Quartos, sendo 1 Suíte</strong>: Projetados com elegância e funcionalidade, proporcionando privacidade e conforto.</li>\n<li><strong>Sacada com Churrasqueira</strong>: Perfeita para momentos de descontração e refeições ao ar livre.</li>\n<li><strong>1 Vaga de Garagem</strong>: Garantindo segurança e comodidade para o seu veículo.</li>\n<li><strong>Áreas Privativas de 65 a 79m²</strong>: Espaços otimizados para melhor aproveitamento e bem-estar.</li>\n</ul>\n<p><strong>Destaques do Edifício:</strong></p>\n<ul>\n<li><strong>Espaço Gourmet</strong> e <strong>Salão de Festas</strong>: Para celebrar e compartilhar momentos especiais com amigos e familiares.</li>\n<li><strong>Academia Moderna</strong>: Totalmente equipada para suas rotinas de exercícios.</li>\n<li><strong>Pet Place</strong>: Espaço dedicado para o bem-estar do seu pet.</li>\n<li><strong>Sala de Jogos</strong>: Diversão e entretenimento garantidos.</li>\n<li><strong>Piscina</strong>: Para relaxar e aproveitar os dias de sol.</li>\n<li><strong>Coworking</strong>: Ambiente ideal para quem busca praticidade e produtividade no trabalho remoto.</li>\n</ul>\n<p><strong>Viva com Conforto e Sofisticação</strong> Este lançamento oferece uma combinação perfeita de modernidade e qualidade de vida em uma localização privilegiada, com acesso rápido a serviços, comércio, lazer e as principais vias da cidade. Uma oportunidade única para morar ou investir em Florianópolis.</p>\n<p>&nbsp;</p>",
+  "floorPlans": [
+    {
+      "title": "Final 2 A",
+      "image": "images/15-final-2-e-4-T-A-1.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-0814imgboulevardr02-w1280h720-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-0814imgfachadaresidencialr01-1-w1280h720-2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-0814imgresidencialpiscinar05-1-w1280h720-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-0814imgresidencialacademiar05-w1280h720-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-0814imgbrinquedotecar06-w1280h720-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-0814imgdeliveryr04-w1280h720-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-0814imgfitnessexternor06-1-w1280h720-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-0814imggourmetr05-w1280h720-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-0814imghallterreor05-w1280h720-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-0814imgmarketplacer06-w1280h720-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-0814imgpetcarer05-w1280h720-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-0814imgpetplacer05-w1280h720-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-0814imgsportbarterracor11-1-1-w1280h720-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-0814poscoworkingr04-w1280h720-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-final-2-e-4-T-A-1.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/florianopolis-saco-grande-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:06.513Z",
+  "kind": "apartamento"
+}

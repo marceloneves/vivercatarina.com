@@ -1,0 +1,29 @@
+---
+import PillerLayout from '../layouts/PillerLayout.astro';
+import PropertyListingTabs from './PropertyListingTabs.astro';
+import { buildLancamentosPageContext } from '../lib/lancamentos-page.mjs';
+import { getCategoryLabel } from '../lib/property-category.mjs';
+import { getKindLabel } from '../lib/property-kind.mjs';
+
+const { pageSlug, page } = Astro.props;
+const context = buildLancamentosPageContext(pageSlug, page);
+
+if (!context) {
+	throw new Error(`Listagem de lançamentos não encontrada: ${pageSlug}`);
+}
+
+const title = context.kind ? getKindLabel(context.kind) : getCategoryLabel(context.category);
+---
+
+<PillerLayout title={title} bodyClass="bairro-listing" disableEffects>
+	<Fragment set:html={context.shellBefore} />
+	<PropertyListingTabs
+		properties={context.properties}
+		allProperties={context.allProperties}
+		currentPage={context.currentPage}
+		totalPages={context.totalPages}
+		basePath={context.basePath}
+		sidebarHtml={context.sidebarHtml}
+	/>
+	<Fragment set:html={context.shellAfter} />
+</PillerLayout>

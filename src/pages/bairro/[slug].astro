@@ -1,0 +1,15 @@
+---
+import BairroPage from '../../components/BairroPage.astro';
+import neighborhoods from '../../data/florianopolis-neighborhoods.json';
+
+export function getStaticPaths() {
+	return neighborhoods.map(({ slug, name }) => ({
+		params: { slug },
+		props: { name },
+	}));
+}
+
+const { slug } = Astro.params;
+---
+
+<BairroPage slug={slug} page={1} />

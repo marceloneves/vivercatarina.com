@@ -1,0 +1,104 @@
+{
+  "id": 8922,
+  "slug": "ilha-do-campeche-spot-campeche-florianopolis-sc",
+  "title": "170m da praia, Ilha do Campeche Spot",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$356,000",
+    "amount": 356000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Av Campeche, 465, Campeche, Florianópolis",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "campeche",
+      "name": "Campeche"
+    }
+  },
+  "overview": {
+    "code": "1172",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 19.872,
+    "deliveryYear": "Dez/27"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-27",
+      "name": "Dez/27"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "piscina-aquecida"
+  ],
+  "features": [
+    "Piscina Aquecida"
+  ],
+  "descriptionHtml": "<p>Spots Perfeitos para locações temporada/Short Stay – Alta Rentabilidade com Baixo Custo operacional!</p>\n<p><strong>Unidades a partir de R$ 356.000,00</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 08/04/2026</em></li>\n</ul>\n<p><strong>Ilha do Campeche Spot: Oportunidade de Investimento a Poucos Passos da Praia</strong></p>\n<p>Empreendimento na modalidade SPE (Sociedade de Propósito Específico), criado para investidores que buscam <strong>máxima rentabilidade</strong> no mercado de locações por diárias e short stay. Localizado a apenas <strong>170 metros da Praia do Campeche</strong>, uma das mais procuradas e paradisíacas de Florianópolis, este projeto combina uma <strong>localização privilegiada</strong> com design inteligente e altamente atrativo.</p>\n<h6>Principais Características:</h6>\n<ul>\n<li><strong>Modelo a preço de custo</strong>: Transparência e economia para você investir com segurança.</li>\n<li><strong>Baixo custo fixo</strong>: Condomínio acessível, otimizando seus lucros.</li>\n<li><strong>Design compacto e funcional</strong>: Apartamentos projetados para o máximo aproveitamento dos espaços.</li>\n<li><strong>Estilo instagramável</strong>: Perfeito para atrair o público de locações por temporada.</li>\n</ul>\n<h6>Infraestrutura Completa:</h6>\n<ul>\n<li><strong>Piscina aquecida com borda infinita e vista para o mar</strong>: Um toque de sofisticação para os momentos de lazer.</li>\n<li><strong>Rooftop integrado</strong>: Área de convivência moderna e aconchegante.</li>\n<li><strong>Recepção confortável</strong>: Atendimento prático e profissional para hóspedes e proprietários.</li>\n<li><strong>Minimarket</strong>: Conveniência a poucos passos de distância.</li>\n<li><strong>Entrega mobiliada e equipada</strong>: Todos os espaços prontos para uso imediato.</li>\n</ul>\n<p>O <strong>Ilha do Campeche Spot</strong> é a união perfeita entre <strong>localização estratégica</strong>, <strong>infraestrutura de alto padrão</strong> e o potencial de gerar retornos expressivos com locações de curto prazo. <strong>Invista em um imóvel que valoriza o melhor do Campeche e oferece resultados excepcionais!</strong></p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-4-17.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Capturar1-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Capturar2-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Capturar3-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Capturar4-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Capturar5-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-IMAGEM-06.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-IMAGEM-07.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-IMAGEM-11.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/ilha-do-campeche-spot-campeche-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:52.764Z",
+  "kind": "apartamento"
+}

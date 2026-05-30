@@ -1,0 +1,301 @@
+{
+  "id": 11747,
+  "slug": "pronto-para-morar-centro-florianopolis-sc",
+  "title": "Pronto para morar, D/Yard, Centro, Florianópolis",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$3,980,000",
+    "amount": 3980000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "R. Pref. Cel. Antenor Mesquita, Centro, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "centro",
+      "name": "Centro"
+    }
+  },
+  "overview": {
+    "code": "1261",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "garages": 1,
+    "sizeSqm": 1362,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "3-suites",
+      "name": "3 Suítes"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "bicicletario",
+    "brinquedoteca",
+    "churrasqueira",
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "especo-pet",
+    "lounge",
+    "piscina",
+    "playground",
+    "praca-de-fogo",
+    "rooftop",
+    "sala-de-jogos",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Pet",
+    "Sala de Jogos",
+    "Playground",
+    "Coworking",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Brinquedoteca",
+    "Praça de fogo",
+    "Elevador",
+    "Rooftop",
+    "Lounge"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 3 suítes, lavabo, 129m² a 183m², 2 vagas de garagem e hobby box a partir de R$ 3.980.000,00</strong></p>\n<p>Entrada + financiamento</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel/terreno ou veículo como parte de pagamento.</li>\n<li>Valores atualizados em 05/02/2026</li>\n</ul>\n<h6 data-start=\"61\" data-end=\"127\"><strong data-start=\"65\" data-end=\"125\">Exclusividade e Sofisticação no Coração de Florianópolis</strong></h6>\n<p data-start=\"129\" data-end=\"475\">Localizado <strong data-start=\"140\" data-end=\"202\">no Centro de Florianópolis, ao lado do Colégio Catarinense</strong>, este empreendimento oferece o equilíbrio perfeito entre sofisticação, conforto e praticidade. Com <strong data-start=\"302\" data-end=\"349\">apartamentos de 3 suítes, de 136m² a 183m²,</strong> e opções de <strong data-start=\"362\" data-end=\"403\">2  vagas de garagem com hobby box</strong>, este lançamento é ideal para quem busca um estilo de vida exclusivo.</p>\n<p data-start=\"477\" data-end=\"706\">Construído pela <strong data-start=\"493\" data-end=\"514\">Construtora Dimas</strong>, referência em <strong data-start=\"530\" data-end=\"584\">acabamento de alto padrão e excelência construtiva</strong>, o empreendimento conta com uma infraestrutura moderna e completa, garantindo conforto e qualidade para toda a família.</p>\n<h6 data-start=\"708\" data-end=\"749\"><strong data-start=\"712\" data-end=\"747\">Infraestrutura e Lazer Completo</strong></h6>\n<ul data-start=\"750\" data-end=\"1204\">\n<li data-start=\"750\" data-end=\"794\"><strong data-start=\"752\" data-end=\"792\">Acesso de pedestres e delivery space</strong></li>\n<li data-start=\"795\" data-end=\"836\"><strong data-start=\"797\" data-end=\"834\">Hall interno elegante e funcional</strong></li>\n<li data-start=\"837\" data-end=\"892\"><strong data-start=\"839\" data-end=\"890\">Rooftop com pista de corrida e espaço funcional</strong></li>\n<li data-start=\"893\" data-end=\"927\"><strong data-start=\"895\" data-end=\"925\">Fitness center e coworking</strong></li>\n<li data-start=\"928\" data-end=\"958\"><strong data-start=\"930\" data-end=\"956\">Espaço gourmet e horta</strong></li>\n<li data-start=\"959\" data-end=\"990\"><strong data-start=\"961\" data-end=\"988\">Espaço grill e solarium</strong></li>\n<li data-start=\"991\" data-end=\"1018\"><strong data-start=\"993\" data-end=\"1016\">Piscina com prainha</strong></li>\n<li data-start=\"1019\" data-end=\"1058\"><strong data-start=\"1021\" data-end=\"1056\">Brinquedoteca e salão de festas</strong></li>\n<li data-start=\"1059\" data-end=\"1085\"><strong data-start=\"1061\" data-end=\"1083\">Praça e playground</strong></li>\n<li data-start=\"1086\" data-end=\"1125\"><strong data-start=\"1088\" data-end=\"1123\">Pet place para seu melhor amigo</strong></li>\n<li data-start=\"1126\" data-end=\"1165\"><strong data-start=\"1128\" data-end=\"1163\">Oficina de artes e bike sharing</strong></li>\n<li data-start=\"1166\" data-end=\"1204\"><strong data-start=\"1168\" data-end=\"1202\">Lava Tudo para mais comodidade</strong></li>\n</ul>\n<p data-start=\"1206\" data-end=\"1381\">Este empreendimento combina <strong data-start=\"1234\" data-end=\"1319\">localização privilegiada, arquitetura sofisticada e infraestrutura de alto padrão</strong>, proporcionando uma experiência única no coração da cidade.</p>\n<p data-start=\"1383\" data-end=\"1455\"><strong data-start=\"1383\" data-end=\"1453\">Garanta o seu apartamento! Entre em contato para mais informações.</strong></p>",
+  "floorPlans": [
+    {
+      "title": "3 suítes",
+      "image": null
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-IMG_4088-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-IMG_4092-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-IMG_4082-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-IMG_4047-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-IMG_3203-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-IMG_3204-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-IMG_3207-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-IMG_3208-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-IMG_3211-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-IMG_3215-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-IMG_3231-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-IMG_3900-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-IMG_3907-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-IMG_3236-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-IMG_3865-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-IMG_3866-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-IMG_3872-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-IMG_3879-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-IMG_3884-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-IMG_3891-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-IMG_3894-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-IMG_3906-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-IMG_4058-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-IMG_3974-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-IMG_3975-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-IMG_3976-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-IMG_3977-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-IMG_3978-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-IMG_3979-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/30-IMG_3980-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/31-IMG_3981-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/32-IMG_3982-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/33-IMG_3983-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/34-IMG_3984-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/35-IMG_3985-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/36-IMG_3986-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/37-IMG_3987-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/38-IMG_3988-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/39-IMG_3989-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/40-IMG_3990-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/41-IMG_3991-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/42-IMG_3992-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/43-IMG_3993-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/44-IMG_3994-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/45-IMG_3995-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/46-IMG_3996-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/47-IMG_3999-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/48-IMG_4001-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/49-IMG_4002-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/50-IMG_4004-scaled.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/pronto-para-morar-centro-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:21.413Z",
+  "kind": "loteamento"
+}

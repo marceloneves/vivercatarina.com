@@ -1,0 +1,30 @@
+{
+  "slug": "lagoadaconceicao",
+  "name": "Lagoa da Conceição",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-30T22:18:06.551Z",
+  "total": 2,
+  "properties": [
+    {
+      "slug": "lagoa-spot-lagoa-da-conceicao-florianopolis-sc",
+      "id": 8878,
+      "title": "Lagoa Spot, Lagoa da Conceição",
+      "category": "pronto-para-morar",
+      "price": 563000,
+      "dataPath": "imoveis/lagoa-spot-lagoa-da-conceicao-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/lagoa-spot-lagoa-da-conceicao-florianopolis-sc/images/01-Ambiente-27.11.25-007-scaled.jpg"
+    },
+    {
+      "slug": "lagoa-spot-lagoa-da-conceicao-florianopolis-sc-23579",
+      "id": 23579,
+      "title": "Lagoa Spot, Lagoa da Conceição",
+      "category": "pronto-para-morar",
+      "price": 563000,
+      "dataPath": "imoveis/lagoa-spot-lagoa-da-conceicao-florianopolis-sc-23579/property.json",
+      "thumbnail": "imoveis/lagoa-spot-lagoa-da-conceicao-florianopolis-sc-23579/images/01-Ambiente-27.11.25-007-scaled.jpg"
+    }
+  ]
+}

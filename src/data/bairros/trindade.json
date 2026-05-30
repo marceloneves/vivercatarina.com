@@ -1,0 +1,39 @@
+{
+  "slug": "trindade",
+  "name": "Trindade",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-30T22:18:06.562Z",
+  "total": 3,
+  "properties": [
+    {
+      "slug": "florianopolis-trindade-florianopolis-sc",
+      "id": 25466,
+      "title": "Apartamento 100% mobiliado na Trindade",
+      "category": "pronto-para-morar",
+      "price": 650000,
+      "dataPath": "imoveis/florianopolis-trindade-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/florianopolis-trindade-florianopolis-sc/images/01-original_09491e4d3b10283280d9273f60e52644.jpg"
+    },
+    {
+      "slug": "unna-studios-trindade-florianopolis-sc",
+      "id": 7980,
+      "title": "Unna Studios, Trindade, Florianópolis",
+      "category": "lancamento",
+      "price": 366000,
+      "dataPath": "imoveis/unna-studios-trindade-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/unna-studios-trindade-florianopolis-sc/images/01-Capturar1.jpg"
+    },
+    {
+      "slug": "wall-134-trindade-florianopolis-sc",
+      "id": 5743,
+      "title": "Wall 134, Trindade",
+      "category": "lancamento",
+      "price": 307000,
+      "dataPath": "imoveis/wall-134-trindade-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/wall-134-trindade-florianopolis-sc/images/01-ARV-3_2-1.jpg"
+    }
+  ]
+}

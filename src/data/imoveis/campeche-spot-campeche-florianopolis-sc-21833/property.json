@@ -1,0 +1,252 @@
+{
+  "id": 21833,
+  "slug": "campeche-spot-campeche-florianopolis-sc-21833",
+  "title": "Novo Campeche Spot",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$359,000",
+    "amount": 359000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Ana Luiza Vieira, Novo Campeche, Campeche, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "campeche",
+      "name": "Campeche"
+    }
+  },
+  "overview": {
+    "code": "1610",
+    "bedrooms": 1,
+    "bathrooms": null,
+    "garages": null,
+    "sizeSqm": 15.322,
+    "deliveryYear": "Jan/30"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "jan-30",
+      "name": "Jan/30"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "elevador",
+    "lounge",
+    "mini-market",
+    "piscina-aquecida",
+    "rooftop"
+  ],
+  "features": [
+    "Piscina Aquecida",
+    "Mini-market",
+    "Elevador",
+    "Rooftop",
+    "Lounge"
+  ],
+  "descriptionHtml": "<h5><strong>Studios a partir de R$ 359.000,00</strong></h5>\n<p>Entrada em 3x + 40 parcelas + reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 05/02/2026</em></li>\n</ul>\n<h5 data-start=\"88\" data-end=\"178\"><strong data-start=\"91\" data-end=\"178\">Novo Campeche Spot – Lançamento | Investimento Inteligente no Novo Campeche</strong></h5>\n<p data-start=\"180\" data-end=\"520\">O <strong data-start=\"182\" data-end=\"204\">Novo Campeche Spot</strong>, chega ao Novo Campeche para redefinir o conceito de investimento imobiliário em Florianópolis. Construído na <strong data-start=\"342\" data-end=\"360\">modalidade SPE</strong>, o empreendimento oferece máxima segurança, transparência e rentabilidade aos investidores — tudo isso em uma das regiões mais desejadas e valorizadas da Ilha.</p>\n<h5 data-start=\"522\" data-end=\"554\"><strong data-start=\"526\" data-end=\"554\">📍 Localização Exclusiva</strong></h5>\n<p data-start=\"555\" data-end=\"810\">Situado próximo à <strong data-start=\"573\" data-end=\"599\">praia do Novo Campeche</strong>, o empreendimento está em uma das áreas mais nobres e procuradas da ilha, conhecida por sua atmosfera tranquila, natureza preservada, cafés, gastronomia e fácil acesso ao Aeroporto e ao Centro de Florianópolis.</p>\n<p data-start=\"812\" data-end=\"915\">A poucos minutos a pé da praia, os proprietários e hóspedes vivem o melhor do lifestyle do sul da ilha.</p>\n<hr data-start=\"917\" data-end=\"920\" />\n<h5 data-start=\"922\" data-end=\"977\"><strong data-start=\"925\" data-end=\"977\">🏡 Tipologias projetadas para alta rentabilidade</strong></h5>\n<p data-start=\"978\" data-end=\"1061\">Os <strong data-start=\"981\" data-end=\"1014\">studios do Novo Campeche Spot</strong> foram cuidadosamente planejados para oferecer:</p>\n<ul data-start=\"1062\" data-end=\"1296\">\n<li data-start=\"1062\" data-end=\"1107\">\n<p data-start=\"1064\" data-end=\"1107\">Máxima performance em locação por diárias</p>\n</li>\n<li data-start=\"1108\" data-end=\"1135\">\n<p data-start=\"1110\" data-end=\"1135\">Baixo custo de operação</p>\n</li>\n<li data-start=\"1136\" data-end=\"1223\">\n<p data-start=\"1138\" data-end=\"1223\">Layouts funcionais e extremamente <strong data-start=\"1172\" data-end=\"1190\">instagramáveis</strong>, aumentando a taxa de ocupação</p>\n</li>\n<li data-start=\"1224\" data-end=\"1296\">\n<p data-start=\"1226\" data-end=\"1296\">Ambiente moderno, inteligente e perfeito para quem busca lucratividade</p>\n</li>\n</ul>\n<p data-start=\"1298\" data-end=\"1433\">O projeto foi pensado desde o início para atender ao mercado de <strong data-start=\"1362\" data-end=\"1376\">short stay</strong>, sendo ideal para quem deseja investir com alto retorno.</p>\n<hr data-start=\"1435\" data-end=\"1438\" />\n<h5 data-start=\"1440\" data-end=\"1488\"><strong data-start=\"1443\" data-end=\"1488\">🌅 Rooftop com Vista Mar &amp; Lazer Completo</strong></h5>\n<p data-start=\"1489\" data-end=\"1571\">Um dos grandes destaques do empreendimento é o <strong data-start=\"1536\" data-end=\"1557\">rooftop exclusivo</strong>, que oferece:</p>\n<ul data-start=\"1572\" data-end=\"1756\">\n<li data-start=\"1572\" data-end=\"1617\">\n<p data-start=\"1574\" data-end=\"1617\"><strong data-start=\"1574\" data-end=\"1594\">Piscina aquecida</strong> com vista para o mar</p>\n</li>\n<li data-start=\"1618\" data-end=\"1645\">\n<p data-start=\"1620\" data-end=\"1645\">Espaço social integrado</p>\n</li>\n<li data-start=\"1646\" data-end=\"1674\">\n<p data-start=\"1648\" data-end=\"1674\">Ambientes de convivência</p>\n</li>\n<li data-start=\"1675\" data-end=\"1756\">\n<p data-start=\"1677\" data-end=\"1756\">Atmosfera sofisticada, ideal para relaxar e apreciar o pôr do sol do Campeche</p>\n</li>\n</ul>\n<hr data-start=\"1758\" data-end=\"1761\" />\n<h5 data-start=\"1763\" data-end=\"1806\"><strong data-start=\"1766\" data-end=\"1806\">✨ Diferenciais do Novo Campeche Spot</strong></h5>\n<ul data-start=\"1807\" data-end=\"2208\">\n<li data-start=\"1807\" data-end=\"1913\">\n<p data-start=\"1809\" data-end=\"1913\">Construção na <strong data-start=\"1823\" data-end=\"1841\">modalidade SPE</strong> — segurança, transparência e modelo amplamente reconhecido no mercado</p>\n</li>\n<li data-start=\"1914\" data-end=\"1949\">\n<p data-start=\"1916\" data-end=\"1949\">Arquitetura moderna e funcional</p>\n</li>\n<li data-start=\"1950\" data-end=\"2015\">\n<p data-start=\"1952\" data-end=\"2015\">Unidades otimizadas para plataformas de locação por temporada</p>\n</li>\n<li data-start=\"2016\" data-end=\"2049\">\n<p data-start=\"2018\" data-end=\"2049\">Alto potencial de valorização</p>\n</li>\n<li data-start=\"2050\" data-end=\"2098\">\n<p data-start=\"2052\" data-end=\"2098\">Localização em área premium do Novo Campeche</p>\n</li>\n<li data-start=\"2099\" data-end=\"2128\">\n<p data-start=\"2101\" data-end=\"2128\">Acabamento de alto padrão</p>\n</li>\n<li data-start=\"2129\" data-end=\"2208\">\n<p data-start=\"2131\" data-end=\"2208\">Design contemporâneo que maximiza o apelo visual e a atratividade do imóvel</p>\n</li>\n</ul>\n<hr data-start=\"2210\" data-end=\"2213\" />\n<h5 data-start=\"2215\" data-end=\"2272\"><strong data-start=\"2218\" data-end=\"2272\">💼 Um empreendimento pensado para quem busca lucro</strong></h5>\n<p data-start=\"2273\" data-end=\"2359\">O Novo Campeche Spot oferece um dos melhores cenários de rentabilidade do sul da Ilha:</p>\n<ul data-start=\"2361\" data-end=\"2576\">\n<li data-start=\"2361\" data-end=\"2392\">\n<p data-start=\"2363\" data-end=\"2392\">Altíssima demanda turística</p>\n</li>\n<li data-start=\"2393\" data-end=\"2432\">\n<p data-start=\"2395\" data-end=\"2432\">Região com ocupação anual constante</p>\n</li>\n<li data-start=\"2433\" data-end=\"2469\">\n<p data-start=\"2435\" data-end=\"2469\">Ticket médio elevado nas diárias</p>\n</li>\n<li data-start=\"2470\" data-end=\"2519\">\n<p data-start=\"2472\" data-end=\"2519\">Produto moderno com baixo custo de manutenção</p>\n</li>\n<li data-start=\"2520\" data-end=\"2540\">\n<p data-start=\"2522\" data-end=\"2540\">Gestão eficiente</p>\n</li>\n<li data-start=\"2541\" data-end=\"2576\">\n<p data-start=\"2543\" data-end=\"2576\">Público qualificado e crescente</p>\n</li>\n</ul>\n<p data-start=\"2578\" data-end=\"2663\">Invista em um empreendimento que une <strong data-start=\"2615\" data-end=\"2662\">localização, design, performance e liquidez</strong>.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Terreno-para-mar-01-sem-pin-1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Mar-para-terreno-sem-pin-1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Copia-de-09_Novo-Campeche1_V04-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Copia-de-05_Novo-Campeche_V05-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Copia-de-03_Novo-Campeche_V05-2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Copia-de-01_Novo-Campeche_V05-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Copia-de-04_Novo-Campeche_V05-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Copia-de-IMAGEM-01-2-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Copia-de-IMAGEM-03-1-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Copia-de-IMAGEM-04-3-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Copia-de-IMAGEM-06-1-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Copia-de-IMAGEM-09-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-DJI_0924-1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-DJI_0926-1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-DJI_0931-1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Captura-de-tela-2025-11-14-183706-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Captura-de-tela-2025-11-14-184544-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Captura-de-tela-2025-11-14-184523-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Captura-de-tela-2025-11-14-184814-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Captura-de-tela-2025-11-14-184753-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Captura-de-tela-2025-11-14-184917-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Captura-de-tela-2025-11-14-184929-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Terreno-para-mar-01-sem-pin-1-scaled-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-Mar-para-terreno-sem-pin-1-scaled-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-Copia-de-09_Novo-Campeche1_V04-1-374x240.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-Copia-de-05_Novo-Campeche_V05-1-374x240.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-Copia-de-03_Novo-Campeche_V05-2-374x240.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-Copia-de-01_Novo-Campeche_V05-1-374x240.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-Copia-de-04_Novo-Campeche_V05-1-374x240.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/30-Copia-de-IMAGEM-01-2-1-374x240.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/31-Copia-de-IMAGEM-03-1-1-374x240.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/32-Copia-de-IMAGEM-04-3-1-374x240.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/33-Copia-de-IMAGEM-06-1-1-374x240.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/34-Copia-de-IMAGEM-09-1-374x240.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/35-DJI_0924-1-scaled-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/36-DJI_0926-1-scaled-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/37-DJI_0931-1-scaled-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/38-Captura-de-tela-2025-11-14-183706-1-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/39-Captura-de-tela-2025-11-14-184544-1-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/40-Captura-de-tela-2025-11-14-184523-1-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/41-Captura-de-tela-2025-11-14-184814-1-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/42-Captura-de-tela-2025-11-14-184753-1-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/43-Captura-de-tela-2025-11-14-184917-1-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/44-Captura-de-tela-2025-11-14-184929-1-374x240.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/campeche-spot-campeche-florianopolis-sc-21833/",
+  "importedAt": "2026-05-30T18:43:58.288Z",
+  "kind": "apartamento"
+}

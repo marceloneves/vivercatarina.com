@@ -1,0 +1,143 @@
+{
+  "id": 25584,
+  "slug": "centro-florianopolis-sc",
+  "title": "Apartamento com 2 quartos, sacada e 1 vaga de garagem, Centro, Florianópolis",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": null,
+    "display": "R$640,000",
+    "amount": 640000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Av. Hercílio Luz, 1395, Centro, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "centro",
+      "name": "Centro"
+    }
+  },
+  "overview": {
+    "code": "1700",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 81.422,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [],
+  "featureSlugs": [],
+  "features": [],
+  "descriptionHtml": "<div class=\"qMYqUG_convSearchResultHighlightRoot\">\n<div class=\"\" data-turn-id-container=\"request-WEB:ec23a5f6-6a45-42b7-bfb5-fe707f0d4d82-5\" data-is-intersecting=\"true\">\n<div class=\"relative w-full overflow-visible\">\n<section class=\"text-token-text-primary w-full focus:outline-none has-data-writing-block:pointer-events-none [&amp;:has([data-writing-block])&gt;*]:pointer-events-auto R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]\" dir=\"auto\" data-turn-id=\"request-WEB:ec23a5f6-6a45-42b7-bfb5-fe707f0d4d82-5\" data-turn-id-container=\"request-WEB:ec23a5f6-6a45-42b7-bfb5-fe707f0d4d82-5\" data-testid=\"conversation-turn-12\" data-scroll-anchor=\"false\" data-turn=\"assistant\">\n<div class=\"text-base my-auto mx-auto pb-10 [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)\">\n<div class=\"[--thread-content-max-width:40rem] @w-lg/main:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn\">\n<div class=\"flex max-w-full flex-col gap-4 grow\">\n<div class=\"min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal outline-none keyboard-focused:focus-ring [.text-message+&amp;]:mt-1\" dir=\"auto\" tabindex=\"0\" data-message-author-role=\"assistant\" data-message-id=\"1118cd52-3eba-4051-99eb-86585e1cd963\" data-message-model-slug=\"gpt-5-5-thinking\" data-turn-start-message=\"true\">\n<div class=\"flex w-full flex-col gap-1 empty:hidden\">\n<div class=\"markdown prose dark:prose-invert wrap-break-word w-full light markdown-new-styling\">\n<p data-start=\"198\" data-end=\"317\">Apartamento à venda no Centro de Florianópolis, com <strong data-start=\"250\" data-end=\"273\">81,42 m² privativos</strong>, <strong data-start=\"275\" data-end=\"292\">2 dormitórios</strong> e <strong data-start=\"295\" data-end=\"316\">1 vaga de garagem</strong>.</p>\n<p data-start=\"319\" data-end=\"684\">Uma excelente oportunidade para quem busca morar ou investir em uma das regiões mais práticas e valorizadas da cidade. O imóvel possui uma planta bem distribuída, com sala de estar e jantar integradas, varanda, cozinha, área de serviço, banheiro social e dependência de serviço com banheiro, oferecendo versatilidade para diferentes possibilidades de uso e reforma.</p>\n<p data-start=\"686\" data-end=\"874\">Com ótimo potencial de personalização, o apartamento permite modernizar os ambientes conforme o seu estilo, valorizando ainda mais a localização estratégica e o aproveitamento dos espaços.</p>\n<p data-start=\"876\" data-end=\"1019\">A vaga de garagem é um diferencial importante para quem procura imóvel no Centro de Florianópolis, especialmente pela praticidade no dia a dia.</p>\n<p data-start=\"1021\" data-end=\"1200\">Localizado em uma região central e funcional, o imóvel está próximo ao IFSC, Beira-Mar Shopping, comércios, serviços, escolas, supermercados e principais vias de acesso da cidade.</p>\n<p data-start=\"1202\" data-end=\"1295\">Uma opção interessante para quem valoriza localização, mobilidade e potencial de valorização.</p>\n<p data-start=\"1297\" data-end=\"1404\" data-is-last-node=\"\" data-is-only-node=\"\"><strong data-start=\"1297\" data-end=\"1312\">Condomínio:</strong> R$ 1.130,00<br data-start=\"1324\" data-end=\"1327\" /><strong data-start=\"1327\" data-end=\"1404\" data-is-last-node=\"\">Agende sua visita e conheça essa oportunidade no Centro de Florianópolis.</strong></p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"z-0 flex min-h-[46px] justify-start\"></div>\n<div class=\"mt-3 w-full empty:hidden\">\n<div class=\"text-center\"></div>\n</div>\n</div>\n</div>\n</section>\n<div class=\"contents\"></div>\n</div>\n</div>\n</div>\n<div class=\"pointer-events-none -mt-px h-px translate-y-[calc(var(--scroll-root-safe-area-inset-bottom)-14*var(--spacing))]\" aria-hidden=\"true\"></div>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2026-05-19-151027.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-original_9088fb2e11a7659de33ccaea7213446f.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-original_961ff3b0a4c0a821714710177c9f2fff.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-original_a4d124be6ed89854f36c13c41208c272.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-original_8286e16b223005f942e444476925c9cd.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-original_de0eddea9d6f926cff37a3b0359af6fd.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-original_c2727e74083dbfc0a2fd3762222a6217.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-original_b939d17cdec1903e2652f7a6a5e383d4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-original_b29931050c2cc5b6f4598921efc024c2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-original_73d6e0d638d8c6632ca4f05fe956a88f.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-original_1861c5a4aa8afb034f9046a037fbc961.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-original_1fb766886fae9a73803d3c34654cc83a.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-original_885c69f29fce46205e521ffd66903676.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-original_e4ae1c64fa03decd7140efcc9d37692a.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-original_28b8082a0de32076d4fbe5ef1d6c56a7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-original_5fa6dccf1afe3a81b67b67c6cf631fbc.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-original_5deb66c8f0f93f11dcc2942e6599ea8d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-original_344c6ee85f2f0d8da261e14a4624bcf0.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-original_c23dc836ac253caaeaa00e811a7e163e.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-original_aa1a27fb8bcb9bbd34f391d337682d5a.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-original_054f5b7fa8dc669f79c766ea2232b0dd.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/centro-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:41.091Z",
+  "kind": "apartamento"
+}

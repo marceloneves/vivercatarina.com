@@ -1,0 +1,149 @@
+{
+  "id": 22267,
+  "slug": "residencial-souza-ingleses-do-rio-vermelho-florianopolis-sc",
+  "title": "Residencial Souza, Ingleses do Rio Vermelho, Florianópolis",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$780,000",
+    "amount": 780000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Servidão Nossa Senhora Aparecida, nº 174. Ingleses do Rio Vermelho-",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ingleses-do-rio-vermelho",
+      "name": "Ingleses do Rio Vermelho"
+    }
+  },
+  "overview": {
+    "code": "1620",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 98.192,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "ultimas-unidades",
+      "name": "Últimas Unidades!"
+    }
+  ],
+  "featureSlugs": [],
+  "features": [],
+  "descriptionHtml": "<p><strong>Apartamentos com 98,19 m²,  3 quartos sendo 1 suíte, lavabo, varanda com churrasqueira, 1 vaga de garagem, a partir de R$ 780.000,00 (apto 410)</strong></p>\n<p>Entrada + financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel de menor valor como parte de pagamento</li>\n<li><em>Valores atualizados em 5/12/2025</em></li>\n</ul>\n<hr />\n<h5><strong>Última unidade disponível no Residencial Souza – Ingleses do Rio Vermelho, Florianópolis/SC</strong></h5>\n<p>Aproveite a oportunidade de garantir o <strong>último apartamento duplex disponível</strong> no <strong>Residencial Souza</strong>, localizado na <strong>Servidão Nossa Senhora Aparecida, nº 174</strong>, no bairro <strong>Ingleses do Rio Vermelho</strong>, em Florianópolis/SC.</p>\n<p>Com <strong>98,19 m²</strong>, o imóvel conta com:</p>\n<ul>\n<li><strong>3 quartos</strong>, sendo <strong>1 suíte</strong></li>\n<li><strong>Vaga de garagem</strong></li>\n<li><strong>Ambientes amplos e bem distribuídos</strong></li>\n<li><strong>Pronto para morar</strong></li>\n</ul>\n<p>A apenas <strong>1.000 metros da praia</strong>, este duplex oferece praticidade, conforto e a qualidade de vida que só os Ingleses proporcionam.</p>\n<p>Uma excelente opção para morar ou investir em uma das regiões que mais valorizam no Norte da Ilha.</p>\n<p>Entre em contato e garanta essa última oportunidade no Residencial Souza!</p>",
+  "floorPlans": [
+    {
+      "title": "Floor 1",
+      "image": "images/20-Captura-de-tela-2025-12-05-105118.png"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-POSTER-SOUZA-NOVO-CORRIGIDO-1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-fachada-com-garagem-subterranea-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-souza-diruno-com-sol-salas-comerciais-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-banheiro1-souza-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-foto-principal-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-insercao.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Captura-de-tela-2025-12-05-104249.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Captura-de-tela-2025-12-05-104445.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Captura-de-tela-2025-12-05-104359.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Captura-de-tela-2025-12-05-104546.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-garagem-terreo-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-closet-souza-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-cozinha-souza-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-hall-de-entrada-souza-2-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-sacada-souza-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-sala-souza-Foto-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-sala2-souza-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-suite1-souza-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-suite2-souza-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Captura-de-tela-2025-12-05-105118.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/residencial-souza-ingleses-do-rio-vermelho-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:44:13.910Z",
+  "kind": "apartamento"
+}

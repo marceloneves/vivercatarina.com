@@ -1,0 +1,134 @@
+{
+  "id": 16321,
+  "slug": "agapito-residencial-estreito-florianopolis-sc",
+  "title": "Apartamento novo, Agapito Residencial, Estreito",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,069,000",
+    "amount": 1069000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Agapito Veloso, 67, Estreito, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "estreito",
+      "name": "Estreito"
+    }
+  },
+  "overview": {
+    "code": "1444",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garages": 2,
+    "sizeSqm": 81.62,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-a-3-dorm",
+      "name": "2 a 3 Dorm."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "churrasqueira",
+    "elevador",
+    "espaco-gourmet",
+    "piscina"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Piscina",
+    "Espaço Gourmet",
+    "Brinquedoteca",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 2 suítes, lavabo, sacada com churrasqueira e 2 vagas de garagem a partir de R$ 1.069.000,00</strong></p>\n<p><strong>Apartamentos com 3 dormitórios sendo 2 suítes, sacada com churrasqueira, 1 ou 2 vagas a partir de R$ 1.208.000,00</strong></p>\n<p>Entrada + financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel de menor valor</li>\n<li><em>Valores atualizados em 20/10/2025</em></li>\n</ul>\n<p data-start=\"185\" data-end=\"325\"><strong data-start=\"185\" data-end=\"325\">Apartamento novo e pronto para morar no Estreito – Conforto, espaço e lazer completo em um dos bairros mais valorizados de Florianópolis</strong></p>\n<p data-start=\"327\" data-end=\"543\">Viva com qualidade em um <strong data-start=\"352\" data-end=\"391\">apartamento novo, pronto para morar</strong>, com <strong data-start=\"397\" data-end=\"437\">plantas amplas de 2 ou 3 dormitórios sendo 2 suítes</strong>, ideal para quem busca conforto, funcionalidade e alto padrão de acabamento.</p>\n<p data-start=\"545\" data-end=\"568\">As unidades contam com:</p>\n<ul data-start=\"569\" data-end=\"719\">\n<li data-start=\"569\" data-end=\"599\">\n<p data-start=\"571\" data-end=\"599\"><strong data-start=\"571\" data-end=\"599\">Sacada com churrasqueira</strong></p>\n</li>\n<li data-start=\"600\" data-end=\"645\">\n<p data-start=\"602\" data-end=\"645\"><strong data-start=\"602\" data-end=\"645\">Ambientes bem distribuídos e iluminados</strong></p>\n</li>\n<li data-start=\"646\" data-end=\"686\">\n<p data-start=\"648\" data-end=\"686\"><strong data-start=\"648\" data-end=\"686\">1 ou 2 vagas de garagem privativas</strong></p>\n</li>\n<li data-start=\"687\" data-end=\"719\">\n<p data-start=\"689\" data-end=\"719\"><strong data-start=\"689\" data-end=\"719\">Acabamentos de alto padrão</strong></p>\n</li>\n</ul>\n<p data-start=\"721\" data-end=\"797\">O edifício oferece uma infraestrutura de lazer completa para toda a família:</p>\n<ul data-start=\"798\" data-end=\"944\">\n<li data-start=\"798\" data-end=\"829\">\n<p data-start=\"800\" data-end=\"829\"><strong data-start=\"800\" data-end=\"829\">Piscina </strong></p>\n</li>\n<li data-start=\"830\" data-end=\"850\">\n<p data-start=\"832\" data-end=\"850\"><strong data-start=\"832\" data-end=\"850\">Espaço gourmet</strong></p>\n</li>\n<li data-start=\"851\" data-end=\"883\">\n<p data-start=\"853\" data-end=\"883\"><strong data-start=\"853\" data-end=\"883\">Quiosque com churrasqueira</strong></p>\n</li>\n<li data-start=\"884\" data-end=\"900\">\n<p data-start=\"886\" data-end=\"900\"><strong data-start=\"886\" data-end=\"900\">Fire place</strong></p>\n</li>\n<li data-start=\"901\" data-end=\"920\">\n<p data-start=\"903\" data-end=\"920\"><strong data-start=\"903\" data-end=\"920\">Brinquedoteca</strong></p>\n</li>\n<li data-start=\"921\" data-end=\"944\">\n<p data-start=\"923\" data-end=\"944\"><strong data-start=\"923\" data-end=\"944\">Academia equipada</strong></p>\n</li>\n</ul>\n<p data-start=\"946\" data-end=\"1126\">Localizado no bairro <strong data-start=\"967\" data-end=\"979\">Estreito</strong>, em Florianópolis, com fácil acesso ao Centro, Beira-Mar Continental e diversas opções de comércio e serviços. Ideal para moradia ou investimento.</p>\n<p data-start=\"1128\" data-end=\"1191\">Agende uma visita e encante-se com essa excelente oportunidade!</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-WhatsApp-Image-2025-07-14-at-21.00.49.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-WhatsApp-Image-2025-07-14-at-21.01.02.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-WhatsApp-Image-2025-07-14-at-21.00.55.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-WhatsApp-Image-2025-07-14-at-21.01.01.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-WhatsApp-Image-2025-07-14-at-21.00.52.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-WhatsApp-Image-2025-07-14-at-21.01.23.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-WhatsApp-Image-2025-07-14-at-21.01.23-1.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-WhatsApp-Image-2025-07-14-at-21.01.24.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-WhatsApp-Image-2025-07-14-at-21.01.25.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-WhatsApp-Image-2025-07-14-at-21.01.24-1.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-WhatsApp-Image-2025-07-14-at-21.01.26.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-WhatsApp-Image-2025-07-14-at-21.01.25-2.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-WhatsApp-Image-2025-07-14-at-21.01.25-1.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-WhatsApp-Image-2025-07-14-at-21.01.24-2.jpeg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/agapito-residencial-estreito-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:49.344Z",
+  "kind": "apartamento"
+}

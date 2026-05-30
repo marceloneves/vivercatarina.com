@@ -1,0 +1,39 @@
+---
+import PillerLayout from '../layouts/PillerLayout.astro';
+import PropertyLandingPage from './PropertyLandingPage.astro';
+import { buildImovelPageContext } from '../lib/imovel-page.mjs';
+
+const { slug } = Astro.props;
+const page = buildImovelPageContext(slug);
+
+	if (!page) {
+		return Astro.redirect('/404');
+	}
+---
+
+<PillerLayout
+	title={page.seo.h1}
+	description={page.seo.description}
+	bodyClass="imovel-landing"
+	disableEffects
+>
+	<Fragment slot="head">
+		<link rel="stylesheet" href="/css/imovel-landing.css" />
+		<meta property="og:title" content={page.seo.title} />
+		<meta property="og:description" content={page.seo.description} />
+		<meta property="og:type" content="website" />
+		{
+			page.seo.ogImage && (
+				<meta
+					property="og:image"
+					content={new URL(page.seo.ogImage, Astro.site || import.meta.env.SITE).href}
+				/>
+			)
+		}
+		{page.seo.jsonLd && <script type="application/ld+json" set:html={JSON.stringify(page.seo.jsonLd)} />}
+	</Fragment>
+
+	<Fragment set:html={page.shellBefore} />
+	<PropertyLandingPage page={page} />
+	<Fragment set:html={page.shellAfter} />
+</PillerLayout>

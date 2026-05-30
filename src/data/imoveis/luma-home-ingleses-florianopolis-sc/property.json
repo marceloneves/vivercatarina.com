@@ -1,0 +1,153 @@
+{
+  "id": 14760,
+  "slug": "luma-home-ingleses-florianopolis-sc",
+  "title": "Luma Home, Ingleses",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$489,000",
+    "amount": 489000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua José Cupertino da Silva, Ingleses, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ingleses",
+      "name": "Ingleses"
+    }
+  },
+  "overview": {
+    "code": "1387",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": 1,
+    "sizeSqm": 45.22,
+    "deliveryYear": "2028"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "2028",
+      "name": "2028"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-a-3-dorm",
+      "name": "2 a 3 Dorm."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "bicicletario",
+    "brinquedoteca",
+    "churrasqueira",
+    "espaco-gourmet",
+    "especo-pet",
+    "piscina",
+    "playground",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Pet",
+    "Playground",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Brinquedoteca"
+  ],
+  "descriptionHtml": "<p><strong>Apartamento com 1 quarto, 45,2m², sacada com churrasqueira e 1 vaga de garagem a partir de R$ 489.000,00</strong></p>\n<p><strong>Apartamento com 2 quartos sendo 1 suítes, sacada com churrasqueira a partir de R$  809.000,00</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 20/10/2025</em></li>\n</ul>\n<h5 data-start=\"221\" data-end=\"302\"><strong data-start=\"225\" data-end=\"302\">Luma Home – Viva com conforto e praticidade na melhor região dos Ingleses</strong></h5>\n<p data-start=\"304\" data-end=\"647\">O <strong data-start=\"306\" data-end=\"319\">Luma Home</strong> é a parte residencial do mais novo lançamento no bairro <strong data-start=\"376\" data-end=\"388\">Ingleses</strong>, em Florianópolis. Um empreendimento moderno, construído na <strong data-start=\"449\" data-end=\"503\">modalidade SPE (Sociedade de Propósito Específico)</strong> por uma <strong data-start=\"512\" data-end=\"558\">construtora sólida e com ampla experiência</strong> nesse modelo, que garante mais <strong data-start=\"590\" data-end=\"646\">transparência, economia e segurança para o comprador</strong>.</p>\n<p data-start=\"649\" data-end=\"925\">Localizado na <strong data-start=\"663\" data-end=\"693\">melhor região dos Ingleses</strong>, próximo a serviços essenciais, praia, comércio e com fácil acesso às principais vias da região, o Luma Home oferece <strong data-start=\"811\" data-end=\"862\">apartamentos com excelente padrão de acabamento</strong> e infraestrutura completa para uma vida prática e confortável.</p>\n<p data-start=\"927\" data-end=\"953\"><strong data-start=\"927\" data-end=\"953\">Unidades residenciais:</strong></p>\n<ul data-start=\"954\" data-end=\"1165\">\n<li data-start=\"954\" data-end=\"1024\">\n<p data-start=\"956\" data-end=\"1024\">Apartamentos com <strong data-start=\"973\" data-end=\"994\">2 e 3 dormitórios</strong>, com plantas bem distribuídas</p>\n</li>\n<li data-start=\"1025\" data-end=\"1114\">\n<p data-start=\"1027\" data-end=\"1114\"><strong data-start=\"1027\" data-end=\"1055\">Sacada com churrasqueira</strong>, piso porcelanato, acabamento em gesso e espera para split</p>\n</li>\n<li data-start=\"1115\" data-end=\"1165\">\n<p data-start=\"1117\" data-end=\"1165\"><strong data-start=\"1117\" data-end=\"1146\">Vaga de garagem privativa</strong></p>\n</li>\n</ul>\n<p data-start=\"1167\" data-end=\"1217\"><strong data-start=\"1167\" data-end=\"1217\">Infraestrutura completa de lazer e comodidade:</strong></p>\n<ul data-start=\"1218\" data-end=\"1431\">\n<li data-start=\"1218\" data-end=\"1245\">\n<p data-start=\"1220\" data-end=\"1245\">Piscina adulto e infantil</p>\n</li>\n<li data-start=\"1246\" data-end=\"1265\">\n<p data-start=\"1248\" data-end=\"1265\">Academia equipada</p>\n</li>\n<li data-start=\"1266\" data-end=\"1300\">\n<p data-start=\"1268\" data-end=\"1300\">Espaço gourmet e salão de festas</p>\n</li>\n<li data-start=\"1301\" data-end=\"1329\">\n<p data-start=\"1303\" data-end=\"1329\">Brinquedoteca e playground</p>\n</li>\n<li data-start=\"1330\" data-end=\"1341\">\n<p data-start=\"1332\" data-end=\"1341\">Pet place</p>\n</li>\n<li data-start=\"1342\" data-end=\"1355\">\n<p data-start=\"1344\" data-end=\"1355\">Pub gourmet</p>\n</li>\n<li data-start=\"1356\" data-end=\"1370\">\n<p data-start=\"1358\" data-end=\"1370\">Bicicletário</p>\n</li>\n<li data-start=\"1371\" data-end=\"1409\">\n<p data-start=\"1373\" data-end=\"1409\">Sistema de monitoramento por câmeras</p>\n</li>\n<li data-start=\"1410\" data-end=\"1431\">\n<p data-start=\"1412\" data-end=\"1431\">Elevadores modernos</p>\n</li>\n</ul>\n<p data-start=\"1433\" data-end=\"1464\"><strong data-start=\"1433\" data-end=\"1464\">Diferenciais do modelo SPE:</strong></p>\n<ul data-start=\"1465\" data-end=\"1617\">\n<li data-start=\"1465\" data-end=\"1512\">\n<p data-start=\"1467\" data-end=\"1512\">Preço de custo: mais economia e rentabilidade</p>\n</li>\n<li data-start=\"1513\" data-end=\"1558\">\n<p data-start=\"1515\" data-end=\"1558\">Gestão transparente com prestação de contas</p>\n</li>\n<li data-start=\"1559\" data-end=\"1617\">\n<p data-start=\"1561\" data-end=\"1617\">Participação direta dos compradores nas decisões da obra</p>\n</li>\n</ul>",
+  "floorPlans": [
+    {
+      "title": "Planta 1 dormitório",
+      "image": "images/14-Captura-de-tela-2025-10-20-161837.jpg"
+    },
+    {
+      "title": "Planta 2 dormitórios",
+      "image": "images/15-2-d-luma-.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-Fachada-02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Fachada-01-1.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Localizacao.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Piscina.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Piscina_02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Brinquedoteca.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Salao-de-Festas.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Espaco-Gourmet_imagem-02.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Fitness.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-PetPlace.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Playground.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Captura-de-tela-2025-06-13-191103.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Captura-de-tela-2025-06-13-191003.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Captura-de-tela-2025-10-20-161837.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-2-d-luma-.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/luma-home-ingleses-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:41.588Z",
+  "kind": "apartamento"
+}

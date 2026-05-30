@@ -1,0 +1,152 @@
+{
+  "id": 18691,
+  "slug": "3-dormitorios-estreito-florianopolis-sc",
+  "title": "Apartamento semimobiliado, 3 dormitórios, sacada e vaga de garagem, Estreito",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": null,
+    "display": "R$800,000",
+    "amount": 800000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua São José, Balneário, Estreito SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "estreito",
+      "name": "Estreito"
+    }
+  },
+  "overview": {
+    "code": "1532",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 89.562,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "3-dorm",
+      "name": "3 dorm (1 suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "elevador"
+  ],
+  "features": [
+    "Elevador"
+  ],
+  "descriptionHtml": "<h5 data-start=\"77\" data-end=\"136\">Apartamento 3 Dormitórios no Estreito – Florianópolis</h5>\n<p data-start=\"138\" data-end=\"323\">Amplo apartamento com <strong data-start=\"160\" data-end=\"179\">90m² privativos</strong>, bem distribuídos em <strong data-start=\"201\" data-end=\"218\">3 dormitórios</strong>, sendo <strong data-start=\"226\" data-end=\"237\">1 suíte</strong> que garante privacidade e conforto, além de dois dormitórios espaçosos e versáteis.</p>\n<p data-start=\"325\" data-end=\"637\">O imóvel conta com <strong data-start=\"344\" data-end=\"381\">sala de estar e jantar integradas</strong>, criando um ambiente acolhedor e funcional, além de uma <strong data-start=\"438\" data-end=\"492\">cozinha planejada com área de serviço independente</strong>. Possui <strong data-start=\"501\" data-end=\"524\">piso em porcelanato</strong> e está <strong data-start=\"532\" data-end=\"571\">semimobiliado com móveis sob medida</strong>, trazendo praticidade e aproveitamento inteligente dos espaços.</p>\n<p data-start=\"639\" data-end=\"911\">Localizado no bairro <strong data-start=\"660\" data-end=\"672\">Estreito</strong>, uma das regiões mais valorizadas e estratégicas de Florianópolis, o apartamento oferece fácil acesso ao Centro da cidade, além de estar próximo a escolas, supermercados, restaurantes, farmácias e diversas opções de comércio e serviços.</p>\n<p data-start=\"913\" data-end=\"986\">Para maior comodidade, conta com <strong data-start=\"946\" data-end=\"983\">1 vaga de garagem coberta e livre</strong>.</p>\n<p data-start=\"988\" data-end=\"1101\">👉 Uma excelente oportunidade para quem busca morar em uma região completa, com mobilidade e qualidade de vida.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-original_94dbf20423deb347f240a05c6df98309-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-original_42b0dda262636b0f2fca43f936578586.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-original_e37e1fbf1c75cf4cae9d82e59445881c.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-original_dcda5f4e2926a825199fd9f6da0ed2de.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-original_d20fbd6394c5cefa0f656fc3676fbf4a.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-original_ffba8474507b84c9a179dabf5afd9607.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-original_d0ea4c5bb9b78f5f5ca8bdf2ec5dd3e2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-original_976cf37640133317b8fe47275cf2e317.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-original_20e6f0cd8b1b61f431c87a8dd2b794f6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-original_b6d87e3eec91c709089548dd69a23224.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-original_24aa0f2dd156eaa20702fbd00a981bf5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-original_1fc1875a9d75854691e307118df7be09.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-original_79243b1fb2274870c4944ea0320563c4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-original_7f288551b4e29449845737fcb13bdddd.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-original_8134adbf791b8cc270362d7c77687ba2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-original_9a6c79ce0d3af213242f45571ac921ba.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-original_096ffbfd64fca1133bf2c32a8b529b66.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-original_a9b58b43b42ed3d05a6aba14361e2b02.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-original_bd8488b3c492381a8427499a16de6468.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-original_11551ec293c064b4feb78fbf2d4d644f.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-original_1ed2c09adca668fe2074af3969a0c733.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/3-dormitorios-estreito-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:49.950Z",
+  "kind": "apartamento"
+}

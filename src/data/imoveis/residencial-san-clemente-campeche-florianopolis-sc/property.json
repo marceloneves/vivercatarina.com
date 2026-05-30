@@ -1,0 +1,100 @@
+{
+  "id": 10490,
+  "slug": "residencial-san-clemente-campeche-florianopolis-sc",
+  "title": "Residencial San clemente, casas financiáveis de alto padrão no Campeche",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,200,000",
+    "amount": 1200000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "campeche",
+      "name": "Campeche"
+    }
+  },
+  "overview": {
+    "code": "1238",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 1232,
+    "deliveryYear": "2025"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "jun-25",
+      "name": "Jun/25"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "3-dorm",
+      "name": "3 dorm (1 suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "churrasqueira"
+  ],
+  "features": [
+    "Churrasqueira Carvão"
+  ],
+  "descriptionHtml": "<p>Sobrado, com 3 quartos sendo 1 suíte, 123 m² privativos, lavabo, churrasqueira, e 1 vaga de garagem. A partir de R$ 1.200.000,00.</p>\n<p>Entrada + financiamento bancário.</p>\n<p>Confira o desconto para pagamento à vista</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Estuda-se proposta</em></li>\n<li>Estuda-se imóvel ou veículo como parte de pagamento.</li>\n</ul>\n<div class=\"flex max-w-full flex-col flex-grow\">\n<div class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5\" dir=\"auto\" data-message-author-role=\"assistant\" data-message-id=\"730426b8-97fc-48ca-abdc-36fde887b203\" data-message-model-slug=\"gpt-4o\">\n<div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\">\n<div class=\"markdown prose w-full break-words dark:prose-invert light\">\n<p><strong>Sobrados de Alto Padrão na Praia do Campeche &#8211; Sul da Ilha, Florianópolis/SC</strong></p>\n<p>Apresentamos uma oportunidade única para você morar em um dos locais mais desejados de Florianópolis: a Praia do Campeche, no sul da ilha.</p>\n<p><strong>Características do imóvel:</strong></p>\n<ul>\n<li><strong>3 quartos</strong>, sendo <strong>1 suíte</strong></li>\n<li><strong>123 m² de área privativa</strong></li>\n<li><strong>1 vaga de garagem</strong></li>\n<li><strong>Churrasqueira</strong> para momentos de lazer</li>\n</ul>\n<p><strong>Diferenciais:</strong><br />\nLocalizado próximo a belas praias e com acesso fácil a serviços, comércios e, ao aeroporto. este imóvel oferece conforto, segurança e um ambiente perfeito para quem deseja viver com qualidade e tranquilidade.</p>\n<p><strong>Agende uma visita e venha conhecer seu novo lar!</strong></p>\n</div>\n</div>\n</div>\n</div>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-1111.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-1-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-8-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-3-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-4-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-5-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-6-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-7-3.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/residencial-san-clemente-campeche-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:53.894Z",
+  "kind": "casa"
+}

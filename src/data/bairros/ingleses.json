@@ -1,0 +1,138 @@
+{
+  "slug": "ingleses",
+  "name": "Ingleses",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-30T22:18:06.551Z",
+  "total": 14,
+  "properties": [
+    {
+      "slug": "ingleses-florianopolis-sc",
+      "id": 14741,
+      "title": "Apartamento a 100 metros da Praia, Ingleses",
+      "category": "lancamento",
+      "price": 409000,
+      "dataPath": "imoveis/ingleses-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/ingleses-florianopolis-sc/images/01-1-2_edited-1.avif"
+    },
+    {
+      "slug": "bellomonte-ingleses-florianopolis-sc",
+      "id": 15178,
+      "title": "Bellomonte, Ingleses",
+      "category": "lancamento",
+      "price": 413000,
+      "dataPath": "imoveis/bellomonte-ingleses-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/bellomonte-ingleses-florianopolis-sc/images/01-Captura-de-tela-2025-06-26-154825-1.png"
+    },
+    {
+      "slug": "du-centre-ingleses-florianopolis-sc",
+      "id": 15229,
+      "title": "Du Centre, Ingleses",
+      "category": "lancamento",
+      "price": 982000,
+      "dataPath": "imoveis/du-centre-ingleses-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/du-centre-ingleses-florianopolis-sc/images/01-03-FINAL.png"
+    },
+    {
+      "slug": "edificio-saint-humbert-residence-ii-ingleses-florianopolis-sc",
+      "id": 21711,
+      "title": "Edifício Saint Humbert Residence II, Ingleses, Florianópolis",
+      "category": "lancamento",
+      "price": 974000,
+      "dataPath": "imoveis/edificio-saint-humbert-residence-ii-ingleses-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/edificio-saint-humbert-residence-ii-ingleses-florianopolis-sc/images/01-1-2.jpg"
+    },
+    {
+      "slug": "edificio-saint-humbert-residence-ingleses-florianopolis-sc",
+      "id": 18113,
+      "title": "Edifício Saint Humbert Residence, Ingleses, Florianópolis",
+      "category": "lancamento",
+      "price": 650000,
+      "dataPath": "imoveis/edificio-saint-humbert-residence-ingleses-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/edificio-saint-humbert-residence-ingleses-florianopolis-sc/images/01-1-2.jpg"
+    },
+    {
+      "slug": "infinity-residence-ingleses-ingleses-do-rio-vermelho-florianopolis-sc",
+      "id": 18083,
+      "title": "Infinity Residence- Ingleses, Florianópolis",
+      "category": "lancamento",
+      "price": 807000,
+      "dataPath": "imoveis/infinity-residence-ingleses-ingleses-do-rio-vermelho-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/infinity-residence-ingleses-ingleses-do-rio-vermelho-florianopolis-sc/images/01-7-2.jpg"
+    },
+    {
+      "slug": "ingleses-spot-ingleses-florianopolis-sc",
+      "id": 13122,
+      "title": "Ingleses Spot, Ingleses",
+      "category": "lancamento",
+      "price": 310000,
+      "dataPath": "imoveis/ingleses-spot-ingleses-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/ingleses-spot-ingleses-florianopolis-sc/images/01-Untitled-1.png"
+    },
+    {
+      "slug": "luma-home-ingleses-florianopolis-sc",
+      "id": 14760,
+      "title": "Luma Home, Ingleses",
+      "category": "lancamento",
+      "price": 489000,
+      "dataPath": "imoveis/luma-home-ingleses-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/luma-home-ingleses-florianopolis-sc/images/01-Fachada-02.png"
+    },
+    {
+      "slug": "oceanic-residence-ingleses-florianopolis-sc",
+      "id": 15106,
+      "title": "Oceanic Residence, Ingleses",
+      "category": "lancamento",
+      "price": 802000,
+      "dataPath": "imoveis/oceanic-residence-ingleses-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/oceanic-residence-ingleses-florianopolis-sc/images/01-DOM_OCE_Fachada_Fotomontagem_01_EF-1-scaled.jpg"
+    },
+    {
+      "slug": "residencial-souza-ingleses-do-rio-vermelho-florianopolis-sc",
+      "id": 22267,
+      "title": "Residencial Souza, Ingleses do Rio Vermelho, Florianópolis",
+      "category": "pronto-para-morar",
+      "price": 780000,
+      "dataPath": "imoveis/residencial-souza-ingleses-do-rio-vermelho-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/residencial-souza-ingleses-do-rio-vermelho-florianopolis-sc/images/01-POSTER-SOUZA-NOVO-CORRIGIDO-1-scaled.jpg"
+    },
+    {
+      "slug": "salas-comerciais-ingleses-florianopolis-sc",
+      "id": 21048,
+      "title": "Salas comerciais, Luma Corporate, Ingleses",
+      "category": "pronto-para-morar",
+      "price": 980000,
+      "dataPath": "imoveis/salas-comerciais-ingleses-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/salas-comerciais-ingleses-florianopolis-sc/images/01-Fachada-01-1.jpeg"
+    },
+    {
+      "slug": "santinho-spot-edificio-com-acesso-direto-ao-mar-ingleses-do-rio-vermelho-florianopolis-sc",
+      "id": 13172,
+      "title": "Santinho Spot Edificio com acesso direto ao mar, Ingleses do Rio Vermelho",
+      "category": "lancamento",
+      "price": 220000,
+      "dataPath": "imoveis/santinho-spot-edificio-com-acesso-direto-ao-mar-ingleses-do-rio-vermelho-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/santinho-spot-edificio-com-acesso-direto-ao-mar-ingleses-do-rio-vermelho-florianopolis-sc/images/01-Capturar1-3.jpg"
+    },
+    {
+      "slug": "viel-spab-ingleses-florianopolis-sc",
+      "id": 15205,
+      "title": "Viel Spab, Ingleses",
+      "category": "lancamento",
+      "price": 751000,
+      "dataPath": "imoveis/viel-spab-ingleses-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/viel-spab-ingleses-florianopolis-sc/images/01-Viel-foto-insercao_final.jpg"
+    },
+    {
+      "slug": "vila-mocambique-ingleses-do-rio-vermelho-florianopolis-sc",
+      "id": 25503,
+      "title": "Vila Moçambique, a 50 metros da Praia do Moçambique",
+      "category": "lancamento",
+      "price": 242000,
+      "dataPath": "imoveis/vila-mocambique-ingleses-do-rio-vermelho-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/vila-mocambique-ingleses-do-rio-vermelho-florianopolis-sc/images/01-Captura-de-tela-2026-05-11-104044-1.jpg"
+    }
+  ]
+}

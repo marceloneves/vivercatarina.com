@@ -1,0 +1,92 @@
+{
+  "id": 15502,
+  "slug": "reserva-santo-antonio-de-lisboa-florianopolis-sc",
+  "title": "Reserva Santo Antônio, sobrados em condomínio fechado em Santo Antônio de Lisboa",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir",
+    "display": "R$1,250,000",
+    "amount": 1250000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua de Pádua, Santo Antônio de Lisboa",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "santo-antonio-de-lisboa",
+      "name": "Santo Antônio de Lisboa"
+    }
+  },
+  "overview": {
+    "code": "1415",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "garages": 1,
+    "sizeSqm": 1652,
+    "deliveryYear": "Mar/26"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "mar-26",
+      "name": "Mar/26"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-suites",
+      "name": "2 Suítes"
+    }
+  ],
+  "featureSlugs": [],
+  "features": [],
+  "descriptionHtml": "<p><strong>Casas com 2 suítes, lavabo, 99,29m² , porcelanato, espera split, 1 vaga de garagem a partir de R$ 1.250.000,00</strong></p>\n<p><strong>Casas com 3 dormitórios ( 1 suíte + 2 demi suíte), 133m², lavabo, porcelanato, 2 vagas de garagem a partir de 1.390.000,00</strong></p>\n<p>Entrada + parcelas + financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel de menor valor</li>\n<li><em>Valores atualizados em 20/03/2026</em></li>\n</ul>\n<p data-start=\"110\" data-end=\"185\"><strong data-start=\"110\" data-end=\"185\">Casas em Condomínio Fechado – Santo Antônio de Lisboa, Florianópolis/SC</strong></p>\n<p data-start=\"187\" data-end=\"532\">Viva com conforto, segurança e sustentabilidade em um dos bairros mais charmosos e históricos de Florianópolis. Este novo empreendimento em <strong data-start=\"327\" data-end=\"354\">Santo Antônio de Lisboa</strong> oferece casas modernas de 2 pavimentos, localizadas em <strong data-start=\"410\" data-end=\"432\">condomínio fechado</strong>, ideal para quem busca qualidade de vida em meio à natureza e com fácil acesso ao centro da cidade.</p>\n<p data-start=\"534\" data-end=\"583\">As casas estão disponíveis em duas configurações:</p>\n<ul data-start=\"584\" data-end=\"755\">\n<li data-start=\"584\" data-end=\"647\">\n<p data-start=\"586\" data-end=\"647\"><strong data-start=\"586\" data-end=\"598\">2 suítes</strong>, para quem prefere mais amplitude e praticidade;</p>\n</li>\n<li data-start=\"648\" data-end=\"755\">\n<p data-start=\"650\" data-end=\"755\"><strong data-start=\"650\" data-end=\"667\">3 dormitórios</strong>, sendo 1 suíte e 2 demi-suítes, ideal para famílias que buscam funcionalidade e espaço.</p>\n</li>\n</ul>\n<p data-start=\"757\" data-end=\"977\">Com <strong data-start=\"761\" data-end=\"784\">piso em porcelanato</strong> e <strong data-start=\"787\" data-end=\"826\">persianas automatizadas nos quartos</strong>, os acabamentos foram pensados para unir elegância e conforto. O projeto também conta com infraestrutura completa para tecnologias sustentáveis, como:</p>\n<ul data-start=\"978\" data-end=\"1099\">\n<li data-start=\"978\" data-end=\"1021\">\n<p data-start=\"980\" data-end=\"1021\"><strong data-start=\"980\" data-end=\"1020\">Preparação para placas fotovoltaicas</strong>;</p>\n</li>\n<li data-start=\"1055\" data-end=\"1099\">\n<p data-start=\"1057\" data-end=\"1099\"><strong data-start=\"1057\" data-end=\"1098\">Tomada para carro elétrico na garagem</strong>.</p>\n</li>\n</ul>\n<p data-start=\"1101\" data-end=\"1258\">Este é um empreendimento que alia inovação, eficiência energética e um estilo de vida tranquilo, em uma das regiões mais desejadas da Ilha de Santa Catarina.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2025-06-30-155340-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Captura-de-tela-2025-06-30-155258.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Captura-de-tela-2025-06-30-155405.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Captura-de-tela-2025-06-30-155430.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2025-06-30-155504.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Captura-de-tela-2025-06-30-155533.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Captura-de-tela-2025-06-30-155559.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/reserva-santo-antonio-de-lisboa-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:49.581Z",
+  "kind": "casa"
+}

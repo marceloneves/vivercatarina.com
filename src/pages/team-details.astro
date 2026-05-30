@@ -1,0 +1,11 @@
+---
+import PillerLayout from '../layouts/PillerLayout.astro';
+import bodyHtml from '../content/template-pages/team-details.html?raw';
+
+const title = "Team Details";
+const bodyClass = "";
+---
+
+<PillerLayout title={title} bodyClass={bodyClass}>
+	<Fragment set:html={bodyHtml} />
+</PillerLayout>

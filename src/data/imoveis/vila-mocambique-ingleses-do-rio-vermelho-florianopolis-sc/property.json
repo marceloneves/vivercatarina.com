@@ -1,0 +1,128 @@
+{
+  "id": 25503,
+  "slug": "vila-mocambique-ingleses-do-rio-vermelho-florianopolis-sc",
+  "title": "Vila Moçambique, a 50 metros da Praia do Moçambique",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir",
+    "display": "R$242,000",
+    "amount": 242000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Dario Rosa, Ingleses do Rio Vermelho, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ingleses-do-rio-vermelho",
+      "name": "Ingleses do Rio Vermelho"
+    }
+  },
+  "overview": {
+    "code": "1697",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 26.492,
+    "deliveryYear": "2030"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "2030",
+      "name": "2030"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "1-e-2-dorms",
+      "name": "1 e 2 dorms."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "elevador",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Academia",
+    "Salão de Festas",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p data-start=\"636\" data-end=\"812\">Vila Moçambique é um lançamento localizado no Rio Vermelho, em Florianópolis, a apenas 50 metros da Praia do Moçambique, uma das praias mais preservadas e encantadoras da Ilha.</p>\n<p data-start=\"814\" data-end=\"1225\">O empreendimento foi desenvolvido para quem busca viver ou investir em uma região com forte conexão com a natureza, tranquilidade e fácil acesso às principais áreas do Leste da Ilha. A Praia do Moçambique é reconhecida por sua extensa faixa de areia, paisagem natural preservada, dunas, trilhas e atmosfera mais reservada, criando um cenário ideal para quem deseja qualidade de vida sem abrir mão da mobilidade.</p>\n<p data-start=\"1227\" data-end=\"1529\">Com arquitetura contemporânea e unidades funcionais, o Vila Moçambique reúne studios, apartamentos com 1 suíte, gardens e apartamentos com 2 dormitórios, atendendo diferentes perfis de moradia e investimento. O projeto conta com 48 apartamentos distribuídos em duas torres, além de 40 vagas de garagem.</p>\n<p data-start=\"1531\" data-end=\"1869\">O empreendimento será constituído na modalidade SPE e possui uma condição especial para unidades em cota terreno: desconto de 20%, com o proprietário isento de qualquer chamada de capital. O pagamento pode ser parcelado em até 6 vezes, tornando a oportunidade ainda mais atrativa para quem deseja investir próximo ao mar em Florianópolis.</p>\n<p data-start=\"1871\" data-end=\"2257\">A estrutura do condomínio foi pensada para oferecer praticidade, lazer e segurança no dia a dia, com piscina, academia, salão de festas, minimercado e espaços de convivência. Entre os diferenciais das unidades estão fechadura digital, infraestrutura para ar-condicionado, piso porcelanato, ralo linear, nicho no box do banheiro e tubulação hidráulica envelopada para atenuação de ruído.</p>\n<p data-start=\"2259\" data-end=\"2488\">O condomínio também contará com monitoramento por câmeras, controle de acesso digital, infraestrutura para portaria remota e sistema de aproveitamento de água da chuva, reforçando a proposta de modernidade, conforto e eficiência.</p>\n<p data-start=\"2490\" data-end=\"2627\">Uma oportunidade para investir em um lançamento a poucos passos da praia, em uma das regiões mais naturais e autênticas de Florianópolis.</p>\n<h4 data-section-id=\"qqgbl9\" data-start=\"2629\" data-end=\"2652\">Tipologias e valores</h4>\n<div class=\"TyagGW_tableContainer\">\n<div class=\"group TyagGW_tableWrapper flex flex-col-reverse w-fit\" tabindex=\"-1\">\n<table class=\"w-fit min-w-(--thread-content-width)\" data-start=\"2654\" data-end=\"2969\">\n<thead data-start=\"2654\" data-end=\"2698\">\n<tr data-start=\"2654\" data-end=\"2698\">\n<th class=\"\" data-start=\"2654\" data-end=\"2666\" data-col-size=\"sm\">Tipologia</th>\n<th class=\"\" data-start=\"2666\" data-end=\"2677\" data-col-size=\"sm\">Metragem</th>\n<th class=\"\" data-start=\"2677\" data-end=\"2698\" data-col-size=\"sm\">Valor a partir de</th>\n</tr>\n</thead>\n<tbody data-start=\"2715\" data-end=\"2969\">\n<tr data-start=\"2715\" data-end=\"2752\">\n<td data-start=\"2715\" data-end=\"2724\" data-col-size=\"sm\">Studio</td>\n<td data-col-size=\"sm\" data-start=\"2724\" data-end=\"2735\">26,49 m²</td>\n<td data-col-size=\"sm\" data-start=\"2735\" data-end=\"2752\">R$ 242.000,00</td>\n</tr>\n<tr data-start=\"2753\" data-end=\"2807\">\n<td data-start=\"2753\" data-end=\"2779\" data-col-size=\"sm\">Apartamento com 1 suíte</td>\n<td data-col-size=\"sm\" data-start=\"2779\" data-end=\"2790\">40,46 m²</td>\n<td data-col-size=\"sm\" data-start=\"2790\" data-end=\"2807\">R$ 261.000,00</td>\n</tr>\n<tr data-start=\"2808\" data-end=\"2857\">\n<td data-start=\"2808\" data-end=\"2829\" data-col-size=\"sm\">Garden com 1 suíte</td>\n<td data-col-size=\"sm\" data-start=\"2829\" data-end=\"2840\">56,64 m²</td>\n<td data-col-size=\"sm\" data-start=\"2840\" data-end=\"2857\">R$ 319.000,00</td>\n</tr>\n<tr data-start=\"2858\" data-end=\"2920\">\n<td data-start=\"2858\" data-end=\"2899\" data-col-size=\"sm\">Apartamento com 2 dormitórios e 1 vaga</td>\n<td data-col-size=\"sm\" data-start=\"2899\" data-end=\"2903\">—</td>\n<td data-col-size=\"sm\" data-start=\"2903\" data-end=\"2920\">R$ 357.000,00</td>\n</tr>\n<tr data-start=\"2921\" data-end=\"2969\">\n<td data-start=\"2921\" data-end=\"2948\" data-col-size=\"sm\">Garden com 2 dormitórios</td>\n<td data-col-size=\"sm\" data-start=\"2948\" data-end=\"2952\">—</td>\n<td data-col-size=\"sm\" data-start=\"2952\" data-end=\"2969\">R$ 437.000,00</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<p data-start=\"2971\" data-end=\"3072\">Condição especial: unidades em cota terreno com 20% de desconto e pagamento parcelado em até 6 vezes.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2026-05-11-104044-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-dji-20260305045132-0018-d-2znqc6y7.webp",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-praia-de-mocambique-onda-1024x582-1.webp",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-lateral-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2026-05-11-104205.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Mocambique_Fotos-Julio-Tomasi-scaled.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Captura-de-tela-2026-05-11-104241.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Captura-de-tela-2026-05-11-104224.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Captura-de-tela-2026-05-11-104142.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Captura-de-tela-2026-05-11-104015.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-lateral-1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-fachada-2-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-entrada-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-fachada-1-scaled.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": null,
+  "sourceUrl": "https://lancamentossc.com.br/site/property/vila-mocambique-ingleses-do-rio-vermelho-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:44:01.725Z",
+  "kind": "loteamento"
+}

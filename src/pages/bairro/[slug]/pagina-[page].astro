@@ -1,0 +1,27 @@
+---
+import BairroPage from '../../../components/BairroPage.astro';
+import neighborhoods from '../../../data/florianopolis-neighborhoods.json';
+import { LISTINGS_PER_PAGE, loadNeighborhoodListing } from '../../../lib/property-listings.mjs';
+
+export function getStaticPaths() {
+	const paths = [];
+
+	for (const { slug, name } of neighborhoods) {
+		const listing = loadNeighborhoodListing(slug);
+		const totalPages = Math.max(1, Math.ceil((listing?.properties.length || 0) / LISTINGS_PER_PAGE));
+
+		for (let page = 2; page <= totalPages; page += 1) {
+			paths.push({
+				params: { slug, page: String(page) },
+				props: { name, page },
+			});
+		}
+	}
+
+	return paths;
+}
+
+const { slug, page } = Astro.params;
+---
+
+<BairroPage slug={slug} page={Number(page)} />

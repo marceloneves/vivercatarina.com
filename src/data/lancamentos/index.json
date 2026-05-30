@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-05-30T22:18:06.807Z",
+  "totalProperties": 108,
+  "kinds": [
+    {
+      "kind": "apartamento",
+      "name": "Apartamentos",
+      "total": 79
+    },
+    {
+      "kind": "casa",
+      "name": "Casas em condomínio",
+      "total": 8
+    },
+    {
+      "kind": "loteamento",
+      "name": "Loteamento",
+      "total": 21
+    }
+  ]
+}

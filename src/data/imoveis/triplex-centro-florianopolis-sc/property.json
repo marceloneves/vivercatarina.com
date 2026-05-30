@@ -1,0 +1,136 @@
+{
+  "id": 21288,
+  "slug": "triplex-centro-florianopolis-sc",
+  "title": "Cobertura triplex, semimobiliada no Centro de Florianópolis",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": null,
+    "display": "R$2,000,000",
+    "amount": 2000000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Almirante Lamego, Centro, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "centro",
+      "name": "Centro"
+    }
+  },
+  "overview": {
+    "code": "1600",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "garages": 2,
+    "sizeSqm": 158.662,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "4-dorm-2-suite",
+      "name": "4 Dorm ( 2 suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "elevador"
+  ],
+  "features": [
+    "Elevador"
+  ],
+  "descriptionHtml": "<h5 data-start=\"0\" data-end=\"100\">Cobertura Triplex no Centro de Florianópolis – Sofisticação, Espaço e Localização Privilegiada</h5>\n<p data-start=\"102\" data-end=\"356\"><strong data-start=\"120\" data-end=\"155\">Cobertura triplex semimobiliada</strong> no coração de Florianópolis, a poucos metros da <strong data-start=\"204\" data-end=\"223\">Beira-Mar Norte</strong>, <strong data-start=\"225\" data-end=\"248\">Colégio Catarinense</strong>, <strong data-start=\"250\" data-end=\"272\">Supermercado Hippo</strong> e <strong data-start=\"275\" data-end=\"292\">Parque da Luz</strong> — uma das localizações mais desejadas e completas da capital.</p>\n<p data-start=\"358\" data-end=\"532\">Com <strong data-start=\"362\" data-end=\"382\">158m² privativos</strong>, o imóvel oferece amplitude, conforto e um projeto inteligente, distribuído em três pavimentos que garantem privacidade e integração dos ambientes.</p>\n<hr data-start=\"534\" data-end=\"537\" />\n<h5 data-start=\"539\" data-end=\"580\">🏡 <strong data-start=\"547\" data-end=\"578\">Distribuição dos Pavimentos</strong></h5>\n<p data-start=\"582\" data-end=\"607\"><strong data-start=\"582\" data-end=\"605\">Primeiro pavimento:</strong></p>\n<ul data-start=\"608\" data-end=\"716\">\n<li data-start=\"608\" data-end=\"652\">\n<p data-start=\"610\" data-end=\"652\">Cozinha planejada com móveis sob medida;</p>\n</li>\n<li data-start=\"653\" data-end=\"684\">\n<p data-start=\"655\" data-end=\"684\">Suíte principal com closet;</p>\n</li>\n<li data-start=\"685\" data-end=\"716\">\n<p data-start=\"687\" data-end=\"716\">Suíte simples aconchegante.</p>\n</li>\n</ul>\n<p data-start=\"718\" data-end=\"742\"><strong data-start=\"718\" data-end=\"740\">Segundo pavimento:</strong></p>\n<ul data-start=\"743\" data-end=\"921\">\n<li data-start=\"743\" data-end=\"777\">\n<p data-start=\"745\" data-end=\"777\">Amplo espaço social integrado;</p>\n</li>\n<li data-start=\"778\" data-end=\"817\">\n<p data-start=\"780\" data-end=\"817\"><strong data-start=\"780\" data-end=\"814\">Área gourmet com churrasqueira</strong>;</p>\n</li>\n<li data-start=\"818\" data-end=\"868\">\n<p data-start=\"820\" data-end=\"868\"><strong data-start=\"820\" data-end=\"846\">Sala de estar e jantar</strong> em conceito aberto;</p>\n</li>\n<li data-start=\"869\" data-end=\"921\">\n<p data-start=\"871\" data-end=\"921\">Lavabo e área de serviço com ventilação natural.</p>\n</li>\n</ul>\n<p data-start=\"923\" data-end=\"948\"><strong data-start=\"923\" data-end=\"946\">Terceiro pavimento:</strong></p>\n<ul data-start=\"949\" data-end=\"1041\">\n<li data-start=\"949\" data-end=\"1041\">\n<p data-start=\"951\" data-end=\"1041\">Duas suítes bem distribuídas, proporcionando conforto e privacidade para toda a família.</p>\n</li>\n</ul>\n<hr data-start=\"1043\" data-end=\"1046\" />\n<h5 data-start=\"1048\" data-end=\"1091\">🚗 <strong data-start=\"1056\" data-end=\"1089\">Infraestrutura e Diferenciais</strong></h5>\n<ul data-start=\"1092\" data-end=\"1409\">\n<li data-start=\"1092\" data-end=\"1137\">\n<p data-start=\"1094\" data-end=\"1137\">2 <strong data-start=\"1096\" data-end=\"1134\">vagas de garagem cobertas e livres</strong>;</p>\n</li>\n<li data-start=\"1138\" data-end=\"1183\">\n<p data-start=\"1140\" data-end=\"1183\">Móveis planejados de excelente qualidade;</p>\n</li>\n<li data-start=\"1184\" data-end=\"1222\">\n<p data-start=\"1186\" data-end=\"1222\">Ambientes amplos e bem iluminados;</p>\n</li>\n<li data-start=\"1223\" data-end=\"1347\">\n<p data-start=\"1225\" data-end=\"1347\">Localização estratégica, com fácil acesso à Ponte Hercílio Luz, Beira-Mar, centro comercial e principais vias da cidade;</p>\n</li>\n<li data-start=\"1348\" data-end=\"1409\">\n<p data-start=\"1350\" data-end=\"1409\">Condomínio com estrutura bem cuidada e ambiente familiar.</p>\n</li>\n</ul>\n<hr data-start=\"1411\" data-end=\"1414\" />\n<h5 data-start=\"1416\" data-end=\"1437\">💰 <strong data-start=\"1424\" data-end=\"1435\">Valores</strong></h5>\n<ul data-start=\"1438\" data-end=\"1502\">\n<li data-start=\"1438\" data-end=\"1469\">\n<p data-start=\"1440\" data-end=\"1469\"><strong data-start=\"1440\" data-end=\"1455\">Condomínio:</strong> R$ 1.280,00</p>\n</li>\n<li data-start=\"1470\" data-end=\"1502\">\n<p data-start=\"1472\" data-end=\"1502\"><strong data-start=\"1472\" data-end=\"1481\">IPTU:</strong> R$ 3.670,00 anuais</p>\n</li>\n</ul>\n<hr data-start=\"1504\" data-end=\"1507\" />\n<p data-start=\"1509\" data-end=\"1817\" data-is-last-node=\"\" data-is-only-node=\"\">Esta é a opção ideal para quem busca <strong data-start=\"1546\" data-end=\"1593\">morar com conforto, elegância e praticidade</strong>, em uma das regiões mais valorizadas de Florianópolis.<br data-start=\"1648\" data-end=\"1651\" />Entre em contato e agende uma visita — conheça de perto essa cobertura exclusiva e viva o melhor da vida urbana com o charme e a tranquilidade da capital catarinense.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-original_df2e424f651bd70510fb2057563db474-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-original_4e63bd9ce451372b0e1edc79cc744087.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-original_a1841f9a84e2d4c196686f532efab8de.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-original_1ee041f5525320d8e38f6b55001efaee.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-original_6cfc908975841e065ab6c81ea9fe631a.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-original_25b4e31784d66675fa751e482273bc66.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-original_705bf0761832d69b5ac8c4e5d91d0ac5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-original_a99bd8d6172cd601d843b963f11ad75c.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-original_bae6ce8e9195677038b8e723d503997c.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-original_bd79762cfa18e0a2f2f40b8a55dbe6b8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-original_e7b331651975809349ddbd7bba1cf52d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-original_ed4c066647231beba0667859faf4d272.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-original_f00895988466b72a418e85a400b310c4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-original_bae6ce8e9195677038b8e723d503997c-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-original_55cabd8575c2f1f75392abeb0eda02c5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-original_0dce6b7b57f59db8d15de94fa464985f.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-original_cbe456c7455d9388dcd2ec19b7b0f6cf.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/triplex-centro-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:54.470Z",
+  "kind": "apartamento"
+}

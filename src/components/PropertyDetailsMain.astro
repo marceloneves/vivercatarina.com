@@ -1,0 +1,287 @@
+---
+const { property } = Astro.props;
+const heroImage = property.galleryImages[0]?.url || '/assets/img/explore-cites/explore-cites-bg-1.jpg';
+const hasDescription = Boolean(property.descriptionHtml?.trim());
+---
+
+<div class="slider-area property-slider1">
+	<div class="property-static-gallery mb-4">
+		<div class="property-slider-img propery-single-slide">
+			<img src={heroImage} alt={property.title} />
+		</div>
+	</div>
+</div>
+
+<div class="property-page-single">
+	<div class="page-content">
+		<div class="property-meta-wrap mb-55">
+			<div class="property-meta">
+				<span class="property-tag">{property.categoryLabel}</span>
+				{property.statusLabel && <span>{property.statusLabel}</span>}
+				{property.overview?.code && <span>Código {property.overview.code}</span>}
+			</div>
+		</div>
+
+		<div class="page-title-wrap">
+			<h2 class="page-title mb-2">{property.title}</h2>
+			<h4 class="page-title">{property.priceLabel}</h4>
+		</div>
+
+		<div class="page-features">
+			<div class="box-text">
+				<div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="ícone" /></div>
+				{property.locationLabel}
+			</div>
+			<ul class="property-featured">
+				{
+					property.overview?.bedrooms != null && (
+						<li>
+							<div class="icon"><img src="/assets/img/icon/bed.svg" alt="ícone" /></div>
+							Quartos {property.overview.bedrooms}
+						</li>
+					)
+				}
+				{
+					property.overview?.bathrooms != null && (
+						<li>
+							<div class="icon"><img src="/assets/img/icon/bath.svg" alt="ícone" /></div>
+							Banheiros {property.overview.bathrooms}
+						</li>
+					)
+				}
+				{
+					property.overview?.sizeSqm != null && (
+						<li>
+							<div class="icon"><img src="/assets/img/icon/sqft.svg" alt="ícone" /></div>
+							{property.overview.sizeSqm} m²
+						</li>
+					)
+				}
+			</ul>
+		</div>
+
+		{
+			hasDescription ? (
+				<div class="property-description mb-40" set:html={property.descriptionHtml} />
+			) : (
+				<p class="mb-40">
+					{property.title}. Entre em contato para receber plantas, condições de pagamento e
+					disponibilidade atualizada.
+				</p>
+			)
+		}
+
+		<div class="hightlighes-title-wrap mb-25">
+			<h2 class="page-title mb-2">Destaques do imóvel</h2>
+			<h5 class="house-sell">{property.typeLabel}</h5>
+		</div>
+
+		<ul class="property-grid-list">
+			{
+				property.overview?.code && (
+					<li>
+						<div class="property-grid-list-icon">
+							<img src="/assets/img/icon/property-single-icon1-1.svg" alt="imagem" />
+						</div>
+						<div class="property-grid-list-details">
+							<h4 class="property-grid-list-title">Código</h4>
+							<p class="property-grid-list-text">{property.overview.code}</p>
+						</div>
+					</li>
+				)
+			}
+			<li>
+				<div class="property-grid-list-icon">
+					<img src="/assets/img/icon/property-single-icon1-2.svg" alt="imagem" />
+				</div>
+				<div class="property-grid-list-details">
+					<h4 class="property-grid-list-title">Tipo</h4>
+					<p class="property-grid-list-text">{property.typeLabel}</p>
+				</div>
+			</li>
+			{
+				property.overview?.bedrooms != null && (
+					<li>
+						<div class="property-grid-list-icon">
+							<img src="/assets/img/icon/property-single-icon1-4.svg" alt="imagem" />
+						</div>
+						<div class="property-grid-list-details">
+							<h4 class="property-grid-list-title">Quartos</h4>
+							<p class="property-grid-list-text">{property.overview.bedrooms}</p>
+						</div>
+					</li>
+				)
+			}
+			{
+				property.overview?.bathrooms != null && (
+					<li>
+						<div class="property-grid-list-icon">
+							<img src="/assets/img/icon/property-single-icon1-5.svg" alt="imagem" />
+						</div>
+						<div class="property-grid-list-details">
+							<h4 class="property-grid-list-title">Banheiros</h4>
+							<p class="property-grid-list-text">{property.overview.bathrooms}</p>
+						</div>
+					</li>
+				)
+			}
+			{
+				property.overview?.garages != null && (
+					<li>
+						<div class="property-grid-list-icon">
+							<img src="/assets/img/icon/property-single-icon1-9.svg" alt="imagem" />
+						</div>
+						<div class="property-grid-list-details">
+							<h4 class="property-grid-list-title">Vagas</h4>
+							<p class="property-grid-list-text">{property.overview.garages}</p>
+						</div>
+					</li>
+				)
+			}
+			{
+				property.overview?.sizeSqm != null && (
+					<li>
+						<div class="property-grid-list-icon">
+							<img src="/assets/img/icon/property-single-icon1-8.svg" alt="imagem" />
+						</div>
+						<div class="property-grid-list-details">
+							<h4 class="property-grid-list-title">Área</h4>
+							<p class="property-grid-list-text">{property.overview.sizeSqm} m²</p>
+						</div>
+					</li>
+				)
+			}
+			<li>
+				<div class="property-grid-list-icon">
+					<img src="/assets/img/icon/property-single-icon1-7.svg" alt="imagem" />
+				</div>
+				<div class="property-grid-list-details">
+					<h4 class="property-grid-list-title">Situação</h4>
+					<p class="property-grid-list-text">{property.categoryLabel}</p>
+				</div>
+			</li>
+			{
+				property.overview?.deliveryYear && (
+					<li>
+						<div class="property-grid-list-icon">
+							<img src="/assets/img/icon/property-single-icon1-12.svg" alt="imagem" />
+						</div>
+						<div class="property-grid-list-details">
+							<h4 class="property-grid-list-title">Entrega prevista</h4>
+							<p class="property-grid-list-text">{property.overview.deliveryYear}</p>
+						</div>
+					</li>
+				)
+			}
+		</ul>
+
+		{
+			property.galleryImages.length > 0 && (
+				<>
+					<h3 class="page-title mt-50 mb-30">Galeria de fotos</h3>
+					<div class="row gy-4">
+						{
+							property.galleryImages.map((image, index) => (
+								<div class={`col-xl-${index % 3 === 0 ? '7' : '5'}`}>
+									<div class="property-gallery-card">
+										<div class="property-gallery-card-img">
+											<img class="w-100" src={image.url} alt={property.title} loading="lazy" />
+										</div>
+									</div>
+								</div>
+							))
+						}
+					</div>
+				</>
+			)
+		}
+
+		{
+			property.features?.length > 0 && (
+				<>
+					<h3 class="page-title mt-50 mb-25">Características e comodidades</h3>
+					<div class="fea-anim-checklist">
+						<div class="checklist style2 list-six-column">
+							<ul>
+								{property.features.map((feature) => (
+									<li>{feature}</li>
+								))}
+							</ul>
+						</div>
+					</div>
+				</>
+			)
+		}
+
+		{
+			property.floorPlans.length > 0 && (
+				<>
+					<div class="row gy-30 align-items-center justify-content-center justify-content-between mb-40 mt-40">
+						<div class="col-lg-auto">
+							<h3 class="page-title mb-0">Plantas</h3>
+						</div>
+						{
+							property.floorPlans.length > 1 && (
+								<div class="col-lg-auto">
+									<ul class="nav nav-tabs property-tab mb-0" role="tablist">
+										{
+											property.floorPlans.map((plan, index) => (
+												<li class="nav-item" role="presentation">
+													<button
+														class={`nav-link${index === 0 ? ' active' : ''}`}
+														id={`${plan.id}-tab`}
+														data-bs-toggle="tab"
+														data-bs-target={`#${plan.id}-pane`}
+														type="button"
+														role="tab"
+														aria-selected={index === 0}
+													>
+														{plan.title}
+													</button>
+												</li>
+											))
+										}
+									</ul>
+								</div>
+							)
+						}
+					</div>
+					<div class="tab-content">
+						{
+							property.floorPlans.map((plan, index) => (
+								<div
+									class={`tab-pane fade${index === 0 ? ' show active' : ''}`}
+									id={`${plan.id}-pane`}
+									role="tabpanel"
+									aria-labelledby={`${plan.id}-tab`}
+									tabindex="0"
+								>
+									<div class="property-grid-plan">
+										<div class="property-grid-thumb">
+											<img src={plan.imageUrl} alt={plan.title} loading="lazy" />
+										</div>
+										<div class="property-grid-details">
+											<h4 class="property-grid-title">{plan.title}</h4>
+										</div>
+									</div>
+								</div>
+							))
+						}
+					</div>
+				</>
+			)
+		}
+
+		{
+			property.videoUrl && (
+				<>
+					<h3 class="page-title mt-50 mb-30">Vídeo</h3>
+					<div class="ratio ratio-16x9 mb-40">
+						<iframe src={property.videoUrl} title={property.title} allowfullscreen loading="lazy" />
+					</div>
+				</>
+			)
+		}
+
+	</div>
+</div>

@@ -1,0 +1,9 @@
+[
+	{ "name": "Pré-lançamento", "slug": "pre-lancamento" },
+	{ "name": "Em lançamento", "slug": "lancamento" },
+	{ "name": "Pronto para morar", "slug": "pronto-para-morar" },
+	{ "name": "Apartamentos", "slug": "apartamentos" },
+	{ "name": "Casas em condomínio", "slug": "casas-em-condominio" },
+	{ "name": "Loteamento", "slug": "loteamento" },
+	{ "name": "Terrenos", "slug": "terrenos" }
+]

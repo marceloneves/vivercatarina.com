@@ -1,0 +1,84 @@
+{
+  "slug": "canasvieiras",
+  "name": "Canasvieiras",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-30T22:18:06.544Z",
+  "total": 8,
+  "properties": [
+    {
+      "slug": "cachoeira-spot-cachoeira-do-bom-jesus-florianopolis-sc",
+      "id": 8969,
+      "title": "50m do mar, Cachoeira Spot, Cachoeira do Bom Jesus",
+      "category": "lancamento",
+      "price": 276000,
+      "dataPath": "imoveis/cachoeira-spot-cachoeira-do-bom-jesus-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/cachoeira-spot-cachoeira-do-bom-jesus-florianopolis-sc/images/01-02-1-1.jpg"
+    },
+    {
+      "slug": "canas-beach-spot-canasvieiras-florianopolis-sc",
+      "id": 21404,
+      "title": "Canas Beach Spot, Canasvieiras",
+      "category": "lancamento",
+      "price": 249000,
+      "dataPath": "imoveis/canas-beach-spot-canasvieiras-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/canas-beach-spot-canasvieiras-florianopolis-sc/images/01-Canas-Beach_9-1-scaled.jpg"
+    },
+    {
+      "slug": "canasvieiras-spot-canasvieiras-florianopolis-sc",
+      "id": 8939,
+      "title": "Canasvieiras Spot",
+      "category": "lancamento",
+      "price": 235000,
+      "dataPath": "imoveis/canasvieiras-spot-canasvieiras-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/canasvieiras-spot-canasvieiras-florianopolis-sc/images/01-Copia-de-Distancia-da-praia.png"
+    },
+    {
+      "slug": "cachoeira-beach-spot-cachoeira-do-bom-jesus-florianopolis-sc",
+      "id": 13081,
+      "title": "frente a Praia, Cachoeira Beach Spot, Cachoeira do Bom Jesus",
+      "category": "lancamento",
+      "price": 275000,
+      "dataPath": "imoveis/cachoeira-beach-spot-cachoeira-do-bom-jesus-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/cachoeira-beach-spot-cachoeira-do-bom-jesus-florianopolis-sc/images/01-Copia-de-IMAGEM-9-1.png"
+    },
+    {
+      "slug": "ponta-das-canas-spot-ii-ponta-das-canas-florianopolis-sc",
+      "id": 19711,
+      "title": "frente mar, Ponta das Canas Spot II, Ponta das Canas, Florianópolis",
+      "category": "lancamento",
+      "price": 251000,
+      "dataPath": "imoveis/ponta-das-canas-spot-ii-ponta-das-canas-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/ponta-das-canas-spot-ii-ponta-das-canas-florianopolis-sc/images/01-Ponta-das-canas-II-imagem-06-Foto-Insercao-Ponta-I-e-II-1.png"
+    },
+    {
+      "slug": "level-up-cachoeira-do-bom-jesus-florianopolis-sc",
+      "id": 15266,
+      "title": "LEVEL UP, Cachoeira do Bom Jesus",
+      "category": "lancamento",
+      "price": 825800,
+      "dataPath": "imoveis/level-up-cachoeira-do-bom-jesus-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/level-up-cachoeira-do-bom-jesus-florianopolis-sc/images/01-3-13.jpg"
+    },
+    {
+      "slug": "ponta-das-canas-spot-ponta-das-canas-florianopolis-sc",
+      "id": 17157,
+      "title": "Ponta das Canas Spot",
+      "category": "lancamento",
+      "price": 230000,
+      "dataPath": "imoveis/ponta-das-canas-spot-ponta-das-canas-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/ponta-das-canas-spot-ponta-das-canas-florianopolis-sc/images/01-Copia-de-Ponta-das-Canas_06-scaled.jpg"
+    },
+    {
+      "slug": "upside-ponta-das-canas-florianopolis-sc",
+      "id": 21311,
+      "title": "UpSide, Ponta das Canas, Florianópolis",
+      "category": "lancamento",
+      "price": 279000,
+      "dataPath": "imoveis/upside-ponta-das-canas-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/upside-ponta-das-canas-florianopolis-sc/images/01-Captura-de-tela-2025-10-27-135605-1.jpg"
+    }
+  ]
+}

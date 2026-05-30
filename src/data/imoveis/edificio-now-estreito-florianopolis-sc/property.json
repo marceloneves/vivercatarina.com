@@ -1,0 +1,203 @@
+{
+  "id": 7136,
+  "slug": "edificio-now-estreito-florianopolis-sc",
+  "title": "Apartamentos Duplex, Edifício Now, Estreito",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,401,000",
+    "amount": 1401000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "R: Araci Vaz Calado, Estreito, Florianópolis",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "estreito",
+      "name": "Estreito"
+    }
+  },
+  "overview": {
+    "code": "1080",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "garages": 2,
+    "sizeSqm": 1112,
+    "deliveryYear": "2021"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "3-suites",
+      "name": "3 Suítes"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "churrasqueira",
+    "coworking",
+    "espaco-gourmet",
+    "especo-pet",
+    "lavanderia",
+    "piscina"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Lavanderia",
+    "Academia",
+    "Piscina",
+    "Espaço Pet",
+    "Coworking",
+    "Espaço Gourmet",
+    "Brinquedoteca"
+  ],
+  "descriptionHtml": "<p><strong>Apartamento Duplex com 3 quartos sendo 3 suíte,  churrasqueira, 111 m², 2 vg  R$ 1.401.000,00 (Apto 803 T2) </strong></p>\n<p><em>Fotos da Unidade 803 T2, </em></p>\n<p>Entrada + Financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel ou veículo como parte de pagamento</li>\n<li>Atualizado 06/05/2026</li>\n</ul>\n<p><strong>Edifício Residencial no Estreito &#8211; Modernidade e Conforto Prontos para Morar</strong></p>\n<p>Descubra um novo jeito de viver em um dos bairros mais tradicionais de Florianópolis, o Estreito! Este edifício novo e sofisticado está pronto para receber você e sua família, com apartamentos duplex projetados para proporcionar o máximo em conforto e estilo. São opções de 1 suíte, 2 quartos (com 1 suíte) e 3 suítes, todas com acabamentos de alto padrão e tecnologia para facilitar o seu dia a dia.</p>\n<p>Os apartamentos contam com detalhes que fazem a diferença: acesso por biometria, persianas motorizadas nos dormitórios, lâmina de madeira para um toque aconchegante nos quartos, piso porcelanato na sala, cozinha e corredores, tomadas USB e churrasqueira a carvão na sacada*<em> (verificar unidades)</em></p>\n<p>O edifício também oferece uma infraestrutura completa de lazer e conveniência: piscina, coworking, brinquedoteca, espaço gourmet, academia, pet place e lavanderia, para que você possa aproveitar ao máximo cada momento.</p>\n<p>Perfeito para quem busca modernidade e praticidade em Florianópolis!</p>",
+  "floorPlans": [
+    {
+      "title": "Floor 1",
+      "image": "images/25-planta-905.jpg"
+    },
+    {
+      "title": "Duplex 803 T2",
+      "image": "images/26-planta-803-T2.jpg"
+    },
+    {
+      "title": "Duplex 908 T1 - 3 suítes",
+      "image": "images/27-planta-908-t1.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-Fachada-02.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Fachada-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Piscina-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Salao-de-Festas.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Sala-de-Reunioes-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Sala-de-Objetos-Compartilhados.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Pet-Place-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Lavanderia-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Horta-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Homemarket-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Fitness-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Coworking-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Brinquedoteca-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-8031.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-8034.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-8036.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-803.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-8035.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-8032.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-8037.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-8033.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-8038.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-8039.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-80310.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-planta-905.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-planta-803-T2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-planta-908-t1.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/edificio-now-estreito-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:50.446Z",
+  "kind": "apartamento"
+}
