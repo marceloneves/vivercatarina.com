@@ -8,7 +8,7 @@ export const homePageTranslations = [
 	['>Explore Property </a>', '>Ver imóveis </a>'],
 	[
 		'Journey To Your Perfect <span class="title2 text-theme"> Luxury Home</span>',
-		'Seu caminho até o <span class="title2 text-theme"> imóvel ideal</span>',
+		'Viva o melhor de <span class="title2 text-theme">Santa Catarina</span>',
 	],
 	[
 		'Find Your Perfect Place to <span class="title2 text-theme"> Call Home</span>',

@@ -201,6 +201,10 @@ export function loadHomeNeighborhoodCards() {
 	}));
 }
 
+export function getHomeHeroBackgroundUrl() {
+	return pickNeighborhoodCoverImage('cacupe') || FALLBACK_NEIGHBORHOOD_IMAGES[2];
+}
+
 export function getHomePageShell() {
 	const html = readFileSync(templatePath, 'utf8');
 	const sectionStart = html.indexOf('<section class="popular-sec-1');
@@ -216,8 +220,16 @@ export function getHomePageShell() {
 		throw new Error('Não foi possível localizar a seção de bairros na home.');
 	}
 
+	const heroBackgroundUrl = getHomeHeroBackgroundUrl();
+	const before = html
+		.slice(0, sectionStart)
+		.replace(
+			'data-bg-src="/assets/img/hero/hero_bg_1_1.jpg"',
+			`data-bg-src="${heroBackgroundUrl}"`,
+		);
+
 	return {
-		before: html.slice(0, sectionStart),
+		before,
 		after: html.slice(galleryEnd),
 	};
 }

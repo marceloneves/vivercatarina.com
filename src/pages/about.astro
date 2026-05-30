@@ -1,11 +1,24 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
+import AboutPageContent from '../components/AboutPageContent.astro';
 import bodyHtml from '../content/template-pages/about.html?raw';
 
-const title = "Quem Somos";
-const bodyClass = "";
+const title = 'Quem Somos';
+const bodyClass = '';
+
+const aboutAreaStart = bodyHtml.indexOf('<!--==============================\nAbout Area');
+const footerStart = bodyHtml.indexOf('<!--==============================\n\tFooter Area');
+
+if (aboutAreaStart === -1 || footerStart === -1) {
+	throw new Error('Não foi possível montar a página Quem Somos a partir do template.');
+}
+
+const headerAndBreadcrumb = bodyHtml.slice(0, aboutAreaStart);
+const footer = bodyHtml.slice(footerStart);
 ---
 
 <PillerLayout title={title} bodyClass={bodyClass}>
-	<Fragment set:html={bodyHtml} />
+	<Fragment set:html={headerAndBreadcrumb} />
+	<AboutPageContent />
+	<Fragment set:html={footer} />
 </PillerLayout>
