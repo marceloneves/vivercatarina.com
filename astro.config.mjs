@@ -6,7 +6,7 @@ import node from '@astrojs/node';
 export default defineConfig({
 	output: 'static',
 	adapter: node({ mode: 'standalone' }),
-	site: 'https://naplantasc.com.br',
+	site: 'https://vivercatarina.com',
 	vite: {
 		server: {
 			watch: {

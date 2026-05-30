@@ -4,7 +4,7 @@ import {
 	getPropertyVideoUrl,
 } from './property-data.mjs';
 import { getCategoryLabel } from './property-listings.mjs';
-import { SITE_PHONE_TEL, SITE_URL } from './site-contact.mjs';
+import { SITE_EMAIL, SITE_NAME, SITE_PHONE_TEL, SITE_URL } from './site-contact.mjs';
 
 function stripHtml(html) {
 	return html
@@ -96,9 +96,10 @@ function buildOffer({ property, listingUrl, siteUrl }) {
 		url: listingUrl,
 		offeredBy: {
 			'@type': 'RealEstateAgent',
-			name: 'Na Planta SC',
-			url: siteUrl,
+			name: SITE_NAME,
+			url: SITE_URL,
 			telephone: SITE_PHONE_TEL,
+			email: SITE_EMAIL,
 		},
 	});
 }

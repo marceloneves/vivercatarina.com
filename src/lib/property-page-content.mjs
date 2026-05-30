@@ -12,7 +12,7 @@ import { getCategoryLabel } from './property-listings.mjs';
 import { buildFinancingSimulation } from './property-financing.mjs';
 import { buildPropertyRealEstateListingJsonLd } from './property-schema.mjs';
 import { cleanPropertyTitle } from './property-slug.mjs';
-import { SITE_WHATSAPP_NUMBER } from './site-contact.mjs';
+import { SITE_NAME, SITE_WHATSAPP_NUMBER } from './site-contact.mjs';
 
 const WHATSAPP_NUMBER = SITE_WHATSAPP_NUMBER;
 const NOT_INFORMED = 'Não informado';
@@ -1002,7 +1002,7 @@ export function buildPropertyPageViewModel(property, slug) {
 	const financing = buildFinancingSimulation(property);
 	const cityName = property.address?.city?.name || NOT_INFORMED;
 	const neighborhoodName = property.address?.neighborhood?.name || NOT_INFORMED;
-	const seoTitle = `${displayTitle} — Apartamentos na planta em ${neighborhoodName}, ${cityName} | Na Planta SC`;
+	const seoTitle = `${displayTitle} — Apartamentos na planta em ${neighborhoodName}, ${cityName} | ${SITE_NAME}`;
 	const seoDescription = `${getCategoryLabel(property.category)} em ${neighborhoodName}, ${cityName}. ${stats.price}. Consulte plantas, condições e disponibilidade.`;
 	const whatsappText = encodeURIComponent(
 		`Olá! Tenho interesse no empreendimento ${displayTitle} (cód. ${getPropertyCode(property)}).`,

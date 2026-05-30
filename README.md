@@ -1,4 +1,4 @@
-# Na Planta SC
+# Viver Catarina
 
 Site em [Astro](https://astro.build) para imóveis na planta em Santa Catarina, baseado no template Piller (pasta `modelo/`).
 

@@ -192,10 +192,10 @@ const footerCitiesByRegion = [
 	},
 ];
 
-const cityDomain = 'naplantasc.com';
+const cityDomain = 'vivercatarina.com';
 
 const footerDescription =
-	'O maior portal de lançamentos imobiliários de Santa Catarina. Encontre apartamentos na planta, pré-lançamentos e imóveis prontos para morar nas 25 maiores cidades catarinenses. De Joinville a Criciúma, de Balneário Camboriú a Chapecó — cobrimos cada lançamento, cada bairro, cada oportunidade do mercado imobiliário de SC. Aqui você compara, pesquisa e encontra o imóvel novo ideal com informações completas, atualizadas e direto das construtoras.';
+	'Viver Catarina é o portal de lançamentos imobiliários em Florianópolis. Encontre apartamentos na planta, casas em condomínio, loteamentos e imóveis prontos para morar com informações completas e atualizadas.';
 
 const neighborhoods = JSON.parse(
 	readFileSync(join(root, 'src/data/florianopolis-neighborhoods.json'), 'utf8'),
@@ -214,7 +214,7 @@ function citySlug(city) {
 }
 
 function citySubdomainUrl(city) {
-	return `https://${citySlug(city)}.${cityDomain}`;
+	return 'https://vivercatarina.com';
 }
 
 function getSiteMenu() {
@@ -1012,7 +1012,7 @@ const propertyListingTranslations = [
 	['GET IT ON', 'Disponível no'],
 	['. All Rights Reserved.', '. Todos os direitos reservados.'],
 	['Social Media:', 'Redes sociais:'],
-	['Copyright <i class="fal fa-copyright"></i> 2025 <a href="/">Piller</a>', 'Copyright <i class="fal fa-copyright"></i> 2025 <a href="/">Na Planta SC</a>'],
+	['Copyright <i class="fal fa-copyright"></i> 2025 <a href="/">Piller</a>', 'Copyright <i class="fal fa-copyright"></i> 2025 <a href="/">Viver Catarina</a>'],
 	['Charming Beach House', 'Casa charmosa na praia'],
 	['Contemporary Loft', 'Loft contemporâneo'],
 	['Cozy Cottage', 'Chalé aconchegante'],
@@ -1026,7 +1026,7 @@ const propertyListingTranslations = [
 	['alt="Image"', 'alt="Imagem"'],
 	['alt="icon"', 'alt="ícone"'],
 	['alt="img"', 'alt="imagem"'],
-	['alt="Piller-html"', 'alt="Na Planta SC"'],
+	['alt="Viver Catarina"', 'alt="Viver Catarina"'],
 	['alt="Cart Image"', 'alt="Imagem do carrinho"'],
 	['Bosco Apple Fruit', 'Item de exemplo'],
 	['Green Cauliflower', 'Item de exemplo'],
@@ -1243,7 +1243,7 @@ function extractTitle(html, fileName) {
 	if (homeTitles[fileName]) return homeTitles[fileName];
 
 	const match = html.match(/<title>(.*?)<\/title>/i);
-	if (!match) return 'Na Planta SC';
+	if (!match) return 'Viver Catarina';
 
 	return match[1]
 		.replace(/^Piller-html - Real Estate Home HTML Template -?\s*/i, '')

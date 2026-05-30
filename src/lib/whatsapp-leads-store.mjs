@@ -1,7 +1,7 @@
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { randomUUID } from 'node:crypto';
-import { SITE_WHATSAPP_NUMBER } from './site-contact.mjs';
+import { SITE_NAME, SITE_WHATSAPP_NUMBER } from './site-contact.mjs';
 
 const LEADS_PATH = join(process.cwd(), 'data', 'whatsapp-leads.json');
 
@@ -39,7 +39,7 @@ export function buildWhatsAppRedirectUrl(name, { propertyTitle } = {}) {
 	const trimmedName = String(name).trim();
 	const message = propertyTitle
 		? `Olá! Meu nome é ${trimmedName}. Tenho interesse no imóvel ${propertyTitle}.`
-		: `Olá! Meu nome é ${trimmedName}. Vim pelo site Na Planta SC e gostaria de mais informações.`;
+		: `Olá! Meu nome é ${trimmedName}. Vim pelo site ${SITE_NAME} e gostaria de mais informações.`;
 
 	return `https://wa.me/${SITE_WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
