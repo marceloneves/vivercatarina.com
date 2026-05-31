@@ -13,7 +13,6 @@ import {
 } from './property-category.mjs';
 import { enrichProperty, paginate, sortPropertiesByPrice } from './property-listings.mjs';
 import { filterFlorianopolisListings } from './property-data.mjs';
-import { buildLancamentosIntroHtml } from './blog-content-links.mjs';
 import { applySemanticHtml } from './semantic-html.mjs';
 import { patchSiteMenu } from './site-menu.mjs';
 import { prepareBairroSidebarHtml } from './template-html.mjs';
@@ -96,7 +95,6 @@ function buildListingShell(label, basePath, pageNumber, pageSlug) {
 		),
 		shellAfter: applySemanticHtml(shell.after),
 		sidebarHtml: prepareBairroSidebarHtml(shell.sidebar, ''),
-		introHtml: buildLancamentosIntroHtml(pageSlug),
 	};
 }
 

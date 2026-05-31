@@ -9,7 +9,6 @@ const {
 	totalPages,
 	basePath,
 	sidebarHtml,
-	introHtml = '',
 	perPage = LISTINGS_PER_PAGE,
 } = Astro.props;
 
@@ -25,7 +24,6 @@ const hasProperties = allProperties.length > 0;
 	data-total-items={allProperties.length}
 >
 	<div class="tab-content" id="nav-tabContent">
-		{introHtml ? <Fragment set:html={introHtml} /> : null}
 		<div class="tab-pane fade" id="tab-grid" role="tabpanel" aria-labelledby="tab-shop-grid">
 			<div id="property-target-grid-items" class="row gy-40 property-target-items">
 				{

@@ -1,7 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { enrichProperty, loadNeighborhoodListing, paginate, sortPropertiesByPrice } from './property-listings.mjs';
-import { buildBairroIntroHtml } from './blog-content-links.mjs';
 import { applySemanticHtml } from './semantic-html.mjs';
 import { patchSiteMenu } from './site-menu.mjs';
 import { prepareBairroSidebarHtml } from './template-html.mjs';
@@ -107,6 +106,5 @@ export function buildBairroPageContext(slug, pageNumber) {
 		shellBefore: before,
 		shellAfter: applySemanticHtml(shell.after),
 		sidebarHtml,
-		introHtml: buildBairroIntroHtml(slug, listing.name),
 	};
 }

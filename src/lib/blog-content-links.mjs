@@ -1,6 +1,5 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { getBlogPostsForBairro, getBlogPostsForLancamentosPage } from './blog-internal-links.mjs';
 
 const NEIGHBORHOODS = JSON.parse(
 	readFileSync(join(process.cwd(), 'src/data/florianopolis-neighborhoods.json'), 'utf8'),
@@ -217,61 +216,4 @@ export function applyArticleInlineLinks(html, currentSlug = '') {
 			return linkifyTextNode(part, rules);
 		})
 		.join('');
-}
-
-function formatPostLink(post, label) {
-	return `<a href="${post.href}">${label ?? post.title}</a>`;
-}
-
-function joinPortugueseList(items) {
-	if (items.length === 0) {
-		return '';
-	}
-
-	if (items.length === 1) {
-		return items[0];
-	}
-
-	if (items.length === 2) {
-		return `${items[0]} e ${items[1]}`;
-	}
-
-	return `${items.slice(0, -1).join(', ')} e ${items.at(-1)}`;
-}
-
-/** @param {string} pageSlug */
-export function buildLancamentosIntroHtml(pageSlug) {
-	const posts = getBlogPostsForLancamentosPage(pageSlug);
-	const articleLinks = posts.slice(0, 3).map((post) => formatPostLink(post));
-
-	return `<div class="listing-context-links">
-<p>Antes de fechar negócio, leia ${joinPortugueseList(articleLinks)}. Depois, compare os empreendimentos abaixo ou explore <a href="/bairros">imóveis por bairro</a> e <a href="/lancamentos/apartamentos">apartamentos em lançamento</a>.</p>
-</div>`;
-}
-
-/** @param {string} neighborhoodSlug @param {string} neighborhoodName */
-export function buildBairroIntroHtml(neighborhoodSlug, neighborhoodName) {
-	const posts = getBlogPostsForBairro(neighborhoodSlug);
-	const articleLinks = posts.slice(0, 3).map((post) => formatPostLink(post));
-
-	return `<div class="listing-context-links">
-<p>Interessado em ${neighborhoodName}? Confira ${joinPortugueseList(articleLinks)} e veja os <a href="/lancamentos">lançamentos em Florianópolis</a> disponíveis neste bairro.</p>
-</div>`;
-}
-
-/** @param {string} html @param {string} introHtml */
-export function injectListingIntroInHtml(html, introHtml) {
-	if (!introHtml) {
-		return html;
-	}
-
-	const marker = '<div class="tab-content" id="nav-tabContent">';
-	const injection = `${marker}
-            <div class="row listing-context-links-row">
-                <div class="col-12">
-                    ${introHtml}
-                </div>
-            </div>`;
-
-	return html.includes(marker) ? html.replace(marker, injection) : html;
 }
