@@ -8,47 +8,47 @@ Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
 
 ## Páginas principais
 
-- [Início](https://vivercatarina.com/): home com lançamentos em destaque e bairros
-- [Lançamentos](https://vivercatarina.com/lancamentos): listagem de imóveis novos em Florianópolis
-- [Bairros](https://vivercatarina.com/bairros): imóveis por bairro e faixa de preço
-- [Quem Somos](https://vivercatarina.com/about): missão, diferenciais e contato
-- [Blog](https://vivercatarina.com/blog): conteúdo sobre bairros e mercado local
+- [Início](https://florianopolis.vivercatarina.com/): home com lançamentos em destaque e bairros
+- [Lançamentos](https://florianopolis.vivercatarina.com/lancamentos): listagem de imóveis novos em Florianópolis
+- [Bairros](https://florianopolis.vivercatarina.com/bairros): imóveis por bairro e faixa de preço
+- [Quem Somos](https://florianopolis.vivercatarina.com/about): missão, diferenciais e contato
+- [Blog](https://florianopolis.vivercatarina.com/blog): conteúdo sobre bairros e mercado local
 
 ## Lançamentos por tipo
 
-- [Apartamentos](https://vivercatarina.com/lancamentos/apartamentos)
-- [Casas em condomínio](https://vivercatarina.com/lancamentos/casas-em-condominio)
-- [Loteamento](https://vivercatarina.com/lancamentos/loteamento)
-- [Pré-lançamento](https://vivercatarina.com/lancamentos/pre-lancamento)
-- [Em lançamento](https://vivercatarina.com/lancamentos/lancamento)
-- [Pronto para morar](https://vivercatarina.com/lancamentos/pronto-para-morar)
+- [Apartamentos](https://florianopolis.vivercatarina.com/lancamentos/apartamentos)
+- [Casas em condomínio](https://florianopolis.vivercatarina.com/lancamentos/casas-em-condominio)
+- [Loteamento](https://florianopolis.vivercatarina.com/lancamentos/loteamento)
+- [Pré-lançamento](https://florianopolis.vivercatarina.com/lancamentos/pre-lancamento)
+- [Em lançamento](https://florianopolis.vivercatarina.com/lancamentos/lancamento)
+- [Pronto para morar](https://florianopolis.vivercatarina.com/lancamentos/pronto-para-morar)
 
 ## Bairros em destaque
 
-- [Agronômica](https://vivercatarina.com/bairro/agronomica): imóveis na planta no bairro
-- [Barra da Lagoa](https://vivercatarina.com/bairro/barradalagoa): imóveis na planta no bairro
-- [Cacupé](https://vivercatarina.com/bairro/cacupe): imóveis na planta no bairro
-- [Campeche](https://vivercatarina.com/bairro/campeche): imóveis na planta no bairro
-- [Canasvieiras](https://vivercatarina.com/bairro/canasvieiras): imóveis na planta no bairro
-- [Carvoeira](https://vivercatarina.com/bairro/carvoeira): imóveis na planta no bairro
-- [Centro](https://vivercatarina.com/bairro/centro): imóveis na planta no bairro
-- [Coqueiros](https://vivercatarina.com/bairro/coqueiros): imóveis na planta no bairro
-- [Córrego Grande](https://vivercatarina.com/bairro/corregogrande): imóveis na planta no bairro
-- [Estreito](https://vivercatarina.com/bairro/estreito): imóveis na planta no bairro
-- [Ingleses](https://vivercatarina.com/bairro/ingleses): imóveis na planta no bairro
-- [João Paulo](https://vivercatarina.com/bairro/joaopaulo): imóveis na planta no bairro
+- [Agronômica](https://florianopolis.vivercatarina.com/bairro/agronomica): imóveis na planta no bairro
+- [Barra da Lagoa](https://florianopolis.vivercatarina.com/bairro/barradalagoa): imóveis na planta no bairro
+- [Cacupé](https://florianopolis.vivercatarina.com/bairro/cacupe): imóveis na planta no bairro
+- [Campeche](https://florianopolis.vivercatarina.com/bairro/campeche): imóveis na planta no bairro
+- [Canasvieiras](https://florianopolis.vivercatarina.com/bairro/canasvieiras): imóveis na planta no bairro
+- [Carvoeira](https://florianopolis.vivercatarina.com/bairro/carvoeira): imóveis na planta no bairro
+- [Centro](https://florianopolis.vivercatarina.com/bairro/centro): imóveis na planta no bairro
+- [Coqueiros](https://florianopolis.vivercatarina.com/bairro/coqueiros): imóveis na planta no bairro
+- [Córrego Grande](https://florianopolis.vivercatarina.com/bairro/corregogrande): imóveis na planta no bairro
+- [Estreito](https://florianopolis.vivercatarina.com/bairro/estreito): imóveis na planta no bairro
+- [Ingleses](https://florianopolis.vivercatarina.com/bairro/ingleses): imóveis na planta no bairro
+- [João Paulo](https://florianopolis.vivercatarina.com/bairro/joaopaulo): imóveis na planta no bairro
 
 ## Blog
 
-- [Checklist Definitivo: 15 Itens para Avaliar Antes de Alugar ou Comprar Imóvel em Florianópolis](https://vivercatarina.com/blog/checklist-avaliar-imovel-em-florianopolis)
-- [Morar Perto da UFSC: Comparativo entre Trindade, Carvoeira e Córrego Grande para Estudantes](https://vivercatarina.com/blog/morar-perto-da-ufsc-trindade-carvoeira-corrego-grande)
-- [Campeche em Expansão: Até Onde Vai a Valorização do Bairro Mais Promissor do Sul da Ilha](https://vivercatarina.com/blog/campeche-em-expansao-valorizacao)
-- [Morar no Continente x na Ilha em Florianópolis: Comparativo de Custo, Trânsito e Qualidade de Vida](https://vivercatarina.com/blog/morar-no-continente-x-na-ilha-em-florianopolis)
-- [Quanto Custa Morar em Florianópolis em 2026: Tabela Completa de Aluguel e Compra por Bairro](https://vivercatarina.com/blog/quanto-custa-morar-em-florianopolis)
-- [Os 10 Melhores Bairros Para Viver em Florianópolis em 2026](https://vivercatarina.com/blog/melhores-bairros-para-morar-em-florianopolis)
+- [Checklist Definitivo: 15 Itens para Avaliar Antes de Alugar ou Comprar Imóvel em Florianópolis](https://florianopolis.vivercatarina.com/blog/checklist-avaliar-imovel-em-florianopolis)
+- [Morar Perto da UFSC: Comparativo entre Trindade, Carvoeira e Córrego Grande para Estudantes](https://florianopolis.vivercatarina.com/blog/morar-perto-da-ufsc-trindade-carvoeira-corrego-grande)
+- [Campeche em Expansão: Até Onde Vai a Valorização do Bairro Mais Promissor do Sul da Ilha](https://florianopolis.vivercatarina.com/blog/campeche-em-expansao-valorizacao)
+- [Morar no Continente x na Ilha em Florianópolis: Comparativo de Custo, Trânsito e Qualidade de Vida](https://florianopolis.vivercatarina.com/blog/morar-no-continente-x-na-ilha-em-florianopolis)
+- [Quanto Custa Morar em Florianópolis em 2026: Tabela Completa de Aluguel e Compra por Bairro](https://florianopolis.vivercatarina.com/blog/quanto-custa-morar-em-florianopolis)
+- [Os 10 Melhores Bairros Para Viver em Florianópolis em 2026](https://florianopolis.vivercatarina.com/blog/melhores-bairros-para-morar-em-florianopolis)
 
 ## Optional
 
-- [Contato](https://vivercatarina.com/contact): formulário e informações de contato
-- [Sitemap](https://vivercatarina.com/sitemap-index.xml): índice de URLs públicas do site
-- [Robots](https://vivercatarina.com/robots.txt): regras de rastreamento para buscadores
+- [Contato](https://florianopolis.vivercatarina.com/contact): formulário e informações de contato
+- [Sitemap](https://florianopolis.vivercatarina.com/sitemap-index.xml): índice de URLs públicas do site
+- [Robots](https://florianopolis.vivercatarina.com/robots.txt): regras de rastreamento para buscadores

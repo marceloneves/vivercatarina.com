@@ -216,7 +216,7 @@ function citySlug(city) {
 }
 
 function citySubdomainUrl(city) {
-	return 'https://vivercatarina.com';
+	return 'https://florianopolis.vivercatarina.com';
 }
 
 function getSiteMenu() {

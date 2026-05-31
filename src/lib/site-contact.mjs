@@ -1,5 +1,5 @@
 export const SITE_NAME = 'Viver Catarina';
-export const SITE_URL = 'https://vivercatarina.com';
+export const SITE_URL = 'https://florianopolis.vivercatarina.com';
 export const SITE_EMAIL = 'contato@vivercatarina.com';
 export const SITE_PHONE_DISPLAY = '(48) 98810-5199';
 export const SITE_PHONE_TEL = '+5548988105199';

@@ -6,7 +6,7 @@ import vercel from '@astrojs/vercel';
 export default defineConfig({
 	output: 'static',
 	adapter: vercel(),
-	site: 'https://vivercatarina.com',
+	site: 'https://florianopolis.vivercatarina.com',
 	vite: {
 		server: {
 			watch: {

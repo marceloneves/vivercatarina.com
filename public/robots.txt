@@ -20,4 +20,4 @@ Disallow: /gallery
 Disallow: /faq
 Disallow: /neighborhood-guide
 
-Sitemap: https://vivercatarina.com/sitemap-index.xml
+Sitemap: https://florianopolis.vivercatarina.com/sitemap-index.xml

@@ -13,7 +13,7 @@ const targets = [
 const replacements = [
 	['Na Planta SC', 'Viver Catarina'],
 	['naplantasc.com.br', 'vivercatarina.com'],
-	[/https:\/\/[a-z0-9-]+\.naplantasc\.com/g, 'https://vivercatarina.com'],
+	[/https:\/\/[a-z0-9-]+\.naplantasc\.com/g, 'https://florianopolis.vivercatarina.com'],
 	['infomail123@domain.com', 'contato@vivercatarina.com'],
 	['infomailexample@mail.com', 'contato@vivercatarina.com'],
 	['info@agency.com', 'contato@vivercatarina.com'],
