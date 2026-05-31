@@ -468,15 +468,22 @@ const seo = resolvePageSeo({
 				z-index: 2;
 			}
 
-			.copyright-wrap .row {
+			.copyright-wrap .footer-copyright-row {
 				display: grid;
 				grid-template-columns: 1fr auto 1fr;
 				align-items: center;
 				gap: 1rem;
-				justify-content: center !important;
 			}
 
-			.copyright-wrap .row > .col-lg-7 {
+			.copyright-wrap .footer-copyright-email {
+				grid-column: 1;
+				grid-row: 1;
+				justify-self: start;
+				width: auto;
+				max-width: none;
+			}
+
+			.copyright-wrap .footer-copyright-center {
 				grid-column: 2;
 				grid-row: 1;
 				justify-self: center;
@@ -484,7 +491,7 @@ const seo = resolvePageSeo({
 				max-width: none;
 			}
 
-			.copyright-wrap .row > .col-auto {
+			.copyright-wrap .footer-copyright-social {
 				grid-column: 3;
 				grid-row: 1;
 				justify-self: end;
@@ -492,9 +499,25 @@ const seo = resolvePageSeo({
 				max-width: none;
 			}
 
+			.copyright-wrap .copyright-email,
+			.copyright-wrap .copyright-text {
+				margin: 0;
+			}
+
+			.copyright-wrap .copyright-email {
+				text-align: left;
+			}
+
+			.copyright-wrap .copyright-email a {
+				color: inherit;
+			}
+
+			.copyright-wrap .copyright-email a:hover {
+				color: var(--theme-color);
+			}
+
 			.copyright-wrap .copyright-text {
 				text-align: center;
-				margin: 0;
 			}
 
 			.copyright-wrap .footer-default-copy-right {
@@ -512,22 +535,26 @@ const seo = resolvePageSeo({
 			}
 
 			@media (max-width: 767px) {
-				.copyright-wrap .row {
+				.copyright-wrap .footer-copyright-row {
 					grid-template-columns: 1fr;
+					justify-items: center;
+					text-align: center;
 				}
 
-				.copyright-wrap .row > .col-lg-7,
-				.copyright-wrap .row > .col-auto {
+				.copyright-wrap .footer-copyright-email,
+				.copyright-wrap .footer-copyright-center,
+				.copyright-wrap .footer-copyright-social {
 					grid-column: 1;
 					justify-self: center;
+					width: 100%;
 				}
 
-				.copyright-wrap .row > .col-auto {
-					justify-self: end;
+				.copyright-wrap .copyright-email {
+					text-align: center;
 				}
 
 				.copyright-wrap .footer-default-copy-right {
-					justify-content: flex-end;
+					justify-content: center;
 				}
 			}
 		</style>
@@ -718,6 +745,94 @@ const seo = resolvePageSeo({
 				.bairro-listing .breadcumb-wrapper.single-inventory .breadcumb-title {
 					color: var(--title-color);
 					font-size: 32px;
+				}
+
+				.bairro-listing .th-sort-bar.property-style {
+					margin-bottom: 24px;
+				}
+
+				.bairro-listing .bairro-intro-panel {
+					background: var(--smoke-color2);
+					border: 1px solid var(--th-border-color);
+					border-radius: 16px;
+					padding: 28px 32px 24px;
+					margin-bottom: 40px;
+				}
+
+				.bairro-listing .bairro-intro-panel__head {
+					margin-bottom: 18px;
+					padding-bottom: 18px;
+					border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+				}
+
+				.bairro-listing .bairro-intro-panel__head .sub-title {
+					margin-bottom: 10px;
+				}
+
+				.bairro-listing .bairro-intro-panel__title {
+					margin: 0;
+					font-size: 24px;
+					font-weight: 700;
+					line-height: 1.35;
+					color: var(--title-color);
+				}
+
+				.bairro-listing .bairro-intro-panel__text {
+					margin: 0 0 14px;
+					font-size: 16px;
+					line-height: 1.75;
+					color: var(--body-color);
+				}
+
+				.bairro-listing .bairro-intro-panel__text.mb-0 {
+					margin-bottom: 0;
+				}
+
+				.bairro-listing .bairro-intro-panel__notice {
+					display: flex;
+					align-items: flex-start;
+					gap: 14px;
+					margin-top: 20px;
+					padding: 16px 18px;
+					border-radius: 12px;
+					background: var(--white-color);
+					border-left: 4px solid var(--theme-color);
+					box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+				}
+
+				.bairro-listing .bairro-intro-panel__notice i {
+					flex-shrink: 0;
+					margin-top: 3px;
+					font-size: 18px;
+					color: var(--theme-color);
+				}
+
+				.bairro-listing .bairro-intro-panel__notice p {
+					font-size: 15px;
+					line-height: 1.65;
+					color: var(--body-color);
+				}
+
+				.bairro-listing .bairro-intro-panel__notice a {
+					color: var(--theme-color);
+					font-weight: 600;
+					text-decoration: underline;
+					text-underline-offset: 0.15em;
+				}
+
+				.bairro-listing .bairro-intro-panel__notice a:hover {
+					color: var(--title-color);
+				}
+
+				@media (max-width: 767px) {
+					.bairro-listing .bairro-intro-panel {
+						padding: 22px 20px 20px;
+						margin-bottom: 32px;
+					}
+
+					.bairro-listing .bairro-intro-panel__title {
+						font-size: 21px;
+					}
 				}
 
 				.property-location-fullwidth + .footer-wrapper {

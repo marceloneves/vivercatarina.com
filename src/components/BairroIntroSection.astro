@@ -2,60 +2,38 @@
 const { name, paragraphs, hasProperties } = Astro.props;
 ---
 
-<section class="bairro-intro-section space-bottom" aria-labelledby="bairro-intro-title">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-xl-10">
-				<h2 class="visually-hidden" id="bairro-intro-title">
-					Sobre imóveis na planta em {name}
-				</h2>
-				<div class="bairro-intro">
-					{paragraphs.map((paragraph) => (
-						<p class="sec-text mb-3">{paragraph}</p>
-					))}
-					{
-						!hasProperties && (
-							<p class="bairro-intro-empty mb-0">
-								No momento não há lançamentos publicados para {name}.{' '}
-								<a href="/contato">Fale conosco</a> para ser avisado quando surgirem novas
-								oportunidades ou explore outros{' '}
-								<a href="/bairros">bairros de Florianópolis</a>.
-							</p>
-						)
-					}
-				</div>
-			</div>
-		</div>
+<div class="bairro-intro-panel" aria-labelledby="bairro-intro-title">
+	<div class="bairro-intro-panel__head">
+		<p class="sub-title"><span class="double-line"></span> Florianópolis, SC</p>
+		<h2 class="bairro-intro-panel__title" id="bairro-intro-title">
+			Imóveis na planta em {name}
+		</h2>
 	</div>
-</section>
-
-<style>
-	.bairro-intro-section {
-		padding-top: 0;
-		padding-bottom: 10px;
-	}
-
-	.bairro-intro .sec-text {
-		color: var(--body-color);
-		line-height: 1.75;
-	}
-
-	.bairro-intro-empty {
-		padding: 1rem 1.25rem;
-		border-radius: 12px;
-		background: rgba(var(--theme-color-rgb, 255, 94, 20), 0.08);
-		color: var(--body-color);
-		line-height: 1.65;
-	}
-
-	.bairro-intro-empty a {
-		color: var(--theme-color);
-		font-weight: 600;
-		text-decoration: underline;
-		text-underline-offset: 0.15em;
-	}
-
-	.bairro-intro-empty a:hover {
-		color: var(--title-color);
-	}
-</style>
+	<div class="bairro-intro-panel__content">
+		{
+			paragraphs.map((paragraph, index) => (
+				<p
+					class:list={[
+						'bairro-intro-panel__text',
+						index === paragraphs.length - 1 && hasProperties && 'mb-0',
+					]}
+				>
+					{paragraph}
+				</p>
+			))
+		}
+		{
+			!hasProperties && (
+				<div class="bairro-intro-panel__notice" role="status">
+					<i class="fa-regular fa-circle-info" aria-hidden="true"></i>
+					<p class="mb-0">
+						No momento não há lançamentos publicados para {name}.{' '}
+						<a href="/contato">Fale conosco</a> para ser avisado quando surgirem novas
+						oportunidades ou explore outros{' '}
+						<a href="/bairros">bairros de Florianópolis</a>.
+					</p>
+				</div>
+			)
+		}
+	</div>
+</div>

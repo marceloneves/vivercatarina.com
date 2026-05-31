@@ -19,8 +19,9 @@ export const FOOTER_DISCLAIMER =
 export const FOOTER_COPYRIGHT_TEXT = '2025-2026 - Viver Catarina - Todos os direitos reservados';
 
 const FOOTER_DISCLAIMER_HTML = `<p class="footer-disclaimer">${FOOTER_DISCLAIMER}</p>`;
-const FOOTER_COPYRIGHT_HTML =
+const FOOTER_COPYRIGHT_TEXT_HTML =
 	'<p class="copyright-text">2025-2026 - <a href="/">Viver Catarina</a> - Todos os direitos reservados</p>';
+const FOOTER_COPYRIGHT_EMAIL_HTML = `<p class="copyright-email"><a href="mailto:${SITE_EMAIL}">${SITE_EMAIL}</a></p>`;
 
 const FOOTER_CONTACT_COLUMN_HTML = `                                <div class="footer-item">
                                     <div class="widget footer-widget footer-contact-widget" aria-labelledby="footer-nav-contato">
@@ -160,10 +161,29 @@ function hasFooterContactColumn(html) {
 	return html.includes('footer-nav-contato') || html.includes('footer-contact-widget');
 }
 
+function buildFooterCopyrightRow(socialContent) {
+	return `                <div class="row gy-3 justify-content-lg-between justify-content-center align-items-center footer-copyright-row">
+                    <div class="col-auto footer-copyright-email">
+                        ${FOOTER_COPYRIGHT_EMAIL_HTML}
+                    </div>
+                    <div class="col-lg-7 footer-copyright-center">
+                        ${FOOTER_COPYRIGHT_TEXT_HTML}
+                    </div>
+                    <div class="col-auto footer-copyright-social">
+${socialContent}                    </div>
+                </div>`;
+}
+
 function patchCopyrightText(html) {
+	if (html.includes('footer-copyright-email')) {
+		return html
+			.replace(/<p class="copyright-text">[\s\S]*?<\/p>/, FOOTER_COPYRIGHT_TEXT_HTML)
+			.replace(/<p class="copyright-email">[\s\S]*?<\/p>/, FOOTER_COPYRIGHT_EMAIL_HTML);
+	}
+
 	return html.replace(
-		/(<div class="copyright-wrap">[\s\S]*?)<p class="copyright-text">[\s\S]*?<\/p>/,
-		`$1${FOOTER_COPYRIGHT_HTML}`,
+		/<div class="row gy-3 justify-content-lg-between justify-content-center align-items-center">\s*<div class="col-lg-7">\s*<p class="copyright-text">[\s\S]*?<\/p>\s*<\/div>\s*<div class="col-auto">([\s\S]*?)<\/div>\s*<\/div>/,
+		buildFooterCopyrightRow('$1'),
 	);
 }
 
