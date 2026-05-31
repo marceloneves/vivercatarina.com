@@ -1,0 +1,57 @@
+[
+	{
+		"region": "Grande Florianópolis",
+		"cities": [
+			{ "name": "Florianópolis", "href": "https://vivercatarina.com" },
+			{ "name": "São José", "href": "https://vivercatarina.com" },
+			{ "name": "Palhoça", "href": "https://vivercatarina.com" },
+			{ "name": "Biguaçu", "href": "https://vivercatarina.com" }
+		]
+	},
+	{
+		"region": "Norte Catarinense",
+		"cities": [
+			{ "name": "Joinville", "href": "https://vivercatarina.com" },
+			{ "name": "Jaraguá do Sul", "href": "https://vivercatarina.com" },
+			{ "name": "Navegantes", "href": "https://vivercatarina.com" },
+			{ "name": "São Bento do Sul", "href": "https://vivercatarina.com" }
+		]
+	},
+	{
+		"region": "Vale do Itajaí",
+		"cities": [
+			{ "name": "Blumenau", "href": "https://vivercatarina.com" },
+			{ "name": "Itajaí", "href": "https://vivercatarina.com" },
+			{ "name": "Balneário Camboriú", "href": "https://vivercatarina.com" },
+			{ "name": "Brusque", "href": "https://vivercatarina.com" },
+			{ "name": "Camboriú", "href": "https://vivercatarina.com" },
+			{ "name": "Itapema", "href": "https://vivercatarina.com" },
+			{ "name": "Rio do Sul", "href": "https://vivercatarina.com" },
+			{ "name": "Gaspar", "href": "https://vivercatarina.com" },
+			{ "name": "Indaial", "href": "https://vivercatarina.com" }
+		]
+	},
+	{
+		"region": "Sul Catarinense",
+		"cities": [
+			{ "name": "Criciúma", "href": "https://vivercatarina.com" },
+			{ "name": "Tubarão", "href": "https://vivercatarina.com" },
+			{ "name": "Araranguá", "href": "https://vivercatarina.com" },
+			{ "name": "Içara", "href": "https://vivercatarina.com" }
+		]
+	},
+	{
+		"region": "Oeste Catarinense",
+		"cities": [
+			{ "name": "Chapecó", "href": "https://vivercatarina.com" },
+			{ "name": "Concórdia", "href": "https://vivercatarina.com" }
+		]
+	},
+	{
+		"region": "Serra / Planalto",
+		"cities": [
+			{ "name": "Lages", "href": "https://vivercatarina.com" },
+			{ "name": "Caçador", "href": "https://vivercatarina.com" }
+		]
+	}
+]

@@ -12,11 +12,17 @@ const { posts } = Astro.props;
 		</div>
 		<div class="row gy-30 justify-content-center">
 			{
-				posts.map((post) => (
-					<div class="col-lg-4 col-md-6 d-flex">
-						<BlogPostCard post={post} />
+				posts.length === 0 ? (
+					<div class="col-12 text-center">
+						<p class="box-text">Nenhum artigo publicado no momento.</p>
 					</div>
-				))
+				) : (
+					posts.map((post) => (
+						<div class="col-lg-4 col-md-6 d-flex">
+							<BlogPostCard post={post} />
+						</div>
+					))
+				)
 			}
 		</div>
 	</div>

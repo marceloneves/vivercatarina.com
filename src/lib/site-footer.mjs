@@ -254,22 +254,7 @@ function patchFooterCitiesTitle(html) {
 }
 
 function patchFooterNeighborhoodsSection(html) {
-	const section = buildFooterNeighborhoodsSectionHtml();
-	let output = removeFooterNeighborhoodsSection(html);
-
-	const citiesSectionStart = output.search(
-		/<(?:section|div) class="footer-cities-section"(?: aria-label="Cidades atendidas")?>/,
-	);
-
-	if (citiesSectionStart !== -1) {
-		return `${output.slice(0, citiesSectionStart)}${section}${output.slice(citiesSectionStart)}`;
-	}
-
-	if (output.includes('<div class="copyright-wrap">')) {
-		return output.replace('<div class="copyright-wrap">', `${section}        <div class="copyright-wrap">`);
-	}
-
-	return output;
+	return removeFooterNeighborhoodsSection(html);
 }
 
 export function patchSiteFooter(html) {

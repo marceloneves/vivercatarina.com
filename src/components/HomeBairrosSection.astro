@@ -24,21 +24,27 @@ const isListing = variant === 'listing';
 				</p>
 				<div class="row gy-30 justify-content-center">
 					{
-						neighborhoods.map((neighborhood) => (
+						neighborhoods.map((item) => (
 							<div class="col-xl-3 col-lg-4 col-md-6">
 								<article class="gallery-card h-100">
-									<a href={neighborhood.href} class="gallery-card-link">
+									<a
+										href={item.href}
+										class="gallery-card-link"
+										{...(item.href.startsWith('http')
+											? { target: '_blank', rel: 'noopener noreferrer' }
+											: {})}
+									>
 										<div class="gallery-img">
 											<img
-												src={neighborhood.imageUrl}
+												src={item.imageUrl}
 												alt=""
 												aria-hidden="true"
 												loading="lazy"
 											/>
 											<div class="gallery-content">
 												<div class="gallery-content-wrapper">
-													<p class="box-text">Florianópolis, SC</p>
-													<h2 class="box-title">{neighborhood.name}</h2>
+													<p class="box-text">{item.region ?? 'Florianópolis, SC'}</p>
+													<h2 class="box-title">{item.name}</h2>
 												</div>
 											</div>
 										</div>
@@ -61,13 +67,13 @@ const isListing = variant === 'listing';
 						<div class="title-area text-center">
 							<p class="sub-title">
 								<span class="double-line" />
-								Florianópolis
+								Santa Catarina
 							</p>
 							<h2 class="sec-title mb-2" id="home-bairros-title">
-								Bairros para Comprar Imóveis na Planta
+								Cidades para Comprar Imóveis na Planta
 							</h2>
 							<p class="box-text">
-								Encontre o lançamento imobiliário em Florianópolis ideal para você
+								Encontre lançamentos imobiliários nas principais cidades de Santa Catarina
 							</p>
 						</div>
 					</div>
@@ -76,21 +82,27 @@ const isListing = variant === 'listing';
 			<div class="container pb-5">
 				<div class="row gy-30 justify-content-center">
 					{
-						neighborhoods.map((neighborhood) => (
+						neighborhoods.map((item) => (
 							<div class="col-xl-3 col-lg-4 col-md-6">
 								<article class="gallery-card h-100">
-									<a href={neighborhood.href} class="gallery-card-link">
+									<a
+										href={item.href}
+										class="gallery-card-link"
+										{...(item.href.startsWith('http')
+											? { target: '_blank', rel: 'noopener noreferrer' }
+											: {})}
+									>
 										<div class="gallery-img">
 											<img
-												src={neighborhood.imageUrl}
+												src={item.imageUrl}
 												alt=""
 												aria-hidden="true"
 												loading="lazy"
 											/>
 											<div class="gallery-content">
 												<div class="gallery-content-wrapper">
-													<p class="box-text">Florianópolis, SC</p>
-													<h2 class="box-title">{neighborhood.name}</h2>
+													<p class="box-text">{item.region ?? 'Florianópolis, SC'}</p>
+													<h2 class="box-title">{item.name}</h2>
 												</div>
 											</div>
 										</div>

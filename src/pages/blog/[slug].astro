@@ -1,26 +1,11 @@
 ---
 import PillerLayout from '../../layouts/PillerLayout.astro';
 import bodyHtml from '../../content/template-pages/blog-details.html?raw';
-import checklistAvaliarImovelBody from '../../content/blog/checklist-avaliar-imovel-em-florianopolis.html?raw';
-import campecheExpansaoBody from '../../content/blog/campeche-em-expansao-valorizacao.html?raw';
-import morarPertoUfscBody from '../../content/blog/morar-perto-da-ufsc-trindade-carvoeira-corrego-grande.html?raw';
-import melhoresBairrosBody from '../../content/blog/melhores-bairros-para-morar-em-florianopolis.html?raw';
-import morarContinenteIlhaBody from '../../content/blog/morar-no-continente-x-na-ilha-em-florianopolis.html?raw';
-import quantoCustaMorarBody from '../../content/blog/quanto-custa-morar-em-florianopolis.html?raw';
 import { applyArticleInlineLinks } from '../../lib/blog-content-links.mjs';
 import { getBlogPost, getBlogPostMetaDescription, getBlogPosts } from '../../lib/blog-posts.mjs';
 import { patchCompactListingBreadcrumb } from '../../lib/listing-breadcrumb.mjs';
 import { applySemanticHtml, wrapSplitPageContent } from '../../lib/semantic-html.mjs';
 import { buildKeywords } from '../../lib/site-seo.mjs';
-
-const BLOG_BODY_BY_SLUG = {
-	'checklist-avaliar-imovel-em-florianopolis': checklistAvaliarImovelBody,
-	'morar-perto-da-ufsc-trindade-carvoeira-corrego-grande': morarPertoUfscBody,
-	'campeche-em-expansao-valorizacao': campecheExpansaoBody,
-	'melhores-bairros-para-morar-em-florianopolis': melhoresBairrosBody,
-	'morar-no-continente-x-na-ilha-em-florianopolis': morarContinenteIlhaBody,
-	'quanto-custa-morar-em-florianopolis': quantoCustaMorarBody,
-};
 
 export function getStaticPaths() {
 	return getBlogPosts().map((post) => ({
@@ -36,8 +21,7 @@ if (!post) {
 }
 
 const title = post.title;
-const rawBody = BLOG_BODY_BY_SLUG[slug] ?? '';
-const blogBody = applyArticleInlineLinks(rawBody, slug);
+const blogBody = applyArticleInlineLinks('', slug);
 
 const blogAreaStart = bodyHtml.indexOf('<!--==============================\n        Blog Area');
 const articleStart = bodyHtml.indexOf('<article class="th-blog blog-single">');

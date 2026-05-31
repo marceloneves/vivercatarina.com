@@ -1,13 +1,13 @@
 import { patchHeaderSocial } from './site-social.mjs';
 
 const BAIRROS_SUBMENU_PATTERN =
-	/<li class="menu-item-has-children(?: active)?">\s*<a href="\/bairros">Bairros<\/a>\s*<ul class="sub-menu">[\s\S]*?<\/ul>\s*<\/li>/g;
+	/<li class="menu-item-has-children(?: active)?">\s*<a href="\/bairros">Bairros<\/a>\s*<ul class="sub-menu">[\s\S]*?<\/ul>\s*<\/li>\s*/g;
 
-const LOTEAMENTO_MENU_ITEM =
-	'<li><a href="/lancamentos/loteamento">Loteamento</a></li>';
+const BAIRROS_SIMPLE_ITEM_PATTERN =
+	/<li(?: class="active")?><a href="\/bairros">Bairros<\/a><\/li>\s*/g;
 
-const CASAS_MENU_PATTERN =
-	/(<li><a href="\/lancamentos\/casas-em-condominio">Casas em condomínio<\/a><\/li>)(\s*)/g;
+const LANCAMENTOS_SUBMENU_PATTERN =
+	/<li class="menu-item-has-children(?: active)?">\s*<a href="\/lancamentos">Lançamentos<\/a>\s*<ul class="sub-menu">[\s\S]*?<\/ul>\s*<\/li>\s*/g;
 
 const GLOSSARY_MENU_PATTERN =
 	/(<li(?:\s+class="active")?><a href="\/blog">Blog<\/a><\/li>)(\s*)(<li(?:\s+class="active")?><a href="\/contact">Contato<\/a><\/li>)/g;
@@ -27,34 +27,15 @@ function isGlossaryPathActive(currentPath) {
 	return currentPath === '/glossario' || currentPath.startsWith('/glossario/');
 }
 
-function isBairrosPathActive(currentPath) {
-	return (
-		currentPath === '/bairros' ||
-		currentPath.startsWith('/bairros/') ||
-		currentPath.startsWith('/bairro/')
-	);
-}
-
-export function patchBairrosMenu(html, currentPath = '/') {
-	if (!html || !html.includes('href="/bairros">Bairros</a>')) {
+function removeMainMenuLancamentosAndBairros(html) {
+	if (!html) {
 		return html;
 	}
 
-	const activeClass = isBairrosPathActive(currentPath) ? ' class="active"' : '';
-	const item = `<li${activeClass}><a href="/bairros">Bairros</a></li>`;
-
-	return html.replace(BAIRROS_SUBMENU_PATTERN, item);
-}
-
-export function patchLancamentosSubmenu(html) {
-	if (html.includes('/lancamentos/loteamento')) {
-		return html;
-	}
-
-	return html.replace(
-		CASAS_MENU_PATTERN,
-		`$1$2${LOTEAMENTO_MENU_ITEM}$2`,
-	);
+	return html
+		.replace(LANCAMENTOS_SUBMENU_PATTERN, '')
+		.replace(BAIRROS_SUBMENU_PATTERN, '')
+		.replace(BAIRROS_SIMPLE_ITEM_PATTERN, '');
 }
 
 export function patchGlossaryMenu(html, currentPath = '/') {
@@ -87,7 +68,7 @@ export function patchListingHeaderBranding(html) {
 export function patchSiteMenu(html, currentPath = '/') {
 	let output = patchHeaderSocial(
 		patchGlossaryMenu(
-			patchLancamentosSubmenu(patchBairrosMenu(removeHeaderAddListingButton(html), currentPath)),
+			removeMainMenuLancamentosAndBairros(removeHeaderAddListingButton(html)),
 			currentPath,
 		),
 	);

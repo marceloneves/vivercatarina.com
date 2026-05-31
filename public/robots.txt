@@ -4,4 +4,4 @@ Disallow: /api/
 Disallow: /blog-details
 Disallow: /property
 
-Sitemap: https://florianopolis.vivercatarina.com/sitemap-index.xml
+Sitemap: https://vivercatarina.com/sitemap-index.xml

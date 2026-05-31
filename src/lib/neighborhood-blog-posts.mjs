@@ -1,12 +1,5 @@
 import { getBlogPosts } from './blog-posts.mjs';
 
-const GENERAL_FALLBACK_SLUGS = [
-	'melhores-bairros-para-morar-em-florianopolis',
-	'quanto-custa-morar-em-florianopolis',
-	'checklist-avaliar-imovel-em-florianopolis',
-	'morar-no-continente-x-na-ilha-em-florianopolis',
-];
-
 function normalizeText(value) {
 	return String(value ?? '')
 		.normalize('NFD')
@@ -65,23 +58,6 @@ export function getNeighborhoodBlogPosts(neighborhoodName, limit = 3) {
 
 		selected.push(post);
 		usedSlugs.add(post.slug);
-	}
-
-	for (const slug of GENERAL_FALLBACK_SLUGS) {
-		if (selected.length >= limit) {
-			break;
-		}
-
-		if (usedSlugs.has(slug)) {
-			continue;
-		}
-
-		const post = posts.find((entry) => entry.slug === slug);
-
-		if (post) {
-			selected.push(post);
-			usedSlugs.add(slug);
-		}
 	}
 
 	return selected.slice(0, limit);
