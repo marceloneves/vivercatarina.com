@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /404
+Disallow: /error
+Disallow: /home-
+Disallow: /shop
+Disallow: /cart
+Disallow: /checkout
+Disallow: /wishlist
+Disallow: /agency
+Disallow: /team
+Disallow: /service
+Disallow: /property
+Disallow: /blog-details
+Disallow: /blog-grid-
+Disallow: /typography
+Disallow: /pricing
+Disallow: /gallery
+Disallow: /faq
+Disallow: /neighborhood-guide
+
+Sitemap: https://vivercatarina.com/sitemap-index.xml
