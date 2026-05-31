@@ -12,6 +12,7 @@ interface Props {
 	description?: string;
 	bodyClass?: string;
 	disableEffects?: boolean;
+	stylesheets?: string[];
 }
 
 const {
@@ -19,6 +20,7 @@ const {
 	description = SITE_DEFAULT_DESCRIPTION,
 	bodyClass = '',
 	disableEffects = false,
+	stylesheets = [],
 } = Astro.props;
 
 const pageTitle = buildSitePageTitle(title);
@@ -68,6 +70,9 @@ const pageTitle = buildSitePageTitle(title);
 		{!disableEffects && <link rel="stylesheet" href="/assets/css/magnific-popup.min.css" />}
 		{!disableEffects && <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />}
 		<link rel="stylesheet" href="/assets/css/style.css" />
+		{stylesheets.map((href) => (
+			<link rel="stylesheet" href={href} />
+		))}
 		<style is:global>
 			.header-top .th-social a svg {
 				display: inline-block;

@@ -23,13 +23,15 @@ if (!post) {
 }
 
 const title = post.title;
-const bodyClass = '';
+const blogBody = BLOG_BODY_BY_SLUG[slug] ?? '';
 
 const blogAreaStart = bodyHtml.indexOf('<!--==============================\n        Blog Area');
-const commentsStart = bodyHtml.indexOf('<div class="th-comments-wrap ');
+const articleStart = bodyHtml.indexOf('<article class="th-blog blog-single">');
+const articleEnd = bodyHtml.indexOf('</article>', articleStart);
+
 const footerStart = bodyHtml.indexOf('<!--==============================\n\tFooter Area');
 
-if (blogAreaStart === -1 || commentsStart === -1 || footerStart === -1) {
+if (blogAreaStart === -1 || articleStart === -1 || articleEnd === -1 || footerStart === -1) {
 	throw new Error('Não foi possível montar o artigo do blog a partir do template.');
 }
 
@@ -44,24 +46,54 @@ const shell = wrapSplitPageContent(
 	applySemanticHtml(bodyHtml.slice(footerStart)),
 );
 
-const blogBody = BLOG_BODY_BY_SLUG[slug] ?? '';
+const articleBlock = bodyHtml
+	.slice(articleStart, articleEnd + '</article>'.length)
+	.replace(
+		'Building gains into housing stocks and how to trade the sector',
+		post.title,
+	)
+	.replace('Michel Smith', post.author)
+	.replace('24/02/2025', post.dateLabel)
+	.replace('Business', post.category)
+	.replace('src="/assets/img/blog/blog-s-1-1.jpg"', `src="${post.imageUrl}"`)
+	.replace('alt="Image"', `alt="${post.title}"`)
+	.replace(
+		'<!-- BLOG_BODY -->',
+		`<div class="blog-article-body">${blogBody}</div>`,
+	)
+	.replace(
+		'<span class="share-links-title">Tags:</span>',
+		'<span class="share-links-title">Tags</span>',
+	)
+	.replace(
+		'<a href="/blog">luxury home</a>\n                                            <a href="/blog">Strategey</a>\n                                            <a href="/blog">Villa Home</a>\n                                            <a href="/blog">Project</a>',
+		'<a href="/blog">Florianópolis</a>\n                                            <a href="/blog">Bairros</a>\n                                            <a href="/blog">Moradia</a>\n                                            <a href="/blog">Mercado imobiliário</a>',
+	)
+	.replace(
+		'<span class="share-links-title">Share this article:</span>',
+		'<span class="share-links-title">Compartilhar</span>',
+	);
 
-const articleHtml = applySemanticHtml(
-	bodyHtml
-		.slice(blogAreaStart, commentsStart)
-		.replace(
-			'Building gains into housing stocks and how to trade the sector',
-			post.title,
-		)
-		.replace('Michel Smith', post.author)
-		.replace('24/02/2025', post.dateLabel)
-		.replace('Business', post.category)
-		.replace('src="/assets/img/blog/blog-s-1-1.jpg"', `src="${post.imageUrl}"`)
-		.replace('<!-- BLOG_BODY -->', blogBody),
-);
+const articleHtml = applySemanticHtml(`<!--==============================
+        Blog Area
+    ==============================-->
+    <section class="th-blog-wrapper blog-details space-top space-extra-bottom">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-xl-10 col-xxl-9">
+                    ${articleBlock}
+                </div>
+            </div>
+        </div>
+    </section>`);
 ---
 
-<PillerLayout title={title} bodyClass={bodyClass}>
+<PillerLayout
+	title={title}
+	description={post.excerpt}
+	bodyClass="blog-article-page"
+	stylesheets={['/css/blog-article.css']}
+>
 	<Fragment set:html={shell.before} />
 	<Fragment set:html={articleHtml} />
 	<Fragment set:html={shell.after} />

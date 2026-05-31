@@ -1,0 +1,239 @@
+.blog-article-page .blog-details {
+	background: linear-gradient(180deg, #faf9f8 0%, #ffffff 280px);
+}
+
+.blog-article-page .blog-details .blog-single {
+	margin-bottom: 0;
+}
+
+.blog-article-page .blog-details .blog-single .blog-img {
+	margin-bottom: 2rem;
+	border-radius: 20px;
+	box-shadow: 0 18px 48px rgba(17, 24, 39, 0.08);
+}
+
+.blog-article-page .blog-details .blog-single .blog-img img {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-height: 420px;
+	object-fit: cover;
+}
+
+.blog-article-page .blog-details .blog-single .blog-content {
+	max-width: none;
+}
+
+.blog-article-page .blog-details .blog-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem 1.5rem;
+	margin: 0 0 1.5rem;
+	padding-bottom: 1.25rem;
+	border-bottom: 1px solid #e7e2df;
+}
+
+.blog-article-page .blog-details .blog-meta a {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.45rem;
+	font-family: var(--body-font);
+	font-size: 0.9375rem;
+	font-weight: 500;
+	color: #6b6464;
+	text-decoration: none;
+}
+
+.blog-article-page .blog-details .blog-meta a:hover {
+	color: var(--theme-color);
+}
+
+.blog-article-page .blog-details .blog-title {
+	font-family: var(--title-font);
+	font-size: clamp(2rem, 4vw, 2.75rem);
+	font-weight: 800;
+	line-height: 1.15;
+	letter-spacing: -0.02em;
+	color: #111827;
+	margin: 0 0 2rem;
+}
+
+.blog-article-page .blog-details .blog-single .blog-content p,
+.blog-article-page .blog-details .blog-single p {
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.blog-article-body {
+	font-family: var(--body-font);
+	font-size: 1.3125rem;
+	line-height: 1.8;
+	color: #3d3838;
+	letter-spacing: 0;
+}
+
+.blog-article-body > p {
+	margin: 0 0 1.35rem;
+	font-family: var(--body-font);
+	font-size: 1.3125rem;
+	font-weight: 400;
+}
+
+.blog-article-body > p:first-of-type {
+	font-size: 1.4375rem;
+	line-height: 1.75;
+	color: #1f2937;
+}
+
+.blog-article-body > p:nth-of-type(2) {
+	font-size: 1.3125rem;
+	color: #374151;
+}
+
+.blog-article-body h3.blog-inner-title {
+	font-family: var(--title-font);
+	font-size: clamp(1.5rem, 2.4vw, 1.9375rem);
+	font-weight: 700;
+	line-height: 1.35;
+	color: #111827;
+	margin: 3rem 0 1.25rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.85rem;
+	border-bottom: 2px solid rgba(255, 175, 0, 0.45);
+	letter-spacing: -0.02em;
+}
+
+.blog-article-body h3.blog-inner-title:first-of-type {
+	margin-top: 0.5rem;
+}
+
+.blog-article-body h4.blog-inner-title {
+	font-family: var(--title-font);
+	font-size: 1.25rem;
+	font-weight: 700;
+	line-height: 1.45;
+	color: #111827;
+	margin: 1.75rem 0 0.65rem;
+	padding: 0.85rem 1rem 0.85rem 1.1rem;
+	background: #faf8f6;
+	border-left: 4px solid var(--theme-color);
+	border-radius: 0 10px 10px 0;
+	letter-spacing: -0.01em;
+}
+
+.blog-article-body h4.blog-inner-title + p {
+	margin-top: 0;
+}
+
+.blog-article-body .table-responsive {
+	margin: 1.75rem 0 2.25rem;
+	border: 1px solid #e8e2dd;
+	border-radius: 14px;
+	overflow: hidden;
+	box-shadow: 0 10px 30px rgba(17, 24, 39, 0.06);
+	background: #ffffff;
+}
+
+.blog-article-body table {
+	width: 100%;
+	margin: 0;
+	border-collapse: collapse;
+	font-family: var(--body-font);
+	font-size: 1.0625rem;
+	line-height: 1.6;
+}
+
+.blog-article-body thead th {
+	background: #111827;
+	color: #ffffff;
+	font-weight: 600;
+	padding: 0.95rem 1rem;
+	border: none;
+	text-align: left;
+	vertical-align: top;
+}
+
+.blog-article-body tbody td {
+	padding: 0.9rem 1rem;
+	border-top: 1px solid #ece7e3;
+	vertical-align: top;
+	color: #3d3838;
+}
+
+.blog-article-body tbody tr:nth-child(even) td {
+	background: #faf8f6;
+}
+
+.blog-article-body tbody tr:hover td {
+	background: #fff8eb;
+}
+
+.blog-article-body strong {
+	font-weight: 700;
+	color: #111827;
+}
+
+.blog-article-page .share-links {
+	margin-top: 3rem;
+	padding-top: 1.75rem;
+	border-top: 1px solid #e7e2df;
+}
+
+.blog-article-page .share-links-title {
+	font-family: var(--title-font);
+	font-size: 0.875rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	color: #6b6464;
+}
+
+.blog-article-page .tagcloud a {
+	display: inline-block;
+	margin: 0.25rem 0.5rem 0.25rem 0;
+	padding: 0.45rem 0.85rem;
+	border-radius: 999px;
+	background: #faf8f6;
+	border: 1px solid #e7e2df;
+	font-family: var(--body-font);
+	font-size: 0.8125rem;
+	font-weight: 600;
+	color: #374151;
+	text-decoration: none;
+}
+
+.blog-article-page .tagcloud a:hover {
+	background: var(--theme-color);
+	border-color: var(--theme-color);
+	color: #111827;
+}
+
+@media (max-width: 767px) {
+	.blog-article-page .blog-details .blog-title {
+		font-size: 1.75rem;
+	}
+
+	.blog-article-body {
+		font-size: 1.1875rem;
+		line-height: 1.8;
+	}
+
+	.blog-article-body > p,
+	.blog-article-body > p:nth-of-type(2) {
+		font-size: 1.1875rem;
+	}
+
+	.blog-article-body > p:first-of-type {
+		font-size: 1.3125rem;
+	}
+
+	.blog-article-body .table-responsive {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.blog-article-body table {
+		font-size: 1rem;
+		min-width: 640px;
+	}
+}
