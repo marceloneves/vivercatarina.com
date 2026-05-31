@@ -31,25 +31,9 @@ const LANCAMENTOS_MAIN_PAGINATION = 3;
 const BAIRROS_FILTER_PAGINATION = 3;
 const LANCAMENTOS_TERRENOS_PAGINATION = 3;
 
-const DEMO_ROUTE_PREFIXES = [
-	'/home-',
-	'/shop',
-	'/cart',
-	'/checkout',
-	'/wishlist',
-	'/agency',
-	'/team',
-	'/service',
-	'/property',
-	'/blog-details',
-	'/blog-grid-',
-	'/typography',
-	'/pricing',
-	'/gallery',
-	'/neighborhood-guide',
-];
+const NOINDEX_ROUTE_PREFIXES = ['/property'];
 
-const DEMO_ROUTE_EXACT = ['/404', '/error'];
+const NOINDEX_ROUTE_EXACT = ['/blog-details'];
 
 /** @typedef {{ loc: string, lastmod?: string, changefreq?: string, priority?: string }} SitemapEntry */
 
@@ -246,8 +230,8 @@ export function buildRobotsTxt() {
 		'User-agent: *',
 		'Allow: /',
 		'Disallow: /api/',
-		...DEMO_ROUTE_EXACT.map((path) => `Disallow: ${path}`),
-		...DEMO_ROUTE_PREFIXES.map((path) => `Disallow: ${path}`),
+		...NOINDEX_ROUTE_EXACT.map((path) => `Disallow: ${path}`),
+		...NOINDEX_ROUTE_PREFIXES.map((path) => `Disallow: ${path}`),
 		'',
 		`Sitemap: ${SITE_URL}/sitemap-index.xml`,
 	];

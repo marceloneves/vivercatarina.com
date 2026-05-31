@@ -18,25 +18,9 @@ const BASE_KEYWORDS = [
 	'Viver Catarina',
 ];
 
-const DEMO_ROUTE_PREFIXES = [
-	'/home-',
-	'/shop',
-	'/cart',
-	'/checkout',
-	'/wishlist',
-	'/agency',
-	'/team',
-	'/service',
-	'/property',
-	'/blog-details',
-	'/blog-grid-',
-	'/typography',
-	'/pricing',
-	'/gallery',
-	'/neighborhood-guide',
-];
+const NOINDEX_ROUTE_PREFIXES = ['/property'];
 
-const DEMO_ROUTE_EXACT = ['/404', '/error'];
+const NOINDEX_ROUTE_EXACT = ['/blog-details'];
 
 const BAIRROS_PRICE_FILTERS = {
 	'ate-300-mil': 'Até R$ 300 mil',
@@ -179,7 +163,7 @@ function absoluteUrl(value) {
 }
 
 function isDemoPath(path) {
-	return DEMO_ROUTE_EXACT.includes(path) || DEMO_ROUTE_PREFIXES.some((prefix) => path.startsWith(prefix));
+	return NOINDEX_ROUTE_EXACT.includes(path) || NOINDEX_ROUTE_PREFIXES.some((prefix) => path.startsWith(prefix));
 }
 
 function parsePagination(path) {

@@ -12,19 +12,12 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "import:template": "node scripts/import-template-pages.mjs",
     "import:properties": "node scripts/import-properties.mjs",
     "generate:favicons": "node scripts/generate-favicons.mjs",
     "update:descriptions": "node scripts/update-property-descriptions.mjs",
-    "fix:locations": "node scripts/fix-property-locations.mjs",
-    "fix:prices": "node scripts/fix-property-prices.mjs",
-    "strip:sidebar-featured": "node scripts/strip-sidebar-featured.mjs",
-    "migrate:slugs": "node scripts/migrate-property-slugs.mjs",
     "classify:kinds": "node scripts/classify-property-kinds.mjs",
     "generate:lancamentos": "node scripts/generate-lancamentos-by-kind.mjs",
-    "apply:branding": "node scripts/apply-site-branding.mjs",
-    "apply:semantic": "node scripts/apply-semantic-html.mjs",
-    "ensure:codes": "node scripts/ensure-unique-codes.mjs"
+    "generate:bairros": "node scripts/generate-bairro-listings.mjs"
   },
   "dependencies": {
     "@astrojs/vercel": "^10.0.8",
