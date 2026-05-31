@@ -10,6 +10,7 @@ import quantoCustaMorarBody from '../../content/blog/quanto-custa-morar-em-flori
 import { applyArticleInlineLinks } from '../../lib/blog-content-links.mjs';
 import { getBlogPost, getBlogPosts } from '../../lib/blog-posts.mjs';
 import { applySemanticHtml, wrapSplitPageContent } from '../../lib/semantic-html.mjs';
+import { buildKeywords } from '../../lib/site-seo.mjs';
 
 const BLOG_BODY_BY_SLUG = {
 	'checklist-avaliar-imovel-em-florianopolis': checklistAvaliarImovelBody,
@@ -105,6 +106,10 @@ const articleHtml = applySemanticHtml(`<!--==============================
 <PillerLayout
 	title={title}
 	description={post.excerpt}
+	keywords={buildKeywords(title, post.category, ...(post.tags ?? []), 'blog imobiliário Florianópolis')}
+	ogImage={post.imageUrl}
+	ogType="article"
+	canonicalPath={`/blog/${slug}`}
 	bodyClass="blog-article-page"
 	stylesheets={['/css/blog-article.css', '/css/internal-links.css']}
 >

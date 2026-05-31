@@ -11,7 +11,14 @@ if (!context) {
 }
 ---
 
-<PillerLayout title={context.listingTitle} bodyClass="bairro-listing" disableEffects>
+<PillerLayout
+	title={context.seo.title}
+	description={context.seo.description}
+	keywords={context.seo.keywords}
+	canonicalPath={context.seo.canonicalPath}
+	bodyClass="bairro-listing"
+	disableEffects
+>
 	<Fragment set:html={context.shellBefore} />
 	<PropertyListingTabs
 		properties={context.properties}

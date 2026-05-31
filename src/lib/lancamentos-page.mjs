@@ -15,6 +15,7 @@ import { enrichProperty, paginate, sortPropertiesByPrice } from './property-list
 import { filterFlorianopolisListings } from './property-data.mjs';
 import { applySemanticHtml } from './semantic-html.mjs';
 import { patchSiteMenu } from './site-menu.mjs';
+import { buildLancamentosListingSeo } from './site-seo.mjs';
 import { prepareBairroSidebarHtml } from './template-html.mjs';
 
 const templateRoot = join(process.cwd(), 'src');
@@ -152,10 +153,12 @@ function buildListingPageContext({ listing, label, basePath, pageNumber, extra =
 	const enriched = listing.properties.map(enrichProperty);
 	const pagination = paginate(sortPropertiesByPrice(enriched, 'price'), pageNumber);
 	const pageSlug = basePath.replace(/^\/lancamentos\/?/, '');
+	const currentPath = pageNumber > 1 ? `${basePath}/pagina-${pageNumber}` : basePath;
 	const shell = buildListingShell(label, basePath, pageNumber, pageSlug);
 
 	return {
 		listing,
+		seo: buildLancamentosListingSeo(label, currentPath, pageNumber),
 		allProperties: enriched,
 		properties: pagination.items,
 		currentPage: pagination.currentPage,

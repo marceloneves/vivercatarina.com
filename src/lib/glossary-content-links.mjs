@@ -97,6 +97,21 @@ export function applyGlossaryInlineLinks(html, options = {}) {
 	return linkifyHtmlContent(html, rules, { skipHeadings });
 }
 
+export const GLOSSARY_EXTERNAL_LINK_CLASS = 'glossary-external-link';
+
+/** @param {string} definition @param {string} [websiteUrl] */
+export function linkIncorporadoraWebsite(definition, websiteUrl) {
+	if (!definition || !websiteUrl || /<a\b/i.test(definition)) {
+		return definition;
+	}
+
+	return definition.replace(
+		/\b(incorporadora|incorporador)\b/i,
+		(match) =>
+			`<a href="${websiteUrl}" target="_blank" rel="noopener noreferrer" class="${GLOSSARY_EXTERNAL_LINK_CLASS}">${match}</a>`,
+	);
+}
+
 const MAIN_ID = 'conteudo-principal';
 
 /** @param {string} html */

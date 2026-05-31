@@ -13,6 +13,7 @@ import { buildFinancingSimulation } from './property-financing.mjs';
 import { buildPropertyRealEstateListingJsonLd } from './property-schema.mjs';
 import { cleanPropertyTitle } from './property-slug.mjs';
 import { applyGlossaryInlineLinks } from './glossary-content-links.mjs';
+import { buildPropertySeo } from './site-seo.mjs';
 import { SITE_NAME, SITE_WHATSAPP_NUMBER } from './site-contact.mjs';
 
 const WHATSAPP_NUMBER = SITE_WHATSAPP_NUMBER;
@@ -1024,13 +1025,21 @@ export function buildPropertyPageViewModel(property, slug) {
 		`Olá! Tenho interesse no empreendimento ${displayTitle} (cód. ${getPropertyCode(property)}).`,
 	);
 
+	const seoMeta = buildPropertySeo({
+		title: displayTitle,
+		description: seoDescription,
+		neighborhoodName,
+		category: property.category,
+	});
+
 	return {
 		slug,
 		whatsappNumber: WHATSAPP_NUMBER,
 		whatsappUrl: `https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappText}`,
 		seo: {
 			title: seoTitle,
-			description: seoDescription.slice(0, 160),
+			description: seoMeta.description,
+			keywords: seoMeta.keywords,
 			h1: displayTitle,
 			jsonLd: buildPropertyRealEstateListingJsonLd({
 				property,

@@ -12,25 +12,17 @@ const page = buildImovelPageContext(slug);
 ---
 
 <PillerLayout
-	title={page.seo.h1}
+	title={page.seo.title}
 	description={page.seo.description}
+	keywords={page.seo.keywords}
+	ogImage={page.seo.ogImage}
+	canonicalPath={`/imovel/${page.slug}`}
 	bodyClass="imovel-landing"
 	disableEffects
 >
 	<Fragment slot="head">
 		<link rel="stylesheet" href="/css/imovel-landing.css" />
 		<link rel="stylesheet" href="/css/internal-links.css" />
-		<meta property="og:title" content={page.seo.title} />
-		<meta property="og:description" content={page.seo.description} />
-		<meta property="og:type" content="website" />
-		{
-			page.seo.ogImage && (
-				<meta
-					property="og:image"
-					content={new URL(page.seo.ogImage, Astro.site || import.meta.env.SITE).href}
-				/>
-			)
-		}
 		{page.seo.jsonLd && <script type="application/ld+json" set:html={JSON.stringify(page.seo.jsonLd)} />}
 	</Fragment>
 

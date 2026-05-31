@@ -1,7 +1,22 @@
-/** @typedef {{ term: string, slug: string, definition: string, letter: string }} GlossaryTerm */
+/** @typedef {{ term: string, slug: string, definition: string, websiteUrl?: string, letter?: string }} GlossaryTermEntry */
 
-/** @type {GlossaryTerm[]} */
-export const GLOSSARY_TERMS = [
+import { GLOSSARY_INCORPORADORAS } from './glossary-incorporadoras.mjs';
+
+export function getGlossaryGroupingLetter(term) {
+	const first = String(term || '').trim().charAt(0);
+
+	if (!first) {
+		return '#';
+	}
+
+	return first
+		.normalize('NFD')
+		.replace(/[\u0300-\u036f]/g, '')
+		.toLocaleUpperCase('pt-BR');
+}
+
+/** @type {Omit<GlossaryTermEntry, 'letter'>[]} */
+const CORE_GLOSSARY_TERMS = [
 	{
 		term: 'Alteração de planta',
 		slug: 'alteracao-de-planta',
@@ -162,7 +177,7 @@ export const GLOSSARY_TERMS = [
 		term: 'IPTU',
 		slug: 'iptu',
 		definition:
-			'Imposto Predial e Territorial Urbano. Durante a obra, a responsabilidade pelo pagamento deve constar no contrato; após a entrega, passa a ser do proprietário da unidade.',
+			'Imposto Predial e Territorial Urbano, administrado pela Prefeitura de Florianópolis (PMF). Durante a obra, a responsabilidade pelo pagamento deve constar no contrato; após a entrega, passa a ser do proprietário da unidade.',
 	},
 	{
 		term: 'Lançamento imobiliário',
@@ -302,9 +317,96 @@ export const GLOSSARY_TERMS = [
 		definition:
 			'Aumento do valor do imóvel ao longo do tempo, influenciado por localização, fase da obra, mercado e entrega da infraestrutura do bairro. Motivo comum de compra na planta.',
 	},
-].map((entry) => ({
+	{
+		term: 'Continente x Ilha',
+		slug: 'continente-x-ilha',
+		definition:
+			'Divisão geográfica e de mercado de Florianópolis. A Ilha concentra boa parte dos bairros nobres, universitários e litorâneos; o Continente oferece acesso rodoviário, preços distintos e dinâmica própria de bairros como Estreito, Capoeiras e Coqueiros.',
+	},
+	{
+		term: 'Beira-Mar Norte',
+		slug: 'beira-mar-norte',
+		definition:
+			'Corredor urbano à beira da Baía Norte, entre Coqueiros e a região da Agronômica. É referência de valorização, mobilidade e qualidade de vida na Ilha, com forte demanda residencial e comercial.',
+	},
+	{
+		term: 'Região universitária',
+		slug: 'regiao-universitaria',
+		definition:
+			'Entorno da UFSC e do campus da Trindade, incluindo bairros como Trindade, Carvoeira e Córrego Grande. Mercado aquecido por estudantes, professores e investidores de locação.',
+	},
+	{
+		term: 'Zoneamento urbano da Ilha',
+		slug: 'zoneamento-urbano-da-ilha',
+		definition:
+			'Regras da Prefeitura de Florianópolis que limitam altura, densidade e uso do solo em bairros da Ilha. Impactam diretamente quantos pavimentos, unidades e vagas um empreendimento na planta pode ter.',
+	},
+	{
+		term: 'Sazonalidade turística',
+		slug: 'sazonalidade-turistica',
+		definition:
+			'Variação de demanda e preços de locação conforme a estação, comum em bairros litorâneos de Florianópolis. No verão, a procura por imóveis de curta temporada tende a subir.',
+	},
+	{
+		term: 'Bairros em expansão',
+		slug: 'bairros-em-expansao',
+		definition:
+			'Regiões de Florianópolis com obras de infraestrutura, novos acessos e entrada de incorporadoras. Costumam oferecer condições comerciais atrativas na planta e potencial de valorização conforme o bairro amadurece.',
+	},
+	{
+		term: 'Grande Florianópolis',
+		slug: 'grande-florianopolis',
+		definition:
+			'Conurbação formada por Florianópolis e municípios vizinhos, como São José e Palhoça. Compradores comparam opções na Ilha com empreendimentos no entorno metropolitano.',
+	},
+	{
+		term: 'Mobilidade ilha–continente',
+		slug: 'mobilidade-ilha-continente',
+		definition:
+			'Deslocamento entre a Ilha e o Continente pelas pontes (Hercílio Luz, Colombo Salles, Pedro Ivo) e corredores viários. Horários de pico influenciam escolha de bairro na compra na planta.',
+	},
+	{
+		term: 'Padrão compacto (studios e 1 dormitório)',
+		slug: 'padrao-compacto-studios',
+		definition:
+			'Tipologias menores, comuns em Florianópolis em bairros centrais e universitários. Atendem investidores, singles e casal sem filhos, com ticket de entrada mais baixo na planta.',
+	},
+	{
+		term: 'Mercado de locação estudantil',
+		slug: 'mercado-locacao-estudantil',
+		definition:
+			'Segmento de aluguel voltado ao público da UFSC, UDESC e demais instituições. Alta rotatividade e demanda constante em bairros próximos aos campi.',
+	},
+	{
+		term: 'Litoral norte da Ilha',
+		slug: 'litoral-norte-da-ilha',
+		definition:
+			'Faixa costeira que inclui Ingleses, Canasvieiras, Jurerê, Ponta das Canas e Cachoeira do Bom Jesus. Mercado misto de moradia, segunda residência e investimento em locação.',
+	},
+	{
+		term: 'Entorno da Lagoa da Conceição',
+		slug: 'entorno-lagoa-da-conceicao',
+		definition:
+			'Região em torno da Lagoa da Conceição, incluindo Barra da Lagoa, Lagoa da Conceição e Morro das Pedras. Perfil de compradores que valorizam natureza, esporte e vida noturna.',
+	},
+	{
+		term: 'Registro de Imóveis de Florianópolis',
+		slug: 'registro-de-imoveis-florianopolis',
+		definition:
+			'Cartórios responsáveis pela matrícula e registro das unidades na capital (1º e 2º RI de Florianópolis). Após habite-se e quitação, a unidade comprada na planta é registrada em nome do comprador.',
+	},
+	{
+		term: 'Outorga onerosa do direito de construir',
+		slug: 'outorga-onerosa-florianopolis',
+		definition:
+			'Pagamento à Prefeitura quando o empreendimento usa potencial construtivo acima do básico permitido no zoneamento. Pode entrar no custo do projeto e impactar preço final na planta.',
+	},
+];
+
+/** @type {GlossaryTermEntry[]} */
+export const GLOSSARY_TERMS = [...CORE_GLOSSARY_TERMS, ...GLOSSARY_INCORPORADORAS].map((entry) => ({
 	...entry,
-	letter: entry.term.charAt(0).toLocaleUpperCase('pt-BR'),
+	letter: getGlossaryGroupingLetter(entry.term),
 }));
 
 export function getGlossaryTerms() {
@@ -320,6 +422,8 @@ export function getGlossaryLetters() {
 export function groupGlossaryTermsByLetter() {
 	return getGlossaryLetters().map((letter) => ({
 		letter,
-		terms: GLOSSARY_TERMS.filter((term) => term.letter === letter),
+		terms: GLOSSARY_TERMS.filter((term) => term.letter === letter).sort((a, b) =>
+			a.term.localeCompare(b.term, 'pt-BR'),
+		),
 	}));
 }

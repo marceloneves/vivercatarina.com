@@ -11,7 +11,7 @@ const CASAS_MENU_PATTERN =
 	/(<li><a href="\/lancamentos\/casas-em-condominio">Casas em condomínio<\/a><\/li>)(\s*)/g;
 
 const GLOSSARY_MENU_PATTERN =
-	/(<li><a href="\/blog">Blog<\/a><\/li>)(\s*)(<li><a href="\/contact">Contato<\/a><\/li>)/g;
+	/(<li(?:\s+class="active")?><a href="\/blog">Blog<\/a><\/li>)(\s*)(<li(?:\s+class="active")?><a href="\/contact">Contato<\/a><\/li>)/g;
 
 function isGlossaryPathActive(currentPath) {
 	return currentPath === '/glossario' || currentPath.startsWith('/glossario/');

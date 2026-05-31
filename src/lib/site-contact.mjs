@@ -12,5 +12,9 @@ export function buildSitePageTitle(title) {
 		return SITE_NAME;
 	}
 
+	if (title.includes(`| ${SITE_NAME}`)) {
+		return title;
+	}
+
 	return `${title} | ${SITE_NAME}`;
 }

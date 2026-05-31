@@ -3,6 +3,7 @@ import { join } from 'node:path';
 import { enrichProperty, loadNeighborhoodListing, paginate, sortPropertiesByPrice } from './property-listings.mjs';
 import { applySemanticHtml } from './semantic-html.mjs';
 import { patchSiteMenu } from './site-menu.mjs';
+import { buildBairroListingSeo } from './site-seo.mjs';
 import { prepareBairroSidebarHtml } from './template-html.mjs';
 
 const templateRoot = join(process.cwd(), 'src');
@@ -97,6 +98,7 @@ export function buildBairroPageContext(slug, pageNumber) {
 	return {
 		listing,
 		listingTitle: getBairroListingTitle(listing.name),
+		seo: buildBairroListingSeo(listing.name, currentPath, pageNumber),
 		allProperties: enriched,
 		properties: pagination.items,
 		currentPage: pagination.currentPage,

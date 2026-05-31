@@ -1,29 +1,45 @@
 ---
 import WhatsAppFloat from '../components/WhatsAppFloat.astro';
 import WhatsAppLeadGate from '../components/WhatsAppLeadGate.astro';
-import {
-	SITE_DEFAULT_DESCRIPTION,
-	SITE_NAME,
-	buildSitePageTitle,
-} from '../lib/site-contact.mjs';
+import { SITE_NAME } from '../lib/site-contact.mjs';
+import { resolvePageSeo } from '../lib/site-seo.mjs';
 
 interface Props {
 	title: string;
 	description?: string;
+	keywords?: string;
 	bodyClass?: string;
 	disableEffects?: boolean;
 	stylesheets?: string[];
+	ogImage?: string;
+	ogType?: string;
+	canonicalPath?: string;
+	noindex?: boolean;
 }
 
 const {
 	title,
-	description = SITE_DEFAULT_DESCRIPTION,
+	description,
+	keywords,
 	bodyClass = '',
 	disableEffects = false,
 	stylesheets = [],
+	ogImage,
+	ogType,
+	canonicalPath,
+	noindex,
 } = Astro.props;
 
-const pageTitle = buildSitePageTitle(title);
+const seo = resolvePageSeo({
+	title,
+	description,
+	keywords,
+	pathname: Astro.url.pathname,
+	ogImage,
+	ogType,
+	canonicalPath,
+	noindex,
+});
 ---
 
 <!doctype html>
@@ -31,13 +47,26 @@ const pageTitle = buildSitePageTitle(title);
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
-		<title>{pageTitle}</title>
-		<meta name="author" content={SITE_NAME} />
-		<meta name="description" content={description} />
-		<meta name="keywords" content="imóveis na planta, Santa Catarina, lançamentos, apartamentos" />
-		<meta name="robots" content="INDEX,FOLLOW" />
+		<title>{seo.title}</title>
+		<meta name="author" content={seo.author} />
+		<meta name="publisher" content={seo.publisher} />
+		<meta name="description" content={seo.description} />
+		<meta name="keywords" content={seo.keywords} />
+		<meta name="robots" content={seo.robots} />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<meta name="generator" content={Astro.generator} />
+		<link rel="canonical" href={seo.canonicalUrl} />
+		<meta property="og:locale" content="pt_BR" />
+		<meta property="og:site_name" content={SITE_NAME} />
+		<meta property="og:title" content={seo.ogTitle} />
+		<meta property="og:description" content={seo.ogDescription} />
+		<meta property="og:type" content={seo.ogType} />
+		<meta property="og:url" content={seo.ogUrl} />
+		<meta property="og:image" content={seo.ogImage} />
+		<meta name="twitter:card" content={seo.twitterCard} />
+		<meta name="twitter:title" content={seo.ogTitle} />
+		<meta name="twitter:description" content={seo.ogDescription} />
+		<meta name="twitter:image" content={seo.ogImage} />
 		<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 		<link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
 

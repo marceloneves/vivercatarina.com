@@ -5,6 +5,7 @@ import bodyHtml from '../content/template-pages/faq.html?raw';
 import { applySemanticHtml, wrapSplitPageContent } from '../lib/semantic-html.mjs';
 import { patchSiteMenu } from '../lib/site-menu.mjs';
 import { SITE_URL } from '../lib/site-contact.mjs';
+import { buildKeywords } from '../lib/site-seo.mjs';
 import { getGlossaryTerms } from '../lib/glossary-terms.mjs';
 
 const title = 'Glossário';
@@ -30,16 +31,29 @@ const definedTermSet = {
 	name: 'Glossário de imóveis na planta',
 	description,
 	url: `${SITE_URL}/glossario`,
-	hasDefinedTerm: getGlossaryTerms().map(({ term, slug, definition }) => ({
+	hasDefinedTerm: getGlossaryTerms().map(({ term, slug, definition, websiteUrl }) => ({
 		'@type': 'DefinedTerm',
 		name: term,
-		description: definition,
+		description: websiteUrl ? `${definition} Site: ${websiteUrl}` : definition,
 		url: `${SITE_URL}/glossario#${slug}`,
+		...(websiteUrl ? { sameAs: websiteUrl } : {}),
 	})),
 };
 ---
 
-<PillerLayout title={title} bodyClass={bodyClass} description={description} stylesheets={['/css/internal-links.css']}>
+<PillerLayout
+	title={title}
+	bodyClass={bodyClass}
+	description={description}
+	keywords={buildKeywords(
+		'glossário imobiliário',
+		'termos imóvel na planta',
+		'financiamento imobiliário',
+		'contrato de promessa de compra e venda',
+	)}
+	canonicalPath="/glossario"
+	stylesheets={['/css/internal-links.css']}
+>
 	<Fragment slot="head">
 		<script type="application/ld+json" set:html={JSON.stringify(definedTermSet)} />
 	</Fragment>

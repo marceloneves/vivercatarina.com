@@ -1,16 +1,20 @@
 ---
-import { applyGlossaryInlineLinks } from '../lib/glossary-content-links.mjs';
+import { applyGlossaryInlineLinks, linkIncorporadoraWebsite } from '../lib/glossary-content-links.mjs';
 import { groupGlossaryTermsByLetter } from '../lib/glossary-terms.mjs';
 
 const groups = groupGlossaryTermsByLetter().map(({ letter, terms }) => ({
 	letter,
-	terms: terms.map(({ term, slug, definition }) => ({
+	terms: terms.map(({ term, slug, definition, websiteUrl }) => ({
 		term,
 		slug,
-		definition: applyGlossaryInlineLinks(definition, {
-			excludeSlugs: [slug],
-			skipHeadings: false,
-		}),
+		websiteUrl,
+		definition: applyGlossaryInlineLinks(
+			linkIncorporadoraWebsite(definition, websiteUrl),
+			{
+				excludeSlugs: websiteUrl ? [slug, 'incorporadora'] : [slug],
+				skipHeadings: false,
+			},
+		),
 	})),
 }));
 const totalTerms = groups.reduce((count, group) => count + group.terms.length, 0);
@@ -70,11 +74,16 @@ const introText = applyGlossaryInlineLinks(
 								<dl class="glossary-list">
 									{
 										terms.map(({ term, slug, definition }) => (
-											<div class="glossary-item" data-term={term.toLocaleLowerCase('pt-BR')}>
+											<div
+												class="glossary-item"
+												data-term={term.toLocaleLowerCase('pt-BR')}
+											>
 												<dt class="glossary-term" id={slug}>
 													<a href={`#${slug}`}>{term}</a>
 												</dt>
-												<dd class="glossary-definition" set:html={definition} />
+												<dd class="glossary-definition-wrap">
+													<p class="glossary-definition" set:html={definition} />
+												</dd>
 											</div>
 										))
 									}
@@ -230,10 +239,24 @@ const introText = applyGlossaryInlineLinks(
 		color: var(--theme-color);
 	}
 
+	.glossary-definition-wrap {
+		margin: 0;
+	}
+
 	.glossary-definition {
 		margin: 0;
 		color: var(--body-color);
 		line-height: 1.7;
+	}
+
+	.glossary-definition :global(a.glossary-external-link) {
+		color: var(--theme-color);
+		font-weight: 600;
+		text-decoration: none;
+	}
+
+	.glossary-definition :global(a.glossary-external-link:hover) {
+		text-decoration: underline;
 	}
 
 	.glossary-empty {

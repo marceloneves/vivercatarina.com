@@ -1,6 +1,6 @@
 import { patchSiteFooter } from './site-footer.mjs';
 import { applyGlossaryInlineLinksInMain } from './glossary-content-links.mjs';
-import { patchGlossaryMenu } from './site-menu.mjs';
+import { patchSiteMenu } from './site-menu.mjs';
 
 const MAIN_ID = 'conteudo-principal';
 
@@ -206,7 +206,7 @@ function enhanceForms(html) {
 }
 
 function enhanceHeaderMenu(html) {
-	return patchGlossaryMenu(html);
+	return patchSiteMenu(html);
 }
 
 function enhanceFooter(html) {
