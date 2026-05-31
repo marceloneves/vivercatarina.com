@@ -1,0 +1,169 @@
+{
+  "id": 23159,
+  "slug": "cacupe-nautico-residence-cacupe-florianopolis-sc",
+  "title": "Cacupé 4 Náutico Residence, Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,055,000",
+    "amount": 1055000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Cacupé, Florianópolis/SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "cacupe",
+      "name": "Cacupé"
+    }
+  },
+  "overview": {
+    "code": "1644",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garages": 2,
+    "sizeSqm": 85.612,
+    "deliveryYear": "2030"
+  },
+  "types": [
+    {
+      "slug": "frente-mar",
+      "name": "Frente mar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "2030",
+      "name": "2030"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "1-dorm-e-1-suite",
+      "name": "2 Dorm (1 Suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "bicicletario",
+    "elevador",
+    "espaco-gourmet",
+    "mini-market",
+    "piscina",
+    "playground",
+    "praca-de-fogo",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Playground",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Praça de fogo",
+    "Mini-market",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p><strong>Apartamento com 2 dormitórios sendo 1 suíte, + Garden com 34,78m², living integrado, 85,61m² de área privativa, 2 vagas de garagem, a partir de R$ 1.055.000,00 (Apto 102 torre Bromélia)</strong></p>\n<p><strong>Apartamento com 3 dormitórios sendo 2 suítes, + Garden com 31,51m², living integrado, 102,53m², 2 vagas de garagem, a partir de R$ 1.055.000,00 (Apto 102 torre Helicônia)</strong></p>\n<p><strong>Apartamento com 3 suítes, + sacada Garden com 25,54m², living integrado, 102,53m², de área privativa e 3 vagas de garagem, a partir de R$ 1.969.800,00 (Apto 301 torre Orquídea)</strong></p>\n<p>Entrada 30% em 2x + parcelas + reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel de menor valor como parte de pagamento</li>\n<li><em>Valores atualizados em 10/01/2026</em></li>\n</ul>\n<h5 data-start=\"131\" data-end=\"177\"><strong>Cacupé 4 Náutico Residence – Pé na Areia</strong></h5>\n<p data-start=\"178\" data-end=\"238\"><strong data-start=\"178\" data-end=\"238\">Apartamentos de alto padrão em Cacupé | Florianópolis/SC</strong></p>\n<p data-start=\"240\" data-end=\"462\">Empreendimento exclusivo <strong data-start=\"265\" data-end=\"280\">pé na areia</strong>, localizado no bairro <strong data-start=\"303\" data-end=\"313\">Cacupé</strong>, um dos endereços mais valorizados de Florianópolis. Condomínio completo, com infraestrutura náutica, lazer elevado e contato direto com a natureza.</p>\n<h5 data-start=\"464\" data-end=\"495\"><strong>Diferenciais do condomínio</strong></h5>\n<ul data-start=\"496\" data-end=\"1105\">\n<li data-start=\"496\" data-end=\"544\">\n<p data-start=\"498\" data-end=\"544\">Garagem náutica e <strong data-start=\"516\" data-end=\"544\">pier flutuante exclusivo</strong></p>\n</li>\n<li data-start=\"545\" data-end=\"591\">\n<p data-start=\"547\" data-end=\"591\">Acesso direto ao mar, com <strong data-start=\"573\" data-end=\"591\">acessibilidade</strong></p>\n</li>\n<li data-start=\"592\" data-end=\"620\">\n<p data-start=\"594\" data-end=\"620\">Lago artificial frente mar</p>\n</li>\n<li data-start=\"621\" data-end=\"684\">\n<p data-start=\"623\" data-end=\"684\">Piscina na cobertura com deck e <strong data-start=\"655\" data-end=\"667\">mini bar</strong> (Torre Bromélia)</p>\n</li>\n<li data-start=\"685\" data-end=\"726\">\n<p data-start=\"687\" data-end=\"726\">Bar com deck frente mar e churrasqueira</p>\n</li>\n<li data-start=\"727\" data-end=\"769\">\n<p data-start=\"729\" data-end=\"769\">Salão de festas e área gourmet no térreo</p>\n</li>\n<li data-start=\"770\" data-end=\"793\">\n<p data-start=\"772\" data-end=\"793\">Academia com <strong data-start=\"785\" data-end=\"793\">93m²</strong></p>\n</li>\n<li data-start=\"794\" data-end=\"806\">\n<p data-start=\"796\" data-end=\"806\">Fire place</p>\n</li>\n<li data-start=\"807\" data-end=\"835\">\n<p data-start=\"809\" data-end=\"835\">Playground natural coberto</p>\n</li>\n<li data-start=\"836\" data-end=\"877\">\n<p data-start=\"838\" data-end=\"877\">Mirante com jardim e horta nos terraços</p>\n</li>\n<li data-start=\"878\" data-end=\"908\">\n<p data-start=\"880\" data-end=\"908\">Fábrica de cerveja artesanal</p>\n</li>\n<li data-start=\"909\" data-end=\"923\">\n<p data-start=\"911\" data-end=\"923\">Mini mercado</p>\n</li>\n<li data-start=\"924\" data-end=\"938\">\n<p data-start=\"926\" data-end=\"938\">Bicicletário</p>\n</li>\n<li data-start=\"939\" data-end=\"975\">\n<p data-start=\"941\" data-end=\"975\">Espaços contemplativos nos jardins</p>\n</li>\n<li data-start=\"976\" data-end=\"990\">\n<p data-start=\"978\" data-end=\"990\">6 elevadores</p>\n</li>\n<li data-start=\"991\" data-end=\"1019\">\n<p data-start=\"993\" data-end=\"1019\">Todos os acessos no térreo</p>\n</li>\n<li data-start=\"1020\" data-end=\"1047\">\n<p data-start=\"1022\" data-end=\"1047\">Guarita com segurança 24h</p>\n</li>\n<li data-start=\"1048\" data-end=\"1105\">\n<p data-start=\"1050\" data-end=\"1105\">Coleta de lixo sustentável (uso do orgânico para adubo)</p>\n</li>\n</ul>\n<h5 data-start=\"1107\" data-end=\"1124\"><strong>Apartamentos</strong></h5>\n<ul data-start=\"1125\" data-end=\"1297\">\n<li data-start=\"1125\" data-end=\"1150\">\n<p data-start=\"1127\" data-end=\"1150\">Unidades com <strong data-start=\"1140\" data-end=\"1150\">garden</strong></p>\n</li>\n<li data-start=\"1151\" data-end=\"1179\">\n<p data-start=\"1153\" data-end=\"1179\">Até <strong data-start=\"1157\" data-end=\"1179\">3 vagas de garagem</strong></p>\n</li>\n<li data-start=\"1180\" data-end=\"1224\">\n<p data-start=\"1182\" data-end=\"1224\"><strong data-start=\"1182\" data-end=\"1224\">Garagens cobertas em todas as unidades</strong></p>\n</li>\n<li data-start=\"1225\" data-end=\"1246\">\n<p data-start=\"1227\" data-end=\"1246\">Hobby box privativo</p>\n</li>\n<li data-start=\"1247\" data-end=\"1269\">\n<p data-start=\"1249\" data-end=\"1269\">Fechadura eletrônica</p>\n</li>\n<li data-start=\"1270\" data-end=\"1297\">\n<p data-start=\"1272\" data-end=\"1297\">Alto padrão de acabamento</p>\n</li>\n</ul>\n<p data-start=\"1299\" data-end=\"1403\"><strong data-start=\"1302\" data-end=\"1331\">Cacupé – Florianópolis/SC</strong><br data-start=\"1331\" data-end=\"1334\" />Entre em contato para mais informações e disponibilidade de unidades.</p>",
+  "floorPlans": [
+    {
+      "title": "Floor 1",
+      "image": "images/20-Captura-de-tela-2026-01-10-102824.png"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2026-01-10-102327.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Captura-de-tela-2026-01-10-101724.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Captura-de-tela-2026-01-10-102510-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Captura-de-tela-2026-01-10-102248.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2026-01-10-102224.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Captura-de-tela-2026-01-10-102201.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Captura-de-tela-2026-01-10-102139.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Captura-de-tela-2026-01-10-102119.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-CACUPE-VIVA-4_QUARTO-CASAL-01_IMG02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-CACUPE-VIVA-4_QUARTO-SOLTEIRO_IMG01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-IMG_8612.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-CACUPE-VIVA-4_QUARTO-SOLTEIRO_IMG02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-IMG_8611.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-CACUPE-VIVA-4_SALA-DUPLEX-SACADA_IMG01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-CACUPE-VIVA-4_SALA-DUPLEX-SACADA_IMG02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-CACUPE-VIVA-4_QUARTO-CASAL-01_IMG01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Captura-de-tela-2026-01-10-101809.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Captura-de-tela-2026-01-10-101848.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Captura-de-tela-2026-01-10-102036.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Captura-de-tela-2026-01-10-102824.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/cacupe-nautico-residence-cacupe-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:10.026Z",
+  "kind": "apartamento"
+}

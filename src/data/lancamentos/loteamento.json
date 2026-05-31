@@ -1,7 +1,7 @@
 {
   "kind": "loteamento",
   "name": "Loteamento",
-  "generatedAt": "2026-05-31T00:56:10.330Z",
+  "generatedAt": "2026-05-31T18:41:54.332Z",
   "total": 21,
   "properties": [
     {
@@ -170,15 +170,15 @@
       "thumbnail": "imoveis/pronto-para-morar-centro-florianopolis-sc/images/01-IMG_4088-scaled.jpg"
     },
     {
-      "slug": "florianopolis-ribeirao-da-ilha-florianopolis-sc-5541",
+      "slug": "florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado",
       "id": 5541,
       "title": "Sobrado em Condomínio, novo e financiável no Ribeirão da Ilha",
       "category": "pronto-para-morar",
       "kind": "loteamento",
       "city": "florianopolis",
       "price": 895000,
-      "dataPath": "imoveis/florianopolis-ribeirao-da-ilha-florianopolis-sc-5541/property.json",
-      "thumbnail": "imoveis/florianopolis-ribeirao-da-ilha-florianopolis-sc-5541/images/01-634466440882855.jpg"
+      "dataPath": "imoveis/florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado/property.json",
+      "thumbnail": "imoveis/florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado/images/01-634466440882855.jpg"
     },
     {
       "slug": "triplex-em-condominio-fechado-santo-antonio-de-lisboa-florianopolis-sc",
@@ -225,15 +225,15 @@
       "thumbnail": "imoveis/vila-mocambique-ingleses-do-rio-vermelho-florianopolis-sc/images/01-Captura-de-tela-2026-05-11-104044-1.jpg"
     },
     {
-      "slug": "wall-134-trindade-florianopolis-sc",
+      "slug": "wall-trindade-florianopolis-sc",
       "id": 5743,
       "title": "Wall 134, Trindade",
       "category": "lancamento",
       "kind": "loteamento",
       "city": "florianopolis",
       "price": 307000,
-      "dataPath": "imoveis/wall-134-trindade-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/wall-134-trindade-florianopolis-sc/images/01-ARV-3_2-1.jpg"
+      "dataPath": "imoveis/wall-trindade-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/wall-trindade-florianopolis-sc/images/01-ARV-3_2-1.jpg"
     }
   ]
 }

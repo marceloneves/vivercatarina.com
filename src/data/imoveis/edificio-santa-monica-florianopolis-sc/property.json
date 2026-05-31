@@ -1,0 +1,245 @@
+{
+  "id": 12556,
+  "slug": "edificio-santa-monica-florianopolis-sc",
+  "title": "Edifício SANTA 4, Santa Mônica",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$321,000",
+    "amount": 321000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Florianópolis",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "santa-monica",
+      "name": "Santa Mônica"
+    }
+  },
+  "overview": {
+    "code": "1320",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 29.52,
+    "deliveryYear": "2029"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "2029",
+      "name": "2029"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "lofts",
+      "name": "Lofts"
+    }
+  ],
+  "featureSlugs": [
+    "bicicletario",
+    "churrasqueira",
+    "coworking",
+    "espaco-gourmet",
+    "especo-pet",
+    "salao-de-festas",
+    "spa"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Salão de Festas",
+    "Espaço Pet",
+    "Coworking",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Spa"
+  ],
+  "descriptionHtml": "<p><strong>Stúdios com opões de sacada, de 28,50m² a 31,00m² privativos,   com cotas a partir de R$ 321.000,00 (216)</strong></p>\n<p><strong>Lofts com suíte + lavabo com opções de sacada, de 44,00m² a 60m² privativos, com cotas a partir de R$ 556.000,00 (609)</strong></p>\n<p><strong>Apartamento 1 dormitório + lavabo, com sacada, de 39,00m² a 56,50m² privativos, com cotas a partir de R$ 590.000,00 (304)</strong></p>\n<p>Ato: 20% em 6x + Parcelas + reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel ou veículo como parte de pagamento.</li>\n<li>Atualizado 09/04/2026</li>\n</ul>\n<hr />\n<h5><strong>Santa 4 &#8211; Studios, Lofts e Apartamentos de 1 Quarto em Florianópolis</strong></h5>\n<p>Bem-vindo ao Santa 4, o novo empreendimento no bairro Santa Mônica, em Florianópolis/SC. Um projeto moderno e funcional, pensado para quem busca conforto, tecnologia e qualidade de vida em um dos bairros mais valorizados da cidade.</p>\n<p><strong>Studios:</strong> de 28,50 m² a 41,00 m², com opções com sacada.<br />\n<strong>Lofts:</strong> de 44 m² a 60 m², com opções de suíte e suíte com sacada.<br />\n<strong>Apartamentos de 1 quarto:</strong> espaço otimizado e funcional.<br />\n<strong>Garagem vendida separadamente.</strong></p>\n<h4><strong>Diferenciais do Santa 4</strong></h4>\n<ul>\n<li>Arquitetura biofílica, integrando natureza e bem-estar</li>\n<li>Duas áreas de SPA com hidromassagem</li>\n<li>Dois elevadores para maior comodidade</li>\n<li>Unidades com área aberta descoberta</li>\n<li>Área comercial no térreo</li>\n<li>Vagas para bicicletas</li>\n<li>Salão de festas com churrasqueira e área gourmet</li>\n<li>Espaço zen para relaxamento</li>\n<li>Pet place</li>\n<li>Infraestrutura para ar-condicionado</li>\n<li>Lounge com cafeteria no hall de entrada</li>\n<li>Espaço coworking</li>\n<li>Opção de pacote com automação residencial</li>\n</ul>\n<p>Viva em um empreendimento inovador, moderno e bem localizado. Entre em contato para mais informações e garanta já a sua unidade.</p>\n<p><strong>Santa Mônica &#8211; Florianópolis/SC</strong></p>",
+  "floorPlans": [
+    {
+      "title": "Planta Studio",
+      "image": "images/40-4-8.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-33.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-34.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-32.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-38-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-6-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-37.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-36.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-26-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-4-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-5-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-30-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-7-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-10-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-18-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-13-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-25-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Apto-1-D.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-22-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-14-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-1-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-3-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-8-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-9-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-11-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-12-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-16-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-17-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-19-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-20-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/30-21-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/31-23-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/32-27-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/33-28-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/34-29-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/35-1-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/36-1-12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/37-4-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/38-Cobertura-atico.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/39-5-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/40-4-8.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/edificio-santa-monica-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:51.707Z",
+  "kind": "apartamento"
+}

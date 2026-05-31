@@ -5,18 +5,9 @@
     "slug": "florianopolis",
     "name": "Florianópolis"
   },
-  "generatedAt": "2026-05-31T01:08:01.876Z",
+  "generatedAt": "2026-05-31T18:41:54.267Z",
   "total": 14,
   "properties": [
-    {
-      "slug": "ingleses-florianopolis-sc",
-      "id": 14741,
-      "title": "Apartamento a 100 metros da Praia, Ingleses",
-      "category": "lancamento",
-      "price": 409000,
-      "dataPath": "imoveis/ingleses-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/ingleses-florianopolis-sc/images/01-1-2_edited-1.avif"
-    },
     {
       "slug": "bellomonte-ingleses-florianopolis-sc",
       "id": 15178,
@@ -54,13 +45,13 @@
       "thumbnail": "imoveis/edificio-saint-humbert-residence-ingleses-florianopolis-sc/images/01-1-2.jpg"
     },
     {
-      "slug": "infinity-residence-ingleses-ingleses-do-rio-vermelho-florianopolis-sc",
+      "slug": "infinity-residence-ingleses-do-rio-vermelho-florianopolis-sc",
       "id": 18083,
       "title": "Infinity Residence- Ingleses, Florianópolis",
       "category": "lancamento",
       "price": 807000,
-      "dataPath": "imoveis/infinity-residence-ingleses-ingleses-do-rio-vermelho-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/infinity-residence-ingleses-ingleses-do-rio-vermelho-florianopolis-sc/images/01-7-2.jpg"
+      "dataPath": "imoveis/infinity-residence-ingleses-do-rio-vermelho-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/infinity-residence-ingleses-do-rio-vermelho-florianopolis-sc/images/01-7-2.jpg"
     },
     {
       "slug": "ingleses-spot-ingleses-florianopolis-sc",
@@ -115,6 +106,15 @@
       "price": 220000,
       "dataPath": "imoveis/santinho-spot-edificio-com-acesso-direto-ao-mar-ingleses-do-rio-vermelho-florianopolis-sc/property.json",
       "thumbnail": "imoveis/santinho-spot-edificio-com-acesso-direto-ao-mar-ingleses-do-rio-vermelho-florianopolis-sc/images/01-Capturar1-3.jpg"
+    },
+    {
+      "slug": "ingleses-florianopolis-sc-apartamento",
+      "id": 22917,
+      "title": "Sobrado em Ingleses, Florianópolis",
+      "category": "pronto-para-morar",
+      "price": 1000000,
+      "dataPath": "imoveis/ingleses-florianopolis-sc-apartamento/property.json",
+      "thumbnail": "imoveis/ingleses-florianopolis-sc-apartamento/images/01-1-2_edited-1.avif"
     },
     {
       "slug": "viel-spab-ingleses-florianopolis-sc",

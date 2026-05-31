@@ -5,7 +5,7 @@
     "slug": "florianopolis",
     "name": "Florianópolis"
   },
-  "generatedAt": "2026-05-31T01:08:01.876Z",
+  "generatedAt": "2026-05-31T18:41:54.267Z",
   "total": 13,
   "properties": [
     {
@@ -45,13 +45,13 @@
       "thumbnail": "imoveis/florianopolis-estreito-florianopolis-sc/images/01-i3d7x25_11414961702ac2eb650.jpg"
     },
     {
-      "slug": "3-dormitorios-estreito-florianopolis-sc",
+      "slug": "dormitorios-estreito-florianopolis-sc",
       "id": 18691,
       "title": "Apartamento semimobiliado, 3 dormitórios, sacada e vaga de garagem, Estreito",
       "category": "pronto-para-morar",
       "price": 800000,
-      "dataPath": "imoveis/3-dormitorios-estreito-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/3-dormitorios-estreito-florianopolis-sc/images/01-original_94dbf20423deb347f240a05c6df98309-1.jpg"
+      "dataPath": "imoveis/dormitorios-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/dormitorios-estreito-florianopolis-sc/images/01-original_94dbf20423deb347f240a05c6df98309-1.jpg"
     },
     {
       "slug": "edificio-now-estreito-florianopolis-sc",

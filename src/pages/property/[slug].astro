@@ -1,13 +1,16 @@
 ---
-import { listPropertySlugs } from '../../lib/property-data.mjs';
+import { getPropertySlugRedirects } from '../../lib/property-slug-redirects.mjs';
 
 export function getStaticPaths() {
-	return listPropertySlugs().map((slug) => ({
-		params: { slug },
+	const redirects = getPropertySlugRedirects();
+
+	return Object.entries(redirects).map(([oldSlug, newSlug]) => ({
+		params: { slug: oldSlug },
+		props: { redirectTo: `/imovel/${newSlug}` },
 	}));
 }
 
-const { slug } = Astro.params;
+const { redirectTo } = Astro.props;
 
-return Astro.redirect(`/imovel/${slug}`, 301);
+return Astro.redirect(redirectTo, 301);
 ---

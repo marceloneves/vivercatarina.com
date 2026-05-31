@@ -2,35 +2,56 @@ import { existsSync, readFileSync, renameSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
-import {
-	buildPropertySlug,
-	ensureUniquePropertySlug,
-} from '../src/lib/property-slug.mjs';
+import { buildPropertySlug, ensureUniquePropertySlug } from '../src/lib/property-slug.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const imoveisDir = join(root, 'src/data/imoveis');
 const indexPath = join(imoveisDir, 'index.json');
+const redirectsPath = join(root, 'src/data/property-slug-redirects.json');
+const vercelPath = join(root, 'vercel.json');
 const index = JSON.parse(readFileSync(indexPath, 'utf8'));
 const usedSlugs = new Set();
 const migrations = [];
+const redirectMap = {};
 
 for (const entry of index.properties) {
 	const oldSlug = entry.slug;
 	const filePath = join(imoveisDir, oldSlug, 'property.json');
 	const property = JSON.parse(readFileSync(filePath, 'utf8'));
 	const baseSlug = buildPropertySlug(property);
-	const newSlug = ensureUniquePropertySlug(baseSlug, usedSlugs, property.id);
+	const newSlug = ensureUniquePropertySlug(baseSlug, usedSlugs, property);
 	usedSlugs.add(newSlug);
 
-	if (oldSlug === newSlug) {
-		continue;
+	if (oldSlug !== newSlug) {
+		migrations.push({ oldSlug, newSlug, propertyId: property.id });
 	}
+}
 
-	migrations.push({ oldSlug, newSlug, propertyId: property.id });
+const existingRedirects = existsSync(redirectsPath)
+	? JSON.parse(readFileSync(redirectsPath, 'utf8'))
+	: {};
+
+for (const { oldSlug, newSlug } of migrations) {
+	redirectMap[oldSlug] = newSlug;
+
+	if (existingRedirects[oldSlug] && existingRedirects[oldSlug] !== newSlug) {
+		redirectMap[existingRedirects[oldSlug]] = newSlug;
+	}
+}
+
+for (const [from, to] of Object.entries(existingRedirects)) {
+	if (!redirectMap[from] && from !== to) {
+		const finalTarget = redirectMap[to] || to;
+		if (from !== finalTarget) {
+			redirectMap[from] = finalTarget;
+		}
+	}
 }
 
 if (!migrations.length) {
 	console.log('Nenhuma slug precisou ser alterada.');
+	writeFileSync(redirectsPath, `${JSON.stringify(redirectMap, null, 2)}\n`, 'utf8');
+	updateVercelRedirects(redirectMap);
 	process.exit(0);
 }
 
@@ -80,7 +101,11 @@ writeFileSync(
 	'utf8',
 );
 
+writeFileSync(redirectsPath, `${JSON.stringify(redirectMap, null, 2)}\n`, 'utf8');
+updateVercelRedirects(redirectMap);
+
 console.log(`Slugs migradas: ${migrations.length}`);
+console.log(`Redirects 301: ${Object.keys(redirectMap).length}`);
 
 const generateBairros = spawnSync('node', ['scripts/generate-bairro-listings.mjs'], {
 	cwd: root,
@@ -98,4 +123,29 @@ const generateLancamentos = spawnSync('node', ['scripts/generate-lancamentos-by-
 
 if (generateLancamentos.status !== 0) {
 	process.exit(generateLancamentos.status ?? 1);
+}
+
+function updateVercelRedirects(map) {
+	const vercel = JSON.parse(readFileSync(vercelPath, 'utf8'));
+	const staticRedirects = (vercel.redirects || []).filter(
+		(entry) => !entry.source.startsWith('/imovel/') && !entry.source.startsWith('/property/'),
+	);
+
+	for (const [from, to] of Object.entries(map)) {
+		staticRedirects.push(
+			{
+				source: `/imovel/${from}`,
+				destination: `/imovel/${to}`,
+				permanent: true,
+			},
+			{
+				source: `/property/${from}`,
+				destination: `/imovel/${to}`,
+				permanent: true,
+			},
+		);
+	}
+
+	vercel.redirects = staticRedirects;
+	writeFileSync(vercelPath, `${JSON.stringify(vercel, null, 2)}\n`, 'utf8');
 }

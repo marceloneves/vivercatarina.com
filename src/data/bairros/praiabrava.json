@@ -5,17 +5,17 @@
     "slug": "florianopolis",
     "name": "Florianópolis"
   },
-  "generatedAt": "2026-05-31T01:08:01.877Z",
+  "generatedAt": "2026-05-31T18:41:54.268Z",
   "total": 3,
   "properties": [
     {
-      "slug": "b7-essence-praia-brava-florianopolis-sc",
+      "slug": "b-essence-praia-brava-florianopolis-sc",
       "id": 22293,
       "title": "B7 Essence, Praia Brava",
       "category": "lancamento",
       "price": 548000,
-      "dataPath": "imoveis/b7-essence-praia-brava-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/b7-essence-praia-brava-florianopolis-sc/images/01-Captura-de-tela-2025-12-08-152107.jpg"
+      "dataPath": "imoveis/b-essence-praia-brava-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/b-essence-praia-brava-florianopolis-sc/images/01-Captura-de-tela-2025-12-08-152107.jpg"
     },
     {
       "slug": "agua-azul-praia-brava-florianopolis-sc",

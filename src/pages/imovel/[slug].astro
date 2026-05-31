@@ -1,15 +1,33 @@
 ---
 import ImovelPage from '../../components/ImovelPage.astro';
 import { listPropertySlugs } from '../../lib/property-data.mjs';
+import {
+	getPropertySlugRedirects,
+	resolvePropertySlugRedirect,
+} from '../../lib/property-slug-redirects.mjs';
 
 export function getStaticPaths() {
-	return listPropertySlugs().map((slug) => ({
+	const redirects = getPropertySlugRedirects();
+	const paths = listPropertySlugs().map((slug) => ({
 		params: { slug },
-		props: { slug },
+		props: { slug, redirectTo: null },
 	}));
+
+	for (const [oldSlug, newSlug] of Object.entries(redirects)) {
+		paths.push({
+			params: { slug: oldSlug },
+			props: { slug: oldSlug, redirectTo: `/imovel/${newSlug}` },
+		});
+	}
+
+	return paths;
 }
 
-const { slug } = Astro.props;
+const { slug, redirectTo } = Astro.props;
+
+if (redirectTo || resolvePropertySlugRedirect(slug)) {
+	return Astro.redirect(redirectTo || `/imovel/${resolvePropertySlugRedirect(slug)}`, 301);
+}
 ---
 
 <ImovelPage slug={slug} />

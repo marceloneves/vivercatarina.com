@@ -1,0 +1,164 @@
+{
+  "id": 8952,
+  "slug": "campeche-spot-campeche-florianopolis-sc-praia",
+  "title": "250m da praia, Campeche Spot",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$310,000",
+    "amount": 310000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "R: Pequi, S/N, Campeche, Florianópolis",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "campeche",
+      "name": "Campeche"
+    }
+  },
+  "overview": {
+    "code": "1174",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 19.722,
+    "deliveryYear": "Fev/27"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "abr-27",
+      "name": "Abr/27"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "piscina"
+  ],
+  "features": [
+    "Piscina"
+  ],
+  "descriptionHtml": "<p>Studios Perfeitos para locações temporada/Short Stay – Alta Rentabilidade com Baixo Custo operacional metragens de 18.86m² a 37.76m².</p>\n<p><strong>Unidades a partir de R$ 310.000,00</strong></p>\n<p>Entrada + parcelas + reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 07/04/2026</em></li>\n</ul>\n<p><strong>Campeche Spot: Oportunidade Exclusiva a Poucos Passos da Praia</strong></p>\n<p>Empreendimento SPE (Sociedade de Propósito Específico) projetado para investidores que buscam <strong>máxima rentabilidade</strong> no mercado de locações por diárias e short stay. Localizado a apenas <strong>250 metros da Praia do Campeche</strong>, um dos destinos mais belos e desejados de Florianópolis, o empreendimento alia <strong>design funcional</strong>, <strong>infraestrutura moderna</strong> e uma <strong>localização privilegiada</strong>.</p>\n<h6>Diferenciais do Campeche Spot:</h6>\n<ul>\n<li><strong>Modelo a preço de custo</strong>: Economia e transparência no investimento.</li>\n<li><strong>Baixo custo fixo (condomínio)</strong>: Ideal para otimizar seus lucros.</li>\n<li><strong>Apartamentos compactos, funcionais e instagramáveis</strong>: Planejados para atrair hóspedes e gerar alta ocupação.</li>\n<li><strong>Máxima rentabilidade no aluguel por temporada</strong>: Perfeito para short stays e locações diárias.</li>\n</ul>\n<h6>Infraestrutura:</h6>\n<ul>\n<li><strong>Piscina com borda infinita e vista para o mar</strong>: Um toque de sofisticação que valoriza o imóvel.</li>\n<li><strong>Bar integrado</strong>: Ideal para socialização e momentos de lazer.</li>\n<li><strong>Área de lazer integrada</strong>: Espaços planejados para proporcionar conforto e interação.</li>\n<li><strong>Recepção confortável</strong>: Atendimento acolhedor para hóspedes e proprietários.</li>\n<li><strong>Minimarket</strong>: Conveniência dentro do empreendimento.</li>\n<li><strong>Entrega mobiliada e equipada</strong>: Pronto para gerar renda desde o primeiro dia.</li>\n</ul>\n<p>O <strong>Campeche Spot</strong> é a escolha perfeita para quem deseja investir em um imóvel com <strong>excelente localização</strong>, <strong>infraestrutura completa</strong> e alto potencial de retorno. Transforme seu investimento em uma fonte de renda sólida e contínua. <strong>Aproveite esta oportunidade única no coração do Campeche!</strong></p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-CAM-0003-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Enscape_2023-11-22-18-11-07-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Copia-de-Enscape_2023-11-22-18-11-45.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Copia-de-Enscape_2023-11-22-18-07-39.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-6-19.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Copia-de-Enscape_2023-11-22-18-11-07.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Capturar1-13.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Capturar2-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Capturar3-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Capturar4-12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Capturar5-12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Enscape_2023-11-22-17-48-03.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Enscape_2023-11-22-17-49-03.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Enscape_2023-11-22-18-07-39.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-plantas-1-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-plantas-2-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-plantas-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Copia-de-RECEPCAO-5.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Copia-de-RECEPCAO-3.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Copia-de-CORREDOR-4.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Copia-de-CORREDOR-3.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Copia-de-CORREDOR-2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Copia-de-Enscape_2023-11-22-18-10-35.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-Copia-de-Enscape_2023-11-22-18-08-18.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/campeche-spot-campeche-florianopolis-sc-praia/",
+  "importedAt": "2026-05-30T18:43:53.141Z",
+  "kind": "apartamento"
+}

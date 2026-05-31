@@ -5,7 +5,7 @@
     "slug": "florianopolis",
     "name": "Florianópolis"
   },
-  "generatedAt": "2026-05-31T01:08:01.875Z",
+  "generatedAt": "2026-05-31T18:41:54.266Z",
   "total": 13,
   "properties": [
     {
@@ -33,7 +33,7 @@
       "category": "lancamento",
       "price": 310000,
       "dataPath": "imoveis/campeche-spot-campeche-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/campeche-spot-campeche-florianopolis-sc/images/01-CAM-0003-2.jpg"
+      "thumbnail": "imoveis/campeche-spot-campeche-florianopolis-sc/images/01-Terreno-para-mar-01-sem-pin-1-scaled.jpg"
     },
     {
       "slug": "campeche-spot-ii-campeche-florianopolis-sc",
@@ -90,13 +90,13 @@
       "thumbnail": "imoveis/mirah-blue-view-campeche-florianopolis-sc/images/01-1-4.jpg"
     },
     {
-      "slug": "campeche-spot-campeche-florianopolis-sc-21833",
+      "slug": "campeche-spot-campeche-florianopolis-sc-praia",
       "id": 21833,
       "title": "Novo Campeche Spot",
       "category": "lancamento",
       "price": 359000,
-      "dataPath": "imoveis/campeche-spot-campeche-florianopolis-sc-21833/property.json",
-      "thumbnail": "imoveis/campeche-spot-campeche-florianopolis-sc-21833/images/01-Terreno-para-mar-01-sem-pin-1-scaled.jpg"
+      "dataPath": "imoveis/campeche-spot-campeche-florianopolis-sc-praia/property.json",
+      "thumbnail": "imoveis/campeche-spot-campeche-florianopolis-sc-praia/images/01-CAM-0003-2.jpg"
     },
     {
       "slug": "residencial-san-clemente-campeche-florianopolis-sc",

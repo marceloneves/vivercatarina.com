@@ -60,7 +60,7 @@
     },
     {
       "id": 25749,
-      "slug": "frances-11-em-condominio-fechado-em-rio-vermelho-florianopolis-sc",
+      "slug": "frances-em-condominio-fechado-em-rio-vermelho-florianopolis-sc",
       "title": "Francês 11- Casa em condomínio fechado em Florianópolis",
       "category": "pronto-para-morar",
       "city": "florianopolis",
@@ -368,7 +368,7 @@
     },
     {
       "id": 23159,
-      "slug": "cacupe-4-nautico-residence-cacupe-florianopolis-sc",
+      "slug": "cacupe-nautico-residence-cacupe-florianopolis-sc",
       "title": "Cacupé 4 Náutico Residence, Florianópolis",
       "category": "lancamento",
       "city": "florianopolis",
@@ -379,7 +379,7 @@
     },
     {
       "id": 22917,
-      "slug": "ingleses-florianopolis-sc-22917",
+      "slug": "ingleses-florianopolis-sc-apartamento",
       "title": "Sobrado em Ingleses, Florianópolis",
       "category": "pronto-para-morar",
       "city": "florianopolis",
@@ -467,7 +467,7 @@
     },
     {
       "id": 5541,
-      "slug": "florianopolis-ribeirao-da-ilha-florianopolis-sc-5541",
+      "slug": "florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado",
       "title": "Sobrado em Condomínio, novo e financiável no Ribeirão da Ilha",
       "category": "pronto-para-morar",
       "city": "florianopolis",
@@ -544,7 +544,7 @@
     },
     {
       "id": 18083,
-      "slug": "infinity-residence-ingleses-ingleses-do-rio-vermelho-florianopolis-sc",
+      "slug": "infinity-residence-ingleses-do-rio-vermelho-florianopolis-sc",
       "title": "Infinity Residence- Ingleses, Florianópolis",
       "category": "lancamento",
       "city": "florianopolis",
@@ -566,7 +566,7 @@
     },
     {
       "id": 18691,
-      "slug": "3-dormitorios-estreito-florianopolis-sc",
+      "slug": "dormitorios-estreito-florianopolis-sc",
       "title": "Apartamento semimobiliado, 3 dormitórios, sacada e vaga de garagem, Estreito",
       "category": "pronto-para-morar",
       "city": "florianopolis",
@@ -753,7 +753,7 @@
     },
     {
       "id": 23579,
-      "slug": "lagoa-spot-lagoa-da-conceicao-florianopolis-sc-23579",
+      "slug": "lagoa-spot-lagoa-da-conceicao-florianopolis-sc-a",
       "title": "Lagoa Spot, Lagoa da Conceição",
       "category": "pronto-para-morar",
       "city": "florianopolis",
@@ -764,7 +764,7 @@
     },
     {
       "id": 22293,
-      "slug": "b7-essence-praia-brava-florianopolis-sc",
+      "slug": "b-essence-praia-brava-florianopolis-sc",
       "title": "B7 Essence, Praia Brava",
       "category": "lancamento",
       "city": "florianopolis",
@@ -808,7 +808,7 @@
     },
     {
       "id": 9355,
-      "slug": "urban-centro-florianopolis-sc-7321",
+      "slug": "urban-centro-florianopolis-sc-alto-padrao",
       "title": "Urban, Centro, Florianópolis",
       "category": "lancamento",
       "city": "florianopolis",
@@ -885,7 +885,7 @@
     },
     {
       "id": 14897,
-      "slug": "b7-sunset-home-santo-antonio-de-lisboa-florianopolis-sc",
+      "slug": "b-sunset-home-santo-antonio-de-lisboa-florianopolis-sc",
       "title": "B7 Sunset Home, Santo Antônio de Lisboa",
       "category": "lancamento",
       "city": "florianopolis",
@@ -951,7 +951,7 @@
     },
     {
       "id": 21833,
-      "slug": "campeche-spot-campeche-florianopolis-sc-21833",
+      "slug": "campeche-spot-campeche-florianopolis-sc-praia",
       "title": "Novo Campeche Spot",
       "category": "lancamento",
       "city": "florianopolis",
@@ -1006,7 +1006,7 @@
     },
     {
       "id": 12556,
-      "slug": "edificio-santa-4-santa-monica-florianopolis-sc",
+      "slug": "edificio-santa-monica-florianopolis-sc",
       "title": "Edifício SANTA 4, Santa Mônica",
       "category": "lancamento",
       "city": "florianopolis",
@@ -1072,7 +1072,7 @@
     },
     {
       "id": 5743,
-      "slug": "wall-134-trindade-florianopolis-sc",
+      "slug": "wall-trindade-florianopolis-sc",
       "title": "Wall 134, Trindade",
       "category": "lancamento",
       "city": "florianopolis",
@@ -1270,7 +1270,7 @@
     }
   ],
   "pricesFixedAt": "2026-05-30T19:23:23.159Z",
-  "slugsMigratedAt": "2026-05-30T21:48:33.962Z",
+  "slugsMigratedAt": "2026-05-31T18:41:54.191Z",
   "titlesCleanedAt": "2026-05-30T21:47:52.945Z",
   "prunedAt": "2026-05-30T22:18:06.301Z"
 }

@@ -5,7 +5,7 @@
     "slug": "florianopolis",
     "name": "Florianópolis"
   },
-  "generatedAt": "2026-05-31T01:08:01.874Z",
+  "generatedAt": "2026-05-31T18:41:54.266Z",
   "total": 5,
   "properties": [
     {
@@ -18,13 +18,13 @@
       "thumbnail": "imoveis/adore-cacupe-florianopolis-sc/images/01-1-20.jpg"
     },
     {
-      "slug": "cacupe-4-nautico-residence-cacupe-florianopolis-sc",
+      "slug": "cacupe-nautico-residence-cacupe-florianopolis-sc",
       "id": 23159,
       "title": "Cacupé 4 Náutico Residence, Florianópolis",
       "category": "lancamento",
       "price": 1055000,
-      "dataPath": "imoveis/cacupe-4-nautico-residence-cacupe-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/cacupe-4-nautico-residence-cacupe-florianopolis-sc/images/01-Captura-de-tela-2026-01-10-102327.png"
+      "dataPath": "imoveis/cacupe-nautico-residence-cacupe-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/cacupe-nautico-residence-cacupe-florianopolis-sc/images/01-Captura-de-tela-2026-01-10-102327.png"
     },
     {
       "slug": "miragio-cacupe-florianopolis-sc",

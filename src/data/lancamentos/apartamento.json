@@ -1,8 +1,8 @@
 {
   "kind": "apartamento",
   "name": "Apartamentos",
-  "generatedAt": "2026-05-31T00:56:10.327Z",
-  "total": 81,
+  "generatedAt": "2026-05-31T18:41:54.331Z",
+  "total": 80,
   "properties": [
     {
       "slug": "jurere-beach-spot-jurere-florianopolis-sc",
@@ -57,7 +57,7 @@
       "city": "florianopolis",
       "price": 310000,
       "dataPath": "imoveis/campeche-spot-campeche-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/campeche-spot-campeche-florianopolis-sc/images/01-CAM-0003-2.jpg"
+      "thumbnail": "imoveis/campeche-spot-campeche-florianopolis-sc/images/01-Terreno-para-mar-01-sem-pin-1-scaled.jpg"
     },
     {
       "slug": "campeche-spot-ii-campeche-florianopolis-sc",
@@ -126,17 +126,6 @@
       "thumbnail": "imoveis/florianopolis-trindade-florianopolis-sc/images/01-original_09491e4d3b10283280d9273f60e52644.jpg"
     },
     {
-      "slug": "ingleses-florianopolis-sc",
-      "id": 14741,
-      "title": "Apartamento a 100 metros da Praia, Ingleses",
-      "category": "lancamento",
-      "kind": "apartamento",
-      "city": "florianopolis",
-      "price": 409000,
-      "dataPath": "imoveis/ingleses-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/ingleses-florianopolis-sc/images/01-1-2_edited-1.avif"
-    },
-    {
       "slug": "centro-florianopolis-sc",
       "id": 5807,
       "title": "Apartamento com 2 quartos, sacada e 1 vaga de garagem, Centro, Florianópolis",
@@ -203,15 +192,15 @@
       "thumbnail": "imoveis/florianopolis-estreito-florianopolis-sc/images/01-i3d7x25_11414961702ac2eb650.jpg"
     },
     {
-      "slug": "3-dormitorios-estreito-florianopolis-sc",
+      "slug": "dormitorios-estreito-florianopolis-sc",
       "id": 18691,
       "title": "Apartamento semimobiliado, 3 dormitórios, sacada e vaga de garagem, Estreito",
       "category": "pronto-para-morar",
       "kind": "apartamento",
       "city": "florianopolis",
       "price": 800000,
-      "dataPath": "imoveis/3-dormitorios-estreito-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/3-dormitorios-estreito-florianopolis-sc/images/01-original_94dbf20423deb347f240a05c6df98309-1.jpg"
+      "dataPath": "imoveis/dormitorios-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/dormitorios-estreito-florianopolis-sc/images/01-original_94dbf20423deb347f240a05c6df98309-1.jpg"
     },
     {
       "slug": "rua-bocaiuva-centro-florianopolis-sc",
@@ -258,37 +247,37 @@
       "thumbnail": "imoveis/aura-agronomica-florianopolis-sc/images/01-Captura-de-tela-2025-08-09-121857.jpg"
     },
     {
-      "slug": "b7-essence-praia-brava-florianopolis-sc",
+      "slug": "b-essence-praia-brava-florianopolis-sc",
       "id": 22293,
       "title": "B7 Essence, Praia Brava",
       "category": "lancamento",
       "kind": "apartamento",
       "city": "florianopolis",
       "price": 548000,
-      "dataPath": "imoveis/b7-essence-praia-brava-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/b7-essence-praia-brava-florianopolis-sc/images/01-Captura-de-tela-2025-12-08-152107.jpg"
+      "dataPath": "imoveis/b-essence-praia-brava-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/b-essence-praia-brava-florianopolis-sc/images/01-Captura-de-tela-2025-12-08-152107.jpg"
     },
     {
-      "slug": "b7-sunset-home-santo-antonio-de-lisboa-florianopolis-sc",
+      "slug": "b-sunset-home-santo-antonio-de-lisboa-florianopolis-sc",
       "id": 14897,
       "title": "B7 Sunset Home, Santo Antônio de Lisboa",
       "category": "lancamento",
       "kind": "apartamento",
       "city": "florianopolis",
       "price": 399000,
-      "dataPath": "imoveis/b7-sunset-home-santo-antonio-de-lisboa-florianopolis-sc/property.json",
+      "dataPath": "imoveis/b-sunset-home-santo-antonio-de-lisboa-florianopolis-sc/property.json",
       "thumbnail": null
     },
     {
-      "slug": "cacupe-4-nautico-residence-cacupe-florianopolis-sc",
+      "slug": "cacupe-nautico-residence-cacupe-florianopolis-sc",
       "id": 23159,
       "title": "Cacupé 4 Náutico Residence, Florianópolis",
       "category": "lancamento",
       "kind": "apartamento",
       "city": "florianopolis",
       "price": 1055000,
-      "dataPath": "imoveis/cacupe-4-nautico-residence-cacupe-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/cacupe-4-nautico-residence-cacupe-florianopolis-sc/images/01-Captura-de-tela-2026-01-10-102327.png"
+      "dataPath": "imoveis/cacupe-nautico-residence-cacupe-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/cacupe-nautico-residence-cacupe-florianopolis-sc/images/01-Captura-de-tela-2026-01-10-102327.png"
     },
     {
       "slug": "canasvieiras-spot-canasvieiras-florianopolis-sc",
@@ -412,15 +401,15 @@
       "thumbnail": "imoveis/edificio-saint-humbert-residence-ingleses-florianopolis-sc/images/01-1-2.jpg"
     },
     {
-      "slug": "edificio-santa-4-santa-monica-florianopolis-sc",
+      "slug": "edificio-santa-monica-florianopolis-sc",
       "id": 12556,
       "title": "Edifício SANTA 4, Santa Mônica",
       "category": "lancamento",
       "kind": "apartamento",
       "city": "florianopolis",
       "price": 321000,
-      "dataPath": "imoveis/edificio-santa-4-santa-monica-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/edificio-santa-4-santa-monica-florianopolis-sc/images/01-33.jpg"
+      "dataPath": "imoveis/edificio-santa-monica-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/edificio-santa-monica-florianopolis-sc/images/01-33.jpg"
     },
     {
       "slug": "exclusivo-estreito-florianopolis-sc",
@@ -500,15 +489,15 @@
       "thumbnail": "imoveis/ilha-do-campeche-ii-campeche-florianopolis-sc/images/01-Copia-de-Imagem-de-drone-1.png"
     },
     {
-      "slug": "infinity-residence-ingleses-ingleses-do-rio-vermelho-florianopolis-sc",
+      "slug": "infinity-residence-ingleses-do-rio-vermelho-florianopolis-sc",
       "id": 18083,
       "title": "Infinity Residence- Ingleses, Florianópolis",
       "category": "lancamento",
       "kind": "apartamento",
       "city": "florianopolis",
       "price": 807000,
-      "dataPath": "imoveis/infinity-residence-ingleses-ingleses-do-rio-vermelho-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/infinity-residence-ingleses-ingleses-do-rio-vermelho-florianopolis-sc/images/01-7-2.jpg"
+      "dataPath": "imoveis/infinity-residence-ingleses-do-rio-vermelho-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/infinity-residence-ingleses-do-rio-vermelho-florianopolis-sc/images/01-7-2.jpg"
     },
     {
       "slug": "ingleses-spot-ingleses-florianopolis-sc",
@@ -577,15 +566,15 @@
       "thumbnail": "imoveis/lagoa-spot-lagoa-da-conceicao-florianopolis-sc/images/01-Ambiente-27.11.25-007-scaled.jpg"
     },
     {
-      "slug": "lagoa-spot-lagoa-da-conceicao-florianopolis-sc-23579",
+      "slug": "lagoa-spot-lagoa-da-conceicao-florianopolis-sc-a",
       "id": 23579,
       "title": "Lagoa Spot, Lagoa da Conceição",
       "category": "pronto-para-morar",
       "kind": "apartamento",
       "city": "florianopolis",
       "price": 563000,
-      "dataPath": "imoveis/lagoa-spot-lagoa-da-conceicao-florianopolis-sc-23579/property.json",
-      "thumbnail": "imoveis/lagoa-spot-lagoa-da-conceicao-florianopolis-sc-23579/images/01-Ambiente-27.11.25-007-scaled.jpg"
+      "dataPath": "imoveis/lagoa-spot-lagoa-da-conceicao-florianopolis-sc-a/property.json",
+      "thumbnail": "imoveis/lagoa-spot-lagoa-da-conceicao-florianopolis-sc-a/images/01-Ambiente-27.11.25-007-scaled.jpg"
     },
     {
       "slug": "level-up-cachoeira-do-bom-jesus-florianopolis-sc",
@@ -676,15 +665,15 @@
       "thumbnail": "imoveis/mirante-dos-corais-coqueiros-florianopolis-sc/images/01-Externo-Vista-de-Passaro.jpg"
     },
     {
-      "slug": "campeche-spot-campeche-florianopolis-sc-21833",
+      "slug": "campeche-spot-campeche-florianopolis-sc-praia",
       "id": 21833,
       "title": "Novo Campeche Spot",
       "category": "lancamento",
       "kind": "apartamento",
       "city": "florianopolis",
       "price": 359000,
-      "dataPath": "imoveis/campeche-spot-campeche-florianopolis-sc-21833/property.json",
-      "thumbnail": "imoveis/campeche-spot-campeche-florianopolis-sc-21833/images/01-Terreno-para-mar-01-sem-pin-1-scaled.jpg"
+      "dataPath": "imoveis/campeche-spot-campeche-florianopolis-sc-praia/property.json",
+      "thumbnail": "imoveis/campeche-spot-campeche-florianopolis-sc-praia/images/01-CAM-0003-2.jpg"
     },
     {
       "slug": "oceanic-residence-ingleses-florianopolis-sc",
@@ -863,15 +852,15 @@
       "thumbnail": "imoveis/urban-centro-florianopolis-sc/images/01-eeee47a5a088efb1c729e104f5b8f26e.jpg"
     },
     {
-      "slug": "urban-centro-florianopolis-sc-7321",
+      "slug": "urban-centro-florianopolis-sc-alto-padrao",
       "id": 9355,
       "title": "Urban, Centro, Florianópolis",
       "category": "lancamento",
       "kind": "apartamento",
       "city": "florianopolis",
       "price": 468000,
-      "dataPath": "imoveis/urban-centro-florianopolis-sc-7321/property.json",
-      "thumbnail": "imoveis/urban-centro-florianopolis-sc-7321/images/01-Haus-Arquitetos-Urban_04.jpg"
+      "dataPath": "imoveis/urban-centro-florianopolis-sc-alto-padrao/property.json",
+      "thumbnail": "imoveis/urban-centro-florianopolis-sc-alto-padrao/images/01-Haus-Arquitetos-Urban_04.jpg"
     },
     {
       "slug": "viel-spab-ingleses-florianopolis-sc",

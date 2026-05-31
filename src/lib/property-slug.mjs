@@ -677,6 +677,68 @@ function removeRepeatedSlugSequence(slug) {
 	return tokens.join('-');
 }
 
+export function sanitizeSlugWithoutDigits(slug) {
+	const sanitized = slug
+		.split('-')
+		.map((part) => part.replace(/\d+/g, '').replace(/^-+|-+$/g, ''))
+		.filter(Boolean);
+
+	return removeRepeatedSlugSequence(
+		dedupeSlugParts(sanitized)
+			.join('-')
+			.replace(/-{2,}/g, '-')
+			.replace(/^-+|-+$/g, ''),
+	);
+}
+
+function extractDisambiguationCandidates(property) {
+	const title = String(property.title || '').toLowerCase();
+	const candidates = [];
+
+	if (/\bsobrado\b/.test(title)) {
+		candidates.push('sobrado');
+	}
+
+	if (/\bapartament/.test(title)) {
+		candidates.push('apartamento');
+	}
+
+	if (/\bcasa\b/.test(title)) {
+		candidates.push('casa');
+	}
+
+	if (/\bnovo\b|\bnova\b/.test(title)) {
+		candidates.push('novo');
+	}
+
+	if (/alto\s+padr/.test(title)) {
+		candidates.push('alto-padrao');
+	}
+
+	if (/condom[ií]nio/.test(title)) {
+		candidates.push('condominio');
+	}
+
+	if (/\b100\s*metros\b|\b100m\b|\b250m\b|\bpraia\b/.test(title)) {
+		candidates.push('praia');
+	}
+
+	return [...new Set(candidates)];
+}
+
+function buildLetterSuffix(index) {
+	const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+	let value = index;
+	let suffix = '';
+
+	do {
+		suffix = alphabet[value % alphabet.length] + suffix;
+		value = Math.floor(value / alphabet.length) - 1;
+	} while (value >= 0);
+
+	return suffix;
+}
+
 export function buildPropertySlug(property) {
 	const cityName = resolveCityName(property);
 	const empreendimentoName = extractEmpreendimentoName(property, cityName, '');
@@ -689,27 +751,35 @@ export function buildPropertySlug(property) {
 
 	const parts = dedupeSlugParts([nameSlug, neighborhoodSlug, citySlug, stateSlug].filter(Boolean));
 
-	return removeRepeatedSlugSequence(parts.join('-').replace(/-{2,}/g, '-'));
+	return sanitizeSlugWithoutDigits(
+		removeRepeatedSlugSequence(parts.join('-').replace(/-{2,}/g, '-')),
+	);
 }
 
-export function ensureUniquePropertySlug(baseSlug, usedSlugs, propertyId) {
-	let candidate = baseSlug;
+export function ensureUniquePropertySlug(baseSlug, usedSlugs, property = null) {
+	const normalizedBase = sanitizeSlugWithoutDigits(baseSlug);
 
-	if (!usedSlugs.has(candidate)) {
-		return candidate;
+	if (!usedSlugs.has(normalizedBase)) {
+		return normalizedBase;
 	}
 
-	if (propertyId != null) {
-		candidate = `${baseSlug}-${propertyId}`;
-		if (!usedSlugs.has(candidate)) {
+	if (property) {
+		for (const token of extractDisambiguationCandidates(property)) {
+			const candidate = sanitizeSlugWithoutDigits(`${normalizedBase}-${token}`);
+
+			if (candidate && !usedSlugs.has(candidate)) {
+				return candidate;
+			}
+		}
+	}
+
+	for (let index = 0; index < 26 * 26; index += 1) {
+		const candidate = sanitizeSlugWithoutDigits(`${normalizedBase}-${buildLetterSuffix(index)}`);
+
+		if (candidate && !usedSlugs.has(candidate)) {
 			return candidate;
 		}
 	}
 
-	let suffix = 2;
-	while (usedSlugs.has(`${baseSlug}-${suffix}`)) {
-		suffix += 1;
-	}
-
-	return `${baseSlug}-${suffix}`;
+	throw new Error(`Não foi possível gerar slug única para ${normalizedBase}`);
 }

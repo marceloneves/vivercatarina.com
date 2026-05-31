@@ -26,7 +26,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://florianopolis.vivercatarina.com/imovel/frances-11-em-condominio-fechado-em-rio-vermelho-florianopolis-sc</loc>
+    <loc>https://florianopolis.vivercatarina.com/imovel/frances-em-condominio-fechado-em-rio-vermelho-florianopolis-sc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -161,7 +161,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://florianopolis.vivercatarina.com/imovel/cacupe-4-nautico-residence-cacupe-florianopolis-sc</loc>
+    <loc>https://florianopolis.vivercatarina.com/imovel/cacupe-nautico-residence-cacupe-florianopolis-sc</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://florianopolis.vivercatarina.com/imovel/ingleses-florianopolis-sc-apartamento</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -191,7 +196,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://florianopolis.vivercatarina.com/imovel/florianopolis-ribeirao-da-ilha-florianopolis-sc-5541</loc>
+    <loc>https://florianopolis.vivercatarina.com/imovel/florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -226,7 +231,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://florianopolis.vivercatarina.com/imovel/infinity-residence-ingleses-ingleses-do-rio-vermelho-florianopolis-sc</loc>
+    <loc>https://florianopolis.vivercatarina.com/imovel/infinity-residence-ingleses-do-rio-vermelho-florianopolis-sc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -236,7 +241,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://florianopolis.vivercatarina.com/imovel/3-dormitorios-estreito-florianopolis-sc</loc>
+    <loc>https://florianopolis.vivercatarina.com/imovel/dormitorios-estreito-florianopolis-sc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -316,12 +321,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://florianopolis.vivercatarina.com/imovel/lagoa-spot-lagoa-da-conceicao-florianopolis-sc-23579</loc>
+    <loc>https://florianopolis.vivercatarina.com/imovel/lagoa-spot-lagoa-da-conceicao-florianopolis-sc-a</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://florianopolis.vivercatarina.com/imovel/b7-essence-praia-brava-florianopolis-sc</loc>
+    <loc>https://florianopolis.vivercatarina.com/imovel/b-essence-praia-brava-florianopolis-sc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -341,7 +346,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://florianopolis.vivercatarina.com/imovel/urban-centro-florianopolis-sc-7321</loc>
+    <loc>https://florianopolis.vivercatarina.com/imovel/urban-centro-florianopolis-sc-alto-padrao</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -371,12 +376,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://florianopolis.vivercatarina.com/imovel/ingleses-florianopolis-sc</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://florianopolis.vivercatarina.com/imovel/b7-sunset-home-santo-antonio-de-lisboa-florianopolis-sc</loc>
+    <loc>https://florianopolis.vivercatarina.com/imovel/b-sunset-home-santo-antonio-de-lisboa-florianopolis-sc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -406,7 +406,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://florianopolis.vivercatarina.com/imovel/campeche-spot-campeche-florianopolis-sc-21833</loc>
+    <loc>https://florianopolis.vivercatarina.com/imovel/campeche-spot-campeche-florianopolis-sc-praia</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -431,7 +431,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://florianopolis.vivercatarina.com/imovel/edificio-santa-4-santa-monica-florianopolis-sc</loc>
+    <loc>https://florianopolis.vivercatarina.com/imovel/edificio-santa-monica-florianopolis-sc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -461,7 +461,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://florianopolis.vivercatarina.com/imovel/wall-134-trindade-florianopolis-sc</loc>
+    <loc>https://florianopolis.vivercatarina.com/imovel/wall-trindade-florianopolis-sc</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

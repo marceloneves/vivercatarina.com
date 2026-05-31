@@ -5,7 +5,7 @@
     "slug": "florianopolis",
     "name": "Florianópolis"
   },
-  "generatedAt": "2026-05-31T01:08:01.875Z",
+  "generatedAt": "2026-05-31T18:41:54.267Z",
   "total": 11,
   "properties": [
     {
@@ -99,13 +99,13 @@
       "thumbnail": "imoveis/urban-centro-florianopolis-sc/images/01-eeee47a5a088efb1c729e104f5b8f26e.jpg"
     },
     {
-      "slug": "urban-centro-florianopolis-sc-7321",
+      "slug": "urban-centro-florianopolis-sc-alto-padrao",
       "id": 9355,
       "title": "Urban, Centro, Florianópolis",
       "category": "lancamento",
       "price": 468000,
-      "dataPath": "imoveis/urban-centro-florianopolis-sc-7321/property.json",
-      "thumbnail": "imoveis/urban-centro-florianopolis-sc-7321/images/01-Haus-Arquitetos-Urban_04.jpg"
+      "dataPath": "imoveis/urban-centro-florianopolis-sc-alto-padrao/property.json",
+      "thumbnail": "imoveis/urban-centro-florianopolis-sc-alto-padrao/images/01-Haus-Arquitetos-Urban_04.jpg"
     }
   ]
 }

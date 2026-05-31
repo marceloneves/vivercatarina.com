@@ -5,7 +5,7 @@
     "slug": "florianopolis",
     "name": "Florianópolis"
   },
-  "generatedAt": "2026-05-31T01:08:01.878Z",
+  "generatedAt": "2026-05-31T18:41:54.269Z",
   "total": 5,
   "properties": [
     {
@@ -18,12 +18,12 @@
       "thumbnail": "imoveis/allameda-santo-antonio-de-lisboa-florianopolis-sc/images/01-Capturar4-5.jpg"
     },
     {
-      "slug": "b7-sunset-home-santo-antonio-de-lisboa-florianopolis-sc",
+      "slug": "b-sunset-home-santo-antonio-de-lisboa-florianopolis-sc",
       "id": 14897,
       "title": "B7 Sunset Home, Santo Antônio de Lisboa",
       "category": "lancamento",
       "price": 399000,
-      "dataPath": "imoveis/b7-sunset-home-santo-antonio-de-lisboa-florianopolis-sc/property.json",
+      "dataPath": "imoveis/b-sunset-home-santo-antonio-de-lisboa-florianopolis-sc/property.json",
       "thumbnail": null
     },
     {

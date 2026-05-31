@@ -1,0 +1,107 @@
+{
+  "id": 5541,
+  "slug": "florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado",
+  "title": "Sobrado em Condomínio, novo e financiável no Ribeirão da Ilha",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$895,000",
+    "amount": 895000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Servidão José Marcelino da Silva Filho",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ribeirao-da-ilha",
+      "name": "Ribeirão da Ilha"
+    }
+  },
+  "overview": {
+    "code": "1006",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "garages": 1,
+    "sizeSqm": 133.612,
+    "deliveryYear": null
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [],
+  "labels": [],
+  "featureSlugs": [],
+  "features": [],
+  "descriptionHtml": "<p><strong>Unidades a partir de R$ 895.000,00</strong></p>\n<p>Entrada + financiamento</p>\n<p>3 dormitórios sendo 1 suíte, área de 133,61m², pronta para morar!</p>\n<p><strong>Casa/Sobrado Novo em Condomínio à Venda no Ribeirão da Ilha, Florianópolis</strong></p>\n<p>Sobrado novo, pronto para morar, localizado em um condomínio exclusivo dentro de um loteamento tranquilo no Ribeirão da Ilha, Florianópolis. Com escritura pública e financiamento disponível, o imóvel conta com 3 dormitórios, sendo 1 deles suíte e os outros 2 quartos demi suítes, lavabo, churrasqueira e um  pátio externo nos fundos.</p>\n<p>Construído por uma construtora sólida, com vasta experiência e diversos imóveis já entregues e em construção, esta casa é perfeita para quem busca conforto, segurança e qualidade de vida em uma das regiões mais tranquilas da cidade.</p>\n<p>Confira!</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio</em></li>\n<li><em>Condições de pagamento flexível</em></li>\n<li><em>Valores atualizados em 02/03/2026</em></li>\n</ul>",
+  "floorPlans": [
+    {
+      "title": "Térreo",
+      "image": "images/10-planta-1-1.jpg"
+    },
+    {
+      "title": "Segundo piso",
+      "image": "images/11-planta-2-1.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-634466440882855.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-881445377761682.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-890416251148724.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-890455010862948-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-891461378854486.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-899433251110958.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-895484854559969.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-898450250237978.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-899474374105777.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-planta-1-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-planta-2-1.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado/",
+  "importedAt": "2026-05-30T18:42:52.176Z",
+  "kind": "loteamento"
+}

@@ -5,7 +5,7 @@
     "slug": "florianopolis",
     "name": "Florianópolis"
   },
-  "generatedAt": "2026-05-31T01:08:01.877Z",
+  "generatedAt": "2026-05-31T18:41:54.268Z",
   "total": 5,
   "properties": [
     {
@@ -36,13 +36,13 @@
       "thumbnail": "imoveis/alto-ribeirao-ii-ribeirao-da-ilha-florianopolis-sc/images/01-WhatsApp-Image-2025-04-30-at-10.42.18-1-2.jpeg"
     },
     {
-      "slug": "florianopolis-ribeirao-da-ilha-florianopolis-sc-5541",
+      "slug": "florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado",
       "id": 5541,
       "title": "Sobrado em Condomínio, novo e financiável no Ribeirão da Ilha",
       "category": "pronto-para-morar",
       "price": 895000,
-      "dataPath": "imoveis/florianopolis-ribeirao-da-ilha-florianopolis-sc-5541/property.json",
-      "thumbnail": "imoveis/florianopolis-ribeirao-da-ilha-florianopolis-sc-5541/images/01-634466440882855.jpg"
+      "dataPath": "imoveis/florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado/property.json",
+      "thumbnail": "imoveis/florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado/images/01-634466440882855.jpg"
     },
     {
       "slug": "village-sunset-ribeirao-da-ilha-florianopolis-sc",

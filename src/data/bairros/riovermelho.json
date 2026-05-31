@@ -5,7 +5,7 @@
     "slug": "florianopolis",
     "name": "Florianópolis"
   },
-  "generatedAt": "2026-05-31T01:08:01.877Z",
+  "generatedAt": "2026-05-31T18:41:54.268Z",
   "total": 4,
   "properties": [
     {
@@ -36,13 +36,13 @@
       "thumbnail": "imoveis/rio-vermelho-florianopolis-sc/images/01-1-8.jpg"
     },
     {
-      "slug": "frances-11-em-condominio-fechado-em-rio-vermelho-florianopolis-sc",
+      "slug": "frances-em-condominio-fechado-em-rio-vermelho-florianopolis-sc",
       "id": 25749,
       "title": "Francês 11- Casa em condomínio fechado em Florianópolis",
       "category": "pronto-para-morar",
       "price": 2600000,
-      "dataPath": "imoveis/frances-11-em-condominio-fechado-em-rio-vermelho-florianopolis-sc/property.json",
-      "thumbnail": "imoveis/frances-11-em-condominio-fechado-em-rio-vermelho-florianopolis-sc/images/01-Foto-01-1-scaled.jpg"
+      "dataPath": "imoveis/frances-em-condominio-fechado-em-rio-vermelho-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/frances-em-condominio-fechado-em-rio-vermelho-florianopolis-sc/images/01-Foto-01-1-scaled.jpg"
     }
   ]
 }

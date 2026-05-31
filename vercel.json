@@ -1,19 +1,169 @@
 {
-	"redirects": [
-		{
-			"source": "/sitemap-static.xml",
-			"destination": "/sitemap-pages.xml",
-			"permanent": true
-		},
-		{
-			"source": "/sitemap-bairros.xml",
-			"destination": "/sitemap-pages.xml",
-			"permanent": true
-		},
-		{
-			"source": "/sitemap-lancamentos.xml",
-			"destination": "/sitemap-pages.xml",
-			"permanent": true
-		}
-	]
+  "redirects": [
+    {
+      "source": "/sitemap-static.xml",
+      "destination": "/sitemap-pages.xml",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap-bairros.xml",
+      "destination": "/sitemap-pages.xml",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap-lancamentos.xml",
+      "destination": "/sitemap-pages.xml",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/frances-11-em-condominio-fechado-em-rio-vermelho-florianopolis-sc",
+      "destination": "/imovel/frances-em-condominio-fechado-em-rio-vermelho-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/property/frances-11-em-condominio-fechado-em-rio-vermelho-florianopolis-sc",
+      "destination": "/imovel/frances-em-condominio-fechado-em-rio-vermelho-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/cacupe-4-nautico-residence-cacupe-florianopolis-sc",
+      "destination": "/imovel/cacupe-nautico-residence-cacupe-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/property/cacupe-4-nautico-residence-cacupe-florianopolis-sc",
+      "destination": "/imovel/cacupe-nautico-residence-cacupe-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/ingleses-florianopolis-sc-22917",
+      "destination": "/imovel/ingleses-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/property/ingleses-florianopolis-sc-22917",
+      "destination": "/imovel/ingleses-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/florianopolis-ribeirao-da-ilha-florianopolis-sc-5541",
+      "destination": "/imovel/florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado",
+      "permanent": true
+    },
+    {
+      "source": "/property/florianopolis-ribeirao-da-ilha-florianopolis-sc-5541",
+      "destination": "/imovel/florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/infinity-residence-ingleses-ingleses-do-rio-vermelho-florianopolis-sc",
+      "destination": "/imovel/infinity-residence-ingleses-do-rio-vermelho-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/property/infinity-residence-ingleses-ingleses-do-rio-vermelho-florianopolis-sc",
+      "destination": "/imovel/infinity-residence-ingleses-do-rio-vermelho-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/3-dormitorios-estreito-florianopolis-sc",
+      "destination": "/imovel/dormitorios-estreito-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/property/3-dormitorios-estreito-florianopolis-sc",
+      "destination": "/imovel/dormitorios-estreito-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/lagoa-spot-lagoa-da-conceicao-florianopolis-sc-23579",
+      "destination": "/imovel/lagoa-spot-lagoa-da-conceicao-florianopolis-sc-a",
+      "permanent": true
+    },
+    {
+      "source": "/property/lagoa-spot-lagoa-da-conceicao-florianopolis-sc-23579",
+      "destination": "/imovel/lagoa-spot-lagoa-da-conceicao-florianopolis-sc-a",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/b7-essence-praia-brava-florianopolis-sc",
+      "destination": "/imovel/b-essence-praia-brava-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/property/b7-essence-praia-brava-florianopolis-sc",
+      "destination": "/imovel/b-essence-praia-brava-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/urban-centro-florianopolis-sc-7321",
+      "destination": "/imovel/urban-centro-florianopolis-sc-alto-padrao",
+      "permanent": true
+    },
+    {
+      "source": "/property/urban-centro-florianopolis-sc-7321",
+      "destination": "/imovel/urban-centro-florianopolis-sc-alto-padrao",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/ingleses-florianopolis-sc",
+      "destination": "/imovel/ingleses-florianopolis-sc-apartamento",
+      "permanent": true
+    },
+    {
+      "source": "/property/ingleses-florianopolis-sc",
+      "destination": "/imovel/ingleses-florianopolis-sc-apartamento",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/b7-sunset-home-santo-antonio-de-lisboa-florianopolis-sc",
+      "destination": "/imovel/b-sunset-home-santo-antonio-de-lisboa-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/property/b7-sunset-home-santo-antonio-de-lisboa-florianopolis-sc",
+      "destination": "/imovel/b-sunset-home-santo-antonio-de-lisboa-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/campeche-spot-campeche-florianopolis-sc-21833",
+      "destination": "/imovel/campeche-spot-campeche-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/property/campeche-spot-campeche-florianopolis-sc-21833",
+      "destination": "/imovel/campeche-spot-campeche-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/edificio-santa-4-santa-monica-florianopolis-sc",
+      "destination": "/imovel/edificio-santa-monica-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/property/edificio-santa-4-santa-monica-florianopolis-sc",
+      "destination": "/imovel/edificio-santa-monica-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/campeche-spot-campeche-florianopolis-sc",
+      "destination": "/imovel/campeche-spot-campeche-florianopolis-sc-praia",
+      "permanent": true
+    },
+    {
+      "source": "/property/campeche-spot-campeche-florianopolis-sc",
+      "destination": "/imovel/campeche-spot-campeche-florianopolis-sc-praia",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/wall-134-trindade-florianopolis-sc",
+      "destination": "/imovel/wall-trindade-florianopolis-sc",
+      "permanent": true
+    },
+    {
+      "source": "/property/wall-134-trindade-florianopolis-sc",
+      "destination": "/imovel/wall-trindade-florianopolis-sc",
+      "permanent": true
+    }
+  ]
 }

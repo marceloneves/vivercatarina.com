@@ -307,7 +307,7 @@ function main() {
 			continue;
 		}
 
-		const slug = ensureUniquePropertySlug(buildPropertySlug(parsed), usedSlugs, parsed.id);
+		const slug = ensureUniquePropertySlug(buildPropertySlug(parsed), usedSlugs, parsed);
 		usedSlugs.add(slug);
 		parsed.slug = slug;
 
