@@ -1,0 +1,19 @@
+{
+	"redirects": [
+		{
+			"source": "/sitemap-static.xml",
+			"destination": "/sitemap-pages.xml",
+			"permanent": true
+		},
+		{
+			"source": "/sitemap-bairros.xml",
+			"destination": "/sitemap-pages.xml",
+			"permanent": true
+		},
+		{
+			"source": "/sitemap-lancamentos.xml",
+			"destination": "/sitemap-pages.xml",
+			"permanent": true
+		}
+	]
+}
