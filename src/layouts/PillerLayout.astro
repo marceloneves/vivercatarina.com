@@ -129,6 +129,11 @@ const seo = resolvePageSeo({
 				color: #ffffff !important;
 			}
 
+			.footer-bairros-wrap > .widget_title,
+			.footer-cities-wrap > .widget_title {
+				text-transform: none;
+			}
+
 			.footer-cities-regions {
 				display: grid;
 				grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -151,7 +156,7 @@ const seo = resolvePageSeo({
 			.footer-cities-region-title,
 			.footer-bairros-region-title {
 				margin: 0 0 0.85rem;
-				font-size: 0.9375rem;
+				font-size: 1.0625rem;
 				font-weight: 700;
 				line-height: 1.3;
 				color: #ffffff !important;
@@ -284,9 +289,14 @@ const seo = resolvePageSeo({
 			}
 
 			.footer-all-widget-wrapper .footer-item-wrap .widget_title {
-				margin-bottom: 22px;
+				margin: 0 0 0.85rem;
+				padding: 0 0 0 30px;
+				max-width: none;
+				font-size: 1.0625rem;
+				font-weight: 700;
+				line-height: 1.3;
+				color: #ffffff !important;
 				position: relative;
-				padding-left: 30px;
 			}
 
 			.footer-all-widget-wrapper .footer-item-wrap .widget_title::before {

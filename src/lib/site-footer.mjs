@@ -11,6 +11,7 @@ import { patchFooterNavMenus } from './footer-nav.mjs';
 
 const dataRoot = join(process.cwd(), 'src/data');
 const FOOTER_NEIGHBORHOODS_MARKER = 'footer-bairros-section';
+const FOOTER_CITIES_TITLE = 'Cidades em Santa Catarina';
 
 export const FOOTER_DISCLAIMER =
 	'As informações e imagens divulgadas neste site são de caráter informativo e pertencem às respectivas incorporadoras. O atendimento é realizado por corretores credenciados e devidamente registrados no CRECI.';
@@ -165,6 +166,13 @@ function removeFooterNeighborhoodsSection(html) {
 		);
 }
 
+function patchFooterCitiesTitle(html) {
+	return html.replace(
+		/(<(?:section|div) class="footer-cities-section"[\s\S]*?<div class="footer-cities-wrap">\s*)<h3 class="widget_title">Cidades<\/h3>/,
+		`$1<h3 class="widget_title">${FOOTER_CITIES_TITLE}</h3>`,
+	);
+}
+
 function patchFooterNeighborhoodsSection(html) {
 	const section = buildFooterNeighborhoodsSectionHtml();
 	let output = removeFooterNeighborhoodsSection(html);
@@ -199,6 +207,7 @@ export function patchSiteFooter(html) {
 	output = patchGlossaryMenu(output);
 	output = patchFooterNavMenus(output);
 	output = patchFooterNeighborhoodsSection(output);
+	output = patchFooterCitiesTitle(output);
 
 	if (output.includes('footer-disclaimer')) {
 		output = output.replace(/<p class="footer-disclaimer">[\s\S]*?<\/p>/, FOOTER_DISCLAIMER_HTML);

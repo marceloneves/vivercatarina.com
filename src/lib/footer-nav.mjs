@@ -9,7 +9,7 @@ export const FOOTER_NAV_COLUMNS = [
 			{ label: 'Contato', href: '/contact' },
 			{ label: 'Política de Privacidade', href: '/privacidade' },
 			{ label: 'Termos e Condições', href: '/termos' },
-			{ label: 'Mapa do Site', href: '/mapa-do-site' },
+			{ label: 'Mapa do Site', href: '/sitemap-index.xml' },
 		],
 	},
 	{
