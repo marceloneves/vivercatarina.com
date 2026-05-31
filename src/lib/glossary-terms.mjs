@@ -18,6 +18,18 @@ export function getGlossaryGroupingLetter(term) {
 /** @type {Omit<GlossaryTermEntry, 'letter'>[]} */
 const CORE_GLOSSARY_TERMS = [
 	{
+		term: 'Alienação fiduciária',
+		slug: 'alienacao-fiduciaria',
+		definition:
+			'Modalidade de garantia em que o imóvel fica registrado em nome do banco até a quitação do financiamento. É a forma mais comum em contratos habitacionais na planta e difere da hipoteca tradicional.',
+	},
+	{
+		term: 'Alvará de construção',
+		slug: 'alvara-de-construcao',
+		definition:
+			'Licença emitida pela prefeitura que autoriza o início ou continuidade da obra. Empreendimento sem alvará regular não deve comercializar unidades com segurança jurídica plena.',
+	},
+	{
 		term: 'Alteração de planta',
 		slug: 'alteracao-de-planta',
 		definition:
@@ -42,6 +54,12 @@ const CORE_GLOSSARY_TERMS = [
 			'Metragem que pertence exclusivamente ao apartamento, incluindo ambientes internos e, conforme o memorial, varanda e vagas atribuídas. É a base usual para precificação do imóvel.',
 	},
 	{
+		term: 'Atraso na entrega',
+		slug: 'atraso-na-entrega',
+		definition:
+			'Quando a construtora não entrega o empreendimento na data prevista no contrato. Pode haver prazo de tolerância, multa, indenização ou resolução do contrato, conforme cláusulas e legislação.',
+	},
+	{
 		term: 'Assinatura do contrato',
 		slug: 'assinatura-do-contrato',
 		definition:
@@ -54,10 +72,22 @@ const CORE_GLOSSARY_TERMS = [
 			'Parcela inicial paga no ato da compra, também chamada de sinal ou entrada. Confirma a reserva da unidade e costuma ser descontada do valor total do imóvel.',
 	},
 	{
+		term: 'Book digital do empreendimento',
+		slug: 'book-digital-do-empreendimento',
+		definition:
+			'Repositório online obrigatório com documentos do empreendimento em incorporação: memorial, plantas, cronograma, evolução de obra e alterações. Deve ser acessível ao comprador durante toda a comercialização e execução da obra.',
+	},
+	{
 		term: 'Box de depósito',
 		slug: 'box-de-deposito',
 		definition:
 			'Espaço auxiliar vinculado ao apartamento para guardar objetos. Pode ser negociado junto com a unidade e aparece no contrato com metragem e número próprios.',
+	},
+	{
+		term: 'Carta de crédito',
+		slug: 'carta-de-credito',
+		definition:
+			'Documento emitido pelo banco com valor e prazo pré-aprovados para financiamento imobiliário. Ajuda o comprador a saber quanto pode pagar antes de reservar unidade na planta.',
 	},
 	{
 		term: 'Carência de parcelas',
@@ -70,6 +100,18 @@ const CORE_GLOSSARY_TERMS = [
 		slug: 'chaves-na-mao',
 		definition:
 			'Modalidade de pagamento em que o saldo principal só é quitado na entrega do imóvel pronto. É comum em empreendimentos na planta com parcelamento direto com a construtora.',
+	},
+	{
+		term: 'Convenção de condomínio',
+		slug: 'convencao-de-condominio',
+		definition:
+			'Documento que rege a administração, uso das áreas comuns e direitos de cada unidade após a entrega do edifício. Complementa a instituição de condomínio e orienta regras de convivência e assembleias.',
+	},
+	{
+		term: 'Correção monetária',
+		slug: 'correcao-monetaria',
+		definition:
+			'Atualização do valor das parcelas conforme índice contratual, como INCC, IPCA ou IGP-M. Em imóveis na planta, impacta o saldo devedor entre a assinatura e a entrega das chaves.',
 	},
 	{
 		term: 'Comissão de corretagem',
@@ -144,6 +186,12 @@ const CORE_GLOSSARY_TERMS = [
 			'Percentual do terreno e das áreas comuns que corresponde a cada unidade no condomínio. Define a participação do proprietário em despesas coletivas e em decisões assembleares.',
 	},
 	{
+		term: 'Garden, cobertura e duplex',
+		slug: 'garden-cobertura-duplex',
+		definition:
+			'Tipologias especiais comuns em lançamentos: garden (térreo com área externa), cobertura (último pavimento, muitas vezes com terraço) e duplex (dois pavimentos internos). Costumam ter preço e metragem acima do padrão do andar.',
+	},
+	{
 		term: 'Garantia de conclusão da obra',
 		slug: 'garantia-de-conclusao-da-obra',
 		definition:
@@ -154,6 +202,12 @@ const CORE_GLOSSARY_TERMS = [
 		slug: 'habite-se',
 		definition:
 			'Documento emitido pela prefeitura que autoriza a ocupação do edifício após verificação de conformidade com o projeto aprovado. É requisito para moradia, financiamento final e registro em muitos casos.',
+	},
+	{
+		term: 'INCC (Índice Nacional de Custo da Construção)',
+		slug: 'incc',
+		definition:
+			'Índice que mede a variação de custos da construção civil no Brasil. É o reajuste mais usado em parcelas de imóveis na planta pagos diretamente à incorporadora durante a obra.',
 	},
 	{
 		term: 'Incorporação imobiliária',
@@ -174,6 +228,12 @@ const CORE_GLOSSARY_TERMS = [
 			'Documento que define a divisão do edifício em unidades autônomas e áreas comuns. Base para a convenção de condomínio e para o registro individual de cada apartamento.',
 	},
 	{
+		term: 'ITBI (Imposto sobre Transmissão de Bens Imóveis)',
+		slug: 'itbi',
+		definition:
+			'Imposto municipal pago na transferência de propriedade do imóvel, calculado sobre o valor venal ou de negociação. Entra no custo total na hora do registro, após habite-se e quitação contratual.',
+	},
+	{
 		term: 'IPTU',
 		slug: 'iptu',
 		definition:
@@ -190,6 +250,12 @@ const CORE_GLOSSARY_TERMS = [
 		slug: 'lei-do-distrato',
 		definition:
 			'Conjunto de regras que disciplina o desfazimento de contratos de compra de imóvel em incorporação. Estabelece prazos, percentuais de retenção e direitos do consumidor em caso de desistência.',
+	},
+	{
+		term: 'Memorial descritivo',
+		slug: 'memorial-descritivo',
+		definition:
+			'Documento que detalha materiais, acabamentos, equipamentos e padrão de entrega de cada unidade e área comum. Deve ser lido junto com a planta baixa antes de assinar o contrato na planta.',
 	},
 	{
 		term: 'Memorial de incorporação',
@@ -238,6 +304,18 @@ const CORE_GLOSSARY_TERMS = [
 		slug: 'tabela-price',
 		definition:
 			'Sistema de amortização de financiamento com parcelas inicialmente mais altas e composição gradual entre juros e principal. Comum em contratos bancários de imóvel na planta.',
+	},
+	{
+		term: 'Repasse bancário',
+		slug: 'repasse-bancario',
+		definition:
+			'Liberação do crédito imobiliário pelo banco conforme o avanço da obra. Cada repasse depende de vistoria do engenheiro e percentual mínimo de conclusão previsto no contrato de financiamento.',
+	},
+	{
+		term: 'Reserva de unidade',
+		slug: 'reserva-de-unidade',
+		definition:
+			'Etapa inicial da compra em que o comprador sinaliza interesse e bloqueia temporariamente a unidade. Antecede a proposta formal e a assinatura do contrato de promessa de compra e venda.',
 	},
 	{
 		term: 'Registro de incorporação',
@@ -304,6 +382,18 @@ const CORE_GLOSSARY_TERMS = [
 		slug: 'vaga-de-garagem',
 		definition:
 			'Espaço destinado ao estacionamento vinculado ao apartamento. Pode ser determinada, indeterminada, coberta ou descoberta, com regras descritas no memorial e no contrato.',
+	},
+	{
+		term: 'Vícios construtivos',
+		slug: 'vicios-construtivos',
+		definition:
+			'Defeitos ou falhas na unidade entregue, como infiltrações, rachaduras ou acabamento divergente do contrato. A lei prevê prazos de reclamação e garantias distintas para vícios aparentes e de estrutura.',
+	},
+	{
+		term: 'Vistoria de entrega',
+		slug: 'vistoria-de-entrega',
+		definition:
+			'Inspeção feita pelo comprador na unidade antes ou no ato das chaves. Serve para registrar pendências, comparar acabamentos com o memorial descritivo e solicitar correções à construtora.',
 	},
 	{
 		term: 'Valor de tabela',

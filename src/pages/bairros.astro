@@ -1,14 +1,42 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
+import HomeBairrosSection from '../components/HomeBairrosSection.astro';
 import bodyHtml from '../content/template-pages/bairros.html?raw';
-import { applySemanticHtml } from '../lib/semantic-html.mjs';
+import { applySemanticHtml, wrapSplitPageContent } from '../lib/semantic-html.mjs';
+import { loadHomeNeighborhoodCards } from '../lib/home-page.mjs';
 import { patchSiteMenu } from '../lib/site-menu.mjs';
+import { buildKeywords } from '../lib/site-seo.mjs';
 
-const title = "Bairros";
-const bodyClass = "";
-const html = patchSiteMenu(applySemanticHtml(bodyHtml), '/bairros');
+const title = 'Bairros';
+const bodyClass = '';
+const description =
+	'Bairros de Florianópolis com imóveis na planta. Compare lançamentos, apartamentos e casas por região e encontre o bairro ideal para investir ou morar.';
+
+const contentStart = bodyHtml.indexOf('<!--==============================\nBlog Area');
+const footerStart = bodyHtml.indexOf('<!--==============================\n\tFooter Area');
+
+if (contentStart === -1 || footerStart === -1) {
+	throw new Error('Não foi possível montar a página de bairros a partir do template.');
+}
+
+const shell = wrapSplitPageContent(
+	patchSiteMenu(applySemanticHtml(bodyHtml.slice(0, contentStart)), '/bairros'),
+	applySemanticHtml(bodyHtml.slice(footerStart)),
+);
+
+const neighborhoodCards = loadHomeNeighborhoodCards();
 ---
 
-<PillerLayout title={title} bodyClass={bodyClass} disableEffects stylesheets={['/css/internal-links.css']}>
-	<Fragment set:html={html} />
+<PillerLayout
+	title={title}
+	bodyClass={bodyClass}
+	description={description}
+	keywords={buildKeywords('bairros Florianópolis', 'imóveis na planta', 'lançamentos por bairro')}
+	canonicalPath="/bairros"
+	disableEffects
+	stylesheets={['/css/internal-links.css']}
+>
+	<Fragment set:html={shell.before} />
+	<HomeBairrosSection neighborhoods={neighborhoodCards} />
+	<Fragment set:html={shell.after} />
 </PillerLayout>

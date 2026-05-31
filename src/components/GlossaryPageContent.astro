@@ -17,9 +17,8 @@ const groups = groupGlossaryTermsByLetter().map(({ letter, terms }) => ({
 		),
 	})),
 }));
-const totalTerms = groups.reduce((count, group) => count + group.terms.length, 0);
 const introText = applyGlossaryInlineLinks(
-	`${totalTerms} termos essenciais para quem está comprando empreendimento na planta em Florianópolis. Use a busca ou navegue por letra para entender contratos, financiamento, obras e documentação antes de fechar negócio.`,
+	'Termos essenciais para quem está comprando empreendimento na planta em Florianópolis. Use a busca ou navegue por letra para entender contratos, financiamento, obras e documentação antes de fechar negócio.',
 	{ skipHeadings: false },
 );
 ---

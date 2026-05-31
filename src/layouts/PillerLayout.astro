@@ -112,12 +112,19 @@ const seo = resolvePageSeo({
 			}
 
 			.footer-cities-section {
-				padding: 0.5rem 0 4rem;
+				padding: 2.25rem 0 4rem;
 				border-top: 1px solid rgba(255, 255, 255, 0.12);
 				color: #ffffff;
 			}
 
-			.footer-cities-wrap > .widget_title {
+			.footer-bairros-section {
+				padding: 2.25rem 0 1.5rem;
+				border-top: 1px solid rgba(255, 255, 255, 0.12);
+				color: #ffffff;
+			}
+
+			.footer-cities-wrap > .widget_title,
+			.footer-bairros-wrap > .widget_title {
 				margin-bottom: 1.5rem;
 				color: #ffffff !important;
 			}
@@ -129,19 +136,43 @@ const seo = resolvePageSeo({
 				align-items: start;
 			}
 
-			.footer-cities-region {
+			.footer-bairros-regions {
+				display: grid;
+				grid-template-columns: repeat(6, minmax(0, 1fr));
+				gap: 1.25rem 1rem;
+				align-items: start;
+			}
+
+			.footer-cities-region,
+			.footer-bairros-region {
 				min-width: 0;
 			}
 
-			.footer-cities-region-title {
+			.footer-cities-region-title,
+			.footer-bairros-region-title {
 				margin: 0 0 0.85rem;
 				font-size: 0.9375rem;
 				font-weight: 700;
 				line-height: 1.3;
 				color: #ffffff !important;
+				position: relative;
+				padding-left: 30px;
 			}
 
-			.footer-cities-list {
+			.footer-cities-region-title::before,
+			.footer-bairros-region-title::before {
+				content: '\e3af';
+				position: absolute;
+				left: 0;
+				top: 0;
+				font-weight: 400;
+				font-family: var(--icon-font);
+				font-size: 16px;
+				color: var(--theme-color);
+			}
+
+			.footer-cities-list,
+			.footer-bairros-list {
 				display: flex;
 				flex-direction: column;
 				gap: 0.5rem;
@@ -151,31 +182,36 @@ const seo = resolvePageSeo({
 				font-size: 0.875rem;
 			}
 
-			.footer-cities-list a {
+			.footer-cities-list a,
+			.footer-bairros-list a {
 				color: #ffffff !important;
 				opacity: 1;
-				transition: opacity 0.2s ease;
+				transition: color 0.2s ease;
 			}
 
-			.footer-cities-list a:hover {
-				color: #ffffff !important;
-				opacity: 0.85;
+			.footer-cities-list a:hover,
+			.footer-bairros-list a:hover {
+				color: var(--theme-color) !important;
+				opacity: 1;
 			}
 
 			@media (max-width: 1199px) {
-				.footer-cities-regions {
+				.footer-cities-regions,
+				.footer-bairros-regions {
 					grid-template-columns: repeat(3, minmax(0, 1fr));
 				}
 			}
 
 			@media (max-width: 767px) {
-				.footer-cities-regions {
+				.footer-cities-regions,
+				.footer-bairros-regions {
 					grid-template-columns: repeat(2, minmax(0, 1fr));
 				}
 			}
 
 			@media (max-width: 575px) {
-				.footer-cities-regions {
+				.footer-cities-regions,
+				.footer-bairros-regions {
 					grid-template-columns: 1fr;
 				}
 			}
@@ -249,6 +285,35 @@ const seo = resolvePageSeo({
 
 			.footer-all-widget-wrapper .footer-item-wrap .widget_title {
 				margin-bottom: 22px;
+				position: relative;
+				padding-left: 30px;
+			}
+
+			.footer-all-widget-wrapper .footer-item-wrap .widget_title::before {
+				content: '\e3af';
+				display: block;
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: auto;
+				height: auto;
+				border-radius: 0;
+				background: none;
+				background-image: none;
+				font-weight: 400;
+				font-family: var(--icon-font);
+				font-size: 16px;
+				color: var(--theme-color);
+			}
+
+			.footer-all-widget-wrapper .footer-item-wrap .widget_nav_menu a {
+				padding-left: 0 !important;
+			}
+
+			.footer-all-widget-wrapper .footer-item-wrap .widget_nav_menu a::before,
+			.footer-all-widget-wrapper .footer-item-wrap .widget_nav_menu a:hover::before {
+				content: none;
+				display: none;
 			}
 
 			.footer-all-widget-wrapper .footer-item-wrap .menu {
@@ -441,8 +506,13 @@ const seo = resolvePageSeo({
 
 				.logo-icon-wrap__text,
 				.animation,
-				.animation-infinite {
+				.animation-infinite:not(.footer-bottom-top-shape):not(.footer-top-shape) {
 					animation: none !important;
+				}
+
+				.copyright-wrap .footer-bottom-top-shape,
+				.footer-top-shape.animation-infinite {
+					animation: ShapeAnim 80s linear infinite !important;
 				}
 
 				.static-slider-content .swiper-slide,

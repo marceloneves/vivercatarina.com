@@ -1,11 +1,13 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
 import bodyHtml from '../content/template-pages/home-6.html?raw';
+import { applySemanticHtml } from '../lib/semantic-html.mjs';
 
 const title = "Real Estate Company";
 const bodyClass = "home-6";
+const html = applySemanticHtml(bodyHtml);
 ---
 
 <PillerLayout title={title} bodyClass={bodyClass}>
-	<Fragment set:html={bodyHtml} />
+	<Fragment set:html={html} />
 </PillerLayout>

@@ -1,9 +1,9 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { listActiveNeighborhoods } from '../src/lib/property-listings.mjs';
 import { prepareBairroSidebarHtml } from '../src/lib/template-html.mjs';
 import { applySemanticHtml } from '../src/lib/semantic-html.mjs';
+import { buildFooterNavColumnsHtml } from '../src/lib/footer-nav.mjs';
 import { FOOTER_CONTACT_COLUMN_HTML } from '../src/lib/site-footer.mjs';
 import { homePageTranslations } from './home-page-translations.mjs';
 import { propertyDetailsTranslations } from './property-details-translations.mjs';
@@ -236,10 +236,6 @@ function getSiteMenu() {
 		{
 			label: 'Bairros',
 			href: '/bairros',
-			children: listActiveNeighborhoods().map(({ name, slug }) => ({
-				label: name,
-				href: `/bairro/${slug}`,
-			})),
 		},
 		{
 			label: 'Outras cidades',
@@ -363,59 +359,8 @@ function applyCustomMenu(html, currentPath) {
 		);
 }
 
-function getFooterNavMenus() {
-	return [
-		{
-			title: 'Institucional',
-			items: [
-				{ label: 'Quem Somos', href: '/about' },
-				{ label: 'Lançamentos', href: '/lancamentos' },
-				...lancamentosTypes.map(({ name, slug }) => ({
-					label: name,
-					href: `/lancamentos/${slug}`,
-				})),
-				{ label: 'Bairros', href: '/bairros' },
-				{ label: 'Blog', href: '/blog' },
-				{ label: 'Contato', href: '/contact' },
-			],
-		},
-		{
-			title: 'Legal',
-			items: [
-				{ label: 'Política de privacidade', href: '/privacidade' },
-				{ label: 'Termos e condições', href: '/termos' },
-				{ label: 'Mapa do site', href: '/mapa-do-site' },
-			],
-		},
-		{
-			title: 'Suporte',
-			items: [
-				{ label: 'Perguntas frequentes', href: '/faq' },
-				{ label: 'Contato', href: '/contact' },
-			],
-		},
-	];
-}
-
-function buildFooterNavColumn({ title, items }) {
-	const links = items
-		.map((item) => `                                                <li><a href="${item.href}">${item.label}</a></li>`)
-		.join('\n');
-
-	return `                                <div class="footer-item">
-                                    <div class="widget widget_nav_menu footer-widget">
-                                        <h3 class="widget_title">${title}</h3>
-                                        <div class="menu-all-pages-container">
-                                            <ul class="menu">
-${links}
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>`;
-}
-
 function buildFooterNavMenusHtml() {
-	return `${getFooterNavMenus().map(buildFooterNavColumn).join('\n')}\n${FOOTER_CONTACT_COLUMN_HTML}`;
+	return `${buildFooterNavColumnsHtml()}\n${FOOTER_CONTACT_COLUMN_HTML}`;
 }
 
 const footerNavMenusPattern =

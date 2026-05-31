@@ -1,11 +1,13 @@
 ---
 import PillerLayout from '../../../layouts/PillerLayout.astro';
 import bodyHtml from '../../../content/template-pages/bairros/300-a-500-mil/pagina-3.html?raw';
+import { applySemanticHtml } from '../../../lib/semantic-html.mjs';
 
 const title = "R$ 300 a 500 mil";
 const bodyClass = "";
+const html = applySemanticHtml(bodyHtml);
 ---
 
 <PillerLayout title={title} bodyClass={bodyClass} disableEffects>
-	<Fragment set:html={bodyHtml} />
+	<Fragment set:html={html} />
 </PillerLayout>

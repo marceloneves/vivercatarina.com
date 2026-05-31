@@ -1,11 +1,3 @@
 ---
-import PillerLayout from '../../layouts/PillerLayout.astro';
-import bodyHtml from '../../content/template-pages/bairros/pagina-3.html?raw';
-
-const title = "Bairros";
-const bodyClass = "";
+return Astro.redirect('/bairros', 301);
 ---
-
-<PillerLayout title={title} bodyClass={bodyClass} disableEffects>
-	<Fragment set:html={bodyHtml} />
-</PillerLayout>

@@ -10,17 +10,24 @@ const targets = [
 	join(root, 'README.md'),
 ];
 
+const OFFICIAL_EMAIL = 'contato@vivercatarina.com';
+const EMAIL_PATTERN = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g;
+const EMAIL_PLACEHOLDER_PATTERN = /placeholder="[^"]*@[^"]*"/g;
+
 const replacements = [
 	['Na Planta SC', 'Viver Catarina'],
 	['naplantasc.com.br', 'vivercatarina.com'],
 	[/https:\/\/[a-z0-9-]+\.naplantasc\.com/g, 'https://florianopolis.vivercatarina.com'],
-	['infomail123@domain.com', 'contato@vivercatarina.com'],
-	['infomailexample@mail.com', 'contato@vivercatarina.com'],
-	['info@agency.com', 'contato@vivercatarina.com'],
 	['alt="Piller-html"', 'alt="Viver Catarina"'],
 	['>Piller</a>. All Rights Reserved.', '>Viver Catarina</a>. Todos os direitos reservados.'],
 	['>Piller</a>. Todos os direitos reservados.', '>Viver Catarina</a>. Todos os direitos reservados.'],
 ];
+
+function sanitizeEmails(content) {
+	return content
+		.replace(EMAIL_PLACEHOLDER_PATTERN, 'placeholder="Seu e-mail"')
+		.replace(EMAIL_PATTERN, (email) => (email === OFFICIAL_EMAIL ? email : OFFICIAL_EMAIL));
+}
 
 function applyBranding(content) {
 	let output = content;
@@ -29,7 +36,7 @@ function applyBranding(content) {
 		output = typeof from === 'string' ? output.replaceAll(from, to) : output.replace(from, to);
 	}
 
-	return output;
+	return sanitizeEmails(output);
 }
 
 function walkFiles(dir) {

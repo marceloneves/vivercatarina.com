@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import {
 	SITE_EMAIL,
 	SITE_LOCATION,
@@ -5,6 +7,10 @@ import {
 	SITE_PHONE_TEL,
 } from './site-contact.mjs';
 import { patchGlossaryMenu } from './site-menu.mjs';
+import { patchFooterNavMenus } from './footer-nav.mjs';
+
+const dataRoot = join(process.cwd(), 'src/data');
+const FOOTER_NEIGHBORHOODS_MARKER = 'footer-bairros-section';
 
 export const FOOTER_DISCLAIMER =
 	'As informações e imagens divulgadas neste site são de caráter informativo e pertencem às respectivas incorporadoras. O atendimento é realizado por corretores credenciados e devidamente registrados no CRECI.';
@@ -100,19 +106,82 @@ function patchCopyrightText(html) {
 	);
 }
 
-function patchFooterSuporteGlossary(html) {
-	const suporteBlock = html.match(
-		/<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-suporte">[\s\S]*?<\/nav>/,
+export function buildFooterNeighborhoodsSectionHtml() {
+	const neighborhoods = JSON.parse(
+		readFileSync(join(dataRoot, 'florianopolis-neighborhoods.json'), 'utf8'),
+	);
+	const regions = JSON.parse(
+		readFileSync(join(dataRoot, 'footer-neighborhoods-by-region.json'), 'utf8'),
+	);
+	const neighborhoodBySlug = new Map(neighborhoods.map((neighborhood) => [neighborhood.slug, neighborhood]));
+
+	const regionsHtml = regions
+		.map(({ region, slugs }) => {
+			const items = slugs
+				.map((slug) => neighborhoodBySlug.get(slug))
+				.filter(Boolean)
+				.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'))
+				.map(
+					({ slug, name }) =>
+						`<li><a href="/bairro/${slug}">${name}</a></li>`,
+				)
+				.join('\n                                ');
+
+			return `                        <div class="footer-bairros-region">
+                            <h4 class="footer-bairros-region-title">${region}</h4>
+                            <ul class="footer-bairros-list">
+                                ${items}
+                            </ul>
+                        </div>`;
+		})
+		.join('\n');
+
+	return `        <section class="footer-bairros-section" aria-label="Bairros de Florianópolis">
+            <div class="container">
+                <div class="footer-bairros-wrap">
+                    <h3 class="widget_title">Bairros de Florianópolis</h3>
+                    <div class="footer-bairros-regions">
+${regionsHtml}
+                    </div>
+                </div>
+            </div>
+        </section>
+`;
+}
+
+function removeFooterNeighborhoodsSection(html) {
+	return html
+		.replace(
+			/<section class="footer-cities-section footer-neighborhoods-section"[\s\S]*?<\/section>\s*/g,
+			'',
+		)
+		.replace(
+			/<section class="footer-bairros-section footer-bairros-section"[\s\S]*?<\/section>\s*/g,
+			'',
+		)
+		.replace(
+			/<section class="footer-bairros-section[\s\S]*?<\/section>\s*/g,
+			'',
+		);
+}
+
+function patchFooterNeighborhoodsSection(html) {
+	const section = buildFooterNeighborhoodsSectionHtml();
+	let output = removeFooterNeighborhoodsSection(html);
+
+	const citiesSectionStart = output.search(
+		/<(?:section|div) class="footer-cities-section"(?: aria-label="Cidades atendidas")?>/,
 	);
 
-	if (!suporteBlock || suporteBlock[0].includes('/glossario')) {
-		return html;
+	if (citiesSectionStart !== -1) {
+		return `${output.slice(0, citiesSectionStart)}${section}${output.slice(citiesSectionStart)}`;
 	}
 
-	return html.replace(
-		/(<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-suporte">[\s\S]*?<ul class="menu">\s*)(<li><a href="\/faq">Perguntas frequentes<\/a><\/li>)/,
-		'$1<li><a href="/glossario">Glossário</a></li>\n                                                $2',
-	);
+	if (output.includes('<div class="copyright-wrap">')) {
+		return output.replace('<div class="copyright-wrap">', `${section}        <div class="copyright-wrap">`);
+	}
+
+	return output;
 }
 
 export function patchSiteFooter(html) {
@@ -128,7 +197,8 @@ export function patchSiteFooter(html) {
 
 	output = patchCopyrightText(output);
 	output = patchGlossaryMenu(output);
-	output = patchFooterSuporteGlossary(output);
+	output = patchFooterNavMenus(output);
+	output = patchFooterNeighborhoodsSection(output);
 
 	if (output.includes('footer-disclaimer')) {
 		output = output.replace(/<p class="footer-disclaimer">[\s\S]*?<\/p>/, FOOTER_DISCLAIMER_HTML);

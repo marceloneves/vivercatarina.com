@@ -46,16 +46,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://florianopolis.vivercatarina.com/bairros/pagina-2</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://florianopolis.vivercatarina.com/bairros/pagina-3</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://florianopolis.vivercatarina.com/bairros/ate-300-mil</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

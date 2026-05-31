@@ -21,6 +21,12 @@ const GLOSSARY_PHRASE_ALIASES = [
 	{ text: 'vagas de garagem', slug: 'vaga-de-garagem' },
 	{ text: 'plantas baixas', slug: 'planta-baixa' },
 	{ text: 'memorial de incorporação', slug: 'memorial-de-incorporacao' },
+	{ text: 'memorial descritivo', slug: 'memorial-descritivo' },
+	{ text: 'correção monetária', slug: 'correcao-monetaria' },
+	{ text: 'alienação fiduciária', slug: 'alienacao-fiduciaria' },
+	{ text: 'carta de crédito', slug: 'carta-de-credito' },
+	{ text: 'convenção de condomínio', slug: 'convencao-de-condominio' },
+	{ text: 'vistoria de entrega', slug: 'vistoria-de-entrega' },
 	{ text: 'contrato de promessa', slug: 'contrato-de-promessa-de-compra-e-venda' },
 ];
 

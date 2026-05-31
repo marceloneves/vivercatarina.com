@@ -1,6 +1,7 @@
 import { patchSiteFooter } from './site-footer.mjs';
 import { applyGlossaryInlineLinksInMain } from './glossary-content-links.mjs';
 import { patchSiteMenu } from './site-menu.mjs';
+import { replaceLegacySiteEmails } from './site-contact.mjs';
 
 const MAIN_ID = 'conteudo-principal';
 
@@ -225,16 +226,18 @@ function enhanceFooter(html) {
 }
 
 function enhanceBranding(html) {
-	return html
-		.replace(/<h3 class="widget_title">About Pillar<\/h3>/g, '<h3 class="widget_title">Viver Catarina</h3>')
-		.replace(
-			/<a href="\/"><img src="\/assets\/img\/logo-white\.svg" alt="Viver Catarina"><\/a>/g,
-			'<a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo-white.svg" alt=""></a>',
-		)
-		.replace(
-			/<a href="\/"><img src="\/assets\/img\/logo\.svg" alt="Viver Catarina"><\/a>/g,
-			'<a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo.svg" alt=""></a>',
-		);
+	return replaceLegacySiteEmails(
+		html
+			.replace(/<h3 class="widget_title">About Pillar<\/h3>/g, '<h3 class="widget_title">Viver Catarina</h3>')
+			.replace(
+				/<a href="\/"><img src="\/assets\/img\/logo-white\.svg" alt="Viver Catarina"><\/a>/g,
+				'<a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo-white.svg" alt=""></a>',
+			)
+			.replace(
+				/<a href="\/"><img src="\/assets\/img\/logo\.svg" alt="Viver Catarina"><\/a>/g,
+				'<a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo.svg" alt=""></a>',
+			),
+	);
 }
 
 function removeColorScheme(html) {

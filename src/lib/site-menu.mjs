@@ -1,8 +1,7 @@
-import { listActiveNeighborhoods } from './property-listings.mjs';
 import { patchHeaderSocial } from './site-social.mjs';
 
 const BAIRROS_SUBMENU_PATTERN =
-	/(<li class="menu-item-has-children(?: active)?">\s*<a href="\/bairros">Bairros<\/a>\s*<ul class="sub-menu">)[\s\S]*?(<\/ul>\s*<\/li>)/g;
+	/<li class="menu-item-has-children(?: active)?">\s*<a href="\/bairros">Bairros<\/a>\s*<ul class="sub-menu">[\s\S]*?<\/ul>\s*<\/li>/g;
 
 const LOTEAMENTO_MENU_ITEM =
 	'<li><a href="/lancamentos/loteamento">Loteamento</a></li>';
@@ -13,29 +12,38 @@ const CASAS_MENU_PATTERN =
 const GLOSSARY_MENU_PATTERN =
 	/(<li(?:\s+class="active")?><a href="\/blog">Blog<\/a><\/li>)(\s*)(<li(?:\s+class="active")?><a href="\/contact">Contato<\/a><\/li>)/g;
 
+const HEADER_ADD_LISTING_PATTERN =
+	/<a href="\/contact" class="th-btn[^"]*"><i class="fa-regular fa-house-chimney me-2"><\/i>\s*(?:Add Listing|Anunciar imóvel)\s*<\/a>\s*/gi;
+
+export function removeHeaderAddListingButton(html) {
+	if (!html || !html.includes('house-chimney')) {
+		return html;
+	}
+
+	return html.replace(HEADER_ADD_LISTING_PATTERN, '');
+}
+
 function isGlossaryPathActive(currentPath) {
 	return currentPath === '/glossario' || currentPath.startsWith('/glossario/');
 }
 
-function isBairroPathActive(href, currentPath) {
-	return currentPath === href || currentPath.startsWith(`${href}/`);
-}
-
-export function buildBairrosSubmenuHtml(currentPath, indent = '                        ') {
-	return listActiveNeighborhoods()
-		.map(({ name, slug }) => {
-			const href = `/bairro/${slug}`;
-			const activeClass = isBairroPathActive(href, currentPath) ? ' class="active"' : '';
-
-			return `${indent}<li${activeClass}><a href="${href}">${name}</a></li>`;
-		})
-		.join('\n');
+function isBairrosPathActive(currentPath) {
+	return (
+		currentPath === '/bairros' ||
+		currentPath.startsWith('/bairros/') ||
+		currentPath.startsWith('/bairro/')
+	);
 }
 
 export function patchBairrosMenu(html, currentPath = '/') {
-	const submenu = buildBairrosSubmenuHtml(currentPath);
+	if (!html || !html.includes('href="/bairros">Bairros</a>')) {
+		return html;
+	}
 
-	return html.replace(BAIRROS_SUBMENU_PATTERN, `$1\n${submenu}\n                    $2`);
+	const activeClass = isBairrosPathActive(currentPath) ? ' class="active"' : '';
+	const item = `<li${activeClass}><a href="/bairros">Bairros</a></li>`;
+
+	return html.replace(BAIRROS_SUBMENU_PATTERN, item);
 }
 
 export function patchLancamentosSubmenu(html) {
@@ -62,6 +70,9 @@ export function patchGlossaryMenu(html, currentPath = '/') {
 
 export function patchSiteMenu(html, currentPath = '/') {
 	return patchHeaderSocial(
-		patchGlossaryMenu(patchLancamentosSubmenu(patchBairrosMenu(html, currentPath)), currentPath),
+		patchGlossaryMenu(
+			patchLancamentosSubmenu(patchBairrosMenu(removeHeaderAddListingButton(html), currentPath)),
+			currentPath,
+		),
 	);
 }
