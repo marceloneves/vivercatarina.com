@@ -1,31 +1,29 @@
 ---
-const { properties } = Astro.props;
+import HomePropertyFilterFields from './HomePropertyFilterFields.astro';
+
+const { properties, kinds = [], neighborhoods = [] } = Astro.props;
 ---
 
 <section class="popular-sec-1 home-lancamentos-section overflow-hidden space" aria-labelledby="home-lancamentos-title">
 	<div class="container">
 		<div class="row justify-content-center">
-			<div class="col-xl-7">
+			<div class="col-xl-10">
 				<div class="title-area text-center mb-2">
 					<p class="sub-title"><span class="double-line"></span> Lançamentos</p>
 					<h2 class="sec-title mb-4" id="home-lancamentos-title">Imóveis na planta em Florianópolis</h2>
-					<div class="filter-menu indicator-active filter-menu-active mt-2 justify-content-center" role="group" aria-label="Filtrar lançamentos por tipo">
-						<button data-filter="*" class="th-btn tab-btn active" type="button">Ver todos</button>
-						<button data-filter=".cat-apartamento" class="th-btn tab-btn" type="button">
-							Apartamentos
-						</button>
-						<button data-filter=".cat-casa" class="th-btn tab-btn" type="button">
-							Casas em condomínio
-						</button>
-						<button data-filter=".cat-loteamento" class="th-btn tab-btn" type="button">
-							Loteamento
-						</button>
-					</div>
+					<form class="home-lancamentos-section__filters" data-home-lancamentos-filter aria-label="Filtrar lançamentos">
+						<HomePropertyFilterFields
+							kinds={kinds}
+							neighborhoods={neighborhoods}
+							idPrefix="home-lancamentos"
+							formClass="home-lancamentos-section__filter-fields"
+						/>
+					</form>
 				</div>
 			</div>
 		</div>
 
-		<div class="row gy-30 justify-content-center filter-active">
+		<div class="row gy-30 justify-content-center home-lancamentos-section__grid">
 			{
 				properties.length === 0 ? (
 					<div class="col-12">
@@ -34,7 +32,7 @@ const { properties } = Astro.props;
 				) : (
 					properties.map((property) => (
 						<div
-							class={`col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item ${property.kindFilterClass}`}
+							class={`col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item ${property.kindFilterClass} ${property.neighborhoodFilterClass || ''}`.trim()}
 						>
 							<article class="popular-list-1 h-100">
 								<div class="thumb-wrapper">
@@ -99,10 +97,14 @@ const { properties } = Astro.props;
 			}
 		</div>
 
+		<div class="home-lancamentos-section__empty text-center d-none" data-home-lancamentos-empty>
+			<p class="mb-0">Nenhum lançamento encontrado com os filtros selecionados.</p>
+		</div>
+
 		{
 			properties.length > 0 && (
 				<div class="text-center mt-40">
-					<a href="/lancamentos/apartamentos" class="th-btn style3">
+					<a href="/lancamentos" class="th-btn pill home-lancamentos-section__all-btn">
 						Ver todos os lançamentos
 					</a>
 				</div>
@@ -112,8 +114,21 @@ const { properties } = Astro.props;
 </section>
 
 <style>
+	.home-lancamentos-section__filter-fields {
+		margin-top: 8px;
+		text-align: left;
+	}
+
+	.home-lancamentos-section__filters {
+		margin-top: 8px;
+	}
+
 	.home-lancamentos-section .filter-item {
 		display: flex;
+	}
+
+	.home-lancamentos-section .filter-item.is-filtered-out {
+		display: none !important;
 	}
 
 	.home-lancamentos-section .popular-list-1 {
@@ -167,4 +182,76 @@ const { properties } = Astro.props;
 	.home-lancamentos-section .property-bottom {
 		margin-top: auto;
 	}
+
+	.home-lancamentos-section__all-btn {
+		padding: 14px 28px;
+		font-size: 15px;
+		font-weight: 600;
+	}
+
+	@media (min-width: 992px) {
+		.home-lancamentos-section__filter-fields {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
 </style>
+
+<script>
+	const KIND_FILTER_CLASS = {
+		apartamento: 'cat-apartamento',
+		casa: 'cat-casa',
+		loteamento: 'cat-loteamento',
+	};
+
+	function initHomeLancamentosFilter() {
+		const section = document.querySelector('.home-lancamentos-section');
+
+		if (!section || section.dataset.filterReady === 'true') {
+			return;
+		}
+
+		const form = section.querySelector('[data-home-lancamentos-filter]');
+		const kindSelect = form?.querySelector('[name="kind"]');
+		const neighborhoodSelect = form?.querySelector('[name="neighborhood"]');
+		const items = section.querySelectorAll('.filter-item');
+		const emptyState = section.querySelector('[data-home-lancamentos-empty]');
+
+		if (!form || !kindSelect || !neighborhoodSelect || items.length === 0) {
+			return;
+		}
+
+		section.dataset.filterReady = 'true';
+
+		const applyFilters = () => {
+			const kind = kindSelect.value;
+			const neighborhood = neighborhoodSelect.value;
+			let visibleCount = 0;
+
+			items.forEach((item) => {
+				const matchesKind = !kind || item.classList.contains(KIND_FILTER_CLASS[kind]);
+				const matchesNeighborhood = !neighborhood || item.classList.contains(`bairro-${neighborhood}`);
+				const isVisible = matchesKind && matchesNeighborhood;
+
+				item.classList.toggle('is-filtered-out', !isVisible);
+
+				if (isVisible) {
+					visibleCount += 1;
+				}
+			});
+
+			if (emptyState) {
+				emptyState.classList.toggle('d-none', visibleCount > 0);
+				emptyState.classList.toggle('mt-40', visibleCount === 0);
+			}
+		};
+
+		kindSelect.addEventListener('change', applyFilters);
+		neighborhoodSelect.addEventListener('change', applyFilters);
+	}
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', initHomeLancamentosFilter, { once: true });
+	} else {
+		initHomeLancamentosFilter();
+	}
+</script>

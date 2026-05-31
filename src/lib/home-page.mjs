@@ -1,7 +1,8 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { applySemanticHtml } from './semantic-html.mjs';
-import { PROPERTY_KINDS } from './property-kind.mjs';
+import { getKindLabel, getKindPageSlug, PROPERTY_KINDS } from './property-kind.mjs';
+import { resolveNeighborhoodPageSlug } from './neighborhood-slugs.mjs';
 import {
 	enrichProperty,
 	getThumbnailUrl,
@@ -29,6 +30,38 @@ const KIND_FILTER_CLASS = {
 	loteamento: 'cat-loteamento',
 };
 
+const KIND_LISTING_PATHS = Object.fromEntries(
+	PROPERTY_KINDS.map((kind) => [kind, `/lancamentos/${getKindPageSlug(kind)}`]),
+);
+
+function resolvePropertyNeighborhoodSlug(entry) {
+	const propertyPath = join(dataRoot, entry.dataPath);
+
+	if (!existsSync(propertyPath)) {
+		return null;
+	}
+
+	const property = JSON.parse(readFileSync(propertyPath, 'utf8'));
+
+	return resolveNeighborhoodPageSlug(property.address?.neighborhood?.slug);
+}
+
+export function getHomePropertyKindOptions() {
+	return PROPERTY_KINDS.map((kind) => ({
+		value: kind,
+		label: getKindLabel(kind),
+		href: KIND_LISTING_PATHS[kind],
+	}));
+}
+
+export function getHomeNeighborhoodOptions() {
+	return listActiveNeighborhoods().map(({ slug, name }) => ({
+		value: slug,
+		label: name,
+		href: `/bairro/${slug}`,
+	}));
+}
+
 export function loadHomeFeaturedLancamentos(perKind = 4) {
 	const featured = [];
 
@@ -39,15 +72,21 @@ export function loadHomeFeaturedLancamentos(perKind = 4) {
 			continue;
 		}
 
-		const enriched = listing.properties.map(enrichProperty);
+		const enriched = listing.properties.map((entry) => enrichProperty(entry));
 
 		featured.push(
 			...sortPropertiesByPrice(enriched, 'price')
 				.slice(0, perKind)
-				.map((property) => ({
-					...property,
-					kindFilterClass: KIND_FILTER_CLASS[kind] || KIND_FILTER_CLASS.apartamento,
-				})),
+				.map((property) => {
+					const neighborhoodSlug = resolvePropertyNeighborhoodSlug(property);
+
+					return {
+						...property,
+						kindFilterClass: KIND_FILTER_CLASS[kind] || KIND_FILTER_CLASS.apartamento,
+						neighborhoodSlug,
+						neighborhoodFilterClass: neighborhoodSlug ? `bairro-${neighborhoodSlug}` : '',
+					};
+				}),
 		);
 	}
 
@@ -208,9 +247,16 @@ export function getHomeHeroBackgroundUrl() {
 
 export function getHomePageShell() {
 	const html = applySemanticHtml(readFileSync(templatePath, 'utf8'));
+	const searchStart = html.indexOf('<section class="search-area"');
+	const searchEndMarker = '<!--======== / Search Section ========-->';
+	const searchEnd = html.indexOf(searchEndMarker, searchStart);
 	const sectionStart = html.indexOf('<section class="popular-sec-1');
 	const sectionEnd = html.indexOf('    </section><!--==============================\nGallery Area');
 	const footerStart = html.indexOf('<!--==============================\n\tFooter Area');
+
+	if (searchStart === -1 || searchEnd === -1) {
+		throw new Error('Não foi possível localizar a busca na home.');
+	}
 
 	if (sectionStart === -1 || sectionEnd === -1) {
 		throw new Error('Não foi possível localizar a seção de lançamentos na home.');
@@ -221,12 +267,13 @@ export function getHomePageShell() {
 	}
 
 	const heroBackgroundUrl = getHomeHeroBackgroundUrl();
-	const before = html
-		.slice(0, sectionStart)
-		.replace(
-			'data-bg-src="/assets/img/hero/hero_bg_1_1.jpg"',
-			`data-bg-src="${heroBackgroundUrl}"`,
-		);
+	const before = (
+		html.slice(0, searchStart) +
+		html.slice(searchEnd + searchEndMarker.length, sectionStart)
+	).replace(
+		'data-bg-src="/assets/img/hero/hero_bg_1_1.jpg"',
+		`data-bg-src="${heroBackgroundUrl}"`,
+	);
 
 	return {
 		before,

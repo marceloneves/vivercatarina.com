@@ -1,5 +1,6 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
+import HomePropertySearch from '../components/HomePropertySearch.astro';
 import HomeBairrosSection from '../components/HomeBairrosSection.astro';
 import HomeBlogSection from '../components/HomeBlogSection.astro';
 import HomeFaqSection from '../components/HomeFaqSection.astro';
@@ -7,7 +8,9 @@ import HomeLancamentosSection from '../components/HomeLancamentosSection.astro';
 import { getBlogPosts } from '../lib/blog-posts.mjs';
 import { buildHomeFaqSchema, getHomeFaqItems } from '../lib/home-faq.mjs';
 import {
+	getHomeNeighborhoodOptions,
 	getHomePageShell,
+	getHomePropertyKindOptions,
 	loadHomeFeaturedLancamentos,
 	loadHomeNeighborhoodCards,
 } from '../lib/home-page.mjs';
@@ -15,6 +18,8 @@ import {
 const title = 'Início';
 const bodyClass = 'home-page';
 const shell = getHomePageShell();
+const propertyKindOptions = getHomePropertyKindOptions();
+const neighborhoodOptions = getHomeNeighborhoodOptions();
 const featuredLancamentos = loadHomeFeaturedLancamentos(4);
 const neighborhoodCards = loadHomeNeighborhoodCards();
 const latestPosts = getBlogPosts().slice(0, 3);
@@ -27,7 +32,12 @@ const homeFaqSchema = buildHomeFaqSchema();
 		<script type="application/ld+json" set:html={JSON.stringify(homeFaqSchema)} />
 	</Fragment>
 	<Fragment set:html={shell.before} />
-	<HomeLancamentosSection properties={featuredLancamentos} />
+	<HomePropertySearch kinds={propertyKindOptions} neighborhoods={neighborhoodOptions} />
+	<HomeLancamentosSection
+		properties={featuredLancamentos}
+		kinds={propertyKindOptions}
+		neighborhoods={neighborhoodOptions}
+	/>
 	<HomeBairrosSection neighborhoods={neighborhoodCards} />
 	<HomeBlogSection posts={latestPosts} />
 	<HomeFaqSection items={homeFaqItems} />

@@ -1,0 +1,85 @@
+---
+const {
+	kinds = [],
+	neighborhoods = [],
+	idPrefix = 'home-filter',
+	showSubmit = false,
+	submitLabel = 'Buscar imóvel',
+	formClass = '',
+} = Astro.props;
+
+const kindId = `${idPrefix}-kind`;
+const neighborhoodId = `${idPrefix}-neighborhood`;
+---
+
+<div class={`home-property-filter-fields select-group-wrapper ${formClass}`.trim()}>
+	<div class="form-group">
+		<label for={kindId}>Tipo de imóvel</label>
+		<select name="kind" id={kindId} class="form-select">
+			<option value="">Todos os tipos</option>
+			{
+				kinds.map((option) => (
+					<option value={option.value} data-href={option.href}>
+						{option.label}
+					</option>
+				))
+			}
+		</select>
+	</div>
+	<div class="form-group">
+		<label for={neighborhoodId}>Localização (Bairros)</label>
+		<select name="neighborhood" id={neighborhoodId} class="form-select">
+			<option value="">Todos os bairros</option>
+			{
+				neighborhoods.map((option) => (
+					<option value={option.value} data-href={option.href}>
+						{option.label}
+					</option>
+				))
+			}
+		</select>
+	</div>
+	{
+		showSubmit && (
+			<div class="advance-btn-wrapper home-property-filter-fields__submit">
+				<div class="search-btn-item">
+					<button type="submit" class="th-btn radius w-100">
+						<i class="fa-regular fa-magnifying-glass me-2" aria-hidden="true"></i>
+						{submitLabel}
+					</button>
+				</div>
+			</div>
+		)
+	}
+</div>
+
+<style>
+	.home-property-filter-fields {
+		align-items: end;
+	}
+
+	.home-property-filter-fields .form-group label {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.home-property-filter-fields .form-select {
+		width: 100%;
+		min-height: 56px;
+		padding: 12px 16px;
+		border: 1px solid var(--th-border-color);
+		border-radius: 8px;
+		background-color: var(--white-color);
+		color: var(--title-color);
+		font-size: 15px;
+	}
+
+	.home-property-filter-fields__submit {
+		margin-bottom: 0;
+	}
+
+	.home-property-filter-fields__submit .th-btn {
+		min-width: 0;
+		width: 100%;
+	}
+</style>

@@ -1,0 +1,65 @@
+---
+import HomePropertyFilterFields from './HomePropertyFilterFields.astro';
+
+const { kinds, neighborhoods } = Astro.props;
+---
+
+<section class="search-area" aria-label="Busca de imóveis">
+	<form class="home-property-search" role="search" data-home-property-search>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xxl-10">
+					<div class="search-wrap home-search-filter">
+						<HomePropertyFilterFields
+							kinds={kinds}
+							neighborhoods={neighborhoods}
+							idPrefix="home-search"
+							showSubmit={true}
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+</section>
+
+<script>
+	function initHomePropertySearch() {
+		const form = document.querySelector('[data-home-property-search]');
+
+		if (!form || form.dataset.searchReady === 'true') {
+			return;
+		}
+
+		form.dataset.searchReady = 'true';
+
+		form.addEventListener('submit', (event) => {
+			event.preventDefault();
+
+			const kindSelect = form.querySelector('[name="kind"]');
+			const neighborhoodSelect = form.querySelector('[name="neighborhood"]');
+			const kindOption = kindSelect?.selectedOptions[0];
+			const neighborhoodOption = neighborhoodSelect?.selectedOptions[0];
+			const neighborhoodHref = neighborhoodOption?.dataset.href;
+			const kindHref = kindOption?.dataset.href;
+
+			if (neighborhoodHref) {
+				window.location.href = neighborhoodHref;
+				return;
+			}
+
+			if (kindHref) {
+				window.location.href = kindHref;
+				return;
+			}
+
+			window.location.href = '/lancamentos';
+		});
+	}
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', initHomePropertySearch, { once: true });
+	} else {
+		initHomePropertySearch();
+	}
+</script>

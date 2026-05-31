@@ -762,27 +762,28 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 					padding: 36px 40px 44px;
 				}
 
-				.search-area .home-search-filter .select-group-wrapper {
-					grid-template-columns: repeat(3, minmax(0, 1fr));
-					column-gap: 32px;
-					row-gap: 32px;
+				.search-area .home-search-filter .select-group-wrapper,
+				.search-area .home-property-filter-fields {
+					grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(180px, 220px);
+					column-gap: 24px;
+					row-gap: 24px;
 					margin-bottom: 0;
 				}
 
-				@media (min-width: 1500px) {
-					.search-area .home-search-filter .select-group-wrapper {
-						grid-template-columns: repeat(4, minmax(0, 1fr));
-					}
-				}
-
 				@media (max-width: 991px) {
-					.search-area .home-search-filter .select-group-wrapper {
+					.search-area .home-search-filter .select-group-wrapper,
+					.search-area .home-property-filter-fields {
 						grid-template-columns: repeat(2, minmax(0, 1fr));
+					}
+
+					.search-area .home-property-filter-fields__submit {
+						grid-column: 1 / -1;
 					}
 				}
 
 				@media (max-width: 575px) {
-					.search-area .home-search-filter .select-group-wrapper {
+					.search-area .home-search-filter .select-group-wrapper,
+					.search-area .home-property-filter-fields {
 						grid-template-columns: 1fr;
 					}
 				}
