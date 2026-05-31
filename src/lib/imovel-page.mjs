@@ -3,6 +3,9 @@ import { join } from 'node:path';
 import { applySemanticHtml, wrapSplitPageContent } from './semantic-html.mjs';
 import { loadProperty, isSiteEligibleProperty } from './property-data.mjs';
 import { buildPropertyPageViewModel } from './property-page-content.mjs';
+import { getNeighborhoodBlogPosts } from './neighborhood-blog-posts.mjs';
+import { buildNeighborhoodIntroTitle } from './neighborhood-intro.mjs';
+import { resolveNeighborhoodPageSlug } from './neighborhood-slugs.mjs';
 
 const templateRoot = join(process.cwd(), 'src');
 const shellTemplatePath = join(templateRoot, 'content/template-pages/property-details.html');
@@ -47,9 +50,13 @@ export function buildImovelPageContext(slug) {
 	}
 
 	const page = buildPropertyPageViewModel(property, slug);
+	const neighborhoodName = property.address?.neighborhood?.name;
+	const neighborhoodSlug = resolveNeighborhoodPageSlug(property.address?.neighborhood?.slug);
 
 	return {
 		...page,
+		neighborhoodArticles: getNeighborhoodBlogPosts(neighborhoodName),
+		neighborhoodIntroTitle: buildNeighborhoodIntroTitle(neighborhoodName, neighborhoodSlug),
 		...buildImovelShell(),
 	};
 }

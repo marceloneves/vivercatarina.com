@@ -1,0 +1,211 @@
+---
+import { SITE_PHONE_DISPLAY, SITE_WHATSAPP_NUMBER } from '../lib/site-contact.mjs';
+
+const {
+	formId,
+	variant = 'bairro',
+	title = 'Fale conosco',
+	price,
+	showUrgency = false,
+	propertySlug,
+	propertyTitle,
+	neighborhoodSlug,
+	neighborhoodName,
+	introText,
+} = Astro.props;
+
+const whatsappSource = variant === 'property' ? 'property' : 'bairro';
+---
+
+<div class="widget sidebar-contact-form sidebar-lead-form">
+	<h3 class="widget_title">{title}</h3>
+	<div class="sidebar-lead-form__card">
+		{
+			variant === 'property' && price && (
+				<div class="sidebar-lead-form__price-box">
+					<div class="sidebar-lead-form__price-label">Preço a partir de</div>
+					<div class="sidebar-lead-form__price">{price}</div>
+				</div>
+			)
+		}
+		{showUrgency && <div class="sidebar-lead-form__alert">Últimas unidades disponíveis</div>}
+		{introText && <p class="sidebar-lead-form__intro">{introText}</p>}
+		<form class="lead-form sidebar-lead-form__form" id={formId}>
+			<label for={`${formId}-name`}>Nome</label>
+			<input id={`${formId}-name`} name="name" type="text" placeholder="Seu nome" required />
+			<label for={`${formId}-phone`}>WhatsApp</label>
+			<input
+				id={`${formId}-phone`}
+				name="phone"
+				type="tel"
+				placeholder={SITE_PHONE_DISPLAY}
+				required
+			/>
+			<label for={`${formId}-email`}>E-mail</label>
+			<input id={`${formId}-email`} name="email" type="email" placeholder="Seu e-mail" required />
+			<button type="submit" class="th-btn sidebar-lead-form__submit radius w-100">
+				Quero mais informações
+			</button>
+			<button
+				type="button"
+				class="th-btn sidebar-lead-form__whatsapp radius w-100"
+				data-whatsapp-lead
+				data-whatsapp-source={whatsappSource}
+				data-property-slug={propertySlug}
+				data-property-title={propertyTitle}
+				data-neighborhood-slug={neighborhoodSlug}
+				data-neighborhood-name={neighborhoodName}
+			>
+				<i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp
+			</button>
+		</form>
+		<p class="sidebar-lead-form__note">Dados protegidos. Resposta em até 1 hora.</p>
+	</div>
+</div>
+
+<style>
+	.sidebar-lead-form__card {
+		padding: 24px;
+		border: 1px solid var(--th-border-color);
+		border-radius: 16px;
+		box-shadow: 0 8px 30px rgba(17, 24, 39, 0.08);
+		background: var(--white-color);
+	}
+
+	.sidebar-lead-form__price-box {
+		background: var(--black-color);
+		color: var(--white-color);
+		padding: 16px 18px;
+		border-radius: 12px;
+		margin-bottom: 16px;
+	}
+
+	.sidebar-lead-form__price-label {
+		font-size: 14px;
+		color: rgba(255, 255, 255, 0.82);
+	}
+
+	.sidebar-lead-form__price {
+		font-family: var(--title-font);
+		font-size: 30px;
+		font-weight: 700;
+		color: var(--white-color);
+		margin: 8px 0 0;
+		line-height: 1.2;
+	}
+
+	.sidebar-lead-form__alert {
+		background: rgba(254, 137, 0, 0.12);
+		color: var(--theme-color2);
+		padding: 12px 14px;
+		border-radius: 10px;
+		font-weight: 700;
+		margin-bottom: 16px;
+		font-size: 14px;
+	}
+
+	.sidebar-lead-form__intro {
+		margin: 0 0 16px;
+		font-size: 14px;
+		line-height: 1.6;
+		color: var(--body-color);
+	}
+
+	.sidebar-lead-form__form label {
+		display: block;
+		font-size: 14px;
+		font-weight: 600;
+		margin-bottom: 6px;
+		color: var(--title-color);
+	}
+
+	.sidebar-lead-form__form input {
+		width: 100%;
+		margin-bottom: 14px;
+		padding: 12px 14px;
+		border: 1px solid var(--th-border-color);
+		border-radius: 8px;
+		font-family: var(--body-font);
+		font-size: 15px;
+		color: var(--title-color);
+		background: var(--white-color);
+	}
+
+	.sidebar-lead-form__form input:focus {
+		outline: none;
+		border-color: var(--theme-color);
+	}
+
+	.sidebar-lead-form__form .th-btn {
+		margin-bottom: 10px;
+	}
+
+	.sidebar-lead-form__form .sidebar-lead-form__submit::before,
+	.sidebar-lead-form__form .sidebar-lead-form__submit:hover::before,
+	.sidebar-lead-form__form .sidebar-lead-form__submit:active::before,
+	.sidebar-lead-form__form .sidebar-lead-form__submit:focus::before {
+		display: none !important;
+		content: none !important;
+		width: 0 !important;
+		background: transparent !important;
+	}
+
+	.sidebar-lead-form__submit {
+		background-color: var(--black-color) !important;
+		border: 1px solid var(--black-color) !important;
+		color: var(--white-color) !important;
+	}
+
+	.sidebar-lead-form__submit:hover {
+		background-color: var(--theme-color) !important;
+		border-color: var(--theme-color) !important;
+		color: var(--white-color) !important;
+	}
+
+	.sidebar-lead-form__whatsapp {
+		background-color: #25d366 !important;
+		border: 1px solid #25d366 !important;
+		color: var(--white-color) !important;
+	}
+
+	.sidebar-lead-form__whatsapp:hover {
+		background-color: #1fb855 !important;
+		border-color: #1fb855 !important;
+	}
+
+	.sidebar-lead-form__note {
+		margin: 4px 0 0;
+		font-size: 13px;
+		line-height: 1.5;
+		color: var(--body-color);
+		text-align: center;
+	}
+</style>
+
+<script
+	define:vars={{
+		formId,
+		whatsappNumber: SITE_WHATSAPP_NUMBER,
+		variant,
+		propertyTitle,
+		neighborhoodName,
+	}}
+>
+	const form = document.getElementById(formId);
+
+	form?.addEventListener('submit', (event) => {
+		event.preventDefault();
+		const data = new FormData(form);
+		const name = data.get('name');
+		const phone = data.get('phone');
+		const email = data.get('email');
+		const interestLabel =
+			variant === 'property'
+				? `neste imóvel${propertyTitle ? ` (${propertyTitle})` : ''}`
+				: `em imóveis na planta em ${neighborhoodName || 'Florianópolis'}`;
+		const message = encodeURIComponent(
+			`Olá! Meu nome é ${name}. Tenho interesse ${interestLabel}. WhatsApp: ${phone}. E-mail: ${email}.`,
+		);
+		window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
+	});
+</script>

@@ -2,7 +2,9 @@
 import PillerLayout from '../layouts/PillerLayout.astro';
 import AboutPageContent from '../components/AboutPageContent.astro';
 import bodyHtml from '../content/template-pages/about.html?raw';
+import { removeBreadcrumbTitle, stripBreadcrumbHero } from '../lib/listing-breadcrumb.mjs';
 import { applySemanticHtml, wrapSplitPageContent } from '../lib/semantic-html.mjs';
+import { patchSiteMenu } from '../lib/site-menu.mjs';
 
 const title = 'Quem Somos';
 const bodyClass = '';
@@ -15,7 +17,11 @@ if (aboutAreaStart === -1 || footerStart === -1) {
 }
 
 const shell = wrapSplitPageContent(
-	applySemanticHtml(bodyHtml.slice(0, aboutAreaStart)),
+	stripBreadcrumbHero(
+		removeBreadcrumbTitle(
+			patchSiteMenu(applySemanticHtml(bodyHtml.slice(0, aboutAreaStart)), '/about'),
+		),
+	),
 	applySemanticHtml(bodyHtml.slice(footerStart)),
 );
 ---

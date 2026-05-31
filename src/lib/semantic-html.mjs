@@ -1,6 +1,6 @@
 import { patchSiteFooter } from './site-footer.mjs';
 import { applyGlossaryInlineLinksInMain } from './glossary-content-links.mjs';
-import { patchSiteMenu } from './site-menu.mjs';
+import { patchListingHeaderBranding, patchSiteMenu } from './site-menu.mjs';
 import { replaceLegacySiteEmails } from './site-contact.mjs';
 
 const MAIN_ID = 'conteudo-principal';
@@ -207,7 +207,7 @@ function enhanceForms(html) {
 }
 
 function enhanceHeaderMenu(html) {
-	return patchSiteMenu(html);
+	return patchListingHeaderBranding(patchSiteMenu(html));
 }
 
 function enhanceFooter(html) {
@@ -259,6 +259,23 @@ function enhanceDecorativeIcons(html) {
 	);
 }
 
+/** Remove imagem de fundo do breadcrumb (hero interno); a home mantém o hero principal. */
+export function stripBreadcrumbHeroBackground(html) {
+	if (!html || !html.includes('breadcumb-wrapper')) {
+		return html;
+	}
+
+	return html.replace(
+		/<(?:nav|div)\s+class="breadcumb-wrapper([^"]*)"([^>]*)>/gi,
+		(match, extraClasses, rest) => {
+			const classNames = `breadcumb-wrapper${extraClasses.includes('single-inventory') ? extraClasses : `${extraClasses} single-inventory`}`;
+			const cleanedRest = rest.replace(/\s*data-bg-src="[^"]*"/gi, '');
+
+			return `<nav class="${classNames.trim()}"${cleanedRest}>`;
+		},
+	);
+}
+
 export function applySemanticHtml(html) {
 	if (!html) {
 		return html;
@@ -269,6 +286,7 @@ export function applySemanticHtml(html) {
 	output = enhanceBranding(output);
 	output = enhanceNavigation(output);
 	output = enhanceLandmarks(output);
+	output = stripBreadcrumbHeroBackground(output);
 	output = enhanceArticles(output);
 	output = enhanceForms(output);
 	output = enhanceHeaderMenu(output);

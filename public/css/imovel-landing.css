@@ -25,7 +25,7 @@
 .imovel-landing .hero-gallery {
 	background: var(--smoke-color);
 	border-bottom: 1px solid var(--th-border-color);
-	padding: 0 0 0;
+	padding: 0;
 }
 
 .imovel-landing .hero-gallery__grid {
@@ -870,6 +870,75 @@ body.gallery-lightbox-open {
 
 .imovel-landing .w-100 {
 	width: 100%;
+}
+
+.imovel-landing .property-neighborhood-articles .row > [class*='col-'] {
+	display: flex;
+}
+
+.imovel-landing .property-neighborhood-articles .blog-card.property-neighborhood-articles__card {
+	display: flex;
+	flex: 1 1 auto;
+	flex-direction: column;
+	width: 100%;
+	min-height: 100%;
+	border: 1px solid var(--th-border-color);
+	border-radius: 12px;
+	overflow: hidden;
+	background: var(--white-color);
+	box-shadow: 0 2px 12px rgba(17, 24, 39, 0.05);
+	transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.imovel-landing .property-neighborhood-articles .blog-card:hover {
+	box-shadow: 0 6px 24px rgba(17, 24, 39, 0.08);
+	border-color: color-mix(in srgb, var(--theme-color) 35%, var(--th-border-color));
+}
+
+.imovel-landing .property-neighborhood-articles .blog-card .blog-img {
+	flex-shrink: 0;
+	height: 220px;
+}
+
+.imovel-landing .property-neighborhood-articles .blog-card .blog-img .date {
+	padding: 12px 14px;
+}
+
+.imovel-landing .property-neighborhood-articles .blog-card .blog-img .date a {
+	font-size: 14px;
+}
+
+.imovel-landing .property-neighborhood-articles .blog-card .blog-content {
+	display: flex;
+	flex: 1 1 auto;
+	flex-direction: column;
+	padding: 20px 20px 24px;
+}
+
+.imovel-landing .property-neighborhood-articles .blog-card .box-title {
+	font-size: 18px;
+	margin-bottom: 12px;
+	line-height: 1.35;
+}
+
+.imovel-landing .property-neighborhood-articles .blog-card .box-text {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	margin-bottom: 0;
+	font-size: 15px;
+	line-height: 1.55;
+}
+
+.imovel-landing .property-neighborhood-articles .blog-card .blog-content .property-neighborhood-articles__read-btn {
+	align-self: flex-start;
+	margin-top: auto;
+	padding: 9px 18px;
+	min-width: 0;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 1.2;
 }
 
 @media (max-width: 1199px) {

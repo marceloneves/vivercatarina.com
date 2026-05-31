@@ -36,6 +36,13 @@ const hasProperties = context.allProperties.length > 0;
 		basePath={context.basePath}
 		sidebarHtml={context.sidebarHtml}
 		showEmptyMessage={hasProperties}
+		leadForm={{
+			formId: `bairro-lead-${slug}`,
+			variant: 'bairro',
+			neighborhoodSlug: slug,
+			neighborhoodName: context.listing.name,
+			introText: `Receba oportunidades de imóveis na planta em ${context.listing.name}.`,
+		}}
 	/>
 	<Fragment set:html={context.shellAfter} />
 </PillerLayout>

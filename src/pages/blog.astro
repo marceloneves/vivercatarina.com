@@ -19,9 +19,9 @@ if (blogAreaStart === -1 || footerStart === -1) {
 const headerAndBreadcrumb = applySemanticHtml(
 	bodyHtml
 		.slice(0, blogAreaStart)
-		.replace('Blog Grid', title)
-		.replace('<li>Blog Grid</li>', `<li>${title}</li>`)
-		.replace('<li><a href="/">Home</a></li>', '<li><a href="/">Início</a></li>'),
+		.replaceAll('Blog Grid', title)
+		.replace('<li><a href="/">Home</a></li>', '<li><a href="/">Início</a></li>')
+		.replace(/<h1 class="breadcumb-title">[\s\S]*?<\/h1>\s*/i, ''),
 );
 
 const shell = wrapSplitPageContent(headerAndBreadcrumb, applySemanticHtml(bodyHtml.slice(footerStart)));

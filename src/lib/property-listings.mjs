@@ -1,6 +1,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { getCategoryLabel as getPropertyCategoryLabel } from './property-category.mjs';
+import { SITE_CITY, SITE_LOCATION } from './site-contact.mjs';
 import { filterFlorianopolisListings } from './property-data.mjs';
 import { cleanPropertyTitle } from './property-slug.mjs';
 
@@ -69,7 +70,15 @@ function escapeHtml(value) {
 		.replace(/"/g, '&quot;');
 }
 
-export function enrichProperty(entry) {
+export function buildPropertyLocationLabel(neighborhoodName, cityName = SITE_CITY) {
+	if (neighborhoodName) {
+		return `${neighborhoodName}, ${cityName}`;
+	}
+
+	return SITE_LOCATION;
+}
+
+export function enrichProperty(entry, options = {}) {
 	const propertyPath = join(dataRoot, entry.dataPath);
 	let overview = {};
 	let property = null;
@@ -98,7 +107,7 @@ export function enrichProperty(entry) {
 		categoryLabel: getCategoryLabel(entry.category),
 		detailUrl: getPropertyUrl(entry.slug),
 		imageUrl: getThumbnailUrl(entry.thumbnail),
-		locationLabel: 'Florianópolis, SC',
+		locationLabel: buildPropertyLocationLabel(options.neighborhoodName, options.cityName),
 	};
 }
 

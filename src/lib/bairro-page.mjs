@@ -1,7 +1,8 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { getBairroIntro, getBairroIntroDescription } from './bairro-intros.mjs';
+import { getBairroIntro } from './bairro-intros.mjs';
 import { enrichProperty, loadNeighborhoodListing, paginate, sortPropertiesByPrice } from './property-listings.mjs';
+import { removeBreadcrumbTitle, stripBreadcrumbHero } from './listing-breadcrumb.mjs';
 import { applySemanticHtml } from './semantic-html.mjs';
 import { patchSiteMenu } from './site-menu.mjs';
 import { buildBairroListingSeo } from './site-seo.mjs';
@@ -52,11 +53,20 @@ function customizeListingSortControl(html) {
 	);
 }
 
-function stripBreadcrumbHero(html) {
-	return html.replace(
-		/<div class="breadcumb-wrapper[^"]*"\s*data-bg-src="[^"]*">/,
-		'<div class="breadcumb-wrapper single-inventory">',
-	);
+function customizeBairroBreadcrumb(html, safeName, listingTitle) {
+	return removeBreadcrumbTitle(html)
+		.replace(
+			/<ol class="breadcumb-menu">[\s\S]*?<\/ol>/,
+			`<ol class="breadcumb-menu">
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/bairros">Bairros</a></li>
+                    <li><span aria-current="page">${safeName}</span></li>
+                </ol>`,
+		)
+		.replace(
+			/<h4 class="box-title text-start ">[^<]*<\/h4>/,
+			`<h1 class="box-title text-start bairro-listing-title">${listingTitle}</h1>`,
+		);
 }
 
 export function getBairroListingTitle(neighborhoodName) {
@@ -70,7 +80,12 @@ export function buildBairroPageContext(slug, pageNumber) {
 		return null;
 	}
 
-	const enriched = listing.properties.map(enrichProperty);
+	const enriched = listing.properties.map((property) =>
+		enrichProperty(property, {
+			neighborhoodName: listing.name,
+			cityName: listing.city?.name,
+		}),
+	);
 	const pagination = paginate(sortPropertiesByPrice(enriched, 'price'), pageNumber);
 	const shell = getShellTemplate();
 	const safeName = escapeHtml(listing.name);
@@ -81,16 +96,7 @@ export function buildBairroPageContext(slug, pageNumber) {
 	const before = patchSiteMenu(
 		customizeListingSortControl(
 			stripBreadcrumbHero(
-				shell.before
-					.replace(/<h1 class="breadcumb-title">[^<]*<\/h1>/, `<h1 class="breadcumb-title">${safeName}</h1>`)
-					.replace(
-						/(<ul class="breadcumb-menu">[\s\S]*?<li>)[^<]*(<\/li>)/,
-						`$1${safeName}$2`,
-					)
-					.replace(
-						/<h4 class="box-title text-start ">[^<]*<\/h4>/,
-						`<h4 class="box-title text-start ">${listingTitle}</h4>`,
-					),
+				customizeBairroBreadcrumb(shell.before, safeName, listingTitle),
 			),
 		),
 		currentPath,
@@ -102,9 +108,7 @@ export function buildBairroPageContext(slug, pageNumber) {
 		listing,
 		listingTitle: getBairroListingTitle(listing.name),
 		introParagraphs,
-		seo: buildBairroListingSeo(listing.name, currentPath, pageNumber, {
-			description: getBairroIntroDescription(slug, listing.name),
-		}),
+		seo: buildBairroListingSeo(listing.name, currentPath, pageNumber),
 		allProperties: enriched,
 		properties: pagination.items,
 		currentPage: pagination.currentPage,

@@ -1,12 +1,16 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
 import bodyHtml from '../content/template-pages/lancamentos.html?raw';
+import { patchLancamentosTemplateHtml } from '../lib/listing-breadcrumb.mjs';
 import { applySemanticHtml } from '../lib/semantic-html.mjs';
 import { patchSiteMenu } from '../lib/site-menu.mjs';
 
 const title = 'Lançamentos';
 const bodyClass = 'bairro-listing';
-const html = patchSiteMenu(applySemanticHtml(bodyHtml), '/lancamentos');
+const html = patchSiteMenu(
+	patchLancamentosTemplateHtml(applySemanticHtml(bodyHtml)),
+	'/lancamentos',
+);
 ---
 
 <PillerLayout title={title} bodyClass={bodyClass} disableEffects stylesheets={['/css/internal-links.css']}>

@@ -5,7 +5,9 @@ export const SITE_PHONE_DISPLAY = '(48) 98810-5199';
 export const SITE_PHONE_TEL = '+5548988105199';
 export const SITE_WHATSAPP_NUMBER = '5548988105199';
 export const SITE_LOCATION = 'Florianópolis, SC';
-export const SITE_DEFAULT_DESCRIPTION = `${SITE_NAME} — imóveis na planta em Florianópolis, Santa Catarina.`;
+export const SITE_CITY = 'Florianópolis';
+export const SITE_DEFAULT_DESCRIPTION =
+	'Portal Viver Catarina com imóveis na planta em Florianópolis. Compare lançamentos, apartamentos e casas, veja plantas, preços e fale com corretores credenciados.';
 
 const EMAIL_PATTERN = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g;
 const EMAIL_PLACEHOLDER_PATTERN = /placeholder="[^"]*@[^"]*"/g;

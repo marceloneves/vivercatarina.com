@@ -1,11 +1,16 @@
 ---
 import PillerLayout from '../../../layouts/PillerLayout.astro';
 import bodyHtml from '../../../content/template-pages/lancamentos/terrenos/pagina-3.html?raw';
+import { patchLancamentosTemplateHtml } from '../../../lib/listing-breadcrumb.mjs';
 import { applySemanticHtml } from '../../../lib/semantic-html.mjs';
+import { patchSiteMenu } from '../../../lib/site-menu.mjs';
 
-const title = 'Lançamentos';
+const title = 'Terrenos';
 const bodyClass = 'bairro-listing';
-const html = applySemanticHtml(bodyHtml);
+const html = patchSiteMenu(
+	patchLancamentosTemplateHtml(applySemanticHtml(bodyHtml), 'Terrenos'),
+	'/lancamentos/terrenos/pagina-3',
+);
 ---
 
 <PillerLayout title={title} bodyClass={bodyClass} disableEffects>

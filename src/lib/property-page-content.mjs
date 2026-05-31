@@ -2,7 +2,6 @@ import {
 	buildLocationLabel,
 	buildMapEmbedUrl,
 	buildPriceLabel,
-	getBairroUrl,
 	getPropertyCode,
 	getPropertyImageUrl,
 	getPropertyVideoUrl,
@@ -29,7 +28,7 @@ function linkifyGlossaryList(items) {
 
 function linkifyFaqItems(items) {
 	return items.map((item) => ({
-		pergunta: linkifyGlossaryContent(item.pergunta),
+		pergunta: item.pergunta,
 		resposta: linkifyGlossaryContent(item.resposta),
 	}));
 }
@@ -1020,7 +1019,7 @@ export function buildPropertyPageViewModel(property, slug) {
 	const cityName = property.address?.city?.name || NOT_INFORMED;
 	const neighborhoodName = property.address?.neighborhood?.name || NOT_INFORMED;
 	const seoTitle = `${displayTitle} — Apartamentos na planta em ${neighborhoodName}, ${cityName} | ${SITE_NAME}`;
-	const seoDescription = `${getCategoryLabel(property.category)} em ${neighborhoodName}, ${cityName}. ${stats.price}. Consulte plantas, condições e disponibilidade.`;
+	const seoDescription = `${getCategoryLabel(property.category)} ${displayTitle} em ${neighborhoodName}, ${cityName}. ${stats.price}. Veja plantas, fotos, condições de pagamento e fale com corretor credenciado.`;
 	const whatsappText = encodeURIComponent(
 		`Olá! Tenho interesse no empreendimento ${displayTitle} (cód. ${getPropertyCode(property)}).`,
 	);
@@ -1052,7 +1051,6 @@ export function buildPropertyPageViewModel(property, slug) {
 		nav: {
 			city: cityName,
 			neighborhood: neighborhoodName,
-			bairroUrl: getBairroUrl(property),
 			title: displayTitle,
 		},
 		hero: {

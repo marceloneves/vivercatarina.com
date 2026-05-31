@@ -3,12 +3,20 @@ import PillerLayout from '../layouts/PillerLayout.astro';
 import bodyHtml from '../content/template-pages/contact.html?raw';
 import { applySemanticHtml } from '../lib/semantic-html.mjs';
 import { patchSiteMenu } from '../lib/site-menu.mjs';
+import { resolvePageSeo } from '../lib/site-seo.mjs';
 
-const title = "Contato";
-const bodyClass = "";
+const seo = resolvePageSeo({ title: 'Contato', pathname: '/contact' });
+const bodyClass = '';
 const html = patchSiteMenu(applySemanticHtml(bodyHtml), '/contact');
 ---
 
-<PillerLayout title={title} bodyClass={bodyClass} stylesheets={['/css/internal-links.css']}>
+<PillerLayout
+	title={seo.title}
+	description={seo.description}
+	keywords={seo.keywords}
+	canonicalPath="/contact"
+	bodyClass={bodyClass}
+	stylesheets={['/css/internal-links.css']}
+>
 	<Fragment set:html={html} />
 </PillerLayout>

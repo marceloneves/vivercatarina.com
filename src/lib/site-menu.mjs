@@ -68,11 +68,33 @@ export function patchGlossaryMenu(html, currentPath = '/') {
 	return html.replace(GLOSSARY_MENU_PATTERN, `$1$2${item}$2$3`);
 }
 
+function isHomePath(currentPath) {
+	const path = String(currentPath || '/').split('?')[0];
+	return path === '/' || path === '/index.html';
+}
+
+export function patchListingHeaderBranding(html) {
+	if (!html || !html.includes('header-logo')) {
+		return html;
+	}
+
+	return html.replace(
+		/(<div class="header-logo">\s*<a href="\/"[^>]*><img src=")\/assets\/img\/logo\.svg"/,
+		'$1/assets/img/logo-white.svg"',
+	);
+}
+
 export function patchSiteMenu(html, currentPath = '/') {
-	return patchHeaderSocial(
+	let output = patchHeaderSocial(
 		patchGlossaryMenu(
 			patchLancamentosSubmenu(patchBairrosMenu(removeHeaderAddListingButton(html), currentPath)),
 			currentPath,
 		),
 	);
+
+	if (!isHomePath(currentPath)) {
+		output = patchListingHeaderBranding(output);
+	}
+
+	return output;
 }

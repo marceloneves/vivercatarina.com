@@ -12,6 +12,7 @@ import {
 	PROPERTY_CATEGORIES,
 } from './property-category.mjs';
 import { enrichProperty, paginate, sortPropertiesByPrice } from './property-listings.mjs';
+import { patchCompactListingBreadcrumb } from './listing-breadcrumb.mjs';
 import { filterFlorianopolisListings } from './property-data.mjs';
 import { applySemanticHtml } from './semantic-html.mjs';
 import { patchSiteMenu } from './site-menu.mjs';
@@ -64,34 +65,24 @@ function customizeListingSortControl(html) {
 	);
 }
 
-function stripBreadcrumbHero(html) {
-	return html.replace(
-		/<div class="breadcumb-wrapper[^"]*"\s*data-bg-src="[^"]*">/,
-		'<div class="breadcumb-wrapper single-inventory">',
-	);
+function customizeLancamentosListingShell(html, label) {
+	const safeName = escapeHtml(label);
+	const listingTitle = escapeHtml(`${label} em ${LISTING_REGION}`);
+
+	return patchCompactListingBreadcrumb(html, {
+		pageLabel: safeName,
+		listingTitle,
+		parent: { href: '/lancamentos', label: 'Lançamentos' },
+	});
 }
 
 function buildListingShell(label, basePath, pageNumber, pageSlug) {
 	const shell = getShellTemplate();
-	const safeName = escapeHtml(label);
 	const currentPath = pageNumber > 1 ? `${basePath}/pagina-${pageNumber}` : basePath;
 
 	return {
 		shellBefore: patchSiteMenu(
-			customizeListingSortControl(
-				stripBreadcrumbHero(
-					shell.before
-						.replace(/<h1 class="breadcumb-title">[^<]*<\/h1>/, `<h1 class="breadcumb-title">${safeName}</h1>`)
-						.replace(
-							/(<ul class="breadcumb-menu">[\s\S]*?<li>)[^<]*(<\/li>)/,
-							`$1${safeName}$2`,
-						)
-						.replace(
-							/<h4 class="box-title text-start ">[^<]*<\/h4>/,
-							`<h4 class="box-title text-start ">${safeName} em ${LISTING_REGION}</h4>`,
-						),
-				),
-			),
+			customizeListingSortControl(customizeLancamentosListingShell(shell.before, label)),
 			currentPath,
 		),
 		shellAfter: applySemanticHtml(shell.after),

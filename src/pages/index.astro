@@ -13,7 +13,7 @@ import {
 } from '../lib/home-page.mjs';
 
 const title = 'Início';
-const bodyClass = '';
+const bodyClass = 'home-page';
 const shell = getHomePageShell();
 const featuredLancamentos = loadHomeFeaturedLancamentos(4);
 const neighborhoodCards = loadHomeNeighborhoodCards();
@@ -29,7 +29,6 @@ const homeFaqSchema = buildHomeFaqSchema();
 	<Fragment set:html={shell.before} />
 	<HomeLancamentosSection properties={featuredLancamentos} />
 	<HomeBairrosSection neighborhoods={neighborhoodCards} />
-	<Fragment set:html={shell.middle} />
 	<HomeBlogSection posts={latestPosts} />
 	<HomeFaqSection items={homeFaqItems} />
 	<Fragment set:html={shell.after} />

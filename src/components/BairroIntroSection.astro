@@ -2,38 +2,26 @@
 const { name, paragraphs, hasProperties } = Astro.props;
 ---
 
-<div class="bairro-intro-panel" aria-labelledby="bairro-intro-title">
-	<div class="bairro-intro-panel__head">
-		<p class="sub-title"><span class="double-line"></span> Florianópolis, SC</p>
-		<h2 class="bairro-intro-panel__title" id="bairro-intro-title">
-			Imóveis na planta em {name}
-		</h2>
-	</div>
-	<div class="bairro-intro-panel__content">
-		{
-			paragraphs.map((paragraph, index) => (
-				<p
-					class:list={[
-						'bairro-intro-panel__text',
-						index === paragraphs.length - 1 && hasProperties && 'mb-0',
-					]}
-				>
-					{paragraph}
-				</p>
-			))
-		}
-		{
-			!hasProperties && (
-				<div class="bairro-intro-panel__notice" role="status">
-					<i class="fa-regular fa-circle-info" aria-hidden="true"></i>
-					<p class="mb-0">
-						No momento não há lançamentos publicados para {name}.{' '}
-						<a href="/contato">Fale conosco</a> para ser avisado quando surgirem novas
-						oportunidades ou explore outros{' '}
-						<a href="/bairros">bairros de Florianópolis</a>.
-					</p>
-				</div>
-			)
-		}
-	</div>
+<div class="bairro-intro-panel" aria-label={`Sobre imóveis na planta em ${name}`}>
+	{
+		paragraphs.map((paragraph, index) => (
+			<p
+				class:list={[
+					'bairro-intro-panel__text',
+					index === paragraphs.length - 1 && !hasProperties && 'mb-0',
+				]}
+			>
+				{paragraph}
+			</p>
+		))
+	}
+	{
+		!hasProperties && (
+			<p class="bairro-intro-panel__note mb-0">
+				No momento não há lançamentos publicados para {name}.{' '}
+				<a href="/contato">Fale conosco</a> ou veja outros{' '}
+				<a href="/bairros">bairros de Florianópolis</a>.
+			</p>
+		)
+	}
 </div>

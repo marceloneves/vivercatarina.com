@@ -6,6 +6,8 @@ import { getKindLabel } from './property-kind.mjs';
 
 export const SITE_AUTHOR = SITE_NAME;
 export const SITE_PUBLISHER = SITE_NAME;
+export const META_DESCRIPTION_MAX = 160;
+export const META_DESCRIPTION_TARGET = 150;
 
 const BASE_KEYWORDS = [
 	'imóveis na planta',
@@ -62,7 +64,7 @@ export function buildSitePageTitle(title) {
 	return `${title} | ${SITE_NAME}`;
 }
 
-export function trimDescription(value, maxLength = 160) {
+export function trimDescription(value, maxLength = META_DESCRIPTION_MAX) {
 	const text = String(value || '')
 		.replace(/\s+/g, ' ')
 		.trim();
@@ -72,6 +74,66 @@ export function trimDescription(value, maxLength = 160) {
 	}
 
 	return `${text.slice(0, maxLength - 1).trimEnd()}…`;
+}
+
+function trimToLength(value, maxLength) {
+	const text = String(value || '')
+		.replace(/\s+/g, ' ')
+		.trim();
+
+	if (text.length <= maxLength) {
+		return text;
+	}
+
+	const slice = text.slice(0, maxLength);
+	const lastSpace = slice.lastIndexOf(' ');
+	let result =
+		lastSpace > maxLength * 0.55
+			? slice
+					.slice(0, lastSpace)
+					.replace(/[,;:]$/, '')
+					.trimEnd()
+			: slice.trimEnd();
+
+	const badEnding =
+		/(?:^|\s)(e|de|o|a|em|no|na|com|para|ou|do|da|dos|das|que|um|uma|se|até|por)$/i;
+
+	while (badEnding.test(result) && result.includes(' ')) {
+		result = result.slice(0, result.lastIndexOf(' ')).replace(/[,;:]$/, '').trimEnd();
+	}
+
+	return result;
+}
+
+/** @param {string} keyword @param {string} body */
+export function buildMetaDescription(keyword, body) {
+	const normalizedKeyword = String(keyword || '').trim();
+	let description = String(body || '')
+		.replace(/\s+/g, ' ')
+		.trim();
+
+	const needsKeyword =
+		normalizedKeyword &&
+		!description.toLowerCase().includes(normalizedKeyword.toLowerCase());
+	const keywordPrefix = needsKeyword ? `${normalizedKeyword}. ` : '';
+	const maxBodyLength = META_DESCRIPTION_TARGET - keywordPrefix.length - 1;
+
+	description = trimToLength(description, maxBodyLength);
+	description = `${keywordPrefix}${description}`.replace(/\s+/g, ' ').trim();
+
+	if (description && !description.endsWith('.')) {
+		description = `${description}.`;
+	}
+
+	return trimToLength(description, META_DESCRIPTION_MAX);
+}
+
+function withPagination(description, pageNumber) {
+	if (pageNumber <= 1) {
+		return description;
+	}
+
+	return trimDescription(`${description.replace(/\.$/, '')} — Página ${pageNumber}.`);
 }
 
 export function buildKeywords(...parts) {
@@ -141,8 +203,10 @@ function inferSeoFromPath(path, title = '') {
 	if (path === '/') {
 		return {
 			title: 'Início',
-			description:
-				'Compare lançamentos e imóveis na planta em Florianópolis. Apartamentos, casas e loteamentos com orientação de corretores credenciados no Viver Catarina.',
+			description: buildMetaDescription(
+				'imóveis na planta em Florianópolis',
+				'Compare lançamentos e apartamentos na planta. Veja preços, plantas, condições de pagamento e fale com corretores credenciados',
+			),
 			keywords: buildKeywords('comprar imóvel na planta', 'empreendimentos Florianópolis'),
 		};
 	}
@@ -150,8 +214,10 @@ function inferSeoFromPath(path, title = '') {
 	if (path === '/about') {
 		return {
 			title: 'Quem Somos',
-			description:
-				'Conheça o Viver Catarina: portal especializado em imóveis na planta em Florianópolis, com curadoria de lançamentos e atendimento por corretores credenciados.',
+			description: buildMetaDescription(
+				'Viver Catarina',
+				'Portal especializado em imóveis na planta em Florianópolis, com curadoria de lançamentos e atendimento por corretores credenciados',
+			),
 			keywords: buildKeywords('quem somos', 'portal imobiliário Florianópolis'),
 		};
 	}
@@ -159,8 +225,10 @@ function inferSeoFromPath(path, title = '') {
 	if (path === '/contact') {
 		return {
 			title: 'Contato',
-			description:
-				'Fale com especialistas do Viver Catarina sobre imóveis na planta em Florianópolis. Tire dúvidas sobre lançamentos, financiamento e documentação.',
+			description: buildMetaDescription(
+				'contato imobiliário Florianópolis',
+				'Fale com especialistas sobre lançamentos na planta. Tire dúvidas sobre financiamento, documentação e receba atendimento personalizado',
+			),
 			keywords: buildKeywords('contato imobiliário', 'corretor Florianópolis'),
 		};
 	}
@@ -168,19 +236,25 @@ function inferSeoFromPath(path, title = '') {
 	if (path === '/blog') {
 		return {
 			title: 'Blog',
-			description:
-				'Artigos sobre mercado imobiliário, bairros e dicas para comprar imóvel na planta em Florianópolis e Santa Catarina.',
+			description: buildMetaDescription(
+				'blog imobiliário Florianópolis',
+				'Artigos sobre mercado imobiliário, bairros e dicas para comprar imóvel na planta em Florianópolis e Santa Catarina',
+			),
 			keywords: buildKeywords('blog imobiliário', 'mercado imobiliário Florianópolis'),
 		};
 	}
 
 	if (path.startsWith('/blog/')) {
+		const keyword = title || 'imóveis na planta em Florianópolis';
+
 		return {
 			title: title || 'Blog',
-			description:
+			description: buildMetaDescription(
+				keyword,
 				title
-					? `${title}. Conteúdo do Viver Catarina sobre imóveis, bairros e mercado em Florianópolis.`
-					: 'Artigo do blog Viver Catarina sobre imóveis na planta em Florianópolis.',
+					? `${title}. Conteúdo do Viver Catarina sobre bairros, mercado imobiliário e dicas para comprar na planta em Florianópolis`
+					: 'Artigo do blog Viver Catarina sobre imóveis na planta, bairros e mercado imobiliário em Florianópolis',
+			),
 			keywords: buildKeywords(title, 'blog imobiliário Florianópolis'),
 		};
 	}
@@ -188,8 +262,10 @@ function inferSeoFromPath(path, title = '') {
 	if (path === '/glossario') {
 		return {
 			title: 'Glossário',
-			description:
-				'Glossário com termos essenciais para quem compra imóvel na planta em Florianópolis: contrato, financiamento, obra, habite-se, SPE e muito mais.',
+			description: buildMetaDescription(
+				'glossário imobiliário',
+				'Termos essenciais para comprar na planta: contrato, financiamento, obra, habite-se, SPE, memorial descritivo e mais termos do mercado imobiliário',
+			),
 			keywords: buildKeywords(
 				'glossário imobiliário',
 				'termos imóvel na planta',
@@ -204,8 +280,13 @@ function inferSeoFromPath(path, title = '') {
 		if (basePath === '/lancamentos') {
 			return {
 				title: `Lançamentos${paginationSuffix(pageNumber)}`,
-				description:
-					'Veja lançamentos e imóveis na planta em Florianópolis. Compare apartamentos, casas, loteamentos e terrenos com preços e condições atualizados.',
+				description: withPagination(
+					buildMetaDescription(
+						'lançamentos imobiliários Florianópolis',
+						'Compare apartamentos, casas, loteamentos e terrenos na planta. Veja preços, metragens e condições atualizadas no Viver Catarina',
+					),
+					pageNumber,
+				),
 				keywords: buildKeywords('lançamentos Florianópolis', 'imóveis na planta'),
 			};
 		}
@@ -213,8 +294,13 @@ function inferSeoFromPath(path, title = '') {
 		if (basePath === '/lancamentos/terrenos') {
 			return {
 				title: `Terrenos${paginationSuffix(pageNumber)}`,
-				description:
-					'Terrenos e oportunidades na planta em Florianópolis. Compare localização, metragem e condições de compra no Viver Catarina.',
+				description: withPagination(
+					buildMetaDescription(
+						'terrenos Florianópolis',
+						'Encontre terrenos e lotes na planta em Florianópolis. Compare localização, metragem, preços e condições de compra no Viver Catarina',
+					),
+					pageNumber,
+				),
 				keywords: buildKeywords('terrenos Florianópolis', 'lotes na planta'),
 			};
 		}
@@ -245,8 +331,13 @@ function inferSeoFromPath(path, title = '') {
 		if (basePath === '/bairros') {
 			return {
 				title: `Bairros${paginationSuffix(pageNumber)}`,
-				description:
-					'Explore bairros de Florianópolis e encontre imóveis na planta por região. Compare lançamentos, preços e perfil de cada bairro.',
+				description: withPagination(
+					buildMetaDescription(
+						'bairros Florianópolis',
+						'Explore bairros e encontre imóveis na planta por região. Compare lançamentos, preços, perfil de cada bairro e oportunidades de investimento',
+					),
+					pageNumber,
+				),
 				keywords: buildKeywords('bairros Florianópolis', 'imóveis por bairro'),
 			};
 		}
@@ -258,7 +349,13 @@ function inferSeoFromPath(path, title = '') {
 		if (filterLabel) {
 			return {
 				title: `${filterLabel}${paginationSuffix(pageNumber)}`,
-				description: `Imóveis na planta em Florianópolis na faixa ${filterLabel.toLowerCase()}. Compare empreendimentos, metragens e condições de pagamento.`,
+				description: withPagination(
+					buildMetaDescription(
+						`imóveis na planta ${filterLabel.toLowerCase()}`,
+						`Compare empreendimentos na faixa ${filterLabel.toLowerCase()}. Veja metragens, plantas e condições de pagamento em Florianópolis`,
+					),
+					pageNumber,
+				),
 				keywords: buildKeywords(filterLabel, 'imóveis na planta Florianópolis', 'preço imóvel'),
 			};
 		}
@@ -275,12 +372,16 @@ function inferSeoFromPath(path, title = '') {
 	}
 
 	if (path.startsWith('/imovel/')) {
+		const keyword = title ? `${title} Florianópolis` : 'imóveis na planta em Florianópolis';
+
 		return {
 			title: title || 'Empreendimento',
-			description:
+			description: buildMetaDescription(
+				keyword,
 				title
-					? `${title} na planta em Florianópolis. Veja plantas, preços, condições de pagamento e fale com corretor credenciado.`
-					: 'Empreendimento na planta em Florianópolis com informações de plantas, preços e disponibilidade.',
+					? `${title} na planta em Florianópolis. Veja plantas, preços, fotos, condições de pagamento e fale com corretor credenciado no Viver Catarina`
+					: 'Empreendimento na planta em Florianópolis com plantas, preços, condições de pagamento e atendimento de corretores credenciados no Viver Catarina',
+			),
 			keywords: buildKeywords(title, 'empreendimento na planta', 'apartamento Florianópolis'),
 		};
 	}
@@ -288,16 +389,24 @@ function inferSeoFromPath(path, title = '') {
 	if (path === '/404' || path === '/error') {
 		return {
 			title: path === '/404' ? 'Página não encontrada' : 'Erro',
-			description: 'A página solicitada não foi encontrada no Viver Catarina.',
+			description: buildMetaDescription(
+				'Viver Catarina',
+				'A página solicitada não foi encontrada no portal Viver Catarina. Volte ao início e continue buscando imóveis na planta em Florianópolis',
+			),
 			keywords: buildKeywords(),
 			noindex: true,
 		};
 	}
 
 	if (isDemoPath(path)) {
+		const pageTitle = title || 'Página';
+
 		return {
-			title: title || SITE_NAME,
-			description: `${title || 'Página'} do portal Viver Catarina — imóveis na planta em Florianópolis, Santa Catarina.`,
+			title: pageTitle,
+			description: buildMetaDescription(
+				pageTitle,
+				`${pageTitle} do portal Viver Catarina. Explore imóveis na planta, lançamentos e apartamentos em Florianópolis com curadoria e atendimento especializado`,
+			),
 			keywords: buildKeywords(title),
 			noindex: true,
 		};
@@ -305,19 +414,29 @@ function inferSeoFromPath(path, title = '') {
 
 	return {
 		title: title || SITE_NAME,
-		description: title
-			? `${title} — imóveis na planta em Florianópolis no portal Viver Catarina.`
-			: SITE_DEFAULT_DESCRIPTION,
+		description: buildMetaDescription(
+			title || 'imóveis na planta em Florianópolis',
+			title
+				? `${title} no portal Viver Catarina. Compare lançamentos, plantas, preços e condições para comprar imóvel na planta em Florianópolis`
+				: SITE_DEFAULT_DESCRIPTION,
+		),
 		keywords: buildKeywords(title),
 	};
 }
 
 export function buildLancamentosListingSeo(label, pathname, pageNumber = 1) {
 	const suffix = paginationSuffix(pageNumber);
+	const keyword = `${label.toLowerCase()} na planta Florianópolis`;
 
 	return {
 		title: `${label}${suffix}`,
-		description: `Confira ${label.toLowerCase()} na planta em Florianópolis. Compare preços, metragens, plantas e condições de pagamento no Viver Catarina.`,
+		description: withPagination(
+			buildMetaDescription(
+				keyword,
+				`Confira opções na planta. Compare preços, metragens, plantas, localização e condições de pagamento no Viver Catarina`,
+			),
+			pageNumber,
+		),
 		keywords: buildKeywords(label, 'lançamentos Florianópolis', 'comprar na planta'),
 		canonicalPath: normalizePath(pathname),
 	};
@@ -326,10 +445,16 @@ export function buildLancamentosListingSeo(label, pathname, pageNumber = 1) {
 export function buildBairroListingSeo(neighborhoodName, pathname, pageNumber = 1, options = {}) {
 	const suffix = paginationSuffix(pageNumber);
 	const listingTitle = `Imóveis na planta em ${neighborhoodName}`;
-	const defaultDescription = `Veja imóveis na planta em ${neighborhoodName}, Florianópolis. Apartamentos, casas e loteamentos com preços, plantas e condições de pagamento.`;
-	const description = options.description
-		? trimDescription(`${options.description} Compare lançamentos, plantas e condições no Viver Catarina.`)
-		: defaultDescription;
+	const keyword = `imóveis na planta em ${neighborhoodName}`;
+	const description = withPagination(
+		options.description
+			? buildMetaDescription(keyword, options.description)
+			: buildMetaDescription(
+					keyword,
+					`Compare apartamentos, casas, preços, plantas, metragens e condições de pagamento de lançamentos no Viver Catarina`,
+				),
+		pageNumber,
+	);
 
 	return {
 		title: `${listingTitle}${suffix}`,
@@ -340,9 +465,13 @@ export function buildBairroListingSeo(neighborhoodName, pathname, pageNumber = 1
 }
 
 export function buildPropertySeo({ title, description, neighborhoodName, category, tags = [] }) {
+	const keyword = neighborhoodName
+		? `imóveis na planta em ${neighborhoodName}`
+		: 'imóveis na planta em Florianópolis';
+
 	return {
 		title,
-		description: trimDescription(description),
+		description: buildMetaDescription(keyword, description),
 		keywords: buildKeywords(
 			title,
 			neighborhoodName,
@@ -368,7 +497,8 @@ export function resolvePageSeo(options = {}) {
 	const path = normalizePath(canonicalPath || pathname);
 	const inferred = inferSeoFromPath(path, title);
 	const resolvedTitle = title || inferred.title;
-	const resolvedDescription = description || inferred.description || SITE_DEFAULT_DESCRIPTION;
+	const resolvedDescription =
+		description || inferred.description || buildMetaDescription('imóveis na planta em Florianópolis', SITE_DEFAULT_DESCRIPTION);
 	const resolvedKeywords = keywords || inferred.keywords || buildKeywords();
 	const resolvedNoindex = noindex ?? inferred.noindex ?? false;
 	const documentTitle = buildSitePageTitle(resolvedTitle);
@@ -376,13 +506,13 @@ export function resolvePageSeo(options = {}) {
 
 	return {
 		title: documentTitle,
-		description: trimDescription(resolvedDescription),
+		description: trimToLength(resolvedDescription, META_DESCRIPTION_MAX),
 		keywords: resolvedKeywords,
 		author: SITE_AUTHOR,
 		publisher: SITE_PUBLISHER,
 		canonicalUrl,
 		ogTitle: documentTitle,
-		ogDescription: trimDescription(resolvedDescription),
+		ogDescription: trimToLength(resolvedDescription, META_DESCRIPTION_MAX),
 		ogImage: absoluteUrl(ogImage),
 		ogType,
 		ogUrl: canonicalUrl,

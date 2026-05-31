@@ -2,15 +2,16 @@
 import PillerLayout from '../layouts/PillerLayout.astro';
 import HomeBairrosSection from '../components/HomeBairrosSection.astro';
 import bodyHtml from '../content/template-pages/bairros.html?raw';
+import { removeBreadcrumbTitle, stripBreadcrumbHero } from '../lib/listing-breadcrumb.mjs';
 import { applySemanticHtml, wrapSplitPageContent } from '../lib/semantic-html.mjs';
 import { loadHomeNeighborhoodCards } from '../lib/home-page.mjs';
 import { patchSiteMenu } from '../lib/site-menu.mjs';
-import { buildKeywords } from '../lib/site-seo.mjs';
+import { buildKeywords, resolvePageSeo } from '../lib/site-seo.mjs';
 
+const seo = resolvePageSeo({ title: 'Bairros', pathname: '/bairros' });
 const title = 'Bairros';
-const bodyClass = '';
-const description =
-	'Bairros de Florianópolis com imóveis na planta. Compare lançamentos, apartamentos e casas por região e encontre o bairro ideal para investir ou morar.';
+const bodyClass = 'bairro-listing';
+const description = seo.description;
 
 const contentStart = bodyHtml.indexOf('<!--==============================\nBlog Area');
 const footerStart = bodyHtml.indexOf('<!--==============================\n\tFooter Area');
@@ -20,7 +21,11 @@ if (contentStart === -1 || footerStart === -1) {
 }
 
 const shell = wrapSplitPageContent(
-	patchSiteMenu(applySemanticHtml(bodyHtml.slice(0, contentStart)), '/bairros'),
+	stripBreadcrumbHero(
+		removeBreadcrumbTitle(
+			patchSiteMenu(applySemanticHtml(bodyHtml.slice(0, contentStart)), '/bairros'),
+		),
+	),
 	applySemanticHtml(bodyHtml.slice(footerStart)),
 );
 
@@ -37,6 +42,6 @@ const neighborhoodCards = loadHomeNeighborhoodCards();
 	stylesheets={['/css/internal-links.css']}
 >
 	<Fragment set:html={shell.before} />
-	<HomeBairrosSection neighborhoods={neighborhoodCards} />
+	<HomeBairrosSection neighborhoods={neighborhoodCards} variant="listing" />
 	<Fragment set:html={shell.after} />
 </PillerLayout>

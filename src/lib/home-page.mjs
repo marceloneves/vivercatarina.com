@@ -210,22 +210,14 @@ export function getHomePageShell() {
 	const html = applySemanticHtml(readFileSync(templatePath, 'utf8'));
 	const sectionStart = html.indexOf('<section class="popular-sec-1');
 	const sectionEnd = html.indexOf('    </section><!--==============================\nGallery Area');
-	const galleryStart = html.indexOf('class="gallery-sec-1');
-	const galleryEnd = html.indexOf('<!--==============================\nTestimonial Area', galleryStart);
+	const footerStart = html.indexOf('<!--==============================\n\tFooter Area');
 
 	if (sectionStart === -1 || sectionEnd === -1) {
 		throw new Error('Não foi possível localizar a seção de lançamentos na home.');
 	}
 
-	if (galleryStart === -1 || galleryEnd === -1) {
-		throw new Error('Não foi possível localizar a seção de bairros na home.');
-	}
-
-	const blogStart = html.indexOf('<!--==============================\nBlog Area');
-	const footerStart = html.indexOf('<!--==============================\n\tFooter Area');
-
-	if (blogStart === -1 || footerStart === -1) {
-		throw new Error('Não foi possível localizar a seção de artigos na home.');
+	if (footerStart === -1) {
+		throw new Error('Não foi possível localizar o rodapé na home.');
 	}
 
 	const heroBackgroundUrl = getHomeHeroBackgroundUrl();
@@ -238,7 +230,6 @@ export function getHomePageShell() {
 
 	return {
 		before,
-		middle: html.slice(galleryEnd, blogStart),
 		after: html.slice(footerStart),
 	};
 }

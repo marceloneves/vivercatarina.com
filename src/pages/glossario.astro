@@ -5,13 +5,13 @@ import bodyHtml from '../content/template-pages/faq.html?raw';
 import { applySemanticHtml, wrapSplitPageContent } from '../lib/semantic-html.mjs';
 import { patchSiteMenu } from '../lib/site-menu.mjs';
 import { SITE_URL } from '../lib/site-contact.mjs';
-import { buildKeywords } from '../lib/site-seo.mjs';
+import { buildKeywords, resolvePageSeo } from '../lib/site-seo.mjs';
 import { getGlossaryTerms } from '../lib/glossary-terms.mjs';
 
+const seo = resolvePageSeo({ title: 'Glossário', pathname: '/glossario' });
 const title = 'Glossário';
 const bodyClass = '';
-const description =
-	'Glossário com termos essenciais para quem compra imóvel na planta em Florianópolis: contrato, financiamento, obra, habite-se, SPE e muito mais.';
+const description = seo.description;
 
 const breadcrumbStart = bodyHtml.indexOf('<!--==============================\n    Breadcumb');
 const footerStart = bodyHtml.indexOf('<!--==============================\n\tFooter Area');

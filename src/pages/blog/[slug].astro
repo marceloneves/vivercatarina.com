@@ -8,7 +8,8 @@ import melhoresBairrosBody from '../../content/blog/melhores-bairros-para-morar-
 import morarContinenteIlhaBody from '../../content/blog/morar-no-continente-x-na-ilha-em-florianopolis.html?raw';
 import quantoCustaMorarBody from '../../content/blog/quanto-custa-morar-em-florianopolis.html?raw';
 import { applyArticleInlineLinks } from '../../lib/blog-content-links.mjs';
-import { getBlogPost, getBlogPosts } from '../../lib/blog-posts.mjs';
+import { getBlogPost, getBlogPostMetaDescription, getBlogPosts } from '../../lib/blog-posts.mjs';
+import { patchCompactListingBreadcrumb } from '../../lib/listing-breadcrumb.mjs';
 import { applySemanticHtml, wrapSplitPageContent } from '../../lib/semantic-html.mjs';
 import { buildKeywords } from '../../lib/site-seo.mjs';
 
@@ -50,11 +51,10 @@ if (blogAreaStart === -1 || articleStart === -1 || articleEnd === -1 || footerSt
 
 const shell = wrapSplitPageContent(
 	applySemanticHtml(
-		bodyHtml
-			.slice(0, blogAreaStart)
-			.replace('Blog Details', title)
-			.replace('<li>Blog Details</li>', `<li>${title}</li>`)
-			.replace('<li><a href="/">Home</a></li>', '<li><a href="/">Início</a></li>'),
+		patchCompactListingBreadcrumb(bodyHtml.slice(0, blogAreaStart), {
+			pageLabel: title,
+			parent: { href: '/blog', label: 'Blog' },
+		}),
 	),
 	applySemanticHtml(bodyHtml.slice(footerStart)),
 );
@@ -105,7 +105,7 @@ const articleHtml = applySemanticHtml(`<!--==============================
 
 <PillerLayout
 	title={title}
-	description={post.excerpt}
+	description={getBlogPostMetaDescription(post)}
 	keywords={buildKeywords(title, post.category, ...(post.tags ?? []), 'blog imobiliário Florianópolis')}
 	ogImage={post.imageUrl}
 	ogType="article"

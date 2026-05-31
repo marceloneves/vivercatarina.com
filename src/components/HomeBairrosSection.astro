@@ -1,47 +1,121 @@
 ---
-const { neighborhoods } = Astro.props;
+const { neighborhoods, variant = 'home' } = Astro.props;
+const isListing = variant === 'listing';
 ---
 
-<section class="gallery-sec-1 home-bairros-section overflow-hidden space overflow-hidden" aria-labelledby="home-bairros-title">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-xl-7">
-				<div class="title-area text-center">
-					<p class="sub-title"><span class="double-line"></span>Florianópolis</p>
-					<h2 class="sec-title mb-2" id="home-bairros-title">Bairros para Comprar Imóveis na Planta</h2>
-					<p class="box-text">Encontre o lançamento imobiliário em Florianópolis ideal para você</p>
+{
+	isListing ? (
+		<section
+			class="th-blog-wrapper space-top space-extra-bottom home-bairros-section"
+			aria-labelledby="home-bairros-title"
+		>
+			<div class="container">
+				<div class="th-sort-bar property-style">
+					<div class="row justify-content-between align-items-center">
+						<div class="col-md">
+							<h1 class="box-title text-start bairro-listing-title" id="home-bairros-title">
+								Bairros em Florianópolis
+							</h1>
+						</div>
+					</div>
+				</div>
+				<p class="box-text bairros-listing-lead mb-4">
+					Encontre o lançamento imobiliário em Florianópolis ideal para você
+				</p>
+				<div class="row gy-30 justify-content-center">
+					{
+						neighborhoods.map((neighborhood) => (
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<article class="gallery-card h-100">
+									<a href={neighborhood.href} class="gallery-card-link">
+										<div class="gallery-img">
+											<img
+												src={neighborhood.imageUrl}
+												alt=""
+												aria-hidden="true"
+												loading="lazy"
+											/>
+											<div class="gallery-content">
+												<div class="gallery-content-wrapper">
+													<p class="box-text">Florianópolis, SC</p>
+													<h2 class="box-title">{neighborhood.name}</h2>
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+						))
+					}
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="container pb-5">
-		<div class="row gy-30 justify-content-center">
-			{
-				neighborhoods.map((neighborhood) => (
-					<div class="col-xl-3 col-lg-4 col-md-6">
-						<article class="gallery-card h-100">
-							<div class="gallery-img">
-								<img src={neighborhood.imageUrl} alt={neighborhood.name} loading="lazy" />
-								<div class="gallery-content">
-									<div class="gallery-content-wrapper">
-										<p class="box-text">Florianópolis, SC</p>
-										<h2 class="box-title">
-											<a href={neighborhood.href}>{neighborhood.name}</a>
-										</h2>
-									</div>
-								</div>
-							</div>
-						</article>
+		</section>
+	) : (
+		<section
+			class="gallery-sec-1 home-bairros-section overflow-hidden space overflow-hidden"
+			aria-labelledby="home-bairros-title"
+		>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-7">
+						<div class="title-area text-center">
+							<p class="sub-title">
+								<span class="double-line" />
+								Florianópolis
+							</p>
+							<h2 class="sec-title mb-2" id="home-bairros-title">
+								Bairros para Comprar Imóveis na Planta
+							</h2>
+							<p class="box-text">
+								Encontre o lançamento imobiliário em Florianópolis ideal para você
+							</p>
+						</div>
 					</div>
-				))
-			}
-		</div>
-	</div>
-</section>
+				</div>
+			</div>
+			<div class="container pb-5">
+				<div class="row gy-30 justify-content-center">
+					{
+						neighborhoods.map((neighborhood) => (
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<article class="gallery-card h-100">
+									<a href={neighborhood.href} class="gallery-card-link">
+										<div class="gallery-img">
+											<img
+												src={neighborhood.imageUrl}
+												alt=""
+												aria-hidden="true"
+												loading="lazy"
+											/>
+											<div class="gallery-content">
+												<div class="gallery-content-wrapper">
+													<p class="box-text">Florianópolis, SC</p>
+													<h2 class="box-title">{neighborhood.name}</h2>
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+						))
+					}
+				</div>
+			</div>
+		</section>
+	)
+}
 
 <style>
 	.home-bairros-section .gallery-card {
 		height: 100%;
+	}
+
+	.home-bairros-section .gallery-card-link {
+		display: block;
+		height: 100%;
+		color: inherit;
+		text-decoration: none;
+		cursor: pointer;
 	}
 
 	.home-bairros-section .gallery-img {
@@ -60,5 +134,17 @@ const { neighborhoods } = Astro.props;
 		height: 100%;
 		object-fit: cover;
 		object-position: center;
+		transition: transform 0.4s ease;
+	}
+
+	.home-bairros-section .gallery-card-link:hover .gallery-img img,
+	.home-bairros-section .gallery-card-link:focus-visible .gallery-img img {
+		transform: scale(1.03);
+	}
+
+	.home-bairros-section .gallery-card-link:focus-visible {
+		outline: 2px solid var(--theme-color);
+		outline-offset: 4px;
+		border-radius: 16px;
 	}
 </style>
