@@ -1,0 +1,87 @@
+---
+const { posts } = Astro.props;
+---
+
+<section class="space overflow-hidden home-blog-section" id="blog-sec" aria-labelledby="home-blog-title">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-7">
+				<div class="title-area text-center">
+					<p class="sub-title"><span class="double-line"></span> Blog</p>
+					<h2 class="sec-title" id="home-blog-title">Últimos Artigos</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="row gy-30 justify-content-center">
+			{
+				posts.map((post) => (
+					<div class="col-lg-4 col-md-6">
+						<article class="blog-card h-100">
+							<div class="blog-img">
+								<a href={post.href}>
+									<img src={post.imageUrl} alt={post.title} loading="lazy" />
+								</a>
+								<div class="date">
+									<time datetime={post.datePublished}>
+										<a href="/blog">{post.dateLabel}</a>
+									</time>
+								</div>
+							</div>
+							<div class="blog-content">
+								<div class="blog-meta">
+									<a href="/blog">
+										<i class="fa-solid fa-user" aria-hidden="true"></i> {post.author}
+									</a>
+								</div>
+								<h3 class="box-title">
+									<a href={post.href}>{post.title}</a>
+								</h3>
+								<p class="box-text">{post.excerpt}</p>
+								<a href={post.href} class="th-btn pill style3">
+									Ler artigo
+								</a>
+							</div>
+						</article>
+					</div>
+				))
+			}
+		</div>
+
+		{
+			posts.length > 0 && (
+				<div class="text-center mt-40">
+					<a href="/blog" class="th-btn style3">
+						Ver todos os artigos
+					</a>
+				</div>
+			)
+		}
+	</div>
+</section>
+
+<style>
+	.home-blog-section .blog-card {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.home-blog-section .blog-content {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+	}
+
+	.home-blog-section .box-title {
+		display: -webkit-box;
+		overflow: hidden;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 3;
+		line-clamp: 3;
+	}
+
+	.home-blog-section .box-text {
+		flex: 1;
+	}
+</style>

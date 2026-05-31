@@ -1,7 +1,9 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
 import HomeBairrosSection from '../components/HomeBairrosSection.astro';
+import HomeBlogSection from '../components/HomeBlogSection.astro';
 import HomeLancamentosSection from '../components/HomeLancamentosSection.astro';
+import { getBlogPosts } from '../lib/blog-posts.mjs';
 import {
 	getHomePageShell,
 	loadHomeFeaturedLancamentos,
@@ -13,11 +15,14 @@ const bodyClass = '';
 const shell = getHomePageShell();
 const featuredLancamentos = loadHomeFeaturedLancamentos(4);
 const neighborhoodCards = loadHomeNeighborhoodCards();
+const latestPosts = getBlogPosts().slice(0, 3);
 ---
 
 <PillerLayout title={title} bodyClass={bodyClass} disableEffects>
 	<Fragment set:html={shell.before} />
 	<HomeLancamentosSection properties={featuredLancamentos} />
 	<HomeBairrosSection neighborhoods={neighborhoodCards} />
+	<Fragment set:html={shell.middle} />
+	<HomeBlogSection posts={latestPosts} />
 	<Fragment set:html={shell.after} />
 </PillerLayout>

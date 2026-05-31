@@ -15,7 +15,7 @@ if (!context) {
 const title = context.kind ? getKindLabel(context.kind) : getCategoryLabel(context.category);
 ---
 
-<PillerLayout title={title} bodyClass="bairro-listing" disableEffects>
+<PillerLayout title={title} bodyClass="bairro-listing" disableEffects stylesheets={['/css/internal-links.css']}>
 	<Fragment set:html={context.shellBefore} />
 	<PropertyListingTabs
 		properties={context.properties}
@@ -24,6 +24,7 @@ const title = context.kind ? getKindLabel(context.kind) : getCategoryLabel(conte
 		totalPages={context.totalPages}
 		basePath={context.basePath}
 		sidebarHtml={context.sidebarHtml}
+		introHtml={context.introHtml}
 	/>
 	<Fragment set:html={context.shellAfter} />
 </PillerLayout>

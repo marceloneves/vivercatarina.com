@@ -1,11 +1,21 @@
 ---
 import PillerLayout from '../../../layouts/PillerLayout.astro';
 import bodyHtml from '../../../content/template-pages/lancamentos/terrenos/pagina-2.html?raw';
+import {
+	buildLancamentosIntroHtml,
+	injectListingIntroInHtml,
+} from '../../../lib/blog-content-links.mjs';
 
-const title = "Terrenos";
-const bodyClass = "";
+const title = 'Terrenos';
+const bodyClass = 'bairro-listing';
+const processedHtml = injectListingIntroInHtml(bodyHtml, buildLancamentosIntroHtml('terrenos'));
 ---
 
-<PillerLayout title={title} bodyClass={bodyClass} disableEffects>
-	<Fragment set:html={bodyHtml} />
+<PillerLayout
+	title={title}
+	bodyClass={bodyClass}
+	disableEffects
+	stylesheets={['/css/internal-links.css']}
+>
+	<Fragment set:html={processedHtml} />
 </PillerLayout>

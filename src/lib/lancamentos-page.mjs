@@ -13,6 +13,7 @@ import {
 } from './property-category.mjs';
 import { enrichProperty, paginate, sortPropertiesByPrice } from './property-listings.mjs';
 import { filterFlorianopolisListings } from './property-data.mjs';
+import { buildLancamentosIntroHtml } from './blog-content-links.mjs';
 import { applySemanticHtml } from './semantic-html.mjs';
 import { patchSiteMenu } from './site-menu.mjs';
 import { prepareBairroSidebarHtml } from './template-html.mjs';
@@ -70,7 +71,7 @@ function stripBreadcrumbHero(html) {
 	);
 }
 
-function buildListingShell(label, basePath, pageNumber) {
+function buildListingShell(label, basePath, pageNumber, pageSlug) {
 	const shell = getShellTemplate();
 	const safeName = escapeHtml(label);
 	const currentPath = pageNumber > 1 ? `${basePath}/pagina-${pageNumber}` : basePath;
@@ -95,6 +96,7 @@ function buildListingShell(label, basePath, pageNumber) {
 		),
 		shellAfter: applySemanticHtml(shell.after),
 		sidebarHtml: prepareBairroSidebarHtml(shell.sidebar, ''),
+		introHtml: buildLancamentosIntroHtml(pageSlug),
 	};
 }
 
@@ -151,7 +153,8 @@ function buildListingPageContext({ listing, label, basePath, pageNumber, extra =
 
 	const enriched = listing.properties.map(enrichProperty);
 	const pagination = paginate(sortPropertiesByPrice(enriched, 'price'), pageNumber);
-	const shell = buildListingShell(label, basePath, pageNumber);
+	const pageSlug = basePath.replace(/^\/lancamentos\/?/, '');
+	const shell = buildListingShell(label, basePath, pageNumber, pageSlug);
 
 	return {
 		listing,

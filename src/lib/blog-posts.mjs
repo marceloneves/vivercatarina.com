@@ -1,5 +1,19 @@
 export const BLOG_POSTS = [
 	{
+		slug: 'checklist-avaliar-imovel-em-florianopolis',
+		title:
+			'Checklist Definitivo: 15 Itens para Avaliar Antes de Alugar ou Comprar Imóvel em Florianópolis',
+		excerpt:
+			'Antes de alugar ou comprar em Florianópolis, confira 15 pontos essenciais: documentação, trânsito, sazonalidade, condomínio, IPTU e Imposto de Marinha. Checklist prático com custos reais.',
+		imageUrl: '/assets/img/blog/blog_1_6.jpg',
+		dateLabel: '30 Mai',
+		datePublished: '2026-05-30',
+		author: 'Viver Catarina',
+		category: 'Moradia',
+		tags: ['Florianópolis', 'Moradia', 'Aluguel', 'Compra', 'Checklist'],
+		href: '/blog/checklist-avaliar-imovel-em-florianopolis',
+	},
+	{
 		slug: 'morar-perto-da-ufsc-trindade-carvoeira-corrego-grande',
 		title:
 			'Morar Perto da UFSC: Comparativo entre Trindade, Carvoeira e Córrego Grande para Estudantes',

@@ -23,3 +23,14 @@ export function replaceSidebarFeaturedListings(html, featuredMarkup) {
 export function prepareBairroSidebarHtml(html, featuredMarkup) {
 	return removeSidebarBanner(replaceSidebarFeaturedListings(html, featuredMarkup));
 }
+
+export function injectBlogLinksSidebarWidget(html, widgetMarkup) {
+	if (!widgetMarkup) {
+		return html;
+	}
+
+	return html.replace(
+		/<div class="widget sidebar-contact-form">/,
+		`${widgetMarkup}\n                                <div class="widget sidebar-contact-form">`,
+	);
+}

@@ -221,6 +221,13 @@ export function getHomePageShell() {
 		throw new Error('Não foi possível localizar a seção de bairros na home.');
 	}
 
+	const blogStart = html.indexOf('<!--==============================\nBlog Area');
+	const footerStart = html.indexOf('<!--==============================\n\tFooter Area');
+
+	if (blogStart === -1 || footerStart === -1) {
+		throw new Error('Não foi possível localizar a seção de artigos na home.');
+	}
+
 	const heroBackgroundUrl = getHomeHeroBackgroundUrl();
 	const before = html
 		.slice(0, sectionStart)
@@ -231,6 +238,7 @@ export function getHomePageShell() {
 
 	return {
 		before,
-		after: html.slice(galleryEnd),
+		middle: html.slice(galleryEnd, blogStart),
+		after: html.slice(footerStart),
 	};
 }

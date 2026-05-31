@@ -27,8 +27,23 @@ const headerAndBreadcrumb = applySemanticHtml(
 const shell = wrapSplitPageContent(headerAndBreadcrumb, applySemanticHtml(bodyHtml.slice(footerStart)));
 ---
 
-<PillerLayout title={title} bodyClass={bodyClass}>
+<PillerLayout title={title} bodyClass={bodyClass} stylesheets={['/css/internal-links.css']}>
 	<Fragment set:html={shell.before} />
+	<section class="blog-index-links" aria-label="Lançamentos relacionados">
+		<div class="container">
+			<div class="blog-index-links__inner">
+				<h2 class="blog-index-links__title">Procurando imóvel na planta?</h2>
+				<p class="blog-index-links__text">
+					Explore os lançamentos em Florianópolis e compare empreendimentos por bairro, tipo e
+					fase de obra.
+				</p>
+				<div class="blog-index-links__actions">
+					<a href="/lancamentos" class="th-btn pill style3">Ver lançamentos</a>
+					<a href="/bairros" class="th-btn pill style3 style-border">Imóveis por bairro</a>
+				</div>
+			</div>
+		</div>
+	</section>
 	<BlogPostsGrid posts={posts} />
 	<Fragment set:html={shell.after} />
 </PillerLayout>

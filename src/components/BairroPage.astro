@@ -11,7 +11,7 @@ if (!context) {
 }
 ---
 
-<PillerLayout title={context.listingTitle} bodyClass="bairro-listing" disableEffects>
+<PillerLayout title={context.listingTitle} bodyClass="bairro-listing" disableEffects stylesheets={['/css/internal-links.css']}>
 	<Fragment set:html={context.shellBefore} />
 	<PropertyListingTabs
 		properties={context.properties}
@@ -20,6 +20,7 @@ if (!context) {
 		totalPages={context.totalPages}
 		basePath={context.basePath}
 		sidebarHtml={context.sidebarHtml}
+		introHtml={context.introHtml}
 	/>
 	<Fragment set:html={context.shellAfter} />
 </PillerLayout>
