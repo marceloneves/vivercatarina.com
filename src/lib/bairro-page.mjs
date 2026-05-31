@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { getBairroIntro, getBairroIntroDescription } from './bairro-intros.mjs';
 import { enrichProperty, loadNeighborhoodListing, paginate, sortPropertiesByPrice } from './property-listings.mjs';
 import { applySemanticHtml } from './semantic-html.mjs';
 import { patchSiteMenu } from './site-menu.mjs';
@@ -95,10 +96,15 @@ export function buildBairroPageContext(slug, pageNumber) {
 		currentPath,
 	);
 
+	const introParagraphs = getBairroIntro(slug, listing.name);
+
 	return {
 		listing,
 		listingTitle: getBairroListingTitle(listing.name),
-		seo: buildBairroListingSeo(listing.name, currentPath, pageNumber),
+		introParagraphs,
+		seo: buildBairroListingSeo(listing.name, currentPath, pageNumber, {
+			description: getBairroIntroDescription(slug, listing.name),
+		}),
 		allProperties: enriched,
 		properties: pagination.items,
 		currentPage: pagination.currentPage,

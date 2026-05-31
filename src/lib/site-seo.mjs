@@ -323,13 +323,17 @@ export function buildLancamentosListingSeo(label, pathname, pageNumber = 1) {
 	};
 }
 
-export function buildBairroListingSeo(neighborhoodName, pathname, pageNumber = 1) {
+export function buildBairroListingSeo(neighborhoodName, pathname, pageNumber = 1, options = {}) {
 	const suffix = paginationSuffix(pageNumber);
 	const listingTitle = `Imóveis na planta em ${neighborhoodName}`;
+	const defaultDescription = `Veja imóveis na planta em ${neighborhoodName}, Florianópolis. Apartamentos, casas e loteamentos com preços, plantas e condições de pagamento.`;
+	const description = options.description
+		? trimDescription(`${options.description} Compare lançamentos, plantas e condições no Viver Catarina.`)
+		: defaultDescription;
 
 	return {
 		title: `${listingTitle}${suffix}`,
-		description: `Veja imóveis na planta em ${neighborhoodName}, Florianópolis. Apartamentos, casas e loteamentos com preços, plantas e condições de pagamento.`,
+		description,
 		keywords: buildKeywords(neighborhoodName, 'imóveis na planta', 'bairro Florianópolis'),
 		canonicalPath: normalizePath(pathname),
 	};

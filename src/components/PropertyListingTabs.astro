@@ -10,10 +10,12 @@ const {
 	basePath,
 	sidebarHtml,
 	perPage = LISTINGS_PER_PAGE,
+	showEmptyMessage = true,
 } = Astro.props;
 
 const paginationMarkup = buildPaginationMarkup(currentPage, totalPages, basePath);
 const hasProperties = allProperties.length > 0;
+const emptyMessage = showEmptyMessage ? 'Nenhum lançamento encontrado neste bairro no momento.' : null;
 ---
 
 <div
@@ -27,13 +29,11 @@ const hasProperties = allProperties.length > 0;
 		<div class="tab-pane fade" id="tab-grid" role="tabpanel" aria-labelledby="tab-shop-grid">
 			<div id="property-target-grid-items" class="row gy-40 property-target-items">
 				{
-					!hasProperties ? (
+					!hasProperties && emptyMessage ? (
 						<div class="col-12">
-							<p class="text-center py-5 mb-0">
-								Nenhum lançamento encontrado neste bairro no momento.
-							</p>
+							<p class="text-center py-5 mb-0">{emptyMessage}</p>
 						</div>
-					) : (
+					) : !hasProperties ? null : (
 						properties.map((property) => (
 							<PropertyListingCard property={property} variant="grid" />
 						))
@@ -48,13 +48,11 @@ const hasProperties = allProperties.length > 0;
 				<div class="col-xl-8 col-lg-12">
 					<div id="property-target-list-items" class="row gy-30 property-target-items">
 						{
-							!hasProperties ? (
+							!hasProperties && emptyMessage ? (
 								<div class="col-xl-12">
-									<p class="text-center py-5 mb-0">
-										Nenhum lançamento encontrado neste bairro no momento.
-									</p>
+									<p class="text-center py-5 mb-0">{emptyMessage}</p>
 								</div>
-							) : (
+							) : !hasProperties ? null : (
 								properties.map((property) => (
 									<PropertyListingCard property={property} variant="list" />
 								))
