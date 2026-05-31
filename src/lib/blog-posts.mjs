@@ -1,5 +1,19 @@
 export const BLOG_POSTS = [
 	{
+		slug: 'morar-perto-da-ufsc-trindade-carvoeira-corrego-grande',
+		title:
+			'Morar Perto da UFSC: Comparativo entre Trindade, Carvoeira e Córrego Grande para Estudantes',
+		excerpt:
+			'Para estudantes da UFSC, a Trindade oferece proximidade e vida universitária, a Carvoeira é a opção mais barata para quem mora sozinho, e o Córrego Grande entrega tranquilidade e natureza. Compare aluguel, distância e perfil.',
+		imageUrl: '/assets/img/blog/blog_1_5.jpg',
+		dateLabel: '30 Mai',
+		datePublished: '2026-05-30',
+		author: 'Viver Catarina',
+		category: 'Moradia',
+		tags: ['Florianópolis', 'UFSC', 'Trindade', 'Moradia', 'Estudantes'],
+		href: '/blog/morar-perto-da-ufsc-trindade-carvoeira-corrego-grande',
+	},
+	{
 		slug: 'campeche-em-expansao-valorizacao',
 		title:
 			'Campeche em Expansão: Até Onde Vai a Valorização do Bairro Mais Promissor do Sul da Ilha',

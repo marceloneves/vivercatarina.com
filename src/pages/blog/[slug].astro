@@ -2,6 +2,7 @@
 import PillerLayout from '../../layouts/PillerLayout.astro';
 import bodyHtml from '../../content/template-pages/blog-details.html?raw';
 import campecheExpansaoBody from '../../content/blog/campeche-em-expansao-valorizacao.html?raw';
+import morarPertoUfscBody from '../../content/blog/morar-perto-da-ufsc-trindade-carvoeira-corrego-grande.html?raw';
 import melhoresBairrosBody from '../../content/blog/melhores-bairros-para-morar-em-florianopolis.html?raw';
 import morarContinenteIlhaBody from '../../content/blog/morar-no-continente-x-na-ilha-em-florianopolis.html?raw';
 import quantoCustaMorarBody from '../../content/blog/quanto-custa-morar-em-florianopolis.html?raw';
@@ -9,6 +10,7 @@ import { getBlogPost, getBlogPosts } from '../../lib/blog-posts.mjs';
 import { applySemanticHtml, wrapSplitPageContent } from '../../lib/semantic-html.mjs';
 
 const BLOG_BODY_BY_SLUG = {
+	'morar-perto-da-ufsc-trindade-carvoeira-corrego-grande': morarPertoUfscBody,
 	'campeche-em-expansao-valorizacao': campecheExpansaoBody,
 	'melhores-bairros-para-morar-em-florianopolis': melhoresBairrosBody,
 	'morar-no-continente-x-na-ilha-em-florianopolis': morarContinenteIlhaBody,
