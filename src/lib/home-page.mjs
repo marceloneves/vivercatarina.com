@@ -1,5 +1,6 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { applySemanticHtml } from './semantic-html.mjs';
 import { PROPERTY_KINDS } from './property-kind.mjs';
 import {
 	enrichProperty,
@@ -206,10 +207,10 @@ export function getHomeHeroBackgroundUrl() {
 }
 
 export function getHomePageShell() {
-	const html = readFileSync(templatePath, 'utf8');
+	const html = applySemanticHtml(readFileSync(templatePath, 'utf8'));
 	const sectionStart = html.indexOf('<section class="popular-sec-1');
 	const sectionEnd = html.indexOf('    </section><!--==============================\nGallery Area');
-	const galleryStart = html.indexOf('<div class="gallery-sec-1');
+	const galleryStart = html.indexOf('class="gallery-sec-1');
 	const galleryEnd = html.indexOf('<!--==============================\nTestimonial Area', galleryStart);
 
 	if (sectionStart === -1 || sectionEnd === -1) {

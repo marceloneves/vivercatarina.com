@@ -1,0 +1,60 @@
+---
+import PillerLayout from '../../layouts/PillerLayout.astro';
+import bodyHtml from '../../content/template-pages/blog-details.html?raw';
+import { getBlogPost, getBlogPosts } from '../../lib/blog-posts.mjs';
+import { applySemanticHtml, wrapSplitPageContent } from '../../lib/semantic-html.mjs';
+
+export function getStaticPaths() {
+	return getBlogPosts().map((post) => ({
+		params: { slug: post.slug },
+	}));
+}
+
+const { slug } = Astro.params;
+const post = getBlogPost(slug);
+
+if (!post) {
+	throw new Error('Artigo do blog não encontrado.');
+}
+
+const title = post.title;
+const bodyClass = '';
+
+const blogAreaStart = bodyHtml.indexOf('<!--==============================\n        Blog Area');
+const commentsStart = bodyHtml.indexOf('<div class="th-comments-wrap ');
+const footerStart = bodyHtml.indexOf('<!--==============================\n\tFooter Area');
+
+if (blogAreaStart === -1 || commentsStart === -1 || footerStart === -1) {
+	throw new Error('Não foi possível montar o artigo do blog a partir do template.');
+}
+
+const shell = wrapSplitPageContent(
+	applySemanticHtml(
+		bodyHtml
+			.slice(0, blogAreaStart)
+			.replace('Blog Details', title)
+			.replace('<li>Blog Details</li>', `<li>${title}</li>`)
+			.replace('<li><a href="/">Home</a></li>', '<li><a href="/">Início</a></li>'),
+	),
+	applySemanticHtml(bodyHtml.slice(footerStart)),
+);
+
+const articleHtml = applySemanticHtml(
+	bodyHtml
+		.slice(blogAreaStart, commentsStart)
+		.replace(
+			'Building gains into housing stocks and how to trade the sector',
+			post.title,
+		)
+		.replace('Michel Smith', post.author)
+		.replace('24/02/2025', post.dateLabel)
+		.replace('Business', post.category)
+		.replace('src="/assets/img/blog/blog-s-1-1.jpg"', `src="${post.imageUrl}"`),
+);
+---
+
+<PillerLayout title={title} bodyClass={bodyClass}>
+	<Fragment set:html={shell.before} />
+	<Fragment set:html={articleHtml} />
+	<Fragment set:html={shell.after} />
+</PillerLayout>

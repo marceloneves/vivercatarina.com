@@ -95,7 +95,7 @@
             <div class="widget  ">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="/"><img src="/assets/img/logo.svg" alt="Viver Catarina"></a>
+                        <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo.svg" alt=""></a>
                     </div>
                     <p class="about-text mb-4">Pillar is a luxury to the resilience, adaptability, Spacious modern villa living room with centrally placed swimming pool blending indooroutdoor.</p>
 
@@ -174,9 +174,9 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="/"><img src="/assets/img/logo.svg" alt="Viver Catarina"></a>
+                <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo.svg" alt=""></a>
             </div>
-            <div class="th-mobile-menu">
+            <nav class="th-mobile-menu" aria-label="Menu mobile">
                 <ul>
                     <li><a href="/">Início</a></li>
                     <li><a href="/about">Quem Somos</a></li>
@@ -283,7 +283,7 @@
                     <li><a href="/blog">Blog</a></li>
                     <li><a href="/contact">Contato</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </div><!--==============================
 	Header Area
@@ -293,17 +293,15 @@
             <div class="container">
                 <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
                     <div class="col-auto d-none d-lg-block">
-                        <div class="header-links">
-                            <ul>
+                        <nav class="header-links" aria-label="Contato e redes sociais"><ul aria-label="Contatos do site">
                                 <li><i class="fa-solid fa-envelope"></i> <a href="mailto:contato@vivercatarina.com">contato@vivercatarina.com</a></li>
                                 <li><i class="fa-solid fa-phone"></i> <a href="tel:+5548988105199">(48) 98810-5199</a></li>
                             </ul>
-                        </div>
+                        </nav>
                     </div>
 
                     <div class="col-auto">
-                        <div class="header-links">
-                            <ul>
+                        <nav class="header-links" aria-label="Contato e redes sociais"><ul aria-label="Contatos do site">
                                 <li>
                                     <div class="th-social">
                                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -313,7 +311,7 @@
                                     </div>
                                 </li>
                                 </ul>
-                        </div>
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -325,11 +323,11 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="/"><img src="/assets/img/logo.svg" alt="Viver Catarina"></a>
+                                <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-auto">
-                            <nav class="main-menu d-none d-lg-inline-block">
+                            <nav class="main-menu d-none d-lg-inline-block" aria-label="Menu principal">
                                 <ul>
                                     <li><a href="/">Início</a></li>
                                     <li><a href="/about">Quem Somos</a></li>
@@ -453,10 +451,11 @@
                 </div>
             </div>
         </div>
-    </header><!--==============================
+    </header>
+    <main id="conteudo-principal"><!--==============================
 Hero Area
 ==============================-->
-    <div class="th-hero-wrapper bg-smoke hero-3" id="hero">
+    <section class="th-hero-wrapper bg-smoke hero-3" id="hero" aria-label="Destaque principal">
         <div class="shape-mockup d-none d-xl-block" data-top="0" data-right="0">
             <img src="/assets/img/hero/hero-3-right-shape.png" alt="img">
         </div>
@@ -492,7 +491,7 @@ Hero Area
                             <div class="tab-content fadeinup wow" id="myTabContent" data-wow-delay="0.7s">
                                 <div class="tab-pane fade show active" id="buy" role="tabpanel" aria-labelledby="buy-tab">
                                     <div class="hero-search-wrapper">
-                                        <form action="/submit-form">
+                                        <form role="search" action="/submit-form">
                                             <div class="hero-search-group-wrapper">
                                                 <div class="form-group">
                                                     <label for="Keyword111">Keyword</label>
@@ -528,7 +527,7 @@ Hero Area
                                 </div>
                                 <div class="tab-pane fade" id="sell" role="tabpanel" aria-labelledby="sell-tab">
                                     <div class="hero-search-wrapper">
-                                        <form action="/submit-form">
+                                        <form role="search" action="/submit-form">
                                             <div class="hero-search-group-wrapper">
                                                 <div class="form-group">
                                                     <label for="Keyword122">Keyword</label>
@@ -564,7 +563,7 @@ Hero Area
                                 </div>
                                 <div class="tab-pane fade" id="rent" role="tabpanel" aria-labelledby="rent-tab">
                                     <div class="hero-search-wrapper">
-                                        <form action="/submit-form">
+                                        <form role="search" action="/submit-form">
                                             <div class="hero-search-group-wrapper">
                                                 <div class="form-group">
                                                     <label for="Keyword133">Keyword</label>
@@ -682,7 +681,7 @@ Hero Area
                         </ul>
 
                         <div class="map-popular-list map-popular-list1">
-                            <div class="popular-list-1">
+                            <article class="popular-list-1">
                                 <div class="thumb-wrapper">
                                     <img src="/assets/img/popular/popular-1-3.jpg" alt="Image">
                                     <div class="actions">
@@ -696,32 +695,32 @@ Hero Area
                                     <div class="media-body">
                                         <h3 class="box-title"> <a href="/property-details">Contemporary Loft</a></h3>
                                         <div class="box-text">
-                                            <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                            <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                         </div>
                                     </div>
 
                                     <ul class="property-featured">
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                             Bed 4
                                         </li>
 
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                             Bath 2
                                         </li>
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                             1500 sqft
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="arrow-bottom"></div>
-                            </div>
+                            </article>
                         </div>
 
                         <div class="map-popular-list map-popular-list2">
-                            <div class="popular-list-1">
+                            <article class="popular-list-1">
                                 <div class="thumb-wrapper">
                                     <img src="/assets/img/popular/popular-1-3.jpg" alt="Image">
                                     <div class="actions">
@@ -735,32 +734,32 @@ Hero Area
                                     <div class="media-body">
                                         <h3 class="box-title"> <a href="/property-details">Contemporary Loft</a></h3>
                                         <div class="box-text">
-                                            <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                            <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                         </div>
                                     </div>
 
                                     <ul class="property-featured">
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                             Bed 4
                                         </li>
 
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                             Bath 2
                                         </li>
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                             1500 sqft
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="arrow-bottom"></div>
-                            </div>
+                            </article>
                         </div>
 
                         <div class="map-popular-list map-popular-list3">
-                            <div class="popular-list-1">
+                            <article class="popular-list-1">
                                 <div class="thumb-wrapper">
                                     <img src="/assets/img/popular/popular-1-3.jpg" alt="Image">
                                     <div class="actions">
@@ -774,32 +773,32 @@ Hero Area
                                     <div class="media-body">
                                         <h3 class="box-title"> <a href="/property-details">Contemporary Loft</a></h3>
                                         <div class="box-text">
-                                            <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                            <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                         </div>
                                     </div>
 
                                     <ul class="property-featured">
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                             Bed 4
                                         </li>
 
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                             Bath 2
                                         </li>
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                             1500 sqft
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="arrow-bottom"></div>
-                            </div>
+                            </article>
                         </div>
 
                         <div class="map-popular-list map-popular-list4 show">
-                            <div class="popular-list-1">
+                            <article class="popular-list-1">
                                 <div class="thumb-wrapper">
                                     <img src="/assets/img/popular/popular-1-3.jpg" alt="Image">
                                     <div class="actions">
@@ -813,35 +812,35 @@ Hero Area
                                     <div class="media-body">
                                         <h3 class="box-title"> <a href="/property-details">Contemporary Loft</a></h3>
                                         <div class="box-text">
-                                            <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                            <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                         </div>
                                     </div>
 
                                     <ul class="property-featured">
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                             Bed 4
                                         </li>
 
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                             Bath 2
                                         </li>
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                             1500 sqft
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="arrow-bottom"></div>
-                            </div>
+                            </article>
                         </div>
 
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!--======== / Hero Section ========-->
     <!--==============================
 Category Area  
@@ -953,7 +952,7 @@ Feature Area
 
             <div class="row gy-30 justify-content-center filter-active">
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper">
                             <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
                                 <div class="swiper-wrapper">
@@ -985,7 +984,7 @@ Feature Area
                                 </div>
                             </div>
                             <div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="icon">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>For Sale</p>
                             </div>
                         </div>
@@ -993,22 +992,22 @@ Feature Area
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Charming Beach House</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Bed 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Bath 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 sqft
                                 </li>
                             </ul>
@@ -1017,10 +1016,10 @@ Feature Area
                                 <a class="th-btn sm style3 radius" href="/property-details">View More </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat2 cat1">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper">
                             <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
                                 <div class="swiper-wrapper">
@@ -1052,7 +1051,7 @@ Feature Area
                                 </div>
                             </div>
                             <div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="icon">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>For Sale</p>
                             </div>
                         </div>
@@ -1060,22 +1059,22 @@ Feature Area
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Contemporary Loft</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Bed 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Bath 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 sqft
                                 </li>
                             </ul>
@@ -1084,10 +1083,10 @@ Feature Area
                                 <a class="th-btn sm style3 radius" href="/property-details">View More </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat4 cat3 cat2">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper">
                             <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
                                 <div class="swiper-wrapper">
@@ -1119,7 +1118,7 @@ Feature Area
                                 </div>
                             </div>
                             <div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="icon">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>For Sale</p>
                             </div>
                         </div>
@@ -1127,22 +1126,22 @@ Feature Area
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Cozy Cottage</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Bed 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Bath 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 sqft
                                 </li>
                             </ul>
@@ -1151,10 +1150,10 @@ Feature Area
                                 <a class="th-btn sm style3 radius" href="/property-details">View More </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat1">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper">
                             <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
                                 <div class="swiper-wrapper">
@@ -1186,7 +1185,7 @@ Feature Area
                                 </div>
                             </div>
                             <div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="icon">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>For Sale</p>
                             </div>
                         </div>
@@ -1194,22 +1193,22 @@ Feature Area
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Modern Beach House</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Bed 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Bath 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 sqft
                                 </li>
                             </ul>
@@ -1218,10 +1217,10 @@ Feature Area
                                 <a class="th-btn sm style3 radius" href="/property-details">View More </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat4">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper">
                             <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
                                 <div class="swiper-wrapper">
@@ -1253,7 +1252,7 @@ Feature Area
                                 </div>
                             </div>
                             <div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="icon">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>For Sale</p>
                             </div>
                         </div>
@@ -1261,22 +1260,22 @@ Feature Area
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Cozy Mountain Cabin</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Bed 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Bath 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 sqft
                                 </li>
                             </ul>
@@ -1285,10 +1284,10 @@ Feature Area
                                 <a class="th-btn sm style3 radius" href="/property-details">View More </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat2 cat1">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper">
                             <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
                                 <div class="swiper-wrapper">
@@ -1320,7 +1319,7 @@ Feature Area
                                 </div>
                             </div>
                             <div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="icon">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>For Sale</p>
                             </div>
                         </div>
@@ -1328,22 +1327,22 @@ Feature Area
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Modern Apartment</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Bed 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Bath 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 sqft
                                 </li>
                             </ul>
@@ -1352,10 +1351,10 @@ Feature Area
                                 <a class="th-btn sm style3 radius" href="/property-details">View More </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat4">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper">
                             <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
                                 <div class="swiper-wrapper">
@@ -1387,7 +1386,7 @@ Feature Area
                                 </div>
                             </div>
                             <div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="icon">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>For Sale</p>
                             </div>
                         </div>
@@ -1395,22 +1394,22 @@ Feature Area
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Seaside Villa 5078</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Bed 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Bath 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 sqft
                                 </li>
                             </ul>
@@ -1419,10 +1418,10 @@ Feature Area
                                 <a class="th-btn sm style3 radius" href="/property-details">View More </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat2 cat4">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper">
                             <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
                                 <div class="swiper-wrapper">
@@ -1454,7 +1453,7 @@ Feature Area
                                 </div>
                             </div>
                             <div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="icon">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>For Sale</p>
                             </div>
                         </div>
@@ -1462,22 +1461,22 @@ Feature Area
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Ranch Style Home</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Bed 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Bath 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 sqft
                                 </li>
                             </ul>
@@ -1486,14 +1485,14 @@ Feature Area
                                 <a class="th-btn sm style3 radius" href="/property-details">View More </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
             </div>
         </div>
     </section><!--==============================
 Why choose Area  
 ==============================-->
-    <div class="why-sec-2 bg-smoke space" id="why-sec" data-bg-src="/assets/img/shape/what-we-do-3-bg.png">
+    <section class="why-sec-2 bg-smoke space" id="why-sec" data-bg-src="/assets/img/shape/what-we-do-3-bg.png" aria-label="Diferenciais">
         <div class="container">
             <div class="row justify-content-lg-between gy-4 text-center text-lg-start  justify-content-center align-items-center mb-40">
                 <div class="col-lg-7">
@@ -1626,7 +1625,7 @@ Why choose Area
                 </div>
             </div>
         </div>
-    </div><!--==============================
+    </section><!--==============================
 Team Area  
 ==============================-->
     <section class="team-area-1 space overflow-hidden">
@@ -1806,7 +1805,7 @@ Gallery Area
 
             <div class="row gy-4 justify-content-center align-items-center">
                 <div class="col-lg-6 ">
-                    <div class="gallery-card style-2 fadeinleft wow" data-wow-delay="0.3s">
+                    <article class="gallery-card style-2 fadeinleft wow" data-wow-delay="0.3s">
                         <div class="gallery-img">
                             <img src="/assets/img/property-values/property-values-3-1.jpg" alt="gallery image">
                             <div class="gallery-content">
@@ -1821,13 +1820,13 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-lg-6 ">
                     <div class="property-values-2-item ">
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="gallery-card style-2 fadeinup wow" data-wow-delay="0.5s">
+                                <article class="gallery-card style-2 fadeinup wow" data-wow-delay="0.5s">
                                     <div class="gallery-img">
                                         <img src="/assets/img/property-values/property-values-3-2.jpg" alt="gallery image">
                                         <div class="gallery-content">
@@ -1842,12 +1841,12 @@ Gallery Area
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </article>
                             </div>
                         </div>
                         <div class="row gy-4">
                             <div class="col-lg-6">
-                                <div class="gallery-card style-2 fadeinleft wow" data-wow-delay="0.7s">
+                                <article class="gallery-card style-2 fadeinleft wow" data-wow-delay="0.7s">
                                     <div class="gallery-img">
                                         <img src="/assets/img/property-values/property-values-3-3.jpg" alt="gallery image">
                                         <div class="gallery-content">
@@ -1862,10 +1861,10 @@ Gallery Area
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </article>
                             </div>
                             <div class="col-lg-6">
-                                <div class="gallery-card style-2 fadeinright wow" data-wow-delay="0.7s">
+                                <article class="gallery-card style-2 fadeinright wow" data-wow-delay="0.7s">
                                     <div class="gallery-img">
                                         <img src="/assets/img/property-values/property-values-3-4.jpg" alt="gallery image">
                                         <div class="gallery-content">
@@ -1880,7 +1879,7 @@ Gallery Area
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </article>
                             </div>
                         </div>
                     </div>
@@ -1991,7 +1990,7 @@ Gallery Area
                             <div class="row gy-4 align-items-center">
                                 <div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5">
                                     <div class="gallery-4-wrap pe-xl-5 me-xl-2" data-ani="slideinup" data-ani-delay="0.2s">
-                                        <div class="popular-list-1 style-3">
+                                        <article class="popular-list-1 style-3">
                                             <div class="property-content">
                                                 <div class="title-area text-left mb-50">
                                                     <p class="sub-title"> <span class="double-line"></span> Popular Properties</p>
@@ -2000,22 +1999,22 @@ Gallery Area
                                                 <div class="media-body">
                                                     <h3 class="box-title"> <a href="/property-details">Contemporary Loft</a></h3>
                                                     <div class="box-text">
-                                                        <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                                        <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                                     </div>
                                                 </div>
 
                                                 <ul class="property-featured">
                                                     <li>
-                                                        <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                                        <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                                         Bed 4
                                                     </li>
 
                                                     <li>
-                                                        <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                                        <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                                         Bath 2
                                                     </li>
                                                     <li>
-                                                        <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                                        <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                                         1500 sqft
                                                     </li>
                                                 </ul>
@@ -2033,7 +2032,7 @@ Gallery Area
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </article>
                                     </div>
                                 </div>
                             </div>
@@ -2046,7 +2045,7 @@ Gallery Area
                             <div class="row gy-4 align-items-center">
                                 <div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5">
                                     <div class="gallery-4-wrap pe-xl-5 me-xl-2" data-ani="slideinup" data-ani-delay="0.2s">
-                                        <div class="popular-list-1 style-3">
+                                        <article class="popular-list-1 style-3">
                                             <div class="property-content">
                                                 <div class="title-area text-left mb-50">
                                                     <p class="sub-title"> <span class="double-line"></span> Popular Properties</p>
@@ -2055,22 +2054,22 @@ Gallery Area
                                                 <div class="media-body">
                                                     <h3 class="box-title"> <a href="/property-details">Charming Beach House</a></h3>
                                                     <div class="box-text">
-                                                        <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                                        <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                                     </div>
                                                 </div>
 
                                                 <ul class="property-featured">
                                                     <li>
-                                                        <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                                        <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                                         Bed 4
                                                     </li>
 
                                                     <li>
-                                                        <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                                        <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                                         Bath 2
                                                     </li>
                                                     <li>
-                                                        <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                                        <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                                         1500 sqft
                                                     </li>
                                                 </ul>
@@ -2088,7 +2087,7 @@ Gallery Area
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </article>
                                     </div>
                                 </div>
                             </div>
@@ -2101,7 +2100,7 @@ Gallery Area
                             <div class="row gy-4 align-items-center">
                                 <div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5">
                                     <div class="gallery-4-wrap pe-xl-5 me-xl-2" data-ani="slideinup" data-ani-delay="0.2s">
-                                        <div class="popular-list-1 style-3">
+                                        <article class="popular-list-1 style-3">
                                             <div class="property-content">
                                                 <div class="title-area text-left mb-50">
                                                     <p class="sub-title"> <span class="double-line"></span> Popular Properties</p>
@@ -2110,22 +2109,22 @@ Gallery Area
                                                 <div class="media-body">
                                                     <h3 class="box-title"> <a href="/property-details">Ranch Style Home</a></h3>
                                                     <div class="box-text">
-                                                        <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                                        <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                                     </div>
                                                 </div>
 
                                                 <ul class="property-featured">
                                                     <li>
-                                                        <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                                        <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                                         Bed 4
                                                     </li>
 
                                                     <li>
-                                                        <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                                        <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                                         Bath 2
                                                     </li>
                                                     <li>
-                                                        <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                                        <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                                         1500 sqft
                                                     </li>
                                                 </ul>
@@ -2143,7 +2142,7 @@ Gallery Area
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </article>
                                     </div>
                                 </div>
                             </div>
@@ -2510,7 +2509,7 @@ Blog Area
             </div>
             <div class="row gy-40 gx-30">
                 <div class="col-lg-6">
-                    <div class="blog-card style-3 fadeinup wow" data-wow-delay="0.3s">
+                    <article class="blog-card style-3 fadeinup wow" data-wow-delay="0.3s">
                         <div class="blog-img">
                             <a href="/blog-details">
                                 <img src="/assets/img/blog/blog_3_1.jpg" alt="Image">
@@ -2538,12 +2537,12 @@ Blog Area
                             </div>
 
                         </div>
-                    </div>
+                    </article>
                 </div>
 
                 <div class="col-lg-6">
                     <div class="blog-3-right-wrap">
-                        <div class="blog-card style-3 grid-style fadeinright wow" data-wow-delay="0.5s">
+                        <article class="blog-card style-3 grid-style fadeinright wow" data-wow-delay="0.5s">
                             <div class="blog-img">
                                 <a href="/blog-details">
                                     <img src="/assets/img/blog/blog_3_2.jpg" alt="Image">
@@ -2569,8 +2568,8 @@ Blog Area
                                     <a href="/blog-details" class="th-btn radius outline"> Read More</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="blog-card style-3 grid-style fadeinright wow" data-wow-delay="0.7s">
+                        </article>
+                        <article class="blog-card style-3 grid-style fadeinright wow" data-wow-delay="0.7s">
                             <div class="blog-img">
                                 <a href="/blog-details">
                                     <img src="/assets/img/blog/blog_3_3.jpg" alt="Image">
@@ -2596,7 +2595,7 @@ Blog Area
                                     <a href="/blog-details" class="th-btn radius outline"> Read More</a>
                                 </div>
                             </div>
-                        </div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -2706,6 +2705,7 @@ Brand Area
     </div><!--==============================
 	Footer Area
 ==============================-->
+    </main>
     <footer class="footer-wrapper footer-default footer-layout3">
         <div class="widget-area">
             <div class="container">
@@ -2714,11 +2714,11 @@ Brand Area
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="/"><img src="/assets/img/logo-white.svg" alt="Viver Catarina"></a>
+                                    <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo-white.svg" alt=""></a>
                                 </div>
                                 <p class="about-text">O maior portal de lançamentos imobiliários de Santa Catarina. Encontre apartamentos na planta, pré-lançamentos e imóveis prontos para morar nas 25 maiores cidades catarinenses. De Joinville a Criciúma, de Balneário Camboriú a Chapecó — cobrimos cada lançamento, cada bairro, cada oportunidade do mercado imobiliário de SC. Aqui você compara, pesquisa e encontra o imóvel novo ideal com informações completas, atualizadas e direto das construtoras.</p>
 
-                                <div class="footer-info-wrap">
+                                <address class="footer-info-wrap">
                                     <div class="footer-info">
                                         <i class="fas fa-phone"></i>
                                         <p class="info-box_link"><a href="tel:+5548988105199">(48) 98810-5199</a></p>
@@ -2732,7 +2732,7 @@ Brand Area
                                         <i class="fas fa-location-dot"></i>
                                         <p class="info-box_link"><span>West 2nd lane, Inner circular road, New York City</span></p>
                                     </div>
-                                </div>
+                                </address>
                             </div>
                         </div>
                     </div>
@@ -2740,8 +2740,7 @@ Brand Area
                         <div class="footer-right-wrap">
                             <div class="footer-item-wrap">
                                                                 <div class="footer-item">
-                                    <div class="widget widget_nav_menu footer-widget">
-                                        <h3 class="widget_title">Institucional</h3>
+                                    <nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-institucional"><h3 class="widget_title" id="footer-nav-institucional">Institucional</h3>
                                         <div class="menu-all-pages-container">
                                             <ul class="menu">
                                                 <li><a href="/about">Quem Somos</a></li>
@@ -2758,11 +2757,10 @@ Brand Area
                                                 <li><a href="/contact">Contato</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </nav>
                                 </div>
                                 <div class="footer-item">
-                                    <div class="widget widget_nav_menu footer-widget">
-                                        <h3 class="widget_title">Legal</h3>
+                                    <nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-legal"><h3 class="widget_title" id="footer-nav-legal">Legal</h3>
                                         <div class="menu-all-pages-container">
                                             <ul class="menu">
                                                 <li><a href="/privacidade">Política de privacidade</a></li>
@@ -2770,18 +2768,17 @@ Brand Area
                                                 <li><a href="/mapa-do-site">Mapa do site</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </nav>
                                 </div>
                                 <div class="footer-item">
-                                    <div class="widget widget_nav_menu footer-widget">
-                                        <h3 class="widget_title">Suporte</h3>
+                                    <nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-suporte"><h3 class="widget_title" id="footer-nav-suporte">Suporte</h3>
                                         <div class="menu-all-pages-container">
                                             <ul class="menu">
                                                 <li><a href="/faq">Perguntas frequentes</a></li>
                                                 <li><a href="/contact">Contato</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </nav>
                                 </div>
                                 </div>
                                 <div class="footer-item">
@@ -2805,7 +2802,7 @@ Brand Area
                 </div>
             </div>
         </div>
-                <div class="footer-cities-section">
+                <section class="footer-cities-section" aria-label="Cidades atendidas">
             <div class="container">
                 <div class="footer-cities-wrap">
                     <h3 class="widget_title">Cidades</h3>
@@ -2868,7 +2865,7 @@ Brand Area
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="copyright-wrap">
             <div class="footer-bottom-top-shape animation-infinite" data-bg-src="/assets/img/icon/footer-bottom-top-shape.png"></div>
             <div class="container">

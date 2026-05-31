@@ -37,9 +37,9 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="/"><img src="/assets/img/logo.svg" alt="Viver Catarina"></a>
+                <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo.svg" alt=""></a>
             </div>
-            <div class="th-mobile-menu">
+            <nav class="th-mobile-menu" aria-label="Menu mobile">
                 <ul>
                     <li><a href="/">Início</a></li>
                     <li><a href="/about">Quem Somos</a></li>
@@ -146,7 +146,7 @@
                     <li><a href="/blog">Blog</a></li>
                     <li><a href="/contact">Contato</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </div><!--==============================
 	Header Area
@@ -159,11 +159,11 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="/"><img src="/assets/img/logo.svg" alt="Viver Catarina"></a>
+                                <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-auto">
-                            <nav class="main-menu d-none d-lg-inline-block">
+                            <nav class="main-menu d-none d-lg-inline-block" aria-label="Menu principal">
                                 <ul>
                                     <li><a href="/">Início</a></li>
                                     <li><a href="/about">Quem Somos</a></li>
@@ -285,10 +285,11 @@
                 </div>
             </div>
         </div>
-    </header><!--==============================
+    </header>
+    <main id="conteudo-principal"><!--==============================
 Hero Area
 ==============================-->
-    <div class="th-hero-wrapper hero-4 position-relative">
+    <section class="th-hero-wrapper hero-4 position-relative" aria-label="Destaque principal">
         <div class="hero-img-shape-1">
             <div class="logo-icon-wrap">
                 <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="logo-icon popup-video">
@@ -407,7 +408,7 @@ Hero Area
                 <h4 class="review-title">5.0 Rating on The Reviews</h4>
             </div>
         </div>
-    </div>
+    </section>
     <!--======== / Hero Section ========--><!--==============================
 About Area  
 ==============================-->
@@ -620,7 +621,7 @@ Feature Area
 
             <div class="row gy-30 justify-content-center">
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 ">
-                    <div class="popular-list-1 wow fadeinleft" data-wow-delay=".2s">
+                    <article class="popular-list-1 wow fadeinleft" data-wow-delay=".2s">
                         <div class="thumb-wrapper">
                             <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
                                 <div class="swiper-wrapper">
@@ -658,7 +659,7 @@ Feature Area
                                 </div>
                             </div>
                             <div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="icon">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>For Sale</p>
                             </div>
                         </div>
@@ -666,22 +667,22 @@ Feature Area
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Charming Beach House</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Bed 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Bath 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 sqft
                                 </li>
                             </ul>
@@ -690,10 +691,10 @@ Feature Area
                                 <a class="th-btn sm style3 pill" href="/property-details">View More </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 ">
-                    <div class="popular-list-1 wow fadeinleft" data-wow-delay=".4s">
+                    <article class="popular-list-1 wow fadeinleft" data-wow-delay=".4s">
                         <div class="thumb-wrapper">
                             <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
                                 <div class="swiper-wrapper">
@@ -731,7 +732,7 @@ Feature Area
                                 </div>
                             </div>
                             <div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="icon">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>For Sale</p>
                             </div>
                         </div>
@@ -739,22 +740,22 @@ Feature Area
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Luxury Lakeside Villa</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Bed 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Bath 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 sqft
                                 </li>
                             </ul>
@@ -763,10 +764,10 @@ Feature Area
                                 <a class="th-btn sm style3 pill" href="/property-details">View More </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 ">
-                    <div class="popular-list-1 wow fadeinright" data-wow-delay=".6s">
+                    <article class="popular-list-1 wow fadeinright" data-wow-delay=".6s">
                         <div class="thumb-wrapper">
                             <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
                                 <div class="swiper-wrapper">
@@ -804,7 +805,7 @@ Feature Area
                                 </div>
                             </div>
                             <div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="icon">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>For Sale</p>
                             </div>
                         </div>
@@ -812,22 +813,22 @@ Feature Area
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Beautiful Mountain</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Bed 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Bath 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 sqft
                                 </li>
                             </ul>
@@ -836,10 +837,10 @@ Feature Area
                                 <a class="th-btn sm style3 pill" href="/property-details">View More </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 ">
-                    <div class="popular-list-1 wow fadeinright" data-wow-delay=".8s">
+                    <article class="popular-list-1 wow fadeinright" data-wow-delay=".8s">
                         <div class="thumb-wrapper">
                             <div class="th-slider" data-slider-options='{"loop":false, "autoplay": false,"autoHeight": true, "effect":"fade"}'>
                                 <div class="swiper-wrapper">
@@ -877,7 +878,7 @@ Feature Area
                                 </div>
                             </div>
                             <div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="icon">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>For Sale</p>
                             </div>
                         </div>
@@ -885,22 +886,22 @@ Feature Area
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Cozy Cabin in Woods</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Bed 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Bath 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 sqft
                                 </li>
                             </ul>
@@ -909,7 +910,7 @@ Feature Area
                                 <a class="th-btn sm style3 pill" href="/property-details">View More </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
             </div>
         </div>
@@ -1112,7 +1113,7 @@ Cites Explore Area
                                             <div class="box-content">
                                                 <h3 class="box-title"><a href="/property">The Beverly House</a></h3>
                                                 <div class="box-text">
-                                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div>
+                                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div>
                                                     The Beverly House
                                                 </div>
                                             </div>
@@ -1128,7 +1129,7 @@ Cites Explore Area
                                             <div class="box-content">
                                                 <h3 class="box-title"><a href="/property">The Luxury Penthouse</a></h3>
                                                 <div class="box-text">
-                                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div>
+                                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div>
                                                     The Luxury Penthouse
                                                 </div>
                                             </div>
@@ -1144,7 +1145,7 @@ Cites Explore Area
                                             <div class="box-content">
                                                 <h3 class="box-title"><a href="/property">Modern Beach House</a></h3>
                                                 <div class="box-text">
-                                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div>
+                                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div>
                                                     Modern Beach House
                                                 </div>
                                             </div>
@@ -1160,7 +1161,7 @@ Cites Explore Area
                                             <div class="box-content">
                                                 <h3 class="box-title"><a href="/property">Charming Beach House</a></h3>
                                                 <div class="box-text">
-                                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div>
+                                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div>
                                                     Charming Beach House
                                                 </div>
                                             </div>
@@ -1176,7 +1177,7 @@ Cites Explore Area
                                             <div class="box-content">
                                                 <h3 class="box-title"><a href="/property">Ranch Style Home</a></h3>
                                                 <div class="box-text">
-                                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div>
+                                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div>
                                                     Ranch Style Home
                                                 </div>
                                             </div>
@@ -1696,7 +1697,7 @@ Blog Area
                 <div class="swiper th-slider has-shadow" id="blogSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"2"},"1300":{"slidesPerView":"3"}}, "autoHeight": "true"}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="blog-card style-2">
+                            <article class="blog-card style-2">
                                 <div class="blog-img">
                                     <a href="/blog-details">
                                         <img src="/assets/img/blog/blog_2_1.jpg" alt="Image">
@@ -1714,11 +1715,11 @@ Blog Area
                                     <h3 class="box-title"><a href="/blog-details">Building gains into housing stocks and how to trade the sector</a></h3>
                                     <a href="/blog-details" class="th-btn pill style3"> Read More</a>
                                 </div>
-                            </div>
+                            </article>
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="blog-card style-2">
+                            <article class="blog-card style-2">
                                 <div class="blog-img">
                                     <a href="/blog-details">
                                         <img src="/assets/img/blog/blog_2_2.jpg" alt="Image">
@@ -1736,11 +1737,11 @@ Blog Area
                                     <h3 class="box-title"><a href="/blog-details">92% of millennial homebuyers say has impacted their plans</a></h3>
                                     <a href="/blog-details" class="th-btn pill style3"> Read More</a>
                                 </div>
-                            </div>
+                            </article>
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="blog-card style-2">
+                            <article class="blog-card style-2">
                                 <div class="blog-img">
                                     <a href="/blog-details">
                                         <img src="/assets/img/blog/blog_2_3.jpg" alt="Image">
@@ -1758,11 +1759,11 @@ Blog Area
                                     <h3 class="box-title"><a href="/blog-details">Exploring the impact of climate change on global markets</a></h3>
                                     <a href="/blog-details" class="th-btn pill style3"> Read More</a>
                                 </div>
-                            </div>
+                            </article>
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="blog-card style-2">
+                            <article class="blog-card style-2">
                                 <div class="blog-img">
                                     <a href="/blog-details">
                                         <img src="/assets/img/blog/blog_1_4.jpg" alt="Image">
@@ -1780,11 +1781,11 @@ Blog Area
                                     <h3 class="box-title"><a href="/blog-details">The future of city living and its influence on of the in design</a></h3>
                                     <a href="/blog-details" class="th-btn pill style3"> Read More</a>
                                 </div>
-                            </div>
+                            </article>
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="blog-card style-2">
+                            <article class="blog-card style-2">
                                 <div class="blog-img">
                                     <a href="/blog-details">
                                         <img src="/assets/img/blog/blog_1_5.jpg" alt="Image">
@@ -1802,11 +1803,11 @@ Blog Area
                                     <h3 class="box-title"><a href="/blog-details">Exploring innovative architecture trends and their impact</a></h3>
                                     <a href="/blog-details" class="th-btn pill style3"> Read More</a>
                                 </div>
-                            </div>
+                            </article>
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="blog-card style-2">
+                            <article class="blog-card style-2">
                                 <div class="blog-img">
                                     <a href="/blog-details">
                                         <img src="/assets/img/blog/blog_1_6.jpg" alt="Image">
@@ -1824,7 +1825,7 @@ Blog Area
                                     <h3 class="box-title"><a href="/blog-details">Breaking down latest tech trends and investment opportunity</a></h3>
                                     <a href="/blog-details" class="th-btn pill style3"> Read More</a>
                                 </div>
-                            </div>
+                            </article>
                         </div>
 
                     </div>
@@ -1837,6 +1838,7 @@ Blog Area
     </section><!--==============================
 	Footer Area
 ==============================-->
+    </main>
     <footer class="footer-wrapper footer-layout1">
         <div class="footer-top-shape animation-infinite" data-bg-src="/assets/img/icon/footer-top-shape.png"></div>
         <div class="widget-area">
@@ -1848,7 +1850,7 @@ Blog Area
                             <div class="th-widget-about">
                                 <p class="about-text">O maior portal de lançamentos imobiliários de Santa Catarina. Encontre apartamentos na planta, pré-lançamentos e imóveis prontos para morar nas 25 maiores cidades catarinenses. De Joinville a Criciúma, de Balneário Camboriú a Chapecó — cobrimos cada lançamento, cada bairro, cada oportunidade do mercado imobiliário de SC. Aqui você compara, pesquisa e encontra o imóvel novo ideal com informações completas, atualizadas e direto das construtoras.</p>
 
-                                <div class="footer-info-wrap">
+                                <address class="footer-info-wrap">
                                     <div class="footer-info">
                                         <i class="fas fa-phone"></i>
                                         <p class="info-box_link"><a href="tel:+5548988105199">(48) 98810-5199</a></p>
@@ -1862,7 +1864,7 @@ Blog Area
                                         <i class="fas fa-location-dot"></i>
                                         <p class="info-box_link"><span>West 2nd lane, Inner circular road, New York City</span></p>
                                     </div>
-                                </div>
+                                </address>
 
                                 
 
@@ -1873,8 +1875,7 @@ Blog Area
                         <div class="footer-right-wrap">
                             <div class="footer-item-wrap">
                                                                 <div class="footer-item">
-                                    <div class="widget widget_nav_menu footer-widget">
-                                        <h3 class="widget_title">Institucional</h3>
+                                    <nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-institucional"><h3 class="widget_title" id="footer-nav-institucional">Institucional</h3>
                                         <div class="menu-all-pages-container">
                                             <ul class="menu">
                                                 <li><a href="/about">Quem Somos</a></li>
@@ -1891,11 +1892,10 @@ Blog Area
                                                 <li><a href="/contact">Contato</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </nav>
                                 </div>
                                 <div class="footer-item">
-                                    <div class="widget widget_nav_menu footer-widget">
-                                        <h3 class="widget_title">Legal</h3>
+                                    <nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-legal"><h3 class="widget_title" id="footer-nav-legal">Legal</h3>
                                         <div class="menu-all-pages-container">
                                             <ul class="menu">
                                                 <li><a href="/privacidade">Política de privacidade</a></li>
@@ -1903,18 +1903,17 @@ Blog Area
                                                 <li><a href="/mapa-do-site">Mapa do site</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </nav>
                                 </div>
                                 <div class="footer-item">
-                                    <div class="widget widget_nav_menu footer-widget">
-                                        <h3 class="widget_title">Suporte</h3>
+                                    <nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-suporte"><h3 class="widget_title" id="footer-nav-suporte">Suporte</h3>
                                         <div class="menu-all-pages-container">
                                             <ul class="menu">
                                                 <li><a href="/faq">Perguntas frequentes</a></li>
                                                 <li><a href="/contact">Contato</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </nav>
                                 </div>
                                 </div>
                             </div>
@@ -1928,7 +1927,7 @@ Blog Area
 			</div> -->
             </div>
         </div>
-                <div class="footer-cities-section">
+                <section class="footer-cities-section" aria-label="Cidades atendidas">
             <div class="container">
                 <div class="footer-cities-wrap">
                     <h3 class="widget_title">Cidades</h3>
@@ -1991,7 +1990,7 @@ Blog Area
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="copyright-wrap">
             <div class="footer-bottom-top-shape animation-infinite" data-bg-src="/assets/img/icon/footer-bottom-top-shape.png"></div>
             <div class="container">

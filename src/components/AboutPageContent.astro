@@ -42,13 +42,13 @@ const stats = [
 ];
 ---
 
-<div class="about-1-wrapper space overflow-hidden" id="about-sec">
+<section class="about-1-wrapper space overflow-hidden" id="about-sec" aria-labelledby="about-intro-title">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-xl-10 col-lg-11">
 				<div class="title-area text-center mb-40">
 					<p class="sub-title"><span class="double-line"></span> Quem Somos</p>
-					<h2 class="sec-title">Viva o melhor de Santa Catarina</h2>
+					<h2 class="sec-title" id="about-intro-title">Viva o melhor de Santa Catarina</h2>
 				</div>
 				<div class="about-page-intro text-center">
 					<p class="sec-text mb-4">
@@ -66,15 +66,15 @@ const stats = [
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
-<div class="space overflow-hidden bg-smoke">
+<section class="space overflow-hidden bg-smoke" aria-labelledby="about-mission-title">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-xl-8 col-lg-10 text-center">
 				<div class="title-area mb-30">
 					<p class="sub-title"><span class="double-line"></span> Propósito</p>
-					<h2 class="sec-title">Nossa missão</h2>
+					<h2 class="sec-title" id="about-mission-title">Nossa missão</h2>
 				</div>
 				<p class="sec-text mb-0">
 					Conectar quem quer comprar um imóvel novo em Santa Catarina com os melhores lançamentos disponíveis —
@@ -83,45 +83,49 @@ const stats = [
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
-<div class="why-sec-2 space overflow-hidden" id="why-sec" data-bg-src="/assets/img/shape/what-we-do-3-bg.png">
+<section class="why-sec-2 space overflow-hidden about-differentiators" id="why-sec" aria-labelledby="about-diff-title" data-bg-src="/assets/img/shape/what-we-do-3-bg.png">
 	<div class="container">
 		<div class="row justify-content-center mb-40">
 			<div class="col-xl-8 text-center">
 				<div class="title-area mb-2">
 					<p class="sub-title"><span class="double-line"></span> Diferenciais</p>
-					<h2 class="sec-title">O que nos diferencia</h2>
+					<h2 class="sec-title" id="about-diff-title">O que nos diferencia</h2>
 				</div>
 			</div>
 		</div>
-		<div class="row gy-30">
-			{
-				differentiators.map((item, index) => (
-					<div class="col-xl-6">
-						<div class="about-1-item h-100">
-							<div class="icon">
-								<img src={item.icon} alt="" />
+		<div class="row justify-content-center">
+			<div class="col-xl-10 col-lg-11">
+				<div class="row gy-30 gx-4 gx-xl-5 about-differentiators-grid">
+					{
+						differentiators.map((item) => (
+							<div class="col-xl-6">
+								<div class="about-1-item h-100">
+									<div class="icon">
+										<img src={item.icon} alt="" aria-hidden="true" />
+									</div>
+									<div class="content">
+										<h3 class="box-title">{item.title}</h3>
+										<p class="box-text">{item.text}</p>
+									</div>
+								</div>
 							</div>
-							<div class="content">
-								<h3 class="box-title">{item.title}</h3>
-								<p class="box-text">{item.text}</p>
-							</div>
-						</div>
-					</div>
-				))
-			}
+						))
+					}
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
+</section>
 
-<div class="counter-sec1 space overflow-hidden" data-bg-src="/assets/img/bg/counter-1-bg.jpg">
+<section class="counter-sec1 space overflow-hidden" aria-labelledby="about-stats-title" data-bg-src="/assets/img/bg/counter-1-bg.jpg">
 	<div class="container">
 		<div class="row justify-content-center mb-40">
 			<div class="col-xl-8 text-center">
 				<div class="title-area mb-0">
 					<p class="sub-title text-white"><span class="double-line"></span> Em números</p>
-					<h2 class="sec-title text-white">Nossos números</h2>
+					<h2 class="sec-title text-white" id="about-stats-title">Nossos números</h2>
 				</div>
 			</div>
 		</div>
@@ -143,15 +147,15 @@ const stats = [
 			}
 		</div>
 	</div>
-</div>
+</section>
 
-<div class="space overflow-hidden">
+<section class="space overflow-hidden" aria-labelledby="about-partners-title">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-xl-8 col-lg-10 text-center">
 				<div class="title-area mb-30">
 					<p class="sub-title"><span class="double-line"></span> Parcerias</p>
-					<h2 class="sec-title">Para incorporadoras e construtoras</h2>
+					<h2 class="sec-title" id="about-partners-title">Para incorporadoras e construtoras</h2>
 				</div>
 				<p class="sec-text mb-4">
 					O {SITE_NAME} é o canal ideal para divulgar seu lançamento para compradores qualificados em todo o
@@ -161,15 +165,15 @@ const stats = [
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
-<div class="contact-area-2 space-bottom" id="about-contact">
+<section class="contact-area-2 space-bottom" id="about-contact" aria-labelledby="about-contact-title">
 	<div class="container">
 		<div class="row justify-content-center mb-40">
 			<div class="col-xl-8 text-center">
 				<div class="title-area mb-0">
 					<p class="sub-title"><span class="double-line"></span> Contato</p>
-					<h2 class="sec-title">Fale com a gente</h2>
+					<h2 class="sec-title" id="about-contact-title">Fale com a gente</h2>
 					<p class="sec-text mt-3 mb-0">
 						Seja você um comprador buscando o imóvel ideal ou uma incorporadora querendo divulgar um
 						lançamento, estamos aqui para ajudar.
@@ -181,7 +185,7 @@ const stats = [
 			<div class="col-xl-4 col-lg-6 contact-feature-wrap">
 				<div class="contact-feature">
 					<div class="contact-feature-icon">
-						<i class="fas fa-location-dot"></i>
+						<i class="fas fa-location-dot" aria-hidden="true"></i>
 					</div>
 					<div class="media-body">
 						<p class="contact-feature_label">Localização</p>
@@ -192,7 +196,7 @@ const stats = [
 			<div class="col-xl-4 col-lg-6 contact-feature-wrap">
 				<div class="contact-feature">
 					<div class="contact-feature-icon">
-						<i class="fas fa-envelope"></i>
+						<i class="fas fa-envelope" aria-hidden="true"></i>
 					</div>
 					<div class="media-body">
 						<p class="contact-feature_label">E-mail</p>
@@ -203,7 +207,7 @@ const stats = [
 			<div class="col-xl-4 col-lg-6 contact-feature-wrap">
 				<div class="contact-feature">
 					<div class="contact-feature-icon">
-						<i class="fab fa-whatsapp"></i>
+						<i class="fab fa-whatsapp" aria-hidden="true"></i>
 					</div>
 					<div class="media-body">
 						<p class="contact-feature_label">WhatsApp</p>
@@ -220,13 +224,27 @@ const stats = [
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <style>
 	.about-page-intro .sec-text {
 		max-width: 820px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.about-differentiators .about-differentiators-grid {
+		padding-inline: clamp(0.75rem, 2.5vw, 2.5rem);
+	}
+
+	.about-differentiators .about-1-item {
+		padding: 1.5rem 1.25rem;
+	}
+
+	@media (min-width: 1200px) {
+		.about-differentiators .about-1-item {
+			padding: 1.75rem 1.5rem;
+		}
 	}
 
 	#about-contact .contact-feature_link {

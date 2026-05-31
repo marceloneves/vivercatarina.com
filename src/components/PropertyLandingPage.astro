@@ -4,7 +4,7 @@ import PropertyFinancingSimulator from './PropertyFinancingSimulator.astro';
 const { page } = Astro.props;
 ---
 
-<section class="property-details space imovel-detail">
+<article class="property-details space imovel-detail" aria-labelledby="property-title">
 	<section class="hero-gallery">
 		<div class="container">
 			<div class="hero-gallery__grid">
@@ -48,7 +48,7 @@ const { page } = Astro.props;
 				</div>
 			</div>
 			<div class="hero-gallery__footer">
-				<h1 class="hero-gallery__title">{page.seo.h1}</h1>
+				<h1 class="hero-gallery__title" id="property-title">{page.seo.h1}</h1>
 				<div class="hero-gallery__actions">
 					{
 						page.hero.videoUrl && (
@@ -96,7 +96,7 @@ const { page } = Astro.props;
 	</section>
 
 	<div class="container layout">
-		<main>
+		<div class="property-main">
 			<section class="section card">
 				<h2 class="section__title">Ficha do empreendimento</h2>
 				<dl class="ficha-grid">
@@ -311,9 +311,9 @@ const { page } = Astro.props;
 				Valores, disponibilidade, metragens e condições comerciais podem ser alterados sem aviso prévio.
 				As imagens são ilustrativas. Consulte nossa equipe para informações atualizadas.
 			</section>
-		</main>
+		</div>
 
-		<aside class="sidebar">
+		<aside class="sidebar" aria-label="Informações e contato">
 			<div class="sidebar-card">
 				<div class="sidebar-card__price-box">
 					<div class="sidebar-card__label">Preço a partir de</div>
@@ -343,7 +343,7 @@ const { page } = Astro.props;
 			</div>
 		</aside>
 	</div>
-</section>
+</article>
 
 {
 	page.location.mapEmbedUrl && (

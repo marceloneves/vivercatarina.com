@@ -2,13 +2,13 @@
 const { neighborhoods } = Astro.props;
 ---
 
-<div class="gallery-sec-1 home-bairros-section overflow-hidden space overflow-hidden">
+<section class="gallery-sec-1 home-bairros-section overflow-hidden space overflow-hidden" aria-labelledby="home-bairros-title">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-xl-7">
 				<div class="title-area text-center">
 					<p class="sub-title"><span class="double-line"></span>Florianópolis</p>
-					<h2 class="sec-title mb-2">Conheça os bairros de Florianópolis</h2>
+					<h2 class="sec-title mb-2" id="home-bairros-title">Conheça os bairros de Florianópolis</h2>
 					<p class="box-text">Encontre o apartamento ideal na nossa listagem</p>
 				</div>
 			</div>
@@ -19,7 +19,7 @@ const { neighborhoods } = Astro.props;
 			{
 				neighborhoods.map((neighborhood) => (
 					<div class="col-xl-3 col-lg-4 col-md-6">
-						<div class="gallery-card h-100">
+						<article class="gallery-card h-100">
 							<div class="gallery-img">
 								<img src={neighborhood.imageUrl} alt={neighborhood.name} loading="lazy" />
 								<div class="gallery-content">
@@ -31,13 +31,13 @@ const { neighborhoods } = Astro.props;
 									</div>
 								</div>
 							</div>
-						</div>
+						</article>
 					</div>
 				))
 			}
 		</div>
 	</div>
-</div>
+</section>
 
 <style>
 	.home-bairros-section .gallery-card {

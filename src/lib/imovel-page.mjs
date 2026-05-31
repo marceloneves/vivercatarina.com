@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { applySemanticHtml, wrapSplitPageContent } from './semantic-html.mjs';
 import { loadProperty, isSiteEligibleProperty } from './property-data.mjs';
 import { buildPropertyPageViewModel } from './property-page-content.mjs';
 
@@ -21,10 +22,10 @@ function getShellTemplate() {
 		throw new Error('Não foi possível separar o template de detalhes do imóvel.');
 	}
 
-	shellCache = {
-		before: template.slice(0, breadcrumbStart),
-		after: template.slice(footerStart),
-	};
+	shellCache = wrapSplitPageContent(
+		applySemanticHtml(template.slice(0, breadcrumbStart)),
+		applySemanticHtml(template.slice(footerStart)),
+	);
 
 	return shellCache;
 }

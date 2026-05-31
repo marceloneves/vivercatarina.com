@@ -86,9 +86,9 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="/"><img src="/assets/img/logo.svg" alt="Viver Catarina"></a>
+                <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo.svg" alt=""></a>
             </div>
-            <div class="th-mobile-menu">
+            <nav class="th-mobile-menu" aria-label="Menu mobile">
                 <ul>
                     <li class="active"><a href="/">Início</a></li>
                     <li><a href="/about">Quem Somos</a></li>
@@ -195,7 +195,7 @@
                     <li><a href="/blog">Blog</a></li>
                     <li><a href="/contact">Contato</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </div>
     <!--==============================
@@ -206,17 +206,15 @@
             <div class="container">
                 <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
                     <div class="col-auto d-none d-lg-block">
-                        <div class="header-links">
-                            <ul>
+                        <nav class="header-links" aria-label="Contato e redes sociais"><ul aria-label="Contatos do site">
                                 <li><i class="fa-solid fa-envelope"></i> <a href="mailto:contato@vivercatarina.com">contato@vivercatarina.com</a></li>
                                 <li><i class="fa-solid fa-phone"></i> <a href="tel:+5548988105199">(48) 98810-5199</a></li>
                             </ul>
-                        </div>
+                        </nav>
                     </div>
 
                     <div class="col-auto">
-                        <div class="header-links">
-                            <ul>
+                        <nav class="header-links" aria-label="Contato e redes sociais"><ul aria-label="Contatos do site">
                                 <li>
                                     <div class="th-social">
                                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -226,7 +224,7 @@
                                     </div>
                                 </li>
                                 </ul>
-                        </div>
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -238,11 +236,11 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="/"><img src="/assets/img/logo-white.svg" alt="Viver Catarina"></a>
+                                <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo-white.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-auto">
-                            <nav class="main-menu d-none d-lg-inline-block">
+                            <nav class="main-menu d-none d-lg-inline-block" aria-label="Menu principal">
                                 <ul>
                                     <li class="active"><a href="/">Início</a></li>
                                     <li><a href="/about">Quem Somos</a></li>
@@ -363,10 +361,11 @@
             </div>
         </div>
     </header>
+    <main id="conteudo-principal">
     <!--==============================
 Hero Area
 ==============================-->
-    <div class="th-hero-wrapper hero-1" id="hero">
+    <section class="th-hero-wrapper hero-1" id="hero" aria-label="Destaque principal">
         
 
         <div class="hero-inner hero-style1" data-bg-src="/assets/img/hero/hero_bg_1_1.jpg">
@@ -380,15 +379,14 @@ Hero Area
                             </div>
                         </div>
                     </div>
-    </div>
+    </section>
     <!--======== / Hero Section ========-->
 
 
     <!--==============================
 Search Area
 ==============================-->
-    <div class="search-area">
-        <form action="/submit-form">
+    <section class="search-area" aria-label="Busca de imóveis"><form role="search" action="/submit-form">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xxl-10">
@@ -538,7 +536,7 @@ Search Area
                 </div>
             </div>
         </form>
-    </div>
+    </section>
     <!--======== / Search Section ========--><!--==============================
 Feature Area  
 ==============================-->
@@ -562,31 +560,31 @@ Feature Area
 
             <div class="row gy-30 justify-content-center filter-active">
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat1">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper"><a href="/property-details" class="thumb-link"><img src="/assets/img/popular/popular-1-1.jpg" alt="Imagem"><div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="ícone">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>À venda</p>
                             </div></a></div>
                         <div class="property-content">
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Casa charmosa na praia</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="ícone"></div> Florianópolis, SC
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> Florianópolis, SC
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Quartos 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Banheiros 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 m²
                                 </li>
                             </ul>
@@ -595,34 +593,34 @@ Feature Area
                                 <a class="th-btn sm style3 pill" href="/property-details">Ver mais </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat2 cat1">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper"><a href="/property-details" class="thumb-link"><img src="/assets/img/popular/popular-1-2.jpg" alt="Imagem"><div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="ícone">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>À venda</p>
                             </div></a></div>
                         <div class="property-content">
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Loft contemporâneo</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="ícone"></div> Florianópolis, SC
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> Florianópolis, SC
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Quartos 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Banheiros 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 m²
                                 </li>
                             </ul>
@@ -631,34 +629,34 @@ Feature Area
                                 <a class="th-btn sm style3 pill" href="/property-details">Ver mais </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat4 cat3 cat2">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper"><a href="/property-details" class="thumb-link"><img src="/assets/img/popular/popular-1-3.jpg" alt="Imagem"><div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="ícone">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>À venda</p>
                             </div></a></div>
                         <div class="property-content">
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Chalé aconchegante</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="ícone"></div> Florianópolis, SC
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> Florianópolis, SC
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Quartos 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Banheiros 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 m²
                                 </li>
                             </ul>
@@ -667,34 +665,34 @@ Feature Area
                                 <a class="th-btn sm style3 pill" href="/property-details">Ver mais </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat1">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper"><a href="/property-details" class="thumb-link"><img src="/assets/img/popular/popular-1-4.jpg" alt="Imagem"><div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="ícone">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>À venda</p>
                             </div></a></div>
                         <div class="property-content">
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Casa moderna na praia</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="ícone"></div> Florianópolis, SC
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> Florianópolis, SC
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Quartos 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Banheiros 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 m²
                                 </li>
                             </ul>
@@ -703,34 +701,34 @@ Feature Area
                                 <a class="th-btn sm style3 pill" href="/property-details">Ver mais </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat3 cat4">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper"><a href="/property-details" class="thumb-link"><img src="/assets/img/popular/popular-1-5.jpg" alt="Imagem"><div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="ícone">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>À venda</p>
                             </div></a></div>
                         <div class="property-content">
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Cabana aconchegante</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="ícone"></div> Florianópolis, SC
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> Florianópolis, SC
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Quartos 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Banheiros 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 m²
                                 </li>
                             </ul>
@@ -739,34 +737,34 @@ Feature Area
                                 <a class="th-btn sm style3 pill" href="/property-details">Ver mais </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat2 cat1">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper"><a href="/property-details" class="thumb-link"><img src="/assets/img/popular/popular-1-6.jpg" alt="Imagem"><div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="ícone">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>À venda</p>
                             </div></a></div>
                         <div class="property-content">
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Apartamento moderno</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="ícone"></div> Florianópolis, SC
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> Florianópolis, SC
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Quartos 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Banheiros 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 m²
                                 </li>
                             </ul>
@@ -775,34 +773,34 @@ Feature Area
                                 <a class="th-btn sm style3 pill" href="/property-details">Ver mais </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat4">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper"><a href="/property-details" class="thumb-link"><img src="/assets/img/popular/popular-1-7.jpg" alt="Imagem"><div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="ícone">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>À venda</p>
                             </div></a></div>
                         <div class="property-content">
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Villa à beira-mar</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="ícone"></div> Florianópolis, SC
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> Florianópolis, SC
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Quartos 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Banheiros 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 m²
                                 </li>
                             </ul>
@@ -811,34 +809,34 @@ Feature Area
                                 <a class="th-btn sm style3 pill" href="/property-details">Ver mais </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item cat2 cat4">
-                    <div class="popular-list-1">
+                    <article class="popular-list-1">
                         <div class="thumb-wrapper"><a href="/property-details" class="thumb-link"><img src="/assets/img/popular/popular-1-8.jpg" alt="Imagem"><div class="popular-badge">
-                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="ícone">
+                                <img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true">
                                 <p>À venda</p>
                             </div></a></div>
                         <div class="property-content">
                             <div class="media-body">
                                 <h3 class="box-title"> <a href="/property-details">Casa estilo rancho</a></h3>
                                 <div class="box-text">
-                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="ícone"></div> Florianópolis, SC
+                                    <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> Florianópolis, SC
                                 </div>
                             </div>
 
                             <ul class="property-featured">
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                     Quartos 4
                                 </li>
 
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                     Banheiros 2
                                 </li>
                                 <li>
-                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="ícone"></div>
+                                    <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                     1500 m²
                                 </li>
                             </ul>
@@ -847,14 +845,14 @@ Feature Area
                                 <a class="th-btn sm style3 pill" href="/property-details">Ver mais </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
             </div>
         </div>
     </section><!--==============================
 Gallery Area  
 ==============================-->
-    <div class="gallery-sec-1 overflow-hidden space overflow-hidden">
+    <section class="gallery-sec-1 overflow-hidden space overflow-hidden" aria-label="Galeria de bairros">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-7">
@@ -869,7 +867,7 @@ Gallery Area
         <div class="container pb-5">
             <div class="row gy-30 justify-content-center">
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-1.jpg" alt="Abraão">
                             <div class="gallery-content">
@@ -879,10 +877,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-2.jpg" alt="Agronômica">
                             <div class="gallery-content">
@@ -892,10 +890,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-3.jpg" alt="Armação">
                             <div class="gallery-content">
@@ -905,10 +903,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-4.jpg" alt="Balneário">
                             <div class="gallery-content">
@@ -918,10 +916,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-5.jpg" alt="Barra da Lagoa">
                             <div class="gallery-content">
@@ -931,10 +929,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-6.jpg" alt="Cacupé">
                             <div class="gallery-content">
@@ -944,10 +942,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-1.jpg" alt="Campeche">
                             <div class="gallery-content">
@@ -957,10 +955,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-2.jpg" alt="Canasvieiras">
                             <div class="gallery-content">
@@ -970,10 +968,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-3.jpg" alt="Capoeiras">
                             <div class="gallery-content">
@@ -983,10 +981,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-4.jpg" alt="Centro">
                             <div class="gallery-content">
@@ -996,10 +994,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-5.jpg" alt="Córrego Grande">
                             <div class="gallery-content">
@@ -1009,10 +1007,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-6.jpg" alt="Coqueiros">
                             <div class="gallery-content">
@@ -1022,10 +1020,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-1.jpg" alt="Estreito">
                             <div class="gallery-content">
@@ -1035,10 +1033,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-2.jpg" alt="Ingleses">
                             <div class="gallery-content">
@@ -1048,10 +1046,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-3.jpg" alt="Itacorubi">
                             <div class="gallery-content">
@@ -1061,10 +1059,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-4.jpg" alt="João Paulo">
                             <div class="gallery-content">
@@ -1074,10 +1072,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-5.jpg" alt="Jurerê Internacional">
                             <div class="gallery-content">
@@ -1087,10 +1085,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-6.jpg" alt="Lagoa da Conceição">
                             <div class="gallery-content">
@@ -1100,10 +1098,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-1.jpg" alt="Morro das Pedras">
                             <div class="gallery-content">
@@ -1113,10 +1111,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-2.jpg" alt="Pantanal">
                             <div class="gallery-content">
@@ -1126,10 +1124,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-3.jpg" alt="Praia Brava">
                             <div class="gallery-content">
@@ -1139,10 +1137,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-4.jpg" alt="Ribeirão da Ilha">
                             <div class="gallery-content">
@@ -1152,10 +1150,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-5.jpg" alt="Rio Tavares">
                             <div class="gallery-content">
@@ -1165,10 +1163,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-6.jpg" alt="Rio Vermelho">
                             <div class="gallery-content">
@@ -1178,10 +1176,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-1.jpg" alt="Saco dos Limões">
                             <div class="gallery-content">
@@ -1191,10 +1189,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-2.jpg" alt="Saco Grande">
                             <div class="gallery-content">
@@ -1204,10 +1202,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-3.jpg" alt="Santa Mônica">
                             <div class="gallery-content">
@@ -1217,10 +1215,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-4.jpg" alt="Santo Antônio de Lisboa">
                             <div class="gallery-content">
@@ -1230,10 +1228,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-5.jpg" alt="Trindade">
                             <div class="gallery-content">
@@ -1243,10 +1241,10 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="gallery-card h-100">
+                    <article class="gallery-card h-100">
                         <div class="gallery-img">
                             <img src="/assets/img/gallery/gallery-1-6.jpg" alt="Vargem Grande">
                             <div class="gallery-content">
@@ -1256,11 +1254,11 @@ Gallery Area
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
             </div>
         </div>
-    </div><!--==============================
+    </section><!--==============================
 Testimonial Area  
 ==============================-->
     <section class="testi-card-area-1 bg-smoke space bg-smoke overflow-hidden" data-bg-src="/assets/img/bg/property-values-bg-shape.png">
@@ -1304,6 +1302,7 @@ Blog Area
     </section><!--==============================
 	Footer Area
 ==============================-->
+    </main>
     <footer class="footer-wrapper footer-layout1">
         <div class="footer-top-shape" data-bg-src="/assets/img/icon/footer-top-shape.png"></div>
         <div class="widget-area">
@@ -1315,7 +1314,7 @@ Blog Area
                             <div class="th-widget-about">
                                 <p class="about-text">O maior portal de lançamentos imobiliários de Santa Catarina. Encontre apartamentos na planta, pré-lançamentos e imóveis prontos para morar nas 25 maiores cidades catarinenses. De Joinville a Criciúma, de Balneário Camboriú a Chapecó — cobrimos cada lançamento, cada bairro, cada oportunidade do mercado imobiliário de SC. Aqui você compara, pesquisa e encontra o imóvel novo ideal com informações completas, atualizadas e direto das construtoras.</p>
 
-                                <div class="footer-info-wrap">
+                                <address class="footer-info-wrap">
                                     <div class="footer-info">
                                         <i class="fas fa-phone"></i>
                                         <p class="info-box_link"><a href="tel:+5548988105199">(48) 98810-5199</a></p>
@@ -1329,7 +1328,7 @@ Blog Area
                                         <i class="fas fa-location-dot"></i>
                                         <p class="info-box_link"><span>Florianópolis, SC</span></p>
                                     </div>
-                                </div>
+                                </address>
 
                                 
 
@@ -1340,8 +1339,7 @@ Blog Area
                         <div class="footer-right-wrap">
                             <div class="footer-item-wrap">
                                                                 <div class="footer-item">
-                                    <div class="widget widget_nav_menu footer-widget">
-                                        <h3 class="widget_title">Institucional</h3>
+                                    <nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-institucional"><h3 class="widget_title" id="footer-nav-institucional">Institucional</h3>
                                         <div class="menu-all-pages-container">
                                             <ul class="menu">
                                                 <li><a href="/about">Quem Somos</a></li>
@@ -1358,11 +1356,10 @@ Blog Area
                                                 <li><a href="/contact">Contato</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </nav>
                                 </div>
                                 <div class="footer-item">
-                                    <div class="widget widget_nav_menu footer-widget">
-                                        <h3 class="widget_title">Legal</h3>
+                                    <nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-legal"><h3 class="widget_title" id="footer-nav-legal">Legal</h3>
                                         <div class="menu-all-pages-container">
                                             <ul class="menu">
                                                 <li><a href="/privacidade">Política de privacidade</a></li>
@@ -1370,18 +1367,17 @@ Blog Area
                                                 <li><a href="/mapa-do-site">Mapa do site</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </nav>
                                 </div>
                                 <div class="footer-item">
-                                    <div class="widget widget_nav_menu footer-widget">
-                                        <h3 class="widget_title">Suporte</h3>
+                                    <nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-suporte"><h3 class="widget_title" id="footer-nav-suporte">Suporte</h3>
                                         <div class="menu-all-pages-container">
                                             <ul class="menu">
                                                 <li><a href="/faq">Perguntas frequentes</a></li>
                                                 <li><a href="/contact">Contato</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </nav>
                                 </div>
                                 </div>
                             </div>
@@ -1395,7 +1391,7 @@ Blog Area
 			</div> -->
             </div>
         </div>
-                <div class="footer-cities-section">
+                <section class="footer-cities-section" aria-label="Cidades atendidas">
             <div class="container">
                 <div class="footer-cities-wrap">
                     <h3 class="widget_title">Cidades</h3>
@@ -1458,7 +1454,7 @@ Blog Area
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="copyright-wrap">
             <div class="footer-bottom-top-shape" data-bg-src="/assets/img/icon/footer-bottom-top-shape.png"></div>
             <div class="container">

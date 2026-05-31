@@ -1,11 +1,34 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
+import BlogPostsGrid from '../components/BlogPostsGrid.astro';
 import bodyHtml from '../content/template-pages/blog.html?raw';
+import { getBlogPosts } from '../lib/blog-posts.mjs';
+import { applySemanticHtml, wrapSplitPageContent } from '../lib/semantic-html.mjs';
 
-const title = "Blog Grid";
-const bodyClass = "";
+const title = 'Blog';
+const bodyClass = '';
+const posts = getBlogPosts();
+
+const blogAreaStart = bodyHtml.indexOf('<!--==============================\nBlog Area\n==============================-->');
+const footerStart = bodyHtml.indexOf('<!--==============================\n\tFooter Area');
+
+if (blogAreaStart === -1 || footerStart === -1) {
+	throw new Error('Não foi possível montar a página do blog a partir do template.');
+}
+
+const headerAndBreadcrumb = applySemanticHtml(
+	bodyHtml
+		.slice(0, blogAreaStart)
+		.replace('Blog Grid', title)
+		.replace('<li>Blog Grid</li>', `<li>${title}</li>`)
+		.replace('<li><a href="/">Home</a></li>', '<li><a href="/">Início</a></li>'),
+);
+
+const shell = wrapSplitPageContent(headerAndBreadcrumb, applySemanticHtml(bodyHtml.slice(footerStart)));
 ---
 
 <PillerLayout title={title} bodyClass={bodyClass}>
-	<Fragment set:html={bodyHtml} />
+	<Fragment set:html={shell.before} />
+	<BlogPostsGrid posts={posts} />
+	<Fragment set:html={shell.after} />
 </PillerLayout>

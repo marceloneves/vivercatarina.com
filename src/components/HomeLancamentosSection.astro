@@ -2,14 +2,14 @@
 const { properties } = Astro.props;
 ---
 
-<section class="popular-sec-1 overflow-hidden space">
+<section class="popular-sec-1 overflow-hidden space" aria-labelledby="home-lancamentos-title">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-xl-7">
 				<div class="title-area text-center mb-2">
 					<p class="sub-title"><span class="double-line"></span> Lançamentos</p>
-					<h2 class="sec-title mb-4">Imóveis na planta em Florianópolis</h2>
-					<div class="filter-menu indicator-active filter-menu-active mt-2 justify-content-center">
+					<h2 class="sec-title mb-4" id="home-lancamentos-title">Imóveis na planta em Florianópolis</h2>
+					<div class="filter-menu indicator-active filter-menu-active mt-2 justify-content-center" role="group" aria-label="Filtrar lançamentos por tipo">
 						<button data-filter="*" class="th-btn tab-btn active" type="button">Ver todos</button>
 						<button data-filter=".cat-apartamento" class="th-btn tab-btn" type="button">
 							Apartamentos
@@ -36,12 +36,12 @@ const { properties } = Astro.props;
 						<div
 							class={`col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item ${property.kindFilterClass}`}
 						>
-							<div class="popular-list-1">
+							<article class="popular-list-1">
 								<div class="thumb-wrapper">
 									<a href={property.detailUrl} class="thumb-link">
 										<img src={property.imageUrl} alt={property.title} />
 										<div class="popular-badge">
-											<img src="/assets/img/icon/sell_rent_icon.svg" alt="ícone" />
+											<img src="/assets/img/icon/sell_rent_icon.svg" alt="" aria-hidden="true" />
 											<p>{property.categoryLabel}</p>
 										</div>
 									</a>
@@ -53,7 +53,7 @@ const { properties } = Astro.props;
 										</h3>
 										<div class="box-text">
 											<div class="icon">
-												<img src="/assets/img/icon/popular-location.svg" alt="ícone" />
+												<img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true" />
 											</div>
 											{property.locationLabel}
 										</div>
@@ -63,7 +63,7 @@ const { properties } = Astro.props;
 										{property.bedrooms != null && (
 											<li>
 												<div class="icon">
-													<img src="/assets/img/icon/bed.svg" alt="ícone" />
+													<img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true" />
 												</div>
 												Quartos {property.bedrooms}
 											</li>
@@ -71,7 +71,7 @@ const { properties } = Astro.props;
 										{property.bathrooms != null && (
 											<li>
 												<div class="icon">
-													<img src="/assets/img/icon/bath.svg" alt="ícone" />
+													<img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true" />
 												</div>
 												Banheiros {property.bathrooms}
 											</li>
@@ -79,7 +79,7 @@ const { properties } = Astro.props;
 										{property.sizeSqm != null && (
 											<li>
 												<div class="icon">
-													<img src="/assets/img/icon/sqft.svg" alt="ícone" />
+													<img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true" />
 												</div>
 												{property.sizeSqm} m²
 											</li>
@@ -92,7 +92,7 @@ const { properties } = Astro.props;
 										</a>
 									</div>
 								</div>
-							</div>
+							</article>
 						</div>
 					))
 				)

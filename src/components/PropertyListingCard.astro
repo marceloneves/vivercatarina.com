@@ -10,7 +10,7 @@ const isGrid = variant === 'grid';
 			data-slug={property.slug}
 			data-price={property.price ?? 0}
 		>
-			<div class="popular-list-1 grid-style">
+			<article class="popular-list-1 grid-style">
 				<div class="thumb-wrapper">
 					<a href={property.detailUrl} class="thumb-link">
 						<img src={property.imageUrl} alt={property.title} />
@@ -65,7 +65,7 @@ const isGrid = variant === 'grid';
 						</a>
 					</div>
 				</div>
-			</div>
+			</article>
 		</div>
 	) : (
 		<div
@@ -73,7 +73,7 @@ const isGrid = variant === 'grid';
 			data-slug={property.slug}
 			data-price={property.price ?? 0}
 		>
-			<div class="popular-list-1 list-style">
+			<article class="popular-list-1 list-style">
 				<div class="thumb-wrapper">
 					<a href={property.detailUrl} class="thumb-link">
 						<img src={property.imageUrl} alt={property.title} />
@@ -128,7 +128,7 @@ const isGrid = variant === 'grid';
 						</a>
 					</div>
 				</div>
-			</div>
+			</article>
 		</div>
 	)
 }

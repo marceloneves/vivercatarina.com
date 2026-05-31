@@ -143,6 +143,23 @@ const pageTitle = buildSitePageTitle(title);
 					grid-template-columns: 1fr;
 				}
 			}
+
+			.skip-link {
+				position: absolute;
+				top: -100%;
+				left: 1rem;
+				z-index: 10000;
+				padding: 0.75rem 1rem;
+				border-radius: 0.5rem;
+				background: var(--theme-color, #068fff);
+				color: #fff;
+				font-weight: 600;
+				text-decoration: none;
+			}
+
+			.skip-link:focus {
+				top: 1rem;
+			}
 		</style>
 		{disableEffects && (
 			<style is:global>
@@ -353,6 +370,7 @@ const pageTitle = buildSitePageTitle(title);
 		<slot name="head" />
 	</head>
 	<body class={bodyClass}>
+		<a class="skip-link" href="#conteudo-principal">Ir para o conteúdo</a>
 		<slot />
 		<WhatsAppLeadGate />
 		<WhatsAppFloat />

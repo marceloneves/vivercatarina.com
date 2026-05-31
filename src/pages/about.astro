@@ -2,6 +2,7 @@
 import PillerLayout from '../layouts/PillerLayout.astro';
 import AboutPageContent from '../components/AboutPageContent.astro';
 import bodyHtml from '../content/template-pages/about.html?raw';
+import { applySemanticHtml, wrapSplitPageContent } from '../lib/semantic-html.mjs';
 
 const title = 'Quem Somos';
 const bodyClass = '';
@@ -13,12 +14,14 @@ if (aboutAreaStart === -1 || footerStart === -1) {
 	throw new Error('Não foi possível montar a página Quem Somos a partir do template.');
 }
 
-const headerAndBreadcrumb = bodyHtml.slice(0, aboutAreaStart);
-const footer = bodyHtml.slice(footerStart);
+const shell = wrapSplitPageContent(
+	applySemanticHtml(bodyHtml.slice(0, aboutAreaStart)),
+	applySemanticHtml(bodyHtml.slice(footerStart)),
+);
 ---
 
 <PillerLayout title={title} bodyClass={bodyClass}>
-	<Fragment set:html={headerAndBreadcrumb} />
+	<Fragment set:html={shell.before} />
 	<AboutPageContent />
-	<Fragment set:html={footer} />
+	<Fragment set:html={shell.after} />
 </PillerLayout>

@@ -95,7 +95,7 @@
             <div class="widget  ">
                 <div class="th-widget-about">
                     <div class="about-logo">
-                        <a href="/"><img src="/assets/img/logo.svg" alt="Viver Catarina"></a>
+                        <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo.svg" alt=""></a>
                     </div>
                     <p class="about-text mb-4">Pillar is a luxury to the resilience, adaptability, Spacious modern villa living room with centrally placed swimming pool blending indooroutdoor.</p>
 
@@ -174,9 +174,9 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="/"><img src="/assets/img/logo.svg" alt="Viver Catarina"></a>
+                <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo.svg" alt=""></a>
             </div>
-            <div class="th-mobile-menu">
+            <nav class="th-mobile-menu" aria-label="Menu mobile">
                 <ul>
                     <li><a href="/">Início</a></li>
                                     <li><a href="/about">Quem Somos</a></li>
@@ -190,7 +190,7 @@
                                     <li><a href="/blog">Blog</a></li>
                                     <li><a href="/contact">Contato</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </div><!--==============================
 	Header Area
@@ -200,17 +200,15 @@
             <div class="container">
                 <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
                     <div class="col-auto d-none d-lg-block">
-                        <div class="header-links">
-                            <ul>
+                        <nav class="header-links" aria-label="Contato e redes sociais"><ul aria-label="Contatos do site">
                                 <li><i class="fa-solid fa-envelope"></i> <a href="mailto:contato@vivercatarina.com">contato@vivercatarina.com</a></li>
                                 <li><i class="fa-solid fa-phone"></i> <a href="tel:+5548988105199">(48) 98810-5199</a></li>
                             </ul>
-                        </div>
+                        </nav>
                     </div>
 
                     <div class="col-auto">
-                        <div class="header-links">
-                            <ul>
+                        <nav class="header-links" aria-label="Contato e redes sociais"><ul aria-label="Contatos do site">
                                 <li>
                                     <div class="th-social">
                                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -220,7 +218,7 @@
                                     </div>
                                 </li>
                                 </ul>
-                        </div>
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -232,11 +230,11 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="/"><img src="/assets/img/logo.svg" alt="Viver Catarina"></a>
+                                <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-auto">
-                            <nav class="main-menu d-none d-lg-inline-block">
+                            <nav class="main-menu d-none d-lg-inline-block" aria-label="Menu principal">
                                 <ul>
                                     <li><a href="/">Início</a></li>
                                     <li><a href="/about">Quem Somos</a></li>
@@ -267,21 +265,21 @@
                 </div>
             </div>
         </div>
-    </header><!--==============================
+    </header>
+    <main id="conteudo-principal"><!--==============================
     Breadcumb
 ============================== -->
 
-    <div class="breadcumb-wrapper " data-bg-src="/assets/img/blog/breadcrumb-bg.jpg">
+    <nav class="breadcumb-wrapper " data-bg-src="/assets/img/blog/breadcrumb-bg.jpg" aria-label="Trilha de navegação">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Edificio Aurora</h1>
-                <ul class="breadcumb-menu">
+                <ol class="breadcumb-menu">
                     <li><a href="/">Home</a></li>
-                    <li>Edificio Aurora</li>
-                </ul>
+                    <li><span aria-current="page">Edificio Aurora</span></li></ol>
             </div>
         </div>
-    </div>
+    </nav>
     <!--==============================
         Blog Area
     ==============================-->
@@ -379,20 +377,20 @@
                                 </div>
                                 <div class="page-features fadeinup wow">
                                     <div class="box-text">
-                                        <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="icon"></div> 39581 Rohan Estates, New York
+                                        <div class="icon"><img src="/assets/img/icon/popular-location.svg" alt="" aria-hidden="true"></div> 39581 Rohan Estates, New York
                                     </div>
                                     <ul class="property-featured">
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/bed.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/bed.svg" alt="" aria-hidden="true"></div>
                                             Bed 4
                                         </li>
 
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/bath.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/bath.svg" alt="" aria-hidden="true"></div>
                                             Bath 2
                                         </li>
                                         <li>
-                                            <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="icon"></div>
+                                            <div class="icon"><img src="/assets/img/icon/sqft.svg" alt="" aria-hidden="true"></div>
                                             1500 sqft
                                         </li>
                                     </ul>
@@ -712,7 +710,7 @@
                 </div>
 
                 <div class="col-xxl-4 col-lg-5">
-                    <aside class="sidebar-area">
+                    <aside class="sidebar-area" aria-label="Barra lateral">
                         <div class="widget widget_search  ">
                             <h3 class="widget_title">search</h3>
                             <form class="search-form">
@@ -753,6 +751,7 @@
     <!--==============================
 	Footer Area
 ==============================-->
+    </main>
     <footer class="footer-wrapper footer-default">
         <div class="widget-area">
             <div class="container">
@@ -761,11 +760,11 @@
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="/"><img src="/assets/img/logo-white.svg" alt="Viver Catarina"></a>
+                                    <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo-white.svg" alt=""></a>
                                 </div>
                                 <p class="about-text">Pillar is a luxury to the resilience, adaptability, Spacious modern villa living room with centrally placed swimming pool blending indooroutdoor.</p>
 
-                                <div class="footer-info-wrap">
+                                <address class="footer-info-wrap">
                                     <div class="footer-info">
                                         <i class="fas fa-phone"></i>
                                         <p class="info-box_link"><a href="tel:+5548988105199">(48) 98810-5199</a></p>
@@ -779,7 +778,7 @@
                                         <i class="fas fa-location-dot"></i>
                                         <p class="info-box_link"><span>West 2nd lane, Inner circular road, New York City</span></p>
                                     </div>
-                                </div>
+                                </address>
                             </div>
                         </div>
                     </div>
@@ -787,8 +786,7 @@
                         <div class="footer-right-wrap">
                             <div class="footer-item-wrap">
                                 <div class="footer-item">
-                                    <div class="widget widget_nav_menu footer-widget">
-                                        <h3 class="widget_title">Featured Houses</h3>
+                                    <nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-featured-houses"><h3 class="widget_title" id="footer-nav-featured-houses">Featured Houses</h3>
                                         <div class="menu-all-pages-container">
                                             <ul class="menu">
                                                 <li><a href="/service">#Villa</a></li>
@@ -798,11 +796,10 @@
                                                 <li><a href="/service">#Apartments</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </nav>
                                 </div>
                                 <div class="footer-item">
-                                    <div class="widget widget_nav_menu footer-widget">
-                                        <h3 class="widget_title">Quick Links</h3>
+                                    <nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-quick-links"><h3 class="widget_title" id="footer-nav-quick-links">Quick Links</h3>
                                         <div class="menu-all-pages-container">
                                             <ul class="menu">
                                                 <li><a href="/service">Strategy Services</a></li>
@@ -812,11 +809,10 @@
                                                 <li><a href="/service">Term & Conditions</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </nav>
                                 </div>
                                 <div class="footer-item">
-                                    <div class="widget widget_nav_menu footer-widget">
-                                        <h3 class="widget_title">Support</h3>
+                                    <nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-support"><h3 class="widget_title" id="footer-nav-support">Support</h3>
                                         <div class="menu-all-pages-container">
                                             <ul class="menu">
                                                 <li><a href="/contact">Help Center</a></li>
@@ -826,7 +822,7 @@
                                                 <li><a href="/contact">Live Chat</a></li>
                                             </ul>
                                         </div>
-                                    </div>
+                                    </nav>
                                 </div>
                             </div>
                         </div>
@@ -834,7 +830,7 @@
                 </div>
             </div>
         </div>
-                <div class="footer-cities-section">
+                <section class="footer-cities-section" aria-label="Cidades atendidas">
             <div class="container">
                 <div class="footer-cities-wrap">
                     <h3 class="widget_title">Cidades</h3>
@@ -897,7 +893,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="copyright-wrap">
             <div class="footer-bottom-top-shape animation-infinite" data-bg-src="/assets/img/icon/footer-bottom-top-shape.png"></div>
             <div class="container">

@@ -3,6 +3,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { listActiveNeighborhoods } from '../src/lib/property-listings.mjs';
 import { prepareBairroSidebarHtml } from '../src/lib/template-html.mjs';
+import { applySemanticHtml } from '../src/lib/semantic-html.mjs';
 import { homePageTranslations } from './home-page-translations.mjs';
 import { propertyDetailsTranslations } from './property-details-translations.mjs';
 
@@ -273,10 +274,11 @@ const extraPages = [
 	...neighborhoods.map(({ name, slug }) =>
 		buildPropertyListingPage({ slug: `bairro/${slug}`, title: name }),
 	),
-	{ slug: 'blog/mercado-imobiliario', title: 'Mercado imobiliário', template: 'blog.html' },
-	{ slug: 'blog/bairros-em-alta', title: 'Bairros em alta', template: 'blog.html' },
-	{ slug: 'blog/guia-do-comprador', title: 'Guia do comprador', template: 'blog.html' },
-	{ slug: 'blog/valorizacao', title: 'Valorização', template: 'blog.html' },
+	{
+		slug: 'blog/melhores-bairros-para-morar-em-florianopolis',
+		title: 'Os 10 melhores bairros para morar em Florianópolis',
+		template: 'blog-details.html',
+	},
 ];
 
 function isMenuItemActive(href, currentPath) {
@@ -1204,21 +1206,23 @@ function addFooterCitiesSection(html) {
 }
 
 function transformTemplateHtml(html, currentPath = '/') {
-	return applyCustomMenu(
-		addFooterCitiesSection(
-			updateFooterDescription(
-				applyCustomFooterMenus(
-					removeFooterLogoBelowDescription(
-						removeTrustpilotReferences(
-							removeFooterGallery(
-								removeFooterBottomPromo(
-									removeFooterLocationWidget(
-										removeScrollTop(
-											removeLanguageSelector(
-												localizeLabels(
-													removePreloader(
-														removeExtraMenuItems(
-															simplifyBlogMenu(simplifyHomeMenu(transformPaths(html))),
+	return applySemanticHtml(
+		applyCustomMenu(
+			addFooterCitiesSection(
+				updateFooterDescription(
+					applyCustomFooterMenus(
+						removeFooterLogoBelowDescription(
+							removeTrustpilotReferences(
+								removeFooterGallery(
+									removeFooterBottomPromo(
+										removeFooterLocationWidget(
+											removeScrollTop(
+												removeLanguageSelector(
+													localizeLabels(
+														removePreloader(
+															removeExtraMenuItems(
+																simplifyBlogMenu(simplifyHomeMenu(transformPaths(html))),
+															),
 														),
 													),
 												),
@@ -1231,8 +1235,8 @@ function transformTemplateHtml(html, currentPath = '/') {
 					),
 				),
 			),
+			currentPath,
 		),
-		currentPath,
 	);
 }
 
