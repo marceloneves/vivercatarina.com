@@ -1,5 +1,19 @@
 export const BLOG_POSTS = [
 	{
+		slug: 'campeche-em-expansao-valorizacao',
+		title:
+			'Campeche em Expansão: Até Onde Vai a Valorização do Bairro Mais Promissor do Sul da Ilha',
+		excerpt:
+			'O Campeche é o bairro de maior potencial de valorização de Florianópolis em 2026, com m² entre R$ 11.500 e R$ 18.751 e projeção de alta de 5% a 8%. Veja números, motores e limites do crescimento.',
+		imageUrl: '/assets/img/blog/blog_1_4.jpg',
+		dateLabel: '30 Mai',
+		datePublished: '2026-05-30',
+		author: 'Viver Catarina',
+		category: 'Bairros',
+		tags: ['Florianópolis', 'Campeche', 'Bairros', 'Mercado imobiliário'],
+		href: '/blog/campeche-em-expansao-valorizacao',
+	},
+	{
 		slug: 'morar-no-continente-x-na-ilha-em-florianopolis',
 		title:
 			'Morar no Continente x na Ilha em Florianópolis: Comparativo de Custo, Trânsito e Qualidade de Vida',
