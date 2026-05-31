@@ -1,11 +1,14 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
 import bodyHtml from '../content/template-pages/bairros.html?raw';
+import { applySemanticHtml } from '../lib/semantic-html.mjs';
+import { patchSiteMenu } from '../lib/site-menu.mjs';
 
 const title = "Bairros";
 const bodyClass = "";
+const html = patchSiteMenu(applySemanticHtml(bodyHtml), '/bairros');
 ---
 
-<PillerLayout title={title} bodyClass={bodyClass} disableEffects>
-	<Fragment set:html={bodyHtml} />
+<PillerLayout title={title} bodyClass={bodyClass} disableEffects stylesheets={['/css/internal-links.css']}>
+	<Fragment set:html={html} />
 </PillerLayout>

@@ -1,5 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { linkifyHtmlContent } from './content-inline-links.mjs';
+import { buildGlossaryLinkRules } from './glossary-content-links.mjs';
 
 const NEIGHBORHOODS = JSON.parse(
 	readFileSync(join(process.cwd(), 'src/data/florianopolis-neighborhoods.json'), 'utf8'),
@@ -87,10 +89,6 @@ const LANCAMENTOS_PHRASE_RULES = [
 	{ text: 'imóveis na planta', href: '/lancamentos' },
 ];
 
-function escapeRegex(value) {
-	return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
-
 function buildNeighborhoodRules() {
 	return [...NEIGHBORHOODS]
 		.sort((a, b) => b.name.length - a.name.length)
@@ -101,119 +99,20 @@ function buildNeighborhoodRules() {
 		}));
 }
 
-function buildLinkRegex(rule) {
-	const escaped = escapeRegex(rule.text);
-
-	if (rule.caseSensitive) {
-		return new RegExp(`\\b(${escaped})\\b`);
-	}
-
-	return new RegExp(`\\b(${escaped})\\b`, 'i');
-}
-
 function buildArticleLinkRules(currentSlug) {
 	const rules = [
 		...BLOG_PHRASE_RULES.filter((rule) => rule.slug !== currentSlug),
 		...LANCAMENTOS_PHRASE_RULES,
 		...buildNeighborhoodRules(),
+		...buildGlossaryLinkRules(),
 	];
 
 	return rules.sort((a, b) => b.text.length - a.text.length);
 }
 
-function splitOutsideAnchors(html) {
-	return html.split(/(<a\b[^>]*>[\s\S]*?<\/a>)/gi).map((part) => ({
-		linked: /^<a\b/i.test(part),
-		content: part,
-	}));
-}
-
-function applyRuleOutsideAnchors(html, rule) {
-	const regex = buildLinkRegex(rule);
-
-	return splitOutsideAnchors(html)
-		.map(({ linked, content }) => {
-			if (linked || !regex.test(content)) {
-				return content;
-			}
-
-			return content.replace(regex, `<a href="${rule.href}">$1</a>`);
-		})
-		.join('');
-}
-
-function linkifyTextNode(text, rules) {
-	if (!text.trim()) {
-		return text;
-	}
-
-	let result = text;
-
-	for (const rule of rules) {
-		result = applyRuleOutsideAnchors(result, rule);
-	}
-
-	return result;
-}
-
-const HEADING_OPEN = /^<h[1-6]\b/i;
-const HEADING_CLOSE = /^<\/h[1-6]>/i;
-const SKIP_LINK_CLASSES = ['blog-inner-title', 'blog-subsection-title'];
-
-function opensNoLinkZone(tag) {
-	if (!tag.startsWith('<') || tag.startsWith('</')) {
-		return false;
-	}
-
-	if (HEADING_OPEN.test(tag)) {
-		return true;
-	}
-
-	return SKIP_LINK_CLASSES.some((className) =>
-		new RegExp(`class="[^"]*\\b${className}\\b`, 'i').test(tag),
-	);
-}
-
-function closesNoLinkZone(tag) {
-	if (!tag.startsWith('</')) {
-		return false;
-	}
-
-	if (HEADING_CLOSE.test(tag)) {
-		return true;
-	}
-
-	const match = tag.match(/^<\/(\w+)/);
-	if (!match) {
-		return false;
-	}
-
-	return ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(match[1].toLowerCase());
-}
-
 /** @param {string} html @param {string} [currentSlug] */
 export function applyArticleInlineLinks(html, currentSlug = '') {
 	const rules = buildArticleLinkRules(currentSlug);
-	const parts = html.split(/(<[^>]+>)/);
-	let skipLinkifyDepth = 0;
 
-	return parts
-		.map((part) => {
-			if (part.startsWith('<')) {
-				if (opensNoLinkZone(part)) {
-					skipLinkifyDepth += 1;
-				} else if (closesNoLinkZone(part) && skipLinkifyDepth > 0) {
-					skipLinkifyDepth -= 1;
-				}
-
-				return part;
-			}
-
-			if (skipLinkifyDepth > 0) {
-				return part;
-			}
-
-			return linkifyTextNode(part, rules);
-		})
-		.join('');
+	return linkifyHtmlContent(html, rules, { skipHeadings: true });
 }

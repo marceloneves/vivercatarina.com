@@ -1,0 +1,49 @@
+---
+import PillerLayout from '../layouts/PillerLayout.astro';
+import GlossaryPageContent from '../components/GlossaryPageContent.astro';
+import bodyHtml from '../content/template-pages/faq.html?raw';
+import { applySemanticHtml, wrapSplitPageContent } from '../lib/semantic-html.mjs';
+import { patchSiteMenu } from '../lib/site-menu.mjs';
+import { SITE_URL } from '../lib/site-contact.mjs';
+import { getGlossaryTerms } from '../lib/glossary-terms.mjs';
+
+const title = 'Glossário';
+const bodyClass = '';
+const description =
+	'Glossário com termos essenciais para quem compra imóvel na planta em Florianópolis: contrato, financiamento, obra, habite-se, SPE e muito mais.';
+
+const breadcrumbStart = bodyHtml.indexOf('<!--==============================\n    Breadcumb');
+const footerStart = bodyHtml.indexOf('<!--==============================\n\tFooter Area');
+
+if (breadcrumbStart === -1 || footerStart === -1) {
+	throw new Error('Não foi possível montar a página de glossário a partir do template.');
+}
+
+const shell = wrapSplitPageContent(
+	patchSiteMenu(applySemanticHtml(bodyHtml.slice(0, breadcrumbStart)), '/glossario'),
+	applySemanticHtml(bodyHtml.slice(footerStart)),
+);
+
+const definedTermSet = {
+	'@context': 'https://schema.org',
+	'@type': 'DefinedTermSet',
+	name: 'Glossário de imóveis na planta',
+	description,
+	url: `${SITE_URL}/glossario`,
+	hasDefinedTerm: getGlossaryTerms().map(({ term, slug, definition }) => ({
+		'@type': 'DefinedTerm',
+		name: term,
+		description: definition,
+		url: `${SITE_URL}/glossario#${slug}`,
+	})),
+};
+---
+
+<PillerLayout title={title} bodyClass={bodyClass} description={description} stylesheets={['/css/internal-links.css']}>
+	<Fragment slot="head">
+		<script type="application/ld+json" set:html={JSON.stringify(definedTermSet)} />
+	</Fragment>
+	<Fragment set:html={shell.before} />
+	<GlossaryPageContent />
+	<Fragment set:html={shell.after} />
+</PillerLayout>

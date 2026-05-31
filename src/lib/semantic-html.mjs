@@ -1,4 +1,6 @@
 import { patchSiteFooter } from './site-footer.mjs';
+import { applyGlossaryInlineLinksInMain } from './glossary-content-links.mjs';
+import { patchGlossaryMenu } from './site-menu.mjs';
 
 const MAIN_ID = 'conteudo-principal';
 
@@ -203,6 +205,10 @@ function enhanceForms(html) {
 		);
 }
 
+function enhanceHeaderMenu(html) {
+	return patchGlossaryMenu(html);
+}
+
 function enhanceFooter(html) {
 	let output = replaceDivWithClass(html, 'widget widget_nav_menu footer-widget', 'nav');
 	output = replaceDivWithClass(output, 'footer-info-wrap', 'address');
@@ -262,9 +268,11 @@ export function applySemanticHtml(html) {
 	output = enhanceLandmarks(output);
 	output = enhanceArticles(output);
 	output = enhanceForms(output);
+	output = enhanceHeaderMenu(output);
 	output = enhanceFooter(output);
 	output = enhanceDecorativeIcons(output);
 	output = wrapMainLandmark(output);
+	output = applyGlossaryInlineLinksInMain(output);
 
 	return output;
 }

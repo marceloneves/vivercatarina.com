@@ -75,6 +75,7 @@ export function getPagesSitemapEntries() {
 		buildSitemapEntry('/about', { changefreq: 'monthly', priority: '0.7' }),
 		buildSitemapEntry('/contact', { changefreq: 'monthly', priority: '0.6' }),
 		buildSitemapEntry('/blog', { changefreq: 'weekly', priority: '0.8' }),
+		buildSitemapEntry('/glossario', { changefreq: 'monthly', priority: '0.7' }),
 		buildSitemapEntry('/lancamentos', { changefreq: 'daily', priority: '0.9' }),
 		buildSitemapEntry('/bairros', { changefreq: 'weekly', priority: '0.9' }),
 	];
@@ -280,6 +281,7 @@ Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
 - [Bairros](${SITE_URL}/bairros): imóveis por bairro e faixa de preço
 - [Quem Somos](${SITE_URL}/about): missão, diferenciais e contato
 - [Blog](${SITE_URL}/blog): conteúdo sobre bairros e mercado local
+- [Glossário](${SITE_URL}/glossario): termos essenciais para comprar imóvel na planta
 
 ## Lançamentos por tipo
 

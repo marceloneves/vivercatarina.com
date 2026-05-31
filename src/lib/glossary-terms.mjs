@@ -1,0 +1,325 @@
+/** @typedef {{ term: string, slug: string, definition: string, letter: string }} GlossaryTerm */
+
+/** @type {GlossaryTerm[]} */
+export const GLOSSARY_TERMS = [
+	{
+		term: 'Alteração de planta',
+		slug: 'alteracao-de-planta',
+		definition:
+			'Mudança solicitada pelo comprador na disposição interna da unidade durante a fase de obras, quando a construtora permite personalizações. Pode envolver paredes, pontos elétricos ou acabamentos, dentro dos limites técnicos do projeto.',
+	},
+	{
+		term: 'Apartamento na planta',
+		slug: 'apartamento-na-planta',
+		definition:
+			'Unidade residencial comercializada antes ou durante a construção, com base em projeto arquitetônico e memorial descritivo. O comprador acompanha a evolução da obra até a entrega das chaves.',
+	},
+	{
+		term: 'Área comum',
+		slug: 'area-comum',
+		definition:
+			'Espaços do empreendimento de uso coletivo, como hall, piscina, academia, salão de festas e circulações. Entram no cálculo da metragem comum e do rateio do condomínio.',
+	},
+	{
+		term: 'Área privativa',
+		slug: 'area-privativa',
+		definition:
+			'Metragem que pertence exclusivamente ao apartamento, incluindo ambientes internos e, conforme o memorial, varanda e vagas atribuídas. É a base usual para precificação do imóvel.',
+	},
+	{
+		term: 'Assinatura do contrato',
+		slug: 'assinatura-do-contrato',
+		definition:
+			'Momento em que comprador e vendedor formalizam a negociação em contrato de promessa ou compra e venda. A partir daí passam a valer prazos, valores, condições de pagamento e penalidades previstas.',
+	},
+	{
+		term: 'Ato de investimento',
+		slug: 'ato-de-investimento',
+		definition:
+			'Parcela inicial paga no ato da compra, também chamada de sinal ou entrada. Confirma a reserva da unidade e costuma ser descontada do valor total do imóvel.',
+	},
+	{
+		term: 'Box de depósito',
+		slug: 'box-de-deposito',
+		definition:
+			'Espaço auxiliar vinculado ao apartamento para guardar objetos. Pode ser negociado junto com a unidade e aparece no contrato com metragem e número próprios.',
+	},
+	{
+		term: 'Carência de parcelas',
+		slug: 'carencia-de-parcelas',
+		definition:
+			'Período acordado em que o comprador paga apenas parte das parcelas ou fica isento de pagamento até determinada fase da obra ou até a entrega das chaves.',
+	},
+	{
+		term: 'Chaves na mão',
+		slug: 'chaves-na-mao',
+		definition:
+			'Modalidade de pagamento em que o saldo principal só é quitado na entrega do imóvel pronto. É comum em empreendimentos na planta com parcelamento direto com a construtora.',
+	},
+	{
+		term: 'Comissão de corretagem',
+		slug: 'comissao-de-corretagem',
+		definition:
+			'Remuneração paga ao corretor ou imobiliária pela intermediação da venda. Deve estar informada no contrato ou em documento apartado, conforme regras do CRECI.',
+	},
+	{
+		term: 'Condomínio estimado',
+		slug: 'condominio-estimado',
+		definition:
+			'Valor previsto da taxa mensal de condomínio antes da entrega do prédio. Serve de referência para o comprador calcular o custo total de moradia após as chaves.',
+	},
+	{
+		term: 'Contrato de promessa de compra e venda',
+		slug: 'contrato-de-promessa-de-compra-e-venda',
+		definition:
+			'Documento que formaliza a intenção de compra de um imóvel na planta, com preço, prazos e condições. Antecede, em muitos casos, a escritura ou o contrato definitivo após a conclusão da obra.',
+	},
+	{
+		term: 'Corretor credenciado',
+		slug: 'corretor-credenciado',
+		definition:
+			'Profissional autorizado pela construtora ou incorporadora a comercializar unidades do empreendimento. Deve estar registrado no CRECI e identificado nos materiais de venda.',
+	},
+	{
+		term: 'Cronograma de obras',
+		slug: 'cronograma-de-obras',
+		definition:
+			'Planejamento com etapas e prazos da construção, da fundação até o acabamento. É referência para previsão de entrega e acompanhamento do avanço físico da obra.',
+	},
+	{
+		term: 'Distrato',
+		slug: 'distrato',
+		definition:
+			'Cancelamento do contrato de compra antes da conclusão do negócio. Pode gerar multa, retenção de valores ou devolução parcial, conforme cláusulas contratuais e legislação aplicável.',
+	},
+	{
+		term: 'Entrega das chaves',
+		slug: 'entrega-das-chaves',
+		definition:
+			'Data em que a construtora disponibiliza a unidade ao comprador após conclusão da obra e regularização necessária. Marca o início da posse e, em geral, das responsabilidades de condomínio e IPTU.',
+	},
+	{
+		term: 'Escritura pública',
+		slug: 'escritura-publica',
+		definition:
+			'Documento lavrado em cartório que registra a transferência definitiva de propriedade. Em imóveis na planta, muitas vezes ocorre após o habite-se e quitação das condições contratuais.',
+	},
+	{
+		term: 'Evolução de obra',
+		slug: 'evolucao-de-obra',
+		definition:
+			'Percentual concluído da construção em determinado período. Incorporadoras costumam publicar relatórios periódicos para dar transparência ao comprador sobre o andamento do empreendimento.',
+	},
+	{
+		term: 'FGTS',
+		slug: 'fgts',
+		definition:
+			'Fundo de Garantia do Tempo de Serviço. Pode ser usado na compra de imóvel residencial, inclusive na planta, desde que atendidos os requisitos da Caixa e do programa habitacional aplicável.',
+	},
+	{
+		term: 'Financiamento imobiliário',
+		slug: 'financiamento-imobiliario',
+		definition:
+			'Crédito bancário para pagamento do imóvel, com garantia hipotecária ou alienação fiduciária. Pode ser contratado na planta, muitas vezes com liberação de parcelas conforme evolução da obra.',
+	},
+	{
+		term: 'Fração ideal',
+		slug: 'fracao-ideal',
+		definition:
+			'Percentual do terreno e das áreas comuns que corresponde a cada unidade no condomínio. Define a participação do proprietário em despesas coletivas e em decisões assembleares.',
+	},
+	{
+		term: 'Garantia de conclusão da obra',
+		slug: 'garantia-de-conclusao-da-obra',
+		definition:
+			'Mecanismo legal que protege o comprador caso a incorporadora não conclua o empreendimento. Pode envolver seguro, patrimônio de afetação ou outras garantias previstas na incorporação.',
+	},
+	{
+		term: 'Habite-se',
+		slug: 'habite-se',
+		definition:
+			'Documento emitido pela prefeitura que autoriza a ocupação do edifício após verificação de conformidade com o projeto aprovado. É requisito para moradia, financiamento final e registro em muitos casos.',
+	},
+	{
+		term: 'Incorporação imobiliária',
+		slug: 'incorporacao-imobiliaria',
+		definition:
+			'Processo legal pelo qual a incorporadora transforma um terreno em unidades autônomas para venda. Envolve registro do empreendimento, memorial de incorporação e acompanhamento até a entrega.',
+	},
+	{
+		term: 'Incorporadora',
+		slug: 'incorporadora',
+		definition:
+			'Empresa responsável pelo empreendimento imobiliário, desde o registro da incorporação até a comercialização e entrega. Pode contratar construtoras para executar a obra.',
+	},
+	{
+		term: 'Instituição de condomínio',
+		slug: 'instituicao-de-condominio',
+		definition:
+			'Documento que define a divisão do edifício em unidades autônomas e áreas comuns. Base para a convenção de condomínio e para o registro individual de cada apartamento.',
+	},
+	{
+		term: 'IPTU',
+		slug: 'iptu',
+		definition:
+			'Imposto Predial e Territorial Urbano. Durante a obra, a responsabilidade pelo pagamento deve constar no contrato; após a entrega, passa a ser do proprietário da unidade.',
+	},
+	{
+		term: 'Lançamento imobiliário',
+		slug: 'lancamento-imobiliario',
+		definition:
+			'Empreendimento recém-colocado no mercado para venda, geralmente na planta ou em fase inicial de obras. Costuma ter condições comerciais diferenciadas para os primeiros compradores.',
+	},
+	{
+		term: 'Lei do Distrato',
+		slug: 'lei-do-distrato',
+		definition:
+			'Conjunto de regras que disciplina o desfazimento de contratos de compra de imóvel em incorporação. Estabelece prazos, percentuais de retenção e direitos do consumidor em caso de desistência.',
+	},
+	{
+		term: 'Memorial de incorporação',
+		slug: 'memorial-de-incorporacao',
+		definition:
+			'Documento técnico e jurídico registrado no cartório que descreve o empreendimento, prazos, especificações, garantias e condições de venda. Deve ser consultado antes da assinatura do contrato.',
+	},
+	{
+		term: 'Metragem comum',
+		slug: 'metragem-comum',
+		definition:
+			'Parte proporcional das áreas compartilhadas do edifício atribuída a cada unidade. Entra no cálculo da área total contratada e influencia o valor do condomínio.',
+	},
+	{
+		term: 'Minha Casa Minha Vida',
+		slug: 'minha-casa-minha-vida',
+		definition:
+			'Programa habitacional federal que oferece subsídios e condições especiais de financiamento. Alguns empreendimentos na planta são enquadrados em faixas do programa.',
+	},
+	{
+		term: 'Patrimônio de afetação',
+		slug: 'patrimonio-de-afetacao',
+		definition:
+			'Separação legal do empreendimento do patrimônio da incorporadora. Protege compradores, pois receitas e bens da obra ficam vinculados à conclusão do projeto.',
+	},
+	{
+		term: 'Planta baixa',
+		slug: 'planta-baixa',
+		definition:
+			'Desenho técnico que mostra a disposição dos cômodos, medidas e circulação da unidade. Deve ser comparada com o memorial descritivo antes da compra na planta.',
+	},
+	{
+		term: 'Posição solar',
+		slug: 'posicao-solar',
+		definition:
+			'Orientação do apartamento em relação ao sol, influenciando iluminação, ventilação e conforto térmico. Fator relevante na escolha da unidade ainda na fase de vendas.',
+	},
+	{
+		term: 'Pré-lançamento',
+		slug: 'pre-lancamento',
+		definition:
+			'Fase anterior ao lançamento oficial, com divulgação restrita e condições especiais para grupos seleccionados ou lista de interessados. Precede a abertura ampla das vendas.',
+	},
+	{
+		term: 'Price (Tabela Price)',
+		slug: 'tabela-price',
+		definition:
+			'Sistema de amortização de financiamento com parcelas inicialmente mais altas e composição gradual entre juros e principal. Comum em contratos bancários de imóvel na planta.',
+	},
+	{
+		term: 'Registro de incorporação',
+		slug: 'registro-de-incorporacao',
+		definition:
+			'Ato de registrar o empreendimento no cartório de registro de imóveis (RI). Confere publicidade e segurança jurídica às informações divulgadas aos compradores.',
+	},
+	{
+		term: 'Registro do imóvel',
+		slug: 'registro-do-imovel',
+		definition:
+			'Averbação da unidade no cartório de registro de imóveis em nome do comprador. Formaliza a propriedade após cumprimento das exigências legais e contratuais.',
+	},
+	{
+		term: 'SAC (Serviço de Atendimento ao Cliente)',
+		slug: 'sac-incorporadora',
+		definition:
+			'Canal oficial da incorporadora para dúvidas, solicitações e reclamações do comprador durante a obra e após a entrega. Deve constar no contrato e no material do empreendimento.',
+	},
+	{
+		term: 'Saldo devedor',
+		slug: 'saldo-devedor',
+		definition:
+			'Valor que ainda falta pagar pelo imóvel, seja para a construtora ou para o banco financiador. Deve ser acompanhado conforme parcelas e reajustes contratuais.',
+	},
+	{
+		term: 'SFH (Sistema Financeiro de Habitação)',
+		slug: 'sfh',
+		definition:
+			'Conjunto de regras e recursos para financiamento de imóveis residenciais. Define limites de taxa, prazo, seguros e uso de FGTS em operações habitacionais.',
+	},
+	{
+		term: 'SPE (Sociedade de Propósito Específico)',
+		slug: 'spe',
+		definition:
+			'Empresa criada exclusivamente para um empreendimento imobiliário, separando legalmente o projeto do patrimônio da incorporadora. Facilita a gestão financeira da obra, a captação de recursos e a proteção dos compradores na planta.',
+	},
+	{
+		term: 'Stand de vendas',
+		slug: 'stand-de-vendas',
+		definition:
+			'Espaço montado pela incorporadora para apresentar maquetes, plantas, acabamentos e condições comerciais do empreendimento na planta ao público comprador.',
+	},
+	{
+		term: 'Taxa de evolução de obra',
+		slug: 'taxa-de-evolucao-de-obra',
+		definition:
+			'Valor cobrado mensalmente durante a construção para acompanhar o avanço físico da obra. Deve estar previsto no contrato, com regras claras de início e fim.',
+	},
+	{
+		term: 'Tipologia',
+		slug: 'tipologia',
+		definition:
+			'Configuração da unidade conforme número de dormitórios, banheiros, vagas e metragem. Exemplos: studio, dois dormitórios, garden e cobertura.',
+	},
+	{
+		term: 'Unidade autônoma',
+		slug: 'unidade-autonoma',
+		definition:
+			'Apartamento ou sala com entrada própria e uso independente dentro do condomínio. É o objeto da compra na planta e recebe matrícula individual após registro.',
+	},
+	{
+		term: 'Vaga de garagem',
+		slug: 'vaga-de-garagem',
+		definition:
+			'Espaço destinado ao estacionamento vinculado ao apartamento. Pode ser determinada, indeterminada, coberta ou descoberta, com regras descritas no memorial e no contrato.',
+	},
+	{
+		term: 'Valor de tabela',
+		slug: 'valor-de-tabela',
+		definition:
+			'Preço oficial de cada unidade divulgado pela incorporadora em tabela comercial. Serve de base para negociação, comissões e condições de pagamento.',
+	},
+	{
+		term: 'Valorização imobiliária',
+		slug: 'valorizacao-imobiliaria',
+		definition:
+			'Aumento do valor do imóvel ao longo do tempo, influenciado por localização, fase da obra, mercado e entrega da infraestrutura do bairro. Motivo comum de compra na planta.',
+	},
+].map((entry) => ({
+	...entry,
+	letter: entry.term.charAt(0).toLocaleUpperCase('pt-BR'),
+}));
+
+export function getGlossaryTerms() {
+	return GLOSSARY_TERMS;
+}
+
+export function getGlossaryLetters() {
+	return [...new Set(GLOSSARY_TERMS.map(({ letter }) => letter))].sort((a, b) =>
+		a.localeCompare(b, 'pt-BR'),
+	);
+}
+
+export function groupGlossaryTermsByLetter() {
+	return getGlossaryLetters().map((letter) => ({
+		letter,
+		terms: GLOSSARY_TERMS.filter((term) => term.letter === letter),
+	}));
+}

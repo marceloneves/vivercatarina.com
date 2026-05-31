@@ -10,6 +10,13 @@ const LOTEAMENTO_MENU_ITEM =
 const CASAS_MENU_PATTERN =
 	/(<li><a href="\/lancamentos\/casas-em-condominio">Casas em condomínio<\/a><\/li>)(\s*)/g;
 
+const GLOSSARY_MENU_PATTERN =
+	/(<li><a href="\/blog">Blog<\/a><\/li>)(\s*)(<li><a href="\/contact">Contato<\/a><\/li>)/g;
+
+function isGlossaryPathActive(currentPath) {
+	return currentPath === '/glossario' || currentPath.startsWith('/glossario/');
+}
+
 function isBairroPathActive(href, currentPath) {
 	return currentPath === href || currentPath.startsWith(`${href}/`);
 }
@@ -42,6 +49,19 @@ export function patchLancamentosSubmenu(html) {
 	);
 }
 
+export function patchGlossaryMenu(html, currentPath = '/') {
+	if (html.includes('href="/glossario"')) {
+		return html;
+	}
+
+	const activeClass = isGlossaryPathActive(currentPath) ? ' class="active"' : '';
+	const item = `<li${activeClass}><a href="/glossario">Glossário</a></li>`;
+
+	return html.replace(GLOSSARY_MENU_PATTERN, `$1$2${item}$2$3`);
+}
+
 export function patchSiteMenu(html, currentPath = '/') {
-	return patchHeaderSocial(patchLancamentosSubmenu(patchBairrosMenu(html, currentPath)));
+	return patchHeaderSocial(
+		patchGlossaryMenu(patchLancamentosSubmenu(patchBairrosMenu(html, currentPath)), currentPath),
+	);
 }

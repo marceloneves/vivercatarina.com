@@ -4,6 +4,7 @@ import {
 	SITE_PHONE_DISPLAY,
 	SITE_PHONE_TEL,
 } from './site-contact.mjs';
+import { patchGlossaryMenu } from './site-menu.mjs';
 
 export const FOOTER_DISCLAIMER =
 	'As informações e imagens divulgadas neste site são de caráter informativo e pertencem às respectivas incorporadoras. O atendimento é realizado por corretores credenciados e devidamente registrados no CRECI.';
@@ -99,6 +100,21 @@ function patchCopyrightText(html) {
 	);
 }
 
+function patchFooterSuporteGlossary(html) {
+	const suporteBlock = html.match(
+		/<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-suporte">[\s\S]*?<\/nav>/,
+	);
+
+	if (!suporteBlock || suporteBlock[0].includes('/glossario')) {
+		return html;
+	}
+
+	return html.replace(
+		/(<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-suporte">[\s\S]*?<ul class="menu">\s*)(<li><a href="\/faq">Perguntas frequentes<\/a><\/li>)/,
+		'$1<li><a href="/glossario">Glossário</a></li>\n                                                $2',
+	);
+}
+
 export function patchSiteFooter(html) {
 	if (!html || !html.includes('copyright-wrap')) {
 		return html;
@@ -111,6 +127,8 @@ export function patchSiteFooter(html) {
 	}
 
 	output = patchCopyrightText(output);
+	output = patchGlossaryMenu(output);
+	output = patchFooterSuporteGlossary(output);
 
 	if (output.includes('footer-disclaimer')) {
 		output = output.replace(/<p class="footer-disclaimer">[\s\S]*?<\/p>/, FOOTER_DISCLAIMER_HTML);

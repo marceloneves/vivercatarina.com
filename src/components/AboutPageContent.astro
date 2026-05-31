@@ -5,31 +5,46 @@ import {
 	SITE_PHONE_DISPLAY,
 	SITE_WHATSAPP_NUMBER,
 } from '../lib/site-contact.mjs';
+import { applyGlossaryInlineLinks } from '../lib/glossary-content-links.mjs';
+
+function linkify(text) {
+	return applyGlossaryInlineLinks(text, { skipHeadings: false });
+}
 
 const differentiators = [
 	{
 		title: 'Foco exclusivo em SC',
-		text: 'Não somos um portal nacional que trata Santa Catarina como mais um estado. Somos catarinenses, conhecemos cada cidade que cobrimos e entendemos o mercado local como ninguém.',
+		text: linkify(
+			'Não somos um portal nacional que trata Santa Catarina como mais um estado. Somos catarinenses, conhecemos cada cidade que cobrimos e entendemos o mercado local como ninguém.',
+		),
 		icon: '/assets/img/icon/about-1-1.svg',
 	},
 	{
 		title: 'Especialistas em lançamentos',
-		text: 'Trabalhamos exclusivamente com pré-lançamentos, lançamentos e imóveis recém-entregues. Nosso foco é o imóvel novo — e nisso somos referência.',
+		text: linkify(
+			'Trabalhamos exclusivamente com pré-lançamentos, lançamentos e imóveis recém-entregues. Nosso foco é o imóvel novo — e nisso somos referência.',
+		),
 		icon: '/assets/img/icon/about-1-2.svg',
 	},
 	{
 		title: 'Informação de qualidade',
-		text: `Cada empreendimento cadastrado no ${SITE_NAME} passa pela nossa curadoria. Plantas, preços, destaques e localização — tudo verificado e apresentado de forma clara.`,
+		text: linkify(
+			`Cada empreendimento cadastrado no ${SITE_NAME} passa pela nossa curadoria. Plantas, preços, destaques e localização — tudo verificado e apresentado de forma clara.`,
+		),
 		icon: '/assets/img/icon/about-1-3.svg',
 	},
 	{
 		title: 'Tecnologia a serviço do comprador',
-		text: 'Usamos inteligência artificial para manter as informações sempre atualizadas e para entregar ao comprador exatamente o que ele precisa saber antes de tomar uma decisão.',
+		text: linkify(
+			'Usamos inteligência artificial para manter as informações sempre atualizadas e para entregar ao comprador exatamente o que ele precisa saber antes de tomar uma decisão.',
+		),
 		icon: '/assets/img/icon/about-1-4.svg',
 	},
 	{
 		title: 'Cobertura das 25 maiores cidades',
-		text: 'De Joinville a Criciúma, de Balneário Camboriú a Chapecó — cobrimos as 25 maiores cidades de Santa Catarina com páginas dedicadas, informações locais e lançamentos verificados.',
+		text: linkify(
+			'De Joinville a Criciúma, de Balneário Camboriú a Chapecó — cobrimos as 25 maiores cidades de Santa Catarina com páginas dedicadas, informações locais e lançamentos verificados.',
+		),
 		icon: '/assets/img/icon/about-3-1.svg',
 	},
 ];
@@ -40,6 +55,27 @@ const stats = [
 	{ value: '3', label: 'categorias de imóvel' },
 	{ value: '1', label: 'missão: conectar você ao seu próximo lar' },
 ];
+
+const introParagraphs = [
+	linkify(
+		`O <strong>${SITE_NAME}</strong> nasceu da combinação de dois mundos: anos de experiência no mercado imobiliário catarinense e a visão de que encontrar um lançamento de qualidade em SC merecia algo melhor do que portais genéricos e informações desatualizadas.`,
+	),
+	linkify(
+		'Somos um time de profissionais que conhece Santa Catarina de perto — seus bairros, suas construtoras, suas oportunidades. Sabemos que cada cidade tem seu ritmo, seu perfil de comprador e seus lançamentos com potencial real. E foi exatamente essa visão local que nos motivou a criar o maior portal especializado em lançamentos imobiliários do estado.',
+	),
+];
+
+const missionText = linkify(
+	'Conectar quem quer comprar um imóvel novo em Santa Catarina com os melhores lançamentos disponíveis — com informação completa, transparente e atualizada, em todas as regiões do estado.',
+);
+
+const partnersText = linkify(
+	`O ${SITE_NAME} é o canal ideal para divulgar seu lançamento para compradores qualificados em todo o estado. Trabalhamos com um modelo baseado em leads — você só paga quando o resultado aparece.`,
+);
+
+const contactIntroText = linkify(
+	'Seja você um comprador buscando o imóvel ideal ou uma incorporadora querendo divulgar um lançamento, estamos aqui para ajudar.',
+);
 ---
 
 <section class="about-1-wrapper space overflow-hidden" id="about-sec" aria-labelledby="about-intro-title">
@@ -51,17 +87,8 @@ const stats = [
 					<h2 class="sec-title" id="about-intro-title">Viva o melhor de Santa Catarina</h2>
 				</div>
 				<div class="about-page-intro text-center">
-					<p class="sec-text mb-4">
-						O <strong>{SITE_NAME}</strong> nasceu da combinação de dois mundos: anos de experiência no mercado
-						imobiliário catarinense e a visão de que encontrar um lançamento de qualidade em SC merecia algo
-						melhor do que portais genéricos e informações desatualizadas.
-					</p>
-					<p class="sec-text mb-0">
-						Somos um time de profissionais que conhece Santa Catarina de perto — seus bairros, suas
-						construtoras, suas oportunidades. Sabemos que cada cidade tem seu ritmo, seu perfil de comprador
-						e seus lançamentos com potencial real. E foi exatamente essa visão local que nos motivou a criar o
-						maior portal especializado em lançamentos imobiliários do estado.
-					</p>
+					<p class="sec-text mb-4" set:html={introParagraphs[0]} />
+					<p class="sec-text mb-0" set:html={introParagraphs[1]} />
 				</div>
 			</div>
 		</div>
@@ -76,10 +103,7 @@ const stats = [
 					<p class="sub-title"><span class="double-line"></span> Propósito</p>
 					<h2 class="sec-title" id="about-mission-title">Nossa missão</h2>
 				</div>
-				<p class="sec-text mb-0">
-					Conectar quem quer comprar um imóvel novo em Santa Catarina com os melhores lançamentos disponíveis —
-					com informação completa, transparente e atualizada, em todas as regiões do estado.
-				</p>
+				<p class="sec-text mb-0" set:html={missionText} />
 			</div>
 		</div>
 	</div>
@@ -107,7 +131,7 @@ const stats = [
 									</div>
 									<div class="content">
 										<h3 class="box-title">{item.title}</h3>
-										<p class="box-text">{item.text}</p>
+										<p class="box-text" set:html={item.text} />
 									</div>
 								</div>
 							</div>
@@ -157,10 +181,7 @@ const stats = [
 					<p class="sub-title"><span class="double-line"></span> Parcerias</p>
 					<h2 class="sec-title" id="about-partners-title">Para incorporadoras e construtoras</h2>
 				</div>
-				<p class="sec-text mb-4">
-					O {SITE_NAME} é o canal ideal para divulgar seu lançamento para compradores qualificados em todo o
-					estado. Trabalhamos com um modelo baseado em leads — você só paga quando o resultado aparece.
-				</p>
+				<p class="sec-text mb-4" set:html={partnersText} />
 				<a href="/contact" class="th-btn style2 pill">Entre em contato e cadastre seu empreendimento</a>
 			</div>
 		</div>
@@ -174,10 +195,7 @@ const stats = [
 				<div class="title-area mb-0">
 					<p class="sub-title"><span class="double-line"></span> Contato</p>
 					<h2 class="sec-title" id="about-contact-title">Fale com a gente</h2>
-					<p class="sec-text mt-3 mb-0">
-						Seja você um comprador buscando o imóvel ideal ou uma incorporadora querendo divulgar um
-						lançamento, estamos aqui para ajudar.
-					</p>
+					<p class="sec-text mt-3 mb-0" set:html={contactIntroText} />
 				</div>
 			</div>
 		</div>

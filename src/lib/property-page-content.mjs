@@ -12,10 +12,26 @@ import { getCategoryLabel } from './property-listings.mjs';
 import { buildFinancingSimulation } from './property-financing.mjs';
 import { buildPropertyRealEstateListingJsonLd } from './property-schema.mjs';
 import { cleanPropertyTitle } from './property-slug.mjs';
+import { applyGlossaryInlineLinks } from './glossary-content-links.mjs';
 import { SITE_NAME, SITE_WHATSAPP_NUMBER } from './site-contact.mjs';
 
 const WHATSAPP_NUMBER = SITE_WHATSAPP_NUMBER;
 const NOT_INFORMED = 'Não informado';
+
+function linkifyGlossaryContent(value) {
+	return value ? applyGlossaryInlineLinks(value) : value;
+}
+
+function linkifyGlossaryList(items) {
+	return items.map((item) => linkifyGlossaryContent(item));
+}
+
+function linkifyFaqItems(items) {
+	return items.map((item) => ({
+		pergunta: linkifyGlossaryContent(item.pergunta),
+		resposta: linkifyGlossaryContent(item.resposta),
+	}));
+}
 
 const FEATURE_ICON_MAP = {
 	bicicletario: 'fa-solid fa-bicycle',
@@ -1041,13 +1057,13 @@ export function buildPropertyPageViewModel(property, slug) {
 		ficha: buildFicha(property),
 		sobre: property.descriptionHtml?.includes('<h5')
 			? null
-			: buildSobre(property),
-		descriptionHtml: property.descriptionHtml,
+			: linkifyGlossaryContent(buildSobre(property)),
+		descriptionHtml: linkifyGlossaryContent(property.descriptionHtml),
 		highlights: buildHighlights(property, plantas),
 		plantas,
 		audience: {
-			morar: buildAudienceItems(property, 'morar'),
-			investir: buildAudienceItems(property, 'investir'),
+			morar: linkifyGlossaryList(buildAudienceItems(property, 'morar')),
+			investir: linkifyGlossaryList(buildAudienceItems(property, 'investir')),
 		},
 		comodidades: (property.features || []).map((nome, index) => ({
 			nome,
@@ -1060,7 +1076,7 @@ export function buildPropertyPageViewModel(property, slug) {
 			points: [],
 		},
 		financing,
-		faq: buildFaq(property),
+		faq: linkifyFaqItems(buildFaq(property)),
 		sidebar: {
 			price: buildPriceLabel(property),
 			code: getPropertyCode(property),

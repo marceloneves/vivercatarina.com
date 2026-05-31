@@ -8,13 +8,13 @@
   "scripts": {
     "dev": "astro dev",
     "predev": "node scripts/generate-sitemaps.mjs",
-    "prebuild": "node scripts/generate-sitemaps.mjs",
+    "prebuild": "node scripts/generate-sitemaps.mjs && node scripts/generate-favicons.mjs",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
     "import:template": "node scripts/import-template-pages.mjs",
     "import:properties": "node scripts/import-properties.mjs",
-    "generate:bairros": "node scripts/generate-bairro-listings.mjs",
+    "generate:favicons": "node scripts/generate-favicons.mjs",
     "update:descriptions": "node scripts/update-property-descriptions.mjs",
     "fix:locations": "node scripts/fix-property-locations.mjs",
     "fix:prices": "node scripts/fix-property-prices.mjs",
@@ -29,5 +29,8 @@
   "dependencies": {
     "@astrojs/vercel": "^10.0.8",
     "astro": "^6.4.2"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2"
   }
 }

@@ -118,9 +118,9 @@ const { page } = Astro.props;
 				{
 					page.descriptionHtml ? (
 						<div class="property-description" set:html={page.descriptionHtml} />
-					) : (
-						<p class="about-text">{page.sobre}</p>
-					)
+					) : page.sobre ? (
+						<p class="about-text" set:html={page.sobre} />
+					) : null
 				}
 			</section>
 
@@ -261,13 +261,13 @@ const { page } = Astro.props;
 					<div class="audience-card">
 						<h3>Para quem quer morar</h3>
 						<ul>
-							{page.audience.morar.map((item) => <li>{item}</li>)}
+							{page.audience.morar.map((item) => <li set:html={item} />)}
 						</ul>
 					</div>
 					<div class="audience-card">
 						<h3>Para quem quer investir</h3>
 						<ul>
-							{page.audience.investir.map((item) => <li>{item}</li>)}
+							{page.audience.investir.map((item) => <li set:html={item} />)}
 						</ul>
 					</div>
 				</div>
@@ -301,8 +301,8 @@ const { page } = Astro.props;
 				<h2 class="section__title">Perguntas frequentes</h2>
 				{page.faq.map((item) => (
 					<details class="faq-item">
-						<summary>{item.pergunta}</summary>
-						<p>{item.resposta}</p>
+						<summary set:html={item.pergunta} />
+						<p set:html={item.resposta} />
 					</details>
 				))}
 			</section>

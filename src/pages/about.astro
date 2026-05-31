@@ -20,7 +20,7 @@ const shell = wrapSplitPageContent(
 );
 ---
 
-<PillerLayout title={title} bodyClass={bodyClass}>
+<PillerLayout title={title} bodyClass={bodyClass} stylesheets={['/css/internal-links.css']}>
 	<Fragment set:html={shell.before} />
 	<AboutPageContent />
 	<Fragment set:html={shell.after} />
