@@ -73,6 +73,8 @@ export function patchSiteMenu(html, currentPath = '/') {
 		),
 	);
 
+	output = output.replace(/Outras cidades/g, 'Cidades');
+
 	if (!isHomePath(currentPath)) {
 		output = patchListingHeaderBranding(output);
 	}
