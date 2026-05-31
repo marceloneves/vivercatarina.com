@@ -1,11 +1,31 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { getHomeHeroBackgroundUrl } from './home-page.mjs';
+import { slugifyText } from './property-slug.mjs';
 
 const dataPath = join(process.cwd(), 'src/data/footer-cities-by-region.json');
+const CITY_PORTAL_DOMAIN = 'vivercatarina.com';
+
+export function buildCityPortalUrl(cityName) {
+	const subdomain = slugifyText(cityName).replace(/-/g, '');
+
+	return `https://${subdomain}.${CITY_PORTAL_DOMAIN}`;
+}
+
+function withCityPortalHref(city) {
+	return {
+		...city,
+		href: buildCityPortalUrl(city.name),
+	};
+}
 
 export function listFooterCitiesByRegion() {
-	return JSON.parse(readFileSync(dataPath, 'utf8'));
+	const regions = JSON.parse(readFileSync(dataPath, 'utf8'));
+
+	return regions.map(({ region, cities }) => ({
+		region,
+		cities: cities.map(withCityPortalHref),
+	}));
 }
 
 export function loadHomeCityCards() {

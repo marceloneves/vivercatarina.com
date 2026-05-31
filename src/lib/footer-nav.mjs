@@ -12,18 +12,6 @@ export const FOOTER_NAV_COLUMNS = [
 		],
 	},
 	{
-		title: 'Imóveis na Planta',
-		id: 'footer-nav-imoveis',
-		items: [
-			{ label: 'Pré-lançamento', href: '/lancamentos/pre-lancamento' },
-			{ label: 'Em lançamento', href: '/lancamentos/lancamento' },
-			{ label: 'Pronto para morar', href: '/lancamentos/pronto-para-morar' },
-			{ label: 'Apartamentos', href: '/lancamentos/apartamentos' },
-			{ label: 'Casas em condomínio', href: '/lancamentos/casas-em-condominio' },
-			{ label: 'Loteamento', href: '/lancamentos/loteamento' },
-		],
-	},
-	{
 		title: 'Florianópolis',
 		id: 'footer-nav-florianopolis',
 		items: [
@@ -72,6 +60,9 @@ const FOOTER_NAV_COLUMNS_PATTERN =
 const FOOTER_NAV_PATCHED_PATTERN =
 	/<div class="footer-item">\s*<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-institucional">[\s\S]*?<\/nav>\s*<\/div>\s*<div class="footer-item">\s*<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-imoveis">[\s\S]*?<\/nav>\s*<\/div>\s*<div class="footer-item">\s*<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-florianopolis">[\s\S]*?<\/nav>\s*<\/div>/;
 
+const FOOTER_NAV_PATCHED_TWO_COLUMNS_PATTERN =
+	/<div class="footer-item">\s*<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-institucional">[\s\S]*?<\/nav>\s*<\/div>\s*<div class="footer-item">\s*<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-florianopolis">[\s\S]*?<\/nav>\s*<\/div>/;
+
 const FOOTER_NAV_PATCHED_PATTERN_LEGACY =
 	/<div class="footer-item">\s*<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-imoveis">[\s\S]*?<\/nav>\s*<\/div>\s*<div class="footer-item">\s*<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-florianopolis">[\s\S]*?<\/nav>\s*<\/div>\s*<div class="footer-item">\s*<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-institucional">[\s\S]*?<\/nav>\s*<\/div>/;
 
@@ -84,6 +75,10 @@ export function patchFooterNavMenus(html) {
 
 	if (FOOTER_NAV_PATCHED_PATTERN.test(html)) {
 		return html.replace(FOOTER_NAV_PATCHED_PATTERN, columnsHtml);
+	}
+
+	if (FOOTER_NAV_PATCHED_TWO_COLUMNS_PATTERN.test(html)) {
+		return html.replace(FOOTER_NAV_PATCHED_TWO_COLUMNS_PATTERN, columnsHtml);
 	}
 
 	if (FOOTER_NAV_PATCHED_PATTERN_LEGACY.test(html)) {

@@ -1,13 +1,16 @@
 import { patchHeaderSocial } from './site-social.mjs';
 
 const BAIRROS_SUBMENU_PATTERN =
-	/<li class="menu-item-has-children(?: active)?">\s*<a href="\/bairros">Bairros<\/a>\s*<ul class="sub-menu">[\s\S]*?<\/ul>\s*<\/li>\s*/g;
+	/<li class="[^"]*\bmenu-item-has-children\b[^"]*">\s*<a href="\/bairros">Bairros<\/a>\s*<ul class="sub-menu">[\s\S]*?<\/ul>\s*<\/li>\s*/g;
 
 const BAIRROS_SIMPLE_ITEM_PATTERN =
-	/<li(?: class="active")?><a href="\/bairros">Bairros<\/a><\/li>\s*/g;
+	/<li(?: class="[^"]*")?><a href="\/bairros">Bairros<\/a><\/li>\s*/g;
 
 const LANCAMENTOS_SUBMENU_PATTERN =
-	/<li class="menu-item-has-children(?: active)?">\s*<a href="\/lancamentos">Lançamentos<\/a>\s*<ul class="sub-menu">[\s\S]*?<\/ul>\s*<\/li>\s*/g;
+	/<li class="[^"]*\bmenu-item-has-children\b[^"]*">\s*<a href="\/lancamentos">Lançamentos<\/a>\s*<ul class="sub-menu">[\s\S]*?<\/ul>\s*<\/li>\s*/g;
+
+const LANCAMENTOS_SIMPLE_ITEM_PATTERN =
+	/<li(?: class="[^"]*")?><a href="\/lancamentos">Lançamentos<\/a><\/li>\s*/g;
 
 const GLOSSARY_MENU_PATTERN =
 	/(<li(?:\s+class="active")?><a href="\/blog">Blog<\/a><\/li>)(\s*)(<li(?:\s+class="active")?><a href="\/contact">Contato<\/a><\/li>)/g;
@@ -34,6 +37,7 @@ function removeMainMenuLancamentosAndBairros(html) {
 
 	return html
 		.replace(LANCAMENTOS_SUBMENU_PATTERN, '')
+		.replace(LANCAMENTOS_SIMPLE_ITEM_PATTERN, '')
 		.replace(BAIRROS_SUBMENU_PATTERN, '')
 		.replace(BAIRROS_SIMPLE_ITEM_PATTERN, '');
 }
