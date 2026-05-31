@@ -712,13 +712,21 @@ function removeAnimationAttributes(html) {
 }
 
 function removeAnimationClasses(html) {
-	return html
+	const footerShapeAnim = '___FOOTER_SHAPE_ANIM___';
+	let output = html.replace(
+		/(<div class="footer-bottom-top-shape)\s+animation-infinite"/g,
+		`$1 ${footerShapeAnim}"`,
+	);
+
+	output = output
 		.replace(/\s*text-anime-style-[123]/gi, '')
 		.replace(/\s*fadein(?:up|left|right|down)?(?:\s+wow|\b)/gi, ' ')
 		.replace(/\s+wow(?:\s+fadein\w*|\b)/gi, ' ')
 		.replace(/\s*logo-animation/g, '')
 		.replace(/\s*animation-infinite/g, '')
 		.replace(/\s*popup-video/g, '');
+
+	return output.replace(footerShapeAnim, 'animation-infinite');
 }
 
 function removeHomeTeamSection(html) {
