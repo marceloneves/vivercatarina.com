@@ -1,8 +1,13 @@
 ---
 import PillerLayout from '../../layouts/PillerLayout.astro';
 import bodyHtml from '../../content/template-pages/blog-details.html?raw';
+import melhoresBairrosBody from '../../content/blog/melhores-bairros-para-morar-em-florianopolis.html?raw';
 import { getBlogPost, getBlogPosts } from '../../lib/blog-posts.mjs';
 import { applySemanticHtml, wrapSplitPageContent } from '../../lib/semantic-html.mjs';
+
+const BLOG_BODY_BY_SLUG = {
+	'melhores-bairros-para-morar-em-florianopolis': melhoresBairrosBody,
+};
 
 export function getStaticPaths() {
 	return getBlogPosts().map((post) => ({
@@ -39,6 +44,8 @@ const shell = wrapSplitPageContent(
 	applySemanticHtml(bodyHtml.slice(footerStart)),
 );
 
+const blogBody = BLOG_BODY_BY_SLUG[slug] ?? '';
+
 const articleHtml = applySemanticHtml(
 	bodyHtml
 		.slice(blogAreaStart, commentsStart)
@@ -49,7 +56,8 @@ const articleHtml = applySemanticHtml(
 		.replace('Michel Smith', post.author)
 		.replace('24/02/2025', post.dateLabel)
 		.replace('Business', post.category)
-		.replace('src="/assets/img/blog/blog-s-1-1.jpg"', `src="${post.imageUrl}"`),
+		.replace('src="/assets/img/blog/blog-s-1-1.jpg"', `src="${post.imageUrl}"`)
+		.replace('<!-- BLOG_BODY -->', blogBody),
 );
 ---
 
