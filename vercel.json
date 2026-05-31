@@ -1,7 +1,4 @@
 {
-	"buildCommand": "npm run build",
-	"installCommand": "npm ci",
-	"framework": "astro",
 	"redirects": [
 		{
 			"source": "/sitemap-static.xml",
