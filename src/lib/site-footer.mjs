@@ -11,7 +11,7 @@ import { patchFooterNavMenus } from './footer-nav.mjs';
 
 const dataRoot = join(process.cwd(), 'src/data');
 const FOOTER_NEIGHBORHOODS_MARKER = 'footer-bairros-section';
-const FOOTER_CITIES_TITLE = 'Cidades em Santa Catarina';
+const FOOTER_CITIES_TITLE = 'Cidades de Santa Catarina';
 
 export const FOOTER_DISCLAIMER =
 	'As informações e imagens divulgadas neste site são de caráter informativo e pertencem às respectivas incorporadoras. O atendimento é realizado por corretores credenciados e devidamente registrados no CRECI.';
@@ -43,6 +43,10 @@ const FOOTER_CONTACT_COLUMN_HTML = `                                <div class="
                                 </div>`;
 
 export { FOOTER_CONTACT_COLUMN_HTML };
+
+const FOOTER_ABOUT_LOGO_HTML = `<div class="about-logo">
+                                    <a href="/" aria-label="Viver Catarina Imóveis na Planta - página inicial"><img src="/assets/img/logo-white.svg" alt="Viver Catarina Imóveis na Planta" width="220" height="44"></a>
+                                </div>`;
 
 const FOOTER_SUPORTE_COLUMN_PATTERN =
 	/(<div class="footer-item">\s*<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-suporte">[\s\S]*?<\/nav>\s*<\/div>)/;
@@ -86,6 +90,62 @@ function removeAboutWidgetContactInfo(html) {
 	const cleanedContent = stripContactFromAboutContent(html.slice(aboutContentStart, aboutBlockEnd));
 
 	return `${html.slice(0, aboutContentStart)}${cleanedContent}${html.slice(aboutBlockEnd)}`;
+}
+
+function patchFooterAboutBranding(html) {
+	if (!html.includes('<footer') || !html.includes('th-widget-about')) {
+		return html;
+	}
+
+	let output = html.replace(
+		/(<div class="footer-all-widget-item">\s*<div class="widget footer-widget">\s*)<h3 class="widget_title">Viver Catarina<\/h3>\s*(?=<div class="th-widget-about">)/,
+		'$1',
+	);
+
+	const footerStart = output.indexOf('<footer');
+	const footerEnd = output.indexOf('</footer>', footerStart);
+	if (footerStart === -1 || footerEnd === -1) {
+		return output;
+	}
+
+	const footer = output.slice(footerStart, footerEnd + '</footer>'.length);
+	const aboutStart = footer.indexOf('<div class="th-widget-about">');
+	if (aboutStart === -1) {
+		return output;
+	}
+
+	const closeMatch = footer.slice(aboutStart).match(FOOTER_ABOUT_CLOSE_PATTERN);
+	if (!closeMatch || closeMatch.index === undefined) {
+		return output;
+	}
+
+	const aboutBlockStart = footerStart + aboutStart;
+	const aboutBlockEnd = footerStart + aboutStart + closeMatch.index;
+	const aboutContentStart = aboutBlockStart + '<div class="th-widget-about">'.length;
+	let aboutContent = output.slice(aboutContentStart, aboutBlockEnd);
+
+	aboutContent = aboutContent.replace(
+		/(<p class="about-text">[\s\S]*?<\/p>)\s*<div class="about-logo">[\s\S]*?<\/div>\s*/i,
+		'$1\n                                ',
+	);
+
+	const hasLogoBeforeText = /<div class="about-logo">[\s\S]*?<\/div>\s*<p class="about-text">/.test(
+		aboutContent,
+	);
+
+	if (hasLogoBeforeText) {
+		aboutContent = aboutContent.replace(
+			/<div class="about-logo">[\s\S]*?<\/div>\s*(?=<p class="about-text">)/,
+			`${FOOTER_ABOUT_LOGO_HTML}\n                                `,
+		);
+	} else {
+		aboutContent = aboutContent.replace(
+			/(<p class="about-text">)/,
+			`${FOOTER_ABOUT_LOGO_HTML}\n                                $1`,
+		);
+	}
+
+	return `${output.slice(0, aboutContentStart)}${aboutContent}${output.slice(aboutBlockEnd)}`;
 }
 
 function injectFooterContactColumn(html) {
@@ -168,7 +228,7 @@ function removeFooterNeighborhoodsSection(html) {
 
 function patchFooterCitiesTitle(html) {
 	return html.replace(
-		/(<(?:section|div) class="footer-cities-section"[\s\S]*?<div class="footer-cities-wrap">\s*)<h3 class="widget_title">Cidades<\/h3>/,
+		/(<(?:section|div) class="footer-cities-section"[\s\S]*?<div class="footer-cities-wrap">\s*)<h3 class="widget_title">Cidades(?: em Santa Catarina)?<\/h3>/,
 		`$1<h3 class="widget_title">${FOOTER_CITIES_TITLE}</h3>`,
 	);
 }
@@ -203,6 +263,7 @@ export function patchSiteFooter(html) {
 		output = removeAboutWidgetContactInfo(output);
 	}
 
+	output = patchFooterAboutBranding(output);
 	output = patchCopyrightText(output);
 	output = patchGlossaryMenu(output);
 	output = patchFooterNavMenus(output);

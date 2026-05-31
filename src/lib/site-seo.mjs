@@ -31,7 +31,6 @@ const DEMO_ROUTE_PREFIXES = [
 	'/typography',
 	'/pricing',
 	'/gallery',
-	'/faq',
 	'/neighborhood-guide',
 ];
 

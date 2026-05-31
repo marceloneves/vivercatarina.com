@@ -5,7 +5,6 @@ export const FOOTER_NAV_COLUMNS = [
 		items: [
 			{ label: 'Início', href: '/' },
 			{ label: 'Quem Somos', href: '/about' },
-			{ label: 'Perguntas Frequentes', href: '/faq' },
 			{ label: 'Contato', href: '/contact' },
 			{ label: 'Política de Privacidade', href: '/privacidade' },
 			{ label: 'Termos e Condições', href: '/termos' },
@@ -16,12 +15,12 @@ export const FOOTER_NAV_COLUMNS = [
 		title: 'Imóveis na Planta',
 		id: 'footer-nav-imoveis',
 		items: [
-			{ label: 'Imóveis na Planta', href: '/lancamentos' },
-			{ label: 'Pré-lançamentos', href: '/lancamentos/pre-lancamento' },
+			{ label: 'Pré-lançamento', href: '/lancamentos/pre-lancamento' },
 			{ label: 'Em lançamento', href: '/lancamentos/lancamento' },
-			{ label: 'Apartamentos na Planta', href: '/lancamentos/apartamentos' },
-			{ label: 'Casas em Condomínio', href: '/lancamentos/casas-em-condominio' },
-			{ label: 'Loteamentos', href: '/lancamentos/loteamento' },
+			{ label: 'Pronto para morar', href: '/lancamentos/pronto-para-morar' },
+			{ label: 'Apartamentos', href: '/lancamentos/apartamentos' },
+			{ label: 'Casas em condomínio', href: '/lancamentos/casas-em-condominio' },
+			{ label: 'Loteamento', href: '/lancamentos/loteamento' },
 		],
 	},
 	{
@@ -30,7 +29,6 @@ export const FOOTER_NAV_COLUMNS = [
 		items: [
 			{ label: 'Florianópolis', href: '/' },
 			{ label: 'Bairros', href: '/bairros' },
-			{ label: 'Prontos para Morar', href: '/lancamentos/pronto-para-morar' },
 			{ label: 'Blog', href: '/blog' },
 			{ label: 'Glossário', href: '/glossario' },
 			{

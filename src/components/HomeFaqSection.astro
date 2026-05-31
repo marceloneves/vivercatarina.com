@@ -1,0 +1,72 @@
+---
+const { items } = Astro.props;
+const accordionId = 'homeFaqAccordion';
+---
+
+<section class="space overflow-hidden bg-smoke home-faq-section" id="home-faq" aria-labelledby="home-faq-title">
+	<div class="container">
+		<div class="row justify-content-between gy-4">
+			<div class="col-lg-5 col-xl-5">
+				<div class="title-area text-left">
+					<p class="sub-title"><span class="double-line"></span> Perguntas frequentes</p>
+					<h2 class="sec-title" id="home-faq-title">Dúvidas sobre imóveis na planta em Florianópolis</h2>
+					<p class="sec-text">
+						Respostas sobre bairros, Ilha e Continente, fases de lançamento e o que considerar
+						antes de comprar um imóvel novo em Florianópolis.
+					</p>
+					<a href="/contact" class="th-btn pill style3">Fale conosco</a>
+				</div>
+			</div>
+			<div class="col-lg-7 col-xl-7">
+				<div class="accordion-1 accordion" id={accordionId}>
+					{
+						items.map(({ question, answer }, index) => {
+							const itemNumber = index + 1;
+							const isOpen = index === 0;
+							const collapseId = `home-faq-collapse-${itemNumber}`;
+							const headerId = `home-faq-header-${itemNumber}`;
+
+							return (
+								<div class={`accordion-card${isOpen ? ' active' : ''}`}>
+									<div class="accordion-header" id={headerId}>
+										<button
+											class={`accordion-button${isOpen ? '' : ' collapsed'}`}
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target={`#${collapseId}`}
+											aria-expanded={isOpen ? 'true' : 'false'}
+											aria-controls={collapseId}
+										>
+											<span class="serial-numb">{itemNumber}. </span>
+											{question}
+										</button>
+									</div>
+									<div
+										id={collapseId}
+										class={`accordion-collapse collapse${isOpen ? ' show' : ''}`}
+										aria-labelledby={headerId}
+										data-bs-parent={`#${accordionId}`}
+									>
+										<div class="accordion-body">
+											<p class="faq-text">{answer}</p>
+										</div>
+									</div>
+								</div>
+							);
+						})
+					}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	.home-faq-section .title-area {
+		margin-bottom: 0;
+	}
+
+	.home-faq-section .sec-text {
+		margin-bottom: 1.5rem;
+	}
+</style>

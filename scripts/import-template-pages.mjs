@@ -1137,7 +1137,7 @@ function buildFooterCitiesSection() {
 	return `        <div class="footer-cities-section">
             <div class="container">
                 <div class="footer-cities-wrap">
-                    <h3 class="widget_title">Cidades em Santa Catarina</h3>
+                    <h3 class="widget_title">Cidades de Santa Catarina</h3>
                     <div class="footer-cities-regions">
 ${regions}
                     </div>
