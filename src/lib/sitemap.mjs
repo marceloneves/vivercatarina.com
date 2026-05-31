@@ -69,7 +69,7 @@ export function buildSitemapEntry(path, options = {}) {
 }
 
 /** @returns {SitemapEntry[]} */
-export function getStaticSitemapEntries() {
+export function getPagesSitemapEntries() {
 	const entries = [
 		buildSitemapEntry('/', { changefreq: 'daily', priority: '1.0' }),
 		buildSitemapEntry('/about', { changefreq: 'monthly', priority: '0.7' }),
@@ -198,7 +198,7 @@ export function getBlogSitemapEntries() {
 }
 
 export const SITEMAP_FILES = [
-	{ path: '/sitemap-static.xml', getEntries: getStaticSitemapEntries },
+	{ path: '/sitemap-pages.xml', getEntries: getPagesSitemapEntries },
 	{ path: '/sitemap-imoveis.xml', getEntries: getImoveisSitemapEntries },
 	{ path: '/sitemap-bairros.xml', getEntries: getBairrosSitemapEntries },
 	{ path: '/sitemap-lancamentos.xml', getEntries: getLancamentosSitemapEntries },
