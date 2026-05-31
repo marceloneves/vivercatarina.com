@@ -25,7 +25,7 @@
     "ensure:codes": "node scripts/ensure-unique-codes.mjs"
   },
   "dependencies": {
-    "@astrojs/node": "^10.1.2",
+    "@astrojs/vercel": "^10.0.8",
     "astro": "^6.4.2"
   }
 }
