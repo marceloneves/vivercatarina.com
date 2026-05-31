@@ -9,6 +9,7 @@ const isGrid = variant === 'grid';
 			class="col-xl-4 col-lg-6 col-md-6 property-listing-card"
 			data-slug={property.slug}
 			data-price={property.price ?? 0}
+			data-category={property.category}
 		>
 			<article class="popular-list-1 grid-style">
 				<div class="thumb-wrapper">
@@ -72,6 +73,7 @@ const isGrid = variant === 'grid';
 			class="col-xl-12 property-listing-card"
 			data-slug={property.slug}
 			data-price={property.price ?? 0}
+			data-category={property.category}
 		>
 			<article class="popular-list-1 list-style">
 				<div class="thumb-wrapper">

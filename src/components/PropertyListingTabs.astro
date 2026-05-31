@@ -25,47 +25,43 @@ const hasProperties = allProperties.length > 0;
 >
 	<div class="tab-content" id="nav-tabContent">
 		<div class="tab-pane fade" id="tab-grid" role="tabpanel" aria-labelledby="tab-shop-grid">
-			<div class="row gy-40">
-				<div id="property-target-grid-items" class="property-target-items contents">
-					{
-						!hasProperties ? (
-							<div class="col-12">
-								<p class="text-center py-5 mb-0">
-									Nenhum lançamento encontrado neste bairro no momento.
-								</p>
-							</div>
-						) : (
-							properties.map((property) => (
-								<PropertyListingCard property={property} variant="grid" />
-							))
-						)
-					}
-				</div>
-				<Fragment set:html={paginationMarkup} />
+			<div id="property-target-grid-items" class="row gy-40 property-target-items">
+				{
+					!hasProperties ? (
+						<div class="col-12">
+							<p class="text-center py-5 mb-0">
+								Nenhum lançamento encontrado neste bairro no momento.
+							</p>
+						</div>
+					) : (
+						properties.map((property) => (
+							<PropertyListingCard property={property} variant="grid" />
+						))
+					)
+				}
 			</div>
+			<Fragment set:html={paginationMarkup} />
 		</div>
 
 		<div class="tab-pane fade active show" id="tab-list" role="tabpanel" aria-labelledby="tab-shop-list">
 			<div class="row gy-40 justify-content-center">
 				<div class="col-xl-8 col-lg-12">
-					<div class="row gy-30">
-						<div id="property-target-list-items" class="property-target-items contents">
-							{
-								!hasProperties ? (
-									<div class="col-xl-12">
-										<p class="text-center py-5 mb-0">
-											Nenhum lançamento encontrado neste bairro no momento.
-										</p>
-									</div>
-								) : (
-									properties.map((property) => (
-										<PropertyListingCard property={property} variant="list" />
-									))
-								)
-							}
-						</div>
-						<Fragment set:html={paginationMarkup} />
+					<div id="property-target-list-items" class="row gy-30 property-target-items">
+						{
+							!hasProperties ? (
+								<div class="col-xl-12">
+									<p class="text-center py-5 mb-0">
+										Nenhum lançamento encontrado neste bairro no momento.
+									</p>
+								</div>
+							) : (
+								properties.map((property) => (
+									<PropertyListingCard property={property} variant="list" />
+								))
+							)
+						}
 					</div>
+					<Fragment set:html={paginationMarkup} />
 				</div>
 
 				<div class="col-xl-4 col-lg-6">
@@ -102,35 +98,63 @@ const hasProperties = allProperties.length > 0;
 				return `${STORAGE_PREFIX}${basePath}`;
 			}
 
-			function compareCards(a, b, orderBy) {
-				const priceA = Number(a.dataset.price) > 0 ? Number(a.dataset.price) : null;
-				const priceB = Number(b.dataset.price) > 0 ? Number(b.dataset.price) : null;
-				const titleA = a.querySelector('.box-title a')?.textContent?.trim() ?? '';
-				const titleB = b.querySelector('.box-title a')?.textContent?.trim() ?? '';
+			function getCardMeta(card) {
+				return {
+					card,
+					slug: card.dataset.slug ?? '',
+					price: Number(card.dataset.price) || 0,
+					category: card.dataset.category ?? '',
+					title: card.querySelector('.box-title a')?.textContent?.trim() ?? '',
+				};
+			}
 
-				if (priceA == null && priceB == null) {
-					return titleA.localeCompare(titleB, 'pt-BR');
-				}
+			function compareByTitle(a, b) {
+				return a.title.localeCompare(b.title, 'pt-BR');
+			}
 
-				if (priceA == null) {
-					return 1;
-				}
-
-				if (priceB == null) {
-					return -1;
-				}
+			function comparePriced(a, b, orderBy) {
+				const priceA = a.price > 0 ? a.price : null;
+				const priceB = b.price > 0 ? b.price : null;
 
 				if (orderBy === 'price-desc') {
-					return priceB - priceA || titleA.localeCompare(titleB, 'pt-BR');
+					return (priceB ?? 0) - (priceA ?? 0) || compareByTitle(a, b);
 				}
 
-				return priceA - priceB || titleA.localeCompare(titleB, 'pt-BR');
+				return (priceA ?? 0) - (priceB ?? 0) || compareByTitle(a, b);
+			}
+
+			function sortCardMeta(items, orderBy) {
+				const pricedLancamentos = [];
+				const consulteLancamentos = [];
+				const pricedOther = [];
+				const consulteOther = [];
+
+				for (const item of items) {
+					const hasPrice = item.price > 0;
+					const isLancamento = item.category === 'lancamento';
+
+					if (hasPrice && isLancamento) {
+						pricedLancamentos.push(item);
+					} else if (!hasPrice && isLancamento) {
+						consulteLancamentos.push(item);
+					} else if (hasPrice) {
+						pricedOther.push(item);
+					} else {
+						consulteOther.push(item);
+					}
+				}
+
+				pricedLancamentos.sort((a, b) => comparePriced(a, b, orderBy));
+				consulteLancamentos.sort(compareByTitle);
+				pricedOther.sort((a, b) => comparePriced(a, b, orderBy));
+				consulteOther.sort(compareByTitle);
+
+				return [...pricedLancamentos, ...consulteLancamentos, ...pricedOther, ...consulteOther];
 			}
 
 			function sortSlugs(catalogGrid, orderBy) {
-				return [...catalogGrid.querySelectorAll('.property-listing-card')]
-					.sort((a, b) => compareCards(a, b, orderBy))
-					.map((card) => card.dataset.slug);
+				const items = [...catalogGrid.querySelectorAll('.property-listing-card')].map(getCardMeta);
+				return sortCardMeta(items, orderBy).map((item) => item.slug);
 			}
 
 			function renderSortedPage({
@@ -181,17 +205,15 @@ const hasProperties = allProperties.length > 0;
 
 				select.value = savedSort;
 
-				if (savedSort !== 'price') {
-					renderSortedPage({
-						catalogGrid,
-						catalogList,
-						targetGrid,
-						targetList,
-						orderBy: savedSort,
-						currentPage,
-						perPage,
-					});
-				}
+				renderSortedPage({
+					catalogGrid,
+					catalogList,
+					targetGrid,
+					targetList,
+					orderBy: savedSort,
+					currentPage,
+					perPage,
+				});
 
 				select.addEventListener('change', () => {
 					const orderBy = select.value;

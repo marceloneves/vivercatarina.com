@@ -1,3 +1,5 @@
+import { patchSiteFooter } from './site-footer.mjs';
+
 const MAIN_ID = 'conteudo-principal';
 
 function slugifyLabel(value) {
@@ -205,17 +207,20 @@ function enhanceFooter(html) {
 	let output = replaceDivWithClass(html, 'widget widget_nav_menu footer-widget', 'nav');
 	output = replaceDivWithClass(output, 'footer-info-wrap', 'address');
 
-	return output.replace(
+	output = output.replace(
 		/<nav class="widget widget_nav_menu footer-widget">\s*<h3 class="widget_title">([^<]+)<\/h3>/g,
 		(match, title) => {
 			const id = `footer-nav-${slugifyLabel(title)}`;
 			return `<nav class="widget widget_nav_menu footer-widget" aria-labelledby="${id}"><h3 class="widget_title" id="${id}">${title}</h3>`;
 		},
 	);
+
+	return patchSiteFooter(output);
 }
 
 function enhanceBranding(html) {
 	return html
+		.replace(/<h3 class="widget_title">About Pillar<\/h3>/g, '<h3 class="widget_title">Viver Catarina</h3>')
 		.replace(
 			/<a href="\/"><img src="\/assets\/img\/logo-white\.svg" alt="Viver Catarina"><\/a>/g,
 			'<a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo-white.svg" alt=""></a>',
@@ -223,6 +228,18 @@ function enhanceBranding(html) {
 		.replace(
 			/<a href="\/"><img src="\/assets\/img\/logo\.svg" alt="Viver Catarina"><\/a>/g,
 			'<a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo.svg" alt=""></a>',
+		);
+}
+
+function removeColorScheme(html) {
+	return html
+		.replace(
+			/<div class="color-scheme">[\s\S]*?<input type="color" id="thcolorpicker"[^>]*>\s*<\/div>\s*/g,
+			'',
+		)
+		.replace(
+			/<div class="color-scheme">[\s\S]*?<\/div>\s*(?=<!--==============================\s*\n\s*Sidemenu)/g,
+			'',
 		);
 }
 
@@ -239,6 +256,7 @@ export function applySemanticHtml(html) {
 	}
 
 	let output = html;
+	output = removeColorScheme(output);
 	output = enhanceBranding(output);
 	output = enhanceNavigation(output);
 	output = enhanceLandmarks(output);

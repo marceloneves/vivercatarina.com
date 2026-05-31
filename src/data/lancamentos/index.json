@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-30T22:18:06.807Z",
-  "totalProperties": 108,
+  "generatedAt": "2026-05-31T00:56:10.330Z",
+  "totalProperties": 110,
   "kinds": [
     {
       "kind": "apartamento",
       "name": "Apartamentos",
-      "total": 79
+      "total": 81
     },
     {
       "kind": "casa",

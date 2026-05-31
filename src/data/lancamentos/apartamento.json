@@ -1,8 +1,8 @@
 {
   "kind": "apartamento",
   "name": "Apartamentos",
-  "generatedAt": "2026-05-30T22:18:06.803Z",
-  "total": 79,
+  "generatedAt": "2026-05-31T00:56:10.327Z",
+  "total": 81,
   "properties": [
     {
       "slug": "jurere-beach-spot-jurere-florianopolis-sc",
@@ -742,6 +742,17 @@
       "thumbnail": "imoveis/ponta-das-canas-spot-ponta-das-canas-florianopolis-sc/images/01-Copia-de-Ponta-das-Canas_06-scaled.jpg"
     },
     {
+      "slug": "residencial-estoril-carvoeira-florianopolis-sc",
+      "id": 25750,
+      "title": "Residencial Estoril, Carvoeira",
+      "category": "pronto-para-morar",
+      "kind": "apartamento",
+      "city": "florianopolis",
+      "price": 900000,
+      "dataPath": "imoveis/residencial-estoril-carvoeira-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/residencial-estoril-carvoeira-florianopolis-sc/images/01.jpg"
+    },
+    {
       "slug": "residencial-souza-ingleses-do-rio-vermelho-florianopolis-sc",
       "id": 22267,
       "title": "Residencial Souza, Ingleses do Rio Vermelho, Florianópolis",
@@ -784,6 +795,17 @@
       "price": 272000,
       "dataPath": "imoveis/santo-antonio-spot-santo-antonio-de-lisboa-florianopolis-sc/property.json",
       "thumbnail": "imoveis/santo-antonio-spot-santo-antonio-de-lisboa-florianopolis-sc/images/01-01-1.png"
+    },
+    {
+      "slug": "soul-wkoerich-centro-florianopolis-sc",
+      "id": 25751,
+      "title": "Soul WKoerich, Centro",
+      "category": "lancamento",
+      "kind": "apartamento",
+      "city": "florianopolis",
+      "price": 0,
+      "dataPath": "imoveis/soul-wkoerich-centro-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/soul-wkoerich-centro-florianopolis-sc/images/01.jpg"
     },
     {
       "slug": "garden-estreito-florianopolis-sc",

@@ -2,7 +2,7 @@
 const { properties } = Astro.props;
 ---
 
-<section class="popular-sec-1 overflow-hidden space" aria-labelledby="home-lancamentos-title">
+<section class="popular-sec-1 home-lancamentos-section overflow-hidden space" aria-labelledby="home-lancamentos-title">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-xl-7">
@@ -36,7 +36,7 @@ const { properties } = Astro.props;
 						<div
 							class={`col-xxl-3 col-xl-4 col-lg-6 col-md-6 filter-item ${property.kindFilterClass}`}
 						>
-							<article class="popular-list-1">
+							<article class="popular-list-1 h-100">
 								<div class="thumb-wrapper">
 									<a href={property.detailUrl} class="thumb-link">
 										<img src={property.imageUrl} alt={property.title} />
@@ -110,3 +110,61 @@ const { properties } = Astro.props;
 		}
 	</div>
 </section>
+
+<style>
+	.home-lancamentos-section .filter-item {
+		display: flex;
+	}
+
+	.home-lancamentos-section .popular-list-1 {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.home-lancamentos-section .thumb-wrapper {
+		flex-shrink: 0;
+		max-height: none;
+		aspect-ratio: 4 / 3;
+		height: auto;
+	}
+
+	.home-lancamentos-section .thumb-wrapper .thumb-link {
+		display: block;
+		position: relative;
+		height: 100%;
+	}
+
+	.home-lancamentos-section .thumb-wrapper .thumb-link img {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+
+	.home-lancamentos-section .property-content {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+	}
+
+	.home-lancamentos-section .media-body .box-title {
+		display: -webkit-box;
+		min-height: 3.25rem;
+		overflow: hidden;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		line-clamp: 2;
+	}
+
+	.home-lancamentos-section .property-featured {
+		align-items: center;
+		min-height: 3.25rem;
+	}
+
+	.home-lancamentos-section .property-bottom {
+		margin-top: auto;
+	}
+</style>

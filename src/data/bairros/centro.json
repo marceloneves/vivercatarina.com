@@ -5,8 +5,8 @@
     "slug": "florianopolis",
     "name": "Florianópolis"
   },
-  "generatedAt": "2026-05-30T22:18:06.549Z",
-  "total": 10,
+  "generatedAt": "2026-05-31T01:08:01.875Z",
+  "total": 11,
   "properties": [
     {
       "slug": "centro-florianopolis-sc",
@@ -79,6 +79,15 @@
       "price": 3980000,
       "dataPath": "imoveis/pronto-para-morar-centro-florianopolis-sc/property.json",
       "thumbnail": "imoveis/pronto-para-morar-centro-florianopolis-sc/images/01-IMG_4088-scaled.jpg"
+    },
+    {
+      "slug": "soul-wkoerich-centro-florianopolis-sc",
+      "id": 25751,
+      "title": "Soul WKoerich, Centro",
+      "category": "lancamento",
+      "price": 0,
+      "dataPath": "imoveis/soul-wkoerich-centro-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/soul-wkoerich-centro-florianopolis-sc/images/01.jpg"
     },
     {
       "slug": "urban-centro-florianopolis-sc",

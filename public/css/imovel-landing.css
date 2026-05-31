@@ -188,6 +188,12 @@
 	line-height: 1.25;
 }
 
+.imovel-landing .property-main {
+	font-size: 17px;
+	line-height: 1.75;
+	color: var(--body-color);
+}
+
 .imovel-landing .card {
 	background: var(--white-color);
 	border: 1px solid var(--th-border-color);
@@ -203,7 +209,7 @@
 }
 
 .imovel-landing .ficha-grid dt {
-	font-size: 14px;
+	font-size: 15px;
 	color: var(--body-color);
 }
 
@@ -211,14 +217,21 @@
 	font-weight: 600;
 	margin: 0;
 	color: var(--title-color);
-	font-size: 16px;
+	font-size: 17px;
 }
 
 .imovel-landing .about-text,
 .imovel-landing .property-description {
 	color: var(--body-color);
-	font-size: 16px;
+	font-size: 17px;
 	line-height: 1.75;
+}
+
+.imovel-landing .property-description p,
+.imovel-landing .property-description li,
+.imovel-landing .property-description ul {
+	font-size: inherit;
+	line-height: inherit;
 }
 
 .imovel-landing .property-description h5,
@@ -383,7 +396,7 @@ body.gallery-lightbox-open {
 
 .imovel-landing .highlight-card p {
 	color: var(--body-color);
-	font-size: 15px;
+	font-size: 16px;
 	margin: 0;
 }
 
@@ -416,7 +429,7 @@ body.gallery-lightbox-open {
 	border-radius: 999px;
 	background: var(--smoke-color);
 	border: 1px solid var(--th-border-color);
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: 600;
 	color: var(--title-color);
 }
@@ -427,7 +440,7 @@ body.gallery-lightbox-open {
 
 .imovel-landing .planta-card__price-label {
 	display: block;
-	font-size: 12px;
+	font-size: 13px;
 	color: var(--body-color);
 	margin-bottom: 2px;
 }
@@ -443,7 +456,7 @@ body.gallery-lightbox-open {
 
 .imovel-landing .planta-card__units-summary {
 	margin: 0 0 12px;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 600;
 	color: var(--theme-color2);
 }
@@ -473,7 +486,7 @@ body.gallery-lightbox-open {
 }
 
 .imovel-landing .planta-card__section-title {
-	font-size: 14px;
+	font-size: 15px;
 	margin: 0 0 10px;
 	color: var(--title-color);
 }
@@ -485,14 +498,14 @@ body.gallery-lightbox-open {
 }
 
 .imovel-landing .planta-card__details dt {
-	font-size: 12px;
+	font-size: 13px;
 	color: var(--body-color);
 	margin-bottom: 0;
 }
 
 .imovel-landing .planta-card__details dd {
 	margin: 0;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 600;
 	color: var(--title-color);
 }
@@ -519,7 +532,7 @@ body.gallery-lightbox-open {
 	padding-left: 18px;
 	margin: 0;
 	color: var(--body-color);
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 1.7;
 }
 
@@ -537,7 +550,7 @@ body.gallery-lightbox-open {
 	border: 1px solid var(--th-border-color);
 	border-radius: 12px;
 	background: var(--white-color);
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .imovel-landing .amenity-item i {
@@ -557,16 +570,17 @@ body.gallery-lightbox-open {
 	font-weight: 700;
 	color: var(--title-color);
 	font-family: var(--title-font);
+	font-size: 16px;
 }
 
 .imovel-landing .faq-item p {
 	margin-top: 12px;
 	color: var(--body-color);
-	font-size: 15px;
+	font-size: 16px;
 }
 
 .imovel-landing .legal-note {
-	font-size: 14px;
+	font-size: 15px;
 	color: var(--body-color);
 	padding: 16px 18px;
 	background: var(--smoke-color);
@@ -586,7 +600,7 @@ body.gallery-lightbox-open {
 	border: 1px solid var(--th-border-color);
 	color: var(--title-color);
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 16px;
 	line-height: 1.5;
 }
 
@@ -616,7 +630,7 @@ body.gallery-lightbox-open {
 
 .imovel-landing .financing-simulator__field span {
 	display: block;
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 600;
 	color: var(--body-color);
 	margin-bottom: 6px;
@@ -687,7 +701,7 @@ body.gallery-lightbox-open {
 
 .imovel-landing .financing-simulator__disclaimer {
 	margin: 18px 0 0;
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 1.6;
 	color: var(--body-color);
 }

@@ -1,0 +1,119 @@
+{
+  "id": 25751,
+  "slug": "soul-wkoerich-centro-florianopolis-sc",
+  "title": "Soul WKoerich, Centro",
+  "category": "lancamento",
+  "price": {
+    "prefix": null,
+    "display": "Consulte",
+    "amount": null,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua São Jorge, Centro, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "centro",
+      "name": "Centro"
+    }
+  },
+  "location": {
+    "lat": -27.5958,
+    "lng": -48.5482
+  },
+  "overview": {
+    "code": "1502",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": 1,
+    "sizeSqm": 30,
+    "deliveryYear": "Set/29"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "set-29",
+      "name": "Set/29"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "1-a-3-suites",
+      "name": "1 a 3 Suítes"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "bicicletario",
+    "brinquedoteca",
+    "churrasqueira",
+    "elevador",
+    "espaco-gourmet",
+    "piscina",
+    "playground",
+    "sala-de-jogos",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Piscina com prainha",
+    "Fitness",
+    "Piscina de imersão aquecida",
+    "Hall de entrada",
+    "Coworking",
+    "Home Market",
+    "Laundry",
+    "Delivery Hub",
+    "Salão de festas com terraço",
+    "Espaço gourmet com terraço",
+    "Espaço Kids",
+    "Pet Place",
+    "3 elevadores",
+    "Wi-Fi nas áreas comuns",
+    "Acesso biométrico ou facial"
+  ],
+  "descriptionHtml": "<p><strong>Soul WKoerich — apartamentos de estúdio, 1, 2 e 3 suítes no Centro de Florianópolis</strong></p>\n<p><strong>Entrega prevista: 14 de setembro de 2029</strong></p>\n<p><strong>Torre A — 3 suítes 99m² com lavabo, 1 ou 2 vagas e hobby box</strong></p>\n<p><strong>Torre A — 1 suíte 37m² com opção de vaga</strong></p>\n<p><strong>Torre A — 2 suítes 79m² com 1 vaga</strong></p>\n<p><strong>Torre B — eStúdio 30m²</strong></p>\n<p><strong>Torre B — 1 suíte 45m² com opção de vaga</strong></p>\n<p><strong>Torre B — 1 suíte 46m² com opção de vaga</strong></p>\n<p><strong>Torre B — 2 suítes 69m² com 1 vaga</strong></p>\n<p><strong>Torre B — 2 suítes 77m² com lavabo, 1 vaga e opção de hobby box</strong></p>\n<ul>\n<li><em>Valores e disponibilidade sujeitos a alteração. Consulte a tabela comercial.</em></li>\n<li><em>Imagens ilustrativas. Empreendimento da WKoerich / KABI Empreendimentos Imobiliários.</em></li>\n</ul>\n<p>O <strong>Soul WKoerich</strong> traduz um estilo de vida que une conforto e praticidade, em arquitetura contemporânea integrada ao ritmo urbano do Centro de Florianópolis. Localizado na Rua São Jorge, o empreendimento coloca moradia, cultura e mobilidade a poucos passos — com Beiramar Shopping, Praça Getúlio Vargas e Beira-Mar Norte nas proximidades.</p>\n<p>Os apartamentos contam com plantas versáteis, pé-direito de 2,60m nas áreas sociais, janelas amplas com persianas automatizadas nos dormitórios, fechadura digital biométrica, aquecimento central de água e opções de personalização conforme cronograma da obra.</p>\n<p>As áreas comuns incluem piscina com prainha, piscina de imersão aquecida, fitness, spa, coworking, home market, laundry, delivery hub, salão de festas com terraço, espaço gourmet, espaço kids e pet place — entregues mobiliadas, equipadas e climatizadas.</p>\n<p>Obra com 92% de avanço total (dados divulgados em fevereiro/2026). Ideal para morar ou investir no coração de Florianópolis.</p>",
+  "floorPlans": [
+    { "title": "Torre A — 3 suítes 99m²", "image": "images/planta-1A.png" },
+    { "title": "Torre A — 1 suíte 37m²", "image": "images/planta-2A.png" },
+    { "title": "Torre A — 2 suítes 79m²", "image": "images/planta-3A.png" },
+    { "title": "Torre B — 2 suítes 69m²", "image": "images/planta-1B.png" },
+    { "title": "Torre B — eStúdio 30m²", "image": "images/planta-2B.png" },
+    { "title": "Torre B — 2 suítes 69m² (403)", "image": "images/planta-3B.png" },
+    { "title": "Torre B — 1 suíte 45m²", "image": "images/planta-4B.png" },
+    { "title": "Torre B — 2 suítes 77m²", "image": "images/planta-5B.png" },
+    { "title": "Torre B — 1 suíte 46m²", "image": "images/planta-6B.png" }
+  ],
+  "images": [
+    { "file": "images/01.jpg", "role": "gallery" },
+    { "file": "images/02.jpg", "role": "gallery" },
+    { "file": "images/03.jpg", "role": "gallery" },
+    { "file": "images/04.jpg", "role": "gallery" },
+    { "file": "images/05.jpg", "role": "gallery" },
+    { "file": "images/06.jpg", "role": "gallery" },
+    { "file": "images/07.jpg", "role": "gallery" },
+    { "file": "images/08.jpg", "role": "gallery" },
+    { "file": "images/09.jpg", "role": "gallery" },
+    { "file": "images/10.jpg", "role": "gallery" },
+    { "file": "images/11.jpg", "role": "gallery" },
+    { "file": "images/12.jpg", "role": "gallery" },
+    { "file": "images/13.jpg", "role": "gallery" },
+    { "file": "images/14.jpg", "role": "gallery" }
+  ],
+  "videoUrl": null,
+  "sourceUrl": "https://soul.wkoerich.com.br/",
+  "importedAt": "2026-05-31T01:00:00.000Z",
+  "kind": "apartamento"
+}

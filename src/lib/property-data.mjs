@@ -1,4 +1,4 @@
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { resolveNeighborhoodPageSlug } from './neighborhood-slugs.mjs';
 import { isStandaloneHouseProperty } from './property-kind.mjs';
@@ -25,6 +25,7 @@ const SANTA_CATARINA_BOUNDS = {
 };
 
 let florianopolisSlugCache;
+let florianopolisSlugCacheKey;
 
 export function isFlorianopolisProperty(property) {
 	return property?.address?.city?.slug === FLORIANOPOLIS_CITY_SLUG;
@@ -34,19 +35,30 @@ export function isSiteEligibleProperty(property) {
 	return isFlorianopolisProperty(property) && !isStandaloneHouseProperty(property);
 }
 
+function getFlorianopolisSlugCacheKey() {
+	const indexPath = join(dataRoot, 'imoveis/index.json');
+	const indexStat = statSync(indexPath);
+	return String(indexStat.mtimeMs);
+}
+
 export function getFlorianopolisPropertySlugs() {
-	if (!florianopolisSlugCache) {
-		const index = JSON.parse(readFileSync(join(dataRoot, 'imoveis/index.json'), 'utf8'));
-		florianopolisSlugCache = new Set(
-			index.properties
-				.filter((property) => property.city === FLORIANOPOLIS_CITY_SLUG)
-				.map((property) => property.slug)
-				.filter((slug) => {
-					const property = loadProperty(slug);
-					return property && isSiteEligibleProperty(property);
-				}),
-		);
+	const cacheKey = getFlorianopolisSlugCacheKey();
+
+	if (florianopolisSlugCache && florianopolisSlugCacheKey === cacheKey) {
+		return florianopolisSlugCache;
 	}
+
+	const index = JSON.parse(readFileSync(join(dataRoot, 'imoveis/index.json'), 'utf8'));
+	florianopolisSlugCacheKey = cacheKey;
+	florianopolisSlugCache = new Set(
+		index.properties
+			.filter((property) => property.city === FLORIANOPOLIS_CITY_SLUG)
+			.map((property) => property.slug)
+			.filter((slug) => {
+				const property = loadProperty(slug);
+				return property && isSiteEligibleProperty(property);
+			}),
+	);
 
 	return florianopolisSlugCache;
 }

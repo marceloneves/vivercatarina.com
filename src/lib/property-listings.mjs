@@ -79,13 +79,22 @@ export function enrichProperty(entry) {
 		overview = property.overview || {};
 	}
 
+	const priceAmount =
+		property?.price?.amount != null
+			? property.price.amount
+			: entry.price > 0
+				? entry.price
+				: 0;
+	const priceDisplay = property?.price?.display?.trim();
+
 	return {
 		...entry,
 		title: cleanPropertyTitle(entry.title, property),
 		bedrooms: overview.bedrooms ?? null,
 		bathrooms: overview.bathrooms ?? null,
 		sizeSqm: overview.sizeSqm ?? null,
-		priceLabel: formatPrice(entry.price),
+		price: priceAmount,
+		priceLabel: priceDisplay || formatPrice(priceAmount > 0 ? priceAmount : null),
 		categoryLabel: getCategoryLabel(entry.category),
 		detailUrl: getPropertyUrl(entry.slug),
 		imageUrl: getThumbnailUrl(entry.thumbnail),
@@ -169,29 +178,59 @@ export function buildFeaturedSidebarMarkup(properties, maxItems = 4) {
                                 </div>`;
 }
 
+export function resolveListingPrice(property) {
+	return property.price > 0 ? property.price : null;
+}
+
+function compareByTitle(a, b) {
+	return a.title.localeCompare(b.title, 'pt-BR');
+}
+
+function comparePriced(a, b, orderBy) {
+	const priceA = resolveListingPrice(a);
+	const priceB = resolveListingPrice(b);
+
+	if (orderBy === 'price-desc') {
+		return priceB - priceA || compareByTitle(a, b);
+	}
+
+	return priceA - priceB || compareByTitle(a, b);
+}
+
+function partitionPropertiesByPriceGroup(properties) {
+	const pricedLancamentos = [];
+	const consulteLancamentos = [];
+	const pricedOther = [];
+	const consulteOther = [];
+
+	for (const property of properties) {
+		const hasPrice = resolveListingPrice(property) != null;
+		const isLancamento = property.category === 'lancamento';
+
+		if (hasPrice && isLancamento) {
+			pricedLancamentos.push(property);
+		} else if (!hasPrice && isLancamento) {
+			consulteLancamentos.push(property);
+		} else if (hasPrice) {
+			pricedOther.push(property);
+		} else {
+			consulteOther.push(property);
+		}
+	}
+
+	return { pricedLancamentos, consulteLancamentos, pricedOther, consulteOther };
+}
+
 export function sortPropertiesByPrice(properties, orderBy = 'price') {
-	return [...properties].sort((a, b) => {
-		const priceA = a.price > 0 ? a.price : null;
-		const priceB = b.price > 0 ? b.price : null;
+	const { pricedLancamentos, consulteLancamentos, pricedOther, consulteOther } =
+		partitionPropertiesByPriceGroup(properties);
 
-		if (priceA == null && priceB == null) {
-			return a.title.localeCompare(b.title, 'pt-BR');
-		}
+	pricedLancamentos.sort((a, b) => comparePriced(a, b, orderBy));
+	consulteLancamentos.sort(compareByTitle);
+	pricedOther.sort((a, b) => comparePriced(a, b, orderBy));
+	consulteOther.sort(compareByTitle);
 
-		if (priceA == null) {
-			return 1;
-		}
-
-		if (priceB == null) {
-			return -1;
-		}
-
-		if (orderBy === 'price-desc') {
-			return priceB - priceA || a.title.localeCompare(b.title, 'pt-BR');
-		}
-
-		return priceA - priceB || a.title.localeCompare(b.title, 'pt-BR');
-	});
+	return [...pricedLancamentos, ...consulteLancamentos, ...pricedOther, ...consulteOther];
 }
 
 export function paginate(items, page, perPage = LISTINGS_PER_PAGE) {
