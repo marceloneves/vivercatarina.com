@@ -117,45 +117,14 @@ export function getPagesSitemapEntries() {
 		);
 	}
 
-	return entries;
-}
-
-/** @returns {SitemapEntry[]} */
-export function getImoveisSitemapEntries() {
-	return listPropertySlugs().map((slug) =>
-		buildSitemapEntry(`/imovel/${slug}`, { changefreq: 'weekly', priority: '0.8' }),
-	);
-}
-
-/** @returns {SitemapEntry[]} */
-export function getBairrosSitemapEntries() {
-	/** @type {SitemapEntry[]} */
-	const entries = [];
-
-	for (const slug of NEIGHBORHOOD_SLUGS) {
-		const listing = loadNeighborhoodListing(slug);
-		const totalItems = listing?.properties.length || 0;
-		const totalPages = Math.max(1, Math.ceil(totalItems / LISTINGS_PER_PAGE));
-
-		entries.push(
-			buildSitemapEntry(`/bairro/${slug}`, { changefreq: 'weekly', priority: '0.8' }),
-		);
-
-		for (let page = 2; page <= totalPages; page += 1) {
-			entries.push(
-				buildSitemapEntry(`/bairro/${slug}/pagina-${page}`, {
-					changefreq: 'weekly',
-					priority: '0.6',
-				}),
-			);
-		}
-	}
+	entries.push(...buildLancamentosListingEntries());
+	entries.push(...buildBairroListingEntries());
 
 	return entries;
 }
 
 /** @returns {SitemapEntry[]} */
-export function getLancamentosSitemapEntries() {
+function buildLancamentosListingEntries() {
 	/** @type {SitemapEntry[]} */
 	const entries = [];
 	const pageSlugs = [
@@ -187,6 +156,40 @@ export function getLancamentosSitemapEntries() {
 }
 
 /** @returns {SitemapEntry[]} */
+function buildBairroListingEntries() {
+	/** @type {SitemapEntry[]} */
+	const entries = [];
+
+	for (const slug of NEIGHBORHOOD_SLUGS) {
+		const listing = loadNeighborhoodListing(slug);
+		const totalItems = listing?.properties.length || 0;
+		const totalPages = Math.max(1, Math.ceil(totalItems / LISTINGS_PER_PAGE));
+
+		entries.push(
+			buildSitemapEntry(`/bairro/${slug}`, { changefreq: 'weekly', priority: '0.8' }),
+		);
+
+		for (let page = 2; page <= totalPages; page += 1) {
+			entries.push(
+				buildSitemapEntry(`/bairro/${slug}/pagina-${page}`, {
+					changefreq: 'weekly',
+					priority: '0.6',
+				}),
+			);
+		}
+	}
+
+	return entries;
+}
+
+/** @returns {SitemapEntry[]} */
+export function getImoveisSitemapEntries() {
+	return listPropertySlugs().map((slug) =>
+		buildSitemapEntry(`/imovel/${slug}`, { changefreq: 'weekly', priority: '0.8' }),
+	);
+}
+
+/** @returns {SitemapEntry[]} */
 export function getBlogSitemapEntries() {
 	return getBlogPosts().map((post) =>
 		buildSitemapEntry(post.href, {
@@ -200,8 +203,6 @@ export function getBlogSitemapEntries() {
 export const SITEMAP_FILES = [
 	{ path: '/sitemap-pages.xml', getEntries: getPagesSitemapEntries },
 	{ path: '/sitemap-imoveis.xml', getEntries: getImoveisSitemapEntries },
-	{ path: '/sitemap-bairros.xml', getEntries: getBairrosSitemapEntries },
-	{ path: '/sitemap-lancamentos.xml', getEntries: getLancamentosSitemapEntries },
 	{ path: '/sitemap-blog.xml', getEntries: getBlogSitemapEntries },
 ];
 
