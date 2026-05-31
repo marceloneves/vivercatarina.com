@@ -2,11 +2,15 @@
 import PillerLayout from '../../layouts/PillerLayout.astro';
 import bodyHtml from '../../content/template-pages/blog-details.html?raw';
 import melhoresBairrosBody from '../../content/blog/melhores-bairros-para-morar-em-florianopolis.html?raw';
+import morarContinenteIlhaBody from '../../content/blog/morar-no-continente-x-na-ilha-em-florianopolis.html?raw';
+import quantoCustaMorarBody from '../../content/blog/quanto-custa-morar-em-florianopolis.html?raw';
 import { getBlogPost, getBlogPosts } from '../../lib/blog-posts.mjs';
 import { applySemanticHtml, wrapSplitPageContent } from '../../lib/semantic-html.mjs';
 
 const BLOG_BODY_BY_SLUG = {
 	'melhores-bairros-para-morar-em-florianopolis': melhoresBairrosBody,
+	'morar-no-continente-x-na-ilha-em-florianopolis': morarContinenteIlhaBody,
+	'quanto-custa-morar-em-florianopolis': quantoCustaMorarBody,
 };
 
 export function getStaticPaths() {
@@ -67,7 +71,9 @@ const articleBlock = bodyHtml
 	)
 	.replace(
 		'<a href="/blog">luxury home</a>\n                                            <a href="/blog">Strategey</a>\n                                            <a href="/blog">Villa Home</a>\n                                            <a href="/blog">Project</a>',
-		'<a href="/blog">Florianópolis</a>\n                                            <a href="/blog">Bairros</a>\n                                            <a href="/blog">Moradia</a>\n                                            <a href="/blog">Mercado imobiliário</a>',
+		(post.tags ?? [])
+			.map((tag) => `<a href="/blog">${tag}</a>`)
+			.join('\n                                            '),
 	)
 	.replace(
 		'<span class="share-links-title">Share this article:</span>',

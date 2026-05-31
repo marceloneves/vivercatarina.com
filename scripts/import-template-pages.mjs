@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { listActiveNeighborhoods } from '../src/lib/property-listings.mjs';
 import { prepareBairroSidebarHtml } from '../src/lib/template-html.mjs';
 import { applySemanticHtml } from '../src/lib/semantic-html.mjs';
+import { FOOTER_CONTACT_COLUMN_HTML } from '../src/lib/site-footer.mjs';
 import { homePageTranslations } from './home-page-translations.mjs';
 import { propertyDetailsTranslations } from './property-details-translations.mjs';
 
@@ -414,7 +415,7 @@ ${links}
 }
 
 function buildFooterNavMenusHtml() {
-	return getFooterNavMenus().map(buildFooterNavColumn).join('\n');
+	return `${getFooterNavMenus().map(buildFooterNavColumn).join('\n')}\n${FOOTER_CONTACT_COLUMN_HTML}`;
 }
 
 const footerNavMenusPattern =

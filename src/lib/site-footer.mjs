@@ -34,8 +34,10 @@ const FOOTER_CONTACT_COLUMN_HTML = `                                <div class="
                                     </div>
                                 </div>`;
 
+export { FOOTER_CONTACT_COLUMN_HTML };
+
 const FOOTER_SUPORTE_COLUMN_PATTERN =
-	/(<div class="footer-item">\s*<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-suporte">[\s\S]*?<\/nav>\s*<\/div>)(?=\s*<\/div>\s*<\/div>)/;
+	/(<div class="footer-item">\s*<nav class="widget widget_nav_menu footer-widget" aria-labelledby="footer-nav-suporte">[\s\S]*?<\/nav>\s*<\/div>)/;
 
 const FOOTER_ABOUT_CLOSE_PATTERN =
 	/<\/div>\s*<\/div>\s*<\/div>\s*<div class="footer-all-widget-item">/;
@@ -79,11 +81,15 @@ function removeAboutWidgetContactInfo(html) {
 }
 
 function injectFooterContactColumn(html) {
-	if (!html.includes('footer-nav-suporte') || html.includes('footer-nav-contato')) {
+	if (html.includes('footer-nav-contato') || !html.includes('footer-nav-suporte')) {
 		return html;
 	}
 
 	return html.replace(FOOTER_SUPORTE_COLUMN_PATTERN, `$1\n${FOOTER_CONTACT_COLUMN_HTML}`);
+}
+
+function hasFooterContactColumn(html) {
+	return html.includes('footer-nav-contato') || html.includes('footer-contact-widget');
 }
 
 function patchCopyrightText(html) {
@@ -99,7 +105,11 @@ export function patchSiteFooter(html) {
 	}
 
 	let output = injectFooterContactColumn(html);
-	output = removeAboutWidgetContactInfo(output);
+
+	if (hasFooterContactColumn(output)) {
+		output = removeAboutWidgetContactInfo(output);
+	}
+
 	output = patchCopyrightText(output);
 
 	if (output.includes('footer-disclaimer')) {
