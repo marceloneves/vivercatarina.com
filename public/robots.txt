@@ -1,7 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /api/
-Disallow: /blog-details
 Disallow: /property
 
 Sitemap: https://vivercatarina.com/sitemap-index.xml

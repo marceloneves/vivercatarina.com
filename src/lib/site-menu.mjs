@@ -15,6 +15,8 @@ const LANCAMENTOS_SIMPLE_ITEM_PATTERN =
 const HEADER_ADD_LISTING_PATTERN =
 	/<a href="\/contact" class="th-btn[^"]*"><i class="fa-regular fa-house-chimney me-2"><\/i>\s*(?:Add Listing|Anunciar imóvel)\s*<\/a>\s*/gi;
 
+const BLOG_MENU_ITEM_PATTERN = /<li(?: class="[^"]*")?><a href="\/blog">Blog<\/a><\/li>\s*/g;
+
 export function removeHeaderAddListingButton(html) {
 	if (!html || !html.includes('house-chimney')) {
 		return html;
@@ -35,6 +37,14 @@ function removeMainMenuLancamentosAndBairros(html) {
 		.replace(BAIRROS_SIMPLE_ITEM_PATTERN, '');
 }
 
+function removeBlogMenuItems(html) {
+	if (!html) {
+		return html;
+	}
+
+	return html.replace(BLOG_MENU_ITEM_PATTERN, '');
+}
+
 function isHomePath(currentPath) {
 	const path = String(currentPath || '/').split('?')[0];
 	return path === '/' || path === '/index.html';
@@ -53,7 +63,7 @@ export function patchListingHeaderBranding(html) {
 
 export function patchSiteMenu(html, currentPath = '/') {
 	let output = patchHeaderSocial(
-		removeMainMenuLancamentosAndBairros(removeHeaderAddListingButton(html)),
+		removeBlogMenuItems(removeMainMenuLancamentosAndBairros(removeHeaderAddListingButton(html))),
 	);
 
 	output = output.replace(/Outras cidades/g, 'Cidades');

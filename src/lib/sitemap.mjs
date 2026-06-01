@@ -1,6 +1,5 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { getBlogPosts } from './blog-posts.mjs';
 import {
 	getLancamentosListingTotal,
 	PROPERTY_CATEGORIES,
@@ -33,7 +32,7 @@ const LANCAMENTOS_TERRENOS_PAGINATION = 3;
 
 const NOINDEX_ROUTE_PREFIXES = ['/property'];
 
-const NOINDEX_ROUTE_EXACT = ['/blog-details'];
+const NOINDEX_ROUTE_EXACT = [];
 
 /** @typedef {{ loc: string, lastmod?: string, changefreq?: string, priority?: string }} SitemapEntry */
 
@@ -57,7 +56,6 @@ export function getPagesSitemapEntries() {
 		buildSitemapEntry('/', { changefreq: 'daily', priority: '1.0' }),
 		buildSitemapEntry('/about', { changefreq: 'monthly', priority: '0.7' }),
 		buildSitemapEntry('/contact', { changefreq: 'monthly', priority: '0.6' }),
-		buildSitemapEntry('/blog', { changefreq: 'weekly', priority: '0.8' }),
 		buildSitemapEntry('/lancamentos', { changefreq: 'daily', priority: '0.9' }),
 		buildSitemapEntry('/bairros', { changefreq: 'weekly', priority: '0.9' }),
 	];
@@ -172,21 +170,9 @@ export function getImoveisSitemapEntries() {
 	);
 }
 
-/** @returns {SitemapEntry[]} */
-export function getBlogSitemapEntries() {
-	return getBlogPosts().map((post) =>
-		buildSitemapEntry(post.href, {
-			changefreq: 'monthly',
-			priority: '0.7',
-			lastmod: post.datePublished,
-		}),
-	);
-}
-
 export const SITEMAP_FILES = [
 	{ path: '/sitemap-pages.xml', getEntries: getPagesSitemapEntries },
 	{ path: '/sitemap-imoveis.xml', getEntries: getImoveisSitemapEntries },
-	{ path: '/sitemap-blog.xml', getEntries: getBlogSitemapEntries },
 ];
 
 /**
@@ -244,10 +230,6 @@ export function buildLlmsTxt() {
 		.map(({ name, slug }) => `- [${name}](${SITE_URL}/bairro/${slug}): imóveis na planta no bairro`)
 		.join('\n');
 
-	const blogLinks = getBlogPosts()
-		.map((post) => `- [${post.title}](${SITE_URL}${post.href})`)
-		.join('\n');
-
 	return `# Viver Catarina
 
 > Portal especializado em lançamentos imobiliários e imóveis na planta em Florianópolis, Santa Catarina.
@@ -262,7 +244,6 @@ Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
 - [Lançamentos](${SITE_URL}/lancamentos): listagem de imóveis novos em Florianópolis
 - [Bairros](${SITE_URL}/bairros): imóveis por bairro e faixa de preço
 - [Quem Somos](${SITE_URL}/about): missão, diferenciais e contato
-- [Blog](${SITE_URL}/blog): termos e guia de lançamentos em Santa Catarina
 
 ## Lançamentos por tipo
 
@@ -276,10 +257,6 @@ Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
 ## Bairros em destaque
 
 ${neighborhoods}
-
-## Blog
-
-${blogLinks}
 
 ## Optional
 

@@ -20,7 +20,7 @@ const BASE_KEYWORDS = [
 
 const NOINDEX_ROUTE_PREFIXES = ['/property'];
 
-const NOINDEX_ROUTE_EXACT = ['/blog-details'];
+const NOINDEX_ROUTE_EXACT = [];
 
 const BAIRROS_PRICE_FILTERS = {
 	'ate-300-mil': 'Até R$ 300 mil',
@@ -214,36 +214,6 @@ function inferSeoFromPath(path, title = '') {
 				'Fale com especialistas sobre lançamentos na planta. Tire dúvidas sobre financiamento, documentação e receba atendimento personalizado',
 			),
 			keywords: buildKeywords('contato imobiliário', 'corretor Florianópolis'),
-		};
-	}
-
-	if (path === '/blog') {
-		return {
-			title: 'Termos de lançamentos em Santa Catarina',
-			description: buildMetaDescription(
-				'lançamentos imobiliários Santa Catarina',
-				'Guia com os principais termos de lançamentos em SC: regiões, incorporação, patrimônio de afetação, litoral, Vale do Itajaí e particularidades do mercado catarinense',
-			),
-			keywords: buildKeywords(
-				'lançamentos Santa Catarina',
-				'termos imobiliários SC',
-				'imóveis na planta',
-			),
-		};
-	}
-
-	if (path.startsWith('/blog/')) {
-		const keyword = title || 'imóveis na planta em Florianópolis';
-
-		return {
-			title: title || 'Blog',
-			description: buildMetaDescription(
-				keyword,
-				title
-					? `${title}. Conteúdo do Viver Catarina sobre bairros, mercado imobiliário e dicas para comprar na planta em Florianópolis`
-					: 'Artigo do blog Viver Catarina sobre imóveis na planta, bairros e mercado imobiliário em Florianópolis',
-			),
-			keywords: buildKeywords(title, 'blog imobiliário Florianópolis'),
 		};
 	}
 

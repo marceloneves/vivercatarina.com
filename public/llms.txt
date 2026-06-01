@@ -12,7 +12,6 @@ Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
 - [Lançamentos](https://vivercatarina.com/lancamentos): listagem de imóveis novos em Florianópolis
 - [Bairros](https://vivercatarina.com/bairros): imóveis por bairro e faixa de preço
 - [Quem Somos](https://vivercatarina.com/about): missão, diferenciais e contato
-- [Blog](https://vivercatarina.com/blog): termos e guia de lançamentos em Santa Catarina
 
 ## Lançamentos por tipo
 
@@ -37,10 +36,6 @@ Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
 - [Estreito](https://vivercatarina.com/bairro/estreito): imóveis na planta no bairro
 - [Ingleses](https://vivercatarina.com/bairro/ingleses): imóveis na planta no bairro
 - [João Paulo](https://vivercatarina.com/bairro/joaopaulo): imóveis na planta no bairro
-
-## Blog
-
-- [Termos de lançamentos imobiliários em Santa Catarina](https://vivercatarina.com/blog)
 
 ## Optional
 

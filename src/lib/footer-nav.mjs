@@ -17,7 +17,6 @@ export const FOOTER_NAV_COLUMNS = [
 		items: [
 			{ label: 'Florianópolis', href: '/' },
 			{ label: 'Bairros', href: '/bairros' },
-			{ label: 'Blog', href: '/blog' },
 			{
 				label: 'Portal',
 				href: 'https://vivercatarina.com',

@@ -1,6 +1,31 @@
 {
   "redirects": [
     {
+      "source": "/blog",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/blog-details",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/glossario",
+      "destination": "/lancamentos",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap-blog.xml",
+      "destination": "/sitemap-pages.xml",
+      "permanent": true
+    },
+    {
       "source": "/sitemap-static.xml",
       "destination": "/sitemap-pages.xml",
       "permanent": true

@@ -36,17 +36,12 @@ export const HOME_FAQ_ITEMS = [
 	{
 		question: 'O uso do portal é gratuito para quem busca imóvel?',
 		answer:
-			'Sim. Navegar, comparar lançamentos e ler o guia de termos no blog é gratuito para quem procura imóvel novo em Santa Catarina. Você só avança para negociação quando decide falar com um corretor ou incorporadora.',
+			'Sim. Navegar e comparar lançamentos é gratuito para quem procura imóvel novo em Santa Catarina. Você só avança para negociação quando decide falar com um corretor ou incorporadora.',
 	},
 	{
 		question: 'Como navegar entre cidades e lançamentos no site?',
 		answer:
-			'Na página inicial, os cards de cidades levam aos portais de cada município. Use o menu para acessar o blog, bairros de Florianópolis e contato. O rodapé também lista todas as cidades cobertas, agrupadas por região de Santa Catarina.',
-	},
-	{
-		question: 'Para que serve o blog do Viver Catarina?',
-		answer:
-			'O blog reúne o guia de termos de lançamentos em Santa Catarina — incorporação, patrimônio de afetação, regiões do estado, custos locais e fases do empreendimento — para você entender o mercado antes de comparar imóveis na planta.',
+			'Na página inicial, os cards de cidades levam aos portais de cada município. Use o menu para acessar lançamentos, bairros de Florianópolis e contato. O rodapé também lista todas as cidades cobertas, agrupadas por região de Santa Catarina.',
 	},
 	{
 		question: 'Como entrar em contato com a equipe do Viver Catarina?',

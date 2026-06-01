@@ -1,4 +1,3 @@
-.blog-article-body a,
 .property-description a,
 .property-landing .about-text a,
 .property-landing .audience-card a,
@@ -14,7 +13,6 @@
 	text-decoration: none;
 }
 
-.blog-article-body a:hover,
 .property-description a:hover,
 .property-landing .about-text a:hover,
 .property-landing .audience-card a:hover,

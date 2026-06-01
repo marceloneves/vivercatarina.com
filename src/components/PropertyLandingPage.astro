@@ -1,6 +1,5 @@
 ---
 import PropertyFinancingSimulator from './PropertyFinancingSimulator.astro';
-import PropertyNeighborhoodArticles from './PropertyNeighborhoodArticles.astro';
 
 const { page } = Astro.props;
 ---
@@ -297,11 +296,6 @@ const { page } = Astro.props;
 			</section>
 
 			<PropertyFinancingSimulator financing={page.financing} />
-
-			<PropertyNeighborhoodArticles
-				introTitle={page.neighborhoodIntroTitle}
-				posts={page.neighborhoodArticles}
-			/>
 
 			<section class="section">
 				<h2 class="section__title">Perguntas frequentes</h2>

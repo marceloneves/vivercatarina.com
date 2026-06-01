@@ -8,6 +8,10 @@ export default defineConfig({
 	output: 'static',
 	adapter: vercel(),
 	site: SITE_URL,
+	redirects: {
+		'/blog': '/',
+		'/blog-details': '/',
+	},
 	vite: {
 		server: {
 			watch: {
