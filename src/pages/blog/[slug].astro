@@ -17,7 +17,11 @@ const { slug } = Astro.params;
 const post = getBlogPost(slug);
 
 if (!post) {
-	throw new Error('Artigo do blog não encontrado.');
+	return Astro.redirect('/blog', 301);
+}
+
+if (post.href === '/blog' && slug !== 'blog') {
+	return Astro.redirect('/blog', 301);
 }
 
 const title = post.title;

@@ -1,109 +1,15 @@
-import { linkifyHtmlContent } from './content-inline-links.mjs';
-import { GLOSSARY_TERMS } from './glossary-terms.mjs';
-
 export const GLOSSARY_LINK_CLASS = 'glossary-term-link';
-
-const GLOSSARY_PHRASE_ALIASES = [
-	{ text: 'imóveis na planta', slug: 'apartamento-na-planta' },
-	{ text: 'apartamentos na planta', slug: 'apartamento-na-planta' },
-	{ text: 'compra na planta', slug: 'apartamento-na-planta' },
-	{ text: 'lançamentos imobiliários', slug: 'lancamento-imobiliario' },
-	{ text: 'pré-lançamentos', slug: 'pre-lancamento' },
-	{ text: 'corretores credenciados', slug: 'corretor-credenciado' },
-	{ text: 'incorporadoras', slug: 'incorporadora' },
-	{ text: 'financiamento bancário', slug: 'financiamento-imobiliario' },
-	{ text: 'entrega das chaves', slug: 'entrega-das-chaves' },
-	{ text: 'valorização imobiliária', slug: 'valorizacao-imobiliaria' },
-	{ text: 'patrimônio de afetação', slug: 'patrimonio-de-afetacao' },
-	{ text: 'unidades autônomas', slug: 'unidade-autonoma' },
-	{ text: 'áreas comuns', slug: 'area-comum' },
-	{ text: 'áreas privativas', slug: 'area-privativa' },
-	{ text: 'vagas de garagem', slug: 'vaga-de-garagem' },
-	{ text: 'plantas baixas', slug: 'planta-baixa' },
-	{ text: 'memorial de incorporação', slug: 'memorial-de-incorporacao' },
-	{ text: 'memorial descritivo', slug: 'memorial-descritivo' },
-	{ text: 'correção monetária', slug: 'correcao-monetaria' },
-	{ text: 'alienação fiduciária', slug: 'alienacao-fiduciaria' },
-	{ text: 'carta de crédito', slug: 'carta-de-credito' },
-	{ text: 'convenção de condomínio', slug: 'convencao-de-condominio' },
-	{ text: 'vistoria de entrega', slug: 'vistoria-de-entrega' },
-	{ text: 'contrato de promessa', slug: 'contrato-de-promessa-de-compra-e-venda' },
-];
-
-function extractAcronym(term) {
-	const match = term.match(/\(([A-Z0-9]{2,8})\)/);
-	return match?.[1] ?? null;
-}
-
-function extractTermBeforeParenthesis(term) {
-	const match = term.match(/^([^(]+)\s*\(/);
-	return match?.[1]?.trim() ?? null;
-}
-
-/** @param {string[]} [excludeSlugs] */
-export function buildGlossaryLinkRules(excludeSlugs = []) {
-	const excluded = new Set(excludeSlugs);
-	const rules = [];
-
-	for (const { term, slug } of GLOSSARY_TERMS) {
-		if (excluded.has(slug)) {
-			continue;
-		}
-
-		rules.push({
-			text: term,
-			href: `/glossario#${slug}`,
-			linkClass: GLOSSARY_LINK_CLASS,
-		});
-
-		const acronym = extractAcronym(term);
-		if (acronym) {
-			rules.push({
-				text: acronym,
-				href: `/glossario#${slug}`,
-				caseSensitive: true,
-				linkClass: GLOSSARY_LINK_CLASS,
-			});
-		}
-
-		const shortLabel = extractTermBeforeParenthesis(term);
-		if (shortLabel && shortLabel !== term) {
-			rules.push({
-				text: shortLabel,
-				href: `/glossario#${slug}`,
-				linkClass: GLOSSARY_LINK_CLASS,
-			});
-		}
-	}
-
-	for (const { text, slug } of GLOSSARY_PHRASE_ALIASES) {
-		if (excluded.has(slug)) {
-			continue;
-		}
-
-		rules.push({
-			text,
-			href: `/glossario#${slug}`,
-			linkClass: GLOSSARY_LINK_CLASS,
-		});
-	}
-
-	return rules.sort((a, b) => b.text.length - a.text.length);
-}
-
-/** @param {string} html @param {{ excludeSlugs?: string[], skipHeadings?: boolean }} [options] */
-export function applyGlossaryInlineLinks(html, options = {}) {
-	if (!html) {
-		return html;
-	}
-
-	const { excludeSlugs = [], skipHeadings = true } = options;
-	const rules = buildGlossaryLinkRules(excludeSlugs);
-
-	return linkifyHtmlContent(html, rules, { skipHeadings });
-}
-
 export const GLOSSARY_EXTERNAL_LINK_CLASS = 'glossary-external-link';
+
+/** @param {string[]} [_excludeSlugs] */
+export function buildGlossaryLinkRules(_excludeSlugs = []) {
+	return [];
+}
+
+/** @param {string} html */
+export function applyGlossaryInlineLinks(html) {
+	return html ?? '';
+}
 
 /** @param {string} definition @param {string} [websiteUrl] */
 export function linkIncorporadoraWebsite(definition, websiteUrl) {

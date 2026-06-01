@@ -12,9 +12,6 @@ const LANCAMENTOS_SUBMENU_PATTERN =
 const LANCAMENTOS_SIMPLE_ITEM_PATTERN =
 	/<li(?: class="[^"]*")?><a href="\/lancamentos">Lançamentos<\/a><\/li>\s*/g;
 
-const GLOSSARY_MENU_PATTERN =
-	/(<li(?:\s+class="active")?><a href="\/blog">Blog<\/a><\/li>)(\s*)(<li(?:\s+class="active")?><a href="\/contact">Contato<\/a><\/li>)/g;
-
 const HEADER_ADD_LISTING_PATTERN =
 	/<a href="\/contact" class="th-btn[^"]*"><i class="fa-regular fa-house-chimney me-2"><\/i>\s*(?:Add Listing|Anunciar imóvel)\s*<\/a>\s*/gi;
 
@@ -24,10 +21,6 @@ export function removeHeaderAddListingButton(html) {
 	}
 
 	return html.replace(HEADER_ADD_LISTING_PATTERN, '');
-}
-
-function isGlossaryPathActive(currentPath) {
-	return currentPath === '/glossario' || currentPath.startsWith('/glossario/');
 }
 
 function removeMainMenuLancamentosAndBairros(html) {
@@ -40,17 +33,6 @@ function removeMainMenuLancamentosAndBairros(html) {
 		.replace(LANCAMENTOS_SIMPLE_ITEM_PATTERN, '')
 		.replace(BAIRROS_SUBMENU_PATTERN, '')
 		.replace(BAIRROS_SIMPLE_ITEM_PATTERN, '');
-}
-
-export function patchGlossaryMenu(html, currentPath = '/') {
-	if (html.includes('href="/glossario"')) {
-		return html;
-	}
-
-	const activeClass = isGlossaryPathActive(currentPath) ? ' class="active"' : '';
-	const item = `<li${activeClass}><a href="/glossario">Glossário</a></li>`;
-
-	return html.replace(GLOSSARY_MENU_PATTERN, `$1$2${item}$2$3`);
 }
 
 function isHomePath(currentPath) {
@@ -71,10 +53,7 @@ export function patchListingHeaderBranding(html) {
 
 export function patchSiteMenu(html, currentPath = '/') {
 	let output = patchHeaderSocial(
-		patchGlossaryMenu(
-			removeMainMenuLancamentosAndBairros(removeHeaderAddListingButton(html)),
-			currentPath,
-		),
+		removeMainMenuLancamentosAndBairros(removeHeaderAddListingButton(html)),
 	);
 
 	output = output.replace(/Outras cidades/g, 'Cidades');

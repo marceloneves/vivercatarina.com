@@ -6,7 +6,6 @@ import {
 	SITE_PHONE_DISPLAY,
 	SITE_PHONE_TEL,
 } from './site-contact.mjs';
-import { patchGlossaryMenu } from './site-menu.mjs';
 import { patchFooterNavMenus } from './footer-nav.mjs';
 
 const dataRoot = join(process.cwd(), 'src/data');
@@ -270,7 +269,6 @@ export function patchSiteFooter(html) {
 
 	output = patchFooterAboutBranding(output);
 	output = patchCopyrightText(output);
-	output = patchGlossaryMenu(output);
 	output = patchFooterNavMenus(output);
 	output = patchFooterNeighborhoodsSection(output);
 	output = patchFooterCitiesTitle(output);

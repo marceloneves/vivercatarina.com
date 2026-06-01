@@ -1,13 +1,20 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
-import BlogPostsGrid from '../components/BlogPostsGrid.astro';
+import BlogLancamentosScContent from '../components/BlogLancamentosScContent.astro';
 import bodyHtml from '../content/template-pages/blog.html?raw';
-import { getBlogPosts } from '../lib/blog-posts.mjs';
+import { buildBlogLancamentosScDefinedTermSet } from '../lib/blog-lancamentos-sc-terms.mjs';
+import { SITE_URL } from '../lib/site-contact.mjs';
 import { applySemanticHtml, wrapSplitPageContent } from '../lib/semantic-html.mjs';
+import { patchSiteMenu } from '../lib/site-menu.mjs';
+import { buildKeywords, resolvePageSeo } from '../lib/site-seo.mjs';
 
-const title = 'Blog';
+const seo = resolvePageSeo({
+	title: 'Termos de lançamentos em Santa Catarina',
+	pathname: '/blog',
+});
+const title = seo.title;
+const description = seo.description;
 const bodyClass = '';
-const posts = getBlogPosts();
 
 const blogAreaStart = bodyHtml.indexOf('<!--==============================\nBlog Area\n==============================-->');
 const footerStart = bodyHtml.indexOf('<!--==============================\n\tFooter Area');
@@ -16,19 +23,32 @@ if (blogAreaStart === -1 || footerStart === -1) {
 	throw new Error('Não foi possível montar a página do blog a partir do template.');
 }
 
-const headerAndBreadcrumb = applySemanticHtml(
-	bodyHtml
-		.slice(0, blogAreaStart)
-		.replaceAll('Blog Grid', title)
-		.replace('<li><a href="/">Home</a></li>', '<li><a href="/">Início</a></li>')
-		.replace(/<h1 class="breadcumb-title">[\s\S]*?<\/h1>\s*/i, ''),
+const shell = wrapSplitPageContent(
+	patchSiteMenu(applySemanticHtml(bodyHtml.slice(0, blogAreaStart)), '/blog'),
+	applySemanticHtml(bodyHtml.slice(footerStart)),
 );
 
-const shell = wrapSplitPageContent(headerAndBreadcrumb, applySemanticHtml(bodyHtml.slice(footerStart)));
+const definedTermSet = buildBlogLancamentosScDefinedTermSet(SITE_URL, description);
 ---
 
-<PillerLayout title={title} bodyClass={bodyClass}>
+<PillerLayout
+	title={title}
+	bodyClass={bodyClass}
+	description={description}
+	keywords={buildKeywords(
+		'lançamentos Santa Catarina',
+		'termos imobiliários SC',
+		'comprar na planta',
+		'Vale do Itajaí',
+		'incorporação imobiliária',
+	)}
+	canonicalPath="/blog"
+	stylesheets={['/css/internal-links.css']}
+>
+	<Fragment slot="head">
+		<script type="application/ld+json" set:html={JSON.stringify(definedTermSet)} />
+	</Fragment>
 	<Fragment set:html={shell.before} />
-	<BlogPostsGrid posts={posts} />
+	<BlogLancamentosScContent />
 	<Fragment set:html={shell.after} />
 </PillerLayout>

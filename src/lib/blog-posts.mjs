@@ -1,6 +1,23 @@
 import { buildMetaDescription } from './site-seo.mjs';
 
-export const BLOG_POSTS = [];
+/** Card na home e listagens que apontam para o guia em /blog */
+export const BLOG_POSTS = [
+	{
+		slug: 'termos-lancamentos-santa-catarina',
+		title: 'Termos de lançamentos imobiliários em Santa Catarina',
+		excerpt:
+			'Guia com os principais termos do mercado de lançamentos em SC: Grande Florianópolis, Vale do Itajaí, incorporação, patrimônio de afetação, Imposto de Marinha e fases do empreendimento.',
+		metaDescription:
+			'Termos de lançamentos em Santa Catarina: guia do mercado catarinense com regiões, documentação, custos locais e fases do empreendimento na planta.',
+		imageUrl: '/assets/img/blog/blog_1_1.jpg',
+		dateLabel: '31 Mai',
+		datePublished: '2026-05-31',
+		author: 'Viver Catarina',
+		category: 'Mercado',
+		tags: ['Santa Catarina', 'Lançamentos', 'Termos', 'Imóveis na planta'],
+		href: '/blog',
+	},
+];
 
 export function getBlogPosts() {
 	return BLOG_POSTS;
@@ -33,5 +50,5 @@ function getBlogPostSeoKeyword(post) {
 		return shortTitle;
 	}
 
-	return post.category ? `${post.category} Florianópolis` : 'imóveis na planta em Florianópolis';
+	return post.category ? `${post.category} Santa Catarina` : 'lançamentos imobiliários Santa Catarina';
 }

@@ -219,12 +219,16 @@ function inferSeoFromPath(path, title = '') {
 
 	if (path === '/blog') {
 		return {
-			title: 'Blog',
+			title: 'Termos de lançamentos em Santa Catarina',
 			description: buildMetaDescription(
-				'blog imobiliário Florianópolis',
-				'Artigos sobre mercado imobiliário, bairros e dicas para comprar imóvel na planta em Florianópolis e Santa Catarina',
+				'lançamentos imobiliários Santa Catarina',
+				'Guia com os principais termos de lançamentos em SC: regiões, incorporação, patrimônio de afetação, litoral, Vale do Itajaí e particularidades do mercado catarinense',
 			),
-			keywords: buildKeywords('blog imobiliário', 'mercado imobiliário Florianópolis'),
+			keywords: buildKeywords(
+				'lançamentos Santa Catarina',
+				'termos imobiliários SC',
+				'imóveis na planta',
+			),
 		};
 	}
 
@@ -240,21 +244,6 @@ function inferSeoFromPath(path, title = '') {
 					: 'Artigo do blog Viver Catarina sobre imóveis na planta, bairros e mercado imobiliário em Florianópolis',
 			),
 			keywords: buildKeywords(title, 'blog imobiliário Florianópolis'),
-		};
-	}
-
-	if (path === '/glossario') {
-		return {
-			title: 'Glossário',
-			description: buildMetaDescription(
-				'glossário imobiliário',
-				'Termos essenciais para comprar na planta: contrato, financiamento, obra, habite-se, SPE, memorial descritivo e mais termos do mercado imobiliário',
-			),
-			keywords: buildKeywords(
-				'glossário imobiliário',
-				'termos imóvel na planta',
-				'financiamento imobiliário',
-			),
 		};
 	}
 
