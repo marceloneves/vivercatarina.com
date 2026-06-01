@@ -1,3 +1,7 @@
+---
+import { SITE_NAME, SITE_WHATSAPP_NUMBER } from '../lib/site-contact.mjs';
+---
+
 <div
 	id="whatsapp-lead-modal"
 	class="whatsapp-lead-modal"
@@ -143,7 +147,7 @@
 	}
 </style>
 
-<script>
+<script define:vars={{ siteName: SITE_NAME, whatsappNumber: SITE_WHATSAPP_NUMBER }}>
 	const modal = document.getElementById('whatsapp-lead-modal');
 	const form = document.getElementById('whatsapp-lead-form');
 	const nameInput = document.getElementById('whatsapp-lead-name');
@@ -235,6 +239,41 @@
 		errorBox.hidden = false;
 	}
 
+	function getBrazilianLocalPhoneDigits(phone) {
+		let digits = String(phone || '').replace(/\D/g, '');
+
+		if (digits.startsWith('55') && digits.length > 11) {
+			digits = digits.slice(2);
+		}
+
+		return digits;
+	}
+
+	function validateLead(name, phone) {
+		const trimmedName = String(name || '').trim();
+
+		if (trimmedName.length < 2) {
+			return 'Informe seu nome.';
+		}
+
+		const digits = getBrazilianLocalPhoneDigits(phone);
+
+		if (digits.length < 10 || digits.length > 11) {
+			return 'Informe um telefone válido com DDD.';
+		}
+
+		return null;
+	}
+
+	function buildWhatsAppRedirectUrl(name, propertyTitle) {
+		const trimmedName = String(name).trim();
+		const message = propertyTitle
+			? `Olá! Meu nome é ${trimmedName}. Tenho interesse no imóvel ${propertyTitle}.`
+			: `Olá! Meu nome é ${trimmedName}. Vim pelo site ${siteName} e gostaria de mais informações.`;
+
+		return `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+	}
+
 	document.addEventListener('click', (event) => {
 		const trigger = event.target.closest('[data-whatsapp-lead]');
 
@@ -295,7 +334,7 @@
 
 	resetPhoneInput();
 
-	form?.addEventListener('submit', async (event) => {
+	form?.addEventListener('submit', (event) => {
 		event.preventDefault();
 
 		if (!submitButton) {
@@ -304,35 +343,20 @@
 
 		errorBox.hidden = true;
 		errorBox.textContent = '';
-		submitButton.disabled = true;
 
-		try {
-			const response = await fetch('/api/whatsapp-leads', {
-				method: 'POST',
-				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({
-					name: nameInput?.value,
-					phone: phoneInput?.value,
-					source: pendingContext.source,
-					pageUrl: pendingContext.pageUrl,
-					propertySlug: pendingContext.propertySlug,
-					propertyTitle: pendingContext.propertyTitle,
-				}),
-			});
+		const validationError = validateLead(nameInput?.value, phoneInput?.value);
 
-			const payload = await response.json();
-
-			if (!response.ok) {
-				showError(payload.error || 'Não foi possível continuar. Tente novamente.');
-				return;
-			}
-
-			closeModal();
-			window.location.href = payload.redirectUrl;
-		} catch {
-			showError('Erro de conexão. Verifique sua internet e tente novamente.');
-		} finally {
-			submitButton.disabled = false;
+		if (validationError) {
+			showError(validationError);
+			return;
 		}
+
+		const redirectUrl = buildWhatsAppRedirectUrl(
+			nameInput?.value,
+			pendingContext.propertyTitle,
+		);
+
+		closeModal();
+		window.location.href = redirectUrl;
 	});
 </script>
