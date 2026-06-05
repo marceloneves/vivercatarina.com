@@ -30,9 +30,6 @@ const isListing = variant === 'listing';
 									<a
 										href={item.href}
 										class="gallery-card-link"
-										{...(item.href.startsWith('http')
-											? { target: '_blank', rel: 'noopener noreferrer' }
-											: {})}
 									>
 										<div class="gallery-img">
 											<img
@@ -88,9 +85,6 @@ const isListing = variant === 'listing';
 									<a
 										href={item.href}
 										class="gallery-card-link"
-										{...(item.href.startsWith('http')
-											? { target: '_blank', rel: 'noopener noreferrer' }
-											: {})}
 									>
 										<div class="gallery-img">
 											<img
