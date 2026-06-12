@@ -15,7 +15,7 @@ export function buildCityPortalUrl(cityName) {
 function withCityPortalHref(city) {
 	return {
 		...city,
-		href: city.subdomain ? `https://.vivercatarina.com` : buildCityPortalUrl(city.name),
+		href: city.subdomain ? "https://" + city.subdomain + ".vivercatarina.com" : buildCityPortalUrl(city.name),
 	};
 }
 
