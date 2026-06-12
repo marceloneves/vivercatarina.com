@@ -7,6 +7,7 @@ import {
 	SITE_PHONE_TEL,
 } from './site-contact.mjs';
 import { patchFooterNavMenus } from './footer-nav.mjs';
+import { buildFooterCitiesSectionHtml } from './footer-cities.mjs';
 
 const dataRoot = join(process.cwd(), 'src/data');
 const FOOTER_NEIGHBORHOODS_MARKER = 'footer-bairros-section';
@@ -245,6 +246,17 @@ function removeFooterNeighborhoodsSection(html) {
 		);
 }
 
+function patchFooterCitiesSection(html) {
+	if (!html.includes('footer-cities-section')) {
+		return html;
+	}
+
+	return html.replace(
+		/<section class="footer-cities-section"[\s\S]*?<\/section>\s*/,
+		buildFooterCitiesSectionHtml(),
+	);
+}
+
 function patchFooterCitiesTitle(html) {
 	return html.replace(
 		/(<(?:section|div) class="footer-cities-section"[\s\S]*?<div class="footer-cities-wrap">\s*)<h3 class="widget_title">Cidades(?: em Santa Catarina)?<\/h3>/,
@@ -271,6 +283,7 @@ export function patchSiteFooter(html) {
 	output = patchCopyrightText(output);
 	output = patchFooterNavMenus(output);
 	output = patchFooterNeighborhoodsSection(output);
+	output = patchFooterCitiesSection(output);
 	output = patchFooterCitiesTitle(output);
 
 	if (output.includes('footer-disclaimer')) {

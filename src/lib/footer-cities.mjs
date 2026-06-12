@@ -13,10 +13,42 @@ export function buildCityPortalUrl(cityName) {
 }
 
 function withCityPortalHref(city) {
+	const subdomain = city.subdomain || slugifyText(city.name).replace(/-/g, '');
+
 	return {
 		...city,
-		href: city.subdomain ? "https://" + city.subdomain + ".vivercatarina.com" : buildCityPortalUrl(city.name),
+		href: `https://${subdomain}.${CITY_PORTAL_DOMAIN}`,
 	};
+}
+
+export function buildFooterCitiesSectionHtml() {
+	const regions = listFooterCitiesByRegion();
+	const regionsHtml = regions
+		.map(({ region, cities }) => {
+			const items = cities
+				.map(({ name, href }) => `<li><a href="${href}">${name}</a></li>`)
+				.join('\n                                ');
+
+			return `                        <div class="footer-cities-region">
+                            <h4 class="footer-cities-region-title">${region}</h4>
+                            <ul class="footer-cities-list">
+                                ${items}
+                            </ul>
+                        </div>`;
+		})
+		.join('\n');
+
+	return `                <section class="footer-cities-section" aria-label="Cidades atendidas">
+            <div class="container">
+                <div class="footer-cities-wrap">
+                    <h3 class="widget_title">Cidades de Santa Catarina</h3>
+                    <div class="footer-cities-regions">
+${regionsHtml}
+                    </div>
+                </div>
+            </div>
+        </section>
+`;
 }
 
 export function listFooterCitiesByRegion() {
