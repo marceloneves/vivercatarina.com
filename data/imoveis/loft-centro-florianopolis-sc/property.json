@@ -1,0 +1,253 @@
+{
+  "id": 24552,
+  "slug": "loft-centro-florianopolis-sc",
+  "title": "Loft duplex, próximo ao Shopping Beira Mar, Centro, Florianópolis",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": null,
+    "display": "R$1,400,000",
+    "amount": 1400000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Luis Delfino, Centro, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "centro",
+      "name": "Centro"
+    }
+  },
+  "overview": {
+    "code": "1668",
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 85.572,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [],
+  "featureSlugs": [
+    "academia",
+    "elevador",
+    "piscina",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p>Loft Duplex | 85,57 m² privativos</p>\n<p>Com planta inteligente e bem distribuída em dois níveis, o loft entrega amplitude, privacidade e funcionalidade:</p>\n<p>Piso inferior</p>\n<p>Amplo living, com excelente espaço para estar e jantar</p>\n<p>Lavabo (mais conforto para receber)</p>\n<p>Cozinha integrada</p>\n<p>Área de serviço</p>\n<p>Piso superior</p>\n<p>1 suíte, garantindo privacidade e rotina mais organizada</p>\n<p>1 vaga de garagem</p>\n<p>Condomínio completo e segurança 24h</p>\n<p>Estrutura que valoriza o dia a dia e fortalece o potencial de locação:</p>\n<p>Portaria 24 horas</p>\n<p>Salão de festas</p>\n<p>Academia</p>\n<p>Piscina</p>\n<p>Playground</p>\n<p>Se você busca um imóvel urbano, com layout moderno e localização estratégica no coração de Florianópolis, este loft duplex entrega exatamente isso: conforto, segurança e liquidez.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-original_ddbfad717c424b310514998d3ac8ed88.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-original_feea33d83975e596c10d9a990bdd0323.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-original_c4c85696cff8197e2642b76939d716ba.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-original_973e88004968a3faf5d8a61113679a9f.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-original_957193c2d27ed6f2a423a21bc7452eb6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-original_2dfcb9fd682fb6c9ed3309c7135648af.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-original_5043c577cd94225e873dfedd19a77f51.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-original_cdaf1b6b2e4b2291fbb426337e120d6a.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-original_784564ebdccc60ad13e46dd2d2fe6766.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-original_373b652675e3dcb28645b26a6aee3913.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-original_de1b32db97b343de128e1b2109d473d6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-original_9c777de6ab494b9737d2e9296ca6592e.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-original_57ff26a4c481cb6acbb856cb7aa02b99.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-original_6321afdf54634bf0c969148f75b9a64e.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-original_a20c0d92d216adf6ccb9ae1d829e2133.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-original_d87016b36a9a0259784c0f4b663f9d94.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-original_9b20146547267b2da48cec0d0a38ea2c.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-79c02fad-73d0-420d-ac1a-3dd4fbe104fe.webp",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-original_070a8fd38de1b699f1af2d3ae3497f97.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-original_d0fed91eb871f9df1411beb855159f51.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-original_1e1341a4a51292240218107529e3f0b5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-original_e1a7a7609863c59991b67a4d87fa51ad.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-original_99aa2a0a861cc2969eaf4d0159790305.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-original_ddbfad717c424b310514998d3ac8ed88-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-original_feea33d83975e596c10d9a990bdd0323-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-original_c4c85696cff8197e2642b76939d716ba-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-original_973e88004968a3faf5d8a61113679a9f-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-original_957193c2d27ed6f2a423a21bc7452eb6-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-original_2dfcb9fd682fb6c9ed3309c7135648af-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/30-original_5043c577cd94225e873dfedd19a77f51-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/31-original_cdaf1b6b2e4b2291fbb426337e120d6a-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/32-original_784564ebdccc60ad13e46dd2d2fe6766-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/33-original_373b652675e3dcb28645b26a6aee3913-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/34-original_de1b32db97b343de128e1b2109d473d6-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/35-original_9c777de6ab494b9737d2e9296ca6592e-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/36-original_57ff26a4c481cb6acbb856cb7aa02b99-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/37-original_6321afdf54634bf0c969148f75b9a64e-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/38-original_a20c0d92d216adf6ccb9ae1d829e2133-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/39-original_d87016b36a9a0259784c0f4b663f9d94-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/40-original_9b20146547267b2da48cec0d0a38ea2c-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/41-79c02fad-73d0-420d-ac1a-3dd4fbe104fe-374x240.webp",
+      "role": "gallery"
+    },
+    {
+      "file": "images/42-original_070a8fd38de1b699f1af2d3ae3497f97-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/43-original_d0fed91eb871f9df1411beb855159f51-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/44-original_1e1341a4a51292240218107529e3f0b5-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/45-original_e1a7a7609863c59991b67a4d87fa51ad-374x240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/46-original_99aa2a0a861cc2969eaf4d0159790305-374x240.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": null,
+  "sourceUrl": "https://lancamentossc.com.br/site/property/loft-centro-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:44:05.702Z",
+  "kind": "apartamento"
+}

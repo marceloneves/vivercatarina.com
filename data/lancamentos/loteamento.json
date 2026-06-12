@@ -1,0 +1,239 @@
+{
+  "kind": "loteamento",
+  "name": "Loteamento",
+  "generatedAt": "2026-05-31T18:41:54.332Z",
+  "total": 21,
+  "properties": [
+    {
+      "slug": "areias-do-leste-barra-da-lagoa-florianopolis-sc",
+      "id": 9379,
+      "title": "Areias do Leste, Barra da Lagoa",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 295000,
+      "dataPath": "imoveis/areias-do-leste-barra-da-lagoa-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/areias-do-leste-barra-da-lagoa-florianopolis-sc/images/01-Capturar2-12.jpg"
+    },
+    {
+      "slug": "bellomonte-ingleses-florianopolis-sc",
+      "id": 15178,
+      "title": "Bellomonte, Ingleses",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 413000,
+      "dataPath": "imoveis/bellomonte-ingleses-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/bellomonte-ingleses-florianopolis-sc/images/01-Captura-de-tela-2025-06-26-154825-1.png"
+    },
+    {
+      "slug": "canas-beach-spot-canasvieiras-florianopolis-sc",
+      "id": 21404,
+      "title": "Canas Beach Spot, Canasvieiras",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 249000,
+      "dataPath": "imoveis/canas-beach-spot-canasvieiras-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/canas-beach-spot-canasvieiras-florianopolis-sc/images/01-Canas-Beach_9-1-scaled.jpg"
+    },
+    {
+      "slug": "jardim-campeche-ribeirao-da-ilha-florianopolis-sc",
+      "id": 5636,
+      "title": "Casa a 200 metros da praia, Jardim Campeche",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 1625000,
+      "dataPath": "imoveis/jardim-campeche-ribeirao-da-ilha-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/jardim-campeche-ribeirao-da-ilha-florianopolis-sc/images/01-WhatsApp-Image-2025-03-14-at-15.01.16-768x1024-1.jpeg"
+    },
+    {
+      "slug": "d-sense-centro-florianopolis-sc",
+      "id": 11878,
+      "title": "D/Sense, alto padrão, Centro, Florianópolis",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 5397000,
+      "dataPath": "imoveis/d-sense-centro-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/d-sense-centro-florianopolis-sc/images/01-1-27.jpg"
+    },
+    {
+      "slug": "d-verse-praia-brava-florianopolis-sc",
+      "id": 11855,
+      "title": "D/Verse, Praia Brava",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 2190000,
+      "dataPath": "imoveis/d-verse-praia-brava-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/d-verse-praia-brava-florianopolis-sc/images/01-1-25.jpg"
+    },
+    {
+      "slug": "edificio-solar-plaza-alto-padrao-no-estreito-florianopolis-sc",
+      "id": 7958,
+      "title": "Edifício Solar Plaza- alto padrão no Estreito",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 1097000,
+      "dataPath": "imoveis/edificio-solar-plaza-alto-padrao-no-estreito-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/edificio-solar-plaza-alto-padrao-no-estreito-florianopolis-sc/images/01-empreendimento_foto_887-1-Copia-Copia-Copia.jpg"
+    },
+    {
+      "slug": "exclusivo-joao-paulo-florianopolis-sc",
+      "id": 14952,
+      "title": "exclusivo, D/Season, João Paulo",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 1960000,
+      "dataPath": "imoveis/exclusivo-joao-paulo-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/exclusivo-joao-paulo-florianopolis-sc/images/01-Captura-de-tela-2025-06-23-180313.png"
+    },
+    {
+      "slug": "imob-jurere-on-jurere-florianopolis-sc",
+      "id": 21468,
+      "title": "Imob Jurerê On, Jurerê, Florianópolis",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 344000,
+      "dataPath": "imoveis/imob-jurere-on-jurere-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/imob-jurere-on-jurere-florianopolis-sc/images/01-Captura-de-tela-2025-10-28-174242-1.jpg"
+    },
+    {
+      "slug": "alto-ribeirao-i-ribeirao-da-ilha-florianopolis-sc",
+      "id": 13204,
+      "title": "Loteamento Alto Ribeirão I",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 650000,
+      "dataPath": "imoveis/alto-ribeirao-i-ribeirao-da-ilha-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/alto-ribeirao-i-ribeirao-da-ilha-florianopolis-sc/images/01-45-1.jpg"
+    },
+    {
+      "slug": "alto-ribeirao-ii-ribeirao-da-ilha-florianopolis-sc",
+      "id": 13325,
+      "title": "Loteamento Alto Ribeirão II",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 750000,
+      "dataPath": "imoveis/alto-ribeirao-ii-ribeirao-da-ilha-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/alto-ribeirao-ii-ribeirao-da-ilha-florianopolis-sc/images/01-WhatsApp-Image-2025-04-30-at-10.42.18-1-2.jpeg"
+    },
+    {
+      "slug": "rio-tavares-florianopolis-sc",
+      "id": 19396,
+      "title": "Loteamento Reserva do Leste, Rio Tavares",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 1800000,
+      "dataPath": "imoveis/rio-tavares-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/rio-tavares-florianopolis-sc/images/01-original_3fddf14053b7a156d902da215683a8c5-1.jpg"
+    },
+    {
+      "slug": "luminae-corrego-grande-florianopolis-sc",
+      "id": 5765,
+      "title": "Luminae, Córrego Grande",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 305000,
+      "dataPath": "imoveis/luminae-corrego-grande-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/luminae-corrego-grande-florianopolis-sc/images/01-7-6.jpg"
+    },
+    {
+      "slug": "maria-francisca-campeche-florianopolis-sc",
+      "id": 9230,
+      "title": "Maria Francisca, no Campeche",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 530000,
+      "dataPath": "imoveis/maria-francisca-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/maria-francisca-campeche-florianopolis-sc/images/01-33.jpg"
+    },
+    {
+      "slug": "pronto-para-morar-centro-florianopolis-sc",
+      "id": 11747,
+      "title": "Pronto para morar, D/Yard, Centro, Florianópolis",
+      "category": "pronto-para-morar",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 3980000,
+      "dataPath": "imoveis/pronto-para-morar-centro-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/pronto-para-morar-centro-florianopolis-sc/images/01-IMG_4088-scaled.jpg"
+    },
+    {
+      "slug": "florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado",
+      "id": 5541,
+      "title": "Sobrado em Condomínio, novo e financiável no Ribeirão da Ilha",
+      "category": "pronto-para-morar",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 895000,
+      "dataPath": "imoveis/florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado/property.json",
+      "thumbnail": "imoveis/florianopolis-ribeirao-da-ilha-florianopolis-sc-sobrado/images/01-634466440882855.jpg"
+    },
+    {
+      "slug": "triplex-em-condominio-fechado-santo-antonio-de-lisboa-florianopolis-sc",
+      "id": 9256,
+      "title": "Triplex em Condomínio fechado, Santo Antônio de Lisboa",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 1370000,
+      "dataPath": "imoveis/triplex-em-condominio-fechado-santo-antonio-de-lisboa-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/triplex-em-condominio-fechado-santo-antonio-de-lisboa-florianopolis-sc/images/01-Capturar3-6.jpg"
+    },
+    {
+      "slug": "upside-ponta-das-canas-florianopolis-sc",
+      "id": 21311,
+      "title": "UpSide, Ponta das Canas, Florianópolis",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 279000,
+      "dataPath": "imoveis/upside-ponta-das-canas-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/upside-ponta-das-canas-florianopolis-sc/images/01-Captura-de-tela-2025-10-27-135605-1.jpg"
+    },
+    {
+      "slug": "verge-campeche-florianopolis-sc",
+      "id": 24314,
+      "title": "Vergê, Campeche",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 1268000,
+      "dataPath": "imoveis/verge-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/verge-campeche-florianopolis-sc/images/01-Captura-de-tela-2026-02-27-150849.png"
+    },
+    {
+      "slug": "vila-mocambique-ingleses-do-rio-vermelho-florianopolis-sc",
+      "id": 25503,
+      "title": "Vila Moçambique, a 50 metros da Praia do Moçambique",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 242000,
+      "dataPath": "imoveis/vila-mocambique-ingleses-do-rio-vermelho-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/vila-mocambique-ingleses-do-rio-vermelho-florianopolis-sc/images/01-Captura-de-tela-2026-05-11-104044-1.jpg"
+    },
+    {
+      "slug": "wall-trindade-florianopolis-sc",
+      "id": 5743,
+      "title": "Wall 134, Trindade",
+      "category": "lancamento",
+      "kind": "loteamento",
+      "city": "florianopolis",
+      "price": 307000,
+      "dataPath": "imoveis/wall-trindade-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/wall-trindade-florianopolis-sc/images/01-ARV-3_2-1.jpg"
+    }
+  ]
+}

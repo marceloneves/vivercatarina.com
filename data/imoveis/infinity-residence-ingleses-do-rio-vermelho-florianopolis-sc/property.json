@@ -1,0 +1,162 @@
+{
+  "id": 18083,
+  "slug": "infinity-residence-ingleses-do-rio-vermelho-florianopolis-sc",
+  "title": "Infinity Residence- Ingleses, Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$807,000",
+    "amount": 807000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "R. Osvaldo Clímaco, no 167/199 - Ingleses do Rio Vermelho,",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ingleses-do-rio-vermelho",
+      "name": "Ingleses do Rio Vermelho"
+    }
+  },
+  "overview": {
+    "code": "1509",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 45.182,
+    "deliveryYear": "2027"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-27",
+      "name": "Dez/27"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "1-dorm-e-1-suite",
+      "name": "2 Dorm (1 Suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "piscina",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Salão de Festas",
+    "Piscina"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 2 ou 3 dormitórios sendo 1 suíte, living integrado, a partir de 45,18m², sacada com churrasqueira e 1 vaga de garagem, a partir de R$ 807.000,00</strong></p>\n<p>Consulte o Fluxo de pagamento</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel de menor valor como parte de pagamento</li>\n<li><em>Valores atualizados em 5/11/2025</em></li>\n</ul>\n<h4 data-start=\"83\" data-end=\"151\"><strong>Apartamentos no Infinity Residence – Ingleses, Florianópolis/SC</strong></h4>\n<p data-start=\"153\" data-end=\"380\">O <strong data-start=\"155\" data-end=\"177\">Infinity Residence</strong> é o lugar ideal para quem busca conforto, lazer e proximidade com o mar. Localizado no bairro Ingleses, a apenas <strong data-start=\"291\" data-end=\"314\">350 metros da praia</strong>, o empreendimento combina praticidade, modernidade e bem-estar.</p>\n<h4 data-start=\"382\" data-end=\"410\"><strong>Tipologias disponíveis</strong></h4>\n<ul data-start=\"411\" data-end=\"555\">\n<li data-start=\"448\" data-end=\"501\">\n<p data-start=\"450\" data-end=\"501\">Apartamentos de <strong data-start=\"466\" data-end=\"483\">2 dormitórios</strong> (sendo 1 suíte)</p>\n</li>\n<li data-start=\"502\" data-end=\"555\">\n<p data-start=\"504\" data-end=\"555\">Apartamentos de <strong data-start=\"520\" data-end=\"537\">3 dormitórios</strong> (sendo 1 suíte)</p>\n</li>\n</ul>\n<h4 data-start=\"557\" data-end=\"592\">Diferenciais dos apartamentos</h4>\n<ul data-start=\"593\" data-end=\"621\">\n<li data-start=\"593\" data-end=\"621\">\n<h5 data-start=\"595\" data-end=\"621\"><strong>Sacada com churrasqueira</strong></h5>\n</li>\n</ul>\n<h4 data-start=\"623\" data-end=\"659\">Diferenciais do empreendimento</h4>\n<ul data-start=\"660\" data-end=\"791\">\n<li data-start=\"660\" data-end=\"678\">\n<p data-start=\"662\" data-end=\"678\">Espaço gourmet</p>\n</li>\n<li data-start=\"679\" data-end=\"690\">\n<p data-start=\"681\" data-end=\"690\">Piscina</p>\n</li>\n<li data-start=\"691\" data-end=\"710\">\n<p data-start=\"693\" data-end=\"710\">Salão de festas</p>\n</li>\n<li data-start=\"711\" data-end=\"723\">\n<p data-start=\"713\" data-end=\"723\">Elevador</p>\n</li>\n<li data-start=\"724\" data-end=\"791\">\n<p data-start=\"726\" data-end=\"791\">Localização privilegiada, próximo à praia e comércios da região</p>\n</li>\n</ul>\n<h4 data-start=\"793\" data-end=\"821\">Viver bem nos Ingleses</h4>\n<p data-start=\"822\" data-end=\"1029\">Com um projeto pensado para quem deseja morar ou investir em uma das regiões mais valorizadas do norte da Ilha, o <strong data-start=\"936\" data-end=\"958\">Infinity Residence</strong> proporciona qualidade de vida e momentos inesquecíveis junto ao mar.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-7-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-8-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-6-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-9-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-24.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-22.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-21.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-2-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-3-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-4-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-10-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-20.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-11-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-12-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-13-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-15-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-16.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-17.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-19.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Capturar-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-14-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-18.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-23.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/infinity-residence-ingleses-do-rio-vermelho-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:38.708Z",
+  "kind": "apartamento"
+}

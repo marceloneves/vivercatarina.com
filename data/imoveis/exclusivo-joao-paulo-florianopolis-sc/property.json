@@ -1,0 +1,202 @@
+{
+  "id": 14952,
+  "slug": "exclusivo-joao-paulo-florianopolis-sc",
+  "title": "exclusivo, D/Season, João Paulo",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,960,000",
+    "amount": 1960000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rodovia João Paulo, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "joao-paulo",
+      "name": "João Paulo"
+    }
+  },
+  "overview": {
+    "code": "1394",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "garages": null,
+    "sizeSqm": 1012,
+    "deliveryYear": "Ago/2029"
+  },
+  "types": [
+    {
+      "slug": "frente-mar",
+      "name": "Frente mar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "ago-29",
+      "name": "Ago/29"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-3-e-4-suites",
+      "name": "2 3 e 4 suítes"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "churrasqueira",
+    "coworking",
+    "espaco-gourmet",
+    "piscina",
+    "piscina-aquecida",
+    "playground",
+    "praca-de-fogo",
+    "quintal",
+    "sala-de-jogos",
+    "salao-de-festas",
+    "aauna",
+    "spa"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Sauna",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Sala de Jogos",
+    "Playground",
+    "Coworking",
+    "Quintal",
+    "Espaço Gourmet",
+    "Brinquedoteca",
+    "Piscina Aquecida",
+    "Praça de fogo",
+    "Spa"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 2 suítes, lavabo, sacada com churrasqueira, 101 m² a partir de R$ 1.960.000,00</strong></p>\n<p><strong>Apartamentos Garden com 2 dormitórios sendo 1 suíte, 189m², lavabo, churrasqueira a partir de R$ 2.857.000,00</strong></p>\n<p><strong>Apartamentos Garden com 3 suítes, lavabo, churrasqueira, 208m² a partir de R$ 4.066.000,00</strong></p>\n<p><strong>Apartamentos com 3 suítes, lavabo, 157m² a 192m², churrasqueira a partir de R$ 3.744.000,00</strong></p>\n<p>Os apartamentos variam de 2 dormitórios e 2 a 4 suítes, com metragens de 93m² a 244m². Apartamentos garden com até 438m² e coberturas com até 415m².</p>\n<p>Entrada + parcelas + reforços + chaves + financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Aceita imóvel de menor valor</li>\n<li><em>Valores atualizados em 05/02/2026</em></li>\n</ul>\n<p data-start=\"259\" data-end=\"339\"><strong data-start=\"259\" data-end=\"339\">D/Season Residence Club – Lançamento frente-mar no João Paulo, Florianópolis</strong></p>\n<p data-start=\"341\" data-end=\"670\">O D/Season Residence Club é o primeiro resort urbano de Florianópolis, um lançamento icônico à beira-mar no bairro João Paulo, assinado pela Dimas Construções. Localizado no terreno do antigo Hotel Maria do Mar, o projeto reúne o melhor da sofisticação, bem-estar e praticidade urbana em um dos endereços mais exclusivos da Ilha.</p>\n<p data-start=\"672\" data-end=\"883\">Com arquitetura contemporânea, paisagismo sensorial e design de interiores voltado ao conforto, o D/Season oferece um novo estilo de viver — com o charme de um resort, mas com a funcionalidade da vida na cidade.</p>\n<p data-start=\"885\" data-end=\"917\"><strong data-start=\"885\" data-end=\"917\">Destaques do Empreendimento:</strong></p>\n<ul data-start=\"918\" data-end=\"1270\">\n<li data-start=\"918\" data-end=\"967\">\n<p data-start=\"920\" data-end=\"967\">Frente-mar com vista panorâmica da Baía Norte</p>\n</li>\n<li data-start=\"968\" data-end=\"1050\">\n<p data-start=\"970\" data-end=\"1050\">Apartamentos com 2, 3 e 4 suítes, incluindo gardens e coberturas com até 415m²</p>\n</li>\n<li data-start=\"1051\" data-end=\"1141\">\n<p data-start=\"1053\" data-end=\"1141\">Varanda gourmet e amplas aberturas para valorização da iluminação e ventilação natural</p>\n</li>\n<li data-start=\"1142\" data-end=\"1182\">\n<p data-start=\"1144\" data-end=\"1182\">Arquitetura por Nelson Teixeira Neto</p>\n</li>\n<li data-start=\"1183\" data-end=\"1226\">\n<p data-start=\"1185\" data-end=\"1226\">Interiores assinados por Beatriz Zeglin</p>\n</li>\n<li data-start=\"1227\" data-end=\"1270\">\n<p data-start=\"1229\" data-end=\"1270\">Paisagismo integrado à vegetação nativa</p>\n</li>\n</ul>\n<p data-start=\"1272\" data-end=\"1312\"><strong data-start=\"1272\" data-end=\"1312\">Infraestrutura de lazer e bem-estar:</strong></p>\n<ul data-start=\"1313\" data-end=\"1683\">\n<li data-start=\"1313\" data-end=\"1368\">\n<p data-start=\"1315\" data-end=\"1368\">Piscinas (aquecida, com prainha e vista para o mar)</p>\n</li>\n<li data-start=\"1369\" data-end=\"1411\">\n<p data-start=\"1371\" data-end=\"1411\">Spa, sauna, sala de massagem e redário</p>\n</li>\n<li data-start=\"1412\" data-end=\"1433\">\n<p data-start=\"1414\" data-end=\"1433\">Academia completa</p>\n</li>\n<li data-start=\"1434\" data-end=\"1476\">\n<p data-start=\"1436\" data-end=\"1476\">Espaços gourmet, wine bar e sports bar</p>\n</li>\n<li data-start=\"1477\" data-end=\"1504\">\n<p data-start=\"1479\" data-end=\"1504\">Coworking e espaço kids</p>\n</li>\n<li data-start=\"1505\" data-end=\"1536\">\n<p data-start=\"1507\" data-end=\"1536\">Guest house para visitantes</p>\n</li>\n<li data-start=\"1537\" data-end=\"1627\">\n<p data-start=\"1539\" data-end=\"1627\">Estrutura para esportes náuticos com trapiche flutuante e vagas para caiaque e jet ski</p>\n</li>\n<li data-start=\"1628\" data-end=\"1683\">\n<p data-start=\"1630\" data-end=\"1683\">Área de convivência com jardins em múltiplos níveis</p>\n</li>\n</ul>\n<p data-start=\"1685\" data-end=\"1713\"><strong data-start=\"1685\" data-end=\"1713\">Localização estratégica:</strong></p>\n<ul data-start=\"1714\" data-end=\"1879\">\n<li data-start=\"1714\" data-end=\"1740\">\n<p data-start=\"1716\" data-end=\"1740\">Acesso direto à SC-401</p>\n</li>\n<li data-start=\"1741\" data-end=\"1829\">\n<p data-start=\"1743\" data-end=\"1829\">Próximo ao centro de Florianópolis e ao polo gastronômico de Santo Antônio de Lisboa</p>\n</li>\n<li data-start=\"1830\" data-end=\"1879\">\n<p data-start=\"1832\" data-end=\"1879\">Fácil ligação com praias do norte e aeroporto</p>\n</li>\n</ul>\n<p data-start=\"1881\" data-end=\"2029\">O D/Season é muito mais que um empreendimento: é um convite para redescobrir o tempo, valorizar momentos e viver com exclusividade em frente ao mar.</p>\n<p data-start=\"2031\" data-end=\"2122\"><strong data-start=\"2031\" data-end=\"2122\">Cadastre-se para mais informações e descubra as condições exclusivas de pré-lançamento.</strong></p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2025-06-23-180313.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Captura-de-tela-2025-06-23-180247.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Captura-de-tela-2025-06-23-180345.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Captura-de-tela-2025-06-23-180407.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2025-06-23-180433.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Captura-de-tela-2025-06-23-180604.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Captura-de-tela-2025-06-23-180644.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Captura-de-tela-2025-06-23-180701.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Captura-de-tela-2025-06-23-180721.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Captura-de-tela-2025-06-23-180855.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Captura-de-tela-2025-06-23-180917.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Captura-de-tela-2025-06-23-180936.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Captura-de-tela-2025-06-23-180951.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Captura-de-tela-2025-06-23-181014.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Captura-de-tela-2025-06-23-181031.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Captura-de-tela-2025-06-23-181052.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Captura-de-tela-2025-06-23-181116.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Captura-de-tela-2025-06-23-181129.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Captura-de-tela-2025-06-23-181145.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Captura-de-tela-2025-06-23-181219.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Captura-de-tela-2025-06-23-181236.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Captura-de-tela-2025-06-23-181252.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Captura-de-tela-2025-06-23-181311.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-fachada-02-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-fachada-03.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-fachada-04.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-gourmet-season.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/exclusivo-joao-paulo-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:33.993Z",
+  "kind": "loteamento"
+}

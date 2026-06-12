@@ -1,0 +1,156 @@
+{
+  "id": 16060,
+  "slug": "florianopolis-estreito-florianopolis-sc",
+  "title": "Apartamento semimobiliado no Estreito",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": null,
+    "display": "R$1,790,000",
+    "amount": 1790000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Marechal Hermes, 121, Estreito, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "estreito",
+      "name": "Estreito"
+    }
+  },
+  "overview": {
+    "code": "1435",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "garages": 2,
+    "sizeSqm": 1152,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "3-dorm",
+      "name": "3 dorm (1 suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "churrasqueira",
+    "elevador",
+    "espaco-gourmet",
+    "piscina",
+    "sala-de-jogos"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Piscina",
+    "Sala de Jogos",
+    "Espaço Gourmet",
+    "Brinquedoteca",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p>Apartamento com vista para o mar no Estreito – Florianópolis/SC<br />\nAmplo, semimobiliado e com infraestrutura completa!</p>\n<p>Localizado em uma das regiões mais estratégicas de Florianópolis, este lindo apartamento no bairro Estreito oferece vista para o mar, espaços amplos e um condomínio completo para toda a família. Perfeito para quem busca conforto, praticidade e um excelente padrão de acabamento.</p>\n<p>📐 Detalhes do imóvel:</p>\n<p>115m² de área privativa</p>\n<p>3 dormitórios, sendo 1 suíte + 2 demi-suítes</p>\n<p>Lavabo</p>\n<p>Ampla sala de estar e jantar</p>\n<p>Sacada com churrasqueira a carvão e vista mar</p>\n<p>Cozinha com móveis planejados</p>\n<p>Área de serviço separada</p>\n<p>Semimobiliado com móveis sob medida</p>\n<p>2 vagas de garagem + hobby box</p>\n<p>🏢 Infraestrutura do edifício:</p>\n<p>Espaço gourmet</p>\n<p>Piscina</p>\n<p>Academia</p>\n<p>Sala de jogos</p>\n<p>Playground</p>\n<p>Brinquedoteca</p>\n<p>A localização no Estreito oferece fácil acesso ao Centro da cidade, à Beira-Mar Continental, escolas, supermercados, farmácias e comércio em geral.</p>\n<p>🌅 Um apartamento completo, com vista para o mar e estrutura de lazer para toda a família!</p>\n<p>Entre em contato e agende sua visita.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-i3d7x25_11414961702ac2eb650.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-i3d7x25_11414961702ae74e175.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-original_494d5e79ba7963296a3c9f7bef8c122d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-original_b1923672e545017a1a739439b3611f5a.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-original_6f8d6fc385d41e12b64b2071815d24e7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-original_372c832f3b6a3f2aec7c37ea700d7477.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-original_e16b2f9f7f9390915c6bf2df5ca1d9c6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-original_b360ae443a662310f2f2db3d9a81b8f2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-original_a7b2a67e803e7fe6e01b9097b2102a75.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-original_a5c7b82b3994f615407cfab2f9adc56a.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-original_38574d2adcb6a4ff4cee0c28518f08ea.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-original_9682aedc8d58d003434ca493c348f3a3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-original_68fa012f5f35a0610884296286cb8cd1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-i3d7x25_11414961702b096cd82.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-i3d7x25_11414961702aff88ddf.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-i3d7x25_11414961702afa1c2b3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-i3d7x25_11414961702adf4820e.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-i3d7x25_11414961702ad0ba183.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-i3d7x25_11414961702ab383059.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/florianopolis-estreito-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:50.094Z",
+  "kind": "apartamento"
+}

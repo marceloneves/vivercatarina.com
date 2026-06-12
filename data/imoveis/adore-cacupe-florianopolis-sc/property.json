@@ -1,0 +1,145 @@
+{
+  "id": 15436,
+  "slug": "adore-cacupe-florianopolis-sc",
+  "title": "Adore Cacupé",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$792,200",
+    "amount": 792200,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Estrada Haroldo Soares Glavan, no 194",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "cacupe",
+      "name": "Cacupé"
+    }
+  },
+  "overview": {
+    "code": "1411",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "garages": 1,
+    "sizeSqm": 57.212,
+    "deliveryYear": "2028"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "jun-28",
+      "name": "Jun/28"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-dormitorios",
+      "name": "2 Dormitórios"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "churrasqueira",
+    "co-working",
+    "elevador",
+    "espaco-gourmet",
+    "lavanderia",
+    "mini-market",
+    "piscina"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Lavanderia",
+    "Academia",
+    "Piscina",
+    "Co Working",
+    "Espaço Gourmet",
+    "Brinquedoteca",
+    "Mini-market",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 2 dormitórios, 57,21 m² de área privativa, sacada com churrasqueira, vaga de garagem a partir de R$ 792.200,00 (Apto 207) somente para Fluxo investidor = Entrada +31 parcelas + reforços semestrais (5x)</strong></p>\n<p>Ou R$ 1.056.265,00 com entrada mais parcelas (25) + reforços semestrais (4x) + financiamento bancário</p>\n<p><strong>Apartamento com 3 dormitórios sendo 1 suíte, 104,13 m² de área privativa, sacada com churrasqueira, vaga dupla de garagem e hobby box, a partir de R$ 1.169.600,00 (Apto 301) somente para Fluxo investidor = Entrada +31 parcelas + reforços semestrais (5x)</strong></p>\n<p>Ou R$ 1.559.540,00 com entrada mais parcelas (25) + reforços semestrais (4x) + financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 25/05/2026</em></li>\n</ul>\n<hr />\n<h4><strong>Adore Cacupé – Viver o Exclusivo em Florianópolis/SC</strong></h4>\n<p>Bem-vindo ao <strong>Adore Cacupé</strong>, um empreendimento contemporâneo e sofisticado no charmoso bairro Cacupé, em Florianópolis. Com uma proposta arquitetônica que une conforto, tecnologia e integração com a natureza, o Adore oferece plantas versáteis — incluindo unidades com acessibilidade, apartamentos Garden e coberturas — ideal para diferentes estilos de vida.</p>\n<p><strong>Destaques do empreendimento:</strong></p>\n<ul>\n<li>Várias opções de plantas, incluindo unidade com acessibilidade</li>\n<li>Apartamentos Garden com áreas externas privativas</li>\n<li>Coberturas exclusivas com vistas privilegiadas</li>\n<li>Fechaduras digitais nos apartamentos</li>\n<li>Persianas elétricas nos dormitórios</li>\n<li>Smart Lockers para recebimento de encomendas</li>\n<li>Sistema de reuso de água nas áreas comuns</li>\n<li>Reconhecimento facial nos acessos principais</li>\n<li>Sistema de CFTV (circuito fechado de câmeras)</li>\n<li>Wi-Fi de alta velocidade nas áreas comuns</li>\n<li>Estações para carregamento de veículos elétricos</li>\n</ul>\n<p><strong>Lazer, conforto e funcionalidade:</strong></p>\n<ul>\n<li>Piscina</li>\n<li>Academia equipada</li>\n<li>Coworking com sala de reuniões privativa</li>\n<li>Espaço kids</li>\n<li>Espaço gourmet</li>\n<li>Terraço panorâmico</li>\n</ul>\n<p><strong>Localização estratégica:</strong><br />\nMorar no Adore Cacupé é estar cercado pela natureza e, ao mesmo tempo, próximo dos principais centros comerciais da cidade:</p>\n<ul>\n<li>700m do Square SC – <strong>2 minutos</strong></li>\n<li>1,9 km do Passeio Primavera – <strong>3 minutos</strong></li>\n<li>3,8 km do Floripa Shopping – <strong>5 minutos</strong></li>\n<li>8,9 km do Shopping Iguatemi – <strong>9 minutos</strong></li>\n<li>8,6 km da Av. Beira-Mar – <strong>8 minutos</strong></li>\n<li>10,5 km do Beiramar Shopping – <strong>11 minutos</strong></li>\n</ul>\n<p><strong>Um projeto completo, para quem valoriza qualidade de vida, mobilidade e alto padrão.</strong></p>\n<p>Agende sua visita e venha conhecer o novo conceito de morar bem em Florianópolis.</p>",
+  "floorPlans": [
+    {
+      "title": "Floor 1",
+      "image": "images/14-Planta-tipo-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-1-20.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-2-17.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-8-13.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-7-12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-3-16.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-5-15.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-6-13.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-11-12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-12-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-13-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-10-12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-9-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-4-15.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Planta-tipo-3.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/adore-cacupe-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:00.888Z",
+  "kind": "apartamento"
+}

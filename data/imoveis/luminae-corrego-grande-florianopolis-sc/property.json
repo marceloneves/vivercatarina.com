@@ -1,0 +1,185 @@
+{
+  "id": 5765,
+  "slug": "luminae-corrego-grande-florianopolis-sc",
+  "title": "Luminae, Córrego Grande",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$305,000",
+    "amount": 305000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Córrego Grande, Florianópolis",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "corrego-grande",
+      "name": "Córrego Grande"
+    }
+  },
+  "overview": {
+    "code": "1018",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 27.412,
+    "deliveryYear": "Jul/28"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-28",
+      "name": "Dez/28"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios-1-e-2-dorm",
+      "name": "Studios 1 e 2 dorm."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "bicicletario",
+    "coworking",
+    "espaco-gourmet",
+    "lavanderia"
+  ],
+  "features": [
+    "Lavanderia",
+    "Academia",
+    "Coworking",
+    "Espaço Gourmet",
+    "Bicicletário"
+  ],
+  "descriptionHtml": "<p><strong>Studios a partir de R$ 309.000,00  ( Studio 213)</strong></p>\n<p><strong>Studio com terraço 35,06m²,a partir de R$ 415.000,00 (Studio 601)</strong></p>\n<p><strong>Loft 1 suíte com 39,09m² a partir de R$ 436.000,00 ( Loft 513)</strong></p>\n<p><strong>Apartamento com 1 dormitório, 47,15m² a partir de R$ 465.000,00 (Apto 101)</strong></p>\n<p><strong>Loft 2 quartos sendo 1 suíte mezanino a partir de R$ 699.000,00 (Loft 517)</strong></p>\n<p><strong>OBS: Vagas de garagem vendidas separadamente a partir de R$ 71.000,00</strong></p>\n<p>Entrada  +  parcelas + reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel/terreno ou veículo como parte de pagamento.</li>\n<li><em>Valores atualizados em 03/03/2026</em></li>\n</ul>\n<p>Empreendimento, localizado no Córrego Grande, uma das regiões mais valorizadas de Florianópolis, oferece apartamentos tipo garden, studios e lofts, com plantas inteligentes e modernas. Próximo ao Parque Linear e à UFSC, o empreendimento une tranquilidade e praticidade, sendo ideal tanto para morar quanto para investir.</p>\n<p>Com uma localização privilegiada, este é um excelente investimento devido à alta demanda por locação na região, especialmente por sua proximidade com a universidade e demais serviços da cidade.</p>\n<p><strong>Qualidade e Confiança na Modalidade SPE</strong></p>\n<p>Construído na modalidade SPE (Sociedade de Propósito Específico), o empreendimento é assinado por uma construtora especializada nesse modelo, com um histórico sólido de vários empreendimentos entregues e em andamento. Essa expertise garante a segurança e a qualidade na entrega, com cada detalhe executado com os mais altos padrões de construção e acabamento.</p>\n<p>Aproveite a oportunidade de adquirir um imóvel em uma área de grande valorização, perfeita para quem busca qualidade de vida e rentabilidade.</p>",
+  "floorPlans": [
+    {
+      "title": "Studio",
+      "image": "images/20-planta-tipo-2.jpg"
+    },
+    {
+      "title": "Garden",
+      "image": "images/21-planta-3-garden.jpg"
+    },
+    {
+      "title": "Loft",
+      "image": "images/22-planta-lofts.jpg"
+    },
+    {
+      "title": "Mezanino Loft",
+      "image": "images/23-Planta-mezanino.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-7-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-2-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-3-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-4-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-5-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-6-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-8-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-9-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-10-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-11-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-12-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-13-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-14-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-15.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-planta-cobertura-.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-planta-garden.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-planta-lofts-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-planta-mezanino-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-planta-tipo-2-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-planta-tipo-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-planta-3-garden.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-planta-lofts.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Planta-mezanino.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/luminae-corrego-grande-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:58.164Z",
+  "kind": "loteamento"
+}

@@ -1,0 +1,223 @@
+{
+  "id": 25749,
+  "slug": "frances-em-condominio-fechado-em-rio-vermelho-florianopolis-sc",
+  "title": "Francês 11- Casa em condomínio fechado em Florianópolis",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$2,600,000",
+    "amount": 2600000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Av. Red Park, 980, Condomínio Ilha Do Francês, São João do Rio Vermelho, Florianópolis - SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "rio-vermelho",
+      "name": "Rio Vermelho"
+    }
+  },
+  "overview": {
+    "code": "1706",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "garages": 4,
+    "sizeSqm": 2612,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "4-suites",
+      "name": "4 Suítes"
+    }
+  ],
+  "featureSlugs": [
+    "piscina",
+    "playground",
+    "quadra-de-esportes",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Quadra de esportes",
+    "Salão de Festas",
+    "Piscina",
+    "Playground"
+  ],
+  "descriptionHtml": "<p><strong>Casa à venda com arquitetura e acabamentos de alto padrão</strong><br />\n<strong>com 4 suítes em condomínio fechado | R$ 2.600.000,00</strong></p>\n<p><strong>4 suítes e 4 vagas de garagem (2 cobertas + 2 descobertas) + hobby box</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio</em></li>\n<li><em>Condições de pagamento flexível</em></li>\n<li><em>Valores atualizados em 26/05/2026</em></li>\n</ul>\n<p>Casa contemporânea de alto padrão no condomínio fechado Ilha do Francês – Red Park</p>\n<p>Viva com exclusividade, sofisticação e conforto em uma residência pensada para oferecer funcionalidade, elegância e excelente aproveitamento dos espaços. Localizada no condomínio Ilha do Francês, dentro do residencial Red Park, esta casa impressiona pelo projeto contemporâneo, acabamentos premium e ambientes amplos com ótima iluminação natural.</p>\n<p>Com 423 m² de área privativa total, sendo 261 m² de área construída e 162 m² de jardim privativo, o imóvel possui posição solar frente leste e conta com 4 suítes distribuídas em dois pavimentos.</p>\n<p>No pavimento térreo, a residência oferece sala de estar com pé-direito duplo, cozinha integrada à sala de jantar com ilha e móveis sob medida, lavabo, ampla área de serviço, área gourmet com churrasqueira brasileira e espaço preparado para parrilla argentina/uruguaia, jardim privativo, lavabo externo, chuveiros externos na frente e nos fundos, além de uma suíte ideal para acessibilidade, com porta de 90 cm. A garagem comporta até 4 veículos, sendo 2 vagas cobertas e 2 descobertas, além de hobby box.</p>\n<p>No pavimento superior, estão localizadas 3 suítes, incluindo uma suíte master com closet, sacada e banheiro com duas cubas e dois chuveiros. O terraço proporciona um espaço perfeito para contemplar o pôr do sol.</p>\n<p>A casa será entregue com móveis sob medida na cozinha, área gourmet, banheiros e lavabos, além de acabamentos de alto padrão em todos os ambientes:</p>\n<ul>\n<li>Porcelanato premium Portobello Shop 90&#215;90</li>\n<li>Revestimento em pedra natural na fachada, fundos e área gourmet</li>\n<li>Esquadrias de alumínio preto de alto padrão</li>\n<li>Persianas elétricas nas suítes</li>\n<li>Portas externas revestidas em ACM</li>\n<li>Portas internas Pormade com enchimento sólido</li>\n<li>Rodapés Pormade em PVC</li>\n<li>Guarda-corpos em vidro</li>\n<li>Escada revestida em porcelanato</li>\n<li>Esperas para ar-condicionado em todos os ambientes</li>\n<li>Boiler com aquecimento solar instalado</li>\n<li>Forro em gesso</li>\n<li>Box de vidro até o teto nos banheiros</li>\n<li>Louças e metais Deca e Docol</li>\n<li>Fogão Fischer linha premium</li>\n<li>Coifa de ilha Franke</li>\n<li>Instalação elétrica com cabos Corfio antichama</li>\n<li>Pintura interna Suvinil Fosco Completo</li>\n</ul>\n<p>O condomínio oferece infraestrutura completa de lazer e segurança:</p>\n<ul>\n<li>Piscina adulto e infantil</li>\n<li>Salão de festas equipado com terraço</li>\n<li>Quadra de esportes</li>\n<li>Playground</li>\n<li>Cabeamento subterrâneo</li>\n<li>Estação de tratamento de esgoto</li>\n<li>Portaria virtual por aplicativo</li>\n<li>Monitoramento CFTV 24 horas</li>\n</ul>\n<p>Imóvel com Escritura Pública e apto para financiamento bancário.</p>\n<p>Uma residência exclusiva para quem busca alto padrão, conforto e qualidade de vida em um dos condomínios mais desejados da região.</p>",
+  "floorPlans": [
+    {
+      "title": "Floor 1",
+      "image": "images/36-Foto-36.png"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-Foto-01-1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Foto-02-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Foto-03-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Foto-27-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Foto-28-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Foto-29-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Foto-04-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Foto-05-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Foto-06-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Foto-07-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Foto-08-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Foto-09-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Foto-10-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Foto-11-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Foto-12-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Foto-13-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Foto-14-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Foto-15-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Foto-16-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Foto-17-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Foto-18-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Foto-19-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Foto-20-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-Foto-21-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-Foto-22-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-Foto-23-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-Foto-24-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-Foto-25-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-Foto-26-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/30-Foto-30-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/31-Foto-31-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/32-Foto-32-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/33-Foto-33-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/34-Foto-34-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/35-Foto-35.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/36-Foto-36.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/frances-em-condominio-fechado-em-rio-vermelho-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:58.236Z",
+  "kind": "casa"
+}

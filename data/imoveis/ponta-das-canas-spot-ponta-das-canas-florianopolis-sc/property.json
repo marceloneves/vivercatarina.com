@@ -1,0 +1,172 @@
+{
+  "id": 17157,
+  "slug": "ponta-das-canas-spot-ponta-das-canas-florianopolis-sc",
+  "title": "Ponta das Canas Spot",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$230,000",
+    "amount": 230000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Av. Luiz Boiteux Piazza, 5573, Ponta das Canas, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ponta-das-canas",
+      "name": "Ponta das Canas"
+    }
+  },
+  "overview": {
+    "code": "1476",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 17.352,
+    "deliveryYear": "Abr/30"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "abr-30",
+      "name": "Abr/30"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "elevador",
+    "espaco-gourmet",
+    "mini-market",
+    "piscina-aquecida",
+    "rooftop"
+  ],
+  "features": [
+    "Espaço Gourmet",
+    "Piscina Aquecida",
+    "Mini-market",
+    "Elevador",
+    "Rooftop"
+  ],
+  "descriptionHtml": "<p>Studios com metragens de 17,35m² a 32,49m², opçãoes com e sem sacada a partir de R$ 230.000,00</p>\n<p>Entrada + parcelas + reforços.</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 20/05/2026</em></li>\n</ul>\n<p>🌊 Empreendimento Pé na Areia em Ponta das Canas – Florianópolis/SC<br />\nConstruído na modalidade SPE (Sociedade de Propósito Específico), ideal para investidores que buscam alta rentabilidade e baixo custo operacional em locações por diárias e temporada.</p>\n<p>🏖️ Destaques do Empreendimento<br />\nLocalizado frente ao mar, com acesso direto à praia de Ponta das Canas</p>\n<p>Apartamentos tipo studio, com perfil ideal para aluguel de temporada</p>\n<p>Condições de pagamento facilitadas, com modelo construído a preço de custo, permitindo maior margem de valorização<br />\nProjeto executado por empresa especializada em SPEs, com histórico de obras entregues e foco em rentabilidade</p>\n<p>💡 Vantagens para Investidores<br />\nMáxima rentabilidade com rendimento previsto superior a 50% em relação ao mercado</p>\n<p>Modelo transparente e robusto, onde você paga apenas pelo custo real da obra, com gestão profissional e sem taxas ocultas<br />\nBaixo custo operacional e valorização acelerada em região altamente demandada por turistas e locações</p>\n<p>🧱 Infraestrutura e Lazer<br />\nPiscina aquecida e com borda infinita e rooftop com lounge, solarium e espaço gourmet</p>\n<p>Estrutura moderna com projeto sustentável 🌱 e reaproveitamento de água</p>\n<p>Tecnologia construtiva de alto padrão, utilizando materiais e fornecedores renomados</p>\n<p>✅ Por que escolher este empreendimento?<br />\nLocalização privilegiada: pé na areia em Ponta das Canas, uma das praias mais procuradas da ilha</p>\n<p>Perfeito para locação, tanto por temporada quanto de curta duração</p>\n<p>Investimento acessível e seguro, com potencial de valorização garantido</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Copia-de-Ponta-das-Canas_06-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Copia-de-Ponta-das-Canas_05-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Copia-de-Ponta-das-Canas_02-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-e7728afb-c88f-4822-b5e7-fe10581a0ef9-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Copia-de-Ponta-das-Canas_11-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Principal-05-Localizacao-do-terreno.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-b420cf07-4052-46c7-aca8-1338f184d77c.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-79e94fe9-4e74-4d23-a3af-3d86b368d035.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-324e1b02-2975-438e-9e0c-fdf16e121811.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Captura-de-tela-2025-07-30-160957.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-c1ae85fa-461a-4ba2-b2a0-f97f859339d2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-e7df1ed6-7688-4319-a8dc-a95c1534628a.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Rooftop-Imagem-11.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Rooftop-Imagem-10.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Rooftop-Imagem-09.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Rooftop-Imagem-08.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Rooftop-Imagem-05.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Rooftop-Imagem-04.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Rooftop-Imagem-03.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Recepcao-Imagem-05.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Copia-de-Ponta-das-Canas_10-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Copia-de-Ponta-das-Canas_09-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Captura-de-tela-2025-07-30-151346.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-Captura-de-tela-2025-07-30-151222.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/ponta-das-canas-spot-ponta-das-canas-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:48.418Z",
+  "kind": "apartamento"
+}

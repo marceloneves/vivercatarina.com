@@ -1,0 +1,30 @@
+{
+  "slug": "santamonica",
+  "name": "Santa Mônica",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-31T18:41:54.268Z",
+  "total": 2,
+  "properties": [
+    {
+      "slug": "edificio-santa-monica-florianopolis-sc",
+      "id": 12556,
+      "title": "Edifício SANTA 4, Santa Mônica",
+      "category": "lancamento",
+      "price": 321000,
+      "dataPath": "imoveis/edificio-santa-monica-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/edificio-santa-monica-florianopolis-sc/images/01-33.jpg"
+    },
+    {
+      "slug": "reserva-santa-monica-florianopolis-sc",
+      "id": 21433,
+      "title": "Reserva Santa Mônica, Florianópolis",
+      "category": "lancamento",
+      "price": 1690000,
+      "dataPath": "imoveis/reserva-santa-monica-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/reserva-santa-monica-florianopolis-sc/images/01-Titulo.png"
+    }
+  ]
+}

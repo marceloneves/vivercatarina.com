@@ -1,0 +1,159 @@
+{
+  "id": 15685,
+  "slug": "edificio-in-haus-estreito-florianopolis-sc",
+  "title": "Edifício In Haus, Estreito, Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$837,000",
+    "amount": 837000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Afonso Pena",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "estreito",
+      "name": "Estreito"
+    }
+  },
+  "overview": {
+    "code": "1424",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 75.272,
+    "deliveryYear": "2028"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-28",
+      "name": "Dez/28"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "1-dorm-e-1-suite",
+      "name": "2 Dorm (1 Suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "churrasqueira",
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "mini-market",
+    "piscina",
+    "playground",
+    "quintal",
+    "sala-de-jogos",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Sala de Jogos",
+    "Playground",
+    "Coworking",
+    "Quintal",
+    "Espaço Gourmet",
+    "Brinquedoteca",
+    "Mini-market",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 2  e 3 dormitórios ( 1 suíte) lavabo, sacada com churrasqueira, 1  e 2  vagas de garagem + hobby box, a partir de R$ 837.000,00 (707)</strong></p>\n<p><strong>Apartamento garden, 124,71m² de área privativa, com 3 dormitórios ( 1 suíte), lavabo, 1 vaga de garagem + hobby box, sacada com churrasqueira, a partir de R$ 1.275.000,00 (301)</strong></p>\n<p>Entrada 15 + parcelas + reforços, ou entrada + financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel ou veículo de menor valor.</li>\n<li><em>Valores atualizados em 26/11/2025</em></li>\n</ul>\n<h4 data-start=\"163\" data-end=\"238\">In Haus – Seu novo estilo de viver no Estreito, em Florianópolis/SC</h4>\n<p data-start=\"240\" data-end=\"452\">Descubra o equilíbrio perfeito entre modernidade, sustentabilidade e conforto no In Haus, um empreendimento inovador no coração do Estreito, um dos bairros mais completos e bem localizados da capital catarinense.</p>\n<p data-start=\"454\" data-end=\"543\">O <strong data-start=\"456\" data-end=\"467\">In Haus</strong> oferece diversas opções de plantas para atender diferentes estilos de vida:</p>\n<ul data-start=\"545\" data-end=\"763\">\n<li data-start=\"545\" data-end=\"598\">\n<p data-start=\"547\" data-end=\"598\"><strong data-start=\"547\" data-end=\"580\">Apartamentos de 2 dormitórios</strong>, sendo 1 suíte;</p>\n</li>\n<li data-start=\"599\" data-end=\"652\">\n<p data-start=\"601\" data-end=\"652\"><strong data-start=\"601\" data-end=\"634\">Apartamentos de 3 dormitórios</strong>, sendo 1 suíte;</p>\n</li>\n<li data-start=\"653\" data-end=\"712\">\n<p data-start=\"655\" data-end=\"712\"><strong data-start=\"655\" data-end=\"679\">Apartamentos Gardens</strong> com áreas externas privativas;</p>\n</li>\n<li data-start=\"713\" data-end=\"763\">\n<p data-start=\"715\" data-end=\"763\"><strong data-start=\"715\" data-end=\"740\">Coberturas exclusivas</strong> com 3 suítes + lavabo.</p>\n</li>\n</ul>\n<p data-start=\"765\" data-end=\"934\">Todos os imóveis contam com <strong data-start=\"793\" data-end=\"812\">vaga de garagem</strong> e <strong data-start=\"815\" data-end=\"873\">infraestrutura para carregamento de veículos elétricos</strong>, alinhando-se às novas tendências de mobilidade sustentável.</p>\n<h4 data-start=\"936\" data-end=\"971\"><strong data-start=\"940\" data-end=\"971\">Infraestrutura do edifício:</strong></h4>\n<ul data-start=\"972\" data-end=\"1547\">\n<li data-start=\"972\" data-end=\"1016\">\n<p data-start=\"974\" data-end=\"1016\"><strong data-start=\"974\" data-end=\"993\">Dois elevadores</strong> para maior comodidade;</p>\n</li>\n<li data-start=\"1017\" data-end=\"1091\">\n<p data-start=\"1019\" data-end=\"1091\"><strong data-start=\"1019\" data-end=\"1060\">Piscina com borda infinita no terraço</strong>, com vista incrível da cidade;</p>\n</li>\n<li data-start=\"1092\" data-end=\"1160\">\n<p data-start=\"1094\" data-end=\"1160\"><strong data-start=\"1094\" data-end=\"1110\">Mini mercado</strong> no condomínio, para sua praticidade no dia a dia;</p>\n</li>\n<li data-start=\"1161\" data-end=\"1244\">\n<p data-start=\"1163\" data-end=\"1244\"><strong data-start=\"1163\" data-end=\"1193\">Quiosque com churrasqueira</strong> e <strong data-start=\"1196\" data-end=\"1218\">lounge com lareira</strong> para encontros especiais;</p>\n</li>\n<li data-start=\"1245\" data-end=\"1335\">\n<p data-start=\"1247\" data-end=\"1335\"><strong data-start=\"1247\" data-end=\"1261\">Espaço zen</strong> e <strong data-start=\"1264\" data-end=\"1287\">horta compartilhada</strong>, promovendo bem-estar e conexão com a natureza;</p>\n</li>\n<li data-start=\"1336\" data-end=\"1437\">\n<p data-start=\"1338\" data-end=\"1437\"><strong data-start=\"1338\" data-end=\"1362\">Academia ao ar livre</strong>, <strong data-start=\"1364\" data-end=\"1381\">sala de jogos</strong> e <strong data-start=\"1384\" data-end=\"1402\">espaço gourmet</strong> integrados para momentos de lazer;</p>\n</li>\n<li data-start=\"1438\" data-end=\"1547\">\n<p data-start=\"1440\" data-end=\"1547\"><strong data-start=\"1440\" data-end=\"1457\">Fachada verde</strong> e <strong data-start=\"1460\" data-end=\"1495\">aproveitamento da água da chuva</strong>, que reforçam o compromisso com a sustentabilidade.</p>\n</li>\n</ul>\n<h4 data-start=\"1549\" data-end=\"1587\"><strong data-start=\"1553\" data-end=\"1587\">Tecnologia e sustentabilidade:</strong></h4>\n<ul data-start=\"1588\" data-end=\"1945\">\n<li data-start=\"1588\" data-end=\"1646\">\n<p data-start=\"1590\" data-end=\"1646\"><strong data-start=\"1590\" data-end=\"1645\">Reconhecimento facial nas entradas das áreas comuns</strong>;</p>\n</li>\n<li data-start=\"1647\" data-end=\"1721\">\n<p data-start=\"1649\" data-end=\"1721\"><strong data-start=\"1649\" data-end=\"1680\">Portões com sistema JetFlex</strong> para abertura e fechamento mais rápidos;</p>\n</li>\n<li data-start=\"1722\" data-end=\"1766\">\n<p data-start=\"1724\" data-end=\"1766\"><strong data-start=\"1724\" data-end=\"1765\">Sensores de presença nas áreas comuns</strong>;</p>\n</li>\n<li data-start=\"1767\" data-end=\"1803\">\n<p data-start=\"1769\" data-end=\"1803\"><strong data-start=\"1769\" data-end=\"1802\">Caixas de descarga dual flush</strong>;</p>\n</li>\n<li data-start=\"1804\" data-end=\"1859\">\n<p data-start=\"1806\" data-end=\"1859\"><strong data-start=\"1806\" data-end=\"1858\">Coleta seletiva de lixo, óleo, pilhas e baterias</strong>;</p>\n</li>\n<li data-start=\"1860\" data-end=\"1902\">\n<p data-start=\"1862\" data-end=\"1902\"><strong data-start=\"1862\" data-end=\"1901\">Medidores individuais de água e gás</strong>;</p>\n</li>\n<li data-start=\"1903\" data-end=\"1945\">\n<p data-start=\"1905\" data-end=\"1945\"><strong data-start=\"1905\" data-end=\"1944\">Espaço técnico para ar-condicionado</strong>.</p>\n</li>\n</ul>\n<p data-start=\"1947\" data-end=\"2061\">Um projeto pensado nos mínimos detalhes para proporcionar qualidade de vida, segurança, funcionalidade e economia.</p>\n<p data-start=\"2063\" data-end=\"2195\">Aproveite essa oportunidade única de morar em um endereço estratégico de Florianópolis com tudo o que você precisa no seu dia a dia!</p>",
+  "floorPlans": [
+    {
+      "title": "Planta final 7",
+      "image": "images/16-Planta-2-dorm-1-suite-final-7.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-6-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-1-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-2-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-3-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-4-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-5-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-7-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-8-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-14-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-15-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Capturar-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Planta-2-dorm-1-suite-final-7.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/edificio-in-haus-estreito-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:23.855Z",
+  "kind": "apartamento"
+}

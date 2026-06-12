@@ -1,0 +1,108 @@
+{
+  "id": 8990,
+  "slug": "barra-spot-barra-da-lagoa-florianopolis-sc",
+  "title": "frente mar, Barra Spot, Barra da Lagoa",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$422,000",
+    "amount": 422000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Barra da Lagoa, Florianópolis",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "barra-da-lagoa",
+      "name": "Barra da Lagoa"
+    }
+  },
+  "overview": {
+    "code": "1176",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 19.92,
+    "deliveryYear": "Set/25"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "set-25",
+      "name": "Set/25"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "espaco-gourmet",
+    "piscina",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Gourmet"
+  ],
+  "descriptionHtml": "<p>Spots Perfeitos para locações temporada/Short Stay – Alta Rentabilidade com Baixo Custo operacional!</p>\n<p><strong>Cotas a partir de R$ 422.000,00</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 05/02/2026</em></li>\n</ul>\n<p><strong>Barra Spot: Seu Investimento Frente ao Mar com acesso exclusivo a praia da Barra da Lagoa</strong></p>\n<p>Empreendimento SPE (Sociedade de Propósito Específico) cuidadosamente planejado para atender à <strong>alta demanda de locações por temporada</strong> em uma das regiões mais desejadas de Florianópolis. Localizado <strong>em frente à Praia da Barra da Lagoa</strong>, o projeto alia <strong>funcionalidade</strong>, <strong>design instagramável</strong> e uma infraestrutura completa para garantir <strong>máxima rentabilidade</strong> no mercado de locações diárias e short stay.</p>\n<h6>Principais Diferenciais:</h6>\n<ul>\n<li><strong>Modelo a preço de custo</strong>: Transparência e economia para o investidor.</li>\n<li><strong>Baixo custo fixo (condomínio)</strong>: Mais rentabilidade para seu investimento.</li>\n<li><strong>Spots compactos e funcionais</strong>: Ideais para locações de curta duração.</li>\n<li><strong>Design moderno e instagramável</strong>: Atraia hóspedes com estilo e conforto.</li>\n</ul>\n<h6>Infraestrutura de Alto Padrão:</h6>\n<ul>\n<li><strong>Piscina com borda infinita e vista para o mar</strong>: Exclusividade e sofisticação à beira-mar.</li>\n<li><strong>Salão de festas com espaço gourmet integrado</strong>: Perfeito para momentos de lazer e celebrações.</li>\n<li><strong>Área de lazer integrada</strong>: Ambientes projetados para interação e bem-estar.</li>\n<li><strong>Recepção confortável</strong>: Atendimento de qualidade e praticidade para hóspedes e proprietários.</li>\n<li><strong>Minimarket</strong>: Conveniência ao alcance de todos.</li>\n</ul>\n<p>Com localização privilegiada e infraestrutura excepcional, o <strong>Barra Spot</strong> é a oportunidade perfeita para quem busca investir em um imóvel que combina <strong>alta demanda de locação</strong>, <strong>excelente retorno financeiro</strong> e a <strong>beleza única da Barra da Lagoa</strong>. <strong>Invista no Barra Spot e garanta seu lugar em um dos melhores destinos de Florianópolis!</strong></p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Vista_aerea.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Capturar1-15.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Capturar2-13.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Untitled-3-4.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Untitled-4-4.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Untitled-5-4.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Untitled-6-4.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Untitled-14.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-fachada1.jpeg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/barra-spot-barra-da-lagoa-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:53.937Z",
+  "kind": "apartamento"
+}

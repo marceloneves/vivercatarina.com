@@ -1,0 +1,138 @@
+{
+  "id": 5743,
+  "slug": "wall-trindade-florianopolis-sc",
+  "title": "Wall 134, Trindade",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$307,000",
+    "amount": 307000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Trindade, Florianópolis",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "trindade",
+      "name": "Trindade"
+    }
+  },
+  "overview": {
+    "code": "1017",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 25.212,
+    "deliveryYear": "Jun/28"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "jun-28",
+      "name": "Jun/28"
+    }
+  ],
+  "labels": [],
+  "featureSlugs": [
+    "lavanderia",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Lavanderia",
+    "Salão de Festas"
+  ],
+  "descriptionHtml": "<p><strong>Studios a partir de R$ 307.000,00 (Studio 404 com 25,21m²)</strong></p>\n<p><strong>Studios Garden a partir de R$ 459.000,00  (Garden 201 com 51,53m²)</strong></p>\n<p><strong>Loft duplex a partir de R$ 485.000,00 (Loft 606) </strong></p>\n<p><strong>Condição de pagamento:</strong> Entrada + parcelas + reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel/terreno ou veículo como parte de pagamento.</li>\n<li><em>Valores atualizados em 20/02/2026</em></li>\n</ul>\n<p>Empreendimento, localizado no coração da Trindade, uma das áreas mais procuradas de Florianópolis, oferece apartamentos tipo studio e lofts com suíte no andar superior. Ideal para quem busca modernidade, praticidade e um estilo de vida dinâmico, ele é também uma excelente opção de investimento devido à alta demanda por locações na região.</p>\n<p>Construído na modalidade SPE (Sociedade de Propósito Específico), o projeto é liderado por uma construtora especializada, com ampla experiência e diversos empreendimentos já entregues e em andamento. Cada unidade foi cuidadosamente projetada para garantir conforto, funcionalidade e acabamentos de alta qualidade.</p>\n<p>Com sua localização estratégica, próxima à UFSC e às principais comodidades do bairro, este empreendimento oferece grande potencial de valorização e alta rentabilidade para investidores.</p>",
+  "floorPlans": [
+    {
+      "title": "Studios",
+      "image": "images/13-Mascara-de-area-Studio.jpg"
+    },
+    {
+      "title": "Garden",
+      "image": "images/14-Mascara-de-area-garden.jpg"
+    },
+    {
+      "title": "Loft",
+      "image": "images/15-mascara-de-area-loft.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-ARV-3_2-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-ARV-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-ARV.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Rentabilidade-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-rentabilidade-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-rentabilidade-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-rentabilidade-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-rentabilidade-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-rentabilidade-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-rentabilidade-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Rentabilidade.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-wall.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Mascara-de-area-Studio.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Mascara-de-area-garden.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-mascara-de-area-loft.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/wall-trindade-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:57.903Z",
+  "kind": "loteamento"
+}

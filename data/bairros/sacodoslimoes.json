@@ -1,0 +1,21 @@
+{
+  "slug": "sacodoslimoes",
+  "name": "Saco dos Limões",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-31T18:41:54.268Z",
+  "total": 1,
+  "properties": [
+    {
+      "slug": "armazem-vieira-residence-saco-dos-limoes-florianopolis-sc",
+      "id": 21948,
+      "title": "Armazém Vieira Residence, Florianópolis",
+      "category": "lancamento",
+      "price": 376000,
+      "dataPath": "imoveis/armazem-vieira-residence-saco-dos-limoes-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/armazem-vieira-residence-saco-dos-limoes-florianopolis-sc/images/01-IMG-20251030-WA0003.jpg"
+    }
+  ]
+}

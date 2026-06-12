@@ -1,0 +1,141 @@
+{
+  "id": 8858,
+  "slug": "santo-antonio-spot-santo-antonio-de-lisboa-florianopolis-sc",
+  "title": "Santo Antônio Spot, Santo Antônio de Lisboa",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$272,000",
+    "amount": 272000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rod. Gilson da Costa Xavier, Sto. Antônio de Lisboa, Florianópolis/SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "santo-antonio-de-lisboa",
+      "name": "Santo Antônio de Lisboa"
+    }
+  },
+  "overview": {
+    "code": "1169",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 19.532,
+    "deliveryYear": "Jun/28"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "jun-28",
+      "name": "Jun/28"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "piscina"
+  ],
+  "features": [
+    "Piscina"
+  ],
+  "descriptionHtml": "<p>Spots Perfeitos para locações temporada/Short Stay – Alta Rentabilidade com Baixo Custo operacional!</p>\n<p><strong>Unidades a partir de R$ 272.000,00</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em: 05/02/2026</em></li>\n</ul>\n<h6><strong>SPOT Santo Antônio – Oportunidade Exclusiva em Florianópolis</strong></h6>\n<p>O <strong>SPOT Santo Antônio</strong> é o empreendimento ideal para quem busca <strong>máxima rentabilidade com locações por temporada (short stays)</strong>. Localizado em <strong>Santo Antônio de Lisboa</strong>, um dos bairros mais charmosos e históricos de Florianópolis, o projeto combina funcionalidade, design moderno e uma infraestrutura pensada para atender às demandas do mercado turístico.</p>\n<p><strong>Diferenciais do Empreendimento:</strong></p>\n<ul>\n<li><strong>Piscina com vista para o mar</strong>, proporcionando experiências únicas para os hóspedes.</li>\n<li><strong>Mini-Market</strong> integrado, trazendo praticidade e comodidade.</li>\n<li><strong>Áreas de integração internas e externas</strong>, ideais para relaxamento e socialização.</li>\n<li><strong>Unidades entregues mobiliadas e equipadas</strong>, prontas para uso imediato.</li>\n</ul>\n<p><strong>Vantagens para Investidores:</strong></p>\n<ul>\n<li>Construção na <strong>modalidade SPE a preço de custo</strong>, otimizando o investimento.</li>\n<li><strong>Baixo custo fixo (condomínio)</strong>, garantindo maior lucratividade.</li>\n<li>Design <strong>compacto, funcional e instagramável</strong>, perfeito para atrair locatários exigentes.</li>\n<li>Localização privilegiada em Santo Antônio de Lisboa, com acesso fácil a praias, gastronomia e cultura, em uma região com alta demanda turística.</li>\n</ul>\n<p>O <strong>SPOT Santo Antônio</strong> foi pensado para unir rentabilidade e charme, em um dos cenários mais procurados de Florianópolis.</p>",
+  "floorPlans": [
+    {
+      "title": "Plantas",
+      "image": "images/15-plantas-2.jpg"
+    },
+    {
+      "title": "Plantas",
+      "image": "images/16-plantas-1-1.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-01-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-04-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-05-2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-06-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-07.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-08.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-09.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-10-2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Capturar1-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Capturar3-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Capturar4-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Capturar5-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Capturar6-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Capturar8-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-plantas-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-plantas-1-1.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/santo-antonio-spot-santo-antonio-de-lisboa-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:44:01.369Z",
+  "kind": "apartamento"
+}

@@ -1,0 +1,150 @@
+{
+  "id": 7240,
+  "slug": "live-cacupe-florianopolis-sc",
+  "title": "Live, Cacupé",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,284,000",
+    "amount": 1284000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rod. Haroldo Soares Glavan, Cacupé, Florianópolis/SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "cacupe",
+      "name": "Cacupé"
+    }
+  },
+  "overview": {
+    "code": "1084",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 77.182,
+    "deliveryYear": "Abr/26"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "abr-26",
+      "name": "Abr/26"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-a-3-dorm",
+      "name": "2 a 3 Dorm."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "churrasqueira",
+    "coworking",
+    "espaco-gourmet",
+    "espaco-mulher",
+    "especo-pet",
+    "piscina",
+    "playground",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Pet",
+    "Playground",
+    "Coworking",
+    "Espaço Gourmet",
+    "Brinquedoteca",
+    "Espaço mulher"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 2 quartos sendo 1 suíte, 77,18m² priv,  churrasqueira, 1 vaga e hobby box.                                                            A partir de R$ 1.284.000,00 (Apto 104 A)</strong></p>\n<p><em>Solicite e-book com plantas!</em></p>\n<p>Entrada 20% +  financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel ou veículo como parte de pagamento</li>\n<li>Atualizado 06/05/2026</li>\n</ul>\n<div class=\"flex max-w-full flex-col flex-grow\">\n<div class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words [.text-message+&amp;]:mt-5\" dir=\"auto\" data-message-author-role=\"assistant\" data-message-id=\"51c99470-b383-4b9d-ba0f-68fd7d5c9783\" data-message-model-slug=\"gpt-4o\">\n<div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\">\n<div class=\"markdown prose w-full break-words dark:prose-invert light\">\n<p><strong>Lançamento no Cacupé &#8211; Sofisticação e Conforto em Florianópolis</strong></p>\n<p>Apresentamos um novo e exclusivo lançamento no Cacupé, Florianópolis, pensado para quem busca viver com estilo e qualidade de vida. Este empreendimento de alto padrão oferece apartamentos com 2 e 3 quartos, incluindo 1 suíte, e 1 ou 2 vagas de garagem. Com plantas espaçosas e acabamentos de primeira linha, cada detalhe foi planejado para proporcionar uma experiência única de conforto e bem-estar.</p>\n<p>Os apartamentos contam com tecnologia para facilitar o dia a dia, incluindo persianas motorizadas e acesso por fechadura eletrônica, trazendo mais praticidade e segurança.</p>\n<p>A área de lazer é completa e inclui:</p>\n<ul>\n<li><strong>Piscina Infantil:</strong> Perfeitas para relaxar e aproveitar os momentos de lazer com a família.</li>\n<li><strong>Espaço Wine Bar:</strong> Um ambiente sofisticado para degustar vinhos e celebrar momentos especiais.</li>\n<li><strong>Academia, Sala de Yoga e Sala de Massagem:</strong> Cuide do corpo e da mente com espaços dedicados ao bem-estar.</li>\n<li><strong>Pet Place:</strong> Um espaço ideal para seu pet se divertir e socializar.</li>\n<li><strong>Espaço Kids e Mini Market:</strong> Pensados para a praticidade das famílias, com entretenimento e conveniência no dia a dia.</li>\n<li><strong>Salão de Festas, Coworking e Smart Locker:</strong> Áreas funcionais que oferecem versatilidade para reuniões, eventos e comodidade.</li>\n</ul>\n<p>Localizado no charmoso bairro Cacupé, este lançamento é a escolha ideal para quem valoriza um estilo de vida moderno e sofisticado, em um dos locais mais bonitos de Florianópolis</p>\n</div>\n</div>\n</div>\n</div>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Capturar-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Fachada-Lateral-4K.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Fachada-Embasamento-4K-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-234.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-454.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-2222.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-222222.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Capturar4rr4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Capturar4rr444.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Capturar44r5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Capturar65.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Capturar234.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Capturar457.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Capturar556-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Capturar22.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Capturar2-5.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/live-cacupe-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:39.168Z",
+  "kind": "apartamento"
+}

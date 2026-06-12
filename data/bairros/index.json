@@ -1,0 +1,162 @@
+{
+  "city": "florianopolis",
+  "generatedAt": "2026-05-31T18:41:54.270Z",
+  "totalProperties": 110,
+  "neighborhoods": [
+    {
+      "slug": "abraao",
+      "name": "Abraão",
+      "total": 0
+    },
+    {
+      "slug": "agronomica",
+      "name": "Agronômica",
+      "total": 2
+    },
+    {
+      "slug": "armacao",
+      "name": "Armação",
+      "total": 0
+    },
+    {
+      "slug": "balneario",
+      "name": "Balneário",
+      "total": 0
+    },
+    {
+      "slug": "barradalagoa",
+      "name": "Barra da Lagoa",
+      "total": 3
+    },
+    {
+      "slug": "cacupe",
+      "name": "Cacupé",
+      "total": 5
+    },
+    {
+      "slug": "campeche",
+      "name": "Campeche",
+      "total": 13
+    },
+    {
+      "slug": "canasvieiras",
+      "name": "Canasvieiras",
+      "total": 8
+    },
+    {
+      "slug": "capoeiras",
+      "name": "Capoeiras",
+      "total": 0
+    },
+    {
+      "slug": "carvoeira",
+      "name": "Carvoeira",
+      "total": 1
+    },
+    {
+      "slug": "centro",
+      "name": "Centro",
+      "total": 11
+    },
+    {
+      "slug": "coqueiros",
+      "name": "Coqueiros",
+      "total": 2
+    },
+    {
+      "slug": "corregogrande",
+      "name": "Córrego Grande",
+      "total": 1
+    },
+    {
+      "slug": "estreito",
+      "name": "Estreito",
+      "total": 13
+    },
+    {
+      "slug": "ingleses",
+      "name": "Ingleses",
+      "total": 14
+    },
+    {
+      "slug": "itacorubi",
+      "name": "Itacorubi",
+      "total": 0
+    },
+    {
+      "slug": "joaopaulo",
+      "name": "João Paulo",
+      "total": 2
+    },
+    {
+      "slug": "jurereinternacional",
+      "name": "Jurerê Internacional",
+      "total": 6
+    },
+    {
+      "slug": "lagoadaconceicao",
+      "name": "Lagoa da Conceição",
+      "total": 2
+    },
+    {
+      "slug": "morrodaspedras",
+      "name": "Morro das Pedras",
+      "total": 1
+    },
+    {
+      "slug": "pantanal",
+      "name": "Pantanal",
+      "total": 0
+    },
+    {
+      "slug": "praiabrava",
+      "name": "Praia Brava",
+      "total": 3
+    },
+    {
+      "slug": "ribeiraodailha",
+      "name": "Ribeirão da Ilha",
+      "total": 5
+    },
+    {
+      "slug": "riotavares",
+      "name": "Rio Tavares",
+      "total": 1
+    },
+    {
+      "slug": "riovermelho",
+      "name": "Rio Vermelho",
+      "total": 4
+    },
+    {
+      "slug": "sacodoslimoes",
+      "name": "Saco dos Limões",
+      "total": 1
+    },
+    {
+      "slug": "sacogrande",
+      "name": "Saco Grande",
+      "total": 1
+    },
+    {
+      "slug": "santamonica",
+      "name": "Santa Mônica",
+      "total": 2
+    },
+    {
+      "slug": "santoantoniodelisboa",
+      "name": "Santo Antônio de Lisboa",
+      "total": 5
+    },
+    {
+      "slug": "trindade",
+      "name": "Trindade",
+      "total": 3
+    },
+    {
+      "slug": "vargemgrande",
+      "name": "Vargem Grande",
+      "total": 1
+    }
+  ]
+}

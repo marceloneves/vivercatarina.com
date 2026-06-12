@@ -1,0 +1,136 @@
+{
+  "id": 18113,
+  "slug": "edificio-saint-humbert-residence-ingleses-florianopolis-sc",
+  "title": "Edifício Saint Humbert Residence, Ingleses, Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$650,000",
+    "amount": 650000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Estrada Dom João Becker, 1828. Ingleses do Rio Vermelho- Florianópolis/SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ingleses",
+      "name": "Ingleses"
+    }
+  },
+  "overview": {
+    "code": "1510",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": 1,
+    "sizeSqm": 43.712,
+    "deliveryYear": "2025"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-25",
+      "name": "Dez/25"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios-1-e-2-dorm",
+      "name": "Studios 1 e 2 dorm."
+    }
+  ],
+  "featureSlugs": [
+    "churrasqueira",
+    "piscina-aquecida",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Salão de Festas",
+    "Piscina Aquecida"
+  ],
+  "descriptionHtml": "<p><strong>Apartamento com 1 dormitório, living integrado, 43,71m², sacada com churrasqueira e 1 vaga de garagem, a partir de R$ 650.000,00</strong></p>\n<p><strong>Apartamento com 2 dormitórios sendo 1 suíte, living integrado, 61,77m², sacada com churrasqueira e 1 vaga de garagem, a partir de R$ 958.000,00</strong></p>\n<p>Consulte o Fluxo de pagamento</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel de menor valor como parte de pagamento</li>\n<li><em>Valores atualizados em 8/11/2025</em></li>\n</ul>\n<h5 data-start=\"106\" data-end=\"188\"><strong>Última Unidade à Venda – Saint Humbert, Praia dos Ingleses – Florianópolis/SC</strong></h5>\n<p data-start=\"190\" data-end=\"455\">O <strong data-start=\"192\" data-end=\"209\">Saint Humbert</strong> reúne sofisticação, tecnologia e bem-estar em um dos endereços mais valorizados da Praia dos Ingleses. Este é o momento de garantir a <strong data-start=\"344\" data-end=\"373\">última unidade disponível</strong> em um empreendimento exclusivo, com design moderno e alto padrão de acabamento.</p>\n<h5 data-start=\"457\" data-end=\"493\"><strong>Diferenciais do empreendimento</strong></h5>\n<ul data-start=\"494\" data-end=\"671\">\n<li data-start=\"494\" data-end=\"543\">\n<p data-start=\"496\" data-end=\"543\">Piscina com <strong data-start=\"508\" data-end=\"526\">borda infinita</strong> e <strong data-start=\"529\" data-end=\"541\">aquecida</strong></p>\n</li>\n<li data-start=\"544\" data-end=\"567\">\n<p data-start=\"546\" data-end=\"567\">Elevador panorâmico</p>\n</li>\n<li data-start=\"568\" data-end=\"607\">\n<p data-start=\"570\" data-end=\"607\">Aquecimento solar para áreas comuns</p>\n</li>\n<li data-start=\"608\" data-end=\"671\">\n<p data-start=\"610\" data-end=\"671\">Vaga rotativa com carregamento rápido para carros elétricos</p>\n</li>\n</ul>\n<h5 data-start=\"673\" data-end=\"706\"><strong>Diferenciais do apartamento</strong></h5>\n<ul data-start=\"707\" data-end=\"1048\">\n<li data-start=\"707\" data-end=\"735\">\n<p data-start=\"709\" data-end=\"735\">Sacada com churrasqueira</p>\n</li>\n<li data-start=\"736\" data-end=\"759\">\n<p data-start=\"738\" data-end=\"759\">Nicho nos banheiros</p>\n</li>\n<li data-start=\"760\" data-end=\"779\">\n<p data-start=\"762\" data-end=\"779\">Fino acabamento</p>\n</li>\n<li data-start=\"780\" data-end=\"863\">\n<p data-start=\"782\" data-end=\"863\"><strong data-start=\"782\" data-end=\"801\">Fechadura smart</strong> com abertura por biometria, senha, chave, tag ou aplicativo</p>\n</li>\n<li data-start=\"864\" data-end=\"959\">\n<p data-start=\"866\" data-end=\"959\">Gerenciamento de acessos via aplicativo (senhas temporárias, relatórios de entrada e datas)</p>\n</li>\n<li data-start=\"960\" data-end=\"1048\">\n<p data-start=\"962\" data-end=\"1048\">Controle de acesso com leitura ultrarrápida em 0,3 segundos e tecnologia anti-fraude</p>\n</li>\n</ul>\n<h5 data-start=\"1050\" data-end=\"1082\"><strong>Viva o melhor dos Ingleses</strong></h5>\n<p data-start=\"1083\" data-end=\"1251\">More em um empreendimento que alia <strong data-start=\"1118\" data-end=\"1152\">conforto, segurança e inovação</strong>, a poucos metros do mar. Essa é a sua chance de conquistar um imóvel exclusivo em Florianópolis.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-1-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-6-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-2-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-3-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-4-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-5-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-8-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-9-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-12-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-7-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-10-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-11-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-13-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-14-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-maresia_fotos_31-7-pdf.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-WhatsApp-Image-2025-08-05-at-08.57.37-1.jpeg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/edificio-saint-humbert-residence-ingleses-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:57.670Z",
+  "kind": "apartamento"
+}

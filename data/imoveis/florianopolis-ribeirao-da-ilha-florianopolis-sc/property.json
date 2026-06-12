@@ -1,0 +1,135 @@
+{
+  "id": 5560,
+  "slug": "florianopolis-ribeirao-da-ilha-florianopolis-sc",
+  "title": "Casa Nova e financiável no Ribeirão da Ilha",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": null,
+    "display": "R$995,000",
+    "amount": 995000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Servidão José Marcelino da Silva Filho",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ribeirao-da-ilha",
+      "name": "Ribeirão da Ilha"
+    }
+  },
+  "overview": {
+    "code": "1007",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "garages": 1,
+    "sizeSqm": 1672,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [],
+  "labels": [],
+  "featureSlugs": [],
+  "features": [],
+  "descriptionHtml": "<p><strong>Casa no Ribeirão da Ilha, pronta para morar e financiável. </strong></p>\n<p>Entrada + financiamento</p>\n<p>Casa com 2 pavimentos, 3 dormitórios sendo 1 suíte + mezanino que pode ser mais um quarto ou escritório. Casa com área de 167m².</p>\n<p>Localizada em um loteamento super tranquilo no Ribeirão da Ilha, Florianópolis. Próximo a comércio, escolas e supermercados. Possui escritura pública e financiamento disponível, o imóvel conta com 3 dormitórios, sendo 1 deles suíte, mezanino que pode ser mais um quarto ou escritório,  lavabo, sala 2 ambientes e cozinha. Área externa com lavanderia e um amplo pátio nos fundos e  lateral da casa.</p>\n<p>Construída por uma incorporadora sólida, com vasta experiência e diversos imóveis já entregues e em construção, esta casa é perfeita para quem busca conforto, segurança e qualidade de vida em uma das regiões mais tranquilas da cidade.</p>\n<p>Confira!</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio</em></li>\n<li><em>Condições de pagamento flexível</em></li>\n<li><em>Valores atualizados em 02/03/2026</em></li>\n</ul>\n<p><em><strong> </strong></em></p>",
+  "floorPlans": [
+    {
+      "title": "Térreo",
+      "image": "images/15-monterey-planta-1.jpeg"
+    },
+    {
+      "title": "segundo andar",
+      "image": "images/16-monterey-planta-3.jpeg"
+    },
+    {
+      "title": "Sótão/mezanino",
+      "image": "images/17-monterey-planta-2.jpeg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-1-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-2-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-3-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-4-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-5-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-6-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-7-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-8-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-9-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-10-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-680416325629232.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-684418569919077.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-686419562094156.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-688487329849148.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-monterey-planta-1.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-monterey-planta-3.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-monterey-planta-2.jpeg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/florianopolis-ribeirao-da-ilha-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:53.018Z",
+  "kind": "loteamento"
+}

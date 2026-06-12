@@ -1,0 +1,161 @@
+{
+  "id": 8878,
+  "slug": "lagoa-spot-lagoa-da-conceicao-florianopolis-sc",
+  "title": "Lagoa Spot, Lagoa da Conceição",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$563,000",
+    "amount": 563000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Das Palmeiras, Lagoa da Conceição, Florianópolis/SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "lagoa-da-conceicao",
+      "name": "Lagoa da Conceição"
+    }
+  },
+  "overview": {
+    "code": "1170",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 24.812,
+    "deliveryYear": "Pronto",
+    "construtora": "SPE Lagoa Spot",
+    "totalFloors": "15 pavimentos",
+    "totalUnits": "120 apartamentos",
+    "padrao": "Alto padrão",
+    "registro": "Cartório 1º RI"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "piscina"
+  ],
+  "features": [
+    "Piscina"
+  ],
+  "descriptionHtml": "<p>Spots Perfeitos para locações temporada/Short Stay – Alta Rentabilidade com Baixo Custo operacional!</p>\n<p><strong>Unidades a partir de R$ 563.000,00</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 05/02/2026</em></li>\n</ul>\n<p><strong>Lagoa Spot &#8211; Investimento Inteligente na Lagoa da Conceição</strong></p>\n<p>O <strong>Lagoa Spot</strong> é um empreendimento único, localizado na desejada Lagoa da Conceição, em Florianópolis, combina sofisticação, funcionalidade e máxima rentabilidade, ideal para locações de curta temporada e diárias.</p>\n<h6><strong>Destaques do Lagoa Spot</strong></h6>\n<ul>\n<li><strong>Modelo SPOT:</strong> Apartamentos compactos, instagramáveis e projetados para a alta demanda de locações por temporada.</li>\n<li><strong>Piscina com borda infinita no rooftop:</strong> Uma experiência diferenciada com vista panorâmica da Lagoa da Conceição.</li>\n<li><strong>Áreas comuns mobiliadas e equipadas:</strong> Ambientes prontos para oferecer conforto e impressionar os hóspedes.</li>\n<li><strong>Fireplaces e minimarket:</strong> Conveniência e charme para atender hóspedes exigentes.</li>\n<li><strong>Recepção moderna e profissional:</strong> Atendimento ágil e funcional.</li>\n<li><strong>Vagas rotativas:</strong> Praticidade e facilidade para moradores e visitantes.</li>\n</ul>\n<h6><strong>Benefícios para Investidores</strong></h6>\n<ul>\n<li><strong>Custo operacional reduzido:</strong> Baixo custo de condomínio, maximizando o retorno financeiro.</li>\n<li><strong>Foco na lucratividade:</strong> O conceito SPOT, potencializa a rentabilidade com locações de curta temporada.</li>\n<li><strong>Valorização constante:</strong> Localização privilegiada na Lagoa da Conceição, uma das áreas mais procuradas de Florianópolis, tanto por turistas quanto por moradores.</li>\n</ul>\n<p>O Lagoa Spot é mais do que um imóvel, é uma oportunidade de investimento estratégica, respaldada por um modelo sólido e eficiente. Garanta o seu lugar neste empreendimento único e aproveite o melhor de Florianópolis com rentabilidade e segurança!</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Ambiente-27.11.25-007-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Ambiente-27.11.25-003-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Ambiente-08.12.25-006-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Ambiente-08.12.25-010-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Ambiente-08.12.25-011-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Ambiente-08.12.25-013-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Design-sem-nome-21.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Ambiente-08.12.25-012-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Ambiente-08.12.25-009-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Ambiente-08.12.25-008-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Ambiente-08.12.25-007-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Ambiente-08.12.25-003-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Ambiente-08.12.25-004-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Ambiente-08.12.25-005-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Ambiente-08.12.25-001-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Ambiente-08.12.25-002-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Ambiente-08.12.25-014-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Ambiente-27.11.25-009-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Ambiente-27.11.25-008-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Ambiente-27.11.25-006-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Ambiente-27.11.25-002-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Ambiente-27.11.25-001-scaled.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/lagoa-spot-lagoa-da-conceicao-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:55.711Z",
+  "kind": "apartamento"
+}

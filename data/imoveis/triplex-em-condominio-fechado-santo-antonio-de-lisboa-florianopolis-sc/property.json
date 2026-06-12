@@ -1,0 +1,173 @@
+{
+  "id": 9256,
+  "slug": "triplex-em-condominio-fechado-santo-antonio-de-lisboa-florianopolis-sc",
+  "title": "Triplex em Condomínio fechado, Santo Antônio de Lisboa",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,370,000",
+    "amount": 1370000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Padre Rohr, Sto Antônio de Lisboa",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "santo-antonio-de-lisboa",
+      "name": "Santo Antônio de Lisboa"
+    }
+  },
+  "overview": {
+    "code": "1189",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "garages": 2,
+    "sizeSqm": 1772,
+    "deliveryYear": "Dez/25"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-25",
+      "name": "Dez/25"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "3-suites",
+      "name": "3 Suítes"
+    }
+  ],
+  "featureSlugs": [
+    "bicicletario",
+    "piscina",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Salão de Festas",
+    "Piscina",
+    "Bicicletário"
+  ],
+  "descriptionHtml": "<p><strong>Casas em condomínio fechado com 2 ou 3 suítes, 3 pavimentos com metragens de 177m² a 242m², lavabo, quintal e 2 vagas de garagem a partir de R$ 1.370.000,00 ( Casa nº 6 com 3 suítes)</strong></p>\n<p>Entrada + parcelas + reforços + financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel/terreno ou veículo como parte de pagamento.</li>\n<li><em>Valores atualizados em 05/03/2026</em></li>\n</ul>\n<p><strong>Lançamento Exclusivo em Santo Antônio de Lisboa, Florianópolis, SC</strong></p>\n<p>Descubra o privilégio de viver em um dos bairros mais charmosos de Florianópolis com este <strong>condomínio fechado de casas</strong> que combina sofisticação, conforto e segurança. Localizado em Santo Antônio de Lisboa, o empreendimento oferece a perfeita harmonia entre modernidade e a tranquilidade de um dos destinos mais procurados da ilha.</p>\n<h6><strong>Detalhes das Casas</strong></h6>\n<ul>\n<li><strong>Configurações</strong>: Casas com 2 ou 3 suítes e 3 pavimentos.</li>\n<li><strong>Metragens amplas</strong>: De 177m² a 242m².</li>\n<li><strong>Espaços adicionais</strong>: Lavabo, quintal privativo e 2 vagas de garagem.</li>\n</ul>\n<h6><strong>Diferenciais das Casas</strong></h6>\n<ul>\n<li><strong>Fechadura digital</strong>: Tecnologia para maior comodidade.</li>\n<li><strong>Infraestrutura completa para ar-condicionado split</strong>: Conforto em todas as estações.</li>\n<li><strong>Acabamentos modernos e de alta qualidade</strong>:\n<ul>\n<li>Ralo linear e nichos no box dos banheiros.</li>\n<li>Chuveiro de teto para um toque de sofisticação.</li>\n<li>Rodapé elevado (15cm) e porcelanato retificado 80&#215;80.</li>\n<li>Tubulação hidráulica envelopada e paredes duplas entre unidades para atenuação de ruído.</li>\n<li>Perfis de alumínio nas quinas das paredes, garantindo maior durabilidade.</li>\n</ul>\n</li>\n</ul>\n<h6><strong>Diferenciais do Condomínio</strong></h6>\n<ul>\n<li><strong>Tecnologia e segurança</strong>:\n<ul>\n<li>Controle de acesso digital.</li>\n<li>Monitoramento por câmeras e portaria remota.</li>\n</ul>\n</li>\n<li><strong>Sustentabilidade</strong>: Aproveitamento de água da chuva.</li>\n<li><strong>Infraestrutura para ciclismo</strong>: Espaço para bicicletário.</li>\n</ul>\n<h6><strong>Áreas Comuns</strong></h6>\n<ul>\n<li><strong>Piscina</strong>: Perfeita para relaxar e aproveitar os dias de sol.</li>\n<li><strong>Salão de festas</strong>: Um espaço elegante para momentos especiais.</li>\n</ul>\n<h6><strong>Localização Privilegiada</strong></h6>\n<p>Situado em Santo Antônio de Lisboa, um bairro conhecido por sua rica cultura, gastronomia sofisticada e paisagens deslumbrantes, o condomínio oferece fácil acesso às praias do Norte da Ilha e ao centro de Florianópolis.</p>\n<p><strong>Conquiste um estilo de vida exclusivo com conforto, modernidade e o melhor que Florianópolis tem a oferecer. Agende uma visita e descubra o seu novo lar!</strong></p>",
+  "floorPlans": [
+    {
+      "title": "Casa 2",
+      "image": "images/12-planta-casa-2.jpg"
+    },
+    {
+      "title": "Casa 3",
+      "image": "images/13-planta-casa-3.jpg"
+    },
+    {
+      "title": "Casa 4",
+      "image": "images/14-planta-casa-4.jpg"
+    },
+    {
+      "title": "Casa 5",
+      "image": "images/15-planta-casa-5.jpg"
+    },
+    {
+      "title": "Casa 6",
+      "image": "images/16-planta-casa-6.jpg"
+    },
+    {
+      "title": "Casa 7",
+      "image": "images/17-planta-casa-7.jpg"
+    },
+    {
+      "title": "Casa 8",
+      "image": "images/18-planta-casa-8.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-Capturar3-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Capturar6-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Capturar1-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Capturar2-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Capturar5-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Capturar7-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Capturar8-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-planta-geral-avimento-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-planta-geral-cobertura.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-planta-geral-pavimento-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-planta-geral-sub-solo.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-planta-casa-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-planta-casa-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-planta-casa-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-planta-casa-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-planta-casa-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-planta-casa-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-planta-casa-8.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/triplex-em-condominio-fechado-santo-antonio-de-lisboa-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:12.864Z",
+  "kind": "loteamento"
+}

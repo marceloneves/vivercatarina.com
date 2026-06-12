@@ -1,0 +1,21 @@
+{
+  "slug": "corregogrande",
+  "name": "Córrego Grande",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-31T18:41:54.267Z",
+  "total": 1,
+  "properties": [
+    {
+      "slug": "luminae-corrego-grande-florianopolis-sc",
+      "id": 5765,
+      "title": "Luminae, Córrego Grande",
+      "category": "lancamento",
+      "price": 305000,
+      "dataPath": "imoveis/luminae-corrego-grande-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/luminae-corrego-grande-florianopolis-sc/images/01-7-6.jpg"
+    }
+  ]
+}

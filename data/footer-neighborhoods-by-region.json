@@ -1,0 +1,41 @@
+[
+	{
+		"region": "Continente",
+		"slugs": ["abraao", "capoeiras", "coqueiros", "estreito", "joaopaulo"]
+	},
+	{
+		"region": "Centro",
+		"slugs": ["agronomica", "centro", "itacorubi", "sacodoslimoes"]
+	},
+	{
+		"region": "Região Universitária",
+		"slugs": [
+			"carvoeira",
+			"corregogrande",
+			"pantanal",
+			"sacogrande",
+			"santamonica",
+			"trindade",
+			"vargemgrande"
+		]
+	},
+	{
+		"region": "Norte da Ilha",
+		"slugs": [
+			"cacupe",
+			"canasvieiras",
+			"ingleses",
+			"jurereinternacional",
+			"riovermelho",
+			"santoantoniodelisboa"
+		]
+	},
+	{
+		"region": "Leste da Ilha",
+		"slugs": ["barradalagoa", "lagoadaconceicao", "morrodaspedras", "riotavares"]
+	},
+	{
+		"region": "Sul da Ilha",
+		"slugs": ["armacao", "balneario", "campeche", "praiabrava", "ribeiraodailha"]
+	}
+]

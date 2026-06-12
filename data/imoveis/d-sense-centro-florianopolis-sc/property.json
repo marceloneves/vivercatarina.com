@@ -1,0 +1,180 @@
+{
+  "id": 11878,
+  "slug": "d-sense-centro-florianopolis-sc",
+  "title": "D/Sense, alto padrão, Centro, Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$5,397,000",
+    "amount": 5397000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Felipe Schmidt, Centro, Florianópolis",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "centro",
+      "name": "Centro"
+    }
+  },
+  "overview": {
+    "code": "1264",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "garages": 2,
+    "sizeSqm": 1752,
+    "deliveryYear": "Nov/27"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "nov-27",
+      "name": "Nov/27"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "3-a-4-suites",
+      "name": "3 a 4 Suítes"
+    }
+  ],
+  "featureSlugs": [
+    "bicicletario",
+    "brinquedoteca",
+    "coworking",
+    "espaco-gourmet",
+    "piscina",
+    "piscina-aquecida",
+    "playground",
+    "sala-de-jogos",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Salão de Festas",
+    "Piscina",
+    "Sala de Jogos",
+    "Playground",
+    "Coworking",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Brinquedoteca",
+    "Piscina Aquecida"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 3 suítes, 175m²,  sacada com churrasqueira a partir de R$ 5.397.000,00 </strong></p>\n<p><strong>Garden com 3 suítes, 283m² a 320m², lavabo, amplo terraço com churrasqueira a partir de R$ 6.599.000,00</strong></p>\n<p><strong>Apartamentos com 4 suítes, 219,8m², sacada com churrasqueira a partir de R$ 8.541.000,00</strong></p>\n<p>Entrada + reforços + parcelas + financiamento bancário.</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel/terreno ou veículo como parte de pagamento.</li>\n<li>Valores atualizados em: 05/02/2026</li>\n</ul>\n<h6 data-start=\"0\" data-end=\"82\"><strong data-start=\"4\" data-end=\"80\">Viva o Alto Padrão no Coração de Florianópolis – Frente ao Parque da Luz</strong></h6>\n<p data-start=\"84\" data-end=\"286\">Localizado <strong data-start=\"95\" data-end=\"125\">em frente ao Parque da Luz</strong>, no <strong data-start=\"130\" data-end=\"157\">Centro de Florianópolis</strong>, este empreendimento exclusivo une sofisticação, conforto e uma vista privilegiada para quem busca um estilo de vida refinado.</p>\n<p data-start=\"288\" data-end=\"494\">Com <strong data-start=\"292\" data-end=\"426\">apartamentos amplos de 175m² a 380m², opções de 3 a 4 suítes, lavabo, sacada com churrasqueira, 2 a 3 vagas de garagem e hobby box</strong>, este empreendimento entrega o melhor em design e funcionalidade.</p>\n<h6 data-start=\"496\" data-end=\"530\"><strong data-start=\"500\" data-end=\"528\">Excelência em Construção</strong></h6>\n<p data-start=\"531\" data-end=\"758\"><strong data-start=\"531\" data-end=\"566\">Assinado pela Construtora Dimas</strong>, referência em <strong data-start=\"582\" data-end=\"638\">acabamento de alto padrão e excelência em construção</strong>, o projeto reflete a solidez e credibilidade de uma empresa com inúmeros empreendimentos entregues em Santa Catarina.</p>\n<h6 data-start=\"760\" data-end=\"805\"><strong data-start=\"764\" data-end=\"803\">Infraestrutura Completa e Exclusiva</strong></h6>\n<ul data-start=\"806\" data-end=\"1265\">\n<li data-start=\"806\" data-end=\"831\"><strong data-start=\"808\" data-end=\"829\">Academia equipada</strong></li>\n<li data-start=\"832\" data-end=\"879\"><strong data-start=\"834\" data-end=\"877\">Playground, brinquedoteca e espaço teen</strong></li>\n<li data-start=\"880\" data-end=\"925\"><strong data-start=\"882\" data-end=\"923\">Esports bar para momentos de diversão</strong></li>\n<li data-start=\"926\" data-end=\"969\"><strong data-start=\"928\" data-end=\"967\">Sauna úmida e seca para relaxamento</strong></li>\n<li data-start=\"970\" data-end=\"1014\"><strong data-start=\"972\" data-end=\"1012\">Piscinas adulto e infantil aquecidas</strong></li>\n<li data-start=\"1015\" data-end=\"1061\"><strong data-start=\"1017\" data-end=\"1059\">Pet place para seu animal de estimação</strong></li>\n<li data-start=\"1062\" data-end=\"1102\"><strong data-start=\"1064\" data-end=\"1100\">Spa para bem-estar e relaxamento</strong></li>\n<li data-start=\"1103\" data-end=\"1148\"><strong data-start=\"1105\" data-end=\"1146\">Rooftop com piscina adulto e infantil</strong></li>\n<li data-start=\"1149\" data-end=\"1209\"><strong data-start=\"1151\" data-end=\"1207\">Espaço grill e espaço gourmet para eventos especiais</strong></li>\n<li data-start=\"1210\" data-end=\"1265\"><strong data-start=\"1212\" data-end=\"1263\">Sky bar e lounge externo com vista deslumbrante</strong></li>\n</ul>\n<p data-start=\"1267\" data-end=\"1436\">Com um <strong data-start=\"1274\" data-end=\"1341\">design moderno, acabamento impecável e localização privilegiada</strong>, este empreendimento é ideal para quem deseja viver com requinte no Centro de Florianópolis.</p>\n<p data-start=\"1438\" data-end=\"1495\"><strong data-start=\"1438\" data-end=\"1493\">Entre em contato e conheça essa oportunidade única!</strong></p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-1-27.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-6-17.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-7-21.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-2-20.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-3-23.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-15-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-4-26.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-5-19.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-8-17.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-9-18.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-10-14.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-11-13.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-12-15.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-13-13.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-17-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-14-12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-16-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-torre-mar-301-a-1401.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-torre-mar-302-a-1402.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-torre-mar-garden-201.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Torre-mar-garden-202.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-torre-parque-302-a-1402.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-torre-parque-401-a-1501.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-torre-parque-1602.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/d-sense-centro-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:21.204Z",
+  "kind": "loteamento"
+}

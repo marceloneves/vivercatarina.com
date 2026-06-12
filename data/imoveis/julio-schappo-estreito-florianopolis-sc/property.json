@@ -1,0 +1,251 @@
+{
+  "id": 17724,
+  "slug": "julio-schappo-estreito-florianopolis-sc",
+  "title": "Júlio Schappo, Estreito, Florianópolis SC",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,720,000",
+    "amount": 1720000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Humaita, 320, Estreito, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "estreito",
+      "name": "Estreito"
+    }
+  },
+  "overview": {
+    "code": "1495",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "garages": 2,
+    "sizeSqm": 1692,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "3-suites",
+      "name": "3 Suítes"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "churrasqueira",
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "especo-pet",
+    "piscina",
+    "playground",
+    "praca-de-fogo",
+    "rooftop",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Pet",
+    "Playground",
+    "Coworking",
+    "Espaço Gourmet",
+    "Brinquedoteca",
+    "Praça de fogo",
+    "Elevador",
+    "Rooftop"
+  ],
+  "descriptionHtml": "<p>Apartamentos com <strong>3 suítes,</strong> lavabo, amplo terraço com <strong>spa,</strong> 169m² privativos <strong>2 vagas R$ 1.720.000,00</strong></p>\n<p>Apartamentos com <strong>3 suítes</strong>, lavabo,<strong> 129m²</strong> privativos, sacada com <strong>churrasqueira, 2 vagas</strong> a partir de <strong>R$ 1.825.000,00</strong></p>\n<p>Entrada + financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel de menor valor como parte de pagamento</li>\n<li><em>Valores atualizados em 21/10/2025</em></li>\n</ul>\n<p data-start=\"194\" data-end=\"272\"><strong data-start=\"194\" data-end=\"270\">Residencial Julio Schappo – Pronto para morar no Estreito, Florianópolis</strong></p>\n<p data-start=\"274\" data-end=\"590\">O <strong data-start=\"276\" data-end=\"305\">Residencial Julio Schappo</strong>, da renomada <strong data-start=\"319\" data-end=\"338\">RDO Construtora</strong>, é sinônimo de sofisticação, conforto e alto padrão construtivo. Localizado no coração do Estreito, uma das regiões mais valorizadas de Florianópolis, o empreendimento entrega o equilíbrio perfeito entre qualidade de vida, modernidade e praticidade.</p>\n<p data-start=\"592\" data-end=\"630\"><strong data-start=\"592\" data-end=\"628\">Apartamentos amplos e exclusivos</strong></p>\n<ul data-start=\"631\" data-end=\"1157\">\n<li data-start=\"631\" data-end=\"673\">\n<p data-start=\"633\" data-end=\"673\">Plantas com<strong data-start=\"645\" data-end=\"671\"> 3 suítes + lavabo</strong></p>\n</li>\n<li data-start=\"674\" data-end=\"713\">\n<p data-start=\"676\" data-end=\"713\"><strong data-start=\"676\" data-end=\"711\">Apenas 4 apartamentos por andar</strong></p>\n</li>\n<li data-start=\"714\" data-end=\"789\">\n<p data-start=\"716\" data-end=\"789\">Ampla sacada integrada à cozinha e área social nas unidades de 3 suítes</p>\n</li>\n<li data-start=\"790\" data-end=\"845\">\n<p data-start=\"792\" data-end=\"845\"><strong data-start=\"792\" data-end=\"814\">Ventilação cruzada</strong> e excelente orientação solar</p>\n</li>\n<li data-start=\"846\" data-end=\"916\">\n<p data-start=\"848\" data-end=\"916\">Acabamento premium com rebaixamento em gesso em todos os ambientes</p>\n</li>\n<li data-start=\"917\" data-end=\"982\">\n<p data-start=\"919\" data-end=\"982\"><strong data-start=\"919\" data-end=\"936\">Piso vinílico</strong> nas suítes e <strong data-start=\"950\" data-end=\"965\">porcelanato</strong> na área social</p>\n</li>\n<li data-start=\"983\" data-end=\"1031\">\n<p data-start=\"985\" data-end=\"1031\">Persianas embutidas e motorizadas nas suítes</p>\n</li>\n<li data-start=\"1032\" data-end=\"1090\">\n<p data-start=\"1034\" data-end=\"1090\">Amplas esquadrias que garantem mais iluminação natural</p>\n</li>\n<li data-start=\"1091\" data-end=\"1157\">\n<p data-start=\"1093\" data-end=\"1157\">Espera para ar-condicionado tipo split na área social e suítes</p>\n</li>\n</ul>\n<p data-start=\"1159\" data-end=\"1188\"><strong data-start=\"1159\" data-end=\"1186\">Infraestrutura completa</strong></p>\n<ul data-start=\"1189\" data-end=\"1468\">\n<li data-start=\"1189\" data-end=\"1224\">\n<p data-start=\"1191\" data-end=\"1224\"><strong data-start=\"1191\" data-end=\"1222\">Opção de 2 vagas de garagem</strong></p>\n</li>\n<li data-start=\"1225\" data-end=\"1241\">\n<p data-start=\"1227\" data-end=\"1241\">Bicicletário</p>\n</li>\n<li data-start=\"1242\" data-end=\"1283\">\n<p data-start=\"1244\" data-end=\"1283\">Espera para aquecimento de água a gás</p>\n</li>\n<li data-start=\"1284\" data-end=\"1332\">\n<p data-start=\"1286\" data-end=\"1332\">Medidores individuais de água, gás e energia</p>\n</li>\n<li data-start=\"1333\" data-end=\"1394\">\n<p data-start=\"1335\" data-end=\"1394\">Iluminação em LED e sensores de presença nas áreas comuns</p>\n</li>\n<li data-start=\"1395\" data-end=\"1432\">\n<p data-start=\"1397\" data-end=\"1432\">Reaproveitamento de água da chuva</p>\n</li>\n<li data-start=\"1433\" data-end=\"1468\">\n<p data-start=\"1435\" data-end=\"1468\">Acessibilidade nas áreas comuns</p>\n</li>\n</ul>\n<p data-start=\"1470\" data-end=\"1509\"><strong data-start=\"1470\" data-end=\"1507\">Área de lazer para toda a família</strong></p>\n<ul data-start=\"1510\" data-end=\"1711\">\n<li data-start=\"1510\" data-end=\"1527\">\n<p data-start=\"1512\" data-end=\"1527\"><strong data-start=\"1512\" data-end=\"1525\">Coworking</strong></p>\n</li>\n<li data-start=\"1528\" data-end=\"1549\">\n<p data-start=\"1530\" data-end=\"1549\"><strong data-start=\"1530\" data-end=\"1547\">Brinquedoteca</strong></p>\n</li>\n<li data-start=\"1550\" data-end=\"1566\">\n<p data-start=\"1552\" data-end=\"1566\"><strong data-start=\"1552\" data-end=\"1564\">Academia</strong></p>\n</li>\n<li data-start=\"1567\" data-end=\"1609\">\n<p data-start=\"1569\" data-end=\"1609\"><strong data-start=\"1569\" data-end=\"1587\">Espaço gourmet</strong> e <strong data-start=\"1590\" data-end=\"1607\">sala de jogos</strong></p>\n</li>\n<li data-start=\"1610\" data-end=\"1633\">\n<p data-start=\"1612\" data-end=\"1633\"><strong data-start=\"1612\" data-end=\"1631\">Salão de festas</strong></p>\n</li>\n<li data-start=\"1634\" data-end=\"1651\">\n<p data-start=\"1636\" data-end=\"1651\"><strong data-start=\"1636\" data-end=\"1649\">Pet place</strong></p>\n</li>\n<li data-start=\"1652\" data-end=\"1711\">\n<p data-start=\"1654\" data-end=\"1711\"><strong data-start=\"1654\" data-end=\"1668\">Fire place</strong> para momentos de convivência ao ar livre</p>\n</li>\n</ul>\n<p data-start=\"1713\" data-end=\"1886\">O <strong data-start=\"1715\" data-end=\"1744\">Residencial Julio Schappo</strong> oferece o que há de melhor em design, funcionalidade e localização, pronto para receber você e sua família com todo o conforto que merecem.</p>\n<p>&nbsp;</p>",
+  "floorPlans": [
+    {
+      "title": "Planta final 01",
+      "image": "images/35-Planta-301-home-office.jpg"
+    },
+    {
+      "title": "Planta final 2",
+      "image": "images/36-Planta-final-02.jpg"
+    },
+    {
+      "title": "Planta final 3",
+      "image": "images/37-Planta-final-03.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-0N9A4487-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-0N9A4503.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-0N9A5668.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-0N9A5674.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-0N9A5681.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-0N9A5673.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-0N9A4865.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-0N9A5705.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-0N9A4885.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-0N9A5686.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-0N9A5687.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-0N9A5682.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-0N9A4889.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-0N9A4892.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-0N9A5699.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-0N9A5692.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-0N9A5694.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-0N9A5697.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-0N9A5701.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-0N9A4542.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-0N9A4559.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-0N9A4591.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-0N9A4651.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-0N9A4684.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-0N9A4762.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-0N9A4821.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-0N9A5588.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-0N9A5623.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-0N9A5625.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/30-0N9A5644.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/31-0N9A5646.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/32-0N9A5678.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/33-0N9A5742.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/34-0N9A5745.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/35-Planta-301-home-office.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/36-Planta-final-02.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/37-Planta-final-03.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/julio-schappo-estreito-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:44:10.435Z",
+  "kind": "apartamento"
+}

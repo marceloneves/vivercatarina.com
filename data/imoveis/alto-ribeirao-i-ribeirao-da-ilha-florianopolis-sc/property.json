@@ -1,0 +1,144 @@
+{
+  "id": 13204,
+  "slug": "alto-ribeirao-i-ribeirao-da-ilha-florianopolis-sc",
+  "title": "Loteamento Alto Ribeirão I",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$650,000",
+    "amount": 650000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Ribeirão da Ilha",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ribeirao-da-ilha",
+      "name": "Ribeirão da Ilha"
+    }
+  },
+  "overview": {
+    "code": "1337",
+    "bedrooms": null,
+    "bathrooms": null,
+    "garages": null,
+    "sizeSqm": 375.022,
+    "deliveryYear": "2025"
+  },
+  "types": [
+    {
+      "slug": "house",
+      "name": "Loteamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-25",
+      "name": "Dez/25"
+    }
+  ],
+  "labels": [],
+  "featureSlugs": [],
+  "features": [],
+  "descriptionHtml": "<p><strong>Terrenos a partir de 375 m², a partir de R$ 650.000,00 (lotes 28, 44, 45)</strong></p>\n<ul>\n<li>Entrada + parcelas</li>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n</ul>\n<h4 data-start=\"121\" data-end=\"186\"><strong data-start=\"124\" data-end=\"186\">Loteamento Alto Ribeirão I – Viva o melhor do sul da ilha!</strong></h4>\n<p class=\"\" data-start=\"188\" data-end=\"520\">Loteamento <strong data-start=\"214\" data-end=\"233\">Alto Ribeirão I</strong>, uma oportunidade imperdível de viver ou investir em uma das regiões mais charmosas e tradicionais de Florianópolis: o <strong data-start=\"353\" data-end=\"373\">Ribeirão da Ilha</strong>. Conhecido por sua beleza natural, segurança e pela renomada gastronomia à base de frutos do mar, o bairro é um verdadeiro refúgio no sul da ilha.</p>\n<p class=\"\" data-start=\"522\" data-end=\"871\">O empreendimento conta com <strong data-start=\"549\" data-end=\"587\">lotes espaçosos a partir de 375 m²</strong>, oferecendo liberdade e conforto para construir a casa dos seus sonhos. Além disso, está <strong data-start=\"677\" data-end=\"734\">a poucos minutos das praias mais encantadoras da ilha</strong> e do <strong data-start=\"740\" data-end=\"780\">Aeroporto Internacional Hercílio Luz</strong> – uma localização privilegiada para quem busca tranquilidade sem abrir mão da praticidade.</p>\n<h4 data-start=\"873\" data-end=\"905\"><strong data-start=\"877\" data-end=\"905\">Destaques do loteamento:</strong></h4>\n<ul data-start=\"906\" data-end=\"1120\">\n<li class=\"\" data-start=\"906\" data-end=\"945\">\n<p class=\"\" data-start=\"908\" data-end=\"945\">Lotes amplos a partir de <strong data-start=\"933\" data-end=\"943\">375 m²</strong></p>\n</li>\n<li class=\"\" data-start=\"946\" data-end=\"969\">\n<p class=\"\" data-start=\"948\" data-end=\"969\"><strong data-start=\"948\" data-end=\"969\">Ruas pavimentadas</strong></p>\n</li>\n<li class=\"\" data-start=\"970\" data-end=\"1001\">\n<p class=\"\" data-start=\"972\" data-end=\"1001\"><strong data-start=\"972\" data-end=\"999\">Infraestrutura completa</strong></p>\n</li>\n<li class=\"\" data-start=\"1002\" data-end=\"1033\">\n<p class=\"\" data-start=\"1004\" data-end=\"1033\">Bairro seguro e tradicional</p>\n</li>\n<li class=\"\" data-start=\"1034\" data-end=\"1070\">\n<p class=\"\" data-start=\"1036\" data-end=\"1070\">Próximo às praias do sul da ilha</p>\n</li>\n<li class=\"\" data-start=\"1071\" data-end=\"1120\">\n<p class=\"\" data-start=\"1073\" data-end=\"1120\">Fácil acesso ao aeroporto e ao centro da cidade</p>\n</li>\n</ul>\n<p class=\"\" data-start=\"1122\" data-end=\"1254\">Seja para morar ou investir, o <strong data-start=\"1153\" data-end=\"1172\">Alto Ribeirão I</strong> é a escolha certa para quem valoriza qualidade de vida e localização estratégica.</p>",
+  "floorPlans": [
+    {
+      "title": "Planta I e II",
+      "image": "images/20-Planta-1-e-2.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-45-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-44-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-WhatsApp-Image-2025-04-30-at-10.42.18-1.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-46-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-WhatsApp-Image-2025-04-30-at-10.42.18.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-WhatsApp-Image-2025-04-30-at-10.42.19-1.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-WhatsApp-Image-2025-04-30-at-10.42.19.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-WhatsApp-Image-2025-04-30-at-10.42.21.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-WhatsApp-Image-2025-04-30-at-10.42.24-1.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-WhatsApp-Image-2025-04-30-at-10.42.22.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-WhatsApp-Image-2025-04-30-at-10.42.24.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-WhatsApp-Image-2025-04-30-at-10.42.23.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-WhatsApp-Image-2025-04-30-at-10.42.25-1.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-WhatsApp-Image-2025-04-30-at-10.42.25.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-WhatsApp-Image-2025-04-30-at-10.42.26-1.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-WhatsApp-Image-2025-04-30-at-10.42.26.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-WhatsApp-Image-2025-04-30-at-10.42.27-1.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-WhatsApp-Image-2025-04-30-at-10.42.27.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-WhatsApp-Image-2025-04-30-at-10.42.28-1.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Planta-1-e-2.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/alto-ribeirao-i-ribeirao-da-ilha-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:44:05.795Z",
+  "kind": "loteamento"
+}

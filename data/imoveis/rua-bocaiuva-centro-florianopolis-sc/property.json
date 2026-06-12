@@ -1,0 +1,166 @@
+{
+  "id": 20535,
+  "slug": "rua-bocaiuva-centro-florianopolis-sc",
+  "title": "Apartamento semimobiliado, Rua Bocaiuva, Centro, Florianópolis",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": null,
+    "display": "R$1,680,000",
+    "amount": 1680000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Bocaiuva, Centro, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "centro",
+      "name": "Centro"
+    }
+  },
+  "overview": {
+    "code": "1589",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "garages": 1,
+    "sizeSqm": 1272,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "3-dorm",
+      "name": "3 dorm (1 suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "elevador",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Salão de Festas",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p data-start=\"0\" data-end=\"105\">🏙️ <strong data-start=\"4\" data-end=\"103\">Amplo apartamento na Rua Bocaiúva — Centro de Florianópolis, a poucos passos da Beira-Mar Norte</strong></p>\n<p data-start=\"107\" data-end=\"328\">Localizado na <strong data-start=\"121\" data-end=\"150\">quadra da Beira-Mar Norte</strong>, este apartamento oferece o equilíbrio perfeito entre <strong data-start=\"205\" data-end=\"250\">conforto, praticidade e qualidade de vida</strong>, em uma das regiões mais nobres e desejadas do <strong data-start=\"298\" data-end=\"325\">Centro de Florianópolis</strong>.</p>\n<p data-start=\"330\" data-end=\"732\">O imóvel é <strong data-start=\"341\" data-end=\"368\">amplo e bem distribuído</strong>, com <strong data-start=\"374\" data-end=\"391\">3 dormitórios</strong>, sendo <strong data-start=\"399\" data-end=\"410\">1 suíte</strong>, <strong data-start=\"412\" data-end=\"422\">lavabo</strong>, <strong data-start=\"424\" data-end=\"453\">sacada fechada com vidros</strong>, ideal para desfrutar de momentos de relaxamento com privacidade e conforto. A <strong data-start=\"533\" data-end=\"544\">cozinha</strong> e a <strong data-start=\"549\" data-end=\"568\">área de serviço</strong> são espaçosas e funcionais, e o apartamento encontra-se <strong data-start=\"625\" data-end=\"642\">semimobiliado</strong>, com <strong data-start=\"648\" data-end=\"669\">móveis planejados</strong> de excelente qualidade, garantindo praticidade no dia a dia.</p>\n<p data-start=\"734\" data-end=\"856\">Com <strong data-start=\"738\" data-end=\"759\">1 vaga de garagem</strong>, o apartamento oferece tudo o que você precisa para viver com comodidade no coração da cidade.</p>\n<p data-start=\"858\" data-end=\"888\">🏢 <strong data-start=\"861\" data-end=\"886\">O edifício conta com:</strong></p>\n<ul data-start=\"889\" data-end=\"1123\">\n<li data-start=\"889\" data-end=\"923\">\n<p data-start=\"891\" data-end=\"923\">Portaria para maior segurança;</p>\n</li>\n<li data-start=\"924\" data-end=\"954\">\n<p data-start=\"926\" data-end=\"954\">Salão de festas mobiliado;</p>\n</li>\n<li data-start=\"955\" data-end=\"1123\">\n<p data-start=\"957\" data-end=\"1123\">Localização privilegiada na Rua Bocaiúva, a poucos passos da Beira-Mar Norte, próximo a supermercados, restaurantes, farmácias, academias e todo o comércio central.</p>\n</li>\n</ul>\n<p data-start=\"1125\" data-end=\"1154\">🌟 <strong data-start=\"1128\" data-end=\"1152\">Destaques do imóvel:</strong></p>\n<ul data-start=\"1155\" data-end=\"1435\">\n<li data-start=\"1155\" data-end=\"1192\">\n<p data-start=\"1157\" data-end=\"1192\">3 dormitórios (1 suíte) + lavabo;</p>\n</li>\n<li data-start=\"1193\" data-end=\"1223\">\n<p data-start=\"1195\" data-end=\"1223\">Sacada fechada com vidros;</p>\n</li>\n<li data-start=\"1224\" data-end=\"1268\">\n<p data-start=\"1226\" data-end=\"1268\">Cozinha e área de serviço independentes;</p>\n</li>\n<li data-start=\"1269\" data-end=\"1309\">\n<p data-start=\"1271\" data-end=\"1309\">Semimobiliado com móveis planejados;</p>\n</li>\n<li data-start=\"1310\" data-end=\"1332\">\n<p data-start=\"1312\" data-end=\"1332\">1 vaga de garagem;</p>\n</li>\n<li data-start=\"1333\" data-end=\"1377\">\n<p data-start=\"1335\" data-end=\"1377\">Edifício com portaria e salão de festas;</p>\n</li>\n<li data-start=\"1378\" data-end=\"1435\">\n<p data-start=\"1380\" data-end=\"1435\">Localização excelente — na quadra da Beira-Mar Norte.</p>\n</li>\n</ul>\n<p data-start=\"1437\" data-end=\"1590\" data-is-last-node=\"\" data-is-only-node=\"\">Uma oportunidade única para quem busca <strong data-start=\"1476\" data-end=\"1513\">morar com conforto e sofisticação</strong> em uma das áreas mais valorizadas de Florianópolis, com tudo ao seu alcance.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-original_21894b23de55365632120b9c3334996c.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-original_9f02f13fd16a55a94c62f7dc9fb1f000.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-original_348e923c57bd8414146f768ee1adbe4d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-original_acd7b5193b2a67f5ad143d230b5b9115-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-original_1859b230ea58d9896a9d035da215608d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-original_b8ca2ab73f0a7622fe5d5653da6b80ac.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-original_990cb3ef7b3140b40641f60ec2ad89d4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-original_69a4762521bbae73a233c4365747a00d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-original_45a414d37c5ba63f506869dd191d61bd.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-original_1325c8d73cbf90aab7ad8c1202e35bc7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-original_0c7eef4f47d6af39278c763cbcb5d96b.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-original_107a7419ba83eb2e1baf61617614face.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-original_6e898c03c1b542472885aabab9633642.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-original_a56f0b5b5d822b1737d10beb0c76cad7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-original_d7c785071495b330b0ff20926a650400.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-original_1840a23b5cafb61dd7225f6195905255.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-original_e486de25083b0d5595d0b1b1f8459d51.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-original_f5ee91271ebaf28fb32310408b122b84.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-original_a2a9ffb2a72d347b6a2afb692da3f637.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-original_d3a30bbcd0009e9976f90889fb211d7b.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-original_cfcb7d8d30084a1f60336064f81317d5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-original_3773952ca250e7c51bcf9404cde2e631.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-original_5fad465a8e2fbc9a12062e6d6d186b1e.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-original_c2421ddac5e04a6a991cf5f73031f4cb.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/rua-bocaiuva-centro-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:50.174Z",
+  "kind": "apartamento"
+}

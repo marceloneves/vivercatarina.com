@@ -1,0 +1,183 @@
+{
+  "id": 15178,
+  "slug": "bellomonte-ingleses-florianopolis-sc",
+  "title": "Bellomonte, Ingleses",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$413,000",
+    "amount": 413000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rodovia João Gualberto Soares, Ingleses, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ingleses",
+      "name": "Ingleses"
+    }
+  },
+  "overview": {
+    "code": "1401",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": 1,
+    "sizeSqm": 54.912,
+    "deliveryYear": "Dez/28"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-28",
+      "name": "Dez/28"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "1-2-e-3-dorm",
+      "name": "1 2 e 3 Dorm."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "brinquedoteca",
+    "churrasqueira",
+    "churrasqueira-coletiva",
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "especo-pet",
+    "piscina",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Pet",
+    "Coworking",
+    "Espaço Gourmet",
+    "Brinquedoteca",
+    "Churrasqueira coletiva",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 1 dormitório, churrasqueira e 1 vaga a partir de R$ 413.000,00</strong></p>\n<p><strong>Apartamentos com 2 dormitórios sendo 1 suíte, 78,36m², churrasqueira a partir de R$ 622.000,00</strong></p>\n<p><strong>Apartamento com 2 suítes, lavabo, churrasqueira a partir de R$ 726.000,00</strong></p>\n<p><strong>Apartamento com 3 dormitórios sendo 1 suíte, 84,6m²,  churrasqueira, 2 vagas a partir de R$ 862.000,00</strong></p>\n<p>Entrada + parcelas + reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Aceita imóvel de menor valor</li>\n<li><em>Valores atualizados em 20/10/2025</em></li>\n</ul>\n<p data-start=\"42\" data-end=\"113\"><strong data-start=\"42\" data-end=\"113\">Montebello Residence – Lançamento nos Ingleses, Florianópolis</strong></p>\n<p data-start=\"115\" data-end=\"191\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">O Montebello Residence é o mais novo lançamento na região dos Ingleses, em Florianópolis. Localizado em uma área elevada, com vista privilegiada e próximo à Praia dos Ingleses, o empreendimento une qualidade construtiva, design moderno e infraestrutura completa para atender famílias, casais e investidores.</span></p>\n<hr data-start=\"193\" data-end=\"196\" />\n<h5 data-start=\"198\" data-end=\"223\">🏡 Tipologias e áreas</h5>\n<ul data-start=\"224\" data-end=\"469\">\n<li data-start=\"224\" data-end=\"265\">\n<p data-start=\"226\" data-end=\"265\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Studios de <strong data-start=\"11\" data-end=\"29\" data-is-last-node=\"\">69, 78 e 85 m²</strong></span></p>\n</li>\n<li data-start=\"266\" data-end=\"307\">\n<p data-start=\"268\" data-end=\"307\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Apartamentos de <strong data-start=\"16\" data-end=\"32\">1 dormitório</strong> (58 e 61 m²)</span></p>\n</li>\n<li data-start=\"308\" data-end=\"349\">\n<p data-start=\"310\" data-end=\"349\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Apartamentos de <strong data-start=\"16\" data-end=\"47\">2 dormitórios sendo 1 suíte</strong> (67 e 73 m²)</span></p>\n</li>\n<li data-start=\"350\" data-end=\"391\">\n<p data-start=\"352\" data-end=\"391\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Apartamentos de <strong data-start=\"16\" data-end=\"43\">3 dormitórios com suíte</strong> (84 m²)</span></p>\n</li>\n<li data-start=\"392\" data-end=\"469\">\n<p data-start=\"394\" data-end=\"469\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Coberturas de <strong data-start=\"14\" data-end=\"41\">3 dormitórios com suíte</strong> (143 e 155 m²)</span></p>\n</li>\n</ul>\n<p data-start=\"471\" data-end=\"549\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Todas as unidades contam com <strong data-start=\"29\" data-end=\"66\">varanda gourmet com churrasqueira</strong>, excelente ventilação e iluminação naturais</span></p>\n<hr data-start=\"551\" data-end=\"554\" />\n<h5 data-start=\"556\" data-end=\"590\">🎯 Destaques do empreendimento</h5>\n<ul data-start=\"591\" data-end=\"800\">\n<li data-start=\"591\" data-end=\"634\">\n<p data-start=\"593\" data-end=\"634\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Vista panorâmica para o mar e a orla dos Ingleses</span></p>\n</li>\n<li data-start=\"635\" data-end=\"718\">\n<p data-start=\"637\" data-end=\"718\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Em frente ao Costão Golf Ville, em terreno de 10 000 m²</span></p>\n</li>\n<li data-start=\"719\" data-end=\"800\">\n<p data-start=\"721\" data-end=\"800\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Sistema SPE (preço de custo), prometendo alta valorização e rentabilidade superior</span></p>\n</li>\n</ul>\n<hr data-start=\"802\" data-end=\"805\" />\n<h5 data-start=\"807\" data-end=\"828\">🏊 Lazer completo</h5>\n<ul data-start=\"829\" data-end=\"1201\">\n<li data-start=\"829\" data-end=\"872\">\n<p data-start=\"831\" data-end=\"872\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Piscina adulto e infantil (algumas com borda infinita)</span></p>\n</li>\n<li data-start=\"873\" data-end=\"916\">\n<p data-start=\"875\" data-end=\"916\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Espaço gourmet com churrasqueira</span></p>\n</li>\n<li data-start=\"917\" data-end=\"960\">\n<p data-start=\"919\" data-end=\"960\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Rooftop com lounge e solarium</span></p>\n</li>\n<li data-start=\"961\" data-end=\"973\">\n<p data-start=\"963\" data-end=\"973\">Academia</p>\n</li>\n<li data-start=\"974\" data-end=\"1017\">\n<p data-start=\"976\" data-end=\"1017\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Salão de festas</span></p>\n</li>\n<li data-start=\"1018\" data-end=\"1061\">\n<p data-start=\"1020\" data-end=\"1061\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Espaço kids / brinquedoteca</span></p>\n</li>\n<li data-start=\"1062\" data-end=\"1105\">\n<p data-start=\"1064\" data-end=\"1105\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Sala de jogos</span></p>\n</li>\n<li data-start=\"1106\" data-end=\"1119\">\n<p data-start=\"1108\" data-end=\"1119\">Coworking</p>\n</li>\n<li data-start=\"1120\" data-end=\"1201\">\n<p data-start=\"1122\" data-end=\"1201\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Pet care e bicicletário</span></p>\n</li>\n</ul>\n<hr data-start=\"1203\" data-end=\"1206\" />\n<h5 data-start=\"1208\" data-end=\"1238\">📍 Localização e vantagens</h5>\n<ul data-start=\"1239\" data-end=\"1448\">\n<li data-start=\"1239\" data-end=\"1282\">\n<p data-start=\"1241\" data-end=\"1282\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Rodovia João Gualberto Soares, Ingleses Norte</span></p>\n</li>\n<li data-start=\"1283\" data-end=\"1366\">\n<p data-start=\"1285\" data-end=\"1366\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Próximo à Praia dos Ingleses (cerca de 3–4 km) e ao Costão Golf Ville</span></p>\n</li>\n<li data-start=\"1367\" data-end=\"1448\">\n<p data-start=\"1369\" data-end=\"1448\"><span class=\"relative -mx-px my-[-0.2rem] rounded px-px py-[0.2rem] transition-colors duration-100 ease-in-out\">Região em crescimento, com valorização contínua e excelente retorno para aluguel por temporada.</span></p>\n</li>\n</ul>",
+  "floorPlans": [
+    {
+      "title": "Duplex 1 suíte + lavabo",
+      "image": "images/17-planta-duplex-1-d-1.png"
+    },
+    {
+      "title": "Planta 1 dormitório + terraço",
+      "image": "images/18-planta-1-d-com-terraco-1-1.png"
+    },
+    {
+      "title": "Planta 2 dormitórios (1 suíte)",
+      "image": "images/19-planta-2-d-1-ste-1.png"
+    },
+    {
+      "title": "Planta 3 dormitórios (1 suíte)",
+      "image": "images/20-planta-3-d-1.png"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2025-06-26-154825-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Captura-de-tela-2025-06-26-154758.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Captura-de-tela-2025-06-26-154917.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Captura-de-tela-2025-06-26-154845.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2025-06-26-154935.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Captura-de-tela-2025-06-26-154948.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Captura-de-tela-2025-06-26-155011.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Captura-de-tela-2025-06-26-155046.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Captura-de-tela-2025-06-26-155107.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Captura-de-tela-2025-06-26-155132.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-DUM_BELO_Festas_Terraco_C4_EF-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-DUM_BELO_PetWash_EF-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-planta-1-d-com-terraco-.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-planta-2-d-1-ste.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-planta-3-d.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-planta-duplex-1-d.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-planta-duplex-1-d-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-planta-1-d-com-terraco-1-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-planta-2-d-1-ste-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-planta-3-d-1.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/bellomonte-ingleses-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:09.360Z",
+  "kind": "loteamento"
+}

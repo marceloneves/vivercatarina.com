@@ -1,0 +1,113 @@
+{
+  "id": 15106,
+  "slug": "oceanic-residence-ingleses-florianopolis-sc",
+  "title": "Oceanic Residence, Ingleses",
+  "category": "lancamento",
+  "price": {
+    "prefix": null,
+    "display": "R$802,000",
+    "amount": 802000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Recanto do Sol, Ingleses, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "ingleses",
+      "name": "Ingleses"
+    }
+  },
+  "overview": {
+    "code": "1399",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 83.062,
+    "deliveryYear": null
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [],
+  "labels": [
+    {
+      "slug": "2-suites",
+      "name": "2 Suítes"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "churrasqueira",
+    "elevador",
+    "espaco-gourmet",
+    "piscina",
+    "sala-de-jogos"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Piscina",
+    "Sala de Jogos",
+    "Espaço Gourmet",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 2 dormitórios sendo 1 suíte, 83m², sacada com churrasqueira a partir de R$ 802.000,00</strong></p>\n<p><strong>Apartamentos com 2 suítes, lavabo, 86m² a 160m², sacada com churrasqueira a partir de R$ 840.000,00</strong></p>\n<p><strong>Apartamentos com 3 dormitórios sendo 2 suítes, 125m² a 1129,4m²,  sacada com churrasqueira a partir de R$ 1.281.000,00</strong></p>\n<p>Entrada + parcelas + reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Aceita imóvel de menor valor</li>\n<li><em>Valores atualizados em 20/10/2025</em></li>\n</ul>\n<p data-start=\"133\" data-end=\"200\"><strong data-start=\"133\" data-end=\"200\">Oceani Residence – Lançamento nos Ingleses, Florianópolis</strong></p>\n<p data-start=\"202\" data-end=\"524\">O Oceani Residence é um novo lançamento em uma das regiões mais valorizadas e procuradas de Florianópolis. Localizado em uma rua tranquila e com fácil acesso à praia, o empreendimento oferece conforto, sofisticação e uma infraestrutura completa de lazer, ideal para morar ou investir.</p>\n<p data-start=\"526\" data-end=\"553\"><strong data-start=\"526\" data-end=\"553\">Tipologias disponíveis:</strong></p>\n<ul data-start=\"554\" data-end=\"708\">\n<li data-start=\"554\" data-end=\"594\">\n<p data-start=\"556\" data-end=\"594\">Apartamentos com 2 quartos (1 suíte)</p>\n</li>\n<li data-start=\"595\" data-end=\"633\">\n<p data-start=\"597\" data-end=\"633\">Apartamentos com 2 suítes + lavabo</p>\n</li>\n<li data-start=\"634\" data-end=\"678\">\n<p data-start=\"636\" data-end=\"678\">Apartamentos com 3 dormitórios (1 suíte)</p>\n</li>\n</ul>\n<p data-start=\"710\" data-end=\"827\">Todas as unidades possuem <strong data-start=\"736\" data-end=\"773\">sacada com churrasqueira a carvão</strong>, planta bem distribuída e acabamentos de alto padrão.</p>\n<p data-start=\"829\" data-end=\"856\"><strong data-start=\"829\" data-end=\"856\">Lazer e infraestrutura:</strong></p>\n<ul data-start=\"857\" data-end=\"1064\">\n<li data-start=\"857\" data-end=\"887\">\n<p data-start=\"859\" data-end=\"887\">Piscinas adulto e infantil</p>\n</li>\n<li data-start=\"888\" data-end=\"924\">\n<p data-start=\"890\" data-end=\"924\">Espaço gourmet com churrasqueira</p>\n</li>\n<li data-start=\"925\" data-end=\"944\">\n<p data-start=\"927\" data-end=\"944\">Salão de festas</p>\n</li>\n<li data-start=\"945\" data-end=\"966\">\n<p data-start=\"947\" data-end=\"966\">Academia equipada</p>\n</li>\n<li data-start=\"967\" data-end=\"980\">\n<p data-start=\"969\" data-end=\"980\">Coworking</p>\n</li>\n<li data-start=\"981\" data-end=\"995\">\n<p data-start=\"983\" data-end=\"995\">Playground</p>\n</li>\n<li data-start=\"996\" data-end=\"1017\">\n<p data-start=\"998\" data-end=\"1017\">Deck com solarium</p>\n</li>\n<li data-start=\"1018\" data-end=\"1064\">\n<p data-start=\"1020\" data-end=\"1064\">Áreas de convivência e jardim paisagístico</p>\n</li>\n</ul>\n<p data-start=\"1066\" data-end=\"1095\"><strong data-start=\"1066\" data-end=\"1095\">Localização privilegiada:</strong></p>\n<ul data-start=\"1096\" data-end=\"1266\">\n<li data-start=\"1096\" data-end=\"1128\">\n<p data-start=\"1098\" data-end=\"1128\">Próximo à Praia dos Ingleses</p>\n</li>\n<li data-start=\"1129\" data-end=\"1192\">\n<p data-start=\"1131\" data-end=\"1192\">A poucos minutos de comércios, mercados, escolas e serviços</p>\n</li>\n<li data-start=\"1193\" data-end=\"1266\">\n<p data-start=\"1195\" data-end=\"1266\">Bairro com infraestrutura consolidada e alto potencial de valorização</p>\n</li>\n</ul>\n<p data-start=\"1268\" data-end=\"1305\"><strong data-start=\"1268\" data-end=\"1305\">Diferenciais do Oceani Residence:</strong></p>\n<ul data-start=\"1306\" data-end=\"1489\">\n<li data-start=\"1306\" data-end=\"1341\">\n<p data-start=\"1308\" data-end=\"1341\">Arquitetura moderna e funcional</p>\n</li>\n<li data-start=\"1342\" data-end=\"1414\">\n<p data-start=\"1344\" data-end=\"1414\">Plantas otimizadas para diferentes perfis de família ou investimento</p>\n</li>\n<li data-start=\"1415\" data-end=\"1447\">\n<p data-start=\"1417\" data-end=\"1447\">Lazer completo no condomínio</p>\n</li>\n</ul>\n<p data-start=\"1491\" data-end=\"1569\"><strong data-start=\"1491\" data-end=\"1569\">Condições especiais de lançamento. Agende sua visita e conheça o decorado.</strong></p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-DOM_OCE_Fachada_Fotomontagem_01_EF-1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-DOM_OCE_Fachada_C1_DAY_EF-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-DOM_OCE_Fachada_Fotomontagem_02_EF-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Captura-de-tela-2025-06-26-140002.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-DOM_OCE_Academia_C5_EF-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-DOM_OCE_Festas_PF-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-DOM_OCE_Jogos_Gourmet_PF_B-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-DOM_OCE_Piscina_C1_EF-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-DOM_OCE_Piscina_C5_EF-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Fachada-lateral-OCEANIC-RESIDENCE-DOMUM-scaled.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/oceanic-residence-ingleses-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:46.998Z",
+  "kind": "apartamento"
+}

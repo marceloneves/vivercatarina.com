@@ -1,0 +1,107 @@
+{
+  "kind": "casa",
+  "name": "Casas em condomínio",
+  "generatedAt": "2026-05-31T18:41:54.332Z",
+  "total": 9,
+  "properties": [
+    {
+      "slug": "red-park-rio-vermelho-florianopolis-sc",
+      "id": 24717,
+      "title": "Casa alto padrão no condomínio Ilha do Arvoredo-Av, Red Park, Florianópolis",
+      "category": "pronto-para-morar",
+      "kind": "casa",
+      "city": "florianopolis",
+      "price": 3165000,
+      "dataPath": "imoveis/red-park-rio-vermelho-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/red-park-rio-vermelho-florianopolis-sc/images/01-5e4a1fdb-c493-430f-b01b-a59dda7ade15.jpg"
+    },
+    {
+      "slug": "ilha-das-laranjeiras-rio-vermelho-florianopolis-sc",
+      "id": 24669,
+      "title": "Casa no Condomínio Ilha das Laranjeiras, Florianópolis",
+      "category": "pronto-para-morar",
+      "kind": "casa",
+      "city": "florianopolis",
+      "price": 2950000,
+      "dataPath": "imoveis/ilha-das-laranjeiras-rio-vermelho-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/ilha-das-laranjeiras-rio-vermelho-florianopolis-sc/images/01-Foto-24.jpg"
+    },
+    {
+      "slug": "rio-vermelho-florianopolis-sc",
+      "id": 18674,
+      "title": "Casas no Rio Vermelho, Florianópolis",
+      "category": "lancamento",
+      "kind": "casa",
+      "city": "florianopolis",
+      "price": 850000,
+      "dataPath": "imoveis/rio-vermelho-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/rio-vermelho-florianopolis-sc/images/01-1-8.jpg"
+    },
+    {
+      "slug": "frances-em-condominio-fechado-em-rio-vermelho-florianopolis-sc",
+      "id": 25749,
+      "title": "Francês 11- Casa em condomínio fechado em Florianópolis",
+      "category": "pronto-para-morar",
+      "kind": "casa",
+      "city": "florianopolis",
+      "price": 2600000,
+      "dataPath": "imoveis/frances-em-condominio-fechado-em-rio-vermelho-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/frances-em-condominio-fechado-em-rio-vermelho-florianopolis-sc/images/01-Foto-01-1-scaled.jpg"
+    },
+    {
+      "slug": "ondara-residence-canajure-florianopolis-sc",
+      "id": 22248,
+      "title": "Ondara Residence, Canajurê",
+      "category": "lancamento",
+      "kind": "casa",
+      "city": "florianopolis",
+      "price": 370000,
+      "dataPath": "imoveis/ondara-residence-canajure-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/ondara-residence-canajure-florianopolis-sc/images/01-Captura-de-tela-2025-11-26-185102-1.jpg"
+    },
+    {
+      "slug": "reserva-santa-monica-florianopolis-sc",
+      "id": 21433,
+      "title": "Reserva Santa Mônica, Florianópolis",
+      "category": "lancamento",
+      "kind": "casa",
+      "city": "florianopolis",
+      "price": 1690000,
+      "dataPath": "imoveis/reserva-santa-monica-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/reserva-santa-monica-florianopolis-sc/images/01-Titulo.png"
+    },
+    {
+      "slug": "reserva-santo-antonio-de-lisboa-florianopolis-sc",
+      "id": 15502,
+      "title": "Reserva Santo Antônio, sobrados em condomínio fechado em Santo Antônio de Lisboa",
+      "category": "lancamento",
+      "kind": "casa",
+      "city": "florianopolis",
+      "price": 1250000,
+      "dataPath": "imoveis/reserva-santo-antonio-de-lisboa-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/reserva-santo-antonio-de-lisboa-florianopolis-sc/images/01-Captura-de-tela-2025-06-30-155340-1.png"
+    },
+    {
+      "slug": "residencial-san-clemente-campeche-florianopolis-sc",
+      "id": 10490,
+      "title": "Residencial San clemente, casas financiáveis de alto padrão no Campeche",
+      "category": "lancamento",
+      "kind": "casa",
+      "city": "florianopolis",
+      "price": 1200000,
+      "dataPath": "imoveis/residencial-san-clemente-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/residencial-san-clemente-campeche-florianopolis-sc/images/01-1111.jpg"
+    },
+    {
+      "slug": "ingleses-florianopolis-sc-apartamento",
+      "id": 22917,
+      "title": "Sobrado em Ingleses, Florianópolis",
+      "category": "pronto-para-morar",
+      "kind": "casa",
+      "city": "florianopolis",
+      "price": 1000000,
+      "dataPath": "imoveis/ingleses-florianopolis-sc-apartamento/property.json",
+      "thumbnail": "imoveis/ingleses-florianopolis-sc-apartamento/images/01-1-2_edited-1.avif"
+    }
+  ]
+}

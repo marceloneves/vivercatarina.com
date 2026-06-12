@@ -1,0 +1,144 @@
+{
+  "id": 9379,
+  "slug": "areias-do-leste-barra-da-lagoa-florianopolis-sc",
+  "title": "Areias do Leste, Barra da Lagoa",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$295,000",
+    "amount": 295000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Av. Cidade de Córdoba, Barra da Lagoa, Florianópolis/SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "barra-da-lagoa",
+      "name": "Barra da Lagoa"
+    }
+  },
+  "overview": {
+    "code": "1193",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": null,
+    "deliveryYear": "Abr/28"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "abr-28",
+      "name": "Abr/28"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "churrasqueira",
+    "coworking",
+    "espaco-gourmet",
+    "lavanderia",
+    "piscina",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Lavanderia",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Coworking",
+    "Espaço Gourmet"
+  ],
+  "descriptionHtml": "<p><strong>Stúdios a partir de R$295.000,00</strong></p>\n<p><strong>Studio com vista mar, 24.5 m²,  R$ 370.000,00</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel/terreno ou veículo como parte de pagamento.</li>\n<li><em>Valores atualizados em 05/03/2026</em></li>\n</ul>\n<h6><strong>Lançamento Imperdível na Barra da Lagoa &#8211; Florianópolis/SC</strong></h6>\n<p>Descubra o equilíbrio perfeito entre modernidade e conforto em um dos bairros mais charmosos de Florianópolis, a Barra da Lagoa! Este lançamento próximo à praia oferece studios e apartamentos de alto padrão, com opções que atendem às suas necessidades:</p>\n<h6><strong>Áreas Comuns e Lazer Completo:</strong></h6>\n<p>Viva momentos únicos com uma infraestrutura diferenciada:</p>\n<ul>\n<li>Academia</li>\n<li>Área Gourmet</li>\n<li>Coworking</li>\n<li>Lavanderia</li>\n<li>Mini Market</li>\n<li>Piscina</li>\n<li>Pranchário</li>\n<li>Salão de Festas</li>\n<li>Bicicletário</li>\n</ul>\n<h6><strong>Tecnologia e Sustentabilidade:</strong></h6>\n<ul>\n<li>Controle de Acesso Digital</li>\n<li>Monitoramento por Câmeras</li>\n<li>Infraestrutura para Portaria Remota</li>\n<li>Aproveitamento de Água da Chuva</li>\n</ul>\n<h6><strong>Diferenciais dos Apartamentos:</strong></h6>\n<p>Cada detalhe foi projetado para o máximo conforto e funcionalidade:</p>\n<ul>\n<li>Fechadura Digital</li>\n<li>Infraestrutura para Ar-Condicionado Split</li>\n<li>Ralo Linear</li>\n<li>Nicho no Box do Banheiro</li>\n<li>Chuveiro de Teto</li>\n<li>Rodapé de 15 cm</li>\n<li>Tubulação Envelopada para Atenuação de Ruído</li>\n<li>Piso Porcelanato Retificado 80&#215;80</li>\n<li>Parede Dupla entre Apartamentos para Isolamento Acústico</li>\n<li>Perfil de Alumínio nas Quinas para Maior Durabilidade</li>\n</ul>\n<p>Invista em qualidade de vida e sofisticação no coração de Florianópolis, a poucos passos do mar. Garanta sua unidade e viva com conforto, praticidade e estilo!</p>\n<p>Entre em contato para mais informações! 🚀</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Capturar2-12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-0c623ac291a69b7dc5ef6a4c4dc39630.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-2cce2a0617c0b1e578ecb587ca9b68fe.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-81b34569a54dfaae4a193c5b0f01246a-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-1571b21b8b6864aedc3188c3074a81c5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Capturar3-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Capturar5-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-0d3946cd19a872e1ae1135c3f91e54ff.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-7ca8bc5dd89480c920c910d4e7e0c9a3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-0071e43f43486ad11774740fa22a40c0.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-4051079d861c956c817490af77be787b.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-c42ba7b6ab4554b7e7f4022ddd3734da.jpeg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Capturar6-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Capturar7-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Capturar9-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-f2fd67c83f9fe25f66e99bfd835e9b5b.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/areias-do-leste-barra-da-lagoa-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:44:00.240Z",
+  "kind": "loteamento"
+}

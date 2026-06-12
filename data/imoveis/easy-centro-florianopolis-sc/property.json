@@ -1,0 +1,164 @@
+{
+  "id": 16803,
+  "slug": "easy-centro-florianopolis-sc",
+  "title": "Easy, Centro de Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$291,000",
+    "amount": 291000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Silveira de Souza, Centro, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "centro",
+      "name": "Centro"
+    }
+  },
+  "overview": {
+    "code": "1459",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 18.492,
+    "deliveryYear": "Nov/28"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "nov-28",
+      "name": "Nov/28"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "bicicletario",
+    "churrasqueira",
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "lavanderia",
+    "mini-market",
+    "piscina"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Lavanderia",
+    "Academia",
+    "Piscina",
+    "Coworking",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Mini-market",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p data-start=\"220\" data-end=\"297\"><strong>Studios com metragens de 18.49m² a 20.49m² com opções de plantas com sacada  a partir de R$ 291.000,00</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 30/03/2026</em></li>\n</ul>\n<p data-start=\"220\" data-end=\"297\"><strong data-start=\"220\" data-end=\"297\">Lançamento no Centro de Florianópolis – Ideal para Investidores e Locação</strong></p>\n<p data-start=\"299\" data-end=\"657\">Empreendimento localizado no centro de Florianópolis, projetado para oferecer máxima rentabilidade tanto em locações por temporada quanto anuais. Com uma localização estratégica e de alta valorização, o projeto está inserido em uma das regiões mais desejadas da cidade, próximo a comércios, serviços, universidades e à mobilidade urbana.</p>\n<p data-start=\"659\" data-end=\"936\">Construído na <strong data-start=\"694\" data-end=\"748\">modalidade SPE (Sociedade de Propósito Específico)</strong>, modelo que garante maior segurança jurídica e transparência para os compradores, com acompanhamento detalhado de custos e cronograma, além de possibilitar a aquisição por preço de custo.</p>\n<p data-start=\"938\" data-end=\"969\"><strong data-start=\"938\" data-end=\"969\">Diferenciais do Condomínio:</strong></p>\n<ul data-start=\"970\" data-end=\"1123\">\n<li data-start=\"970\" data-end=\"999\">\n<p data-start=\"972\" data-end=\"999\">Monitoramento por câmeras</p>\n</li>\n<li data-start=\"1000\" data-end=\"1030\">\n<p data-start=\"1002\" data-end=\"1030\">Controle de acesso digital</p>\n</li>\n<li data-start=\"1031\" data-end=\"1070\">\n<p data-start=\"1033\" data-end=\"1070\">Infraestrutura para portaria remota</p>\n</li>\n<li data-start=\"1071\" data-end=\"1106\">\n<p data-start=\"1073\" data-end=\"1106\">Aproveitamento de água da chuva</p>\n</li>\n<li data-start=\"1107\" data-end=\"1123\">\n<p data-start=\"1109\" data-end=\"1123\">Bicicletário</p>\n</li>\n</ul>\n<p data-start=\"1125\" data-end=\"1159\"><strong data-start=\"1125\" data-end=\"1159\">Diferenciais dos Apartamentos:</strong></p>\n<ul data-start=\"1160\" data-end=\"1369\">\n<li data-start=\"1160\" data-end=\"1181\">\n<p data-start=\"1162\" data-end=\"1181\">Fechadura digital</p>\n</li>\n<li data-start=\"1182\" data-end=\"1227\">\n<p data-start=\"1184\" data-end=\"1227\">Infraestrutura para ar-condicionado split</p>\n</li>\n<li data-start=\"1228\" data-end=\"1257\">\n<p data-start=\"1230\" data-end=\"1257\">Ralo linear nos banheiros</p>\n</li>\n<li data-start=\"1258\" data-end=\"1274\">\n<p data-start=\"1260\" data-end=\"1274\">Nicho no box</p>\n</li>\n<li data-start=\"1275\" data-end=\"1308\">\n<p data-start=\"1277\" data-end=\"1308\">Piso laminado nos dormitórios</p>\n</li>\n<li data-start=\"1309\" data-end=\"1369\">\n<p data-start=\"1311\" data-end=\"1369\">Tubulação hidráulica envelopada para atenuação de ruídos</p>\n</li>\n</ul>\n<p data-start=\"1371\" data-end=\"1551\">Unindo localização estratégica, tecnologia e eficiência construtiva, este empreendimento é uma excelente oportunidade para quem busca investir com segurança e visão de longo prazo.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2025-07-24-162124.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-DCampos_Pop_FC_Aerea01_R00-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-DCampos_Easy_AC_Atico_R00.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Copia-de-DCampos_Pop_FC_ContraPlaenge_R00.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-DCampos_Easy_AC_Pool_R00.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-DCampos_Easy_AC_Market_R00.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-DCampos_Easy_AC_Laundry_R00.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-DCampos_Easy_AC_Festas_R00.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-DCampos_Easy_AC_Coworking_R00.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-DCampos_Easy_AC_Academia_R00.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-DCampos_Easy_AC_Hall_R00.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-DCampos_Easy_AP_Studio01_R00.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-DCampos_Easy_AP_Studio02_R00.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-DCampos_Pop_FC_AcessolNoturna_R00.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-DCampos_Pop_FC_Aerea02_R00.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-DCampos_Pop_FC_FrontalNoturna_R01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-DCampos_Pop_FC_LateralDiurna_R01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Captura-de-tela-2025-07-24-162346.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Captura-de-tela-2025-07-24-162402.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Captura-de-tela-2025-07-24-162424.png",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/easy-centro-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:23.169Z",
+  "kind": "apartamento"
+}

@@ -1,0 +1,72 @@
+{
+  "id": 14897,
+  "slug": "b-sunset-home-santo-antonio-de-lisboa-florianopolis-sc",
+  "title": "B7 Sunset Home, Santo Antônio de Lisboa",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$399,000",
+    "amount": 399000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "santo-antonio-de-lisboa",
+      "name": "Santo Antônio de Lisboa"
+    }
+  },
+  "location": null,
+  "overview": {
+    "code": "1390",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 40.462,
+    "deliveryYear": "Jan/29"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "jan-29",
+      "name": "Jan/29"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "espaco-gourmet",
+    "lavanderia",
+    "piscina"
+  ],
+  "features": [
+    "Lavanderia",
+    "Piscina",
+    "Espaço Gourmet"
+  ],
+  "descriptionHtml": "<p><strong>Studios garden, 40,46m² privativos, a partir de R$ 399.000,00</strong></p>\n<p>Entrada + parcelas + reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 25/04/2025</em></li>\n</ul>\n<p data-start=\"241\" data-end=\"355\"><strong data-start=\"241\" data-end=\"355\">Lançamento em Santo Antônio de Lisboa – Studios com sacada e infraestrutura completa para rentabilidade máxima</strong></p>\n<p data-start=\"357\" data-end=\"647\">Apresentamos um novo empreendimento em uma das regiões mais charmosas e valorizadas de Florianópolis: Santo Antônio de Lisboa. Um lançamento inteligente, projetado para quem busca alta rentabilidade com locações por temporada, em um ponto estratégico com forte demanda turística e cultural.</p>\n<p data-start=\"649\" data-end=\"946\">Os studios contam com sacada privativa e foram desenhados para oferecer conforto, praticidade e estilo, com um layout funcional que valoriza o uso inteligente dos espaços. Cada unidade possui <strong data-start=\"841\" data-end=\"865\">fechadura eletrônica</strong> para facilitar o acesso remoto dos hóspedes e <strong data-start=\"912\" data-end=\"933\">persianas manuais</strong> nas janelas.</p>\n<p data-start=\"948\" data-end=\"1315\">O empreendimento será construído na <strong data-start=\"984\" data-end=\"1038\">modalidade SPE (Sociedade de Propósito Específico)</strong>, modelo que garante <strong data-start=\"1059\" data-end=\"1105\">transparência na gestão financeira da obra</strong>, <strong data-start=\"1107\" data-end=\"1129\">segurança jurídica</strong> para os compradores e <strong data-start=\"1152\" data-end=\"1179\">valorização patrimonial</strong>. A construtora responsável é especializada nesse tipo de incorporação, com histórico sólido de entregas e foco na eficiência de custos.</p>\n<p data-start=\"1317\" data-end=\"1583\">Pensado para o público que busca praticidade e boas experiências, o edifício conta com <strong data-start=\"1404\" data-end=\"1475\">infraestrutura de serviços compartilhados e baixo custo operacional</strong>, ideal para investidores que desejam explorar locações de curta temporada com menor complexidade de gestão.</p>\n<p data-start=\"1585\" data-end=\"1629\"><strong data-start=\"1585\" data-end=\"1629\">Diferenciais das unidades e do edifício:</strong></p>\n<ul data-start=\"1630\" data-end=\"2017\">\n<li data-start=\"1630\" data-end=\"1677\">\n<p data-start=\"1632\" data-end=\"1677\">Fechaduras eletrônicas em todas as unidades</p>\n</li>\n<li data-start=\"1678\" data-end=\"1745\">\n<p data-start=\"1680\" data-end=\"1745\">Lavanderia coletiva no térreo, integrada com espaço de trabalho</p>\n</li>\n<li data-start=\"1746\" data-end=\"1784\">\n<p data-start=\"1748\" data-end=\"1784\">Carregamento para carros elétricos</p>\n</li>\n<li data-start=\"1785\" data-end=\"1824\">\n<p data-start=\"1787\" data-end=\"1824\">Churrasqueira a carvão na cobertura</p>\n</li>\n<li data-start=\"1825\" data-end=\"1865\">\n<p data-start=\"1827\" data-end=\"1865\">Hall duplo, para entregas e delivery</p>\n</li>\n<li data-start=\"1866\" data-end=\"1897\">\n<p data-start=\"1868\" data-end=\"1897\">Persiana manual nas janelas</p>\n</li>\n<li data-start=\"1898\" data-end=\"1917\">\n<p data-start=\"1900\" data-end=\"1917\">Salão de festas</p>\n</li>\n<li data-start=\"1918\" data-end=\"1929\">\n<p data-start=\"1920\" data-end=\"1929\">Piscina</p>\n</li>\n<li data-start=\"1930\" data-end=\"1943\">\n<p data-start=\"1932\" data-end=\"1943\">Fireplace</p>\n</li>\n<li data-start=\"1944\" data-end=\"1954\">\n<p data-start=\"1946\" data-end=\"1954\">Lounge</p>\n</li>\n<li data-start=\"1955\" data-end=\"1966\">\n<p data-start=\"1957\" data-end=\"1966\">Oficina</p>\n</li>\n<li data-start=\"1967\" data-end=\"1981\">\n<p data-start=\"1969\" data-end=\"1981\">Lavanderia</p>\n</li>\n<li data-start=\"1982\" data-end=\"2017\">\n<p data-start=\"1984\" data-end=\"2017\">Aproveitamento da água da chuva</p>\n</li>\n</ul>\n<p data-start=\"2019\" data-end=\"2048\"><strong data-start=\"2019\" data-end=\"2048\">Segurança e conveniência:</strong></p>\n<ul data-start=\"2049\" data-end=\"2166\">\n<li data-start=\"2049\" data-end=\"2078\">\n<p data-start=\"2051\" data-end=\"2078\">Monitoramento por câmeras</p>\n</li>\n<li data-start=\"2079\" data-end=\"2095\">\n<p data-start=\"2081\" data-end=\"2095\">Bicicletário</p>\n</li>\n<li data-start=\"2096\" data-end=\"2126\">\n<p data-start=\"2098\" data-end=\"2126\">Controle de acesso digital</p>\n</li>\n<li data-start=\"2127\" data-end=\"2166\">\n<p data-start=\"2129\" data-end=\"2166\">Infraestrutura para portaria remota</p>\n</li>\n</ul>\n<p data-start=\"2168\" data-end=\"2390\">Invista com segurança em um projeto que une localização estratégica, gestão eficiente e estrutura completa para locações por temporada. Viva ou rentabilize em Santo Antônio de Lisboa, um dos bairros mais desejados da Ilha!</p>",
+  "floorPlans": [],
+  "images": [],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/b-sunset-home-santo-antonio-de-lisboa-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:54.486Z",
+  "kind": "apartamento"
+}

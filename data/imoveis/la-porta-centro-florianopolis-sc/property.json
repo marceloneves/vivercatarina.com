@@ -1,0 +1,127 @@
+{
+  "id": 5807,
+  "slug": "la-porta-centro-florianopolis-sc",
+  "title": "La Porta, Centro, Florianópolis",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,291,000",
+    "amount": 1291000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Ângelo La Porta, Centro, Florianópolis",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "centro",
+      "name": "Centro"
+    }
+  },
+  "overview": {
+    "code": "1020",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 68.582,
+    "deliveryYear": "Abr/26"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "abr-26",
+      "name": "Abr/26"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "1-dorm-e-1-suite",
+      "name": "2 Dorm (1 Suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "churrasqueira",
+    "espaco-gourmet",
+    "piscina"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Piscina",
+    "Espaço Gourmet"
+  ],
+  "descriptionHtml": "<h5><strong>Unidades de 2 dormitórios sendo 1 suíte, sacada com churrasqueira a partir de R$ 1.291.000,00</strong></h5>\n<p>Entrada + parcelas + reforços</p>\n<ul>\n<li><em>Condições de pagamanto flexíveis.</em></li>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio</em></li>\n<li>Estuda-se imóvel ou veículo como parte de pagamento</li>\n<li><em>Valores atualizados em 05/03/2026</em></li>\n</ul>\n<p><strong>Lançamento SPE (Sociedade de Propósito Específico) no Centro de Florianópolis </strong></p>\n<p>Empreendimento no centro de Florianópolis, ideal para quem busca praticidade e conforto. Os apartamentos possuem 2 quartos, sendo 1 suíte, sacada com churrasqueira e 1 vaga de garagem, oferecendo o equilíbrio perfeito entre espaço e funcionalidade.</p>\n<p>O empreendimento conta com uma infraestrutura completa de lazer, incluindo piscina, espaço gourmet e academia, proporcionando uma experiência de moradia moderna e aconchegante.</p>\n<p><strong>Qualidade e Confiança na Modalidade SPE</strong></p>\n<p>Construído na modalidade SPE (Sociedade de Propósito Específico), o empreendimento é assinado por uma construtora especializada nesse modelo, com um histórico sólido de vários empreendimentos entregues e em andamento. Essa expertise garante a segurança e a qualidade na entrega, com cada detalhe executado com os mais altos padrões de construção e acabamento.</p>",
+  "floorPlans": [
+    {
+      "title": "final 06",
+      "image": "images/10-planta-aptos-final-06.jpg"
+    },
+    {
+      "title": "Final 05",
+      "image": "images/11-Planta-Apto-final-05.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-00_Externa-768x432-2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-01_Piscina-768x432-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-02_Praca_Fogo-768x432-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-03_Churrasqueira-768x432-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-04_Gourmet-768x432-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-05_Hall-768x432-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-06_Fitness-768x432-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-ARK020-ARV-ARV-ANGELO-LA-PORTA-MV-IMG-02-768x744-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-ARK020-ARV-ARV-ANGELO-LA-PORTA-MV-IMG-03-768x682-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-planta-aptos-final-06.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Planta-Apto-final-05.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/la-porta-centro-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:58.006Z",
+  "kind": "apartamento"
+}

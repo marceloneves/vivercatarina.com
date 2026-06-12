@@ -1,0 +1,145 @@
+{
+  "id": 7220,
+  "slug": "edificio-home-cacupe-florianopolis-sc",
+  "title": "Edifício Home Cacupé, Florianópolis",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,292,000",
+    "amount": 1292000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rod. Haroldo Soares Glavan, Cacupé",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "cacupe",
+      "name": "Cacupé"
+    }
+  },
+  "overview": {
+    "code": "1083",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "garages": 1,
+    "sizeSqm": 71.442,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-a-3-dorm",
+      "name": "2 a 3 Dorm."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "bicicletario",
+    "brinquedoteca",
+    "churrasqueira",
+    "coworking",
+    "espaco-gourmet",
+    "piscina"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Piscina",
+    "Coworking",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Brinquedoteca"
+  ],
+  "descriptionHtml": "<h4>Pronto para morar!</h4>\n<p><strong>Apartamentos com 2 suítes, churrasqueira,  1 vaga e hobby box . A partir de R$ 1.292.000,00 (Apto 216 ) </strong></p>\n<p><em>Condição de pagamento:  Entrada 15% + financiamento bancário </em></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel ou veículo como parte de pagamento</li>\n<li>Atualizado 06/05/2026</li>\n</ul>\n<p><strong>Home Cacupé &#8211; Sofisticação e Conforto em Florianópolis</strong></p>\n<p>Localizado no charmoso bairro Cacupé, em Florianópolis, o Home Cacupé é um empreendimento novo e pronto para morar, projetado com alto padrão de acabamento e apartamentos espaçosos de 2 e 3 dormitórios, com opções de 1 a 3 suítes. Este é o lugar ideal para quem busca qualidade de vida, exclusividade e uma experiência única de moradia.</p>\n<p>A infraestrutura de lazer e convivência é completa e sofisticada, oferecendo um ambiente acolhedor e funcional para você e sua família:</p>\n<ul>\n<li><strong>Piscina e Solarium no Ático:</strong> Aproveite o melhor do dia com uma vista espetacular para o mar enquanto relaxa na piscina ou no solarium, perfeito para momentos de leitura ou descontração.</li>\n<li><strong>Espaço Grill:</strong> Um ambiente único com máquina de chope e churrasqueira, onde você pode curtir o pôr-do-sol e reunir amigos e família para celebrações inesquecíveis.</li>\n<li><strong>Coworking:</strong> Para quem busca praticidade, o espaço coworking oferece um ambiente de trabalho funcional e confortável, ideal para produtividade e bem-estar.</li>\n<li><strong>Salão de Festas com Espaço Gourmet:</strong> Um espaço projetado para proporcionar aconchego e conforto em suas festas e eventos, totalmente equipado para receber seus convidados.</li>\n<li><strong>Área Fitness:</strong> Cuide do corpo e da mente na academia equipada, pensada para tornar seu dia a dia mais saudável.</li>\n<li><strong>Playground ao Ar Livre:</strong> Um espaço para as brincadeiras e momentos de lazer das crianças, em um ambiente seguro e encantador.</li>\n</ul>\n<p>Com uma localização privilegiada e fácil acesso às principais regiões de Florianópolis, o Home Cacupé oferece mais que um imóvel, proporciona um verdadeiro estilo de vida.</p>",
+  "floorPlans": [
+    {
+      "title": "Planta final 7",
+      "image": "images/15-Planta-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-Fachada-04-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Fachada-01-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Fachada-03-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Piscina-03.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Solarium-02.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Coworking-04.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Espaco-Grill-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Espaco-Grill-03.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Solarium-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Fitness-01-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Fitness-02.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Playground-01.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Salao-de-Festas-04.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Salao-de-Festas-05.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Planta-3.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/edificio-home-cacupe-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:57.158Z",
+  "kind": "apartamento"
+}

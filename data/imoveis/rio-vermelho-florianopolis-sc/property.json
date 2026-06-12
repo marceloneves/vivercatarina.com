@@ -1,0 +1,105 @@
+{
+  "id": 18674,
+  "slug": "rio-vermelho-florianopolis-sc",
+  "title": "Casas no Rio Vermelho, Florianópolis",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$850,000",
+    "amount": 850000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "CAMINHO DOS AREAIS (LOTTO. ALAMEDA RIO VERMELHO II), quadra-D,",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "rio-vermelho",
+      "name": "Rio Vermelho"
+    }
+  },
+  "overview": {
+    "code": "1531",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "garages": 1,
+    "sizeSqm": 127.662,
+    "deliveryYear": "2026"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "out-26",
+      "name": "Out/26"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "3-dorm",
+      "name": "3 dorm (1 suíte)"
+    }
+  ],
+  "featureSlugs": [
+    "churrasqueira"
+  ],
+  "features": [
+    "Churrasqueira Carvão"
+  ],
+  "descriptionHtml": "<p><strong>Unidade a partir de R$ 850.000,00</strong></p>\n<p>3 dormitórios sendo 1 suíte,  127,66 m² de área privativa. (Casas tipo 1)</p>\n<p><strong>Consultar forma de pagamento</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio</em></li>\n<li><em>Condições de pagamento flexível</em></li>\n<li><em>Valores atualizados em 3/11/2025</em></li>\n</ul>\n<hr />\n<h4>Casas à venda no bairro Rio Vermelho – Florianópolis/SC</h4>\n<p>Apresentamos <strong>3 excelentes casas à venda</strong> no bairro Ingleses do Rio Vermelho, em Florianópolis/SC.</p>\n<h4>Unidades disponíveis:</h4>\n<p><strong>Duas casas idênticas</strong></p>\n<ul>\n<li>127,66 m² de área privativa</li>\n<li>160,35 m² de área total</li>\n<li>3 quartos (sendo 1 suíte)</li>\n<li>3 banheiros</li>\n<li>Sala e cozinha integradas</li>\n<li>Área de serviço</li>\n<li>Churrasqueira</li>\n</ul>\n<p><strong>Casa de esquina diferenciada</strong></p>\n<ul>\n<li>127,68 m² de área privativa</li>\n<li>183,50 m² de área total</li>\n<li>3 quartos (sendo 1 suíte)</li>\n<li>3 banheiros</li>\n<li>Sala e cozinha integradas</li>\n<li>Área de serviço</li>\n<li>Churrasqueira</li>\n</ul>\n<p>Todas as unidades contam com excelente padrão de construção, ambientes bem distribuídos e localização privilegiada no Rio Vermelho, um dos bairros mais procurados do Norte da Ilha.</p>",
+  "floorPlans": [
+    {
+      "title": "Floor 1",
+      "image": "images/08-8-8.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-1-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-5-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-2-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-3-10.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-7-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-4-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-9-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-8-8.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/rio-vermelho-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:54.016Z",
+  "kind": "casa"
+}

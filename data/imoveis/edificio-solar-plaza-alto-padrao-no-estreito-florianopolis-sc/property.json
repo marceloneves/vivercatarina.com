@@ -1,0 +1,126 @@
+{
+  "id": 7958,
+  "slug": "edificio-solar-plaza-alto-padrao-no-estreito-florianopolis-sc",
+  "title": "Edifício Solar Plaza- alto padrão no Estreito",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$1,097,000",
+    "amount": 1097000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "R: Joaquim Nabuco, Estreito.",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "estreito",
+      "name": "Estreito"
+    }
+  },
+  "overview": {
+    "code": "1124",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "garages": 2,
+    "sizeSqm": 115.712,
+    "deliveryYear": "Jul/26"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "jan-27",
+      "name": "Jan/27"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-e-3-suites",
+      "name": "2 e 3 Suítes."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "bicicletario",
+    "brinquedoteca",
+    "churrasqueira",
+    "espaco-gourmet",
+    "especo-pet",
+    "piscina-aquecida",
+    "playground"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Academia",
+    "Espaço Pet",
+    "Playground",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Brinquedoteca",
+    "Piscina Aquecida"
+  ],
+  "descriptionHtml": "<p>Apartamentos com 3 dormitórios sendo 1 suíte e 1 demi suíte, home office, lavabo, churrasqueira, 1 vagas +  hobby box.  <strong>A partir de R$ 1.097.000,00 (Apto 103)</strong></p>\n<p>Apartamento com 3 dormitórios sendo 1 suíte e 2 demi suíte, lavabo, churrasqueira, 2 vagas +  hobby box.                          <strong>A partir de R$ 1.314.000,00 (Apto 405)</strong></p>\n<p>Apartamento com 3 suítes, lavabo, sacada com churrasqueira, 1 vagas+ hobby box.                                                                  <strong>A partir de R$ 1.313.500,00 (Apto 102)</strong></p>\n<p>10% DE ENTRADA, 10% DIVIDIDOS EM 08 VEZES (CORRIGIDOS SOMENTE PELO CUB)</p>\n<p>Entrada + parcelas + chaves(parcelado direto com a construtora em 180x ou financiamento bancário.</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se imóvel/terreno ou veículo como parte de pagamento.</li>\n<li>Atualizado 05/05/2026</li>\n</ul>\n<div class=\"flex max-w-full flex-col flex-grow\">\n<div class=\"min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words [.text-message+&amp;]:mt-5\" dir=\"auto\" data-message-author-role=\"assistant\" data-message-id=\"61b73ffc-274f-44b1-b4de-ceaa6b9eed85\" data-message-model-slug=\"gpt-4o\">\n<div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\">\n<div class=\"markdown prose w-full break-words dark:prose-invert light\">\n<p><strong>Lançamento de Alto Padrão no Estreito &#8211; Florianópolis</strong></p>\n<p>Este novo empreendimento no Estreito oferece apartamentos entre 115 e 122 m², com opções de 3 dormitórios, incluindo 1 suíte e 2 demi-suítes, ou 3 suítes, além de versões com home office. Cada unidade conta com 2 a 3 vagas de garagem e hobby box.</p>\n<p><strong>Destaques em Segurança e Conveniência:</strong></p>\n<ul>\n<li>Acesso com reconhecimento facial, vídeo porteiro, fechadura digital e câmeras;</li>\n<li>Lazer completo: salão de festas com churrasqueira, piscina aquecida, academia com deck, playground, brinquedoteca e pet place;</li>\n<li>Acabamentos de qualidade: piso vinílico nos dormitórios, porcelanato, persianas automatizadas e espera para automação e Split;</li>\n<li>Recursos práticos: depósito privativo, armário inteligente, reservatório de água duplo e bicicletário.</li>\n</ul>\n<p>Um endereço que une segurança, lazer e conforto.</p>\n</div>\n</div>\n</div>\n</div>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-empreendimento_foto_887-1-Copia-Copia-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-empreendimento_foto_881-Copia-Copia-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-empreendimento_foto_911.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-empreendimento_foto_877-Copia-Copia-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-empreendimento_foto_886-Copia-Copia-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-empreendimento_foto_878-Copia-Copia-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-empreendimento_foto_879-Copia-Copia-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-empreendimento_foto_882-Copia-Copia-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-empreendimento_foto_883-1-Copia-Copia-Copia.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-empreendimento_foto_888-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-empreendimento_foto_890.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/edificio-solar-plaza-alto-padrao-no-estreito-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:03.773Z",
+  "kind": "loteamento"
+}

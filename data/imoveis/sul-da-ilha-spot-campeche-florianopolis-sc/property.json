@@ -1,0 +1,173 @@
+{
+  "id": 8835,
+  "slug": "sul-da-ilha-spot-campeche-florianopolis-sc",
+  "title": "Sul da Ilha Spot, Campeche",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$275,000",
+    "amount": 275000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Av. Jardim dos Eucaliptos, Campeche",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "campeche",
+      "name": "Campeche"
+    }
+  },
+  "overview": {
+    "code": "1168",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 18.972,
+    "deliveryYear": "Mar/28"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "mar-28",
+      "name": "Mar/28"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "piscina-aquecida"
+  ],
+  "features": [
+    "Piscina Aquecida"
+  ],
+  "descriptionHtml": "<p>Spots Perfeitos para locações temporada/Short Stay – Alta Rentabilidade com Baixo Custo operacional!</p>\n<p><strong>Cotas a partir de R$ 275.000,00</strong></p>\n<p>Entrada + parcelas + reforços</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li><em>Valores atualizados em 21/04/2026</em></li>\n</ul>\n<h6><strong>SPOT Sul da Ilha – Oportunidade de Investimento no Paraíso de Florianópolis</strong></h6>\n<p>Empreendimento ideal para investidores que buscam <strong>máxima rentabilidade em locações por temporada (short stays)</strong>. Construído na <strong>modalidade SPE a preço de custo</strong>, o projeto combina design funcional, comodidade e uma localização estratégica em uma das praias mais desejadas de Florianópolis.</p>\n<p><strong>Destaques do Empreendimento:</strong></p>\n<ul>\n<li><strong>Piscina aquecida com borda infinita</strong> e vista deslumbrante para o mar.</li>\n<li><strong>Área de lazer completa</strong>, com espaços cobertos e descobertos para relaxamento e socialização.</li>\n<li><strong>Minimarket</strong> integrado, oferecendo praticidade para os hóspedes.</li>\n<li><strong>Recepção confortável</strong>, com estrutura que valoriza a experiência dos visitantes.</li>\n<li><strong>Áreas comuns entregues mobiliadas e equipadas</strong>, prontas para uso imediato.</li>\n</ul>\n<p><strong>Por que investir no SPOT Sul da Ilha?</strong></p>\n<ul>\n<li><strong>Unidades projetadas para short stays</strong>, unindo funcionalidade e charme em cada detalhe.</li>\n<li>Localização privilegiada no Campeche, com alta demanda turística durante todo o ano.</li>\n<li><strong>Construção a preço de custo</strong>, garantindo acessibilidade e maior retorno sobre o investimento.</li>\n<li>Infraestrutura de lazer e serviços pensada para atrair o público de aluguel por temporada, maximizando a ocupação e os lucros.</li>\n</ul>\n<p>Invista no <strong>SPOT Sul da Ilha</strong> e aproveite a chance de lucrar em um dos destinos mais procurados de Santa Catarina, com alta valorização e demanda constante.</p>\n<p><strong>Entre em contato e garanta sua unidade!</strong></p>\n<p>&nbsp;</p>",
+  "floorPlans": [
+    {
+      "title": "Plantas apartamentos",
+      "image": "images/25-plantas-1.jpg"
+    }
+  ],
+  "images": [
+    {
+      "file": "images/01-Copia-de-07-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Copia-de-08-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Copia-de-05-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Design-sem-nome-34-copy-0.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Copia-de-06-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Editada-08.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Editada-06-1-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Capturar3-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Capturar4-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Capturar1-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Capturar2-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Capturar5-6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-05_IA.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Capturar7-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Editada-01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Editada-02-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Editada-03-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Editada-04-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Editada-05-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Editada-06.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Editada-07-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Editada-02-2-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Editada-07-3.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-Editada-08-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-plantas-1.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/sul-da-ilha-spot-campeche-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:55.873Z",
+  "kind": "apartamento"
+}

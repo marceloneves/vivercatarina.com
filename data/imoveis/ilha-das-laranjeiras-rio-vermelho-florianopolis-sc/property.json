@@ -1,0 +1,216 @@
+{
+  "id": 24669,
+  "slug": "ilha-das-laranjeiras-rio-vermelho-florianopolis-sc",
+  "title": "Casa no Condomínio Ilha das Laranjeiras, Florianópolis",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$2,950,000",
+    "amount": 2950000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Av. Red Park, 784, Condomínio Ilha Das Laranjeiras, Lote 39, São João do Rio Vermelho, Florianópolis – SC, CEP 88060-292",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "rio-vermelho",
+      "name": "Rio Vermelho"
+    }
+  },
+  "overview": {
+    "code": "1675",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "garages": 6,
+    "sizeSqm": 2972,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "4-suites",
+      "name": "4 Suítes"
+    }
+  ],
+  "featureSlugs": [
+    "churrasqueira",
+    "jardim",
+    "piscina",
+    "playground",
+    "quadra-de-esportes"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Quadra de esportes",
+    "Piscina",
+    "Playground",
+    "Jardim"
+  ],
+  "descriptionHtml": "<p><strong>Casa à venda com arquitetura e acabamentos de alto padrão</strong><br />\n<strong>com 4 suítes em condomínio fechado | R$ 2.950.000</strong></p>\n<p><strong>4 suítes e 6 vagas de garagem</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio</em></li>\n<li><em>Condições de pagamento flexível</em></li>\n<li><em>Valores atualizados em 26/05/2026</em></li>\n</ul>\n<hr />\n<p><strong>Casa de Alto Padrão em Condomínio Fechado no Rio Vermelho – Florianópolis/SC</strong></p>\n<p>Se você busca exclusividade, conforto e segurança em uma das regiões que mais crescem em Florianópolis, esta é a oportunidade ideal.</p>\n<p>Localizada no bairro Rio Vermelho, com fácil acesso às praias do norte e leste da ilha e ao centro da cidade, esta residência une arquitetura sofisticada, amplo espaço e alto padrão construtivo.</p>\n<p><strong>Destaques do imóvel:</strong></p>\n<ul>\n<li>Área privativa total de 513 m²</li>\n<li>297 m² de área construída + 216 m² de jardim</li>\n<li>4 suítes amplas</li>\n<li>Lavabo</li>\n<li>Espaço gourmet com churrasqueira externa</li>\n<li>Pátio com jardim e espera para piscina</li>\n<li>6 vagas de garagem (2 cobertas + 4 descobertas)</li>\n<li>Portão automatizado com motor duplo</li>\n<li>Porta principal com acabamento moderno em ripado de alumínio amadeirado e ACM</li>\n<li>Infraestrutura pronta para ar-condicionado e automação residencial</li>\n<li>Acabamentos de alto padrão com materiais de primeira linha</li>\n<li>Medidores individuais de água e luz</li>\n</ul>\n<p><strong>Condomínio completo:</strong></p>\n<ul>\n<li>Segurança 24h com guarita e CFTV</li>\n<li>Piscina adulto e infantil</li>\n<li>Salão de festas com terraço</li>\n<li>Quadra esportiva</li>\n<li>Playground</li>\n<li>Ruas padronizadas e cabeamento subterrâneo</li>\n<li>Estação própria de tratamento de esgoto</li>\n</ul>\n<p><strong>Informações adicionais:</strong></p>\n<ul>\n<li>Posição solar: frente oeste</li>\n<li>Área comum: 306,96 m²</li>\n<li>Taxa de condomínio aproximada: R$ 1.000</li>\n<li>Escritura pública</li>\n<li>Aceita financiamento bancário</li>\n</ul>\n<p>Uma casa pensada para quem valoriza espaço, privacidade e um padrão construtivo diferenciado — ideal tanto para moradia quanto para investimento em uma região em constante valorização em Florianópolis.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Foto-24.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Foto-01-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Foto-27.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Foto-26-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Foto-02-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Foto-03-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Foto-04-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Foto-05-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Foto-06-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Foto-07-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Foto-08-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Foto-09-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Foto-10-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Foto-11.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Foto-12-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Foto-13.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Foto-14.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Foto-15.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Foto-16-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Foto-17-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Foto-18-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Foto-19-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Foto-20-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-Foto-21.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-Foto-22.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-Foto-23.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-Foto-25-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-Foto-30.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-Foto-31.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/30-Foto-32-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/31-Foto-33.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/32-Foto-34.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/33-Foto-36.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/34-Foto-37.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/35-Foto-38.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": null,
+  "sourceUrl": "https://lancamentossc.com.br/site/property/ilha-das-laranjeiras-rio-vermelho-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:52.454Z",
+  "kind": "casa"
+}

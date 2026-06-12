@@ -1,0 +1,50 @@
+[
+	{
+		"region": "Grande Florianópolis",
+		"cities": [
+			{ "name": "Florianópolis", "subdomain": "florianopolis" },
+			{ "name": "São José", "subdomain": "saojose" },
+			{ "name": "Palhoça", "subdomain": "palhoca" },
+			{ "name": "Biguaçu", "subdomain": "biguacu" },
+			{ "name": "Tijucas", "subdomain": "tijucas" }
+		]
+	},
+	{
+		"region": "Norte Catarinense",
+		"cities": [
+			{ "name": "Joinville", "subdomain": "joinville" },
+			{ "name": "Jaraguá do Sul", "subdomain": "jaraguadosul" },
+			{ "name": "Barra Velha", "subdomain": "barravelha" },
+			{ "name": "Penha", "subdomain": "penha" },
+			{ "name": "Balneário Piçarras", "subdomain": "picarras" }
+		]
+	},
+	{
+		"region": "Vale do Itajaí e Litoral",
+		"cities": [
+			{ "name": "Balneário Camboriú", "subdomain": "balneariocamboriu" },
+			{ "name": "Itajaí", "subdomain": "itajai" },
+			{ "name": "Blumenau", "subdomain": "blumenau" },
+			{ "name": "Brusque", "subdomain": "brusque" },
+			{ "name": "Camboriú", "subdomain": "camboriu" },
+			{ "name": "Itapema", "subdomain": "itapema" },
+			{ "name": "Navegantes", "subdomain": "navegantes" },
+			{ "name": "Porto Belo", "subdomain": "portobelo" },
+			{ "name": "Bombinhas", "subdomain": "bombinhas" }
+		]
+	},
+	{
+		"region": "Sul Catarinense",
+		"cities": [
+			{ "name": "Criciúma", "subdomain": "criciuma" },
+			{ "name": "Tubarão", "subdomain": "tubarao" },
+			{ "name": "Imbituba", "subdomain": "imbituba" }
+		]
+	},
+	{
+		"region": "Oeste Catarinense",
+		"cities": [
+			{ "name": "Chapecó", "subdomain": "chapeco" }
+		]
+	}
+]

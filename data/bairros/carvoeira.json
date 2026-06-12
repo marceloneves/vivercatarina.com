@@ -1,0 +1,21 @@
+{
+  "slug": "carvoeira",
+  "name": "Carvoeira",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-31T18:41:54.266Z",
+  "total": 1,
+  "properties": [
+    {
+      "slug": "residencial-estoril-carvoeira-florianopolis-sc",
+      "id": 25750,
+      "title": "Residencial Estoril, Carvoeira",
+      "category": "pronto-para-morar",
+      "price": 900000,
+      "dataPath": "imoveis/residencial-estoril-carvoeira-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/residencial-estoril-carvoeira-florianopolis-sc/images/01.jpg"
+    }
+  ]
+}

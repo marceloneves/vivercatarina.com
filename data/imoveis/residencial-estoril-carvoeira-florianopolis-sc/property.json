@@ -1,0 +1,113 @@
+{
+  "id": 25750,
+  "slug": "residencial-estoril-carvoeira-florianopolis-sc",
+  "title": "Residencial Estoril, Carvoeira",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$900,000",
+    "amount": 900000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua João Motta Espezim, Carvoeira, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "carvoeira",
+      "name": "Carvoeira"
+    }
+  },
+  "location": {
+    "lat": -27.5962,
+    "lng": -48.5124
+  },
+  "overview": {
+    "code": "1501",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "garages": 1,
+    "sizeSqm": 37,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "1-a-3-dorm",
+      "name": "1 a 3 Dorm."
+    }
+  ],
+  "featureSlugs": [
+    "churrasqueira",
+    "elevador",
+    "espaco-gourmet",
+    "piscina",
+    "sala-de-jogos",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Salão de Festas",
+    "Cobertura com vista para o mar",
+    "Espaço Gourmet com Churrasqueira",
+    "Salão de Jogos",
+    "Hall de Entrada",
+    "Conectividade e Segurança",
+    "Espaços de Convivência",
+    "Infraestrutura com mecanismos sustentáveis"
+  ],
+  "descriptionHtml": "<p><strong>Apartamentos com 2 dormitórios a partir de R$ 900.000,00 — financiável</strong></p>\n<p><strong>Entrada a partir de R$ 100.000,00 + parcelas (sujeito a aprovação bancária)</strong></p>\n<p><strong>Estúdio 37m² a partir de R$ 500.000,00</strong></p>\n<p><strong>Apartamento 1 quarto 46m² a partir de R$ 650.000,00</strong></p>\n<p><strong>Apartamento 1 quarto duplex 54m² a partir de R$ 750.000,00</strong></p>\n<p><strong>Apartamento 2 quartos 71m² a partir de R$ 900.000,00</strong></p>\n<p><strong>Apartamento 3 quartos duplex 113m² a partir de R$ 1.100.000,00</strong></p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento sujeitas à análise bancária.</em></li>\n</ul>\n<p>O <strong>Residencial Estoril</strong> está localizado na Rua João Motta Espezim, em Carvoeira, a cerca de 800 m da UFSC. Empreendimento pronto para morar, com apartamentos de estúdio, 1 quarto, 1 quarto duplex, 2 quartos e 3 quartos duplex, com metragens de 37m² a 113m².</p>\n<p>More em uma região cercada pela natureza, com fácil acesso às demais áreas da Ilha e proximidade ao campus universitário. O condomínio conta com salão de festas, cobertura com vista para o mar, espaço gourmet com churrasqueira, salão de jogos, hall de entrada, conectividade, segurança, espaços de convivência e infraestrutura com mecanismos sustentáveis.</p>\n<p>Ideal para quem busca morar ou investir próximo à UFSC, com construção moderna e tipologias variadas para diferentes perfis de comprador.</p>",
+  "floorPlans": [
+    {
+      "title": "Estúdio 37m²",
+      "image": "images/17.jpg"
+    },
+    {
+      "title": "1 Quarto 46m²",
+      "image": "images/18.jpg"
+    },
+    {
+      "title": "1 Quarto Duplex 54m²",
+      "image": "images/19.jpg"
+    },
+    {
+      "title": "2 Quartos 71m²",
+      "image": "images/21.jpg"
+    },
+    {
+      "title": "3 Quartos Duplex 113m²",
+      "image": "images/22.jpg"
+    }
+  ],
+  "images": [
+    { "file": "images/01.jpg", "role": "gallery" },
+    { "file": "images/02.jpg", "role": "gallery" },
+    { "file": "images/04.jpg", "role": "gallery" },
+    { "file": "images/13.jpg", "role": "gallery" },
+    { "file": "images/14.jpg", "role": "gallery" },
+    { "file": "images/15.jpg", "role": "gallery" },
+    { "file": "images/16.jpg", "role": "gallery" },
+    { "file": "images/20.jpg", "role": "gallery" }
+  ],
+  "videoUrl": null,
+  "sourceUrl": "https://imoveis.coraljunior.com.br/residencial-estoril",
+  "importedAt": "2026-05-31T00:50:00.000Z",
+  "kind": "apartamento"
+}

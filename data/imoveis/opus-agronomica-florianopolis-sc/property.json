@@ -1,0 +1,178 @@
+{
+  "id": 25255,
+  "slug": "opus-agronomica-florianopolis-sc",
+  "title": "Opus, Agronômica",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$430,000",
+    "amount": 430000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Antônio Carlos Ferreira, 286, Agronômica, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "agronomica",
+      "name": "Agronômica"
+    }
+  },
+  "overview": {
+    "code": "1684",
+    "bedrooms": null,
+    "bathrooms": null,
+    "garages": null,
+    "sizeSqm": 42.222,
+    "deliveryYear": "Dez/28"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "dez-28",
+      "name": "Dez/28"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios-1-e-2-dorm",
+      "name": "Studios 1 e 2 dorm."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "lavanderia",
+    "lounge",
+    "mini-market",
+    "piscina-aquecida",
+    "rooftop",
+    "aauna"
+  ],
+  "features": [
+    "Sauna",
+    "Lavanderia",
+    "Academia",
+    "Coworking",
+    "Espaço Gourmet",
+    "Piscina Aquecida",
+    "Mini-market",
+    "Elevador",
+    "Rooftop",
+    "Lounge"
+  ],
+  "descriptionHtml": "<h5 data-section-id=\"162w3cw\" data-start=\"663\" data-end=\"698\">Opus | Agronômica, Florianópolis</h5>\n<p data-start=\"700\" data-end=\"996\">A poucos metros da Beira-Mar da Agronômica, em uma das regiões mais valorizadas de Florianópolis, o <strong data-start=\"800\" data-end=\"808\">Opus</strong> apresenta um novo conceito de moradia, unindo localização estratégica, arquitetura contemporânea e uma infraestrutura pensada para quem valoriza conforto, praticidade e qualidade de vida.</p>\n<p data-start=\"998\" data-end=\"1316\">Localizado na <strong data-start=\"1012\" data-end=\"1063\">Rua Antonio Carlos Ferreira, nº 286, Agronômica</strong>, o empreendimento se destaca pela proposta moderna e pelo endereço privilegiado, a cerca de <strong data-start=\"1156\" data-end=\"1183\">200 metros da Beira-Mar</strong>, oferecendo mobilidade, conveniência e proximidade com alguns dos principais pontos da cidade.</p>\n<p data-start=\"1318\" data-end=\"1621\">O projeto conta com <strong data-start=\"1338\" data-end=\"1407\">14 pavimentos, 90 apartamentos, 2 elevadores e 2 lojas comerciais</strong>, compondo um empreendimento versátil e funcional, ideal tanto para moradia quanto para quem busca uma oportunidade patrimonial em uma localização nobre da capital catarinense.</p>\n<p data-start=\"1623\" data-end=\"2086\">Nas tipologias, o Opus oferece unidades inteligentes e bem resolvidas, com opções de <strong data-start=\"1708\" data-end=\"1771\">studios, apartamentos de 1 suíte e apartamentos de 2 suítes</strong>, com metragens que variam de <strong data-start=\"1801\" data-end=\"1818\">31 m² a 53 m²</strong>, além de unidades com <strong data-start=\"1841\" data-end=\"1875\">pé-direito plus de 4,30 metros</strong>, que ampliam a sensação de espaço e oferecem possibilidade de melhor aproveitamento interno, inclusive com potencial para mezanino, conforme projeto e definição da unidade.</p>\n<p data-start=\"2088\" data-end=\"2448\">A área de lazer foi planejada para proporcionar bem-estar, convivência e praticidade no dia a dia. O empreendimento conta com <strong data-start=\"2214\" data-end=\"2409\">salão de festas, spa com hidromassagem, piscina descoberta, piscina térmica, praça de fogo, lounge externo, coworking, sauna, academia, mini market, espaço delivery, bicicletário e lavanderia</strong>.</p>\n<p data-start=\"2450\" data-end=\"2667\">Mais do que um endereço valorizado, o Opus representa uma proposta atual de viver Florianópolis com sofisticação, funcionalidade e a comodidade de estar próximo à Beira-Mar, em um dos bairros mais desejados da cidade.</p>\n<hr data-start=\"2669\" data-end=\"2672\" />\n<h5 data-section-id=\"1ddssig\" data-start=\"2674\" data-end=\"2687\">Tipologias</h5>\n<ul data-start=\"2689\" data-end=\"3005\">\n<li data-section-id=\"ajrrf\" data-start=\"2689\" data-end=\"2700\">Studios</li>\n<li data-section-id=\"84xbkr\" data-start=\"2701\" data-end=\"2729\">Apartamentos com 1 suíte</li>\n<li data-section-id=\"1x26prf\" data-start=\"2730\" data-end=\"2759\">Apartamentos com 2 suítes</li>\n<li data-section-id=\"14cs4yy\" data-start=\"2760\" data-end=\"2809\">Unidades de aproximadamente <strong data-start=\"2790\" data-end=\"2807\">31 m² a 53 m²</strong></li>\n<li data-section-id=\"1y7h1j1\" data-start=\"2810\" data-end=\"2856\">Unidades com <strong data-start=\"2825\" data-end=\"2854\">pé-direito plus de 4,30 m</strong></li>\n<li data-section-id=\"1kr1lwl\" data-start=\"2857\" data-end=\"3005\">Possibilidade de melhor aproveitamento vertical interno em determinadas plantas, conforme projeto da unidade</li>\n</ul>\n<hr data-start=\"3007\" data-end=\"3010\" />\n<h5 data-section-id=\"1ljw0f3\" data-start=\"3012\" data-end=\"3047\">Infraestrutura do empreendimento</h5>\n<ul data-start=\"3049\" data-end=\"3469\">\n<li data-section-id=\"gllbm5\" data-start=\"3049\" data-end=\"3066\">14 pavimentos</li>\n<li data-section-id=\"1thdffc\" data-start=\"3067\" data-end=\"3086\">90 apartamentos</li>\n<li data-section-id=\"ygifim\" data-start=\"3087\" data-end=\"3103\">2 elevadores</li>\n<li data-section-id=\"1yfj62u\" data-start=\"3104\" data-end=\"3126\">2 lojas comerciais</li>\n<li data-section-id=\"17mp8ww\" data-start=\"3127\" data-end=\"3170\">Aproximadamente 200 metros da Beira-Mar</li>\n<li data-section-id=\"nqjsg9\" data-start=\"3171\" data-end=\"3190\">Hall de entrada</li>\n<li data-section-id=\"tz1mfm\" data-start=\"3191\" data-end=\"3202\">Garagem</li>\n<li data-section-id=\"tdkoi5\" data-start=\"3203\" data-end=\"3222\">Salão de festas</li>\n<li data-section-id=\"xeux9t\" data-start=\"3223\" data-end=\"3248\">Spa com hidromassagem</li>\n<li data-section-id=\"m1irh5\" data-start=\"3249\" data-end=\"3271\">Piscina descoberta</li>\n<li data-section-id=\"1mre9hq\" data-start=\"3272\" data-end=\"3291\">Piscina térmica</li>\n<li data-section-id=\"c970p9\" data-start=\"3292\" data-end=\"3309\">Praça de fogo</li>\n<li data-section-id=\"klyj59\" data-start=\"3310\" data-end=\"3328\">Lounge externo</li>\n<li data-section-id=\"kdnev9\" data-start=\"3329\" data-end=\"3342\">Coworking</li>\n<li data-section-id=\"1sjdt4w\" data-start=\"3343\" data-end=\"3352\">Sauna</li>\n<li data-section-id=\"d82u8f\" data-start=\"3353\" data-end=\"3365\">Academia</li>\n<li data-section-id=\"rwwgrz\" data-start=\"3366\" data-end=\"3381\">Mini market</li>\n<li data-section-id=\"185a9ln\" data-start=\"3382\" data-end=\"3401\">Espaço delivery</li>\n<li data-section-id=\"vvnowy\" data-start=\"3402\" data-end=\"3418\">Bicicletário</li>\n<li data-section-id=\"1av0y4a\" data-start=\"3419\" data-end=\"3469\">Lavanderia</li>\n</ul>\n<p><strong data-start=\"3538\" data-end=\"3623\">Empreendimento estruturado sob regime de Sociedade de Propósito Específico (SPE).</strong><br data-start=\"3623\" data-end=\"3626\" />A comercialização deve ser analisada conforme a estrutura jurídica do empreendimento e os instrumentos contratuais aplicáveis. As informações, imagens, metragens, acabamentos, disponibilidades e condições comerciais poderão sofrer alterações sem aviso prévio. Imagens meramente ilustrativas. Eventuais sugestões de layout, decoração e mezanino possuem caráter ilustrativo e deverão ser confirmadas nos documentos contratuais e materiais técnicos do empreendimento.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2026-04-29-102711-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Captura-de-tela-2026-04-29-102935.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Captura-de-tela-2026-04-29-103138.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Captura-de-tela-2026-04-29-103230.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2026-04-29-103003.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Captura-de-tela-2026-04-29-103314.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Captura-de-tela-2026-04-29-103035.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Captura-de-tela-2026-04-29-102758.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Captura-de-tela-2026-04-29-102849.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Captura-de-tela-2026-04-29-103055.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Captura-de-tela-2026-04-29-102909.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Captura-de-tela-2026-04-29-103946.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Captura-de-tela-2026-04-29-103842.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Captura-de-tela-2026-04-29-103814.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Captura-de-tela-2026-04-29-103724.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Captura-de-tela-2026-04-29-103608.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Captura-de-tela-2026-04-29-103510.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Captura-de-tela-2026-04-29-103415.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Captura-de-tela-2026-04-29-103353.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Captura-de-tela-2026-04-29-103332.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-Captura-de-tela-2026-04-29-103255.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-Captura-de-tela-2026-04-29-103212.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-Captura-de-tela-2026-04-29-103119.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/opus-agronomica-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:59.826Z",
+  "kind": "apartamento"
+}

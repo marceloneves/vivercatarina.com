@@ -1,0 +1,129 @@
+{
+  "slug": "campeche",
+  "name": "Campeche",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-31T18:41:54.266Z",
+  "total": 13,
+  "properties": [
+    {
+      "slug": "ilha-do-campeche-spot-campeche-florianopolis-sc",
+      "id": 8922,
+      "title": "170m da praia, Ilha do Campeche Spot",
+      "category": "lancamento",
+      "price": 356000,
+      "dataPath": "imoveis/ilha-do-campeche-spot-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/ilha-do-campeche-spot-campeche-florianopolis-sc/images/01-4-17.jpg"
+    },
+    {
+      "slug": "yuna-campeche-florianopolis-sc",
+      "id": 14726,
+      "title": "250 metros do mar, Yuná, Novo Campeche",
+      "category": "lancamento",
+      "price": 320000,
+      "dataPath": "imoveis/yuna-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/yuna-campeche-florianopolis-sc/images/01-Captura-de-tela-2025-06-13-100130-1.png"
+    },
+    {
+      "slug": "campeche-spot-campeche-florianopolis-sc",
+      "id": 8952,
+      "title": "250m da praia, Campeche Spot",
+      "category": "lancamento",
+      "price": 310000,
+      "dataPath": "imoveis/campeche-spot-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/campeche-spot-campeche-florianopolis-sc/images/01-Terreno-para-mar-01-sem-pin-1-scaled.jpg"
+    },
+    {
+      "slug": "campeche-spot-ii-campeche-florianopolis-sc",
+      "id": 23773,
+      "title": "300 metros do Mar, Novo Campeche Spot II",
+      "category": "lancamento",
+      "price": 336000,
+      "dataPath": "imoveis/campeche-spot-ii-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/campeche-spot-ii-campeche-florianopolis-sc/images/01-Terreno-para-mar-01-com-pin.png"
+    },
+    {
+      "slug": "ilha-do-campeche-ii-campeche-florianopolis-sc",
+      "id": 13096,
+      "title": "Ilha do Campeche II, Campeche",
+      "category": "lancamento",
+      "price": 332000,
+      "dataPath": "imoveis/ilha-do-campeche-ii-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/ilha-do-campeche-ii-campeche-florianopolis-sc/images/01-Copia-de-Imagem-de-drone-1.png"
+    },
+    {
+      "slug": "makai-beachfront-campeche-florianopolis-sc",
+      "id": 24370,
+      "title": "Makai Beachfront Novo Campeche",
+      "category": "lancamento",
+      "price": 1543000,
+      "dataPath": "imoveis/makai-beachfront-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/makai-beachfront-campeche-florianopolis-sc/images/01-Captura-de-tela-2026-03-02-193140.png"
+    },
+    {
+      "slug": "malaga-campeche-florianopolis-sc",
+      "id": 17595,
+      "title": "Málaga, Campeche",
+      "category": "lancamento",
+      "price": 816000,
+      "dataPath": "imoveis/malaga-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/malaga-campeche-florianopolis-sc/images/01-Fachada-scaled.jpg"
+    },
+    {
+      "slug": "maria-francisca-campeche-florianopolis-sc",
+      "id": 9230,
+      "title": "Maria Francisca, no Campeche",
+      "category": "lancamento",
+      "price": 530000,
+      "dataPath": "imoveis/maria-francisca-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/maria-francisca-campeche-florianopolis-sc/images/01-33.jpg"
+    },
+    {
+      "slug": "mirah-blue-view-campeche-florianopolis-sc",
+      "id": 12421,
+      "title": "Miráh Blue View, Novo Campeche, Florianópolis",
+      "category": "lancamento",
+      "price": 367000,
+      "dataPath": "imoveis/mirah-blue-view-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/mirah-blue-view-campeche-florianopolis-sc/images/01-1-4.jpg"
+    },
+    {
+      "slug": "campeche-spot-campeche-florianopolis-sc-praia",
+      "id": 21833,
+      "title": "Novo Campeche Spot",
+      "category": "lancamento",
+      "price": 359000,
+      "dataPath": "imoveis/campeche-spot-campeche-florianopolis-sc-praia/property.json",
+      "thumbnail": "imoveis/campeche-spot-campeche-florianopolis-sc-praia/images/01-CAM-0003-2.jpg"
+    },
+    {
+      "slug": "residencial-san-clemente-campeche-florianopolis-sc",
+      "id": 10490,
+      "title": "Residencial San clemente, casas financiáveis de alto padrão no Campeche",
+      "category": "lancamento",
+      "price": 1200000,
+      "dataPath": "imoveis/residencial-san-clemente-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/residencial-san-clemente-campeche-florianopolis-sc/images/01-1111.jpg"
+    },
+    {
+      "slug": "sul-da-ilha-spot-campeche-florianopolis-sc",
+      "id": 8835,
+      "title": "Sul da Ilha Spot, Campeche",
+      "category": "lancamento",
+      "price": 275000,
+      "dataPath": "imoveis/sul-da-ilha-spot-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/sul-da-ilha-spot-campeche-florianopolis-sc/images/01-Copia-de-07-3.jpg"
+    },
+    {
+      "slug": "verge-campeche-florianopolis-sc",
+      "id": 24314,
+      "title": "Vergê, Campeche",
+      "category": "lancamento",
+      "price": 1268000,
+      "dataPath": "imoveis/verge-campeche-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/verge-campeche-florianopolis-sc/images/01-Captura-de-tela-2026-02-27-150849.png"
+    }
+  ]
+}

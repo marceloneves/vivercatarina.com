@@ -1,0 +1,156 @@
+{
+  "id": 21404,
+  "slug": "canas-beach-spot-canasvieiras-florianopolis-sc",
+  "title": "Canas Beach Spot, Canasvieiras",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir",
+    "display": "R$249,000",
+    "amount": 249000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Jorge Mussi, Canasvieiras, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "canasvieiras",
+      "name": "Canasvieiras"
+    }
+  },
+  "overview": {
+    "code": "1602",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": null,
+    "sizeSqm": 192,
+    "deliveryYear": "Mai/30"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "mai-30",
+      "name": "Mai/30"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios",
+      "name": "Studios"
+    }
+  ],
+  "featureSlugs": [
+    "elevador",
+    "lounge",
+    "mini-market",
+    "piscina-aquecida",
+    "rooftop"
+  ],
+  "features": [
+    "Piscina Aquecida",
+    "Mini-market",
+    "Elevador",
+    "Rooftop",
+    "Lounge"
+  ],
+  "descriptionHtml": "<h5 data-start=\"0\" data-end=\"70\"><strong data-start=\"4\" data-end=\"68\">Canas Beach Spot – Lançamento em Canasvieiras, Florianópolis</strong></h5>\n<p data-start=\"71\" data-end=\"128\"><strong data-start=\"71\" data-end=\"126\">Modernidade, rentabilidade e lifestyle à beira-mar.</strong></p>\n<p data-start=\"130\" data-end=\"586\">Apresentamos o <strong data-start=\"145\" data-end=\"165\">Canas Beach Spot</strong>, novo lançamento da <strong data-start=\"186\" data-end=\"197\">Seazone</strong>, referência em empreendimentos na modalidade <strong data-start=\"243\" data-end=\"286\">SPE (Sociedade de Propósito Específico)</strong> em Florianópolis. Localizado em <strong data-start=\"319\" data-end=\"335\">Canasvieiras</strong>, um dos destinos mais procurados por turistas nacionais e estrangeiros, este projeto foi pensado para quem busca <strong data-start=\"449\" data-end=\"484\">alto potencial de rentabilidade</strong> em locações de temporada e uma <strong data-start=\"516\" data-end=\"559\">experiência de vida moderna e funcional</strong>, a poucos metros do mar.</p>\n<hr data-start=\"588\" data-end=\"591\" />\n<h5 data-start=\"593\" data-end=\"616\">🏙️ <strong data-start=\"602\" data-end=\"616\">Tipologias</strong></h5>\n<p data-start=\"617\" data-end=\"768\">O Canas Beach Spot oferece <strong data-start=\"644\" data-end=\"686\">studios e apartamentos de 1 dormitório</strong>, com plantas otimizadas e inteligentes, projetadas para conforto e praticidade:</p>\n<ul data-start=\"769\" data-end=\"1227\">\n<li data-start=\"769\" data-end=\"885\">\n<p data-start=\"771\" data-end=\"885\">Studios modernos e <strong data-start=\"790\" data-end=\"831\">apartamentos mobiliáveis e funcionais</strong>, ideais para locações por temporada ou uso próprio.</p>\n</li>\n<li data-start=\"886\" data-end=\"924\">\n<p data-start=\"888\" data-end=\"924\"><strong data-start=\"888\" data-end=\"921\">Unidades com vista para o mar</strong>.</p>\n</li>\n<li data-start=\"925\" data-end=\"1030\">\n<p data-start=\"927\" data-end=\"1030\"><strong data-start=\"927\" data-end=\"977\">Plantas com excelente aproveitamento de espaço</strong>, varandas integradas e acabamentos de alto padrão.</p>\n</li>\n<li data-start=\"1031\" data-end=\"1227\">\n<p data-start=\"1033\" data-end=\"1227\"><strong data-start=\"1033\" data-end=\"1053\">Piso porcelanato</strong>, <strong data-start=\"1055\" data-end=\"1100\">infraestrutura para ar-condicionado split</strong>, <strong data-start=\"1102\" data-end=\"1123\">fechadura digital</strong>, <strong data-start=\"1125\" data-end=\"1153\">nicho no box do banheiro</strong> e <strong data-start=\"1156\" data-end=\"1177\">detalhes modernos</strong> que elevam o padrão de conforto e sofisticação.</p>\n</li>\n</ul>\n<hr data-start=\"1229\" data-end=\"1232\" />\n<h5 data-start=\"1234\" data-end=\"1275\">🌴 <strong data-start=\"1242\" data-end=\"1275\">Infraestrutura e Áreas Comuns</strong></h5>\n<p data-start=\"1276\" data-end=\"1421\">O Canas Beach Spot foi projetado com o conceito de <strong data-start=\"1327\" data-end=\"1365\">praticidade e lazer em um só lugar</strong>, oferecendo tudo o que você precisa sem sair de casa:</p>\n<ul data-start=\"1422\" data-end=\"1768\">\n<li data-start=\"1422\" data-end=\"1469\">\n<p data-start=\"1424\" data-end=\"1469\"><strong data-start=\"1424\" data-end=\"1467\">Piscina com vista panorâmica no rooftop</strong></p>\n</li>\n<li data-start=\"1470\" data-end=\"1510\">\n<p data-start=\"1472\" data-end=\"1510\"><strong data-start=\"1472\" data-end=\"1508\">Espaço gourmet e salão de festas</strong></p>\n</li>\n<li data-start=\"1511\" data-end=\"1536\">\n<p data-start=\"1513\" data-end=\"1536\"><strong data-start=\"1513\" data-end=\"1534\">Academia completa</strong></p>\n</li>\n<li data-start=\"1537\" data-end=\"1576\">\n<p data-start=\"1539\" data-end=\"1576\"><strong data-start=\"1539\" data-end=\"1574\">Coworking moderno e climatizado</strong></p>\n</li>\n<li data-start=\"1577\" data-end=\"1594\">\n<p data-start=\"1579\" data-end=\"1594\"><strong data-start=\"1579\" data-end=\"1592\">Pet place</strong></p>\n</li>\n<li data-start=\"1595\" data-end=\"1612\">\n<p data-start=\"1597\" data-end=\"1612\"><strong data-start=\"1597\" data-end=\"1610\">Fireplace</strong></p>\n</li>\n<li data-start=\"1613\" data-end=\"1645\">\n<p data-start=\"1615\" data-end=\"1645\"><strong data-start=\"1615\" data-end=\"1643\">Lavanderia compartilhada</strong></p>\n</li>\n<li data-start=\"1646\" data-end=\"1673\">\n<p data-start=\"1648\" data-end=\"1673\"><strong data-start=\"1648\" data-end=\"1671\">Minimercado interno</strong></p>\n</li>\n<li data-start=\"1674\" data-end=\"1692\">\n<p data-start=\"1676\" data-end=\"1692\"><strong data-start=\"1676\" data-end=\"1690\">Playground</strong></p>\n</li>\n<li data-start=\"1693\" data-end=\"1725\">\n<p data-start=\"1695\" data-end=\"1725\"><strong data-start=\"1695\" data-end=\"1723\">Pranchario e espaço surf</strong></p>\n</li>\n<li data-start=\"1726\" data-end=\"1768\">\n<p data-start=\"1728\" data-end=\"1768\"><strong data-start=\"1728\" data-end=\"1766\">Espaço lounge com vista para o mar</strong></p>\n</li>\n</ul>\n<hr data-start=\"1770\" data-end=\"1773\" />\n<h5 data-start=\"1775\" data-end=\"1811\">📍 <strong data-start=\"1783\" data-end=\"1811\">Localização Privilegiada</strong></h5>\n<p data-start=\"1812\" data-end=\"2246\">O empreendimento está localizado no coração de <strong data-start=\"1859\" data-end=\"1875\">Canasvieiras</strong>, a poucos metros da praia e próximo a uma ampla rede de comércios, restaurantes, farmácias e supermercados.<br data-start=\"1983\" data-end=\"1986\" />A região é uma das <strong data-start=\"2005\" data-end=\"2054\">mais valorizadas e rentáveis de Florianópolis</strong>, com <strong data-start=\"2060\" data-end=\"2101\">alta demanda de locação por temporada</strong>, além de ser um ponto estratégico com fácil acesso a praias como <strong data-start=\"2167\" data-end=\"2243\">Jurerê Internacional, Cachoeira do Bom Jesus, Ponta das Canas e Lagoinha</strong>.</p>\n<hr data-start=\"2248\" data-end=\"2251\" />\n<h5 data-start=\"2253\" data-end=\"2337\">💼 <strong data-start=\"2261\" data-end=\"2337\">Investimento Inteligente – Construção na Modalidade SPE (Preço de Custo)</strong></h5>\n<p data-start=\"2338\" data-end=\"2488\">A <strong data-start=\"2340\" data-end=\"2351\">Seazone</strong> é especialista em empreendimentos na modalidade <strong data-start=\"2400\" data-end=\"2407\">SPE</strong>, que oferece <strong data-start=\"2421\" data-end=\"2471\">transparência, segurança e maior rentabilidade</strong> ao investidor.</p>\n<p data-start=\"2490\" data-end=\"2537\"><strong data-start=\"2490\" data-end=\"2535\">Vantagens do modelo SPE – Preço de Custo:</strong></p>\n<ul data-start=\"2538\" data-end=\"3006\">\n<li data-start=\"2538\" data-end=\"2662\">\n<p data-start=\"2540\" data-end=\"2662\"><strong data-start=\"2540\" data-end=\"2564\">Maior rentabilidade:</strong> o investidor compra a um valor abaixo do preço de mercado, absorvendo a margem do incorporador.</p>\n</li>\n<li data-start=\"2663\" data-end=\"2770\">\n<p data-start=\"2665\" data-end=\"2770\"><strong data-start=\"2665\" data-end=\"2688\">Segurança jurídica:</strong> o terreno pertence à SPE, e o dinheiro investido permanece dentro da sociedade.</p>\n</li>\n<li data-start=\"2771\" data-end=\"2880\">\n<p data-start=\"2773\" data-end=\"2880\"><strong data-start=\"2773\" data-end=\"2797\">Transparência total:</strong> o conselho fiscal tem acesso aos extratos bancários, notas fiscais e balancetes.</p>\n</li>\n<li data-start=\"2881\" data-end=\"3006\">\n<p data-start=\"2883\" data-end=\"3006\"><strong data-start=\"2883\" data-end=\"2908\">Gestão participativa:</strong> os investidores participam de assembleias e podem acompanhar o andamento da obra em tempo real.</p>\n</li>\n</ul>\n<hr data-start=\"3008\" data-end=\"3011\" />\n<h5 data-start=\"3013\" data-end=\"3062\">🌊 <strong data-start=\"3021\" data-end=\"3062\">Por que investir no Canas Beach Spot?</strong></h5>\n<ul data-start=\"3063\" data-end=\"3390\">\n<li data-start=\"3063\" data-end=\"3152\">\n<p data-start=\"3065\" data-end=\"3152\">Localização estratégica em <strong data-start=\"3092\" data-end=\"3108\">Canasvieiras</strong>, uma das praias mais valorizadas da ilha.</p>\n</li>\n<li data-start=\"3153\" data-end=\"3237\">\n<p data-start=\"3155\" data-end=\"3237\"><strong data-start=\"3155\" data-end=\"3209\">Altíssimo potencial de valorização e rentabilidade</strong> em locações de temporada.</p>\n</li>\n<li data-start=\"3238\" data-end=\"3300\">\n<p data-start=\"3240\" data-end=\"3300\">Projeto moderno, funcional e com áreas de lazer completas.</p>\n</li>\n<li data-start=\"3301\" data-end=\"3390\">\n<p data-start=\"3303\" data-end=\"3390\"><strong data-start=\"3303\" data-end=\"3349\">Construtora sólida e especializada em SPEs</strong>, com histórico comprovado de entregas.</p>\n</li>\n</ul>\n<hr data-start=\"3392\" data-end=\"3395\" />\n<p data-start=\"3397\" data-end=\"3656\">O <strong data-start=\"3399\" data-end=\"3419\">Canas Beach Spot</strong> é a união perfeita entre <strong data-start=\"3445\" data-end=\"3497\">investimento inteligente e lifestyle à beira-mar</strong>.<br data-start=\"3498\" data-end=\"3501\" />Viva ou invista em um empreendimento que combina <strong data-start=\"3550\" data-end=\"3607\">design moderno, praticidade e rentabilidade garantida</strong>, no melhor de <strong data-start=\"3622\" data-end=\"3653\">Canasvieiras, Florianópolis</strong>.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Canas-Beach_9-1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Canas-Beach_8-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Canas-Beach_10-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-Canas-Beach_2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Canas-Beach_1-scaled.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Canas-Beach_6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Copia-de-IMAGEM-06.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Copia-de-IMAGEM-12-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Copia-de-IMAGEM-05-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Copia-de-IMAGEM-11.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Copia-de-IMAGEM-10.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-Copia-de-IMAGEM-08-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-Copia-de-IMAGEM-01-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-Copia-de-IMAGEM-04-2.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-Copia-de-IMAGEM-07.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-Copia-de-IMAGEM-04-1.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-Copia-de-IMAGEM-03.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-Copia-de-IMAGEM-02.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-Copia-de-IMAGEM-01.png",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-Canas-Beach_5-scaled.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/canas-beach-spot-canasvieiras-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:54.507Z",
+  "kind": "loteamento"
+}

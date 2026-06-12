@@ -1,0 +1,188 @@
+{
+	"abraao": {
+		"paragraphs": [
+			"O Abraão fica no continente de Florianópolis, entre o Centro e bairros residenciais consolidados. A região combina comércio de rua, escolas e acesso rápido às pontes para a ilha.",
+			"Para quem busca imóveis na planta, o bairro costuma atrair famílias e investidores que valorizam preços mais acessíveis que a ilha, sem abrir mão da proximidade com serviços urbanos."
+		]
+	},
+	"agronomica": {
+		"paragraphs": [
+			"A Agronômica é um bairro central de Florianópolis, próximo à Beira-Mar Continental e à região universitária. Ruas arborizadas, comércio local e boa oferta de transporte público definem o perfil da área.",
+			"Apartamentos na planta na Agronômica atendem moradores que querem ficar perto do Centro, com opções residenciais mais tranquilas e valorização constante em bairros consolidados."
+		]
+	},
+	"armacao": {
+		"paragraphs": [
+			"Armação, no sul da ilha, é um bairro tradicional de pescadores com praias, mar calmo e forte identidade cultural. A região preserva o ritmo de vila, com restaurantes de frutos do mar e trilhas costeiras.",
+			"Imóveis na planta em Armação interessam quem busca qualidade de vida à beira-mar, casas e apartamentos com foco em moradia permanente ou segunda residência no sul de Florianópolis."
+		]
+	},
+	"balneario": {
+		"paragraphs": [
+			"Balneário reúne bairros residenciais no sul da ilha, entre Campeche e Armação, com ruas planas, comércio de bairro e fácil acesso à BR-101. É uma das regiões que mais cresceu nos últimos anos em Florianópolis.",
+			"Lançamentos imobiliários na planta em Balneário costumam oferecer apartamentos e casas em condomínio fechado, voltados a famílias que preferem o sul da ilha com infraestrutura urbana em expansão."
+		]
+	},
+	"barradalagoa": {
+		"paragraphs": [
+			"Barra da Lagoa une mar e lagoa no leste da ilha, com canal do rio, surf, trilhas e uma vila animada o ano todo. O bairro é um dos mais procurados por quem quer morar perto da praia sem abrir mão de serviços.",
+			"Imóveis na planta em Barra da Lagoa incluem apartamentos frente ao mar, empreendimentos próximos ao canal e opções para investimento em locação de temporada e moradia fixa."
+		]
+	},
+	"cacupe": {
+		"paragraphs": [
+			"Cacupé fica no norte da ilha, entre Santo Antônio de Lisboa e a região de Canasvieiras. A orla combina mar calmo, restaurantes à beira da água e vista para a baía.",
+			"Apartamentos e casas na planta em Cacupé atraem quem busca sofisticação residencial no norte da ilha, com empreendimentos de médio e alto padrão e forte demanda por segunda moradia."
+		]
+	},
+	"campeche": {
+		"paragraphs": [
+			"Campeche, no sul da ilha, é famoso pela extensa praia, ondas consistentes e bairros residenciais em crescimento. A região ganhou novos acessos, comércio e condomínios nos últimos anos.",
+			"Lançamentos na planta em Campeche atendem surfistas, famílias e investidores que apostam na valorização do sul da ilha, com apartamentos, casas e empreendimentos próximos à orla."
+		]
+	},
+	"canasvieiras": {
+		"paragraphs": [
+			"Canasvieiras é um dos bairros mais movimentados do norte da ilha, com praia de mar calmo, comércio intenso e infraestrutura turística. No verão, a região recebe visitantes de todo o Brasil.",
+			"Imóveis na planta em Canasvieiras são opção para quem quer investir em locação, morar perto da praia ou adquirir apartamentos com vista para o mar no principal polo do norte catarinense."
+		]
+	},
+	"capoeiras": {
+		"paragraphs": [
+			"Capoeiras situa-se no continente, entre Coqueiros e o Estreito, com perfil residencial e comercial em crescimento. Bairros vizinhos como Kobrasol ampliam a oferta de serviços e lazer.",
+			"Para comprar na planta no continente, Capoeiras oferece boa relação entre preço, acesso às pontes e demanda de moradores que trabalham na ilha mas preferem custo de vida continental."
+		]
+	},
+	"carvoeira": {
+		"paragraphs": [
+			"Carvoeira integra a região universitária de Florianópolis, próxima à UFSC, hospitais e eixos como a Avenida Beira-Mar Norte. É bairro residencial com forte presença de estudantes e famílias.",
+			"Apartamentos na planta em Carvoeira costumam ser compactos e bem localizados, ideais para moradia próxima ao campus, consultórios e comércio da Trindade e Córrego Grande."
+		]
+	},
+	"centro": {
+		"paragraphs": [
+			"O Centro de Florianópolis concentra comércio, serviços, transporte e patrimônio histórico da ilha. Ruas como a Felipe Schmidt e a Beira-Mar Norte definem o coração urbano da capital.",
+			"Imóveis na planta no Centro atendem quem quer morar a poucos minutos de tudo: apartamentos compactos, coberturas e lançamentos verticais com foco em praticidade e valorização em área nobre."
+		]
+	},
+	"corregogrande": {
+		"paragraphs": [
+			"Córrego Grande é um dos bairros mais tradicionais da região universitária, com comércio de rua, parques, escolas e fácil ligação com Trindade e Pantanal. A área combina vida urbana e perfil familiar.",
+			"Lançamentos na planta em Córrego Grande interessam moradores que buscam apartamentos próximos à UFSC, hospitais e ao eixo Beira-Mar, com boa liquidez no mercado de revenda e locação."
+		]
+	},
+	"coqueiros": {
+		"paragraphs": [
+			"Coqueiros, no continente, é bairro residencial consolidado com praça, escolas, supermercados e acesso rápido ao Centro e às pontes. Ruas tranquilas e perfil familiar marcam a região.",
+			"Imóveis na planta em Coqueiros atraem famílias que preferem o continente, com apartamentos e casas em condomínio e custo por metro quadrado geralmente abaixo da ilha."
+		]
+	},
+	"estreito": {
+		"paragraphs": [
+			"O Estreito fica no continente, entre Capoeiras e a entrada da ponte Hercílio Luz. É um dos bairros mais populosos de Florianópolis, com comércio intenso, terminal de ônibus e serviços completos.",
+			"Comprar na planta no Estreito é estratégia comum para quem trabalha na ilha e busca preços mais acessíveis, com lançamentos residenciais e boa infraestrutura urbana no continente."
+		]
+	},
+	"ingleses": {
+		"paragraphs": [
+			"Ingleses, no norte da ilha, combina praia extensa, dunas, comércio local e bairros residenciais em expansão. A região cresceu com novos acessos e empreendimentos nas últimas décadas.",
+			"Imóveis na planta em Ingleses atendem moradores permanentes e investidores de locação, com apartamentos frente ao mar, condomínios horizontais e opções a diferentes faixas de preço."
+		]
+	},
+	"itacorubi": {
+		"paragraphs": [
+			"Itacorubi liga o Centro à região universitária, com avenidas importantes, shoppings, hospitais e forte fluxo comercial. É eixo de passagem e bairro residencial ao mesmo tempo.",
+			"Apartamentos na planta em Itacorubi interessam quem quer centralidade com acesso rápido à Beira-Mar, Trindade e serviços de saúde, em uma das áreas mais dinâmicas de Florianópolis."
+		]
+	},
+	"joaopaulo": {
+		"paragraphs": [
+			"João Paulo fica no continente, entre o Estreito e bairros como Capoeiras, com perfil residencial e comercial em consolidação. A região ganhou novos empreendimentos e melhorias de mobilidade.",
+			"Lançamentos na planta em João Paulo atendem compradores que buscam apartamentos no continente, com boa relação custo-benefício e proximidade das pontes para a ilha."
+		]
+	},
+	"jurereinternacional": {
+		"paragraphs": [
+			"Jurerê Internacional é referência em alto padrão no norte da ilha, com marina, gastronomia, praias exclusivas e condomínios de luxo. O bairro concentra parte dos imóveis mais valorizados de Florianópolis.",
+			"Imóveis na planta em Jurerê Internacional incluem apartamentos de frente para o mar, coberturas e empreendimentos fechados voltados a moradores exigentes e investimento patrimonial de longo prazo."
+		]
+	},
+	"lagoadaconceicao": {
+		"paragraphs": [
+			"Lagoa da Conceição reúne lagoa, montanha, gastronomia e vida noturna no coração da ilha. É um dos bairros mais desejados de Florianópolis, com trilhas, esportes aquáticos e comércio sofisticado.",
+			"Comprar na planta na Lagoa da Conceição significa apostar em um dos mercados mais aquecidos da cidade, com apartamentos, casas e lançamentos que mesclam natureza e urbanidade."
+		]
+	},
+	"morrodaspedras": {
+		"paragraphs": [
+			"Morro das Pedras, no leste da ilha, oferece praias preservadas, trilhas e perfil residencial mais reservado. O bairro cresceu com condomínios e casas voltadas a quem busca tranquilidade perto do mar.",
+			"Imóveis na planta em Morro das Pedras atraem famílias e aposentados que valorizam contato com a natureza, com empreendimentos que exploram vistas para o oceano e a Mata Atlântica."
+		]
+	},
+	"pantanal": {
+		"paragraphs": [
+			"Pantanal integra a região universitária ao lado da UFSC, com ruas residenciais, comércio local e forte demanda por moradia estudantil e familiar. A proximidade do campus é o principal atrativo.",
+			"Apartamentos na planta no Pantanal costumam ser compactos e bem localizados, ideais para quem estuda ou trabalha na universidade e busca praticidade no dia a dia em Florianópolis."
+		]
+	},
+	"praiabrava": {
+		"paragraphs": [
+			"Praia Brava, no sul da ilha, é conhecida pelas ondas, falésias e empreendimentos de alto padrão com vista para o mar. O bairro combina exclusividade residencial e contato direto com a natureza.",
+			"Lançamentos na planta em Praia Brava atendem compradores que buscam apartamentos de frente para o oceano, condomínios com infraestrutura completa e valorização em uma das praias mais valorizadas do sul."
+		]
+	},
+	"ribeiraodailha": {
+		"paragraphs": [
+			"Ribeirão da Ilha, no sul, preserva tradições açorianas, ostras, festas populares e paisagem rural costeira. É bairro histórico com ritmo mais calmo e forte identidade cultural.",
+			"Imóveis na planta em Ribeirão da Ilha interessam quem busca qualidade de vida longe do agito urbano, com casas e terrenos em região que valoriza patrimônio, gastronomia e contato com a baía."
+		]
+	},
+	"riotavares": {
+		"paragraphs": [
+			"Rio Tavares fica no sul da ilha, entre lagoa, mar e áreas de preservação. O bairro cresceu com novos acessos, comércio e condomínios, mantendo proximidade com Campeche e Praia Mole.",
+			"Comprar na planta em Rio Tavares é opção para famílias que querem o sul da ilha com infraestrutura em expansão, apartamentos e casas em empreendimentos próximos à natureza."
+		]
+	},
+	"riovermelho": {
+		"paragraphs": [
+			"Rio Vermelho, no norte da ilha, inclui áreas como Ingleses do Rio Vermelho, com dunas, praias amplas e bairros residenciais em desenvolvimento. A região combina natureza e novos empreendimentos.",
+			"Imóveis na planta em Rio Vermelho atendem quem busca preços mais acessíveis no norte da ilha, com lançamentos voltados a moradia permanente e investimento em locação de temporada."
+		]
+	},
+	"sacodoslimoes": {
+		"paragraphs": [
+			"Saco dos Limões situa-se entre o Centro e a região universitária, com ruas em aclive, comércio local e perfil residencial diversificado. A localização permite acesso rápido à Beira-Mar e à UFSC.",
+			"Apartamentos na planta em Saco dos Limões interessam moradores que querem centralidade com custo abaixo de bairros nobres, em área com demanda constante de locação e revenda."
+		]
+	},
+	"sacogrande": {
+		"paragraphs": [
+			"Saco Grande integra a região universitária, próximo a Córrego Grande e Trindade, com perfil residencial e comercial. Ruas amplas, escolas e parques compõem o cotidiano do bairro.",
+			"Lançamentos na planta em Saco Grande atendem famílias e profissionais ligados à UFSC e aos hospitais da região, com apartamentos bem conectados ao restante da ilha."
+		]
+	},
+	"santamonica": {
+		"paragraphs": [
+			"Santa Mônica é um dos maiores bairros da região universitária, com comércio intenso, terminal de ônibus, escolas e forte presença de estudantes. A infraestrutura urbana é uma das mais completas da ilha.",
+			"Imóveis na planta em Santa Mônica oferecem variedade de metragens e preços, com demanda aquecida por locação estudantil e moradia familiar próxima à UFSC e ao Shopping Itaguaçu."
+		]
+	},
+	"santoantoniodelisboa": {
+		"paragraphs": [
+			"Santo Antônio de Lisboa preserva arquitetura colonial, igreja histórica, artesanato e vista para a baía norte. É um dos bairros mais charmosos de Florianópolis, entre Cacupé e o continente.",
+			"Apartamentos e casas na planta em Santo Antônio de Lisboa atraem quem busca sofisticação com clima de vila, empreendimentos com vista para o mar e forte apelo para segunda moradia."
+		]
+	},
+	"trindade": {
+		"paragraphs": [
+			"Trindade concentra a UFSC, hospitais, comércio universitário e vida noturna estudantil. É o coração acadêmico de Florianópolis e um dos bairros com maior rotatividade de moradores.",
+			"Comprar na planta na Trindade significa investir em um mercado líquido, com apartamentos compactos, studios e lançamentos voltados a estudantes, professores e profissionais da saúde."
+		]
+	},
+	"vargemgrande": {
+		"paragraphs": [
+			"Vargem Grande, na região universitária, combina áreas residenciais, comércio de bairro e proximidade com Córrego Grande e Trindade. Ruas tranquilas e perfil familiar predominam.",
+			"Imóveis na planta em Vargem Grande atendem quem busca apartamentos na ilha com preços mais moderados que bairros nobres, mantendo boa conexão com universidade, hospitais e Beira-Mar."
+		]
+	}
+}

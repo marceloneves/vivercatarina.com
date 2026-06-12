@@ -1,0 +1,66 @@
+{
+  "slug": "jurereinternacional",
+  "name": "Jurerê Internacional",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-31T18:41:54.268Z",
+  "total": 6,
+  "properties": [
+    {
+      "slug": "jurere-beach-spot-jurere-florianopolis-sc",
+      "id": 8896,
+      "title": "100m do mar, Jurerê Beach Spot",
+      "category": "lancamento",
+      "price": 479000,
+      "dataPath": "imoveis/jurere-beach-spot-jurere-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/jurere-beach-spot-jurere-florianopolis-sc/images/01-R5-LL07.png"
+    },
+    {
+      "slug": "imob-jurere-on-jurere-florianopolis-sc",
+      "id": 21468,
+      "title": "Imob Jurerê On, Jurerê, Florianópolis",
+      "category": "lancamento",
+      "price": 344000,
+      "dataPath": "imoveis/imob-jurere-on-jurere-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/imob-jurere-on-jurere-florianopolis-sc/images/01-Captura-de-tela-2025-10-28-174242-1.jpg"
+    },
+    {
+      "slug": "jurere-ii-spot-jurere-florianopolis-sc",
+      "id": 14836,
+      "title": "Jurerê II Spot, Jurerê",
+      "category": "lancamento",
+      "price": 409300,
+      "dataPath": "imoveis/jurere-ii-spot-jurere-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/jurere-ii-spot-jurere-florianopolis-sc/images/01-Captura-de-tela-2025-06-20-114557-1.png"
+    },
+    {
+      "slug": "jurere-spot-iii-jurere-florianopolis-sc",
+      "id": 24232,
+      "title": "Jurerê Spot III, Jurerê",
+      "category": "lancamento",
+      "price": 375000,
+      "dataPath": "imoveis/jurere-spot-iii-jurere-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/jurere-spot-iii-jurere-florianopolis-sc/images/01-DJI_0903_FOTO-INSERCAO-169-1.png"
+    },
+    {
+      "slug": "ondara-residence-canajure-florianopolis-sc",
+      "id": 22248,
+      "title": "Ondara Residence, Canajurê",
+      "category": "lancamento",
+      "price": 370000,
+      "dataPath": "imoveis/ondara-residence-canajure-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/ondara-residence-canajure-florianopolis-sc/images/01-Captura-de-tela-2025-11-26-185102-1.jpg"
+    },
+    {
+      "slug": "jurere-spot-jurere-florianopolis-sc",
+      "id": 23629,
+      "title": "Studio mobiliado, Jurerê Spot, Jurerê",
+      "category": "pronto-para-morar",
+      "price": 800000,
+      "dataPath": "imoveis/jurere-spot-jurere-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/jurere-spot-jurere-florianopolis-sc/images/01-Spot-Jurere-07.11.23-046-scaled.jpg"
+    }
+  ]
+}

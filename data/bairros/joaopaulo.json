@@ -1,0 +1,30 @@
+{
+  "slug": "joaopaulo",
+  "name": "João Paulo",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-31T18:41:54.267Z",
+  "total": 2,
+  "properties": [
+    {
+      "slug": "com-vista-para-o-mar-joao-paulo-florianopolis-sc",
+      "id": 18776,
+      "title": "Apartamento com vista para o mar, 100% mobiliado, João Paulo",
+      "category": "pronto-para-morar",
+      "price": 1599000,
+      "dataPath": "imoveis/com-vista-para-o-mar-joao-paulo-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/com-vista-para-o-mar-joao-paulo-florianopolis-sc/images/01-original_1d7da85b84f4a90d202ea6a8f9923022.jpg"
+    },
+    {
+      "slug": "exclusivo-joao-paulo-florianopolis-sc",
+      "id": 14952,
+      "title": "exclusivo, D/Season, João Paulo",
+      "category": "lancamento",
+      "price": 1960000,
+      "dataPath": "imoveis/exclusivo-joao-paulo-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/exclusivo-joao-paulo-florianopolis-sc/images/01-Captura-de-tela-2025-06-23-180313.png"
+    }
+  ]
+}

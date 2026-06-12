@@ -1,0 +1,178 @@
+{
+  "id": 18776,
+  "slug": "com-vista-para-o-mar-joao-paulo-florianopolis-sc",
+  "title": "Apartamento com vista para o mar, 100% mobiliado, João Paulo",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": null,
+    "display": "R$1,599,000",
+    "amount": 1599000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rodovia João Paulo, João Paulo, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "joao-paulo",
+      "name": "João Paulo"
+    }
+  },
+  "overview": {
+    "code": "1535",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "garages": 1,
+    "sizeSqm": 77.642,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "2-suites",
+      "name": "2 Suítes"
+    }
+  ],
+  "featureSlugs": [
+    "elevador",
+    "piscina",
+    "rooftop",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Salão de Festas",
+    "Piscina",
+    "Elevador",
+    "Rooftop"
+  ],
+  "descriptionHtml": "<p data-start=\"85\" data-end=\"163\"><strong data-start=\"85\" data-end=\"161\">Apartamento mobiliado com vista para o mar no João Paulo – Florianópolis</strong></p>\n<p data-start=\"165\" data-end=\"332\">Localizado em um dos bairros mais valorizados de Florianópolis, este apartamento no <strong data-start=\"249\" data-end=\"263\">João Paulo</strong> oferece conforto, praticidade e uma vista privilegiada para o mar.</p>\n<p data-start=\"334\" data-end=\"661\">Com <strong data-start=\"338\" data-end=\"360\">77,64m² privativos</strong>, o imóvel é composto por <strong data-start=\"386\" data-end=\"398\">2 suítes</strong>, <strong data-start=\"400\" data-end=\"421\">sala aconchegante</strong>, <strong data-start=\"423\" data-end=\"444\">cozinha planejada</strong>, além de contar com <strong data-start=\"465\" data-end=\"490\">ar-condicionado split</strong> em todos os ambientes e <strong data-start=\"515\" data-end=\"535\">piso porcelanato</strong> que garante sofisticação e fácil manutenção. O apartamento já está <strong data-start=\"603\" data-end=\"627\">totalmente mobiliado</strong>, pronto para morar ou investir.</p>\n<p data-start=\"663\" data-end=\"888\">A unidade dispõe de <strong data-start=\"683\" data-end=\"704\">1 vaga de garagem</strong> e o edifício oferece uma excelente área de lazer com <strong data-start=\"758\" data-end=\"787\">piscina adulto e infantil</strong>, <strong data-start=\"789\" data-end=\"801\">solarium</strong> e <strong data-start=\"804\" data-end=\"822\">espaço gourmet</strong>, perfeitos para desfrutar bons momentos com a família e amigos.</p>\n<p data-start=\"890\" data-end=\"1009\">👉 Um imóvel completo, em localização estratégica, ideal para quem busca qualidade de vida, comodidade e valorização.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-original_1d7da85b84f4a90d202ea6a8f9923022.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-original_d337ee83694d05689527d4ba57c41fed.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-original_9e9d3399741046b0f97e3fbf4fc55a24-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-original_ca02a130aa3923ed32b34055d03da808.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-original_49a114141e8871efab72cec3f13ab637.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-original_597f03caaecb829f4b3d8dcd07d23818.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-original_e0f6fffda01f908d02bc55c78379c489.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-original_a9a9aec76ecb0cf022a8a008cc13b7b5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-original_5100207fa1a8d5dda0d6f4c55c75c7ad.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-original_56d8ab44a113a8acf16b8543aef6e6e6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-original_1eddb3a79d02177b6429eab6f552c858.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-original_7e7d530a44642f45b576511b5e08e411.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-original_8d4ed5dc4708825684088429d12add0b.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-original_c02a516f8b21436636c0949c2d832390.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-original_25b9f86669e6d9f7c8b3a979cf6f9d36.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-original_54b12ccad3b43d13553348f47769ab4f.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-original_616e9ae20be3cdd9e471691e1fde824e.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-original_5900b16cade6ff99fa00457ca0be8dbe.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-original_8157d3ba0af8965eb38297c595efa911.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-original_278795c42b89390fb8609c2f8f0da7d5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-original_eb45628303d567e0729dae487fa4e2ad.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-original_8b3c0ad9854898270e9d73a7b7e7f294.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-original_bad262e6a21a4b7c51ae01b7d0649562.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-original_020255a9697d7772b0afd6dc81c59136.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-original_bdc71f36ac0c1ef133a8a81affcb1ca1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-original_7724738aa4df58f2c4b3b7fd1c2e1312.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/com-vista-para-o-mar-joao-paulo-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:48.507Z",
+  "kind": "apartamento"
+}

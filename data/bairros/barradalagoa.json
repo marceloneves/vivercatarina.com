@@ -1,0 +1,39 @@
+{
+  "slug": "barradalagoa",
+  "name": "Barra da Lagoa",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-31T18:41:54.266Z",
+  "total": 3,
+  "properties": [
+    {
+      "slug": "areias-do-leste-barra-da-lagoa-florianopolis-sc",
+      "id": 9379,
+      "title": "Areias do Leste, Barra da Lagoa",
+      "category": "lancamento",
+      "price": 295000,
+      "dataPath": "imoveis/areias-do-leste-barra-da-lagoa-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/areias-do-leste-barra-da-lagoa-florianopolis-sc/images/01-Capturar2-12.jpg"
+    },
+    {
+      "slug": "barra-spot-barra-da-lagoa-florianopolis-sc",
+      "id": 8990,
+      "title": "frente mar, Barra Spot, Barra da Lagoa",
+      "category": "lancamento",
+      "price": 422000,
+      "dataPath": "imoveis/barra-spot-barra-da-lagoa-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/barra-spot-barra-da-lagoa-florianopolis-sc/images/01-Vista_aerea.jpeg"
+    },
+    {
+      "slug": "ondas-do-leste-barra-da-lagoa-florianopolis-sc",
+      "id": 24426,
+      "title": "Ondas do Leste, Barra da Lagoa",
+      "category": "lancamento",
+      "price": 240000,
+      "dataPath": "imoveis/ondas-do-leste-barra-da-lagoa-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/ondas-do-leste-barra-da-lagoa-florianopolis-sc/images/01-Captura-de-tela-2026-03-04-174713.png"
+    }
+  ]
+}

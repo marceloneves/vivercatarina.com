@@ -1,0 +1,234 @@
+{
+  "id": 11709,
+  "slug": "d-next-estreito-florianopolis-sc",
+  "title": "D/Next, Estreito, Florianópolis",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$618,000",
+    "amount": 618000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Av. Marinheiro Max Schramm, 2701, Estreito, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "estreito",
+      "name": "Estreito"
+    }
+  },
+  "overview": {
+    "code": "1260",
+    "bedrooms": null,
+    "bathrooms": null,
+    "garages": null,
+    "sizeSqm": 32.532,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "studios-1-e-2-dorm",
+      "name": "Studios 1 e 2 dorm."
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "bicicletario",
+    "brinquedoteca",
+    "churrasqueira",
+    "coworking",
+    "espaco-gourmet",
+    "especo-pet",
+    "lavanderia",
+    "piscina",
+    "playground",
+    "quadra-de-esportes",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Churrasqueira Carvão",
+    "Lavanderia",
+    "Academia",
+    "Quadra de esportes",
+    "Salão de Festas",
+    "Piscina",
+    "Espaço Pet",
+    "Playground",
+    "Coworking",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Brinquedoteca"
+  ],
+  "descriptionHtml": "<p><strong>Studios com metragens de 32.53m² a 44,49m², 1 vaga de garagem e hobby box a partir de R$ 618.000,00 ( Studio Garden 207 B)</strong></p>\n<p><strong>Apartamentos com 1 quarto, 42,79m² privativos. 1 vaga de garagem e hobby box a partir de R$ 645.000,00 ( Apto 504 B)</strong></p>\n<p><strong>Apartamentos com 2 quartos (1 suíte), 66,65m² privativos,1 vg e hobby box a partir de R$ 970.000,00 (Apto 509 A)</strong></p>\n<p>Entrada + financiamento</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Valores atualizados em: 05/02/2026</li>\n</ul>\n<h6 data-start=\"61\" data-end=\"134\"><strong data-start=\"65\" data-end=\"132\">Empreendimento pronto para morar no Estreito – Florianópolis/SC</strong></h6>\n<p data-start=\"136\" data-end=\"438\">Se você busca conforto, modernidade e praticidade, este empreendimento no Estreito é a escolha ideal! <strong data-start=\"238\" data-end=\"259\">Pronto para morar</strong>, ele oferece opções de <strong data-start=\"283\" data-end=\"384\">studios, apartamentos de 1 quarto, apartamentos de 2 quartos (1 suíte) e apartamentos de 2 suítes</strong>, todos com <strong data-start=\"396\" data-end=\"435\">1 ou 2 vagas de garagem e hobby box</strong>.</p>\n<p data-start=\"440\" data-end=\"672\">Com assinatura da <strong data-start=\"458\" data-end=\"479\">Construtora Dimas</strong>, referência em <strong data-start=\"495\" data-end=\"549\">acabamento de alto padrão e excelência construtiva</strong>, este empreendimento foi projetado para oferecer um estilo de vida completo, com <strong data-start=\"631\" data-end=\"669\">ampla área de lazer e conveniência</strong>.</p>\n<h6 data-start=\"674\" data-end=\"715\"><strong data-start=\"678\" data-end=\"713\">Infraestrutura e Lazer Completo</strong></h6>\n<ul data-start=\"716\" data-end=\"1100\">\n<li data-start=\"716\" data-end=\"768\"><strong data-start=\"718\" data-end=\"749\">Hall de entrada sofisticado</strong> com espaço estar</li>\n<li data-start=\"769\" data-end=\"843\"><strong data-start=\"771\" data-end=\"820\">Coworking, sala de estudos e sala de reuniões</strong> para seu home office</li>\n<li data-start=\"844\" data-end=\"886\"><strong data-start=\"846\" data-end=\"861\">Phone booth</strong> para chamadas privadas</li>\n<li data-start=\"887\" data-end=\"924\"><strong data-start=\"889\" data-end=\"922\">Salão de jogos e bike sharing</strong></li>\n<li data-start=\"925\" data-end=\"975\"><strong data-start=\"927\" data-end=\"973\">Bicicletário e Home Market</strong></li>\n<li data-start=\"976\" data-end=\"1036\"><strong data-start=\"978\" data-end=\"1012\">Delivery space e smart lockers</strong> para mais praticidade</li>\n<li data-start=\"1037\" data-end=\"1069\"><strong data-start=\"1039\" data-end=\"1067\">Lavanderia compartilhada</strong></li>\n<li data-start=\"1070\" data-end=\"1100\"><strong data-start=\"1072\" data-end=\"1098\">Oficina e Espaço Clean</strong></li>\n</ul>\n<h6 data-start=\"1102\" data-end=\"1126\"><strong data-start=\"1106\" data-end=\"1124\">Lazer no Ático</strong></h6>\n<ul data-start=\"1127\" data-end=\"1424\">\n<li data-start=\"1127\" data-end=\"1166\"><strong data-start=\"1129\" data-end=\"1164\">Salão de festas e salão gourmet</strong></li>\n<li data-start=\"1167\" data-end=\"1202\"><strong data-start=\"1169\" data-end=\"1200\">Rooftop lounge e Sky Lounge</strong></li>\n<li data-start=\"1203\" data-end=\"1241\"><strong data-start=\"1205\" data-end=\"1239\">Espaço pet e horta de temperos</strong></li>\n<li data-start=\"1242\" data-end=\"1275\"><strong data-start=\"1244\" data-end=\"1273\">Espaço kids e ateliê kids</strong></li>\n<li data-start=\"1276\" data-end=\"1316\"><strong data-start=\"1278\" data-end=\"1314\">Fitness center e fitness externo</strong></li>\n<li data-start=\"1317\" data-end=\"1354\"><strong data-start=\"1319\" data-end=\"1352\">Espaço para esportes de areia</strong></li>\n<li data-start=\"1355\" data-end=\"1389\"><strong data-start=\"1357\" data-end=\"1387\">Piscina com deck e prainha</strong></li>\n<li data-start=\"1390\" data-end=\"1424\"><strong data-start=\"1392\" data-end=\"1422\">Churrasqueiras Grill 1 e 2</strong></li>\n</ul>\n<p data-start=\"1426\" data-end=\"1567\">Um empreendimento <strong data-start=\"1444\" data-end=\"1502\">completo, sofisticado e em uma localização estratégica</strong> no Estreito, um dos bairros mais valorizados de Florianópolis.</p>\n<p data-start=\"1569\" data-end=\"1612\"><strong data-start=\"1569\" data-end=\"1610\">Entre em contato e agende sua visita!</strong></p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-apartamento-1-quarto-42m2-1-garagem-estreito-florianopolis-cod-466-2.webp",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-PHOTO-2025-02-10-12-18-17-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-PHOTO-2025-02-10-12-18-17-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-PHOTO-2025-02-10-12-18-17-24.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-PHOTO-2025-02-10-12-15-38-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-PHOTO-2025-02-10-12-15-38-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-PHOTO-2025-02-10-12-15-38-7.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-PHOTO-2025-02-10-12-18-17-2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-PHOTO-2025-02-10-12-18-17-4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-PHOTO-2025-02-10-12-18-17-14.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-PHOTO-2025-02-10-12-18-17-16.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-PHOTO-2025-02-10-12-18-17-17.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-PHOTO-2025-02-10-12-18-17-21.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-PHOTO-2025-02-10-12-43-09-3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-PHOTO-2025-02-10-12-43-09-5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-PHOTO-2025-02-10-12-43-09-8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-PHOTO-2025-02-10-12-43-09-9.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-PHOTO-2025-02-10-12-43-09-12.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-PHOTO-2025-02-10-12-43-09-13.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-PHOTO-2025-02-10-12-43-09-14.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-PHOTO-2025-02-10-12-43-09-15.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-PHOTO-2025-02-10-12-43-09-17.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-PHOTO-2025-02-10-12-43-09-20.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-PHOTO-2025-02-10-12-43-09-21.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-PHOTO-2025-02-10-12-43-09-22.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-PHOTO-2025-02-10-12-43-09-27.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/27-original_2e9f13390882f8e4f5286fa3103b9093.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/28-original_3d0169dbffd6aad0c53af031d41aa8ac.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/29-original_4c30a121c23e36101c4c11ebdef5d44c.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/30-original_11ad74cf1e8319ea9598ddd2a276df74.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/31-original_59c4b398c3643bfc1fb7b91af32d3649.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/32-original_88a7c6d2fed285043c9525753d4fc4b1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/33-original_94d2a9f87206d211f43e7a9520748d72.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/34-original_04631495630efe292b1aaf506ecaa645.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/35-original_f2ef186c031c5aa3420d6cd704f084e5.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/36-original_fb8359c6d8496a10bb9da980e5ac6a62.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/d-next-estreito-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:44:09.897Z",
+  "kind": "apartamento"
+}

@@ -1,0 +1,126 @@
+{
+  "id": 18009,
+  "slug": "park-view-coqueiros-florianopolis-sc",
+  "title": "frente ao Parque de Coqueiros, Park View, Coqueiros",
+  "category": "lancamento",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$463,000",
+    "amount": 463000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Av. Eng. Max de Souza, Coqueiros, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "coqueiros",
+      "name": "Coqueiros"
+    }
+  },
+  "overview": {
+    "code": "1505",
+    "bedrooms": null,
+    "bathrooms": null,
+    "garages": null,
+    "sizeSqm": 32.962,
+    "deliveryYear": "Jul/26"
+  },
+  "types": [
+    {
+      "slug": "apartment",
+      "name": "Lançamentos"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "jul-26",
+      "name": "Jul/26"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "garden",
+      "name": "Garden"
+    }
+  ],
+  "featureSlugs": [
+    "bicicletario",
+    "elevador"
+  ],
+  "features": [
+    "Bicicletário",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p><strong>Studios com 32,96m², sacada</strong> a partir de <strong>R$ 463.000,00</strong></p>\n<p>Apartamentos <strong>garden com 1 dormitório, 58.55m²</strong> a partir de <strong>R$ 708.000,00</strong></p>\n<p>Apartamentos com <strong>1 dormitório, sacada, 47,28m²</strong> a partir de <strong>R$ 614.000,00</strong></p>\n<p>Entrada + parcelas + financiamento bancário</p>\n<ul>\n<li><em>Valores e disponibilidade podem sofrer alteração sem aviso prévio.</em></li>\n<li><em>Condições de pagamento flexíveis.</em></li>\n<li>Estuda-se veículo como parte de pagamento</li>\n<li><em>Valores atualizados em 22/10/2025</em></li>\n</ul>\n<h5 data-start=\"247\" data-end=\"323\"><strong data-start=\"251\" data-end=\"323\">Park View Residence – Lançamento em Coqueiros, Florianópolis</strong></h5>\n<hr data-start=\"325\" data-end=\"328\" />\n<h5 data-start=\"330\" data-end=\"359\">Localização Privilegiada</h5>\n<p data-start=\"360\" data-end=\"743\">À beira do <strong data-start=\"371\" data-end=\"394\">Parque de Coqueiros</strong>, com seus 35.000 m² de áreas verdes, ciclovias e infraestrutura de lazer para toda a família, o <strong data-start=\"491\" data-end=\"514\">Park View Residence</strong> entrega a combinação perfeita entre natureza e conveniência urbana. Está a apenas alguns minutos do Centro de Florianópolis, rodeado por comércio sofisticado e uma renomada via gastronômica.</p>\n<hr data-start=\"745\" data-end=\"748\" />\n<h5 data-start=\"750\" data-end=\"779\">Empreendimento Exclusivo</h5>\n<ul data-start=\"780\" data-end=\"1248\">\n<li data-start=\"780\" data-end=\"914\">\n<p data-start=\"782\" data-end=\"914\"><strong data-start=\"782\" data-end=\"797\">Torre única</strong>, com apenas 16 unidades residenciais — design discreto, exclusivo e atemporal.</p>\n</li>\n<li data-start=\"915\" data-end=\"1108\">\n<p data-start=\"917\" data-end=\"1108\">Opções de <strong data-start=\"927\" data-end=\"953\">apartamentos e studios</strong>, com áreas entre <strong data-start=\"971\" data-end=\"988\">33 m² e 64 m²</strong>, atendendo desde quem busca investimento até quem deseja residir com praticidade.</p>\n</li>\n<li data-start=\"1109\" data-end=\"1248\">\n<p data-start=\"1111\" data-end=\"1248\">Possibilidade de <strong data-start=\"1128\" data-end=\"1147\">unidades Garden</strong>, com terraços privativos que ampliam o contato com o ar livre .</p>\n</li>\n</ul>\n<ul data-start=\"1288\" data-end=\"1806\">\n<li data-start=\"1288\" data-end=\"1469\">\n<p data-start=\"1290\" data-end=\"1469\"><strong data-start=\"1290\" data-end=\"1310\">Sustentabilidade</strong>: sistema de captação de água da chuva, bicicletário, e infraestrutura planejada para conforto e baixo impacto ambiental.</p>\n</li>\n<li data-start=\"1470\" data-end=\"1594\">\n<p data-start=\"1472\" data-end=\"1594\"><strong data-start=\"1472\" data-end=\"1490\">Acessibilidade</strong>: plataforma elevatória facilita o acesso a todas as áreas comuns .</p>\n</li>\n<li data-start=\"1470\" data-end=\"1594\">\n<p data-start=\"1472\" data-end=\"1594\"><strong data-start=\"1597\" data-end=\"1620\">Acabamentos premium</strong>: fechadura digital, piso porcelanato 90&#215;90, vidros acústicos, persianas elétricas e rebaixamento em gesso garantem segurança, conforto e elegância.</p>\n</li>\n</ul>\n<hr data-start=\"1808\" data-end=\"1811\" />\n<h5 data-start=\"1813\" data-end=\"1840\">Para Morar ou Investir</h5>\n<ul data-start=\"1841\" data-end=\"2284\">\n<li data-start=\"1841\" data-end=\"2044\">\n<p data-start=\"1843\" data-end=\"2044\">O bairro de Coqueiros segue sendo um dos mais valorizados da região continental de Florianópolis, marcado por crescimento constante, segurança e qualidade de vida.</p>\n</li>\n<li data-start=\"2045\" data-end=\"2284\">\n<p data-start=\"2047\" data-end=\"2284\">Além das residências, há uma <strong data-start=\"2076\" data-end=\"2126\">sala comercial com mezanino e jardim privativo</strong> (aproximadamente 118 m²) — perfeita para comércio e profissionais que valorizam visibilidade e localização estratégica</p>\n</li>\n</ul>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-Captura-de-tela-2025-08-15-154240.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-Captura-de-tela-2025-08-15-155102.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-Captura-de-tela-2025-08-15-154353-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-101-garden-.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-Captura-de-tela-2025-08-15-154325.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-Captura-de-tela-2025-08-15-154832.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-Captura-de-tela-2025-08-15-154901.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-Captura-de-tela-2025-08-15-155120.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-Captura-de-tela-2025-08-15-155140-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-Captura-de-tela-2025-08-15-155315.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-Captura-de-tela-2025-08-15-155331.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-planta-102-a-802.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-planta-201-garden-.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-planta-301-a-801.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/park-view-coqueiros-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:43:24.941Z",
+  "kind": "apartamento"
+}

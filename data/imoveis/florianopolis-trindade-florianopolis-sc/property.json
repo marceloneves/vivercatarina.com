@@ -1,0 +1,170 @@
+{
+  "id": 25466,
+  "slug": "florianopolis-trindade-florianopolis-sc",
+  "title": "Apartamento 100% mobiliado na Trindade",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": null,
+    "display": "R$650,000",
+    "amount": 650000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Ogê Fortkamp, 157, Trindade, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "trindade",
+      "name": "Trindade"
+    }
+  },
+  "overview": {
+    "code": "1696",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": 1,
+    "sizeSqm": 45.622,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [],
+  "labels": [],
+  "featureSlugs": [
+    "coworking",
+    "elevador",
+    "espaco-gourmet",
+    "lavanderia",
+    "praca-de-fogo"
+  ],
+  "features": [
+    "Lavanderia",
+    "Coworking",
+    "Espaço Gourmet",
+    "Praça de fogo",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p data-start=\"0\" data-end=\"180\">Apartamento mobiliado e equipado à venda na Trindade, em Florianópolis/SC, uma excelente opção para quem busca praticidade, localização estratégica e alto potencial de valorização.</p>\n<p data-start=\"182\" data-end=\"447\">Com 1 dormitório, o imóvel está pronto para morar ou investir. Possui ambientes bem distribuídos, sala integrada, cozinha funcional, área de serviço, ótima posição solar, boa ventilação natural e climatização, oferecendo mais conforto e funcionalidade no dia a dia.</p>\n<p data-start=\"449\" data-end=\"694\">A sacada com churrasqueira à carvão é um dos diferenciais do apartamento, criando um espaço agradável para receber amigos, relaxar e aproveitar bons momentos com privacidade. O imóvel conta ainda com 1 vaga de garagem livre, coberta e privativa.</p>\n<p data-start=\"696\" data-end=\"948\">O condomínio oferece uma estrutura prática e moderna para a rotina, com salão de festas mobiliado e climatizado, terraço com praça do fogo, espaço coworking, lavanderia compartilhada, zeladoria, gás central, sistema de vigilância e portaria eletrônica.</p>\n<p data-start=\"950\" data-end=\"1256\">Localizado em uma rua tranquila no bairro Trindade, o apartamento está a apenas 10 minutos caminhando da UFSC e próximo a mercados, cafés, farmácias, restaurantes, academias, serviços e conveniências. A região também proporciona fácil acesso ao Centro de Florianópolis e às praias do Norte e Leste da Ilha.</p>\n<p data-start=\"1258\" data-end=\"1386\">Uma oportunidade completa para moradia, locação tradicional ou investimento em uma das regiões mais procuradas de Florianópolis.</p>\n<p data-start=\"1388\" data-end=\"1410\">Condomínio: R$ 785,00.</p>\n<p data-start=\"1412\" data-end=\"1488\" data-is-last-node=\"\" data-is-only-node=\"\">Agende sua visita e conheça todos os detalhes deste apartamento na Trindade.</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-original_09491e4d3b10283280d9273f60e52644.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-original_81fc1ed4a0c1764c698292dd38075e67.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-original_f87f6bc64e323f7c0b462713d92e534c.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-original_368188c6605b966d77d2cb1528875ce6-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-original_43b85e118121aad6778a456247bc9299.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-original_630fcbbe3898526afdf8b64888213887.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-original_431a5bcc0e8a6fac25358d1877b549bd.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-original_6d64e4ada45e20a5ea74e7cb6029d050-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-original_6d64e4ada45e20a5ea74e7cb6029d050.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-original_9e7e3c4f751df952f2276b9a891b44ae.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-original_f39ea81a2388e614e18878b92376c951.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-original_a23c5e406fa6bff82a5b10cbd86d6dfc.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-original_bc7b646a711e514e870a168d222c450a.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-original_c73b451cbf35788eb8ae99f0c62c1329.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-original_edbb778e8a39ead9c4e44917491789f2.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-original_bb94dad04127066557020eec8a3832c8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-original_90d6bc8f20f9154d5542a3c2f27f7572.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-original_4dd5ccf1dbb4171d024cdea6827c1c38.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-original_4d94ea788473603a6b08659bf9c2ca7d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-original_487247b01ded57f0ceedac43bd79bfb3.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-original_418ee02e91d63a6b8c21ed1cbf7d6f24.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-original_a7a0b45c22aa7d384e1162357d2a0157.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-original_f6198206bd88141a3fcaf81917776471.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-original_d02004c3fc52c26e091e4e08ee52347f.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/25-original_14c30148fbf5589553ba0029445a231d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/26-original_3648b0548721664687c75f480263f7ad.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/florianopolis-trindade-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:46.508Z",
+  "kind": "apartamento"
+}

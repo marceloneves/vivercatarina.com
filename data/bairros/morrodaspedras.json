@@ -1,0 +1,21 @@
+{
+  "slug": "morrodaspedras",
+  "name": "Morro das Pedras",
+  "city": {
+    "slug": "florianopolis",
+    "name": "Florianópolis"
+  },
+  "generatedAt": "2026-05-31T18:41:54.268Z",
+  "total": 1,
+  "properties": [
+    {
+      "slug": "morro-da-pedras-spot-morro-das-pedras-florianopolis-sc",
+      "id": 13142,
+      "title": "200 metros da praia, Morro da Pedras Spot, Morro da Pedras",
+      "category": "lancamento",
+      "price": 313000,
+      "dataPath": "imoveis/morro-da-pedras-spot-morro-das-pedras-florianopolis-sc/property.json",
+      "thumbnail": "imoveis/morro-da-pedras-spot-morro-das-pedras-florianopolis-sc/images/01-MORRO-DAS-PEDRAS-LANCAMENTO-DRONE-2.png"
+    }
+  ]
+}

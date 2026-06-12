@@ -1,0 +1,184 @@
+{
+  "id": 15910,
+  "slug": "pronto-para-morar-estreito-florianopolis-sc",
+  "title": "Apartamento Novo, pronto para morar, D/Mys, Estreito",
+  "category": "pronto-para-morar",
+  "price": {
+    "prefix": "A partir de",
+    "display": "R$675,000",
+    "amount": 675000,
+    "currency": "BRL"
+  },
+  "address": {
+    "street": "Rua Afonso Pena, 542, mEstreito, Florianópolis SC",
+    "country": "",
+    "state": {
+      "slug": "sc",
+      "name": "Santa Catarina"
+    },
+    "city": {
+      "slug": "florianopolis",
+      "name": "Florianópolis"
+    },
+    "neighborhood": {
+      "slug": "estreito",
+      "name": "Estreito"
+    }
+  },
+  "overview": {
+    "code": "1431",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "garages": 1,
+    "sizeSqm": 40.742,
+    "deliveryYear": "Pronto"
+  },
+  "types": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "statuses": [
+    {
+      "slug": "pronto-para-morar",
+      "name": "Pronto para morar"
+    }
+  ],
+  "labels": [
+    {
+      "slug": "3-suites",
+      "name": "3 Suítes"
+    }
+  ],
+  "featureSlugs": [
+    "academia",
+    "ar-condicionado",
+    "bicicletario",
+    "brinquedoteca",
+    "churrasqueira",
+    "elevador",
+    "espaco-gourmet",
+    "piscina",
+    "playground",
+    "sala-de-jogos",
+    "salao-de-festas"
+  ],
+  "features": [
+    "Ar Condicionado",
+    "Churrasqueira Carvão",
+    "Academia",
+    "Salão de Festas",
+    "Piscina",
+    "Sala de Jogos",
+    "Playground",
+    "Espaço Gourmet",
+    "Bicicletário",
+    "Brinquedoteca",
+    "Elevador"
+  ],
+  "descriptionHtml": "<p><strong>Apartamento com 1 dormitório, 40,74m², 1 vaga de garagem a partir de R$ 675.000,00</strong></p>\n<p><strong>Apartamento com 2 suítes, lavabo, 76,75m², lavabo, 1 vaga de garagem e hobby box a partir de R$ 1.090.000,00</strong></p>\n<p><strong>Apartamento com 3 suítes, lavabo, 112,7m² a 205m², 2 vagas de garagem, hobby box a partir de R$ 1.752.000,00 </strong></p>\n<p>OBS: Fotos do apartamento com 3 suítes. Solicite foto dos outros apartamentos.</p>\n<p>Apartamento novo, ideal para quem busca conforto, funcionalidade e lazer em um condomínio moderno e completo. Com uma planta bem distribuída e acabamentos de qualidade, o imóvel é perfeito para morar ou investir.</p>\n<p>📐 Características do apartamento:</p>\n<p>3 suítes</p>\n<p>Lavabo</p>\n<p>Piso porcelanato em todos os ambientes</p>\n<p>Espera para ar-condicionado tipo split</p>\n<p>Cozinha integrada</p>\n<p>Área de serviço separada</p>\n<p>2 vagas de garagem</p>\n<p>Hobby box privativo</p>\n<p>🏢 Infraestrutura completa do condomínio:</p>\n<p>Salão de festas</p>\n<p>Espaço gourmet</p>\n<p>Brinquedoteca</p>\n<p>Sala de jogos</p>\n<p>Lounge</p>\n<p>Piscina</p>\n<p>Espaço grill</p>\n<p>Bicicletário</p>\n<p>Pet place</p>\n<p>✨ Um imóvel pronto para receber sua personalização, com toda a comodidade e lazer que você e sua família merecem.</p>\n<p>Entre em contato para mais informações e agende sua visita!</p>",
+  "floorPlans": [],
+  "images": [
+    {
+      "file": "images/01-iMo779afI82O4_124260665e165adbeff-1.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/02-original_c9fe65b8c9a1d851af2d76af50a9d5bf.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/03-original_39f0599b610a48cdbc82a9ff2505b23d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/04-original_b65fa51636c19e74c3f4edf8256f6a18.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/05-original_57b0c74d9d3395e2805840a8e46603ca.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/06-original_8bbf12ca8a69d7e4dc71d332f7943276.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/07-original_a9d613511624aa171afec4053a8b98f8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/08-original_0a5d1ff9a4726e4df5a1e9ae562bea8d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/09-original_2bafbb2e918abaf24066a3d8a1179ec6.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/10-original_87eb4bc20deecefd69028f1a3b3f81ef.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/11-original_26f8b29762dbee6eec11ad779d6aee3d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/12-original_6b8ea52135086c4703492d4e0a688e20.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/13-original_8c6ca6e2b9afa317c4f94e00ceef865b.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/14-original_513656da35541a7160d6b11820fed76a.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/15-original_745aa5dee52a233d1b723ee3afc5855b.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/16-original_061d46f11b0e88efeaad239b3ba92b22.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/17-iMo779afI82O4_124260665e166ce59de.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/18-iMo779afI82O4_124260665e167ab0fa8.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/19-iMo779afI82O4_124260665e167e38621.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/20-iMo779afI82O4_124260665e168fcadff.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/21-iMo779afI82O4_124260665e16740cdf4.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/22-iMo779afI82O4_124260665e16776d04d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/23-iMo779afI82O4_124260665e16858af2d.jpg",
+      "role": "gallery"
+    },
+    {
+      "file": "images/24-iMo779afI82O4_124260665e16941e938.jpg",
+      "role": "gallery"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/embed/XgTfaP86ph0?feature=oembed",
+  "sourceUrl": "https://lancamentossc.com.br/site/property/pronto-para-morar-estreito-florianopolis-sc/",
+  "importedAt": "2026-05-30T18:42:49.867Z",
+  "kind": "apartamento"
+}
