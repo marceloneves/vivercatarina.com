@@ -16,7 +16,7 @@ const templatePath = join(process.cwd(), 'src/content/template-pages/index.html'
 const dataRoot = join(process.cwd(), 'src/data');
 
 export const HOME_HEADLINE_PREFIX = 'Viva o melhor de';
-export const HOME_HEADLINE_HIGHLIGHT = 'Santa Catarinaa';
+export const HOME_HEADLINE_HIGHLIGHT = 'Santa Catarina';
 const HERO_END_MARKER = '<!--======== / Hero Section ========-->';
 
 const FALLBACK_NEIGHBORHOOD_IMAGES = [
