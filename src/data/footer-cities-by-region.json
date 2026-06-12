@@ -5,7 +5,8 @@
 			{ "name": "Florianópolis" },
 			{ "name": "São José" },
 			{ "name": "Palhoça" },
-			{ "name": "Biguaçu" }
+			{ "name": "Biguaçu" },
+			{ "name": "Tijucas" }
 		]
 	},
 	{
@@ -13,22 +14,23 @@
 		"cities": [
 			{ "name": "Joinville" },
 			{ "name": "Jaraguá do Sul" },
-			{ "name": "Navegantes" },
-			{ "name": "São Bento do Sul" }
+			{ "name": "Barra Velha" },
+			{ "name": "Penha" },
+			{ "name": "Balneário Piçarras", "subdomain": "picarras" }
 		]
 	},
 	{
-		"region": "Vale do Itajaí",
+		"region": "Vale do Itajaí e Litoral",
 		"cities": [
-			{ "name": "Blumenau" },
+			{ "name": "Balneário Camboriú", "subdomain": "balneario" },
 			{ "name": "Itajaí" },
-			{ "name": "Balneário Camboriú" },
+			{ "name": "Blumenau" },
 			{ "name": "Brusque" },
 			{ "name": "Camboriú" },
 			{ "name": "Itapema" },
-			{ "name": "Rio do Sul" },
-			{ "name": "Gaspar" },
-			{ "name": "Indaial" }
+			{ "name": "Navegantes" },
+			{ "name": "Porto Belo" },
+			{ "name": "Bombinhas" }
 		]
 	},
 	{
@@ -36,22 +38,13 @@
 		"cities": [
 			{ "name": "Criciúma" },
 			{ "name": "Tubarão" },
-			{ "name": "Araranguá" },
-			{ "name": "Içara" }
+			{ "name": "Imbituba" }
 		]
 	},
 	{
 		"region": "Oeste Catarinense",
 		"cities": [
-			{ "name": "Chapecó" },
-			{ "name": "Concórdia" }
-		]
-	},
-	{
-		"region": "Serra / Planalto",
-		"cities": [
-			{ "name": "Lages" },
-			{ "name": "Caçador" }
+			{ "name": "Chapecó" }
 		]
 	}
 ]

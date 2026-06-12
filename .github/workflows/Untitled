@@ -1,0 +1,3 @@
+git add .github/workflows/deploy.yml
+git commit -m "fix: corrige workflow vazio"
+git push origin master
