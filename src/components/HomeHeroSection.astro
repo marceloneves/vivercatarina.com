@@ -1,0 +1,26 @@
+---
+import {
+	getHomeHeroBackgroundUrl,
+	HOME_HEADLINE_HIGHLIGHT,
+	HOME_HEADLINE_PREFIX,
+} from '../lib/home-page.mjs';
+
+const heroBackgroundUrl = getHomeHeroBackgroundUrl();
+---
+
+<section class="th-hero-wrapper hero-1" id="hero" aria-label="Destaque principal">
+	<div class="hero-inner hero-style1" data-bg-src={heroBackgroundUrl}>
+		<div class="container">
+			<div class="row gy-50 gx-40 align-items-center">
+				<div class="col-xxl-7 col-xl-7 col-lg-8">
+					<div class="hero-1-content pe-xl-4">
+						<h1 class="hero-title">
+							{HOME_HEADLINE_PREFIX}{' '}
+							<span class="title2 text-theme">{HOME_HEADLINE_HIGHLIGHT}</span>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

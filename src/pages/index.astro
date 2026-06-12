@@ -2,6 +2,7 @@
 import PillerLayout from '../layouts/PillerLayout.astro';
 import HomeBairrosSection from '../components/HomeBairrosSection.astro';
 import HomeFaqSection from '../components/HomeFaqSection.astro';
+import HomeHeroSection from '../components/HomeHeroSection.astro';
 import { buildHomeFaqSchema, getHomeFaqItems } from '../lib/home-faq.mjs';
 import { getHomePageShell } from '../lib/home-page.mjs';
 import { loadHomeCityCards } from '../lib/footer-cities.mjs';
@@ -19,6 +20,7 @@ const homeFaqSchema = buildHomeFaqSchema();
 		<script type="application/ld+json" set:html={JSON.stringify(homeFaqSchema)} />
 	</Fragment>
 	<Fragment set:html={shell.before} />
+	<HomeHeroSection />
 	<HomeBairrosSection neighborhoods={cityCards} />
 	<HomeFaqSection items={homeFaqItems} />
 	<Fragment set:html={shell.after} />

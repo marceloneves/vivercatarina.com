@@ -1,4 +1,6 @@
 ---
+import { HOME_HEADLINE_HIGHLIGHT, HOME_HEADLINE_PREFIX } from '../lib/home-page.mjs';
+
 const { neighborhoods, variant = 'home' } = Astro.props;
 const isListing = variant === 'listing';
 ---
@@ -64,10 +66,11 @@ const isListing = variant === 'listing';
 						<div class="title-area text-center">
 							<p class="sub-title">
 								<span class="double-line" />
-								Santa Catarina
+								Imóveis na planta
 							</p>
-							<h2 class="sec-title mb-2" id="home-bairros-title">
-								Cidades para Comprar Imóveis na Planta
+							<h2 class="sec-title mb-2 home-headline" id="home-bairros-title">
+								{HOME_HEADLINE_PREFIX}{' '}
+								<span class="title2 text-theme">{HOME_HEADLINE_HIGHLIGHT}</span>
 							</h2>
 							<p class="box-text">
 								Encontre lançamentos imobiliários nas principais cidades de Santa Catarina

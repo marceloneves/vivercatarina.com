@@ -15,6 +15,10 @@ import { loadLancamentosKindListing } from './lancamentos-page.mjs';
 const templatePath = join(process.cwd(), 'src/content/template-pages/index.html');
 const dataRoot = join(process.cwd(), 'src/data');
 
+export const HOME_HEADLINE_PREFIX = 'Viva o melhor de';
+export const HOME_HEADLINE_HIGHLIGHT = 'Santa Catarinaa';
+const HERO_END_MARKER = '<!--======== / Hero Section ========-->';
+
 const FALLBACK_NEIGHBORHOOD_IMAGES = [
 	'/assets/img/gallery/gallery-1-1.jpg',
 	'/assets/img/gallery/gallery-1-2.jpg',
@@ -245,6 +249,17 @@ export function getHomeHeroBackgroundUrl() {
 	return pickNeighborhoodCoverImage('cacupe') || FALLBACK_NEIGHBORHOOD_IMAGES[2];
 }
 
+function stripHomeHeroSection(html) {
+	const heroStart = html.indexOf('<section class="th-hero-wrapper');
+	const heroEnd = html.indexOf(HERO_END_MARKER, heroStart);
+
+	if (heroStart === -1 || heroEnd === -1) {
+		return html;
+	}
+
+	return `${html.slice(0, heroStart)}${html.slice(heroEnd + HERO_END_MARKER.length)}`;
+}
+
 export function getHomePageShell() {
 	const html = applySemanticHtml(readFileSync(templatePath, 'utf8'));
 	const searchStart = html.indexOf('<section class="search-area"');
@@ -266,14 +281,9 @@ export function getHomePageShell() {
 		throw new Error('Não foi possível localizar o rodapé na home.');
 	}
 
-	const heroBackgroundUrl = getHomeHeroBackgroundUrl();
-	const before = (
-		html.slice(0, searchStart) +
-		html.slice(searchEnd + searchEndMarker.length, sectionStart)
-	).replace(
-		'data-bg-src="/assets/img/hero/hero_bg_1_1.jpg"',
-		`data-bg-src="${heroBackgroundUrl}"`,
-	);
+	const headerAndPreSearch = stripHomeHeroSection(html.slice(0, searchStart));
+	const before =
+		headerAndPreSearch + html.slice(searchEnd + searchEndMarker.length, sectionStart);
 
 	return {
 		before,
