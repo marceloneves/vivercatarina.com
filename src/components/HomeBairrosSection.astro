@@ -167,6 +167,11 @@ const isListing = variant === 'listing';
 		padding: 28px 16px 12px;
 	}
 
+	/* Remove o fundo branco que aparecia atrás do nome no hover. */
+	.home-bairros-section .gallery-content-wrapper::before {
+		display: none;
+	}
+
 	/* Nome da cidade menor dentro da faixa. */
 	.home-bairros-section .gallery-content .box-title {
 		font-size: 18px;
@@ -188,6 +193,11 @@ const isListing = variant === 'listing';
 		height: auto;
 	}
 
+	/* Remove o escurecimento global da imagem; só a faixa do nome fica escura. */
+	.home-bairros-section .gallery-img::before {
+		display: none;
+	}
+
 	.home-bairros-section .gallery-img img {
 		position: absolute;
 		inset: 0;
@@ -199,9 +209,17 @@ const isListing = variant === 'listing';
 		transition: transform 0.4s ease;
 	}
 
+	/* Mantém o zoom suave da imagem no hover. */
 	.home-bairros-section .gallery-card-link:hover .gallery-img img,
 	.home-bairros-section .gallery-card-link:focus-visible .gallery-img img {
-		transform: scale(1.03);
+		transform: scale(1.05);
+	}
+
+	/* No hover, muda a cor do nome da cidade para o amarelo da marca. */
+	.home-bairros-section .gallery-card .gallery-img:hover .gallery-content .box-title,
+	.home-bairros-section .gallery-card-link:hover .gallery-content .box-title,
+	.home-bairros-section .gallery-card-link:focus-visible .gallery-content .box-title {
+		color: var(--theme-color);
 	}
 
 	.home-bairros-section .gallery-card-link:focus-visible {
