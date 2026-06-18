@@ -15,7 +15,7 @@ const heroBackgroundUrl = getHomeHeroBackgroundUrl();
 				<div class="col-xxl-7 col-xl-7 col-lg-8">
 					<div class="hero-1-content pe-xl-4">
 						<h1 class="hero-title">
-							{HOME_HEADLINE_PREFIX}{' '}
+							{HOME_HEADLINE_PREFIX}<br />
 							<span class="title2 text-theme">{HOME_HEADLINE_HIGHLIGHT}</span>
 						</h1>
 					</div>
@@ -24,3 +24,10 @@ const heroBackgroundUrl = getHomeHeroBackgroundUrl();
 		</div>
 	</div>
 </section>
+
+<style>
+	/* Mantém "Santa Catarina" sempre na mesma linha. */
+	.hero-title .title2 {
+		white-space: nowrap;
+	}
+</style>
