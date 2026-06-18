@@ -355,8 +355,9 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 				}
 			}
 
+			/* Margem à direita apenas na coluna do texto de descrição do portal. */
 			.footer-all-widget-wrapper > .footer-all-widget-item:first-child {
-				padding-right: 1.25rem;
+				padding-right: clamp(32px, 6vw, 96px);
 			}
 
 			.footer-all-widget-wrapper .th-widget-about .about-logo {
