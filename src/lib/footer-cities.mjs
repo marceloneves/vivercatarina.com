@@ -117,5 +117,5 @@ export function loadHomeCityCards() {
 		}
 	}
 
-	return cards;
+	return cards.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
 }
