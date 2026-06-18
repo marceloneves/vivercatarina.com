@@ -1,7 +1,7 @@
 ---
 import { HOME_HEADLINE_HIGHLIGHT, HOME_HEADLINE_PREFIX } from '../lib/home-page.mjs';
 
-const { neighborhoods, variant = 'home' } = Astro.props;
+const { neighborhoods, cityRegions = [], variant = 'home' } = Astro.props;
 const isListing = variant === 'listing';
 ---
 
@@ -80,35 +80,36 @@ const isListing = variant === 'listing';
 				</div>
 			</div>
 			<div class="container pb-5">
-				<div class="row gy-30 justify-content-center">
-					{
-						neighborhoods.map((item) => (
-							<div class="col-xl-3 col-lg-4 col-md-6">
-								<article class="gallery-card h-100">
-									<a
-										href={item.href}
-										class="gallery-card-link"
-									>
-										<div class="gallery-img">
-											<img
-												src={item.imageUrl}
-												alt=""
-												aria-hidden="true"
-												loading="lazy"
-											/>
-											<div class="gallery-content">
-												<div class="gallery-content-wrapper">
-													<p class="box-text">{item.region ?? 'Florianópolis, SC'}</p>
-													<h2 class="box-title">{item.name}</h2>
+				{
+					cityRegions.map((group) => (
+						<div class="home-region-group">
+							<h3 class="home-region-title">{group.region}</h3>
+							<div class="row gy-30 justify-content-start">
+								{group.cities.map((item) => (
+									<div class="col-xl-3 col-lg-4 col-md-6">
+										<article class="gallery-card h-100">
+											<a href={item.href} class="gallery-card-link">
+												<div class="gallery-img">
+													<img
+														src={item.imageUrl}
+														alt=""
+														aria-hidden="true"
+														loading="lazy"
+													/>
+													<div class="gallery-content">
+														<div class="gallery-content-wrapper">
+															<h2 class="box-title">{item.name}</h2>
+														</div>
+													</div>
 												</div>
-											</div>
-										</div>
-									</a>
-								</article>
+											</a>
+										</article>
+									</div>
+								))}
 							</div>
-						))
-					}
-				</div>
+						</div>
+					))
+				}
 			</div>
 		</section>
 	)
@@ -119,6 +120,18 @@ const isListing = variant === 'listing';
 	.home-bairros-section .container {
 		padding-left: clamp(16px, 4vw, 72px);
 		padding-right: clamp(16px, 4vw, 72px);
+	}
+
+	/* Títulos de cada região (segmentação dos cards de cidade). */
+	.home-bairros-section .home-region-group + .home-region-group {
+		margin-top: 2.75rem;
+	}
+
+	.home-bairros-section .home-region-title {
+		font-size: 1.375rem;
+		font-weight: 700;
+		margin-bottom: 1.5rem;
+		color: var(--title-color);
 	}
 
 	.home-bairros-section .gallery-card {

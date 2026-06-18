@@ -119,3 +119,24 @@ export function loadHomeCityCards() {
 
 	return cards.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
 }
+
+export function loadHomeCityCardsByRegion() {
+	const regions = listFooterCitiesByRegion();
+	const heroImageUrl = getHomeHeroBackgroundUrl();
+
+	return regions.map(({ region, cities }) => ({
+		region,
+		cities: cities
+			.map((city) => {
+				const subdomain = city.subdomain || slugifyText(city.name).replace(/-/g, '');
+
+				return {
+					name: city.name,
+					href: city.href,
+					region,
+					imageUrl: getCityImageUrl(subdomain, heroImageUrl),
+				};
+			})
+			.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR')),
+	}));
+}

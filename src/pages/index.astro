@@ -5,12 +5,12 @@ import HomeFaqSection from '../components/HomeFaqSection.astro';
 import HomeHeroSection from '../components/HomeHeroSection.astro';
 import { buildHomeFaqSchema, getHomeFaqItems } from '../lib/home-faq.mjs';
 import { getHomePageShell } from '../lib/home-page.mjs';
-import { loadHomeCityCards } from '../lib/footer-cities.mjs';
+import { loadHomeCityCardsByRegion } from '../lib/footer-cities.mjs';
 
 const title = 'Início';
 const bodyClass = 'home-page';
 const shell = getHomePageShell();
-const cityCards = loadHomeCityCards();
+const cityRegions = loadHomeCityCardsByRegion();
 const homeFaqItems = getHomeFaqItems();
 const homeFaqSchema = buildHomeFaqSchema();
 ---
@@ -21,7 +21,7 @@ const homeFaqSchema = buildHomeFaqSchema();
 	</Fragment>
 	<Fragment set:html={shell.before} />
 	<HomeHeroSection />
-	<HomeBairrosSection neighborhoods={cityCards} />
+	<HomeBairrosSection cityRegions={cityRegions} />
 	<HomeFaqSection items={homeFaqItems} />
 	<Fragment set:html={shell.after} />
 </PillerLayout>
