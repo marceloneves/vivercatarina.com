@@ -134,6 +134,14 @@ const isListing = variant === 'listing';
 		color: var(--title-color);
 	}
 
+	/* 5 cards por linha a partir de telas grandes. */
+	@media (min-width: 1200px) {
+		.home-bairros-section .home-region-group .row > [class*='col-'] {
+			flex: 0 0 20%;
+			max-width: 20%;
+		}
+	}
+
 	.home-bairros-section .gallery-card {
 		height: 100%;
 	}
