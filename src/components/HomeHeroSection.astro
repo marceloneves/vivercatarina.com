@@ -18,6 +18,9 @@ const heroBackgroundUrl = getHomeHeroBackgroundUrl();
 							{HOME_HEADLINE_PREFIX}<br />
 							<span class="title2 text-theme">{HOME_HEADLINE_HIGHLIGHT}</span>
 						</h1>
+						<p class="hero-subtitle">
+							O maior portal de lançamentos imobiliários de Santa Catarina
+						</p>
 					</div>
 				</div>
 			</div>
@@ -29,5 +32,19 @@ const heroBackgroundUrl = getHomeHeroBackgroundUrl();
 	/* Mantém "Santa Catarina" sempre na mesma linha. */
 	.hero-title .title2 {
 		white-space: nowrap;
+	}
+
+	/* Aumenta a margem esquerda do texto da hero. */
+	.hero-1-content {
+		padding-left: clamp(16px, 4vw, 64px);
+	}
+
+	/* Subtítulo pequeno abaixo do título da hero. */
+	.hero-subtitle {
+		margin-top: 12px;
+		margin-bottom: 0;
+		font-size: clamp(0.95rem, 1.2vw, 1.125rem);
+		font-weight: 400;
+		color: rgba(255, 255, 255, 0.9);
 	}
 </style>

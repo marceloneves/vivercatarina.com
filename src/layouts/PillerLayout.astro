@@ -116,6 +116,13 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 				vertical-align: -2px;
 			}
 
+			/* Mais respiro nas laterais do rodapé para o conteúdo
+			   não ficar colado nas extremidades. */
+			.footer-wrapper .container {
+				padding-left: clamp(20px, 4vw, 72px);
+				padding-right: clamp(20px, 4vw, 72px);
+			}
+
 			.footer-cities-section {
 				padding: 2.25rem 0 4rem;
 				border-top: 1px solid rgba(255, 255, 255, 0.12);
@@ -140,7 +147,7 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 
 			.footer-cities-regions {
 				display: grid;
-				grid-template-columns: repeat(6, minmax(0, 1fr));
+				grid-template-columns: repeat(5, minmax(0, 1fr));
 				gap: 1.25rem 1rem;
 				align-items: start;
 			}
@@ -155,7 +162,7 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 			@media (min-width: 1200px) {
 				.footer-all-widget-wrapper {
 					display: grid;
-					grid-template-columns: repeat(6, minmax(0, 1fr));
+					grid-template-columns: repeat(5, minmax(0, 1fr));
 					gap: 1.25rem 1rem;
 					align-items: start;
 				}
