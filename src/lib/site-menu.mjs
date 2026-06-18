@@ -1,4 +1,8 @@
+import { buildCitiesMenuHtml } from './footer-cities.mjs';
 import { patchHeaderSocial } from './site-social.mjs';
+
+const CITIES_MENU_PATTERN =
+	/<li class="menu-item-has-children">\s*<a href="#">Outras cidades<\/a>[\s\S]*?<\/li>\s*(?=<li(?: class="[^"]*")?><a href="\/(?:blog|contact)")/g;
 
 const BAIRROS_SUBMENU_PATTERN =
 	/<li class="[^"]*\bmenu-item-has-children\b[^"]*">\s*<a href="\/bairros">Bairros<\/a>\s*<ul class="sub-menu">[\s\S]*?<\/ul>\s*<\/li>\s*/g;
@@ -45,6 +49,14 @@ function removeBlogMenuItems(html) {
 	return html.replace(BLOG_MENU_ITEM_PATTERN, '');
 }
 
+function rebuildCitiesMenu(html) {
+	if (!html || !html.includes('Outras cidades')) {
+		return html;
+	}
+
+	return html.replace(CITIES_MENU_PATTERN, `${buildCitiesMenuHtml()}\n                                    `);
+}
+
 function isHomePath(currentPath) {
 	const path = String(currentPath || '/').split('?')[0];
 	return path === '/' || path === '/index.html';
@@ -63,7 +75,9 @@ export function patchListingHeaderBranding(html) {
 
 export function patchSiteMenu(html, currentPath = '/') {
 	let output = patchHeaderSocial(
-		removeBlogMenuItems(removeMainMenuLancamentosAndBairros(removeHeaderAddListingButton(html))),
+		rebuildCitiesMenu(
+			removeBlogMenuItems(removeMainMenuLancamentosAndBairros(removeHeaderAddListingButton(html))),
+		),
 	);
 
 	output = output.replace(/Outras cidades/g, 'Cidades');

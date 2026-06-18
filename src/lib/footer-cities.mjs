@@ -51,6 +51,34 @@ ${regionsHtml}
 `;
 }
 
+export function buildCitiesMenuHtml() {
+	const regions = listFooterCitiesByRegion();
+	const regionsHtml = regions
+		.map(({ region, cities }) => {
+			const items = cities
+				.map(
+					({ name, href }) =>
+						`<li><a href="${href}" target="_blank" rel="noopener noreferrer">${name}</a></li>`,
+				)
+				.join('\n                                                    ');
+
+			return `                                                <li class="menu-item-has-children">
+                                                    <a href="#">${region}</a>
+                                                    <ul class="sub-menu">
+                                                    ${items}
+                                                    </ul>
+                                                </li>`;
+		})
+		.join('\n');
+
+	return `<li class="menu-item-has-children">
+                                        <a href="#">Cidades</a>
+                                        <ul class="sub-menu">
+${regionsHtml}
+                                        </ul>
+                                    </li>`;
+}
+
 export function listFooterCitiesByRegion() {
 	const regions = JSON.parse(readFileSync(dataPath, 'utf8'));
 

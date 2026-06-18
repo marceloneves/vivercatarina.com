@@ -135,6 +135,28 @@ const isListing = variant === 'listing';
 		height: auto;
 	}
 
+	/* Escurece a base da imagem onde fica o nome da cidade,
+	   melhorando a legibilidade do texto branco sobre fotos claras. */
+	.home-bairros-section .gallery-img::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(
+			to top,
+			rgba(0, 0, 0, 0.78) 0%,
+			rgba(0, 0, 0, 0.5) 28%,
+			rgba(0, 0, 0, 0) 58%
+		);
+		z-index: 1;
+		pointer-events: none;
+		transition: opacity 0.4s ease;
+	}
+
+	.home-bairros-section .gallery-card-link:hover .gallery-img::after,
+	.home-bairros-section .gallery-card-link:focus-visible .gallery-img::after {
+		opacity: 0.88;
+	}
+
 	.home-bairros-section .gallery-img img {
 		position: absolute;
 		inset: 0;
