@@ -146,13 +146,24 @@ const isListing = variant === 'listing';
 		height: 100%;
 	}
 
-	/* Aproxima o nome da cidade da base do card (texto mais para baixo). */
+	/* Faixa preta apenas atrás do nome da cidade, na base do card. */
 	.home-bairros-section .gallery-content {
-		bottom: 4px;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		transform: none;
+		border-radius: 0;
+		background-color: rgba(0, 0, 0, 0.9);
 	}
 
 	.home-bairros-section .gallery-content-wrapper {
-		padding-bottom: 8px;
+		padding: 12px 16px;
+	}
+
+	/* Nome da cidade menor dentro da faixa. */
+	.home-bairros-section .gallery-content .box-title {
+		font-size: 18px;
 	}
 
 	.home-bairros-section .gallery-card-link {
@@ -169,29 +180,6 @@ const isListing = variant === 'listing';
 		width: 100%;
 		max-height: none;
 		height: auto;
-	}
-
-	/* Escurece a base da imagem onde fica o nome da cidade,
-	   melhorando a legibilidade do texto branco sobre fotos claras. */
-	.home-bairros-section .gallery-img::after {
-		content: '';
-		position: absolute;
-		inset: 0;
-		border-radius: inherit;
-		background: linear-gradient(
-			to top,
-			rgba(0, 0, 0, 0.92) 0%,
-			rgba(0, 0, 0, 0.55) 24%,
-			rgba(0, 0, 0, 0) 50%
-		);
-		z-index: 1;
-		pointer-events: none;
-		transition: opacity 0.4s ease;
-	}
-
-	.home-bairros-section .gallery-card-link:hover .gallery-img::after,
-	.home-bairros-section .gallery-card-link:focus-visible .gallery-img::after {
-		opacity: 0.88;
 	}
 
 	.home-bairros-section .gallery-img img {
