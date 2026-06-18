@@ -1,5 +1,4 @@
 ---
-import { HOME_HEADLINE_HIGHLIGHT, HOME_HEADLINE_PREFIX } from '../lib/home-page.mjs';
 
 const { neighborhoods, cityRegions = [], variant = 'home' } = Astro.props;
 const isListing = variant === 'listing';
@@ -69,8 +68,8 @@ const isListing = variant === 'listing';
 								Imóveis na planta
 							</p>
 							<h2 class="sec-title mb-2 home-headline" id="home-bairros-title">
-								{HOME_HEADLINE_PREFIX}{' '}
-								<span class="title2 text-theme">{HOME_HEADLINE_HIGHLIGHT}</span>
+								Encontre seu Imóvel em{' '}
+								<span class="title2 text-theme">Santa Catarina</span>
 							</h2>
 							<p class="box-text">
 								Encontre lançamentos imobiliários nas principais cidades de Santa Catarina
