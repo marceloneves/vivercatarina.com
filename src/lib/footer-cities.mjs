@@ -1,10 +1,21 @@
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { getHomeHeroBackgroundUrl } from './home-page.mjs';
 import { slugifyText } from './property-slug.mjs';
 
 const dataPath = join(process.cwd(), 'src/data/footer-cities-by-region.json');
 const CITY_PORTAL_DOMAIN = 'vivercatarina.com';
+const CITY_IMAGES_DIR = join(process.cwd(), 'public/assets/img/cities');
+
+function getCityImageUrl(subdomain, fallbackUrl) {
+	const relativePath = `/assets/img/cities/${subdomain}.webp`;
+
+	if (existsSync(join(CITY_IMAGES_DIR, `${subdomain}.webp`))) {
+		return relativePath;
+	}
+
+	return fallbackUrl;
+}
 
 export function buildCityPortalUrl(cityName) {
 	const subdomain = slugifyText(cityName).replace(/-/g, '');
@@ -95,11 +106,13 @@ export function loadHomeCityCards() {
 
 	for (const { region, cities } of regions) {
 		for (const city of cities) {
+			const subdomain = city.subdomain || slugifyText(city.name).replace(/-/g, '');
+
 			cards.push({
 				name: city.name,
 				href: city.href,
 				region,
-				imageUrl: heroImageUrl,
+				imageUrl: getCityImageUrl(subdomain, heroImageUrl),
 			});
 		}
 	}

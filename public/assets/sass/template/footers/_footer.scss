@@ -540,7 +540,7 @@
 
 .footer-all-widget-wrapper {
     display: grid;
-    grid-template-columns: minmax(240px, 0.9fr) minmax(0, 2.1fr);
+    grid-template-columns: minmax(240px, 1fr) minmax(0, 3fr);
     gap: 20px;
 
     @include lg {
@@ -562,7 +562,7 @@
 
         .footer-item-wrap {
             display: grid;
-            grid-template-columns: repeat(4, minmax(0, 1fr));
+            grid-template-columns: repeat(3, minmax(0, 1fr));
             gap: clamp(20px, 2.2vw, 32px);
 
             .footer-item {
