@@ -34,14 +34,20 @@ const heroBackgroundUrl = getHomeHeroBackgroundUrl();
 		white-space: nowrap;
 	}
 
-	/* Aumenta a margem esquerda do texto da hero. */
+	/* Aumenta a margem esquerda do texto da hero e dá respiro no topo. */
 	.hero-1-content {
 		padding-left: clamp(16px, 4vw, 64px);
+		padding-top: clamp(24px, 5vw, 72px);
+	}
+
+	/* Reduz o espaço entre o título e o subtítulo. */
+	.hero-title {
+		margin-bottom: 0;
 	}
 
 	/* Subtítulo pequeno abaixo do título da hero. */
 	.hero-subtitle {
-		margin-top: 12px;
+		margin-top: 14px;
 		margin-bottom: 0;
 		font-size: clamp(0.95rem, 1.2vw, 1.125rem);
 		font-weight: 400;

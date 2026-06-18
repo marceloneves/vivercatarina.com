@@ -115,6 +115,12 @@ const isListing = variant === 'listing';
 }
 
 <style>
+	/* Mais respiro nas laterais da seção de cards de cidades na home. */
+	.home-bairros-section .container {
+		padding-left: clamp(16px, 4vw, 72px);
+		padding-right: clamp(16px, 4vw, 72px);
+	}
+
 	.home-bairros-section .gallery-card {
 		height: 100%;
 	}
