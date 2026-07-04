@@ -132,6 +132,14 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 		<meta name="msapplication-TileImage" content="/assets/img/favicons/ms-icon-144x144.png" />
 		<meta name="theme-color" content="#FFAF00" />
 
+		{isHomePage && (
+			<link
+				rel="preload"
+				as="image"
+				href="/assets/img/hero/vivercatarina-florianopolis.webp"
+				fetchpriority="high"
+			/>
+		)}
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -1001,6 +1009,19 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 				window.WOW = function () {
 					return { init: function () {} };
 				};
+				// Plugins jQuery não carregados em disableEffects: stub no-op para
+				// evitar "X is not a function" no console (main.js os invoca).
+				if (window.jQuery) {
+					['magnificPopup', 'counterUp', 'tilt', 'isotope', 'imagesLoaded'].forEach(
+						function (fn) {
+							if (!window.jQuery.fn[fn]) {
+								window.jQuery.fn[fn] = function () {
+									return this;
+								};
+							}
+						},
+					);
+				}
 			</script>
 		)}
 		<script is:inline>
