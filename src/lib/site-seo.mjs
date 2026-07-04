@@ -202,7 +202,7 @@ function inferSeoFromPath(path, title = '') {
 		};
 	}
 
-	if (path === '/contact') {
+	if (path === '/contato') {
 		return {
 			title: 'Contato',
 			description: buildMetaDescription(

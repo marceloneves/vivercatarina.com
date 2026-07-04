@@ -10,7 +10,7 @@ Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
 
 - [Início](https://vivercatarina.com/): hub com as cidades de Santa Catarina
 - [Quem Somos](https://vivercatarina.com/quem-somos): missão, diferenciais e contato
-- [Contato](https://vivercatarina.com/contact): formulário e informações de contato
+- [Contato](https://vivercatarina.com/contato): formulário e informações de contato
 
 ## Cidades
 

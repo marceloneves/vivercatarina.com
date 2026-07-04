@@ -26,7 +26,7 @@ export function getPagesSitemapEntries() {
 	return [
 		buildSitemapEntry('/', { changefreq: 'daily', priority: '1.0' }),
 		buildSitemapEntry('/quem-somos', { changefreq: 'monthly', priority: '0.7' }),
-		buildSitemapEntry('/contact', { changefreq: 'monthly', priority: '0.6' }),
+		buildSitemapEntry('/contato', { changefreq: 'monthly', priority: '0.6' }),
 		buildSitemapEntry('/privacidade', { changefreq: 'yearly', priority: '0.3' }),
 		buildSitemapEntry('/termos', { changefreq: 'yearly', priority: '0.3' }),
 		buildSitemapEntry('/politica-de-cookies', { changefreq: 'yearly', priority: '0.3' }),
@@ -115,7 +115,7 @@ Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
 
 - [Início](${SITE_URL}/): hub com as cidades de Santa Catarina
 - [Quem Somos](${SITE_URL}/quem-somos): missão, diferenciais e contato
-- [Contato](${SITE_URL}/contact): formulário e informações de contato
+- [Contato](${SITE_URL}/contato): formulário e informações de contato
 
 ## Cidades
 

@@ -5,16 +5,16 @@ import { applySemanticHtml } from '../lib/semantic-html.mjs';
 import { patchSiteMenu } from '../lib/site-menu.mjs';
 import { resolvePageSeo } from '../lib/site-seo.mjs';
 
-const seo = resolvePageSeo({ title: 'Contato', pathname: '/contact' });
+const seo = resolvePageSeo({ title: 'Contato', pathname: '/contato' });
 const bodyClass = '';
-const html = patchSiteMenu(applySemanticHtml(bodyHtml), '/contact');
+const html = patchSiteMenu(applySemanticHtml(bodyHtml), '/contato');
 ---
 
 <PillerLayout
 	title={seo.title}
 	description={seo.description}
 	keywords={seo.keywords}
-	canonicalPath="/contact"
+	canonicalPath="/contato"
 	bodyClass={bodyClass}
 	stylesheets={['/css/internal-links.css']}
 >
