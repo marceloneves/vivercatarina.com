@@ -163,7 +163,6 @@ export function buildPropertyRealEstateListingJsonLd({
 		floorSize: buildFloorSize(property),
 		numberOfBedrooms: bedrooms ?? undefined,
 		numberOfBathroomsTotal: bathrooms ?? undefined,
-		numberOfRooms: bedrooms ?? undefined,
 		amenityFeature: buildAmenityFeatures(property),
 		offers: buildOffer({ property, listingUrl, siteUrl }),
 		additionalProperty: compactObject([
@@ -184,8 +183,23 @@ export function buildPropertyRealEstateListingJsonLd({
 		]),
 	});
 
+	const breadcrumb = {
+		'@type': 'BreadcrumbList',
+		'@id': `${listingUrl}#breadcrumb`,
+		itemListElement: [
+			{ '@type': 'ListItem', position: 1, name: 'Início', item: `${siteUrl}/` },
+			{
+				'@type': 'ListItem',
+				position: 2,
+				name: 'Lançamentos',
+				item: new URL('/lancamentos', siteUrl).href,
+			},
+			{ '@type': 'ListItem', position: 3, name: displayTitle, item: listingUrl },
+		],
+	};
+
 	return compactObject({
 		'@context': 'https://schema.org',
-		'@graph': [listing],
+		'@graph': [listing, breadcrumb],
 	});
 }

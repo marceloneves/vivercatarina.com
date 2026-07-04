@@ -18,18 +18,18 @@
 
 # ==========================================================
 # H6 — Security headers
+# Sem guard <IfModule mod_headers.c>: o LiteSpeed suporta a diretiva Header mas
+# nem sempre satisfaz o teste do nome de módulo Apache, o que fazia o bloco ser
+# pulado silenciosamente. Diretivas diretas.
 # ==========================================================
-<IfModule mod_headers.c>
-	# HSTS: força HTTPS por 1 ano em todos os subdomínios.
-	# "preload" omitido de propósito (commitment quase irreversível — submeter
-	# manualmente à lista de preload só depois de validar todos os subdomínios).
-	Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
-
-	Header always set X-Content-Type-Options "nosniff"
-	Header always set Referrer-Policy "strict-origin-when-cross-origin"
-	Header always set X-Frame-Options "SAMEORIGIN"
-	Header always set Permissions-Policy "geolocation=(), camera=(), microphone=()"
-	# CSP deixado de fora: o site usa scripts inline (is:inline), Google Fonts,
-	# Google Maps iframe e WhatsApp — uma CSP restritiva quebraria isso. Definir
-	# depois, com testes, uma política com allowlist explícita.
-</IfModule>
+# HSTS: força HTTPS por 1 ano em todos os subdomínios.
+# "preload" omitido de propósito (commitment quase irreversível — submeter
+# manualmente à lista de preload só depois de validar todos os subdomínios).
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set Permissions-Policy "geolocation=(), camera=(), microphone=()"
+# CSP deixado de fora: o site usa scripts inline (is:inline), Google Fonts,
+# Google Maps iframe e WhatsApp — uma CSP restritiva quebraria isso. Definir
+# depois, com testes, uma política com allowlist explícita.

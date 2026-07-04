@@ -3,6 +3,7 @@ import PillerLayout from '../layouts/PillerLayout.astro';
 import BairroIntroSection from './BairroIntroSection.astro';
 import PropertyListingTabs from './PropertyListingTabs.astro';
 import { buildBairroPageContext } from '../lib/bairro-page.mjs';
+import { SITE_URL } from '../lib/site-contact.mjs';
 
 const { slug, page } = Astro.props;
 const context = buildBairroPageContext(slug, page);
@@ -12,6 +13,21 @@ if (!context) {
 }
 
 const hasProperties = context.allProperties.length > 0;
+
+const breadcrumbJsonLd = {
+	'@context': 'https://schema.org',
+	'@type': 'BreadcrumbList',
+	itemListElement: [
+		{ '@type': 'ListItem', position: 1, name: 'Início', item: `${SITE_URL}/` },
+		{ '@type': 'ListItem', position: 2, name: 'Bairros', item: new URL('/bairros', SITE_URL).href },
+		{
+			'@type': 'ListItem',
+			position: 3,
+			name: context.listing.name,
+			item: new URL(context.seo.canonicalPath, SITE_URL).href,
+		},
+	],
+};
 ---
 
 <PillerLayout
@@ -22,6 +38,9 @@ const hasProperties = context.allProperties.length > 0;
 	bodyClass="bairro-listing"
 	disableEffects
 >
+	<Fragment slot="head">
+		<script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+	</Fragment>
 	<Fragment set:html={context.shellBefore} />
 	<BairroIntroSection
 		name={context.listing.name}
