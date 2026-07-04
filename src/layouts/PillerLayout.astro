@@ -10,6 +10,15 @@ import {
 } from '../lib/site-contact.mjs';
 import { resolvePageSeo } from '../lib/site-seo.mjs';
 import fs from 'node:fs';
+import crypto from 'node:crypto';
+
+// Versão (hash do conteúdo) para cache-bust do hub.js: quando o arquivo
+// muda, a URL muda e o navegador/CDN busca a versão nova em vez do cache.
+const hubJsVersion = crypto
+	.createHash('sha1')
+	.update(fs.readFileSync('public/assets/js/hub.js'))
+	.digest('hex')
+	.slice(0, 8);
 
 // Inline do CSS base (bootstrap + tema) para eliminar 2 requests
 // render-blocking no carregamento inicial. Ordem preservada: bootstrap
@@ -185,6 +194,6 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 
 		{/* Hub simples: só JS vanilla (menu, sticky, acordeão). Sem jQuery,
 		   bootstrap.js, swiper, gsap etc. — o hub não usa nada disso. */}
-		<script is:inline defer src="/assets/js/hub.js"></script>
+		<script is:inline defer src={`/assets/js/hub.js?v=${hubJsVersion}`}></script>
 	</body>
 </html>
