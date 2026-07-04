@@ -1,38 +1,12 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
 import TermsOfUseContent from '../components/TermsOfUseContent.astro';
-import bodyHtml from '../content/template-pages/faq.html?raw';
-import { applySemanticHtml, wrapSplitPageContent } from '../lib/semantic-html.mjs';
-import { patchSiteMenu } from '../lib/site-menu.mjs';
-import { resolvePageSeo } from '../lib/site-seo.mjs';
-
-const seo = resolvePageSeo({
-	title: 'Termos de Uso',
-	pathname: '/termos',
-	description:
-		'Termos de Uso do portal Viver Catarina: natureza do serviço, caráter informativo do conteúdo, propriedade intelectual e responsabilidades.',
-});
-
-const breadcrumbStart = bodyHtml.indexOf('<!--==============================\n    Breadcumb');
-const footerStart = bodyHtml.indexOf('<!--==============================\n\tFooter Area');
-
-if (breadcrumbStart === -1 || footerStart === -1) {
-	throw new Error('Não foi possível montar a página de termos a partir do template.');
-}
-
-const shell = wrapSplitPageContent(
-	patchSiteMenu(applySemanticHtml(bodyHtml.slice(0, breadcrumbStart)), '/termos'),
-	applySemanticHtml(bodyHtml.slice(footerStart)),
-);
 ---
 
-<PillerLayout
-	title="Termos de Uso"
-	description={seo.description}
-	canonicalPath="/termos"
-	stylesheets={['/css/internal-links.css']}
->
-	<Fragment set:html={shell.before} />
+<PillerLayout title="Termos de Uso" description="Termos de Uso do portal Viver Catarina: natureza do serviço, caráter informativo do conteúdo, propriedade intelectual e responsabilidades." canonicalPath="/termos" stylesheets={['/css/internal-links.css']} disableEffects>
+	<SiteHeader />
 	<TermsOfUseContent />
-	<Fragment set:html={shell.after} />
+	<SiteFooter />
 </PillerLayout>
