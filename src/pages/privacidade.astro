@@ -1,17 +1,38 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
-import SiteHeader from '../components/SiteHeader.astro';
-import SiteFooter from '../components/SiteFooter.astro';
 import PrivacyPolicyContent from '../components/PrivacyPolicyContent.astro';
+import bodyHtml from '../content/template-pages/faq.html?raw';
+import { applySemanticHtml, wrapSplitPageContent } from '../lib/semantic-html.mjs';
+import { patchSiteMenu } from '../lib/site-menu.mjs';
+import { resolvePageSeo } from '../lib/site-seo.mjs';
+
+const seo = resolvePageSeo({
+	title: 'Política de Privacidade',
+	pathname: '/privacidade',
+	description:
+		'Como o portal Viver Catarina trata seus dados pessoais conforme a LGPD: dados coletados, finalidade, compartilhamento e seus direitos.',
+});
+
+const breadcrumbStart = bodyHtml.indexOf('<!--==============================\n    Breadcumb');
+const footerStart = bodyHtml.indexOf('<!--==============================\n\tFooter Area');
+
+if (breadcrumbStart === -1 || footerStart === -1) {
+	throw new Error('Não foi possível montar a página de privacidade a partir do template.');
+}
+
+const shell = wrapSplitPageContent(
+	patchSiteMenu(applySemanticHtml(bodyHtml.slice(0, breadcrumbStart)), '/privacidade'),
+	applySemanticHtml(bodyHtml.slice(footerStart)),
+);
 ---
 
 <PillerLayout
 	title="Política de Privacidade"
-	description="Como o portal Viver Catarina trata seus dados pessoais conforme a LGPD: dados coletados, finalidade, compartilhamento e seus direitos."
+	description={seo.description}
 	canonicalPath="/privacidade"
 	stylesheets={['/css/internal-links.css']}
 >
-	<SiteHeader />
+	<Fragment set:html={shell.before} />
 	<PrivacyPolicyContent />
-	<SiteFooter />
+	<Fragment set:html={shell.after} />
 </PillerLayout>

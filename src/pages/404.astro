@@ -1,23 +1,13 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
-import SiteHeader from '../components/SiteHeader.astro';
-import SiteFooter from '../components/SiteFooter.astro';
+import bodyHtml from '../content/template-pages/error.html?raw';
+import { applySemanticHtml } from '../lib/semantic-html.mjs';
+
+const title = 'Página não encontrada';
+const bodyClass = "";
+const html = applySemanticHtml(bodyHtml);
 ---
 
-<PillerLayout title="Página não encontrada" noindex>
-	<SiteHeader />
-	<section class="bg-smoke space">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-7 text-center">
-					<div class="error-content">
-						<h1 class="error-title">Erro 404</h1>
-						<p class="error-text">A página que você procura não existe ou foi movida.</p>
-						<a href="/" class="th-btn">Voltar ao início</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<SiteFooter />
+<PillerLayout title={title} bodyClass={bodyClass}>
+	<Fragment set:html={html} />
 </PillerLayout>

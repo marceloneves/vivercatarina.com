@@ -1,25 +1,27 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
-import SiteHeader from '../components/SiteHeader.astro';
-import SiteFooter from '../components/SiteFooter.astro';
 import HomeBairrosSection from '../components/HomeBairrosSection.astro';
 import HomeFaqSection from '../components/HomeFaqSection.astro';
 import HomeHeroSection from '../components/HomeHeroSection.astro';
 import { buildHomeFaqSchema, getHomeFaqItems } from '../lib/home-faq.mjs';
+import { getHomePageShell } from '../lib/home-page.mjs';
 import { loadHomeCityCardsByRegion } from '../lib/footer-cities.mjs';
 
+const title = 'Início';
+const bodyClass = 'home-page';
+const shell = getHomePageShell();
 const cityRegions = loadHomeCityCardsByRegion();
 const homeFaqItems = getHomeFaqItems();
 const homeFaqSchema = buildHomeFaqSchema();
 ---
 
-<PillerLayout title="Início" bodyClass="home-page" disableEffects>
+<PillerLayout title={title} bodyClass={bodyClass} disableEffects>
 	<Fragment slot="head">
 		<script type="application/ld+json" set:html={JSON.stringify(homeFaqSchema)} />
 	</Fragment>
-	<SiteHeader />
+	<Fragment set:html={shell.before} />
 	<HomeHeroSection />
 	<HomeBairrosSection cityRegions={cityRegions} />
 	<HomeFaqSection items={homeFaqItems} />
-	<SiteFooter />
+	<Fragment set:html={shell.after} />
 </PillerLayout>
