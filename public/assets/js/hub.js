@@ -4,6 +4,20 @@
 	'use strict';
 	var body = document.body;
 
+	/* ---------- Item de menu ativo pela URL atual ---------- */
+	var here = location.pathname.replace(/\/+$/, '') || '/';
+	document.querySelectorAll('.main-menu a[href], .th-mobile-menu a[href]').forEach(function (a) {
+		var href = a.getAttribute('href');
+		if (!href || href.charAt(0) !== '/') return; // ignora '#' e links externos
+		var target = href.replace(/\/+$/, '') || '/';
+		if (target === here) {
+			var li = a.closest('li');
+			if (li) {
+				li.classList.add('active');
+			}
+		}
+	});
+
 	/* ---------- Menu mobile ---------- */
 	document.querySelectorAll('.th-menu-toggle').forEach(function (btn) {
 		btn.addEventListener('click', function () {
