@@ -140,7 +140,14 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 		/>
 
 		<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="/assets/css/fontawesome.min.css" />
+		{/* FontAwesome não é crítico para o render inicial: carrega sem bloquear. */}
+		<link
+			rel="stylesheet"
+			href="/assets/css/fontawesome.min.css"
+			media="print"
+			onload="this.media='all'"
+		/>
+		<noscript><link rel="stylesheet" href="/assets/css/fontawesome.min.css" /></noscript>
 		{!disableEffects && <link rel="stylesheet" href="/assets/css/magnific-popup.min.css" />}
 		{!disableEffects && <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />}
 		<link rel="stylesheet" href="/assets/css/style.css" />
