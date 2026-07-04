@@ -555,3 +555,7 @@
 .th-social{display:inline-flex;align-items:center;gap:.5rem}
 .th-social a{display:inline-flex;align-items:center;justify-content:center;min-width:24px;min-height:24px}
 .footer-links a,.footer-widget .footer-info a,.footer-contact-widget a{display:inline-flex;align-items:center;min-height:24px}
+/* Mobile: hamburger à esquerda, logo à direita (o mx-auto jogava o botão pro meio). */
+@media(max-width:991.98px){
+	.menu-area .row > .col-auto.mx-auto{order:-1;margin:0!important}
+}

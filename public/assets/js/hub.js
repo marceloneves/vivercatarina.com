@@ -19,9 +19,14 @@
 	});
 
 	/* ---------- Menu mobile ---------- */
+	/* A CSS mostra o offcanvas via `.th-menu-wrapper.th-body-visible`,
+	   então a classe precisa ir no wrapper (não no body). */
+	var menuWrapper = document.querySelector('.th-menu-wrapper');
 	document.querySelectorAll('.th-menu-toggle').forEach(function (btn) {
 		btn.addEventListener('click', function () {
-			body.classList.toggle('th-body-visible');
+			if (menuWrapper) {
+				menuWrapper.classList.toggle('th-body-visible');
+			}
 		});
 	});
 
