@@ -27,3 +27,6 @@ data/whatsapp-leads.json
 # jetbrains setting folder
 .idea/
 .vercel
+
+# graphify build output
+graphify-out/
