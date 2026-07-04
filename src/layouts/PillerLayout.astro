@@ -16,7 +16,9 @@ import fs from 'node:fs';
 // primeiro, tema depois (tema sobrescreve bootstrap).
 const inlineBaseCss = ['public/assets/css/bootstrap.min.css', 'public/assets/css/style.css']
 	.map((path) => fs.readFileSync(path, 'utf-8'))
-	.join('\n');
+	.join('\n')
+	// @charset só é válido em folha externa; ao inline no <style> quebra a validação.
+	.replace(/@charset\s+"[^"]*";/gi, '');
 
 // Organization + WebSite sitewide. Resolve os @id (#organization / #website)
 // referenciados por páginas como quem-somos. sameAs vazio até haver perfis
