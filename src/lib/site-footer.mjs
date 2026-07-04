@@ -24,7 +24,7 @@ const FOOTER_COPYRIGHT_TEXT_HTML =
 const FOOTER_COPYRIGHT_EMAIL_HTML = `<p class="copyright-email"><a href="mailto:${SITE_EMAIL}">${SITE_EMAIL}</a></p>`;
 
 const FOOTER_CONTACT_COLUMN_HTML = `                                <div class="footer-item">
-                                    <div class="widget footer-widget footer-contact-widget" aria-labelledby="footer-nav-contato">
+                                    <div class="widget footer-widget footer-contact-widget" role="group" aria-labelledby="footer-nav-contato">
                                         <h3 class="widget_title" id="footer-nav-contato">Contato</h3>
                                         <address class="footer-info-wrap">
                                             <div class="footer-info">
