@@ -545,3 +545,8 @@
 /* Títulos dos menus do rodapé (Institucional/Legal e Transparência/Contato) no mesmo tamanho do título de região (Grande Florianópolis). */
 .footer-widget.widget_nav_menu .widget_title,
 .footer-contact-widget .widget_title{font-size:1.0625rem!important}
+.legal-content h2{font-size:1.6rem;line-height:1.3;margin-top:2.25rem;margin-bottom:.75rem}
+.legal-content h3{font-size:1.2rem;line-height:1.35;margin-top:1.5rem;margin-bottom:.5rem}
+.legal-content ul{margin-bottom:1rem}
+.legal-content p{margin-bottom:1rem}
+@media(max-width:575px){.legal-content h2{font-size:1.4rem}.legal-content h3{font-size:1.1rem}}
