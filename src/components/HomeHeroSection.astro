@@ -37,6 +37,18 @@ const heroBackgroundUrl = getHomeHeroBackgroundUrl();
 		white-space: nowrap;
 	}
 
+	/* Overlay mais escuro atrás do texto para o amarelo passar no contraste
+	   (WCAG), mantendo a foto visível à direita. */
+	.hero-1 .hero-style1::before {
+		background: linear-gradient(
+			90deg,
+			rgba(3, 6, 14, 0.92),
+			rgba(3, 6, 14, 0.45) 55%,
+			transparent
+		);
+		opacity: 1;
+	}
+
 	/* Aumenta a margem esquerda do texto da hero e dá respiro no topo. */
 	.hero-1-content {
 		padding-left: clamp(16px, 4vw, 64px);
