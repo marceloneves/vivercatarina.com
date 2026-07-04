@@ -1,8 +1,44 @@
 ---
 import WhatsAppFloat from '../components/WhatsAppFloat.astro';
 import WhatsAppLeadGate from '../components/WhatsAppLeadGate.astro';
-import { SITE_NAME } from '../lib/site-contact.mjs';
+import {
+	SITE_NAME,
+	SITE_URL,
+	SITE_EMAIL,
+	SITE_WHATSAPP_NUMBER,
+} from '../lib/site-contact.mjs';
 import { resolvePageSeo } from '../lib/site-seo.mjs';
+
+// Organization + WebSite sitewide. Resolve os @id (#organization / #website)
+// referenciados por páginas como quem-somos. sameAs vazio até haver perfis
+// sociais reais (evitar apontar para placeholders).
+const organizationSchema = {
+	'@context': 'https://schema.org',
+	'@graph': [
+		{
+			'@type': 'Organization',
+			'@id': `${SITE_URL}/#organization`,
+			name: SITE_NAME,
+			url: SITE_URL,
+			logo: `${SITE_URL}/assets/img/logo.svg`,
+			email: SITE_EMAIL,
+			telephone: `+${SITE_WHATSAPP_NUMBER}`,
+			areaServed: 'Santa Catarina, BR',
+			sameAs: [
+				'https://www.instagram.com/vivercatarina',
+				'https://www.facebook.com/vivercatarina',
+			],
+		},
+		{
+			'@type': 'WebSite',
+			'@id': `${SITE_URL}/#website`,
+			url: SITE_URL,
+			name: SITE_NAME,
+			inLanguage: 'pt-BR',
+			publisher: { '@id': `${SITE_URL}/#organization` },
+		},
+	],
+};
 
 interface Props {
 	title: string;
@@ -923,6 +959,7 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 				}
 			</style>
 		)}
+		<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
 		<slot name="head" />
 	</head>
 	<body class={resolvedBodyClass}>

@@ -18700,7 +18700,7 @@ span.select2-selection.select2-selection--single:focus {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  border-radius: 16px;
+  border-radius: 0;
   background-color: var(--smoke-color);
   /* Small devices */
   /* Extra small devices */
@@ -18821,6 +18821,17 @@ span.select2-selection.select2-selection--single:focus {
 
 .contact-form-area {
   margin-top: 60px;
+  margin-bottom: 80px;
+}
+.contact-form-area .form-control,
+.contact-form-area .th-btn,
+.contact-form-area .th-btn:before,
+.contact-form-area .th-btn:after {
+  border-radius: 0 !important;
+}
+.home-faq-section .accordion-card,
+.home-faq-section .accordion-button {
+  border-radius: 0 !important;
 }
 
 .contact-all-wrapper {
@@ -18829,7 +18840,7 @@ span.select2-selection.select2-selection--single:focus {
   display: flex;
   background: var(--smoke-color);
   overflow: hidden;
-  border-radius: 24px 0 0 24px;
+  border-radius: 0;
   /* Medium devices */
 }
 @media (max-width: 991px) {

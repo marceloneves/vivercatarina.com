@@ -69,7 +69,7 @@ const isListing = variant === 'listing';
 							</p>
 							<h2 class="sec-title mb-2 home-headline" id="home-bairros-title">
 								Encontre seu Imóvel em{' '}
-								<span class="title2 text-theme">Santa Catarina</span>
+								<span class="title2 text-theme home-headline-italic">Santa Catarina</span>
 							</h2>
 							<p class="box-text">
 								Encontre lançamentos imobiliários nas principais cidades de Santa Catarina
@@ -124,6 +124,11 @@ const isListing = variant === 'listing';
 	/* Títulos de cada região (segmentação dos cards de cidade). */
 	.home-bairros-section .home-region-group + .home-region-group {
 		margin-top: 2.75rem;
+	}
+
+	/* "Santa Catarina" em itálico no título da seção. */
+	.home-bairros-section .home-headline-italic {
+		font-style: italic;
 	}
 
 	.home-bairros-section .home-region-title {
@@ -190,6 +195,12 @@ const isListing = variant === 'listing';
 		width: 100%;
 		max-height: none;
 		height: auto;
+		border-radius: 0;
+	}
+
+	/* Cards de cidade sem cantos arredondados. */
+	.home-bairros-section .gallery-img img {
+		border-radius: 0;
 	}
 
 	/* Remove o escurecimento global da imagem; só a faixa do nome fica escura. */

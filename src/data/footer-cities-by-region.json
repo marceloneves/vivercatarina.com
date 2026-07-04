@@ -22,7 +22,7 @@
 	{
 		"region": "Vale do Itajaí e Litoral",
 		"cities": [
-			{ "name": "Balneário Camboriú", "subdomain": "balneariocamboriu" },
+			{ "name": "Balneário Camboriú", "subdomain": "balneario" },
 			{ "name": "Itajaí", "subdomain": "itajai" },
 			{ "name": "Blumenau", "subdomain": "blumenau" },
 			{ "name": "Brusque", "subdomain": "brusque" },

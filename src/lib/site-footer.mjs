@@ -28,7 +28,7 @@ const FOOTER_CONTACT_COLUMN_HTML = `                                <div class="
                                         <h3 class="widget_title" id="footer-nav-contato">Contato</h3>
                                         <address class="footer-info-wrap">
                                             <div class="footer-info">
-                                                <i class="fas fa-phone"></i>
+                                                <i class="fab fa-whatsapp"></i>
                                                 <p class="info-box_link"><a href="tel:${SITE_PHONE_TEL}">${SITE_PHONE_DISPLAY}</a></p>
                                             </div>
                                             <div class="footer-info">

@@ -1,0 +1,35 @@
+# Servido pelo LiteSpeed em produção (não Vercel). Copiado de public/ -> dist/ no build.
+
+# ==========================================================
+# C4 — Canonicalização de host/protocolo
+# ==========================================================
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	# HTTP -> HTTPS (apex e subdomínios). LiteSpeed expõe HTTPS via %{HTTPS}.
+	RewriteCond %{HTTPS} !=on
+	RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+	# www -> apex. Só remove o prefixo "www."; não afeta subdomínios de cidade
+	# (florianopolis., balneario. etc.).
+	RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+	RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# ==========================================================
+# H6 — Security headers
+# ==========================================================
+<IfModule mod_headers.c>
+	# HSTS: força HTTPS por 1 ano em todos os subdomínios.
+	# "preload" omitido de propósito (commitment quase irreversível — submeter
+	# manualmente à lista de preload só depois de validar todos os subdomínios).
+	Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+	Header always set X-Content-Type-Options "nosniff"
+	Header always set Referrer-Policy "strict-origin-when-cross-origin"
+	Header always set X-Frame-Options "SAMEORIGIN"
+	Header always set Permissions-Policy "geolocation=(), camera=(), microphone=()"
+	# CSP deixado de fora: o site usa scripts inline (is:inline), Google Fonts,
+	# Google Maps iframe e WhatsApp — uma CSP restritiva quebraria isso. Definir
+	# depois, com testes, uma política com allowlist explícita.
+</IfModule>

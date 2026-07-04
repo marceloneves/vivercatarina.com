@@ -11,7 +11,7 @@ export const HOME_FAQ_ITEMS = [
 	{
 		question: 'Quais cidades de Santa Catarina o portal cobre?',
 		answer:
-			'Cobrimos as 25 maiores cidades de SC, organizadas em seis regiões: Grande Florianópolis, Norte Catarinense, Vale do Itajaí, Sul Catarinense, Oeste Catarinense e Serra Catarinense. Na home e no rodapé você encontra links para Florianópolis, Joinville, Blumenau, Balneário Camboriú, Criciúma, Chapecó e demais cidades atendidas.',
+			'Cobrimos as 23 maiores cidades de SC, organizadas em seis regiões: Grande Florianópolis, Norte Catarinense, Vale do Itajaí, Sul Catarinense, Oeste Catarinense e Serra Catarinense. Na home e no rodapé você encontra links para Florianópolis, Joinville, Blumenau, Balneário Camboriú, Criciúma, Chapecó e demais cidades atendidas.',
 	},
 	{
 		question: 'Que tipos de imóveis encontro no Viver Catarina?',
