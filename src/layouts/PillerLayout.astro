@@ -987,50 +987,8 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 		<WhatsAppLeadGate />
 		<WhatsAppFloat />
 
-		<script is:inline src="/assets/js/vendor/jquery-3.7.1.min.js"></script>
-		{!disableEffects && <script is:inline src="/assets/js/swiper-bundle.min.js"></script>}
-		<script is:inline src="/assets/js/bootstrap.min.js"></script>
-		{!disableEffects && <script is:inline src="/assets/js/jquery.magnific-popup.min.js"></script>}
-		{!disableEffects && <script is:inline src="/assets/js/jquery.counterup.min.js"></script>}
-		{!disableEffects && <script is:inline src="/assets/js/tilt.jquery.min.js"></script>}
-		{!disableEffects && <script is:inline src="/assets/js/imagesloaded.pkgd.min.js"></script>}
-		{!disableEffects && <script is:inline src="/assets/js/isotope.pkgd.min.js"></script>}
-		<script is:inline src="/assets/js/jquery-ui.min.js"></script>
-		{!disableEffects && <script is:inline src="/assets/js/lenis.min.js"></script>}
-		{!disableEffects && <script is:inline src="/assets/js/360.min.js"></script>}
-		{!disableEffects && <script is:inline src="/assets/js/panolens.min.js"></script>}
-		{!disableEffects && <script is:inline src="/assets/js/wow.min.js"></script>}
-		<script is:inline src="/assets/js/nice-select.min.js"></script>
-		{!disableEffects && <script is:inline src="/assets/js/gsap.min.js"></script>}
-		{!disableEffects && <script is:inline src="/assets/js/ScrollTrigger.min.js"></script>}
-		{!disableEffects && <script is:inline src="/assets/js/SplitText.min.js"></script>}
-		{disableEffects && (
-			<script is:inline>
-				window.WOW = function () {
-					return { init: function () {} };
-				};
-				// Plugins jQuery não carregados em disableEffects: stub no-op para
-				// evitar "X is not a function" no console (main.js os invoca).
-				if (window.jQuery) {
-					['magnificPopup', 'counterUp', 'tilt', 'isotope', 'imagesLoaded'].forEach(
-						function (fn) {
-							if (!window.jQuery.fn[fn]) {
-								window.jQuery.fn[fn] = function () {
-									return this;
-								};
-							}
-						},
-					);
-				}
-			</script>
-		)}
-		<script is:inline>
-			window.addEventListener('DOMContentLoaded', function () {
-				document.querySelectorAll('.color-scheme, .switchIcon').forEach(function (element) {
-					element.remove();
-				});
-			});
-		</script>
-		<script is:inline src="/assets/js/main.js"></script>
+		{/* Hub simples: só JS vanilla (menu, sticky, acordeão). Sem jQuery,
+		   bootstrap.js, swiper, gsap etc. — o hub não usa nada disso. */}
+		<script is:inline defer src="/assets/js/hub.js"></script>
 	</body>
 </html>
