@@ -8,6 +8,10 @@ export default defineConfig({
 	output: 'static',
 	adapter: vercel(),
 	site: SITE_URL,
+	build: {
+		// Inline do CSS scoped gerado pelo Astro: remove requests render-blocking.
+		inlineStylesheets: 'always',
+	},
 	redirects: {
 		'/blog': '/',
 		'/blog-details': '/',
