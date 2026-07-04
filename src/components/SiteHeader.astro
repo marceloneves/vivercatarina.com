@@ -1,0 +1,7 @@
+---
+// Cabeçalho do hub (menu, topbar, menu mobile). Markup do tema, estático.
+// O estado "active" do menu é marcado no cliente por hub.js (pathname).
+import headerHtml from '../chrome/header.html?raw';
+---
+
+<Fragment set:html={headerHtml} />

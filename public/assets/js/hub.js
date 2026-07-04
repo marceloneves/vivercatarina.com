@@ -76,6 +76,18 @@
 		});
 	});
 
+	/* Marca o item de menu ativo pela URL atual (chrome é estático). */
+	var path = location.pathname.replace(/\/+$/, '') || '/';
+	document.querySelectorAll('.main-menu a[href], .th-mobile-menu a[href]').forEach(function (a) {
+		var hp = (a.getAttribute('href') || '').replace(/\/+$/, '') || '/';
+		if (hp === path) {
+			var li = a.closest('li');
+			if (li) {
+				li.classList.add('active');
+			}
+		}
+	});
+
 	/* data-bg-src -> background-image (formas decorativas do rodapé/erro). */
 	document.querySelectorAll('[data-bg-src]').forEach(function (el) {
 		var src = el.getAttribute('data-bg-src');

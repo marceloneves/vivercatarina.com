@@ -1,10 +1,8 @@
 ---
 import PillerLayout from '../layouts/PillerLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
 import AboutPageContent from '../components/AboutPageContent.astro';
-import bodyHtml from '../content/template-pages/about.html?raw';
-import { removeBreadcrumbTitle, stripBreadcrumbHero } from '../lib/listing-breadcrumb.mjs';
-import { applySemanticHtml, wrapSplitPageContent } from '../lib/semantic-html.mjs';
-import { patchSiteMenu } from '../lib/site-menu.mjs';
 import { SITE_URL } from '../lib/site-contact.mjs';
 
 const aboutPageSchema = {
@@ -17,32 +15,19 @@ const aboutPageSchema = {
 	about: { '@id': `${SITE_URL}/#organization` },
 	isPartOf: { '@id': `${SITE_URL}/#website` },
 };
-
-const title = 'Quem Somos';
-const bodyClass = 'about-page';
-
-const aboutAreaStart = bodyHtml.indexOf('<!--==============================\nAbout Area');
-const footerStart = bodyHtml.indexOf('<!--==============================\n\tFooter Area');
-
-if (aboutAreaStart === -1 || footerStart === -1) {
-	throw new Error('Não foi possível montar a página Quem Somos a partir do template.');
-}
-
-const shell = wrapSplitPageContent(
-	stripBreadcrumbHero(
-		removeBreadcrumbTitle(
-			patchSiteMenu(applySemanticHtml(bodyHtml.slice(0, aboutAreaStart)), '/quem-somos'),
-		),
-	),
-	applySemanticHtml(bodyHtml.slice(footerStart)),
-);
 ---
 
-<PillerLayout title={title} bodyClass={bodyClass} stylesheets={['/css/internal-links.css']}>
+<PillerLayout
+	title="Quem Somos"
+	description="Como o portal Viver Catarina reúne lançamentos e imóveis na planta nas principais cidades de Santa Catarina."
+	canonicalPath="/quem-somos"
+	bodyClass="about-page"
+	stylesheets={['/css/internal-links.css']}
+>
 	<Fragment slot="head">
 		<script type="application/ld+json" set:html={JSON.stringify(aboutPageSchema)} />
 	</Fragment>
-	<Fragment set:html={shell.before} />
+	<SiteHeader />
 	<AboutPageContent />
-	<Fragment set:html={shell.after} />
+	<SiteFooter />
 </PillerLayout>
