@@ -33,7 +33,11 @@ const BAIRROS_PRICE_FILTERS = {
 const NEIGHBORHOOD_NAMES = {};
 
 export function buildSitePageTitle(title) {
-	if (!title || title === 'Início' || title === SITE_NAME) {
+	if (title === 'Início') {
+		return `${SITE_NAME} | Viva o melhor de Santa Catarina`;
+	}
+
+	if (!title || title === SITE_NAME) {
 		return SITE_NAME;
 	}
 

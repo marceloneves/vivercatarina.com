@@ -26,7 +26,7 @@ export const HOME_FAQ_ITEMS = [
 	{
 		question: 'O Viver Catarina vende imóveis ou intermedia a compra?',
 		answer:
-			'O portal não substitui a incorporadora nem o cartório: ele conecta compradores a lançamentos e a corretores credenciados registrados no CRECI. A negociação, contrato e financiamento seguem os canais oficiais de cada empreendimento, com apoio dos profissionais indicados no site.',
+			'Não. O portal tem como objetivo APENAS divulgar os lançamentos. Não substitui a incorporadora nem o cartório: ele conecta compradores a lançamentos e a corretores credenciados registrados no CRECI. A negociação, contrato e financiamento seguem os canais oficiais de cada empreendimento, com apoio dos profissionais indicados no site.',
 	},
 	{
 		question: 'Como falar com um corretor pelo portal?',

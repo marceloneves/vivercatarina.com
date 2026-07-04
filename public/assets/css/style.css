@@ -534,3 +534,14 @@
 .home-faq-section .th-btn.style3{background-color:var(--theme-color)!important;color:#000!important;border-color:var(--theme-color)!important;transition:background-color .3s ease,color .3s ease}
 .home-faq-section .th-btn.style3::before{display:none!important}
 .home-faq-section .th-btn.style3:hover{background-color:#101010!important;color:var(--theme-color)!important;border-color:#101010!important}
+
+/* Ícone (casinha) antes dos links do rodapé em amarelo forte (igual ao botão). */
+.footer-widget.widget_nav_menu a:before{color:var(--theme-color)}
+
+/* Ícone dos links do rodapé: MESMA cor do botão Fale conosco (amarelo forte), vence qualquer regra. */
+.footer-wrapper .widget_nav_menu a:before,
+.footer-wrapper .widget_nav_menu a::before{color:var(--theme-color)!important}
+
+/* Títulos dos menus do rodapé (Institucional/Legal e Transparência/Contato) no mesmo tamanho do título de região (Grande Florianópolis). */
+.footer-widget.widget_nav_menu .widget_title,
+.footer-contact-widget .widget_title{font-size:1.0625rem!important}
