@@ -231,7 +231,7 @@ function enhanceBranding(html) {
 			.replace(/<h3 class="widget_title">About Pillar<\/h3>/g, '<h3 class="widget_title">Viver Catarina</h3>')
 			.replace(
 				/<a href="\/"><img src="\/assets\/img\/logo-white\.svg" alt="Viver Catarina"><\/a>/g,
-				'<a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo-white.svg" alt=""></a>',
+				'<a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo-white.svg" alt="Logotipo Viver Catarina" title="Viver Catarina"></a>',
 			)
 			.replace(
 				/<a href="\/"><img src="\/assets\/img\/logo\.svg" alt="Viver Catarina"><\/a>/g,

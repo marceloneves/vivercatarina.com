@@ -46,7 +46,7 @@ const FOOTER_CONTACT_COLUMN_HTML = `                                <div class="
 export { FOOTER_CONTACT_COLUMN_HTML };
 
 const FOOTER_ABOUT_LOGO_HTML = `<div class="about-logo">
-                                    <a href="/" aria-label="Viver Catarina Imóveis na Planta - página inicial"><img src="/assets/img/logo-white.svg" alt="Viver Catarina Imóveis na Planta" width="220" height="44"></a>
+                                    <a href="/" aria-label="Viver Catarina Imóveis na Planta - página inicial"><img src="/assets/img/logo-white.svg" alt="Logotipo Viver Catarina" title="Viver Catarina" width="220" height="44"></a>
                                 </div>`;
 
 const FOOTER_SUPORTE_COLUMN_PATTERN =
