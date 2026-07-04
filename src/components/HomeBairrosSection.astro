@@ -83,11 +83,11 @@ const isListing = variant === 'listing';
 					cityRegions.map((group) => (
 						<div class="home-region-group">
 							<h3 class="home-region-title">{group.region}</h3>
-							<div class="row gy-30 justify-content-start">
+							<ul class="row gy-30 justify-content-start home-cities-list" aria-label={`Cidades — ${group.region}`}>
 								{group.cities.map((item) => (
-									<div class="col-xl-3 col-lg-4 col-md-6">
+									<li class="col-xl-3 col-lg-4 col-md-6">
 										<article class="gallery-card h-100">
-											<a href={item.href} class="gallery-card-link">
+											<a href={item.href} class="gallery-card-link" target="_blank" rel="noopener noreferrer">
 												<div class="gallery-img">
 													<img
 														src={item.imageUrl}
@@ -97,15 +97,15 @@ const isListing = variant === 'listing';
 													/>
 													<div class="gallery-content">
 														<div class="gallery-content-wrapper">
-															<h2 class="box-title">{item.name}</h2>
+															<h4 class="box-title">{item.name}</h4>
 														</div>
 													</div>
 												</div>
 											</a>
 										</article>
-									</div>
+									</li>
 								))}
-							</div>
+							</ul>
 						</div>
 					))
 				}
@@ -121,6 +121,14 @@ const isListing = variant === 'listing';
 		padding-right: clamp(16px, 4vw, 72px);
 	}
 
+	/* Lista de cidades sem marcador (bolinha) nem recuo. Sem mexer nas margens
+	   do .row do bootstrap (senão o gutter gy-30 não é cancelado na 1ª fileira). */
+	.home-bairros-section .home-cities-list {
+		list-style: none;
+		padding-left: 0.75rem;
+		margin-bottom: 0;
+	}
+
 	/* Títulos de cada região (segmentação dos cards de cidade). */
 	.home-bairros-section .home-region-group + .home-region-group {
 		margin-top: 2.75rem;
@@ -134,7 +142,7 @@ const isListing = variant === 'listing';
 	.home-bairros-section .home-region-title {
 		font-size: 1.375rem;
 		font-weight: 700;
-		margin-bottom: 1.5rem;
+		margin-bottom: 1rem;
 		color: var(--title-color);
 	}
 
@@ -197,7 +205,7 @@ const isListing = variant === 'listing';
 		height: auto;
 		border-radius: 0;
 		/* Borda preta em toda a volta + faixa amarela por fora na esquerda e embaixo. */
-		border: 1px solid #000000;
+		border: 1px solid #888888;
 		box-shadow: -6px 6px 0 0 var(--theme-color);
 	}
 
