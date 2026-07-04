@@ -1,6 +1,7 @@
 ---
 import WhatsAppFloat from '../components/WhatsAppFloat.astro';
 import WhatsAppLeadGate from '../components/WhatsAppLeadGate.astro';
+import ConsentBanner from '../components/ConsentBanner.astro';
 import {
 	SITE_NAME,
 	SITE_URL,
@@ -19,6 +20,8 @@ const organizationSchema = {
 			'@type': 'Organization',
 			'@id': `${SITE_URL}/#organization`,
 			name: SITE_NAME,
+			legalName: 'PMTurbo Tecnologia Ltda. ME',
+			taxID: '54.008.386/0001-07',
 			url: SITE_URL,
 			logo: `${SITE_URL}/assets/img/logo.svg`,
 			email: SITE_EMAIL,
@@ -365,7 +368,7 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 				max-width: 72rem;
 				font-size: 0.8125rem;
 				line-height: 1.65;
-				color: rgba(255, 255, 255, 0.72);
+				color: #ffffff;
 				text-align: center;
 			}
 
@@ -965,6 +968,7 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 	<body class={resolvedBodyClass}>
 		<a class="skip-link" href="#conteudo-principal">Ir para o conteúdo</a>
 		<slot />
+		<ConsentBanner />
 		<WhatsAppLeadGate />
 		<WhatsAppFloat />
 

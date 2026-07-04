@@ -1,0 +1,82 @@
+---
+import { SITE_NAME, SITE_EMAIL, SITE_CITY } from '../lib/site-contact.mjs';
+
+const updatedAt = '24 de junho de 2026';
+---
+
+<nav class="breadcumb-wrapper single-inventory" aria-label="Trilha de navegação">
+	<div class="container">
+		<div class="breadcumb-content">
+			<ol class="breadcumb-menu">
+				<li><a href="/">Início</a></li>
+				<li><span aria-current="page">Termos de Uso</span></li>
+			</ol>
+		</div>
+	</div>
+</nav>
+
+<section class="space overflow-hidden legal-page" aria-labelledby="terms-title">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-9 col-lg-10">
+				<div class="title-area text-center mb-40">
+					<p class="sub-title"><span class="double-line"></span> Condições gerais</p>
+					<h1 class="sec-title" id="terms-title">Termos de Uso</h1>
+					<p class="sec-text">Última atualização: {updatedAt}</p>
+				</div>
+
+				<div class="legal-content">
+					<p>
+						Ao acessar e utilizar o portal {SITE_NAME}
+						(<strong>vivercatarina.com</strong>), você concorda com estes
+						Termos de Uso. Se não concordar, não utilize o site.
+					</p>
+
+					<h2>1. Natureza do serviço</h2>
+					<p>
+						O {SITE_NAME} é um <strong>portal de divulgação</strong> de lançamentos
+						imobiliários em Santa Catarina. Não somos imobiliária nem corretora: a
+						intermediação de qualquer negócio é realizada por corretores parceiros
+						devidamente registrados no CRECI.
+					</p>
+
+					<h2>2. Caráter informativo</h2>
+					<p>
+						As informações, imagens, valores, plantas e condições dos empreendimentos têm
+						caráter meramente informativo, pertencem às respectivas incorporadoras e estão
+						sujeitas a alteração sem aviso prévio. Confirme sempre os dados oficiais com a
+						incorporadora e o corretor responsável antes de tomar qualquer decisão ou assinar
+						contrato.
+					</p>
+
+					<h2>3. Propriedade intelectual</h2>
+					<p>
+						A marca, o layout e os textos próprios do {SITE_NAME} são protegidos. Imagens e
+						materiais dos empreendimentos pertencem às respectivas incorporadoras. É vedada a
+						reprodução sem autorização.
+					</p>
+
+					<h2>4. Responsabilidades</h2>
+					<ul>
+						<li>Não garantimos disponibilidade, preço ou características de qualquer unidade.</li>
+						<li>Não nos responsabilizamos por decisões tomadas com base exclusivamente nas informações do site.</li>
+						<li>O site pode conter links para sites de terceiros (incorporadoras), sobre os quais não temos controle.</li>
+					</ul>
+
+					<h2>5. Privacidade</h2>
+					<p>
+						O tratamento de dados pessoais é descrito na
+						<a href="/privacidade">Política de Privacidade</a> e na
+						<a href="/politica-de-cookies">Política de Cookies</a>.
+					</p>
+
+					<h2>6. Foro e contato</h2>
+					<p>
+						Estes Termos são regidos pelas leis brasileiras, elegendo-se o foro da comarca de
+						{SITE_CITY}/SC. Dúvidas: <a href={`mailto:${SITE_EMAIL}`}>{SITE_EMAIL}</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

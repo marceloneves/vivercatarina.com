@@ -1,0 +1,103 @@
+---
+// Aviso LGPD fixo no rodapé. Dispensável, memoriza aceite em localStorage.
+---
+
+<div class="consent-banner" id="consent-banner" role="dialog" aria-live="polite" aria-label="Aviso de privacidade" hidden>
+	<div class="consent-banner__inner">
+		<p class="consent-banner__text">
+			Ao continuar navegando, você concorda com nossos
+			<a href="/termos">Termos de Uso</a>, a
+			<a href="/privacidade">Política de Privacidade</a> e a
+			<a href="/politica-de-cookies">Política de Cookies</a>.
+		</p>
+		<button type="button" class="consent-banner__btn" id="consent-accept">Aceitar</button>
+	</div>
+</div>
+
+<style>
+	.consent-banner {
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 9999;
+		background: var(--black-color, #101010);
+		color: #fff;
+		border-top: 2px solid var(--theme-color, #FFAF00);
+		box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.25);
+	}
+
+	.consent-banner__inner {
+		max-width: 1320px;
+		margin: 0 auto;
+		padding: 16px clamp(16px, 4vw, 48px);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 20px;
+		flex-wrap: wrap;
+	}
+
+	.consent-banner__text {
+		margin: 0;
+		font-size: 0.9rem;
+		line-height: 1.55;
+		flex: 1 1 320px;
+		color: #ffffff !important;
+	}
+
+	.consent-banner__text a {
+		color: var(--theme-color, #FFAF00);
+		text-decoration: underline;
+		text-underline-offset: 0.15em;
+	}
+
+	.consent-banner__btn {
+		flex: none;
+		border: 0;
+		cursor: pointer;
+		background: var(--theme-color, #FFAF00);
+		color: #101010;
+		font-weight: 700;
+		padding: 12px 28px;
+		font-size: 0.9rem;
+		line-height: 1;
+		transition: opacity 0.2s ease;
+	}
+
+	.consent-banner__btn:hover {
+		opacity: 0.88;
+	}
+
+	@media (max-width: 575px) {
+		.consent-banner__inner {
+			justify-content: center;
+			text-align: center;
+		}
+
+		.consent-banner__btn {
+			width: 100%;
+		}
+	}
+</style>
+
+<script is:inline>
+	(function () {
+		var KEY = 'vc-consent-accepted';
+		var banner = document.getElementById('consent-banner');
+		if (!banner) return;
+		try {
+			if (localStorage.getItem(KEY) === '1') return;
+		} catch (e) {}
+		banner.hidden = false;
+		var btn = document.getElementById('consent-accept');
+		if (btn) {
+			btn.addEventListener('click', function () {
+				try {
+					localStorage.setItem(KEY, '1');
+				} catch (e) {}
+				banner.hidden = true;
+			});
+		}
+	})();
+</script>

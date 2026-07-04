@@ -1,0 +1,38 @@
+---
+import PillerLayout from '../layouts/PillerLayout.astro';
+import CookiePolicyContent from '../components/CookiePolicyContent.astro';
+import bodyHtml from '../content/template-pages/faq.html?raw';
+import { applySemanticHtml, wrapSplitPageContent } from '../lib/semantic-html.mjs';
+import { patchSiteMenu } from '../lib/site-menu.mjs';
+import { resolvePageSeo } from '../lib/site-seo.mjs';
+
+const seo = resolvePageSeo({
+	title: 'Política de Cookies',
+	pathname: '/politica-de-cookies',
+	description:
+		'Política de Cookies do portal Viver Catarina: quais cookies utilizamos, cookies de terceiros e como gerenciá-los no seu navegador.',
+});
+
+const breadcrumbStart = bodyHtml.indexOf('<!--==============================\n    Breadcumb');
+const footerStart = bodyHtml.indexOf('<!--==============================\n\tFooter Area');
+
+if (breadcrumbStart === -1 || footerStart === -1) {
+	throw new Error('Não foi possível montar a página de cookies a partir do template.');
+}
+
+const shell = wrapSplitPageContent(
+	patchSiteMenu(applySemanticHtml(bodyHtml.slice(0, breadcrumbStart)), '/politica-de-cookies'),
+	applySemanticHtml(bodyHtml.slice(footerStart)),
+);
+---
+
+<PillerLayout
+	title="Política de Cookies"
+	description={seo.description}
+	canonicalPath="/politica-de-cookies"
+	stylesheets={['/css/internal-links.css']}
+>
+	<Fragment set:html={shell.before} />
+	<CookiePolicyContent />
+	<Fragment set:html={shell.after} />
+</PillerLayout>

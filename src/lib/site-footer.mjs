@@ -14,7 +14,7 @@ const FOOTER_NEIGHBORHOODS_MARKER = 'footer-bairros-section';
 const FOOTER_CITIES_TITLE = 'Cidades de Santa Catarina';
 
 export const FOOTER_DISCLAIMER =
-	'As informações e imagens divulgadas neste site são de caráter informativo e pertencem às respectivas incorporadoras. O atendimento é realizado por corretores credenciados e devidamente registrados no CRECI.';
+	'As informações e imagens divulgadas neste site são de caráter informativo e pertencem às respectivas incorporadoras. O atendimento é realizado por corretores credenciados e devidamente registrados no CRECI. Viver Catarina é um portal de propriedade de PMTurbo Tecnologia Ltda. ME — CNPJ 54.008.386/0001-07.';
 
 export const FOOTER_COPYRIGHT_TEXT = '2025-2026 - Viver Catarina - Todos os direitos reservados';
 

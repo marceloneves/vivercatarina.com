@@ -9111,6 +9111,7 @@ ol.wp-block-rss {
 .footer-wrapper .th-social a {
   background-color: #1F2432;
   color: var(--white-color);
+  border-radius: 0 !important;
 }
 .footer-wrapper .th-social a:hover {
   background-color: var(--theme-color);
@@ -9233,7 +9234,7 @@ ol.wp-block-rss {
 }
 .copyright-wrap .footer-default-copy-right .th-social a {
   --icon-size: 32px;
-  border-radius: 50%;
+  border-radius: 0;
   border: 1px solid rgba(255, 255, 255, 0.168627451);
   background: transparent;
 }
@@ -18832,6 +18833,24 @@ span.select2-selection.select2-selection--single:focus {
 .home-faq-section .accordion-card,
 .home-faq-section .accordion-button {
   border-radius: 0 !important;
+}
+/* "Santa Catarina" em itálico na home (hero + título da seção de cidades). */
+.hero-title .title2,
+.home-headline .title2 {
+  font-style: italic !important;
+}
+/* Aviso de consentimento: texto (não-link) sempre branco. */
+.consent-banner__text {
+  color: #ffffff !important;
+}
+/* E-mail no rodapé sempre branco. */
+.footer-contact-widget .info-box_link a,
+.copyright-wrap .copyright-email a {
+  color: #ffffff !important;
+}
+.footer-contact-widget .info-box_link a:hover,
+.copyright-wrap .copyright-email a:hover {
+  color: var(--theme-color) !important;
 }
 
 .contact-all-wrapper {

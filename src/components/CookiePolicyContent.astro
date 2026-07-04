@@ -1,0 +1,79 @@
+---
+import { SITE_NAME, SITE_EMAIL } from '../lib/site-contact.mjs';
+
+const updatedAt = '24 de junho de 2026';
+---
+
+<nav class="breadcumb-wrapper single-inventory" aria-label="Trilha de navegação">
+	<div class="container">
+		<div class="breadcumb-content">
+			<ol class="breadcumb-menu">
+				<li><a href="/">Início</a></li>
+				<li><span aria-current="page">Política de Cookies</span></li>
+			</ol>
+		</div>
+	</div>
+</nav>
+
+<section class="space overflow-hidden legal-page" aria-labelledby="cookie-title">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-9 col-lg-10">
+				<div class="title-area text-center mb-40">
+					<p class="sub-title"><span class="double-line"></span> Proteção de dados</p>
+					<h1 class="sec-title" id="cookie-title">Política de Cookies</h1>
+					<p class="sec-text">Última atualização: {updatedAt}</p>
+				</div>
+
+				<div class="legal-content">
+					<p>
+						Esta Política de Cookies explica como o portal {SITE_NAME} utiliza cookies e
+						tecnologias semelhantes em <strong>vivercatarina.com</strong>.
+					</p>
+
+					<h2>1. O que são cookies</h2>
+					<p>
+						Cookies são pequenos arquivos de texto armazenados no seu navegador quando você
+						visita um site. Servem para que o site funcione corretamente e para lembrar
+						preferências.
+					</p>
+
+					<h2>2. Quais cookies utilizamos</h2>
+					<ul>
+						<li>
+							<strong>Cookies estritamente necessários:</strong> garantem o funcionamento
+							básico das páginas e a navegação. São essenciais e não exigem consentimento.
+						</li>
+					</ul>
+					<p>
+						Atualmente este site <strong>não utiliza</strong> cookies de publicidade, de
+						rastreamento (tracking) nem ferramentas de analytics que identifiquem o
+						visitante. Caso esse cenário mude, esta política será atualizada e, quando
+						exigível, será exibido um aviso de consentimento.
+					</p>
+
+					<h2>3. Cookies de terceiros</h2>
+					<p>
+						Ao utilizar o botão de WhatsApp ou abrir conteúdos incorporados (como vídeos ou
+						mapas), serviços de terceiros — como WhatsApp/Meta, YouTube e Google Maps —
+						podem definir seus próprios cookies, regidos pelas políticas de privacidade
+						dessas plataformas.
+					</p>
+
+					<h2>4. Como gerenciar cookies</h2>
+					<p>
+						Você pode bloquear ou apagar cookies nas configurações do seu navegador. Bloquear
+						cookies necessários pode afetar o funcionamento de partes do site.
+					</p>
+
+					<h2>5. Contato</h2>
+					<p>
+						Dúvidas sobre esta política? Escreva para
+						<a href={`mailto:${SITE_EMAIL}`}>{SITE_EMAIL}</a>. Veja também nossa
+						<a href="/privacidade">Política de Privacidade</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
