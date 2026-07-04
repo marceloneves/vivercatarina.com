@@ -606,3 +606,8 @@
 				}
 			}
 		
+
+/* Botão "Fale conosco" no FAQ da home: fundo amarelo, texto preto, hover invertido. */
+.home-faq-section .th-btn.style3{background-color:var(--theme-color)!important;color:#000!important;border-color:var(--theme-color)!important;transition:background-color .3s ease,color .3s ease}
+.home-faq-section .th-btn.style3::before{display:none!important}
+.home-faq-section .th-btn.style3:hover{background-color:#101010!important;color:var(--theme-color)!important;border-color:#101010!important}
