@@ -29,12 +29,8 @@ const BAIRROS_PRICE_FILTERS = {
 	'acima-de-1-milhao': 'Acima de R$ 1 milhão',
 };
 
-const NEIGHBORHOOD_NAMES = JSON.parse(
-	readFileSync(join(process.cwd(), 'src/data/florianopolis-neighborhoods.json'), 'utf8'),
-).reduce((map, { name, slug }) => {
-	map[slug] = name;
-	return map;
-}, {});
+// Bairros/imóveis removidos do hub — mapa vazio (essas páginas não existem mais).
+const NEIGHBORHOOD_NAMES = {};
 
 export function buildSitePageTitle(title) {
 	if (!title || title === 'Início' || title === SITE_NAME) {

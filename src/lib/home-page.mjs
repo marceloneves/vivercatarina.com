@@ -1,4 +1,5 @@
 import { existsSync, readFileSync } from 'node:fs';
+import { patchSiteMenu } from './site-menu.mjs';
 import { join } from 'node:path';
 import { applySemanticHtml } from './semantic-html.mjs';
 import { getKindLabel, getKindPageSlug, PROPERTY_KINDS } from './property-kind.mjs';
@@ -246,7 +247,8 @@ export function loadHomeNeighborhoodCards() {
 }
 
 export function getHomeHeroBackgroundUrl() {
-	return pickNeighborhoodCoverImage('cacupe') || FALLBACK_NEIGHBORHOOD_IMAGES[2];
+	// Imagem estática do hub (independe do inventário de imóveis).
+	return '/assets/img/hero/vivercatarina-florianopolis.webp';
 }
 
 function stripHomeHeroSection(html) {
@@ -282,8 +284,10 @@ export function getHomePageShell() {
 	}
 
 	const headerAndPreSearch = stripHomeHeroSection(html.slice(0, searchStart));
-	const before =
-		headerAndPreSearch + html.slice(searchEnd + searchEndMarker.length, sectionStart);
+	const before = patchSiteMenu(
+		headerAndPreSearch + html.slice(searchEnd + searchEndMarker.length, sectionStart),
+		'/',
+	);
 
 	return {
 		before,
