@@ -155,6 +155,11 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 
 		{/* Bootstrap + tema inline: sem request render-blocking no critical path. */}
 		<style is:inline set:html={inlineBaseCss} />
+		{/* Fallback com métricas ajustadas (Arial) para eliminar CLS no swap das fontes. */}
+		<style
+			is:inline
+			set:html={`@font-face{font-family:'Inter Fallback';src:local('Arial');ascent-override:90.44%;descent-override:22.52%;line-gap-override:0%;size-adjust:107.12%}@font-face{font-family:'Inter Fallback';font-style:italic;src:local('Arial Italic'),local('Arial');ascent-override:90.44%;descent-override:22.52%;line-gap-override:0%;size-adjust:107.12%}@font-face{font-family:'Plus Jakarta Sans Fallback';src:local('Arial');ascent-override:87.66%;descent-override:18.75%;line-gap-override:0%;size-adjust:118.41%}@font-face{font-family:'Plus Jakarta Sans Fallback';font-style:italic;src:local('Arial Italic'),local('Arial');ascent-override:87.66%;descent-override:18.75%;line-gap-override:0%;size-adjust:118.41%}:root{--body-font:'Inter','Inter Fallback',Arial,sans-serif;--title-font:'Plus Jakarta Sans','Plus Jakarta Sans Fallback',Arial,sans-serif}`}
+		/>
 		{/* FontAwesome não é crítico para o render inicial: carrega sem bloquear. */}
 		<link
 			rel="stylesheet"
