@@ -1,6 +1,5 @@
 # build output
 dist/
-.vercel/
 # generated types
 .astro/
 
@@ -26,7 +25,6 @@ data/whatsapp-leads.json
 
 # jetbrains setting folder
 .idea/
-.vercel
 
 # graphify build output
 graphify-out/
