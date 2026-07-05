@@ -152,7 +152,7 @@ function normalizePath(pathname) {
 
 function absoluteUrl(value) {
 	if (!value) {
-		return `${SITE_URL}/assets/img/logo.svg`;
+		return `${SITE_URL}/assets/img/og/og-default.jpg`;
 	}
 
 	if (/^https?:\/\//i.test(value)) {
@@ -445,7 +445,9 @@ export function resolvePageSeo(options = {}) {
 	const resolvedKeywords = keywords || inferred.keywords || buildKeywords();
 	const resolvedNoindex = noindex ?? inferred.noindex ?? false;
 	const documentTitle = buildSitePageTitle(resolvedTitle);
-	const canonicalUrl = `${SITE_URL}${path === '/' ? '' : path}`;
+	// URL canônica com barra final, igual à URL efetivamente servida (o host
+	// faz 301 de /pagina para /pagina/). Evita canonical apontando para um 301.
+	const canonicalUrl = `${SITE_URL}${path === '/' ? '/' : `${path}/`}`;
 
 	return {
 		title: documentTitle,
@@ -457,6 +459,7 @@ export function resolvePageSeo(options = {}) {
 		ogTitle: documentTitle,
 		ogDescription: trimToLength(resolvedDescription, META_DESCRIPTION_MAX),
 		ogImage: absoluteUrl(ogImage),
+		ogImageAlt: `${SITE_NAME} — lançamentos imobiliários e imóveis na planta em Santa Catarina`,
 		ogType,
 		ogUrl: canonicalUrl,
 		twitterCard: 'summary_large_image',

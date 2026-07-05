@@ -18,7 +18,6 @@ for (const { path, getEntries } of SITEMAP_FILES) {
 const sitemapIndexXml = renderSitemapIndexXml();
 
 writeFileSync(join(publicDir, 'sitemap-index.xml'), sitemapIndexXml);
-writeFileSync(join(publicDir, 'sitemap.xml'), sitemapIndexXml);
 writeFileSync(join(publicDir, 'robots.txt'), buildRobotsTxt());
 writeFileSync(join(publicDir, 'llms.txt'), buildLlmsTxt());
 

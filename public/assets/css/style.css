@@ -559,3 +559,5 @@
 @media(max-width:991.98px){
 	.menu-area .row > .col-auto.mx-auto{margin:0!important}
 }
+/* Mantém o tamanho do heading do contato ao promover h3->h2 (hierarquia a11y). */
+.form-title{font-size:1.875rem;line-height:1.3}

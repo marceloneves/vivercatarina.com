@@ -2,32 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vivercatarina.com/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
-    <loc>https://vivercatarina.com/quem-somos</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://vivercatarina.com/quem-somos/</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
-    <loc>https://vivercatarina.com/contato</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://vivercatarina.com/contato/</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
-    <loc>https://vivercatarina.com/privacidade</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://vivercatarina.com/privacidade/</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
-    <loc>https://vivercatarina.com/termos</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://vivercatarina.com/termos/</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
-    <loc>https://vivercatarina.com/politica-de-cookies</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://vivercatarina.com/politica-de-cookies/</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
 </urlset>

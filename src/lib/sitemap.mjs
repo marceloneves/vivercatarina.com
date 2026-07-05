@@ -13,7 +13,9 @@ const NOINDEX_ROUTE_EXACT = [];
  * @returns {SitemapEntry}
  */
 export function buildSitemapEntry(path, options = {}) {
-	const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+	const raw = path.startsWith('/') ? path : `/${path}`;
+	// Barra final para bater com a URL servida pelo host (evita loc que dá 301).
+	const normalizedPath = raw === '/' ? '/' : `${raw.replace(/\/+$/, '')}/`;
 
 	return {
 		loc: `${SITE_URL}${normalizedPath}`,
@@ -23,14 +25,18 @@ export function buildSitemapEntry(path, options = {}) {
 
 /** Páginas do hub (agregador de cidades). @returns {SitemapEntry[]} */
 export function getPagesSitemapEntries() {
+	// lastmod único da geração (build); priority/changefreq omitidos (ignorados
+	// pelo Google).
+	const lastmod = new Date().toISOString().slice(0, 10);
+
 	return [
-		buildSitemapEntry('/', { changefreq: 'daily', priority: '1.0' }),
-		buildSitemapEntry('/quem-somos', { changefreq: 'monthly', priority: '0.7' }),
-		buildSitemapEntry('/contato', { changefreq: 'monthly', priority: '0.6' }),
-		buildSitemapEntry('/privacidade', { changefreq: 'yearly', priority: '0.3' }),
-		buildSitemapEntry('/termos', { changefreq: 'yearly', priority: '0.3' }),
-		buildSitemapEntry('/politica-de-cookies', { changefreq: 'yearly', priority: '0.3' }),
-	];
+		'/',
+		'/quem-somos',
+		'/contato',
+		'/privacidade',
+		'/termos',
+		'/politica-de-cookies',
+	].map((path) => buildSitemapEntry(path, { lastmod }));
 }
 
 export const SITEMAP_FILES = [
