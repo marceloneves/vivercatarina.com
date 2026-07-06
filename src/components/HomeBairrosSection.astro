@@ -1,7 +1,7 @@
 ---
 import { ui } from '../i18n/strings.mjs';
 
-const { neighborhoods, cityRegions = [], variant = 'home', lang = 'pt' } = Astro.props;
+const { neighborhoods, cityRegions = [], variant = 'home', lang = 'pt', sideImage = false } = Astro.props;
 const isListing = variant === 'listing';
 const t = ui(lang);
 
@@ -87,12 +87,12 @@ const allCities = cityRegions
 				</div>
 			</div>
 			<div class="container pb-5">
-				<ul class="row gy-30 justify-content-start home-cities-list" aria-label={t.nav.cities}>
+				<ul class:list={["row gy-30 justify-content-start home-cities-list", { "home-cities-list--side": sideImage }]} aria-label={t.nav.cities}>
 					{allCities.map((item) => (
 						<li class="col-xl-3 col-lg-4 col-md-6">
 							<article class="gallery-card h-100">
 								<a href={item.href} class="gallery-card-link" target="_blank" rel="noopener noreferrer">
-									<div class="gallery-img">
+									<div class:list={["gallery-img", { "gallery-img--side": sideImage }]}>
 										<img
 											src={item.imageUrl}
 											alt={t.cityImgAlt(item.name)}
@@ -278,6 +278,54 @@ const allCities = cityRegions
 		text-align: center;
 	}
 	.gallery-sec-1 .gallery-content .box-title {
+		color: #1a1a1a;
+	}
+
+	/* ===== Variação v2: imagem da cidade à esquerda (1/3), nome à direita ===== */
+	/* Card vira linha horizontal; borda e faixa amarela envolvem o card todo. */
+	.home-bairros-section .home-cities-list--side .gallery-card-link {
+		display: flex;
+		align-items: stretch;
+		position: relative;
+		min-height: 96px;
+		border: 3px solid #000000;
+		box-shadow: -6px 6px 0 0 var(--theme-color);
+		background-color: color-mix(in srgb, var(--theme-color) 8%, #ffffff);
+	}
+
+	/* Imagem ocupa 1/3 da esquerda; sem borda/sombra próprias. */
+	.home-bairros-section .gallery-img--side {
+		flex: 0 0 33.333%;
+		max-width: 33.333%;
+		align-self: stretch;
+		aspect-ratio: auto;
+		border: none;
+		box-shadow: none;
+	}
+
+	/* Nome centralizado nos 2/3 da direita. */
+	.home-bairros-section .home-cities-list--side .gallery-content {
+		flex: 1 1 auto;
+		position: static;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: none;
+		padding: 0;
+	}
+	.home-bairros-section .home-cities-list--side .gallery-content-wrapper {
+		padding: 12px 14px;
+		text-align: center;
+	}
+	.home-bairros-section .home-cities-list--side .gallery-content .box-title {
+		font-size: 18px;
+		font-weight: 700;
+		color: #1a1a1a;
+	}
+
+	/* Hover: nome permanece escuro (fundo já é claro). */
+	.home-bairros-section .home-cities-list--side .gallery-card-link:hover .gallery-content .box-title,
+	.home-bairros-section .home-cities-list--side .gallery-card-link:focus-visible .gallery-content .box-title {
 		color: #1a1a1a;
 	}
 </style>

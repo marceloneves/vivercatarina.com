@@ -193,6 +193,18 @@ const contactIntroText = linkify(
 
 	.about-differentiators .about-1-item {
 		padding: 1.5rem 1.25rem;
+		/* Mesmo amarelo claro da marca (igual dúvidas/contato). */
+		background-color: color-mix(in srgb, var(--theme-color) 8%, #ffffff);
+	}
+
+	/* Remove o espaço no topo antes da seção "Quem Somos / Viva o melhor". */
+	.about-1-wrapper.space-top {
+		padding-top: 0;
+	}
+
+	/* Fundo amarelo claro da marca na seção "Nossa missão". */
+	section.bg-smoke[aria-labelledby="about-mission-title"] {
+		background-color: color-mix(in srgb, var(--theme-color) 8%, #ffffff) !important;
 	}
 
 	@media (min-width: 1200px) {
