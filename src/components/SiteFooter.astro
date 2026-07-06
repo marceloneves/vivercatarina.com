@@ -166,7 +166,56 @@ const cookiesHref = localizedPath(lang, '/politica-de-cookies');
     </footer>
 
     <!--********************************
-			Code End  Here 
+			Code End  Here
 	******************************** -->
+
+<style is:global>
+	/* Sem ícone nos itens do menu do rodapé. */
+	.footer-widget.widget_nav_menu a::before {
+		content: none !important;
+	}
+	.footer-widget.widget_nav_menu a {
+		padding-left: 0 !important;
+	}
+	/* Ícone › (igual Florianópolis) só antes do título do menu. */
+	.footer-widget.widget_nav_menu .widget_title::before {
+		content: "\f105";
+		font-family: var(--icon-font);
+		font-weight: 400;
+		color: var(--theme-color);
+		margin-right: 8px;
+		display: inline-block;
+		/* Zera a linha/traço do tema que ficava no ::before do título. */
+		background: none;
+		height: auto;
+		width: auto;
+		border-radius: 0;
+		position: static;
+	}
+	/* Mesmo ícone › antes do título de cidades e do contato. */
+	.footer-cities-wrap .widget_title::before,
+	.footer-contact-widget .widget_title::before {
+		content: "\f105";
+		font-family: var(--icon-font);
+		font-weight: 400;
+		color: var(--theme-color);
+		margin-right: 8px;
+		display: inline-block;
+		/* Zera a linha/traço do tema que ficava no ::before do título. */
+		background: none;
+		height: auto;
+		width: auto;
+		border-radius: 0;
+		position: static;
+	}
+	/* Sem sublinhado nos links de contato do rodapé. */
+	.footer-contact-widget a {
+		text-decoration: none !important;
+	}
+	/* Sem itálico no telefone, e-mail e cidade (o <address> é itálico por padrão). */
+	.footer-contact-widget .footer-info-wrap {
+		font-style: normal;
+	}
+</style>
 
     
