@@ -120,14 +120,19 @@ export function loadHomeCityCards() {
 	return cards.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
 }
 
+// Cidades ocultas temporariamente só nos cards da home (footer/menu mantêm).
+const HOME_HIDDEN_CITIES = new Set(['Tijucas', 'Penha', 'Camboriú']);
+
 export function loadHomeCityCardsByRegion() {
 	const regions = listFooterCitiesByRegion();
 	const heroImageUrl = getHomeHeroBackgroundUrl();
 
-	return regions.map(({ region, cities }) => ({
-		region,
-		cities: cities
-			.map((city) => {
+	return regions
+		.map(({ region, cities }) => ({
+			region,
+			cities: cities
+				.filter((city) => !HOME_HIDDEN_CITIES.has(city.name))
+				.map((city) => {
 				const subdomain = city.subdomain || slugifyText(city.name).replace(/-/g, '');
 
 				return {
