@@ -164,6 +164,7 @@ const allCities = cityRegions
 		width: 100%;
 		transform: none;
 		border-radius: 0;
+		z-index: 2;
 		background: linear-gradient(
 			to top,
 			rgba(0, 0, 0, 1) 0%,
@@ -185,6 +186,7 @@ const allCities = cityRegions
 	/* Nome da cidade menor dentro da faixa. */
 	.home-bairros-section .gallery-content .box-title {
 		font-size: 18px;
+		font-weight: 700;
 	}
 
 	.home-bairros-section .gallery-card-link {
@@ -202,8 +204,8 @@ const allCities = cityRegions
 		max-height: none;
 		height: auto;
 		border-radius: 0;
-		/* Borda preta em toda a volta + faixa amarela por fora na esquerda e embaixo. */
-		border: 1px solid #888888;
+		/* Borda preta simples em toda a volta + faixa amarela por fora na esquerda e embaixo. */
+		border: 1px solid #000000;
 		box-shadow: -6px 6px 0 0 var(--theme-color);
 	}
 
@@ -225,7 +227,21 @@ const allCities = cityRegions
 		height: 100%;
 		object-fit: cover;
 		object-position: center;
+		/* Tom âmbar da marca para padronizar fotos de origens diferentes. */
+		filter: sepia(0.5) saturate(1.32) hue-rotate(-10deg) brightness(1.02);
 		transition: transform 0.4s ease;
+	}
+
+	/* Camada âmbar da marca sobre a foto reforça o tom uniforme. */
+	.home-bairros-section .gallery-img::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background: var(--theme-color);
+		mix-blend-mode: multiply;
+		opacity: 0.14;
+		pointer-events: none;
+		z-index: 1;
 	}
 
 	/* Mantém o zoom suave da imagem no hover. */
