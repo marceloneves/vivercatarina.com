@@ -68,7 +68,7 @@ const isListing = variant === 'listing';
 								Imóveis na planta
 							</p>
 							<h2 class="sec-title mb-2 home-headline" id="home-bairros-title">
-								Encontre seu Imóvel em{' '}
+								Encontre seu Imóvel em<br />
 								<span class="title2 text-theme home-headline-italic">Santa Catarina</span>
 							</h2>
 							<p class="box-text">
@@ -95,10 +95,10 @@ const isListing = variant === 'listing';
 														title={`${item.name}, SC`}
 														loading="lazy"
 													/>
-													<div class="gallery-content">
-														<div class="gallery-content-wrapper">
-															<h4 class="box-title">{item.name}</h4>
-														</div>
+												</div>
+												<div class="gallery-content">
+													<div class="gallery-content-wrapper">
+														<h4 class="box-title">{item.name}</h4>
 													</div>
 												</div>
 											</a>
@@ -131,7 +131,7 @@ const isListing = variant === 'listing';
 
 	/* Títulos de cada região (segmentação dos cards de cidade). */
 	.home-bairros-section .home-region-group + .home-region-group {
-		margin-top: 2.75rem;
+		margin-top: 3.75rem;
 	}
 
 	/* "Santa Catarina" em itálico no título da seção. */
@@ -140,10 +140,14 @@ const isListing = variant === 'listing';
 	}
 
 	.home-bairros-section .home-region-title {
-		font-size: 1.375rem;
+		font-size: 1.05rem;
 		font-weight: 700;
 		margin-bottom: 1rem;
 		color: var(--title-color);
+		display: inline-block;
+		background: var(--theme-color);
+		padding: 4px 10px;
+		box-shadow: -4px 4px 0 0 #000000;
 	}
 
 	/* 5 cards por linha a partir de telas grandes. */
@@ -247,5 +251,23 @@ const isListing = variant === 'listing';
 		outline: 2px solid var(--theme-color);
 		outline-offset: 4px;
 		border-radius: 8px;
+	}
+
+	/* Menos espaço no topo da seção (antes do título). */
+	.gallery-sec-1.home-bairros-section {
+		padding-top: 60px;
+	}
+
+	/* TESTE: nome da cidade abaixo do card (só home). */
+	.gallery-sec-1 .gallery-content {
+		position: static;
+		background: none;
+	}
+	.gallery-sec-1 .gallery-content-wrapper {
+		padding: 18px 4px 0;
+		text-align: center;
+	}
+	.gallery-sec-1 .gallery-content .box-title {
+		color: #1a1a1a;
 	}
 </style>

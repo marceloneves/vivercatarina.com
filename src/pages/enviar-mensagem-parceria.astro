@@ -1,0 +1,16 @@
+---
+import PillerLayout from '../layouts/PillerLayout.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import PartnerContactForm from '../components/PartnerContactForm.astro';
+
+const title = 'Quero ser parceiro';
+const description =
+	'Fale com o Viver Catarina para ser parceiro: incorporadoras, construtoras, imobiliárias e corretores de imóveis na planta em Santa Catarina.';
+---
+
+<PillerLayout title={title} description={description} canonicalPath="/enviar-mensagem-parceria">
+	<SiteHeader breadcrumb="Quero ser parceiro" />
+	<PartnerContactForm />
+	<SiteFooter />
+</PillerLayout>

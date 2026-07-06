@@ -1,0 +1,163 @@
+---
+const partnerHref = () => '/enviar-mensagem-parceria';
+---
+
+<section class="space seja-parceiro-section" aria-labelledby="seja-parceiro-intro">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-9 text-center">
+				<h1 class="sec-title mb-3" id="seja-parceiro-intro">
+					Seja um <span class="bairro-name-accent">Parceiro</span>
+				</h1>
+				<p class="box-text">
+					O Viver Catarina é um portal de imóveis na planta em Santa Catarina criado para
+					conectar quem constrói e quem vende a quem quer comprar. Escolha abaixo o seu
+					perfil e descubra como fazer parte.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="space-bottom seja-parceiro-block" aria-labelledby="parceiro-incorporadoras">
+	<div class="container">
+		<div class="seja-parceiro-card">
+			<span class="seja-parceiro-card__tag">Para quem constrói</span>
+			<h2 class="box-title" id="parceiro-incorporadoras">Incorporadoras e Construtoras</h2>
+			<p>
+				Divulgue gratuitamente os seus empreendimentos no Viver Catarina. O portal cria
+				uma página completa para cada lançamento, com fotos, plantas, valores, localização
+				e dados da construtora, otimizada para aparecer no Google e ser encontrada por quem
+				realmente procura imóvel na planta em Santa Catarina.
+			</p>
+			<p>
+				Sem custo de publicação e sem exclusividade: você continua vendendo pelos seus
+				canais e ainda ganha mais um ponto de exposição qualificado. Quanto mais completo o
+				material enviado, melhor o desempenho da página nas buscas.
+			</p>
+			<ul class="seja-parceiro-list">
+				<li><strong>Publicação gratuita</strong> dos seus empreendimentos</li>
+				<li>Página individual por lançamento, pensada para <strong>SEO</strong></li>
+				<li>Apresentação da marca, histórico e diferenciais da construtora</li>
+			</ul>
+			<a class="th-btn" href={partnerHref('incorporadora')}>
+				Quero divulgar meus empreendimentos
+			</a>
+		</div>
+	</div>
+</section>
+
+<section class="space-bottom seja-parceiro-block seja-parceiro-block--alt" aria-labelledby="parceiro-imobiliarias">
+	<div class="container">
+		<div class="seja-parceiro-card">
+			<span class="seja-parceiro-card__tag">Para imobiliárias</span>
+			<h2 class="box-title" id="parceiro-imobiliarias">Imobiliárias</h2>
+			<p>
+				O Viver Catarina firma parcerias com imobiliárias para <strong>gerar leads</strong>
+				de pessoas interessadas em imóveis na planta em Santa Catarina. O portal atrai a
+				demanda pela busca orgânica e encaminha os contatos para as imobiliárias parceiras
+				trabalharem o atendimento e o fechamento.
+			</p>
+			<p>
+				É uma forma de ampliar o seu funil de vendas com contatos que já chegam buscando
+				lançamento, sem aumentar o seu investimento em mídia. As condições da parceria são
+				combinadas caso a caso, conforme a carteira e a região de atuação.
+			</p>
+			<ul class="seja-parceiro-list">
+				<li>Parceria para <strong>geração de leads</strong> de lançamentos</li>
+				<li>Demanda vinda da busca orgânica do portal</li>
+				<li>Contatos encaminhados para o time da imobiliária</li>
+				<li>Condições combinadas conforme carteira e região</li>
+			</ul>
+			<a class="th-btn" href={partnerHref('imobiliaria')}>
+				Quero ser imobiliária parceira
+			</a>
+		</div>
+	</div>
+</section>
+
+<section class="space-bottom seja-parceiro-block" aria-labelledby="parceiro-corretores">
+	<div class="container">
+		<div class="seja-parceiro-card">
+			<span class="seja-parceiro-card__tag">Para corretores</span>
+			<h2 class="box-title" id="parceiro-corretores">Corretores de Imóveis</h2>
+			<p>
+				O portal também pode ter parceria com <strong>corretores de imóveis</strong>
+				credenciados ao CRECI. Se você atua com lançamentos em Santa Catarina e quer receber
+				oportunidades de clientes que procuram imóvel na planta, o Viver Catarina pode ser
+				mais um canal de captação para o seu trabalho.
+			</p>
+			<p>
+				Os leads gerados pelo portal são distribuídos para corretores parceiros, que cuidam
+				do atendimento, das visitas e da negociação. Fale com a equipe para entender como
+				participar e quais empreendimentos estão disponíveis para parceria.
+			</p>
+			<ul class="seja-parceiro-list">
+				<li>Recebimento de <strong>oportunidades de clientes</strong></li>
+				<li>Foco em lançamentos e imóveis na planta de Santa Catarina</li>
+				<li>Atendimento e negociação conduzidos por você</li>
+				<li>Necessário registro ativo no <strong>CRECI</strong></li>
+			</ul>
+			<a class="th-btn" href={partnerHref('corretor')}>
+				Quero ser corretor parceiro
+			</a>
+		</div>
+	</div>
+</section>
+
+<style>
+	.seja-parceiro-block--alt {
+		background-color: var(--smoke-color, #f6f6f8);
+	}
+
+	.seja-parceiro-card {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 40px;
+		border: 1px solid var(--black-color);
+		background: var(--white-color);
+	}
+
+	.seja-parceiro-card__tag {
+		display: inline-block;
+		margin-bottom: 12px;
+		padding: 6px 12px;
+		background: var(--theme-color);
+		color: var(--title-color);
+		font-size: 13px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+	}
+
+	.seja-parceiro-card .box-title {
+		margin-bottom: 16px;
+	}
+
+	.seja-parceiro-card p {
+		margin-bottom: 14px;
+		line-height: 1.7;
+		font-size: 18px;
+	}
+
+	.seja-parceiro-list {
+		margin: 0 0 24px;
+		padding-left: 20px;
+	}
+
+	.seja-parceiro-list li {
+		margin-bottom: 8px;
+		line-height: 1.6;
+		font-size: 18px;
+	}
+
+	.seja-parceiro-card .th-btn {
+		border-radius: 0 !important;
+	}
+
+	@media (max-width: 575px) {
+		.seja-parceiro-card {
+			padding: 24px;
+		}
+	}
+</style>

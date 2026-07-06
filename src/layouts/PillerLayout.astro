@@ -187,6 +187,8 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 			<link rel="stylesheet" href={href} />
 		))}
 		<script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+		{/* Sticky footer: rodapé sempre no fim da página (evita branco embaixo em páginas curtas / tablet). */}
+		<style is:inline set:html={`body{min-height:100vh;display:flex;flex-direction:column}#conteudo-principal{flex:1 0 auto}`} />
 		<slot name="head" />
 	</head>
 	<body class={resolvedBodyClass}>

@@ -200,11 +200,33 @@ const { breadcrumb = 'Quem Somos' } = Astro.props;
                             </nav>
                             <button type="button" class="th-menu-toggle d-block d-lg-none" aria-label="Abrir menu"><i class="fas fa-bars"></i></button>
                         </div>
-                    </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <div class="header-button">
+                                <a href="/seja-um-parceiro" class="th-btn sm radius">Seja um Parceiro</a>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
     </header>
+
+<style is:global>
+	/* Botão "Seja um Parceiro" (slot header-button, fora do .main-menu): estilo do fln. */
+	.header-button .th-btn {
+		border-radius: 0 !important;
+		color: #000000 !important;
+		background-color: var(--theme-color) !important;
+		font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif !important;
+		font-size: 13px !important;
+		font-weight: 700 !important;
+		letter-spacing: 0.12em !important;
+		line-height: 1 !important;
+		text-transform: none !important;
+		padding: 12px 36px !important;
+		min-width: 120px !important;
+	}
+</style>
+
     <main id="conteudo-principal"><!--==============================
     Breadcumb
 ============================== -->
