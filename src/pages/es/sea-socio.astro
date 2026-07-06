@@ -1,0 +1,16 @@
+---
+import PillerLayout from '../../layouts/PillerLayout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import SejaUmParceiroContentEs from '../../components/SejaUmParceiroContentEs.astro';
+
+const title = 'Sé un Socio';
+const description =
+	'Difunde gratis tus emprendimientos y asóciate con Viver Catarina. Promotoras, constructoras, inmobiliarias y agentes inmobiliarios en Santa Catarina.';
+---
+
+<PillerLayout lang="es" title={title} description={description} canonicalPath="/es/sea-socio">
+	<SiteHeader lang="es" breadcrumb="Sé un Socio" />
+	<SejaUmParceiroContentEs />
+	<SiteFooter lang="es" />
+</PillerLayout>

@@ -1,5 +1,27 @@
+---
+import { ui } from '../i18n/strings.mjs';
+import { localizedPath, ptPathFromEs, languageSwitcher } from '../i18n/routes.mjs';
+import { buildCitiesMenuHtml } from '../lib/footer-cities.mjs';
+
+const { lang = 'pt' } = Astro.props;
+const t = ui(lang);
+// Menu "Cidades" com o endereço (subdomínio) correto de cada cidade — mesma
+// fonte de dados do rodapé. Rótulo localizado (Cidades/Ciudades).
+const citiesMenuHtml = buildCitiesMenuHtml(t.nav.cities);
+const homeHref = localizedPath(lang, '/');
+const aboutHref = localizedPath(lang, '/quem-somos');
+const contactHref = localizedPath(lang, '/contato');
+const partnerHref = localizedPath(lang, '/seja-um-parceiro');
+
+// Seletor de idioma: computa a rota PT canônica desta página para gerar os
+// alternates PT/ES.
+const here = Astro.url.pathname;
+const ptPath = lang === 'es' ? ptPathFromEs(here) || '/' : here;
+const langs = languageSwitcher(lang, ptPath);
+---
+
 <!--********************************
-   		Code Start From Here 
+   		Code Start From Here
 	******************************** -->
 
     <!--==============================
@@ -10,75 +32,16 @@
   ============================== -->
     <div class="th-menu-wrapper">
         <div class="th-menu-area text-center">
-            <button class="th-menu-toggle" aria-label="Abrir menu"><i class="fas fa-times"></i></button>
+            <button class="th-menu-toggle" aria-label={t.aria.openMenu}><i class="fas fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo.svg" alt="Logotipo Viver Catarina" title="Viver Catarina" width="200" height="42"></a>
+                <a href={homeHref} aria-label={t.aria.homeLogo}><img src="/assets/img/logo.svg" alt="Logotipo Viver Catarina" title="Viver Catarina" width="200" height="42"></a>
             </div>
-            <nav class="th-mobile-menu" aria-label="Menu mobile">
+            <nav class="th-mobile-menu" aria-label={t.aria.mobileMenu}>
                 <ul>
-                    <li><a href="/">Início</a></li>
-                    <li><a href="/quem-somos">Quem Somos</a></li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Cidades</a>
-                        <ul class="sub-menu">
-                                <li class="menu-item-has-children">
-                                    <a href="#">Grande Florianópolis</a>
-                                    <ul class="sub-menu">
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Florianópolis</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">São José</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Palhoça</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Biguaçu</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Norte Catarinense</a>
-                                    <ul class="sub-menu">
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Joinville</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Jaraguá do Sul</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Navegantes</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">São Bento do Sul</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Vale do Itajaí</a>
-                                    <ul class="sub-menu">
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Blumenau</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Itajaí</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Balneário Camboriú</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Brusque</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Camboriú</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Itapema</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Rio do Sul</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Gaspar</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Indaial</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Sul Catarinense</a>
-                                    <ul class="sub-menu">
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Criciúma</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Tubarão</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Araranguá</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Içara</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Oeste Catarinense</a>
-                                    <ul class="sub-menu">
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Chapecó</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Concórdia</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">Serra / Planalto</a>
-                                    <ul class="sub-menu">
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Lages</a></li>
-                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Caçador</a></li>
-                                    </ul>
-                                </li>
-                        </ul>
-                    </li>
-                    <li><a href="/contato">Contato</a></li>
+                    <li><a href={homeHref}>{t.nav.home}</a></li>
+                    <li><a href={aboutHref}>{t.nav.about}</a></li>
+                    <Fragment set:html={citiesMenuHtml} />
+                    <li><a href={contactHref}>{t.nav.contact}</a></li>
                 </ul>
             </nav>
         </div>
@@ -91,15 +54,15 @@
             <div class="container">
                 <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
                     <div class="col-auto d-none d-lg-block">
-                        <nav class="header-links" aria-label="Contato e redes sociais"><ul aria-label="Contatos do site">
+                        <nav class="header-links" aria-label={t.aria.contactSocial}><ul aria-label={t.aria.siteContacts}>
                                 <li><i class="fa-solid fa-envelope"></i> <a href="mailto:contato@vivercatarina.com">contato@vivercatarina.com</a></li>
                                 <li><i class="fa-brands fa-whatsapp"></i> <a href="tel:+5548988105199" data-whatsapp-lead data-whatsapp-source="phone">(48) 98810-5199</a></li>
                             </ul>
                         </nav>
                     </div>
 
-                    <div class="col-auto">
-                        <nav class="header-links" aria-label="Contato e redes sociais"><ul aria-label="Contatos do site">
+                    <div class="col-auto header-top-right">
+                        <nav class="header-links" aria-label={t.aria.contactSocial}><ul aria-label={t.aria.siteContacts}>
                                 <li>
                                     <div class="th-social">
                                         <a href="https://www.facebook.com/vivercatarina" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -108,6 +71,15 @@
                                        </div>
                                 </li>
                                 </ul>
+                        </nav>
+                        <nav class="header-lang-switch" aria-label={t.aria.langSwitcher}>
+                            {langs.filter((l) => !l.current && l.href).map((l) => (
+                                <a
+                                    href={l.href}
+                                    hreflang={l.lang}
+                                    class="header-lang-switch__link"
+                                >{t.langSwitchLabel}</a>
+                            ))}
                         </nav>
                     </div>
                 </div>
@@ -120,82 +92,23 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="/" aria-label="Viver Catarina - página inicial"><img src="/assets/img/logo-white.svg" alt="Logotipo Viver Catarina" title="Viver Catarina" width="200" height="42"></a>
+                                <a href={homeHref} aria-label={t.aria.homeLogo}><img src="/assets/img/logo-white.svg" alt="Logotipo Viver Catarina" title="Viver Catarina" width="200" height="42"></a>
                             </div>
                         </div>
                         <div class="col-auto mx-auto">
-                            <nav class="main-menu d-none d-lg-inline-block" aria-label="Menu principal">
+                            <nav class="main-menu d-none d-lg-inline-block" aria-label={t.aria.mainMenu}>
                                 <ul>
-                                    <li><a href="/">Início</a></li>
-                                    <li><a href="/quem-somos">Quem Somos</a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Cidades</a>
-                                        <ul class="sub-menu">
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Grande Florianópolis</a>
-                                                    <ul class="sub-menu">
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Florianópolis</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">São José</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Palhoça</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Biguaçu</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Norte Catarinense</a>
-                                                    <ul class="sub-menu">
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Joinville</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Jaraguá do Sul</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Navegantes</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">São Bento do Sul</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Vale do Itajaí</a>
-                                                    <ul class="sub-menu">
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Blumenau</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Itajaí</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Balneário Camboriú</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Brusque</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Camboriú</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Itapema</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Rio do Sul</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Gaspar</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Indaial</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Sul Catarinense</a>
-                                                    <ul class="sub-menu">
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Criciúma</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Tubarão</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Araranguá</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Içara</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Oeste Catarinense</a>
-                                                    <ul class="sub-menu">
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Chapecó</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Concórdia</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Serra / Planalto</a>
-                                                    <ul class="sub-menu">
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Lages</a></li>
-                                                    <li><a href="https://vivercatarina.com" target="_blank" rel="noopener noreferrer">Caçador</a></li>
-                                                    </ul>
-                                                </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="/contato">Contato</a></li>
+                                    <li><a href={homeHref}>{t.nav.home}</a></li>
+                                    <li><a href={aboutHref}>{t.nav.about}</a></li>
+                                    <Fragment set:html={citiesMenuHtml} />
+                                    <li><a href={contactHref}>{t.nav.contact}</a></li>
                                 </ul>
                             </nav>
-                            <button type="button" class="th-menu-toggle d-block d-lg-none" aria-label="Abrir menu"><i class="fas fa-bars"></i></button>
+                            <button type="button" class="th-menu-toggle d-block d-lg-none" aria-label={t.aria.openMenu}><i class="fas fa-bars"></i></button>
                         </div>
                         <div class="col-auto d-none d-lg-block">
                             <div class="header-button">
-                                <a href="/seja-um-parceiro" class="th-btn sm radius">Seja um Parceiro</a>
+                                <a href={partnerHref} class="th-btn sm radius">{t.nav.partnerBtn}</a>
                             </div>
                         </div>
                 </div>
@@ -204,6 +117,31 @@
     </header>
 
 <style is:global>
+	/* Seletor de idioma discreto no topo do header. */
+	.header-top-right {
+		display: flex;
+		align-items: center;
+	}
+	.header-lang-switch {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		margin-left: 16px;
+		padding-left: 16px;
+		border-left: 1px solid rgba(255, 255, 255, 0.25);
+	}
+	.header-lang-switch__link {
+		font-size: 12px;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		line-height: 1;
+		text-decoration: none;
+		opacity: 0.7;
+	}
+	.header-lang-switch__link:hover {
+		opacity: 1;
+	}
+
 	/* Botão "Seja um Parceiro" (slot header-button, fora do .main-menu): estilo do fln. */
 	.header-button .th-btn {
 		border-radius: 0 !important;

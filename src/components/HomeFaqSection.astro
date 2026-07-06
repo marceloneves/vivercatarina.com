@@ -1,6 +1,11 @@
 ---
-const { items } = Astro.props;
+import { ui } from '../i18n/strings.mjs';
+import { localizedPath } from '../i18n/routes.mjs';
+
+const { items, lang = 'pt' } = Astro.props;
 const accordionId = 'homeFaqAccordion';
+const t = ui(lang);
+const contactHref = localizedPath(lang, '/contato');
 ---
 
 <section class="space overflow-hidden bg-smoke home-faq-section" id="home-faq" aria-labelledby="home-faq-title">
@@ -8,13 +13,12 @@ const accordionId = 'homeFaqAccordion';
 		<div class="row justify-content-between gy-4">
 			<div class="col-lg-5 col-xl-5">
 				<div class="title-area text-left">
-					<p class="sub-title"><span class="double-line"></span> Perguntas frequentes</p>
-					<h2 class="sec-title" id="home-faq-title">Dúvidas sobre o Portal Viver Catarina</h2>
+					<p class="sub-title"><span class="double-line"></span> {t.faq.subTitle}</p>
+					<h2 class="sec-title" id="home-faq-title">{t.faq.title}</h2>
 					<p class="sec-text">
-						Entenda o que é o portal, quais cidades e imóveis cobrimos em Santa Catarina e como
-						usar o site para comparar lançamentos e falar com corretores credenciados.
+						{t.faq.intro}
 					</p>
-					<a href="/contato" class="th-btn style3 fale-conosco-invert">Fale conosco</a>
+					<a href={contactHref} class="th-btn style3 fale-conosco-invert">{t.faq.cta}</a>
 				</div>
 			</div>
 			<div class="col-lg-7 col-xl-7">

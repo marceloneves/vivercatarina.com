@@ -1,0 +1,163 @@
+---
+const partnerHref = () => '/es/enviar-mensaje-alianza';
+---
+
+<section class="space seja-parceiro-section" aria-labelledby="seja-parceiro-intro">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-9 text-center">
+				<h1 class="sec-title mb-3" id="seja-parceiro-intro">
+					Sé un <span class="bairro-name-accent">Socio</span>
+				</h1>
+				<p class="box-text">
+					Viver Catarina es un portal de inmuebles sobre plano en Santa Catarina creado para
+					conectar a quien construye y a quien vende con quien quiere comprar. Elige abajo tu
+					perfil y descubre cómo formar parte.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="space-bottom seja-parceiro-block" aria-labelledby="parceiro-incorporadoras">
+	<div class="container">
+		<div class="seja-parceiro-card">
+			<span class="seja-parceiro-card__tag">Para quien construye</span>
+			<h2 class="box-title" id="parceiro-incorporadoras">Promotoras Inmobiliarias y Constructoras</h2>
+			<p>
+				Promociona gratuitamente tus desarrollos en Viver Catarina. El portal crea
+				una página completa para cada lanzamiento, con fotos, planos, valores, ubicación
+				y datos de la constructora, optimizada para aparecer en Google y ser encontrada por quien
+				realmente busca inmueble sobre plano en Santa Catarina.
+			</p>
+			<p>
+				Sin costo de publicación y sin exclusividad: sigues vendiendo por tus
+				canales y además ganas un punto más de exposición cualificado. Cuanto más completo sea el
+				material enviado, mejor será el desempeño de la página en las búsquedas.
+			</p>
+			<ul class="seja-parceiro-list">
+				<li><strong>Publicación gratuita</strong> de tus desarrollos</li>
+				<li>Página individual por lanzamiento, pensada para <strong>SEO</strong></li>
+				<li>Presentación de la marca, historial y diferenciales de la constructora</li>
+			</ul>
+			<a class="th-btn" href={partnerHref('incorporadora')}>
+				Quiero promocionar mis desarrollos
+			</a>
+		</div>
+	</div>
+</section>
+
+<section class="space-bottom seja-parceiro-block seja-parceiro-block--alt" aria-labelledby="parceiro-imobiliarias">
+	<div class="container">
+		<div class="seja-parceiro-card">
+			<span class="seja-parceiro-card__tag">Para inmobiliarias</span>
+			<h2 class="box-title" id="parceiro-imobiliarias">Inmobiliarias</h2>
+			<p>
+				Viver Catarina establece alianzas con inmobiliarias para <strong>generar leads</strong>
+				de personas interesadas en inmuebles sobre plano en Santa Catarina. El portal atrae la
+				demanda a través de la búsqueda orgánica y encamina los contactos a las inmobiliarias socias
+				para que trabajen la atención y el cierre.
+			</p>
+			<p>
+				Es una forma de ampliar tu embudo de ventas con contactos que ya llegan buscando
+				lanzamiento, sin aumentar tu inversión en medios. Las condiciones de la alianza se
+				acuerdan caso a caso, según la cartera y la región de actuación.
+			</p>
+			<ul class="seja-parceiro-list">
+				<li>Alianza para <strong>generación de leads</strong> de lanzamientos</li>
+				<li>Demanda proveniente de la búsqueda orgánica del portal</li>
+				<li>Contactos encaminados al equipo de la inmobiliaria</li>
+				<li>Condiciones acordadas según cartera y región</li>
+			</ul>
+			<a class="th-btn" href={partnerHref('imobiliaria')}>
+				Quiero ser inmobiliaria socia
+			</a>
+		</div>
+	</div>
+</section>
+
+<section class="space-bottom seja-parceiro-block" aria-labelledby="parceiro-corretores">
+	<div class="container">
+		<div class="seja-parceiro-card">
+			<span class="seja-parceiro-card__tag">Para agentes</span>
+			<h2 class="box-title" id="parceiro-corretores">Agentes Inmobiliarios</h2>
+			<p>
+				El portal también puede tener alianza con <strong>agentes inmobiliarios</strong>
+				acreditados en el CRECI. Si trabajas con lanzamientos en Santa Catarina y quieres recibir
+				oportunidades de clientes que buscan inmueble sobre plano, Viver Catarina puede ser
+				un canal más de captación para tu trabajo.
+			</p>
+			<p>
+				Los leads generados por el portal se distribuyen entre los agentes socios, que se encargan
+				de la atención, las visitas y la negociación. Habla con el equipo para entender cómo
+				participar y qué desarrollos están disponibles para la alianza.
+			</p>
+			<ul class="seja-parceiro-list">
+				<li>Recepción de <strong>oportunidades de clientes</strong></li>
+				<li>Enfoque en lanzamientos e inmuebles sobre plano de Santa Catarina</li>
+				<li>Atención y negociación conducidas por ti</li>
+				<li>Necesario registro activo en el <strong>CRECI</strong></li>
+			</ul>
+			<a class="th-btn" href={partnerHref('corretor')}>
+				Quiero ser agente socio
+			</a>
+		</div>
+	</div>
+</section>
+
+<style>
+	.seja-parceiro-block--alt {
+		background-color: var(--smoke-color, #f6f6f8);
+	}
+
+	.seja-parceiro-card {
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 40px;
+		border: 1px solid var(--black-color);
+		background: var(--white-color);
+	}
+
+	.seja-parceiro-card__tag {
+		display: inline-block;
+		margin-bottom: 12px;
+		padding: 6px 12px;
+		background: var(--theme-color);
+		color: var(--title-color);
+		font-size: 13px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+	}
+
+	.seja-parceiro-card .box-title {
+		margin-bottom: 16px;
+	}
+
+	.seja-parceiro-card p {
+		margin-bottom: 14px;
+		line-height: 1.7;
+		font-size: 18px;
+	}
+
+	.seja-parceiro-list {
+		margin: 0 0 24px;
+		padding-left: 20px;
+	}
+
+	.seja-parceiro-list li {
+		margin-bottom: 8px;
+		line-height: 1.6;
+		font-size: 18px;
+	}
+
+	.seja-parceiro-card .th-btn {
+		border-radius: 0 !important;
+	}
+
+	@media (max-width: 575px) {
+		.seja-parceiro-card {
+			padding: 24px;
+		}
+	}
+</style>

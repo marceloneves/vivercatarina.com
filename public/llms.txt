@@ -38,6 +38,12 @@ Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
 - [Imbituba](https://imbituba.vivercatarina.com): lançamentos e imóveis na planta em Imbituba
 - [Chapecó](https://chapeco.vivercatarina.com): lançamentos e imóveis na planta em Chapecó
 
+## Español (versión en /es)
+
+- [Inicio](https://vivercatarina.com/es/): hub con las ciudades de Santa Catarina
+- [Quiénes Somos](https://vivercatarina.com/es/quienes-somos): misión, diferenciales y contacto
+- [Contacto](https://vivercatarina.com/es/contacto): formulario e información de contacto
+
 ## Optional
 
 - [Política de Privacidade](https://vivercatarina.com/privacidade)

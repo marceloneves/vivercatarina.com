@@ -1,14 +1,13 @@
 ---
-import {
-	getHomeHeroBackgroundUrl,
-	HOME_HEADLINE_HIGHLIGHT,
-	HOME_HEADLINE_PREFIX,
-} from '../lib/home-page.mjs';
+import { getHomeHeroBackgroundUrl } from '../lib/home-page.mjs';
+import { ui } from '../i18n/strings.mjs';
 
+const { lang = 'pt' } = Astro.props;
+const t = ui(lang);
 const heroBackgroundUrl = getHomeHeroBackgroundUrl();
 ---
 
-<section class="th-hero-wrapper hero-1" id="hero" aria-label="Destaque principal">
+<section class="th-hero-wrapper hero-1" id="hero" aria-label={t.aria.heroMain}>
 	<div
 		class="hero-inner hero-style1 background-image"
 		style={`background-image: url("${heroBackgroundUrl}")`}
@@ -18,11 +17,11 @@ const heroBackgroundUrl = getHomeHeroBackgroundUrl();
 				<div class="col-xxl-7 col-xl-7 col-lg-8">
 					<div class="hero-1-content pe-xl-4">
 						<h1 class="hero-title">
-							{HOME_HEADLINE_PREFIX}<br />
-							<span class="title2 text-theme">{HOME_HEADLINE_HIGHLIGHT}</span>
+							{t.hero.prefix}<br />
+							<span class="title2 text-theme">{t.hero.highlight}</span>
 						</h1>
 						<p class="hero-subtitle">
-							O maior portal de lançamentos imobiliários de Santa Catarina
+							{t.hero.subtitle}
 						</p>
 					</div>
 				</div>

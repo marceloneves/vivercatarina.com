@@ -1,0 +1,12 @@
+---
+import PillerLayout from '../../layouts/PillerLayout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import CookiePolicyContentEs from '../../components/CookiePolicyContentEs.astro';
+---
+
+<PillerLayout lang="es" title="Política de Cookies del Portal | Viver Catarina" description="Política de Cookies del portal Viver Catarina: qué son las cookies, cuáles utilizamos, cookies de terceros y cómo gestionarlas o desactivarlas en el navegador." canonicalPath="/es/politica-de-cookies" stylesheets={['/css/internal-links.css']} disableEffects>
+	<SiteHeader lang="es" breadcrumb="Política de Cookies" />
+	<CookiePolicyContentEs />
+	<SiteFooter lang="es" />
+</PillerLayout>

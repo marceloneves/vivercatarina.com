@@ -1,7 +1,15 @@
 ---
+import { ui } from '../i18n/strings.mjs';
 
-const { neighborhoods, cityRegions = [], variant = 'home' } = Astro.props;
+const { neighborhoods, cityRegions = [], variant = 'home', lang = 'pt' } = Astro.props;
 const isListing = variant === 'listing';
+const t = ui(lang);
+
+// Lista única de todas as cidades, ordenada alfabeticamente (regiões ocultas
+// temporariamente — cards exibidos num só grid de 4 por linha).
+const allCities = cityRegions
+	.flatMap((group) => group.cities)
+	.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
 ---
 
 {
@@ -15,13 +23,13 @@ const isListing = variant === 'listing';
 					<div class="row justify-content-between align-items-center">
 						<div class="col-md">
 							<h1 class="box-title text-start bairro-listing-title" id="home-bairros-title">
-								Bairros em Florianópolis
+								{t.bairros.listingTitle}
 							</h1>
 						</div>
 					</div>
 				</div>
 				<p class="box-text bairros-listing-lead mb-4">
-					Encontre o lançamento imobiliário em Florianópolis ideal para você
+					{t.bairros.listingLead}
 				</p>
 				<div class="row gy-30 justify-content-center">
 					{
@@ -65,50 +73,43 @@ const isListing = variant === 'listing';
 						<div class="title-area text-center">
 							<p class="sub-title">
 								<span class="double-line" />
-								Imóveis na planta
+								{t.bairros.subTitle}
 							</p>
 							<h2 class="sec-title mb-2 home-headline" id="home-bairros-title">
-								Encontre seu Imóvel em<br />
-								<span class="title2 text-theme home-headline-italic">Santa Catarina</span>
+								{t.bairros.titlePrefix}<br />
+								<span class="title2 text-theme home-headline-italic">{t.bairros.highlight}</span>
 							</h2>
 							<p class="box-text">
-								Encontre lançamentos imobiliários nas principais cidades de Santa Catarina
+								{t.bairros.text}
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="container pb-5">
-				{
-					cityRegions.map((group) => (
-						<div class="home-region-group">
-							<h3 class="home-region-title">{group.region}</h3>
-							<ul class="row gy-30 justify-content-start home-cities-list" aria-label={`Cidades — ${group.region}`}>
-								{group.cities.map((item) => (
-									<li class="col-xl-3 col-lg-4 col-md-6">
-										<article class="gallery-card h-100">
-											<a href={item.href} class="gallery-card-link" target="_blank" rel="noopener noreferrer">
-												<div class="gallery-img">
-													<img
-														src={item.imageUrl}
-														alt={`Vista aérea da cidade de ${item.name}, litoral de Santa Catarina`}
-														title={`${item.name}, SC`}
-														loading="lazy"
-													/>
-												</div>
-												<div class="gallery-content">
-													<div class="gallery-content-wrapper">
-														<h4 class="box-title">{item.name}</h4>
-													</div>
-												</div>
-											</a>
-										</article>
-									</li>
-								))}
-							</ul>
-						</div>
-					))
-				}
+				<ul class="row gy-30 justify-content-start home-cities-list" aria-label={t.nav.cities}>
+					{allCities.map((item) => (
+						<li class="col-xl-3 col-lg-4 col-md-6">
+							<article class="gallery-card h-100">
+								<a href={item.href} class="gallery-card-link" target="_blank" rel="noopener noreferrer">
+									<div class="gallery-img">
+										<img
+											src={item.imageUrl}
+											alt={t.cityImgAlt(item.name)}
+											title={t.cityImgTitle(item.name)}
+											loading="lazy"
+										/>
+									</div>
+									<div class="gallery-content">
+										<div class="gallery-content-wrapper">
+											<h4 class="box-title">{item.name}</h4>
+										</div>
+									</div>
+								</a>
+							</article>
+						</li>
+					))}
+				</ul>
 			</div>
 		</section>
 	)

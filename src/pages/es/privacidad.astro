@@ -1,0 +1,12 @@
+---
+import PillerLayout from '../../layouts/PillerLayout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import PrivacyPolicyContentEs from '../../components/PrivacyPolicyContentEs.astro';
+---
+
+<PillerLayout lang="es" title="Política de Privacidad y LGPD | Viver Catarina" description="Descubre cómo el portal Viver Catarina trata tus datos personales conforme a la LGPD: datos recopilados, finalidad, compartición, retención y tus derechos." canonicalPath="/es/privacidad" stylesheets={['/css/internal-links.css']} disableEffects>
+	<SiteHeader lang="es" breadcrumb="Política de Privacidad" />
+	<PrivacyPolicyContentEs />
+	<SiteFooter lang="es" />
+</PillerLayout>

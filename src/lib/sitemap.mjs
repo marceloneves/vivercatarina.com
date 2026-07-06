@@ -30,12 +30,20 @@ export function getPagesSitemapEntries() {
 	const lastmod = new Date().toISOString().slice(0, 10);
 
 	return [
+		// PT (raiz)
 		'/',
 		'/quem-somos',
 		'/contato',
 		'/privacidade',
 		'/termos',
 		'/politica-de-cookies',
+		// ES (/es)
+		'/es',
+		'/es/quienes-somos',
+		'/es/contacto',
+		'/es/privacidad',
+		'/es/terminos',
+		'/es/politica-de-cookies',
 	].map((path) => buildSitemapEntry(path, { lastmod }));
 }
 
@@ -126,6 +134,12 @@ Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
 ## Cidades
 
 ${cities}
+
+## Español (versión en /es)
+
+- [Inicio](${SITE_URL}/es/): hub con las ciudades de Santa Catarina
+- [Quiénes Somos](${SITE_URL}/es/quienes-somos): misión, diferenciales y contacto
+- [Contacto](${SITE_URL}/es/contacto): formulario e información de contacto
 
 ## Optional
 

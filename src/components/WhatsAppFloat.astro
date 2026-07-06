@@ -1,4 +1,8 @@
 ---
+import { ui } from '../i18n/strings.mjs';
+
+const { lang = 'pt' } = Astro.props;
+const t = ui(lang);
 ---
 
 <a
@@ -6,7 +10,7 @@
 	class="whatsapp-float"
 	data-whatsapp-lead
 	data-whatsapp-source="float"
-	aria-label="Falar no WhatsApp"
+	aria-label={t.whatsapp.float}
 	role="button"
 >
 	<span class="whatsapp-float__pulse" aria-hidden="true"></span>

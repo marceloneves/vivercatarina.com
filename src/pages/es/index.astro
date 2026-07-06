@@ -1,0 +1,25 @@
+---
+import PillerLayout from '../../layouts/PillerLayout.astro';
+import HomeHeader from '../../components/HomeHeader.astro';
+import HomeFooter from '../../components/HomeFooter.astro';
+import HomeHeroSection from '../../components/HomeHeroSection.astro';
+import HomeBairrosSection from '../../components/HomeBairrosSection.astro';
+import HomeFaqSection from '../../components/HomeFaqSection.astro';
+import { buildHomeFaqSchema, getHomeFaqItems } from '../../lib/home-faq.mjs';
+import { loadHomeCityCardsByRegion } from '../../lib/footer-cities.mjs';
+
+const cityRegions = loadHomeCityCardsByRegion();
+const homeFaqItems = getHomeFaqItems('es');
+const homeFaqSchema = buildHomeFaqSchema('es');
+---
+
+<PillerLayout lang="es" title="Inicio" description="Viver Catarina es el portal de lanzamientos inmobiliarios de Santa Catarina: compara inmuebles sobre plano en las 23 mayores ciudades y habla con agentes inmobiliarios." canonicalPath="/es/" bodyClass="home-page" disableEffects>
+	<Fragment slot="head">
+		<script type="application/ld+json" set:html={JSON.stringify(homeFaqSchema)} />
+	</Fragment>
+	<HomeHeader lang="es" />
+	<HomeHeroSection lang="es" />
+	<HomeBairrosSection cityRegions={cityRegions} lang="es" />
+	<HomeFaqSection items={homeFaqItems} lang="es" />
+	<HomeFooter lang="es" />
+</PillerLayout>

@@ -1,16 +1,24 @@
 ---
 // Aviso LGPD fixo no rodapé. Dispensável, memoriza aceite em localStorage.
+import { ui } from '../i18n/strings.mjs';
+import { localizedPath } from '../i18n/routes.mjs';
+
+const { lang = 'pt' } = Astro.props;
+const t = ui(lang);
+const termsHref = localizedPath(lang, '/termos');
+const privacyHref = localizedPath(lang, '/privacidade');
+const cookiesHref = localizedPath(lang, '/politica-de-cookies');
 ---
 
-<div class="consent-banner" id="consent-banner" role="dialog" aria-live="polite" aria-label="Aviso de privacidade" hidden>
+<div class="consent-banner" id="consent-banner" role="dialog" aria-live="polite" aria-label={t.consent.aria} hidden>
 	<div class="consent-banner__inner">
 		<p class="consent-banner__text">
-			Ao continuar navegando, você concorda com nossos
-			<a href="/termos">Termos de Uso</a>, a
-			<a href="/privacidade">Política de Privacidade</a> e a
-			<a href="/politica-de-cookies">Política de Cookies</a>.
+			{t.consent.text}
+			<a href={termsHref}>{t.footer.linkTerms}</a>{t.consent.textMid1}
+			<a href={privacyHref}>{t.footer.linkPrivacy}</a>{t.consent.textMid2}
+			<a href={cookiesHref}>{t.footer.linkCookies}</a>.
 		</p>
-		<button type="button" class="consent-banner__btn" id="consent-accept">Aceitar</button>
+		<button type="button" class="consent-banner__btn" id="consent-accept">{t.consent.accept}</button>
 	</div>
 </div>
 

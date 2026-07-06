@@ -1,0 +1,256 @@
+---
+import {
+	SITE_EMAIL,
+	SITE_NAME,
+	SITE_PHONE_DISPLAY,
+	SITE_WHATSAPP_NUMBER,
+} from '../lib/site-contact.mjs';
+import { applyGlossaryInlineLinks } from '../lib/glossary-content-links.mjs';
+
+// Página quem-somos não deve ter links internos de glossário no corpo.
+function linkify(text) {
+	return text;
+}
+
+const differentiators = [
+	{
+		title: 'Enfoque exclusivo en SC',
+		text: linkify(
+			'No somos un portal nacional que trata a Santa Catarina como un estado más. Somos catarinenses, conocemos cada ciudad que cubrimos y entendemos el mercado local como nadie.',
+		),
+		icon: '/assets/img/icon/about-1-1.svg',
+	},
+	{
+		title: 'Información de calidad',
+		text: linkify(
+			`Cada desarrollo registrado en ${SITE_NAME} pasa por nuestra curaduría. Planos, precios, destacados y ubicación — todo verificado y presentado de forma clara.`,
+		),
+		icon: '/assets/img/icon/about-1-3.svg',
+	},
+	{
+		title: 'Tecnología al servicio del comprador',
+		text: linkify(
+			'Usamos inteligencia artificial para mantener la información siempre actualizada y para entregar al comprador exactamente lo que necesita saber antes de tomar una decisión.',
+		),
+		icon: '/assets/img/icon/about-1-4.svg',
+	},
+	{
+		title: 'Cobertura de las 23 ciudades más grandes',
+		text: linkify(
+			'De Joinville a Criciúma, de Balneário Camboriú a Chapecó — cubrimos las 23 ciudades más grandes de Santa Catarina con páginas dedicadas, información local y lanzamientos verificados.',
+		),
+		icon: '/assets/img/icon/about-3-1.svg',
+	},
+];
+
+const stats = [
+	{ value: '23', label: 'ciudades cubiertas en SC' },
+	{ value: '6', label: 'regiones del estado' },
+	{ value: '3', label: 'categorías de inmueble' },
+	{ value: '1', label: 'misión: conectarte con tu próximo hogar' },
+];
+
+const introParagraphs = [
+	linkify(
+		`El <strong>${SITE_NAME}</strong> nació de la visión de que encontrar un lanzamiento de calidad en Florianópolis merecía algo mejor que información genérica y desactualizada. Reunimos una curaduría cuidadosa y tecnología para presentar cada desarrollo con claridad, directo para quien busca el inmueble ideal en la ciudad.`,
+	),
+	'Somos un equipo de profesionales que conoce Santa Catarina de cerca — sus barrios, sus constructoras, sus oportunidades. Sabemos que cada ciudad tiene su ritmo, su perfil de comprador y sus lanzamientos con potencial real. Y fue exactamente esa visión local la que nos motivó a crear el mayor portal especializado en lanzamientos inmobiliarios del estado.',
+];
+
+const missionText = linkify(
+	'Conectar a quien quiere comprar un inmueble nuevo en Florianópolis con agentes inmobiliarios e inmobiliarias acreditados en el CRECI, con información completa, transparente y actualizada sobre cada lanzamiento de la ciudad.',
+);
+
+const partnersText = linkify(
+	`El ${SITE_NAME} es el canal ideal para difundir tu lanzamiento a compradores calificados en todo el estado.`,
+);
+
+const contactIntroText = linkify(
+	'Ya seas un comprador buscando el inmueble ideal o una promotora inmobiliaria que quiere difundir un lanzamiento, estamos aquí para ayudar.',
+);
+---
+
+<section class="about-1-wrapper space-top space-bottom overflow-hidden" id="about-sec" aria-labelledby="about-intro-title">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-10 col-lg-11">
+				<div class="title-area text-center mb-40">
+					<p class="sub-title"><span class="double-line"></span> Quiénes Somos</p>
+					<h1 class="sec-title" id="about-intro-title">Vive lo mejor de Santa Catarina</h1>
+				</div>
+				<div class="about-page-intro text-center">
+					<p class="sec-text mb-4" set:html={introParagraphs[0]} />
+					<p class="sec-text mb-0" set:html={introParagraphs[1]} />
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="space overflow-hidden bg-smoke" aria-labelledby="about-mission-title">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-8 col-lg-10 text-center">
+				<div class="title-area mb-30">
+					<p class="sub-title"><span class="double-line"></span> Propósito</p>
+					<h2 class="sec-title" id="about-mission-title">Nuestra misión</h2>
+				</div>
+				<p class="sec-text mb-0" set:html={missionText} />
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="why-sec-2 space overflow-hidden about-differentiators" id="why-sec" aria-labelledby="about-diff-title">
+	<div class="container">
+		<div class="row justify-content-center mb-40">
+			<div class="col-xl-8 text-center">
+				<div class="title-area mb-2">
+					<p class="sub-title"><span class="double-line"></span> Diferenciales</p>
+					<h2 class="sec-title" id="about-diff-title">Qué nos diferencia</h2>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-xl-10 col-lg-11">
+				<div class="row gy-30 gx-4 gx-xl-5 about-differentiators-grid">
+					{
+						differentiators.map((item) => (
+							<div class="col-xl-6">
+								<div class="about-1-item h-100">
+									<div class="icon">
+										<img src={item.icon} alt={`Icono ilustrativo: ${item.title}`} title={item.title} />
+									</div>
+									<div class="content">
+										<h3 class="box-title">{item.title}</h3>
+										<p class="box-text" set:html={item.text} />
+									</div>
+								</div>
+							</div>
+						))
+					}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="counter-sec1 space overflow-hidden" aria-labelledby="about-stats-title" data-bg-src="/assets/img/hero/vivercatarina-florianopolis.webp" style="background-image:url('/assets/img/hero/vivercatarina-florianopolis.webp')">
+	<div class="container">
+		<div class="row justify-content-center mb-40">
+			<div class="col-xl-8 text-center">
+				<div class="title-area mb-0">
+					<p class="sub-title text-white"><span class="double-line"></span> En números</p>
+					<h2 class="sec-title text-white" id="about-stats-title">Nuestros números</h2>
+				</div>
+			</div>
+		</div>
+		<div class="counter-card-wrap style2">
+			{
+				stats.map((stat, index) => (
+					<>
+						{index > 0 && <div class="divider" />}
+						<div class="counter-card">
+							<div class="media-body text-center">
+								<p class="box-number">
+									<span>{stat.value}</span>
+								</p>
+								<p class="box-text">{stat.label}</p>
+							</div>
+						</div>
+					</>
+				))
+			}
+		</div>
+	</div>
+</section>
+
+<section class="space overflow-hidden" aria-labelledby="about-partners-title">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-8 col-lg-10 text-center">
+				<div class="title-area mb-30">
+					<p class="sub-title"><span class="double-line"></span> Alianzas</p>
+					<h2 class="sec-title" id="about-partners-title">Para promotoras inmobiliarias y constructoras</h2>
+				</div>
+				<p class="sec-text mb-4" set:html={partnersText} />
+				<a href="/es/contacto" class="th-btn style2 pill">Contáctanos</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	.about-page-intro .sec-text {
+		max-width: 820px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.about-differentiators .about-differentiators-grid {
+		padding-inline: clamp(0.75rem, 2.5vw, 2.5rem);
+	}
+
+	.about-differentiators .about-1-item {
+		padding: 1.5rem 1.25rem;
+	}
+
+	@media (min-width: 1200px) {
+		.about-differentiators .about-1-item {
+			padding: 1.75rem 1.5rem;
+		}
+	}
+
+	#about-contact .contact-feature_link {
+		color: inherit;
+	}
+
+	.counter-sec1 .counter-card .box-text {
+		max-width: 180px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.th-btn {
+		border-radius: 0;
+	}
+
+	.th-btn::before {
+		border-radius: 0;
+	}
+
+	/* No hover o fundo do botão ficava branco (sumia na seção branca):
+	   mantém a cor da marca. */
+	.th-btn.style2:hover::before,
+	.th-btn.style2:hover::after {
+		background-color: var(--theme-color);
+	}
+
+	/* Hero de Florianópolis é foto clara: overlay escuro + texto branco
+	   para o bloco "Nossos números" ficar legível. */
+	.counter-sec1 {
+		position: relative;
+	}
+
+	.counter-sec1::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		z-index: 0;
+		background: rgba(0, 0, 0, 0.55);
+		pointer-events: none;
+	}
+
+	.counter-sec1 > .container {
+		position: relative;
+		z-index: 1;
+	}
+
+	.counter-sec1 .title-area .sub-title,
+	.counter-sec1 .title-area .sec-title,
+	.counter-sec1 .counter-card .box-number,
+	.counter-sec1 .counter-card .box-number span,
+	.counter-sec1 .counter-card .box-text {
+		color: #fff !important;
+	}
+</style>

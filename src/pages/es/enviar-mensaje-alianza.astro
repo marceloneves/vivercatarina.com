@@ -1,0 +1,16 @@
+---
+import PillerLayout from '../../layouts/PillerLayout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import PartnerContactFormEs from '../../components/PartnerContactFormEs.astro';
+
+const title = 'Quiero ser socio';
+const description =
+	'Habla con Viver Catarina para ser socio: promotoras, constructoras, inmobiliarias y agentes de inmuebles sobre plano en Santa Catarina.';
+---
+
+<PillerLayout lang="es" title={title} description={description} canonicalPath="/es/enviar-mensaje-alianza">
+	<SiteHeader lang="es" breadcrumb="Quiero ser socio" />
+	<PartnerContactFormEs />
+	<SiteFooter lang="es" />
+</PillerLayout>

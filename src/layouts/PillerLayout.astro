@@ -9,6 +9,14 @@ import {
 	SITE_WHATSAPP_NUMBER,
 } from '../lib/site-contact.mjs';
 import { resolvePageSeo } from '../lib/site-seo.mjs';
+import {
+	htmlLang,
+	ogLocale,
+	schemaLang,
+	hreflangAlternates,
+	ptPathFromEs,
+} from '../i18n/routes.mjs';
+import { ui } from '../i18n/strings.mjs';
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 
@@ -28,6 +36,11 @@ const inlineBaseCss = ['public/assets/css/bootstrap.min.css', 'public/assets/css
 	.join('\n')
 	// @charset só é válido em folha externa; ao inline no <style> quebra a validação.
 	.replace(/@charset\s+"[^"]*";/gi, '');
+
+// Idioma da página (default PT). Controla <html lang>, og:locale, hreflang,
+// inLanguage do schema e textos do chrome injetado pelo layout.
+const lang = Astro.props.lang ?? 'pt';
+const t = ui(lang);
 
 // Organization + WebSite sitewide. Resolve os @id (#organization / #website)
 // referenciados por páginas como quem-somos. sameAs vazio até haver perfis
@@ -56,7 +69,7 @@ const organizationSchema = {
 			'@id': `${SITE_URL}/#website`,
 			url: SITE_URL,
 			name: SITE_NAME,
-			inLanguage: 'pt-BR',
+			inLanguage: schemaLang(lang),
 			publisher: { '@id': `${SITE_URL}/#organization` },
 		},
 	],
@@ -99,14 +112,24 @@ const seo = resolvePageSeo({
 	noindex,
 });
 
-const isHomePage = Astro.url.pathname === '/' || Astro.url.pathname === '/index.html';
+// Caminho PT canônico equivalente a esta página (para hreflang). Em páginas ES
+// deriva do path ES; em PT é o próprio canonicalPath/pathname.
+const ptCanonicalPath =
+	lang === 'es'
+		? ptPathFromEs(canonicalPath || Astro.url.pathname) || '/'
+		: canonicalPath || Astro.url.pathname;
+// Alternates pt-BR / es / x-default. Vazio para rotas sem par (ex.: 404).
+const hreflangs = hreflangAlternates(ptCanonicalPath);
+
+const HOME_PATHS = new Set(['/', '/index.html', '/es', '/es/', '/es/index.html']);
+const isHomePage = HOME_PATHS.has(Astro.url.pathname);
 const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-header']
 	.filter(Boolean)
 	.join(' ');
 ---
 
 <!doctype html>
-<html class="no-js" lang="pt-BR">
+<html class="no-js" lang={htmlLang(lang)}>
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -119,7 +142,10 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<meta name="generator" content={Astro.generator} />
 		<link rel="canonical" href={seo.canonicalUrl} />
-		<meta property="og:locale" content="pt_BR" />
+		{hreflangs.map(({ hreflang, href }) => (
+				<link rel="alternate" hreflang={hreflang} href={href} />
+			))}
+			<meta property="og:locale" content={ogLocale(lang)} />
 		<meta property="og:site_name" content={SITE_NAME} />
 		<meta property="og:title" content={seo.ogTitle} />
 		<meta property="og:description" content={seo.ogDescription} />
@@ -192,11 +218,11 @@ const resolvedBodyClass = [bodyClass, isHomePage ? 'home-page' : 'site-dark-head
 		<slot name="head" />
 	</head>
 	<body class={resolvedBodyClass}>
-		<a class="skip-link" href="#conteudo-principal">Ir para o conteúdo</a>
+		<a class="skip-link" href="#conteudo-principal">{t.skipLink}</a>
 		<slot />
-		<ConsentBanner />
-		<WhatsAppLeadGate />
-		<WhatsAppFloat />
+		<ConsentBanner lang={lang} />
+		<WhatsAppLeadGate lang={lang} />
+		<WhatsAppFloat lang={lang} />
 
 		{/* Hub simples: só JS vanilla (menu, sticky, acordeão). Sem jQuery,
 		   bootstrap.js, swiper, gsap etc. — o hub não usa nada disso. */}

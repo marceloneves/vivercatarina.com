@@ -62,7 +62,7 @@ ${regionsHtml}
 `;
 }
 
-export function buildCitiesMenuHtml() {
+export function buildCitiesMenuHtml(citiesLabel = 'Cidades') {
 	const regions = listFooterCitiesByRegion();
 	const regionsHtml = regions
 		.map(({ region, cities }) => {
@@ -83,7 +83,7 @@ export function buildCitiesMenuHtml() {
 		.join('\n');
 
 	return `<li class="menu-item-has-children">
-                                        <a href="#">Cidades</a>
+                                        <a href="#">${citiesLabel}</a>
                                         <ul class="sub-menu">
 ${regionsHtml}
                                         </ul>
@@ -121,7 +121,7 @@ export function loadHomeCityCards() {
 }
 
 // Cidades ocultas temporariamente só nos cards da home (footer/menu mantêm).
-const HOME_HIDDEN_CITIES = new Set(['Tijucas', 'Penha', 'Camboriú']);
+const HOME_HIDDEN_CITIES = new Set();
 
 export function loadHomeCityCardsByRegion() {
 	const regions = listFooterCitiesByRegion();

@@ -1,0 +1,21 @@
+---
+import PillerLayout from '../../layouts/PillerLayout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+---
+
+<PillerLayout lang="es" title="Página no encontrada" noindex disableEffects>
+	<SiteHeader lang="es" />
+	<section class="bg-smoke space">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-7 text-center">
+					<h1 class="error-title">Error 404</h1>
+					<p class="error-text">La página que buscas no existe o fue movida.</p>
+					<a href="/es/" class="th-btn">Volver al inicio</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<SiteFooter lang="es" />
+</PillerLayout>

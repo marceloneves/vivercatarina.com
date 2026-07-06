@@ -1,5 +1,20 @@
 ---
 import { SITE_NAME, SITE_WHATSAPP_NUMBER } from '../lib/site-contact.mjs';
+import { ui } from '../i18n/strings.mjs';
+
+const { lang = 'pt' } = Astro.props;
+const t = ui(lang);
+
+// Strings do idioma passadas ao <script>. Como não é possível serializar
+// funções via define:vars, as mensagens vão como templates com marcadores
+// (__NAME__, __PROPERTY__) que o JS substitui em runtime. O nome do site já
+// é embutido aqui (fixo no build).
+const leadI18n = {
+	errName: t.whatsapp.errName,
+	errPhone: t.whatsapp.errPhone,
+	msgGeneric: t.whatsapp.msgTemplate('__NAME__', SITE_NAME),
+	msgProperty: t.whatsapp.msgTemplateProperty('__NAME__', '__PROPERTY__'),
+};
 ---
 
 <div
@@ -14,33 +29,33 @@ import { SITE_NAME, SITE_WHATSAPP_NUMBER } from '../lib/site-contact.mjs';
 		aria-modal="true"
 		aria-labelledby="whatsapp-lead-title"
 	>
-		<button type="button" class="whatsapp-lead-modal__close" data-whatsapp-lead-close aria-label="Fechar">
+		<button type="button" class="whatsapp-lead-modal__close" data-whatsapp-lead-close aria-label={t.whatsapp.close}>
 			&times;
 		</button>
-		<h2 id="whatsapp-lead-title" class="whatsapp-lead-modal__title">Falar no WhatsApp</h2>
-		<p class="whatsapp-lead-modal__text">Informe seus dados para continuarmos no WhatsApp.</p>
+		<h2 id="whatsapp-lead-title" class="whatsapp-lead-modal__title">{t.whatsapp.gateTitle}</h2>
+		<p class="whatsapp-lead-modal__text">{t.whatsapp.gateIntro}</p>
 		<form id="whatsapp-lead-form" class="whatsapp-lead-modal__form" novalidate>
-			<label for="whatsapp-lead-name">Nome</label>
+			<label for="whatsapp-lead-name">{t.whatsapp.nameLabel}</label>
 			<input
 				id="whatsapp-lead-name"
 				name="name"
 				type="text"
 				autocomplete="name"
-				placeholder="Seu nome"
+				placeholder={t.whatsapp.namePh}
 				required
 			/>
-			<label for="whatsapp-lead-phone">Telefone</label>
+			<label for="whatsapp-lead-phone">{t.whatsapp.phoneLabel}</label>
 			<input
 				id="whatsapp-lead-phone"
 				name="phone"
 				type="tel"
 				autocomplete="tel"
 				inputmode="tel"
-				placeholder="+55 48 98810-5199"
+				placeholder={t.whatsapp.phonePh}
 				required
 			/>
 			<p id="whatsapp-lead-error" class="whatsapp-lead-modal__error" hidden></p>
-			<button type="submit" class="whatsapp-lead-modal__submit">Continuar no WhatsApp</button>
+			<button type="submit" class="whatsapp-lead-modal__submit">{t.whatsapp.submit}</button>
 		</form>
 	</div>
 </div>
@@ -146,7 +161,7 @@ import { SITE_NAME, SITE_WHATSAPP_NUMBER } from '../lib/site-contact.mjs';
 	}
 </style>
 
-<script define:vars={{ siteName: SITE_NAME, whatsappNumber: SITE_WHATSAPP_NUMBER }}>
+<script define:vars={{ siteName: SITE_NAME, whatsappNumber: SITE_WHATSAPP_NUMBER, i18n: leadI18n }}>
 	const modal = document.getElementById('whatsapp-lead-modal');
 	const form = document.getElementById('whatsapp-lead-form');
 	const nameInput = document.getElementById('whatsapp-lead-name');
@@ -252,13 +267,13 @@ import { SITE_NAME, SITE_WHATSAPP_NUMBER } from '../lib/site-contact.mjs';
 		const trimmedName = String(name || '').trim();
 
 		if (trimmedName.length < 2) {
-			return 'Informe seu nome.';
+			return i18n.errName;
 		}
 
 		const digits = getBrazilianLocalPhoneDigits(phone);
 
 		if (digits.length < 10 || digits.length > 11) {
-			return 'Informe um telefone válido com DDD.';
+			return i18n.errPhone;
 		}
 
 		return null;
@@ -267,8 +282,8 @@ import { SITE_NAME, SITE_WHATSAPP_NUMBER } from '../lib/site-contact.mjs';
 	function buildWhatsAppRedirectUrl(name, propertyTitle) {
 		const trimmedName = String(name).trim();
 		const message = propertyTitle
-			? `Olá! Meu nome é ${trimmedName}. Tenho interesse no imóvel ${propertyTitle}.`
-			: `Olá! Meu nome é ${trimmedName}. Vim pelo site ${siteName} e gostaria de mais informações.`;
+			? i18n.msgProperty.replace('__NAME__', trimmedName).replace('__PROPERTY__', propertyTitle)
+			: i18n.msgGeneric.replace('__NAME__', trimmedName);
 
 		return `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 	}

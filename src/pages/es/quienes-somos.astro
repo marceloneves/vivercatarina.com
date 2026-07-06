@@ -1,0 +1,25 @@
+---
+import PillerLayout from '../../layouts/PillerLayout.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import AboutPageContentEs from '../../components/AboutPageContentEs.astro';
+import { SITE_URL } from '../../lib/site-contact.mjs';
+
+const aboutPageSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'AboutPage',
+	'@id': `${SITE_URL}/es/quienes-somos#webpage`,
+	url: `${SITE_URL}/es/quienes-somos`,
+	name: 'Quiénes Somos — Viver Catarina',
+	inLanguage: 'es',
+	about: { '@id': `${SITE_URL}/#organization` },
+	isPartOf: { '@id': `${SITE_URL}/#website` },
+};
+---
+
+<PillerLayout lang="es" title="Quiénes Somos y Cómo Funciona el Portal | Viver Catarina" description="Conoce Viver Catarina, el portal que reúne lanzamientos e inmuebles sobre plano en las principales ciudades de Santa Catarina y te conecta con agentes del CRECI." canonicalPath="/es/quienes-somos" bodyClass="about-page" stylesheets={['/css/internal-links.css']} disableEffects>
+	<Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(aboutPageSchema)} /></Fragment>
+	<SiteHeader lang="es" breadcrumb="Quiénes Somos" />
+	<AboutPageContentEs />
+	<SiteFooter lang="es" />
+</PillerLayout>
