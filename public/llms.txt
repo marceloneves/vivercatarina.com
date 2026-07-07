@@ -9,8 +9,8 @@ Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
 ## Páginas principais
 
 - [Início](https://vivercatarina.com/): hub com as cidades de Santa Catarina
-- [Quem Somos](https://vivercatarina.com/quem-somos): missão, diferenciais e contato
-- [Contato](https://vivercatarina.com/contato): formulário e informações de contato
+- [Quem Somos](https://vivercatarina.com/quem-somos/): missão, diferenciais e contato
+- [Contato](https://vivercatarina.com/contato/): formulário e informações de contato
 
 ## Cidades
 
@@ -41,12 +41,12 @@ Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
 ## Español (versión en /es)
 
 - [Inicio](https://vivercatarina.com/es/): hub con las ciudades de Santa Catarina
-- [Quiénes Somos](https://vivercatarina.com/es/quienes-somos): misión, diferenciales y contacto
-- [Contacto](https://vivercatarina.com/es/contacto): formulario e información de contacto
+- [Quiénes Somos](https://vivercatarina.com/es/quienes-somos/): misión, diferenciales y contacto
+- [Contacto](https://vivercatarina.com/es/contacto/): formulario e información de contacto
 
 ## Optional
 
-- [Política de Privacidade](https://vivercatarina.com/privacidade)
-- [Termos de Uso](https://vivercatarina.com/termos)
-- [Política de Cookies](https://vivercatarina.com/politica-de-cookies)
+- [Política de Privacidade](https://vivercatarina.com/privacidade/)
+- [Termos de Uso](https://vivercatarina.com/termos/)
+- [Política de Cookies](https://vivercatarina.com/politica-de-cookies/)
 - [Sitemap](https://vivercatarina.com/sitemap-index.xml): índice de URLs públicas do site

@@ -113,6 +113,9 @@ export function buildRobotsTxt() {
 		'Disallow: /api/',
 		...NOINDEX_ROUTE_EXACT.map((path) => `Disallow: ${path}`),
 		...NOINDEX_ROUTE_PREFIXES.map((path) => `Disallow: ${path}`),
+		// Declara uso de IA (busca, citação e treino liberados), igual aos
+		// subdomínios de cidade — mantém o sinal consistente no site todo.
+		'Content-Signal: search=yes, ai-input=yes, ai-train=yes',
 		'',
 		`Sitemap: ${SITE_URL}/sitemap-index.xml`,
 	];
@@ -148,8 +151,8 @@ Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
 ## Páginas principais
 
 - [Início](${SITE_URL}/): hub com as cidades de Santa Catarina
-- [Quem Somos](${SITE_URL}/quem-somos): missão, diferenciais e contato
-- [Contato](${SITE_URL}/contato): formulário e informações de contato
+- [Quem Somos](${SITE_URL}/quem-somos/): missão, diferenciais e contato
+- [Contato](${SITE_URL}/contato/): formulário e informações de contato
 
 ## Cidades
 
@@ -158,15 +161,53 @@ ${cities}
 ## Español (versión en /es)
 
 - [Inicio](${SITE_URL}/es/): hub con las ciudades de Santa Catarina
-- [Quiénes Somos](${SITE_URL}/es/quienes-somos): misión, diferenciales y contacto
-- [Contacto](${SITE_URL}/es/contacto): formulario e información de contacto
+- [Quiénes Somos](${SITE_URL}/es/quienes-somos/): misión, diferenciales y contacto
+- [Contacto](${SITE_URL}/es/contacto/): formulario e información de contacto
 
 ## Optional
 
-- [Política de Privacidade](${SITE_URL}/privacidade)
-- [Termos de Uso](${SITE_URL}/termos)
-- [Política de Cookies](${SITE_URL}/politica-de-cookies)
+- [Política de Privacidade](${SITE_URL}/privacidade/)
+- [Termos de Uso](${SITE_URL}/termos/)
+- [Política de Cookies](${SITE_URL}/politica-de-cookies/)
 - [Sitemap](${SITE_URL}/sitemap-index.xml): índice de URLs públicas do site
+`;
+}
+
+export function buildLlmsTxtEs() {
+	const cities = loadFooterCities()
+		.map(({ name, subdomain }) => `- [${name}](https://${subdomain}.vivercatarina.com): lanzamientos e inmuebles sobre plano en ${name}`)
+		.join('\n');
+
+	return `# Viver Catarina
+
+> Portal agregador de lanzamientos inmobiliarios e inmuebles sobre plano en Santa Catarina, con un sitio dedicado por ciudad.
+
+Viver Catarina reúne lanzamientos e inmuebles sobre plano en las principales ciudades de Santa Catarina. Cada ciudad tiene su propio portal con emprendimientos, barrios, precios y contacto por WhatsApp.
+
+Contacto: contato@vivercatarina.com | WhatsApp (48) 98810-5199
+
+## Páginas principales
+
+- [Inicio](${SITE_URL}/es/): hub con las ciudades de Santa Catarina
+- [Quiénes Somos](${SITE_URL}/es/quienes-somos/): misión, diferenciales y contacto
+- [Contacto](${SITE_URL}/es/contacto/): formulario e información de contacto
+
+## Ciudades
+
+${cities}
+
+## Português (versão em pt)
+
+- [Início](${SITE_URL}/): hub com as cidades de Santa Catarina
+- [Quem Somos](${SITE_URL}/quem-somos/): missão, diferenciais e contato
+- [Contato](${SITE_URL}/contato/): formulário e informações de contato
+
+## Optional
+
+- [Política de Privacidad](${SITE_URL}/es/privacidad/)
+- [Términos de Uso](${SITE_URL}/es/terminos/)
+- [Política de Cookies](${SITE_URL}/es/politica-de-cookies/)
+- [Sitemap](${SITE_URL}/sitemap-index.xml): índice de URLs públicas del sitio
 `;
 }
 

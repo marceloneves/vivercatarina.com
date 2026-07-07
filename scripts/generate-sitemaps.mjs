@@ -1,8 +1,9 @@
-import { writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import {
 	buildRobotsTxt,
 	buildLlmsTxt,
+	buildLlmsTxtEs,
 	renderSitemapIndexXml,
 	renderSitemapXml,
 	SITEMAP_FILES,
@@ -21,4 +22,8 @@ writeFileSync(join(publicDir, 'sitemap-index.xml'), sitemapIndexXml);
 writeFileSync(join(publicDir, 'robots.txt'), buildRobotsTxt());
 writeFileSync(join(publicDir, 'llms.txt'), buildLlmsTxt());
 
-console.log('Sitemaps, robots.txt e llms.txt gerados em public/');
+// Espelho ES do llms.txt em /es/llms.txt (site bilíngue).
+mkdirSync(join(publicDir, 'es'), { recursive: true });
+writeFileSync(join(publicDir, 'es', 'llms.txt'), buildLlmsTxtEs());
+
+console.log('Sitemaps, robots.txt e llms.txt (pt + es) gerados em public/');

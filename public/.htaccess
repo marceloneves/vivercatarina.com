@@ -17,6 +17,9 @@
 
 	Redirect 301 /contact /contato
 
+	# /sitemap.xml (convenção que tools/crawlers checam) -> índice real.
+	RewriteRule ^sitemap\.xml$ /sitemap-index.xml [R=301,L]
+
 	# Inventário de imóveis/bairros/lançamentos removido do hub (virou só
 	# agregador de cidades). 301 dessas URLs para a home.
 	RewriteRule ^(imovel|property|bairro|bairros|lancamentos|glossario)(/.*)?/?$ / [R=301,L]

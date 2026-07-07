@@ -37,6 +37,10 @@ export function buildSitePageTitle(title) {
 		return `${SITE_NAME} | Viva o melhor de Santa Catarina`;
 	}
 
+	if (title === 'Inicio') {
+		return `${SITE_NAME} | Vive lo mejor de Santa Catarina`;
+	}
+
 	if (!title || title === SITE_NAME) {
 		return SITE_NAME;
 	}
@@ -463,6 +467,6 @@ export function resolvePageSeo(options = {}) {
 		ogType,
 		ogUrl: canonicalUrl,
 		twitterCard: 'summary_large_image',
-		robots: resolvedNoindex ? 'NOINDEX,NOFOLLOW' : 'INDEX,FOLLOW',
+		robots: resolvedNoindex ? 'noindex, nofollow' : 'index, follow',
 	};
 }

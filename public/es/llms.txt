@@ -1,0 +1,52 @@
+# Viver Catarina
+
+> Portal agregador de lanzamientos inmobiliarios e inmuebles sobre plano en Santa Catarina, con un sitio dedicado por ciudad.
+
+Viver Catarina reúne lanzamientos e inmuebles sobre plano en las principales ciudades de Santa Catarina. Cada ciudad tiene su propio portal con emprendimientos, barrios, precios y contacto por WhatsApp.
+
+Contacto: contato@vivercatarina.com | WhatsApp (48) 98810-5199
+
+## Páginas principales
+
+- [Inicio](https://vivercatarina.com/es/): hub con las ciudades de Santa Catarina
+- [Quiénes Somos](https://vivercatarina.com/es/quienes-somos/): misión, diferenciales y contacto
+- [Contacto](https://vivercatarina.com/es/contacto/): formulario e información de contacto
+
+## Ciudades
+
+- [Florianópolis](https://florianopolis.vivercatarina.com): lanzamientos e inmuebles sobre plano en Florianópolis
+- [São José](https://saojose.vivercatarina.com): lanzamientos e inmuebles sobre plano en São José
+- [Palhoça](https://palhoca.vivercatarina.com): lanzamientos e inmuebles sobre plano en Palhoça
+- [Biguaçu](https://biguacu.vivercatarina.com): lanzamientos e inmuebles sobre plano en Biguaçu
+- [Tijucas](https://tijucas.vivercatarina.com): lanzamientos e inmuebles sobre plano en Tijucas
+- [Joinville](https://joinville.vivercatarina.com): lanzamientos e inmuebles sobre plano en Joinville
+- [Jaraguá do Sul](https://jaraguadosul.vivercatarina.com): lanzamientos e inmuebles sobre plano en Jaraguá do Sul
+- [Barra Velha](https://barravelha.vivercatarina.com): lanzamientos e inmuebles sobre plano en Barra Velha
+- [Penha](https://penha.vivercatarina.com): lanzamientos e inmuebles sobre plano en Penha
+- [Balneário Piçarras](https://picarras.vivercatarina.com): lanzamientos e inmuebles sobre plano en Balneário Piçarras
+- [Balneário Camboriú](https://balneario.vivercatarina.com): lanzamientos e inmuebles sobre plano en Balneário Camboriú
+- [Itajaí](https://itajai.vivercatarina.com): lanzamientos e inmuebles sobre plano en Itajaí
+- [Blumenau](https://blumenau.vivercatarina.com): lanzamientos e inmuebles sobre plano en Blumenau
+- [Brusque](https://brusque.vivercatarina.com): lanzamientos e inmuebles sobre plano en Brusque
+- [Camboriú](https://camboriu.vivercatarina.com): lanzamientos e inmuebles sobre plano en Camboriú
+- [Itapema](https://itapema.vivercatarina.com): lanzamientos e inmuebles sobre plano en Itapema
+- [Navegantes](https://navegantes.vivercatarina.com): lanzamientos e inmuebles sobre plano en Navegantes
+- [Porto Belo](https://portobelo.vivercatarina.com): lanzamientos e inmuebles sobre plano en Porto Belo
+- [Bombinhas](https://bombinhas.vivercatarina.com): lanzamientos e inmuebles sobre plano en Bombinhas
+- [Criciúma](https://criciuma.vivercatarina.com): lanzamientos e inmuebles sobre plano en Criciúma
+- [Tubarão](https://tubarao.vivercatarina.com): lanzamientos e inmuebles sobre plano en Tubarão
+- [Imbituba](https://imbituba.vivercatarina.com): lanzamientos e inmuebles sobre plano en Imbituba
+- [Chapecó](https://chapeco.vivercatarina.com): lanzamientos e inmuebles sobre plano en Chapecó
+
+## Português (versão em pt)
+
+- [Início](https://vivercatarina.com/): hub com as cidades de Santa Catarina
+- [Quem Somos](https://vivercatarina.com/quem-somos/): missão, diferenciais e contato
+- [Contato](https://vivercatarina.com/contato/): formulário e informações de contato
+
+## Optional
+
+- [Política de Privacidad](https://vivercatarina.com/es/privacidad/)
+- [Términos de Uso](https://vivercatarina.com/es/terminos/)
+- [Política de Cookies](https://vivercatarina.com/es/politica-de-cookies/)
+- [Sitemap](https://vivercatarina.com/sitemap-index.xml): índice de URLs públicas del sitio
