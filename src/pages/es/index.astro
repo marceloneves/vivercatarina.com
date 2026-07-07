@@ -8,7 +8,7 @@ import HomeFaqSection from '../../components/HomeFaqSection.astro';
 import { buildHomeFaqSchema, getHomeFaqItems } from '../../lib/home-faq.mjs';
 import { loadHomeCityCardsByRegion } from '../../lib/footer-cities.mjs';
 
-const cityRegions = loadHomeCityCardsByRegion();
+const cityRegions = loadHomeCityCardsByRegion('es');
 const homeFaqItems = getHomeFaqItems('es');
 const homeFaqSchema = buildHomeFaqSchema('es');
 ---

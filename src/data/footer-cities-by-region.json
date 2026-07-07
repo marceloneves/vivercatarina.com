@@ -2,49 +2,49 @@
 	{
 		"region": "Grande Florianópolis",
 		"cities": [
-			{ "name": "Florianópolis", "subdomain": "florianopolis" },
-			{ "name": "São José", "subdomain": "saojose" },
-			{ "name": "Palhoça", "subdomain": "palhoca" },
-			{ "name": "Biguaçu", "subdomain": "biguacu" },
-			{ "name": "Tijucas", "subdomain": "tijucas" }
+			{ "name": "Florianópolis", "subdomain": "florianopolis", "blurb": "Capital do estado, ilha com mais de 40 praias e forte polo de tecnologia.", "blurbEs": "Capital del estado, isla con más de 40 playas y fuerte polo tecnológico." },
+			{ "name": "São José", "subdomain": "saojose", "blurb": "Vizinha de Florianópolis, com comércio forte e expansão residencial constante.", "blurbEs": "Vecina de Florianópolis, con comercio fuerte y expansión residencial constante." },
+			{ "name": "Palhoça", "subdomain": "palhoca", "blurb": "Porta de entrada da Serra do Tabuleiro, em plena expansão na Grande Floripa.", "blurbEs": "Puerta de entrada de la Serra do Tabuleiro, en plena expansión en la Gran Floripa." },
+			{ "name": "Biguaçu", "subdomain": "biguacu", "blurb": "Litoral norte da Grande Florianópolis, com crescimento às margens da BR-101.", "blurbEs": "Litoral norte de la Gran Florianópolis, con crecimiento junto a la BR-101." },
+			{ "name": "Tijucas", "subdomain": "tijucas", "blurb": "Entre Floripa e Balneário Camboriú, polo cerâmico valorizado pela BR-101.", "blurbEs": "Entre Floripa y Balneário Camboriú, polo cerámico valorizado por la BR-101." }
 		]
 	},
 	{
 		"region": "Norte Catarinense",
 		"cities": [
-			{ "name": "Joinville", "subdomain": "joinville" },
-			{ "name": "Jaraguá do Sul", "subdomain": "jaraguadosul" },
-			{ "name": "Barra Velha", "subdomain": "barravelha" },
-			{ "name": "Penha", "subdomain": "penha" },
-			{ "name": "Balneário Piçarras", "subdomain": "picarras" }
+			{ "name": "Joinville", "subdomain": "joinville", "blurb": "Maior cidade de Santa Catarina e importante polo industrial e tecnológico.", "blurbEs": "Mayor ciudad de Santa Catarina e importante polo industrial y tecnológico." },
+			{ "name": "Jaraguá do Sul", "subdomain": "jaraguadosul", "blurb": "Indústria pujante, alto IDH e forte herança da colonização germânica.", "blurbEs": "Industria pujante, alto IDH y fuerte herencia de la colonización germánica." },
+			{ "name": "Barra Velha", "subdomain": "barravelha", "blurb": "Praias do litoral norte e destino tradicional de veraneio catarinense.", "blurbEs": "Playas del litoral norte y destino tradicional de veraneo catarinense." },
+			{ "name": "Penha", "subdomain": "penha", "blurb": "Praias do litoral norte e lar do parque Beto Carrero World.", "blurbEs": "Playas del litoral norte y hogar del parque Beto Carrero World." },
+			{ "name": "Balneário Piçarras", "subdomain": "picarras", "blurb": "Praias tranquilas do litoral norte, procuradas para veraneio em família.", "blurbEs": "Playas tranquilas del litoral norte, buscadas para veraneo en familia." }
 		]
 	},
 	{
 		"region": "Vale do Itajaí e Litoral",
 		"cities": [
-			{ "name": "Balneário Camboriú", "subdomain": "balneario" },
-			{ "name": "Itajaí", "subdomain": "itajai" },
-			{ "name": "Blumenau", "subdomain": "blumenau" },
-			{ "name": "Brusque", "subdomain": "brusque" },
-			{ "name": "Camboriú", "subdomain": "camboriu" },
-			{ "name": "Itapema", "subdomain": "itapema" },
-			{ "name": "Navegantes", "subdomain": "navegantes" },
-			{ "name": "Porto Belo", "subdomain": "portobelo" },
-			{ "name": "Bombinhas", "subdomain": "bombinhas" }
+			{ "name": "Balneário Camboriú", "subdomain": "balneario", "blurb": "Orla verticalizada e metro quadrado premium, um dos mais valorizados do país.", "blurbEs": "Orla verticalizada y metro cuadrado premium, uno de los más valorizados del país." },
+			{ "name": "Itajaí", "subdomain": "itajai", "blurb": "Sede do maior porto de Santa Catarina e forte economia náutica.", "blurbEs": "Sede del mayor puerto de Santa Catarina y fuerte economía náutica." },
+			{ "name": "Blumenau", "subdomain": "blumenau", "blurb": "Colonização alemã, Oktoberfest e coração do Vale Europeu.", "blurbEs": "Colonización alemana, Oktoberfest y corazón del Vale Europeu." },
+			{ "name": "Brusque", "subdomain": "brusque", "blurb": "Polo têxtil e de compras, referência regional no Vale do Itajaí.", "blurbEs": "Polo textil y de compras, referencia regional en el Vale do Itajaí." },
+			{ "name": "Camboriú", "subdomain": "camboriu", "blurb": "Vizinha de Balneário Camboriú, com opções mais acessíveis na região.", "blurbEs": "Vecina de Balneário Camboriú, con opciones más accesibles en la región." },
+			{ "name": "Itapema", "subdomain": "itapema", "blurb": "Praias badaladas e forte verticalização, ao lado de Balneário Camboriú.", "blurbEs": "Playas concurridas y fuerte verticalización, junto a Balneário Camboriú." },
+			{ "name": "Navegantes", "subdomain": "navegantes", "blurb": "Porto e aeroporto regional, com praias no litoral norte catarinense.", "blurbEs": "Puerto y aeropuerto regional, con playas en el litoral norte catarinense." },
+			{ "name": "Porto Belo", "subdomain": "portobelo", "blurb": "Península de praias e marina, destino procurado de veraneio.", "blurbEs": "Península de playas y marina, destino buscado de veraneo." },
+			{ "name": "Bombinhas", "subdomain": "bombinhas", "blurb": "Praias de águas cristalinas e mergulho, destino premium de verão.", "blurbEs": "Playas de aguas cristalinas y buceo, destino premium de verano." }
 		]
 	},
 	{
 		"region": "Sul Catarinense",
 		"cities": [
-			{ "name": "Criciúma", "subdomain": "criciuma" },
-			{ "name": "Tubarão", "subdomain": "tubarao" },
-			{ "name": "Imbituba", "subdomain": "imbituba" }
+			{ "name": "Criciúma", "subdomain": "criciuma", "blurb": "Maior cidade do sul catarinense, polo cerâmico e de moda.", "blurbEs": "Mayor ciudad del sur catarinense, polo cerámico y de moda." },
+			{ "name": "Tubarão", "subdomain": "tubarao", "blurb": "Referência regional do sul em comércio, saúde e serviços.", "blurbEs": "Referencia regional del sur en comercio, salud y servicios." },
+			{ "name": "Imbituba", "subdomain": "imbituba", "blurb": "Porto e praias, capital nacional da baleia franca e do surfe.", "blurbEs": "Puerto y playas, capital nacional de la ballena franca y del surf." }
 		]
 	},
 	{
 		"region": "Oeste Catarinense",
 		"cities": [
-			{ "name": "Chapecó", "subdomain": "chapeco" }
+			{ "name": "Chapecó", "subdomain": "chapeco", "blurb": "Capital do oeste catarinense e importante polo da agroindústria.", "blurbEs": "Capital del oeste catarinense e importante polo de la agroindustria." }
 		]
 	}
 ]

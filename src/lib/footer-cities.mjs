@@ -123,7 +123,7 @@ export function loadHomeCityCards() {
 // Cidades ocultas temporariamente só nos cards da home (footer/menu mantêm).
 const HOME_HIDDEN_CITIES = new Set();
 
-export function loadHomeCityCardsByRegion() {
+export function loadHomeCityCardsByRegion(lang = 'pt') {
 	const regions = listFooterCitiesByRegion();
 	const heroImageUrl = getHomeHeroBackgroundUrl();
 
@@ -139,6 +139,7 @@ export function loadHomeCityCardsByRegion() {
 					name: city.name,
 					href: city.href,
 					region,
+					blurb: (lang === 'es' ? city.blurbEs : city.blurb) || '',
 					imageUrl: getCityImageUrl(subdomain, heroImageUrl),
 				};
 			})

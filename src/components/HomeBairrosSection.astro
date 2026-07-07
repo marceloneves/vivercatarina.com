@@ -103,6 +103,7 @@ const allCities = cityRegions
 									<div class="gallery-content">
 										<div class="gallery-content-wrapper">
 											<h4 class="box-title">{item.name}</h4>
+											{item.blurb && <p class="city-blurb">{item.blurb}</p>}
 										</div>
 									</div>
 								</a>
@@ -229,7 +230,7 @@ const allCities = cityRegions
 		object-position: center;
 		/* Tom âmbar da marca para padronizar fotos de origens diferentes. */
 		filter: sepia(0.5) saturate(1.32) hue-rotate(-10deg) brightness(1.02);
-		transition: transform 0.4s ease;
+		transition: transform 0.4s ease, filter 0.4s ease;
 	}
 
 	/* Camada âmbar da marca sobre a foto reforça o tom uniforme. */
@@ -242,6 +243,17 @@ const allCities = cityRegions
 		opacity: 0.14;
 		pointer-events: none;
 		z-index: 1;
+		transition: opacity 0.4s ease;
+	}
+
+	/* No hover, remove o tom âmbar (sepia + camada amarela) e revela a foto real. */
+	.home-bairros-section .gallery-card-link:hover .gallery-img img,
+	.home-bairros-section .gallery-card-link:focus-visible .gallery-img img {
+		filter: none;
+	}
+	.home-bairros-section .gallery-card-link:hover .gallery-img::after,
+	.home-bairros-section .gallery-card-link:focus-visible .gallery-img::after {
+		opacity: 0;
 	}
 
 	/* Mantém o zoom suave da imagem no hover. */
@@ -304,24 +316,33 @@ const allCities = cityRegions
 		box-shadow: none;
 	}
 
-	/* Nome centralizado nos 2/3 da direita. */
+	/* Nome + descrição curta nos 2/3 da direita. */
 	.home-bairros-section .home-cities-list--side .gallery-content {
 		flex: 1 1 auto;
 		position: static;
 		display: flex;
 		align-items: center;
-		justify-content: center;
-		background: none;
+		justify-content: flex-start;
+		/* Creme dos sites de cidade só na área de texto (nome + descrição). */
+		background: #F5F2ED;
 		padding: 0;
 	}
 	.home-bairros-section .home-cities-list--side .gallery-content-wrapper {
-		padding: 12px 14px;
-		text-align: center;
+		padding: 12px 16px;
+		text-align: left;
 	}
 	.home-bairros-section .home-cities-list--side .gallery-content .box-title {
 		font-size: 18px;
 		font-weight: 700;
 		color: #1a1a1a;
+		margin-bottom: 4px;
+	}
+	/* Blurb de info-gain por cidade (fato local + reforço de SEO). */
+	.home-bairros-section .home-cities-list--side .city-blurb {
+		margin: 0;
+		font-size: 12.5px;
+		line-height: 1.35;
+		color: #4a4a4a;
 	}
 
 	/* Hover: nome permanece escuro (fundo já é claro). */
