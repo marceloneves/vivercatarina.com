@@ -26,26 +26,26 @@ export const HOME_FAQ_ITEMS = [
 	{
 		question: 'O Viver Catarina vende imóveis ou intermedia a compra?',
 		answer:
-			'Não. O portal tem como objetivo APENAS divulgar os lançamentos. Não substitui a incorporadora nem o cartório: ele conecta compradores a lançamentos e a corretores credenciados registrados no CRECI. A negociação, contrato e financiamento seguem os canais oficiais de cada empreendimento, com apoio dos profissionais indicados no site.',
+			'Não — o Viver Catarina não vende imóveis nem intermedia diretamente a compra. O papel do portal é apenas reunir e divulgar os lançamentos de Santa Catarina num só lugar, para facilitar a comparação. Não substituímos a incorporadora, o corretor nem o cartório: conectamos quem procura imóvel novo aos empreendimentos e a corretores credenciados registrados no CRECI, responsáveis pelo atendimento. Toda a negociação — proposta, contrato, condições de pagamento e financiamento — segue pelos canais oficiais de cada empreendimento, com o apoio dos profissionais indicados no site. Assim você usa o portal para descobrir e filtrar opções, e fecha o negócio com segurança diretamente com quem tem autorização para vender.',
 	},
 	{
 		question: 'Como falar com um corretor pelo portal?',
 		answer:
-			'Abra a página do empreendimento ou cidade de interesse e use WhatsApp, telefone ou formulário de contato disponíveis no site. Corretores parceiros orientam sobre disponibilidade, valores atualizados e próximos passos para visitar o lançamento escolhido.',
+			'Falar com um corretor é rápido e sem burocracia. Abra o card da cidade de interesse na página inicial para chegar ao portal daquele município e, na página do empreendimento, use o WhatsApp, o telefone ou o formulário de contato disponíveis no site. Todo o atendimento é feito por corretores parceiros credenciados no CRECI, que orientam sobre disponibilidade de unidades, valores atualizados, plantas, condições de pagamento e financiamento, além de agendar visitas ao decorado ou ao stand de vendas. Você não precisa se cadastrar antes de navegar: o contato acontece quando você decide, apenas para o lançamento que realmente despertou interesse.',
 	},
 	{
 		question: 'O uso do portal é gratuito para quem busca imóvel?',
 		answer:
-			'Sim. Navegar e comparar lançamentos é gratuito para quem procura imóvel novo em Santa Catarina. Você só avança para negociação quando decide falar com um corretor ou incorporadora.',
+			'Sim, totalmente gratuito. Navegar pelo portal, explorar as cidades, comparar empreendimentos e consultar plantas, preços e condições não tem nenhum custo para quem procura imóvel novo em Santa Catarina — não há assinatura, cadastro obrigatório nem taxa para usar o site. O Viver Catarina se mantém por meio de parcerias com incorporadoras e corretores que anunciam seus lançamentos, e não cobra nada do comprador. Você só avança para a etapa de negociação quando decide, por conta própria, falar com um corretor credenciado ou diretamente com a incorporadora responsável pelo empreendimento. Ou seja: pesquisar e comparar é livre, sem compromisso e sem surpresa no final.',
 	},
 	{
 		question: 'Como navegar entre cidades e lançamentos no site?',
 		answer:
-			'Na página inicial, os cards de cidades levam aos portais de cada município. Use o menu para acessar lançamentos, bairros de Florianópolis e contato. O rodapé também lista todas as cidades cobertas, agrupadas por região de Santa Catarina.',
+			'A navegação é simples e pensada para você chegar rápido ao imóvel certo. Na página inicial, os cards de cidades levam ao portal dedicado de cada município catarinense, com os lançamentos daquela cidade. No menu do topo estão os atalhos principais — Início, Quem Somos, Cidades e Contato —, disponíveis em português e espanhol. O rodapé lista todas as 23 cidades cobertas, agrupadas por região (Grande Florianópolis, Norte Catarinense, Vale do Itajaí e Litoral, Sul e Oeste), para quem prefere ir direto ao destino. Já dentro do portal de cada cidade, você compara empreendimentos, vê plantas e preços e fala com o corretor pelo WhatsApp.',
 	},
 	{
 		question: 'Como entrar em contato com a equipe do Viver Catarina?',
-		answer: `Compradores e incorporadoras podem falar conosco pelo WhatsApp, telefone ${SITE_PHONE_DISPLAY} ou e-mail ${SITE_EMAIL}. Acesse também a página de contato em ${SITE_URL}/contato/ para dúvidas sobre o portal, parcerias de divulgação ou suporte ao uso do site.`,
+		answer: `Estamos disponíveis por vários canais, seja você comprador ou parceiro. Para dúvidas rápidas, use o WhatsApp ou o telefone ${SITE_PHONE_DISPLAY}; para mensagens mais detalhadas, escreva para ${SITE_EMAIL} ou preencha o formulário na página de contato em ${SITE_URL}/contato/. Por esses canais atendemos tanto quem procura imóvel novo em Santa Catarina — e quer ser direcionado ao corretor certo — quanto incorporadoras e imobiliárias interessadas em divulgar seus lançamentos no portal. Também respondemos pedidos de suporte sobre o uso do site, correções de informação e propostas de parceria. Procuramos responder no menor tempo possível durante o horário comercial.`,
 	},
 ];
 
@@ -73,26 +73,26 @@ export const HOME_FAQ_ITEMS_ES = [
 	{
 		question: '¿Viver Catarina vende inmuebles o intermedia la compra?',
 		answer:
-			'No. El portal tiene como objetivo SOLO divulgar los lanzamientos. No sustituye a la promotora inmobiliaria ni al registro público: conecta compradores con lanzamientos y con agentes inmobiliarios acreditados registrados en el CRECI. La negociación, contrato y financiación siguen los canales oficiales de cada desarrollo, con apoyo de los profesionales indicados en el sitio.',
+			'No — Viver Catarina no vende inmuebles ni intermedia directamente la compra. El papel del portal es solo reunir y divulgar los lanzamientos de Santa Catarina en un solo lugar, para facilitar la comparación. No sustituimos a la promotora, al agente inmobiliario ni al registro público: conectamos a quien busca inmueble nuevo con los desarrollos y con agentes inmobiliarios acreditados registrados en el CRECI, responsables de la atención. Toda la negociación — propuesta, contrato, condiciones de pago y financiación — sigue por los canales oficiales de cada desarrollo, con el apoyo de los profesionales indicados en el sitio. Así usas el portal para descubrir y filtrar opciones, y cierras el negocio con seguridad directamente con quien tiene autorización para vender.',
 	},
 	{
 		question: '¿Cómo hablar con un agente inmobiliario por el portal?',
 		answer:
-			'Abre la página del desarrollo o ciudad de interés y usa WhatsApp, teléfono o formulario de contacto disponibles en el sitio. Los agentes inmobiliarios socios orientan sobre disponibilidad, valores actualizados y próximos pasos para visitar el lanzamiento elegido.',
+			'Hablar con un agente inmobiliario es rápido y sin burocracia. Abre la tarjeta de la ciudad de interés en la página de inicio para llegar al portal de ese municipio y, en la página del desarrollo, usa el WhatsApp, el teléfono o el formulario de contacto disponibles en el sitio. Toda la atención la realizan agentes inmobiliarios socios acreditados en el CRECI, que orientan sobre disponibilidad de unidades, valores actualizados, planos, condiciones de pago y financiación, además de agendar visitas al piso piloto o al stand de ventas. No necesitas registrarte antes de navegar: el contacto ocurre cuando tú decides, solo para el lanzamiento que realmente despertó tu interés.',
 	},
 	{
 		question: '¿El uso del portal es gratuito para quien busca inmueble?',
 		answer:
-			'Sí. Navegar y comparar lanzamientos es gratuito para quien busca inmueble nuevo en Santa Catarina. Solo avanzas hacia la negociación cuando decides hablar con un agente inmobiliario o promotora.',
+			'Sí, totalmente gratuito. Navegar por el portal, explorar las ciudades, comparar desarrollos y consultar planos, precios y condiciones no tiene ningún costo para quien busca inmueble nuevo en Santa Catarina — no hay suscripción, registro obligatorio ni tarifa para usar el sitio. Viver Catarina se mantiene mediante alianzas con promotoras y agentes inmobiliarios que anuncian sus lanzamientos, y no cobra nada al comprador. Solo avanzas hacia la etapa de negociación cuando decides, por cuenta propia, hablar con un agente inmobiliario acreditado o directamente con la promotora responsable del desarrollo. Es decir: buscar y comparar es libre, sin compromiso y sin sorpresas al final.',
 	},
 	{
 		question: '¿Cómo navegar entre ciudades y lanzamientos en el sitio?',
 		answer:
-			'En la página de inicio, las tarjetas de ciudades llevan a los portales de cada municipio. Usa el menú para acceder a lanzamientos, barrios de Florianópolis y contacto. El pie de página también lista todas las ciudades cubiertas, agrupadas por región de Santa Catarina.',
+			'La navegación es simple y pensada para que llegues rápido al inmueble correcto. En la página de inicio, las tarjetas de ciudades llevan al portal dedicado de cada municipio catarinense, con los lanzamientos de esa ciudad. En el menú superior están los accesos principales — Inicio, Quiénes Somos, Ciudades y Contacto —, disponibles en portugués y español. El pie de página lista todas las 23 ciudades cubiertas, agrupadas por región (Grande Florianópolis, Norte Catarinense, Vale do Itajaí e Litoral, Sur y Oeste), para quien prefiere ir directo al destino. Ya dentro del portal de cada ciudad, comparas desarrollos, ves planos y precios y hablas con el agente inmobiliario por WhatsApp.',
 	},
 	{
 		question: '¿Cómo ponerme en contacto con el equipo de Viver Catarina?',
-		answer: `Compradores y promotoras pueden hablar con nosotros por WhatsApp, teléfono ${SITE_PHONE_DISPLAY} o correo ${SITE_EMAIL}. Accede también a la página de contacto en ${SITE_URL}/es/contacto/ para dudas sobre el portal, alianzas de divulgación o soporte para el uso del sitio.`,
+		answer: `Estamos disponibles por varios canales, seas comprador o socio. Para dudas rápidas, usa el WhatsApp o el teléfono ${SITE_PHONE_DISPLAY}; para mensajes más detallados, escribe a ${SITE_EMAIL} o completa el formulario en la página de contacto en ${SITE_URL}/es/contacto/. Por estos canales atendemos tanto a quien busca inmueble nuevo en Santa Catarina — y quiere ser dirigido al agente inmobiliario correcto — como a promotoras e inmobiliarias interesadas en divulgar sus lanzamientos en el portal. También respondemos solicitudes de soporte sobre el uso del sitio, correcciones de información y propuestas de alianza. Procuramos responder en el menor tiempo posible durante el horario comercial.`,
 	},
 ];
 
