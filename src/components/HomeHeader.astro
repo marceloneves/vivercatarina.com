@@ -18,6 +18,11 @@ const partnerHref = localizedPath(lang, '/seja-um-parceiro');
 const here = Astro.url.pathname;
 const ptPath = lang === 'es' ? ptPathFromEs(here) || '/' : here;
 const langs = languageSwitcher(lang, ptPath);
+
+// Item do menu correspondente à página atual (barra final é irrelevante).
+const normalizePath = (path) => path.replace(/\/+$/, '') || '/';
+const isActive = (href) => normalizePath(href) === normalizePath(here);
+const activeClass = (href) => (isActive(href) ? 'active' : undefined);
 ---
 
 <!--********************************
@@ -38,10 +43,10 @@ const langs = languageSwitcher(lang, ptPath);
             </div>
             <nav class="th-mobile-menu" aria-label={t.aria.mobileMenu}>
                 <ul>
-                    <li><a href={homeHref}>{t.nav.home}</a></li>
-                    <li><a href={aboutHref}>{t.nav.about}</a></li>
+                    <li class={activeClass(homeHref)}><a href={homeHref} aria-current={isActive(homeHref) ? 'page' : undefined}>{t.nav.home}</a></li>
+                    <li class={activeClass(aboutHref)}><a href={aboutHref} aria-current={isActive(aboutHref) ? 'page' : undefined}>{t.nav.about}</a></li>
                     <Fragment set:html={citiesMenuHtml} />
-                    <li><a href={contactHref}>{t.nav.contact}</a></li>
+                    <li class={activeClass(contactHref)}><a href={contactHref} aria-current={isActive(contactHref) ? 'page' : undefined}>{t.nav.contact}</a></li>
                 </ul>
             </nav>
         </div>
@@ -98,10 +103,10 @@ const langs = languageSwitcher(lang, ptPath);
                         <div class="col-auto mx-auto">
                             <nav class="main-menu d-none d-lg-inline-block" aria-label={t.aria.mainMenu}>
                                 <ul>
-                                    <li><a href={homeHref}>{t.nav.home}</a></li>
-                                    <li><a href={aboutHref}>{t.nav.about}</a></li>
+                                    <li class={activeClass(homeHref)}><a href={homeHref} aria-current={isActive(homeHref) ? 'page' : undefined}>{t.nav.home}</a></li>
+                                    <li class={activeClass(aboutHref)}><a href={aboutHref} aria-current={isActive(aboutHref) ? 'page' : undefined}>{t.nav.about}</a></li>
                                     <Fragment set:html={citiesMenuHtml} />
-                                    <li><a href={contactHref}>{t.nav.contact}</a></li>
+                                    <li class={activeClass(contactHref)}><a href={contactHref} aria-current={isActive(contactHref) ? 'page' : undefined}>{t.nav.contact}</a></li>
                                 </ul>
                             </nav>
                             <button type="button" class="th-menu-toggle d-block d-lg-none" aria-label={t.aria.openMenu}><i class="fas fa-bars"></i></button>

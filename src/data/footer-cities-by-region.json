@@ -37,8 +37,7 @@
 		"region": "Sul Catarinense",
 		"cities": [
 			{ "name": "Criciúma", "subdomain": "criciuma", "blurb": "Maior cidade do sul catarinense, polo cerâmico e de moda.", "blurbEs": "Mayor ciudad del sur catarinense, polo cerámico y de moda." },
-			{ "name": "Tubarão", "subdomain": "tubarao", "blurb": "Referência regional do sul em comércio, saúde e serviços.", "blurbEs": "Referencia regional del sur en comercio, salud y servicios." },
-			{ "name": "Imbituba", "subdomain": "imbituba", "blurb": "Porto e praias, capital nacional da baleia franca e do surfe.", "blurbEs": "Puerto y playas, capital nacional de la ballena franca y del surf." }
+			{ "name": "Tubarão", "subdomain": "tubarao", "blurb": "Referência regional do sul em comércio, saúde e serviços.", "blurbEs": "Referencia regional del sur en comercio, salud y servicios." }
 		]
 	},
 	{

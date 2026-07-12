@@ -437,9 +437,13 @@
 			}
 
 			body.site-dark-header .th-header.header-default .header-top .header-links a,
-			body.site-dark-header .th-header.header-default .header-top .header-links li,
-			body.site-dark-header .th-header.header-default .header-top .header-links i {
+			body.site-dark-header .th-header.header-default .header-top .header-links li {
 				color: rgba(255, 255, 255, 0.82);
+			}
+
+			/* Envelope e WhatsApp em amarelo, igual à home. */
+			body.site-dark-header .th-header.header-default .header-top .header-links li > i {
+				color: var(--theme-color);
 			}
 
 			body.site-dark-header .th-header.header-default .header-top .header-links a:hover {
@@ -561,3 +565,11 @@
 }
 /* Mantém o tamanho do heading do contato ao promover h3->h2 (hierarquia a11y). */
 .form-title{font-size:1.875rem;line-height:1.3}
+/* Item do menu da página atual em amarelo (desktop home + internas e menu mobile). */
+.main-menu > ul > li.active > a,
+.header-layout1 .main-menu > ul > li.active > a,
+.th-mobile-menu ul li.active > a{color:var(--theme-color)}
+
+/* Páginas internas: header-top e altura do menu iguais aos da home (header-layout1). */
+body.site-dark-header .th-header.header-default .header-top{padding-left:18px;padding-right:18px}
+body.site-dark-header .th-header.header-default .main-menu > ul > li > a{padding:34px 0}

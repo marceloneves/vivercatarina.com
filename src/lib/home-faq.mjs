@@ -11,7 +11,7 @@ export const HOME_FAQ_ITEMS = [
 	{
 		question: 'Quais cidades de Santa Catarina o portal cobre?',
 		answer:
-			'Cobrimos as 23 maiores cidades de Santa Catarina, organizadas em cinco regiões para facilitar a busca: Grande Florianópolis (Florianópolis, São José, Palhoça, Biguaçu, Tijucas), Norte Catarinense (Joinville, Jaraguá do Sul, Barra Velha, Penha, Balneário Piçarras), Vale do Itajaí e Litoral (Balneário Camboriú, Itajaí, Blumenau, Brusque, Camboriú, Itapema, Navegantes, Porto Belo, Bombinhas), Sul Catarinense (Criciúma, Tubarão, Imbituba) e Oeste Catarinense (Chapecó). Cada município tem um portal próprio, acessível pelos cards na página inicial e pela lista completa no rodapé, agrupada por região. Assim você vai direto do litoral verticalizado de Balneário Camboriú aos polos industriais de Joinville e Blumenau sem se perder entre abas.',
+			'Cobrimos as 22 maiores cidades de Santa Catarina, organizadas em cinco regiões para facilitar a busca: Grande Florianópolis (Florianópolis, São José, Palhoça, Biguaçu, Tijucas), Norte Catarinense (Joinville, Jaraguá do Sul, Barra Velha, Penha, Balneário Piçarras), Vale do Itajaí e Litoral (Balneário Camboriú, Itajaí, Blumenau, Brusque, Camboriú, Itapema, Navegantes, Porto Belo, Bombinhas), Sul Catarinense (Criciúma, Tubarão) e Oeste Catarinense (Chapecó). Cada município tem um portal próprio, acessível pelos cards na página inicial e pela lista completa no rodapé, agrupada por região. Assim você vai direto do litoral verticalizado de Balneário Camboriú aos polos industriais de Joinville e Blumenau sem se perder entre abas.',
 	},
 	{
 		question: 'Que tipos de imóveis encontro no Viver Catarina?',
@@ -58,7 +58,7 @@ export const HOME_FAQ_ITEMS_ES = [
 	{
 		question: '¿Qué ciudades de Santa Catarina cubre el portal?',
 		answer:
-			'Cubrimos las 23 mayores ciudades de Santa Catarina, organizadas en cinco regiones para facilitar la búsqueda: Grande Florianópolis (Florianópolis, São José, Palhoça, Biguaçu, Tijucas), Norte Catarinense (Joinville, Jaraguá do Sul, Barra Velha, Penha, Balneário Piçarras), Vale do Itajaí e Litoral (Balneário Camboriú, Itajaí, Blumenau, Brusque, Camboriú, Itapema, Navegantes, Porto Belo, Bombinhas), Sul Catarinense (Criciúma, Tubarão, Imbituba) y Oeste Catarinense (Chapecó). Cada municipio tiene su propio portal, accesible por las tarjetas en la página de inicio y por la lista completa en el pie de página, agrupada por región. Así vas directo del litoral verticalizado de Balneário Camboriú a los polos industriales de Joinville y Blumenau sin perderte entre pestañas.',
+			'Cubrimos las 22 mayores ciudades de Santa Catarina, organizadas en cinco regiones para facilitar la búsqueda: Grande Florianópolis (Florianópolis, São José, Palhoça, Biguaçu, Tijucas), Norte Catarinense (Joinville, Jaraguá do Sul, Barra Velha, Penha, Balneário Piçarras), Vale do Itajaí e Litoral (Balneário Camboriú, Itajaí, Blumenau, Brusque, Camboriú, Itapema, Navegantes, Porto Belo, Bombinhas), Sul Catarinense (Criciúma, Tubarão) y Oeste Catarinense (Chapecó). Cada municipio tiene su propio portal, accesible por las tarjetas en la página de inicio y por la lista completa en el pie de página, agrupada por región. Así vas directo del litoral verticalizado de Balneário Camboriú a los polos industriales de Joinville y Blumenau sin perderte entre pestañas.',
 	},
 	{
 		question: '¿Qué tipos de inmuebles encuentro en Viver Catarina?',
