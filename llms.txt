@@ -1,0 +1,51 @@
+# Viver Catarina
+
+> Portal agregador de lançamentos imobiliários e imóveis na planta em Santa Catarina, com um site dedicado por cidade.
+
+O Viver Catarina reúne lançamentos e imóveis na planta nas principais cidades de Santa Catarina. Cada cidade tem seu próprio portal com empreendimentos, bairros, preços e contato via WhatsApp.
+
+Contato: contato@vivercatarina.com | WhatsApp (48) 98810-5199
+
+## Páginas principais
+
+- [Início](https://vivercatarina.com/): hub com as cidades de Santa Catarina
+- [Quem Somos](https://vivercatarina.com/quem-somos/): missão, diferenciais e contato
+- [Contato](https://vivercatarina.com/contato/): formulário e informações de contato
+
+## Cidades
+
+- [Florianópolis](https://florianopolis.vivercatarina.com): lançamentos e imóveis na planta em Florianópolis
+- [São José](https://saojose.vivercatarina.com): lançamentos e imóveis na planta em São José
+- [Palhoça](https://palhoca.vivercatarina.com): lançamentos e imóveis na planta em Palhoça
+- [Biguaçu](https://biguacu.vivercatarina.com): lançamentos e imóveis na planta em Biguaçu
+- [Tijucas](https://tijucas.vivercatarina.com): lançamentos e imóveis na planta em Tijucas
+- [Joinville](https://joinville.vivercatarina.com): lançamentos e imóveis na planta em Joinville
+- [Jaraguá do Sul](https://jaraguadosul.vivercatarina.com): lançamentos e imóveis na planta em Jaraguá do Sul
+- [Barra Velha](https://barravelha.vivercatarina.com): lançamentos e imóveis na planta em Barra Velha
+- [Penha](https://penha.vivercatarina.com): lançamentos e imóveis na planta em Penha
+- [Balneário Piçarras](https://picarras.vivercatarina.com): lançamentos e imóveis na planta em Balneário Piçarras
+- [Balneário Camboriú](https://balneario.vivercatarina.com): lançamentos e imóveis na planta em Balneário Camboriú
+- [Itajaí](https://itajai.vivercatarina.com): lançamentos e imóveis na planta em Itajaí
+- [Blumenau](https://blumenau.vivercatarina.com): lançamentos e imóveis na planta em Blumenau
+- [Brusque](https://brusque.vivercatarina.com): lançamentos e imóveis na planta em Brusque
+- [Camboriú](https://camboriu.vivercatarina.com): lançamentos e imóveis na planta em Camboriú
+- [Itapema](https://itapema.vivercatarina.com): lançamentos e imóveis na planta em Itapema
+- [Navegantes](https://navegantes.vivercatarina.com): lançamentos e imóveis na planta em Navegantes
+- [Porto Belo](https://portobelo.vivercatarina.com): lançamentos e imóveis na planta em Porto Belo
+- [Bombinhas](https://bombinhas.vivercatarina.com): lançamentos e imóveis na planta em Bombinhas
+- [Criciúma](https://criciuma.vivercatarina.com): lançamentos e imóveis na planta em Criciúma
+- [Tubarão](https://tubarao.vivercatarina.com): lançamentos e imóveis na planta em Tubarão
+- [Chapecó](https://chapeco.vivercatarina.com): lançamentos e imóveis na planta em Chapecó
+
+## Español (versión en /es)
+
+- [Inicio](https://vivercatarina.com/es/): hub con las ciudades de Santa Catarina
+- [Quiénes Somos](https://vivercatarina.com/es/quienes-somos/): misión, diferenciales y contacto
+- [Contacto](https://vivercatarina.com/es/contacto/): formulario e información de contacto
+
+## Optional
+
+- [Política de Privacidade](https://vivercatarina.com/privacidade/)
+- [Termos de Uso](https://vivercatarina.com/termos/)
+- [Política de Cookies](https://vivercatarina.com/politica-de-cookies/)
+- [Sitemap](https://vivercatarina.com/sitemap-index.xml): índice de URLs públicas do site

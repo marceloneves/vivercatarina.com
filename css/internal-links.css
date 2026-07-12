@@ -1,0 +1,32 @@
+.property-description a,
+.property-landing .about-text a,
+.property-landing .audience-card a,
+.property-landing .faq-item a,
+.glossary-definition a,
+.glossary-definition a.glossary-external-link,
+.glossary-intro a,
+.about-page-intro a,
+.about-differentiators a,
+.sec-text a.glossary-term-link {
+	color: var(--theme-color);
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.property-description a:hover,
+.property-landing .about-text a:hover,
+.property-landing .audience-card a:hover,
+.property-landing .faq-item a:hover,
+.glossary-definition a:hover,
+.glossary-definition a.glossary-external-link:hover,
+.glossary-intro a:hover,
+.about-page-intro a:hover,
+.about-differentiators a:hover,
+.sec-text a.glossary-term-link:hover {
+	color: #111827;
+	text-decoration: underline;
+}
+
+.glossary-definition a.glossary-term-link {
+	font-weight: 600;
+}
